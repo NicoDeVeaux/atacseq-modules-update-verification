@@ -1,0 +1,17 @@
+dataset	level	sample	branch_peaks	dev_peaks	branch_frip	dev_frip
+hiv-mddc	library	HIV_CD86HI_48H_REP1	30438	30438	0.216448	0.216448
+hiv-mddc	library	HIV_CD86HI_48H_REP2	35854	35854	0.230010	0.230010
+hiv-mddc	library	MOCK_48H_REP1	36551	36551	0.198316	0.198316
+hiv-mddc	library	MOCK_48H_REP2	51633	51633	0.250963	0.250963
+hiv-mddc	replicate	HIV_CD86HI_48H	69791	69791	0.274689	0.274689
+hiv-mddc	replicate	MOCK_48H	88666	88666	0.281163	0.281163
+hiv-mddc	consensus	mLb.clN	74895	74895	NA	NA
+hiv-mddc	consensus	mRp.clN	115880	115880	NA	NA
+osmotic-srr	library	OSMOTIC_STRESS_T0_REP1	8	8	0.692901	0.692901
+osmotic-srr	library	OSMOTIC_STRESS_T0_REP2	16	14	0.487065	0.476560
+osmotic-srr	library	OSMOTIC_STRESS_T15_REP1	4	4	0.608939	0.608939
+osmotic-srr	library	OSMOTIC_STRESS_T15_REP2	9	11	0.656315	0.662069
+osmotic-srr	replicate	OSMOTIC_STRESS_T0	19	16	0.536935	0.517517
+osmotic-srr	replicate	OSMOTIC_STRESS_T15	10	11	0.712991	0.706840
+osmotic-srr	consensus	mLb.clN	19	17	NA	NA
+osmotic-srr	consensus	mRp.clN	21	19	NA	NA
