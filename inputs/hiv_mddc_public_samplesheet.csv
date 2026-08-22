@@ -1,0 +1,5 @@
+sample,fastq_1,fastq_2,replicate
+HIV_CD86HI_48H,https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/007/SRR8508547/SRR8508547_1.fastq.gz,https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/007/SRR8508547/SRR8508547_2.fastq.gz,1
+HIV_CD86HI_48H,https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/008/SRR8508548/SRR8508548_1.fastq.gz,https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/008/SRR8508548/SRR8508548_2.fastq.gz,2
+MOCK_48H,https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/003/SRR8508553/SRR8508553_1.fastq.gz,https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/003/SRR8508553/SRR8508553_2.fastq.gz,1
+MOCK_48H,https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/004/SRR8508554/SRR8508554_1.fastq.gz,https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/004/SRR8508554/SRR8508554_2.fastq.gz,2
