@@ -39,14 +39,37 @@ shows a near-uniform proportional scaling rather than random change. Both arms c
 featureCounts with identical flags (`-F SAF -O --fracOverlap 0.2 -p -s 0`) and neither
 passes `--countReadPairs`.
 
-**Most likely cause — the subread `-p` semantics change.** In subread **< 2.0.2**
+**Confirmed cause — the subread `-p` semantics change.** In subread **< 2.0.2**
 (dev's v2.0.1) `-p` counts *fragments* (read pairs). From subread **2.0.2 onward**
 (branch's v2.1.1) `-p` only declares paired-end input and counts *individual reads*
 unless `--countReadPairs` is added. The ~1.92× inflation matches counting both mates
 instead of one fragment.
 
-This is an **inference** from the version boundary plus the 2× signature; it was not
-confirmed by re-running featureCounts. See `README.md` for the full write-up.
+This is now **confirmed**, by two independent lines of evidence:
+
+1. **Matrix headers.** Both count matrices record their full `featureCounts` command
+   line, and they are byte-for-byte identical except the version — same
+   `-F SAF -O --fracOverlap 0.2 -p -s 0`, no `--countReadPairs` on either:
+   ```
+   dev:    featureCounts v2.0.1 ... -F SAF -O --fracOverlap 0.2 -p -T 6 ... -s 0
+   branch: featureCounts v2.1.1 ... -F SAF -O --fracOverlap 0.2 -p -T 6 ... -s 0
+   ```
+   Identical flags, identical inputs → the subread version is the only variable.
+
+2. **Direct re-run.** Running subread **v2.1.1** featureCounts on a real paired-end
+   BAM both ways confirms the mechanism: `-p` alone reports `Count read pairs: no`
+   (counts reads); adding `--countReadPairs` reports `Count read pairs: yes` (counts
+   fragments) and roughly halves the assigned total. On a small properly-paired-but-noisy
+   test BAM the ratio was ~1.76×; on the cleaner HIV MDDC data it is ~1.92×.
+
+**Neither PR currently fixes this.** #448 *introduces* it (subread 2.0.1→2.1.1). #452
+rewrites the consensus merge (`FEATURECOUNTS_MERGE`, per-batch SE/PE) but leaves the
+`-p`-only invocation intact — `grep -rn countReadPairs` across `conf/ modules/
+subworkflows/ bin/` returns zero hits on both branch heads. The fix is a one-liner in
+`modules/nf-core/subread/featurecounts/main.nf`:
+`def paired_end = meta.single_end ? '' : '-p --countReadPairs'`.
+
+See `README.md` for the full write-up.
 
 > **Reconcile with `../comparison.tsv`.** That table reports the `mLb.clN` consensus as
 > 74,895 for *both* arms and describes the HIV MDDC run as bit-identical. The count

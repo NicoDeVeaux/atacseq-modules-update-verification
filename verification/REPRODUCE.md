@@ -62,8 +62,9 @@ bash verification/scripts/fetch_paper_peaks.sh   # re-downloads GSE125918 Table 
 ## Headline results
 
 - **Counts ~2× on the branch** (v2.0.1 → v2.1.1), consistent 1.91–1.93× per sample,
-  Pearson r ≈ 0.9996 — most likely the subread `-p` fragments→reads change (needs
-  `--countReadPairs` to keep fragment counting). See `counts/PER_SAMPLE_COUNTS.md`.
+  Pearson r ≈ 0.9996 — confirmed as the subread `-p` fragments→reads change (needs
+  `--countReadPairs` to keep fragment counting; verified by identical matrix headers plus a
+  direct v2.1.1 re-run). Neither PR #448 nor #452 fixes it. See `counts/PER_SAMPLE_COUNTS.md`.
 - **Peak locations barely change**: dev vs branch Jaccard 0.995. The material change is
   in counting, not peak calling. See `overlap/PEAK_OVERLAP.md`.
 - **`comparison.tsv` vs these matrices**: comparison.tsv lists consensus 74,895 for both
