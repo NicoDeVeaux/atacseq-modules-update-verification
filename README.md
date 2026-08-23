@@ -33,6 +33,15 @@ GitHub won't render HTML inline, so open the committed reports through htmlprevi
 |---------|--------|-----|
 | HIV MDDC | https://htmlpreview.github.io/?https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/main/verification/hiv-mddc/branch/multiqc_report.html | https://htmlpreview.github.io/?https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/main/verification/hiv-mddc/dev/multiqc_report.html |
 | Osmotic SRR | https://htmlpreview.github.io/?https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/main/verification/osmotic-srr/branch/multiqc_report.html | https://htmlpreview.github.io/?https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/main/verification/osmotic-srr/dev/multiqc_report.html |
+| HIV MDDC (pr448 re-run, current head `5caa50bf`) | https://htmlpreview.github.io/?https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/main/verification/hiv-mddc/pr448/multiqc_report.html | (compare against `dev` column above) |
+
+> **Consensus quantification — resolved on the current PR head.** An earlier concern was a
+> ~1.92× inflation of consensus featureCounts read counts on the originally-tested commit
+> (subread v2.1.1). The **current PR #448 head** (`5caa50bf`, run `stupefied_elion`, saved
+> under `verification/counts/pr448/` and `verification/hiv-mddc/pr448/`) pins subread back to
+> **v2.0.1** and now matches `dev` to within **<0.1%** per sample. Full analysis:
+> [`verification/counts/PER_SAMPLE_COUNTS.md`](verification/counts/PER_SAMPLE_COUNTS.md) and
+> [`verification/counts/COUNT_CHANGES.md`](verification/counts/COUNT_CHANGES.md).
 
 > htmlpreview streams the single-file report through a proxy; large MultiQC reports can be
 > slow to load. For a more robust hosted view, enable GitHub Pages on this repo and link the

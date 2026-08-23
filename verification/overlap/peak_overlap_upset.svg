@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="602" height="432" font-family="Helvetica,Arial,sans-serif" font-size="12">
-<rect width="602" height="432" fill="white"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="602" height="462" font-family="Helvetica,Arial,sans-serif" font-size="12">
+<rect width="602" height="462" fill="white"/>
 <text x="20" y="20" font-size="15" font-weight="bold">ATAC-seq consensus peak overlap (GRCh38 union regions)</text>
 <rect x="238.3" y="60.0" width="29.4" height="230.0" fill="#3b6ea5"/>
 <text x="253.0" y="57.0" text-anchor="middle" font-size="10">57,129</text>
@@ -37,19 +37,30 @@
 <circle cx="483.0" cy="347.0" r="6" fill="#cccccc"/>
 <circle cx="529.0" cy="347.0" r="6" fill="#222"/>
 <rect x="230" y="362.0" width="322" height="30" fill="#f2f2f2"/>
-<text x="20" y="381.0" font-size="12">dev</text>
+<text x="20" y="381.0" font-size="12">pr448</text>
 <rect x="130" y="366.0" width="79.6" height="22" fill="#c9a13b" opacity="0.6"/>
-<text x="132" y="381.0" font-size="9" fill="#333">74,449</text>
+<text x="132" y="381.0" font-size="9" fill="#333">74,486</text>
 <circle cx="253.0" cy="377.0" r="6" fill="#222"/>
 <circle cx="299.0" cy="377.0" r="6" fill="#cccccc"/>
 <circle cx="345.0" cy="377.0" r="6" fill="#222"/>
-<circle cx="391.0" cy="377.0" r="6" fill="#cccccc"/>
-<circle cx="437.0" cy="377.0" r="6" fill="#222"/>
-<circle cx="483.0" cy="377.0" r="6" fill="#222"/>
-<circle cx="529.0" cy="377.0" r="6" fill="#cccccc"/>
-<line x1="253.0" y1="317.0" x2="253.0" y2="377.0" stroke="#222" stroke-width="2"/>
-<line x1="345.0" y1="347.0" x2="345.0" y2="377.0" stroke="#222" stroke-width="2"/>
-<line x1="483.0" y1="317.0" x2="483.0" y2="377.0" stroke="#222" stroke-width="2"/>
-<line x1="529.0" y1="317.0" x2="529.0" y2="347.0" stroke="#222" stroke-width="2"/>
+<circle cx="391.0" cy="377.0" r="6" fill="#222"/>
+<circle cx="437.0" cy="377.0" r="6" fill="#cccccc"/>
+<circle cx="483.0" cy="377.0" r="6" fill="#cccccc"/>
+<circle cx="529.0" cy="377.0" r="6" fill="#222"/>
+<text x="20" y="411.0" font-size="12">dev</text>
+<rect x="130" y="396.0" width="79.6" height="22" fill="#c9a13b" opacity="0.6"/>
+<text x="132" y="411.0" font-size="9" fill="#333">74,449</text>
+<circle cx="253.0" cy="407.0" r="6" fill="#222"/>
+<circle cx="299.0" cy="407.0" r="6" fill="#cccccc"/>
+<circle cx="345.0" cy="407.0" r="6" fill="#222"/>
+<circle cx="391.0" cy="407.0" r="6" fill="#cccccc"/>
+<circle cx="437.0" cy="407.0" r="6" fill="#222"/>
+<circle cx="483.0" cy="407.0" r="6" fill="#222"/>
+<circle cx="529.0" cy="407.0" r="6" fill="#cccccc"/>
+<line x1="253.0" y1="317.0" x2="253.0" y2="407.0" stroke="#222" stroke-width="2"/>
+<line x1="345.0" y1="347.0" x2="345.0" y2="407.0" stroke="#222" stroke-width="2"/>
+<line x1="391.0" y1="347.0" x2="391.0" y2="377.0" stroke="#222" stroke-width="2"/>
+<line x1="483.0" y1="317.0" x2="483.0" y2="407.0" stroke="#222" stroke-width="2"/>
+<line x1="529.0" y1="317.0" x2="529.0" y2="377.0" stroke="#222" stroke-width="2"/>
 <text x="20" y="170" font-size="11" fill="#666" transform="rotate(-90 16 170)">intersection size (union regions)</text>
 </svg>

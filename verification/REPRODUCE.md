@@ -22,7 +22,9 @@ no bedtools, no matplotlib, no network (except the optional GEO fetch script).
 ## Inputs committed here
 
 - `counts/dev/consensus_peaks.mLb.clN.featureCounts.txt` — upstream `dev` matrix (featureCounts **v2.0.1**)
-- `counts/branch/consensus_peaks.mLb.clN.featureCounts.tsv` — branch matrix (featureCounts **v2.1.1**)
+- `counts/branch/consensus_peaks.mLb.clN.featureCounts.tsv` — originally-tested commit matrix (featureCounts **v2.1.1**)
+- `counts/pr448/consensus_peaks.mLb.clN.featureCounts.tsv` — current PR #448 head `5caa50bf`, run `stupefied_elion` (featureCounts **v2.0.1**)
+- `hiv-mddc/pr448/multiqc_report.html` — MultiQC report for the `stupefied_elion` re-run
 - `overlap/data/dev/consensus_peaks.mLb.clN.bed`, `overlap/data/branch/consensus_peaks.mLb.clN.bed`
 - `overlap/data/paper_original/paper_peaks.GRCh38.bed` — original paper peak set (87,681 peaks, GRCh38)
 
@@ -61,10 +63,12 @@ bash verification/scripts/fetch_paper_peaks.sh   # re-downloads GSE125918 Table 
 
 ## Headline results
 
-- **Counts ~2× on the branch** (v2.0.1 → v2.1.1), consistent 1.91–1.93× per sample,
-  Pearson r ≈ 0.9996 — confirmed as the subread `-p` fragments→reads change (needs
-  `--countReadPairs` to keep fragment counting; verified by identical matrix headers plus a
-  direct v2.1.1 re-run). Neither PR #448 nor #452 fixes it. See `counts/PER_SAMPLE_COUNTS.md`.
+- **Count inflation existed on the originally-tested commit, and is fixed on the current
+  head.** On `branch` (subread v2.1.1) counts were ~1.92× (consistent 1.91–1.93× per sample,
+  Pearson r ≈ 0.9996) — the subread `-p` fragments→reads change. On the **current PR #448
+  head `5caa50bf`** (`pr448`, run `stupefied_elion`) subread is pinned back to v2.0.1 and
+  counts match `dev` to within **<0.1%** (ratios 1.000–1.001×, Pearson r ≈ 0.99995). See
+  `counts/PER_SAMPLE_COUNTS.md`.
 - **Peak locations barely change**: dev vs branch Jaccard 0.995. The material change is
   in counting, not peak calling. See `overlap/PEAK_OVERLAP.md`.
 - **`comparison.tsv` vs these matrices**: comparison.tsv lists consensus 74,895 for both
@@ -72,9 +76,13 @@ bash verification/scripts/fetch_paper_peaks.sh   # re-downloads GSE125918 Table 
 
 ## Extending to the PR #448 / #452 re-runs
 
-1. Drop each run's `consensus_peaks.mLb.clN.featureCounts.*` into `counts/pr448/` (and `pr452/`).
-2. Drop each run's `consensus_peaks.mLb.clN.bed` into `overlap/data/pr448/` (and `pr452/`).
-3. Uncomment the `pr448` / `pr452` lines in both `manifest.tsv` files.
+**`pr448` is already in place** (run `stupefied_elion`, head `5caa50bf`): its files are under
+`counts/pr448/` and `overlap/data/pr448/`, both `manifest.tsv` files have the `pr448` line
+uncommented, and the tables have been regenerated. To add **`pr452`** the same way:
+
+1. Drop the run's `consensus_peaks.mLb.clN.featureCounts.*` into `counts/pr452/`.
+2. Drop the run's `consensus_peaks.mLb.clN.bed` into `overlap/data/pr452/`.
+3. Uncomment the `pr452` line in both `manifest.tsv` files.
 4. Re-run the two commands above — the tools handle any number of arms.
 
 ## Launch parameters (for the re-runs)
