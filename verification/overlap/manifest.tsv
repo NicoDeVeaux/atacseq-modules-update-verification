@@ -1,0 +1,7 @@
+# label	BED-like peak file, GRCh38 chr-prefixed (relative to repo root)
+paper_original	verification/overlap/data/paper_original/paper_peaks.GRCh38.bed
+dev	verification/overlap/data/dev/consensus_peaks.mLb.clN.bed
+branch	verification/overlap/data/branch/consensus_peaks.mLb.clN.bed
+# Uncomment and add files when the PR #448 / #452 re-runs finish:
+# pr448	verification/overlap/data/pr448/consensus_peaks.mLb.clN.bed
+# pr452	verification/overlap/data/pr452/consensus_peaks.mLb.clN.bed

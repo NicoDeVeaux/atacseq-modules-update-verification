@@ -1,0 +1,8 @@
+combination	union_regions
+paper_original & dev & branch	57129
+paper_original	26927
+dev & branch	17153
+branch	150
+dev	94
+paper_original & dev	73
+paper_original & branch	54

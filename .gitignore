@@ -1,1 +1,5 @@
 .DS_Store
+
+# Large, regenerable original-paper artifacts (rebuild via verification/scripts/fetch_paper_peaks.sh)
+verification/overlap/data/paper_original/*.txt.gz
+verification/overlap/data/paper_original/S3_normalized.tsv

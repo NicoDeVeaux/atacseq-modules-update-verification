@@ -1,0 +1,6 @@
+# label	path to consensus featureCounts matrix (relative to repo root)
+dev	verification/counts/dev/consensus_peaks.mLb.clN.featureCounts.txt
+branch	verification/counts/branch/consensus_peaks.mLb.clN.featureCounts.tsv
+# Uncomment and add files when the PR #448 / #452 re-runs finish:
+# pr448	verification/counts/pr448/consensus_peaks.mLb.clN.featureCounts.tsv
+# pr452	verification/counts/pr452/consensus_peaks.mLb.clN.featureCounts.tsv

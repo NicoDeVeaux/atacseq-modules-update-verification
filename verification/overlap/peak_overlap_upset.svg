@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="602" height="432" font-family="Helvetica,Arial,sans-serif" font-size="12">
+<rect width="602" height="432" fill="white"/>
+<text x="20" y="20" font-size="15" font-weight="bold">ATAC-seq consensus peak overlap (GRCh38 union regions)</text>
+<rect x="238.3" y="60.0" width="29.4" height="230.0" fill="#3b6ea5"/>
+<text x="253.0" y="57.0" text-anchor="middle" font-size="10">57,129</text>
+<rect x="284.3" y="181.6" width="29.4" height="108.4" fill="#3b6ea5"/>
+<text x="299.0" y="178.6" text-anchor="middle" font-size="10">26,927</text>
+<rect x="330.3" y="220.9" width="29.4" height="69.1" fill="#3b6ea5"/>
+<text x="345.0" y="217.9" text-anchor="middle" font-size="10">17,153</text>
+<rect x="376.3" y="289.4" width="29.4" height="0.6" fill="#3b6ea5"/>
+<text x="391.0" y="286.4" text-anchor="middle" font-size="10">150</text>
+<rect x="422.3" y="289.6" width="29.4" height="0.4" fill="#3b6ea5"/>
+<text x="437.0" y="286.6" text-anchor="middle" font-size="10">94</text>
+<rect x="468.3" y="289.7" width="29.4" height="0.3" fill="#3b6ea5"/>
+<text x="483.0" y="286.7" text-anchor="middle" font-size="10">73</text>
+<rect x="514.3" y="289.8" width="29.4" height="0.2" fill="#3b6ea5"/>
+<text x="529.0" y="286.8" text-anchor="middle" font-size="10">54</text>
+<rect x="230" y="302.0" width="322" height="30" fill="#f2f2f2"/>
+<text x="20" y="321.0" font-size="12">paper_original</text>
+<rect x="130" y="306.0" width="90.0" height="22" fill="#c9a13b" opacity="0.6"/>
+<text x="132" y="321.0" font-size="9" fill="#333">84,183</text>
+<circle cx="253.0" cy="317.0" r="6" fill="#222"/>
+<circle cx="299.0" cy="317.0" r="6" fill="#222"/>
+<circle cx="345.0" cy="317.0" r="6" fill="#cccccc"/>
+<circle cx="391.0" cy="317.0" r="6" fill="#cccccc"/>
+<circle cx="437.0" cy="317.0" r="6" fill="#cccccc"/>
+<circle cx="483.0" cy="317.0" r="6" fill="#222"/>
+<circle cx="529.0" cy="317.0" r="6" fill="#222"/>
+<text x="20" y="351.0" font-size="12">branch</text>
+<rect x="130" y="336.0" width="79.6" height="22" fill="#c9a13b" opacity="0.6"/>
+<text x="132" y="351.0" font-size="9" fill="#333">74,486</text>
+<circle cx="253.0" cy="347.0" r="6" fill="#222"/>
+<circle cx="299.0" cy="347.0" r="6" fill="#cccccc"/>
+<circle cx="345.0" cy="347.0" r="6" fill="#222"/>
+<circle cx="391.0" cy="347.0" r="6" fill="#222"/>
+<circle cx="437.0" cy="347.0" r="6" fill="#cccccc"/>
+<circle cx="483.0" cy="347.0" r="6" fill="#cccccc"/>
+<circle cx="529.0" cy="347.0" r="6" fill="#222"/>
+<rect x="230" y="362.0" width="322" height="30" fill="#f2f2f2"/>
+<text x="20" y="381.0" font-size="12">dev</text>
+<rect x="130" y="366.0" width="79.6" height="22" fill="#c9a13b" opacity="0.6"/>
+<text x="132" y="381.0" font-size="9" fill="#333">74,449</text>
+<circle cx="253.0" cy="377.0" r="6" fill="#222"/>
+<circle cx="299.0" cy="377.0" r="6" fill="#cccccc"/>
+<circle cx="345.0" cy="377.0" r="6" fill="#222"/>
+<circle cx="391.0" cy="377.0" r="6" fill="#cccccc"/>
+<circle cx="437.0" cy="377.0" r="6" fill="#222"/>
+<circle cx="483.0" cy="377.0" r="6" fill="#222"/>
+<circle cx="529.0" cy="377.0" r="6" fill="#cccccc"/>
+<line x1="253.0" y1="317.0" x2="253.0" y2="377.0" stroke="#222" stroke-width="2"/>
+<line x1="345.0" y1="347.0" x2="345.0" y2="377.0" stroke="#222" stroke-width="2"/>
+<line x1="483.0" y1="317.0" x2="483.0" y2="377.0" stroke="#222" stroke-width="2"/>
+<line x1="529.0" y1="317.0" x2="529.0" y2="347.0" stroke="#222" stroke-width="2"/>
+<text x="20" y="170" font-size="11" fill="#666" transform="rotate(-90 16 170)">intersection size (union regions)</text>
+</svg>
