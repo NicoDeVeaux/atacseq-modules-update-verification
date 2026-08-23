@@ -178,3 +178,10 @@ These reports were generated on private infrastructure. The internal S3 bucket n
 redacted to `REDACTED-BUCKET` throughout. No credentials, presigned URLs, or access keys are
 present. Numeric QC values are unmodified. The public nf-core reference bucket
 (`s3://ngi-igenomes`) is left as-is.
+
+## Acknowledgments
+
+This verification bundle was assembled with **Co-Scientist**, Seqera's bioinformatics
+assistant, which helped orchestrate the A/B re-runs on Seqera Platform, capture and sanitize
+the artifacts, generate the SHA-256 integrity manifest, and document the input provenance.
+All scientific results and their interpretation are the authors'.
