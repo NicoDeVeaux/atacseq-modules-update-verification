@@ -1,0 +1,5 @@
+sample,fastq_1,fastq_2,replicate
+HIV_CD86HI_48H,s3://REDACTED-BUCKET/fetchngs/hiv_mddc_4samples/fastq/SRX5312205_SRR8508547_1.fastq.gz,s3://REDACTED-BUCKET/fetchngs/hiv_mddc_4samples/fastq/SRX5312205_SRR8508547_2.fastq.gz,1
+HIV_CD86HI_48H,s3://REDACTED-BUCKET/fetchngs/hiv_mddc_4samples/fastq/SRX5312206_SRR8508548_1.fastq.gz,s3://REDACTED-BUCKET/fetchngs/hiv_mddc_4samples/fastq/SRX5312206_SRR8508548_2.fastq.gz,2
+MOCK_48H,s3://REDACTED-BUCKET/fetchngs/hiv_mddc_4samples/fastq/SRX5312211_SRR8508553_1.fastq.gz,s3://REDACTED-BUCKET/fetchngs/hiv_mddc_4samples/fastq/SRX5312211_SRR8508553_2.fastq.gz,1
+MOCK_48H,s3://REDACTED-BUCKET/fetchngs/hiv_mddc_4samples/fastq/SRX5312212_SRR8508554_1.fastq.gz,s3://REDACTED-BUCKET/fetchngs/hiv_mddc_4samples/fastq/SRX5312212_SRR8508554_2.fastq.gz,2

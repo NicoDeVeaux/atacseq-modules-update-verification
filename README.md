@@ -25,6 +25,19 @@ executed at commit `52836f0`.
 > Platform run links require membership of the `cascade-t2d-discovery` workspace. The
 > artifacts in this repo are self-contained and need no Platform access.
 
+### View the MultiQC reports in-browser
+
+GitHub won't render HTML inline, so open the committed reports through htmlpreview:
+
+| Dataset | branch | dev |
+|---------|--------|-----|
+| HIV MDDC | https://htmlpreview.github.io/?https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/main/verification/hiv-mddc/branch/multiqc_report.html | https://htmlpreview.github.io/?https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/main/verification/hiv-mddc/dev/multiqc_report.html |
+| Osmotic SRR | https://htmlpreview.github.io/?https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/main/verification/osmotic-srr/branch/multiqc_report.html | https://htmlpreview.github.io/?https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/main/verification/osmotic-srr/dev/multiqc_report.html |
+
+> htmlpreview streams the single-file report through a proxy; large MultiQC reports can be
+> slow to load. For a more robust hosted view, enable GitHub Pages on this repo and link the
+> reports under the Pages URL instead.
+
 ### Revision provenance
 The branch A/B runs were executed at `52836f0`. That commit was later **metadata-only
 rewritten** (author change) to `0116142`, which is **tree-identical** to `52836f0` — so the
@@ -37,8 +50,12 @@ therefore not present in PR history by SHA; look for `0116142`.
 ## What's here
 
 ```
+inputs/
+├── hiv_mddc_public_samplesheet.csv       # runnable A/B input (public EBI FASTQ URLs)
+└── hiv_mddc_private_s3_samplesheet.csv    # provenance only: exact input the real-depth runs consumed (bucket redacted)
 verification/
 ├── comparison.tsv              # machine-readable A/B peak-count + FRiP table (all runs)
+├── sha256sums.txt              # integrity hashes for every artifact in this bundle
 ├── hiv-mddc/
 │   ├── branch/multiqc_report.html
 │   └── dev/multiqc_report.html
@@ -99,6 +116,49 @@ cannot be fully separated from a deterministic low-count difference. The exact H
 makes a systematic, code-driven difference very unlikely.
 
 ---
+
+## Samplesheets & input provenance
+
+Two samplesheets are included in `inputs/`, describing the **same four libraries**:
+
+- **`hiv_mddc_public_samplesheet.csv`** — the runnable A/B input. FASTQs are public HTTPS
+  URLs on EBI's SRA mirror, so the run needs no private data access. This is what the
+  re-verification runs (PR #448 vs #452) consume.
+- **`hiv_mddc_private_s3_samplesheet.csv`** — **provenance only, not for launching.** This is
+  the exact samplesheet the original real-depth runs (`prickly_cuvier`, `silly_stonebraker`)
+  consumed, pointing at the internal us-east-1 bucket (name redacted to `REDACTED-BUCKET`,
+  per the sanitization policy below). It documents the true bytes behind the bit-identity
+  claim; the public sheet re-points the identical accessions to EBI.
+
+Both sheets map to the same four SRA runs, a two-condition subset of the study below:
+
+| Subset sample        | Rep | Experiment | Run          | Condition in full study            |
+|----------------------|-----|------------|--------------|------------------------------------|
+| `HIV_CD86HI_48H`     | 1   | SRX5312205 | SRR8508547   | `HIV_GFP_CD86hi_48h` rep 1         |
+| `HIV_CD86HI_48H`     | 2   | SRX5312206 | SRR8508548   | `HIV_GFP_CD86hi_48h` rep 2         |
+| `MOCK_48H`           | 1   | SRX5312211 | SRR8508553   | `mock_48h` rep 1                   |
+| `MOCK_48H`           | 2   | SRX5312212 | SRR8508554   | `mock_48h` rep 2                   |
+
+All four are **paired-end**. This matters for PR #452 (mixed SE/PE per-batch counting): with
+an all-PE cohort, #452's endedness split collapses to the single all-PE batch, so its output
+must match #448 bit-for-bit — a clean regression check on the split/merge logic.
+
+## Integrity / checksums
+
+`verification/sha256sums.txt` records SHA-256 hashes for every artifact in this bundle (the
+four MultiQC reports, `comparison.tsv`, and both samplesheets) — i.e. the integrity hashes of
+the already-completed runs' published evidence. Verify from the repo root with:
+
+```bash
+sha256sum -c verification/sha256sums.txt      # or: shasum -a 256 -c verification/sha256sums.txt
+```
+
+> These hash the **published report artifacts**, not raw pipeline outputs. Byte-level
+> checksums of the deterministic pipeline outputs themselves (consensus peak BED/SAF and the
+> featureCounts count matrix) will be added alongside the #448/#452 re-run, where they can be
+> captured at a uniform `pipeline_info/` + consensus path. BAMs/bigWigs/HTML are intentionally
+> excluded from output-level checksums because they embed timestamps, `@PG` lines, and run IDs
+> that differ even when results are identical.
 
 ## Data provenance
 
