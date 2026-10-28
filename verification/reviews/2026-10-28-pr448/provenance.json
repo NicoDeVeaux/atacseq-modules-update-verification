@@ -1,0 +1,44 @@
+{
+  "schema": "atacseq-pr448-recorded-runs/v1",
+  "retrieved_at": "2026-10-28T19:01:36.156438+00:00",
+  "source": "Authenticated read-only export from the existing Co-Scientist session; no new agent turn",
+  "session_id": "422b1d7d-19d7-4c83-b749-507ba3dd3376",
+  "run_id": "3e74731b-f991-45b7-8619-9af9cf969ca3",
+  "source_sse_sha256": "9f5abd980264276baf5da05e68cf2327ac793d11509bcc90fba0a495a35f63d6",
+  "selected_tool_ordinals_zero_based": {
+    "trimgalore": [
+      28,
+      29,
+      30,
+      31
+    ],
+    "chromap-picard": [
+      34,
+      35,
+      36
+    ],
+    "cleanup": [
+      38
+    ]
+  },
+  "pins": {
+    "repository": "https://github.com/nf-core/atacseq",
+    "pull_request": 448,
+    "commits": {
+      "base": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+      "merge": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+      "dev": "73155d2b59d37f521e3f00228d559031d2e7847f"
+    },
+    "source": "/Users/nicholas.deveaux/Dev/tasks-worktrees/atacseq-pr448-review/source"
+  },
+  "availability": "The original run deleted its /tmp FASTQ/BAM/log/environment files in tool38. These are authentic recorded command outputs, not recovered working files or new reruns.",
+  "exclusions": [
+    "Reasoning events",
+    "User profile and account metadata",
+    "Raw full conversation",
+    "Credentials and headers",
+    "Unrelated tools/source searches"
+  ],
+  "redactions_in_selected_original_records": [],
+  "verification_scope": "Tool command/output records are exported as received. Wrapper exit codes do not necessarily equal every nested command exit code; see README."
+}

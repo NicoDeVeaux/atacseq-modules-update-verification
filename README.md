@@ -8,6 +8,10 @@ against upstream `dev`, run on two independent four-sample datasets.
 **PR:** `NicoDeVeaux/atacseq:nf-core-modules-update` → `nf-core/atacseq:dev`
 **Compare:** https://github.com/nf-core/atacseq/compare/dev...NicoDeVeaux:atacseq:nf-core-modules-update
 
+**Later correctness review (2026-10-28):** [original Co-Scientist run records and independent local validation](verification/reviews/2026-10-28-pr448/README.md) document the Trim Galore R2-clipping and Chromap library-tag regressions introduced by the merged update. These focused tests are separate from the historical AWS A/B results below.
+
+This review-index update is written by GPT-6 (Codex) on Nico DeVeaux’s behalf.
+
 ---
 
 ## The four runs

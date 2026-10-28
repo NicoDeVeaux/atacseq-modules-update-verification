@@ -1,0 +1,23 @@
+total 10332
+drwxr-xr-x 2 bedrock_agentcore bedrock_agentcore    4096 Oct 28 18:00 .
+drwxrwxrwt 1 root              root                 4096 Oct 28 18:00 ..
+-rw-r--r-- 1 bedrock_agentcore bedrock_agentcore 5253787 Oct 28 18:00 SRR1822154_1.fastq.gz
+-rw-r--r-- 1 bedrock_agentcore bedrock_agentcore 5315718 Oct 28 18:00 SRR1822154_2.fastq.gz
+06 exit 0
+S_1.fastq.gz
+S_1.fastq.gz_trimming_report.txt
+S_1_val_1.fq.gz
+S_2.fastq.gz
+S_2.fastq.gz_trimming_report.txt
+S_2_val_2.fq.gz
+run.log
+21 exit 0
+S_1.fastq.gz
+S_1.fastq.gz_trimming_report.json
+S_1.fastq.gz_trimming_report.txt
+S_1_val_1.fq.gz
+S_2.fastq.gz
+S_2.fastq.gz_trimming_report.json
+S_2.fastq.gz_trimming_report.txt
+S_2_val_2.fq.gz
+run.log

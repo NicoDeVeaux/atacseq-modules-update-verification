@@ -1,0 +1,2 @@
+/tmp/tg06/bin/trim_galore
+/tmp/tg21/bin/trim_galore

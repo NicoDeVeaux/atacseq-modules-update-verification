@@ -1,0 +1,120 @@
+[
+  {
+    "query": "repo:nf-core/atacseq poly",
+    "issues": []
+  },
+  {
+    "query": "repo:nf-core/atacseq \"Trim Galore\"",
+    "issues": [
+      {
+        "url": "https://github.com/nf-core/atacseq/issues/435",
+        "title": "Docker: deprecate docker.userEmulation and use docker.runOptions; mitigates Trim Galore pipe freeze",
+        "issue_number": 435
+      },
+      {
+        "url": "https://github.com/nf-core/atacseq/issues/413",
+        "title": "Number of cores calculation for Trimgalore",
+        "issue_number": 413
+      },
+      {
+        "url": "https://github.com/nf-core/atacseq/issues/377",
+        "title": "ERROR ~ Error executing process > 'NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE",
+        "issue_number": 377
+      },
+      {
+        "url": "https://github.com/nf-core/atacseq/issues/260",
+        "title": "I have enough memory, but still got 'exceeds available memory' error",
+        "issue_number": 260
+      },
+      {
+        "url": "https://github.com/nf-core/atacseq/issues/78",
+        "title": "Can't skip trimming",
+        "issue_number": 78
+      },
+      {
+        "url": "https://github.com/nf-core/atacseq/issues/63",
+        "title": "Possibility for new Trim Galore using cutadapt 2 and mult-cores",
+        "issue_number": 63
+      },
+      {
+        "url": "https://github.com/nf-core/atacseq/issues/54",
+        "title": "Error executing process > 'get_software_versions'",
+        "issue_number": 54
+      },
+      {
+        "url": "https://github.com/nf-core/atacseq/issues/39",
+        "title": "mm10-blacklist.bed could not be opened",
+        "issue_number": 39
+      }
+    ]
+  },
+  {
+    "query": "repo:nf-core/atacseq trimgalore",
+    "issues": [
+      {
+        "url": "https://github.com/nf-core/atacseq/issues/377",
+        "title": "ERROR ~ Error executing process > 'NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE",
+        "issue_number": 377
+      },
+      {
+        "url": "https://github.com/nf-core/atacseq/issues/413",
+        "title": "Number of cores calculation for Trimgalore",
+        "issue_number": 413
+      },
+      {
+        "url": "https://github.com/nf-core/atacseq/issues/394",
+        "title": "Improve TRIMGALORE by adding pigz to Singularity container",
+        "issue_number": 394
+      },
+      {
+        "url": "https://github.com/nf-core/atacseq/issues/402",
+        "title": "Issue when rerunning the pipeline for MACS2 narrow peak",
+        "issue_number": 402
+      },
+      {
+        "url": "https://github.com/nf-core/atacseq/issues/393",
+        "title": "No signature of method: java.lang.Boolean.call() is applicable for argument types",
+        "issue_number": 393
+      },
+      {
+        "url": "https://github.com/nf-core/atacseq/issues/268",
+        "title": "Blacklist option causes pipeline to fail",
+        "issue_number": 268
+      },
+      {
+        "url": "https://github.com/nf-core/atacseq/issues/289",
+        "title": "Bed file provided using the --blacklist parameter triggers an error",
+        "issue_number": 289
+      },
+      {
+        "url": "https://github.com/nf-core/atacseq/issues/260",
+        "title": "I have enough memory, but still got 'exceeds available memory' error",
+        "issue_number": 260
+      },
+      {
+        "url": "https://github.com/nf-core/atacseq/issues/185",
+        "title": "Unable to proceed to bwa step",
+        "issue_number": 185
+      },
+      {
+        "url": "https://github.com/nf-core/atacseq/issues/151",
+        "title": "Error executing process > 'MERGED_LIB_BAM_REMOVE_ORPHAN (control_R2)'",
+        "issue_number": 151
+      },
+      {
+        "url": "https://github.com/nf-core/atacseq/issues/125",
+        "title": "Error executing process > 'CHECK_DESIGN (design.csv)",
+        "issue_number": 125
+      },
+      {
+        "url": "https://github.com/nf-core/atacseq/issues/190",
+        "title": "Wrong parameterization causing error",
+        "issue_number": 190
+      }
+    ]
+  },
+  {
+    "query": "repo:nf-core/modules \"poly_g\"",
+    "issues": []
+  }
+]

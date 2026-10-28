@@ -1,0 +1,21 @@
+== 06 PE R2 report
+122:Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 290 (0.29%)$
+== 06 SE
+100000 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	35 (0.0%)
+
+== 21 PE R2 report
+110:Sequences removed because they became shorter than the length cutoff of 20 bp:^I319 (0.3%)$
+111-Sequences removed because they were longer than the upper length cutoff:^I0 (0.0%)$
+--$
+119:Number of sequence pairs removed because at least one read was shorter than the length cutoff (0.32%):$
+120-                                    319$
+== 21 SE
+100000 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	53 (0.1%)
+Sequences removed because they were longer than the upper length cutoff:	0 (0.0%)
+Poly-G trimming: ENABLED (auto-detected). 15 of 100000 reads (0.01%) have poly-G tails (>=10bp) — consistent with 2-colour chemistry (NovaSeq/NextSeq). To disable: --no_poly_g
+06 o06 total 100000.0 filtered 290.0 => 99710.0
+06 se06 total 100000.0 filtered 35.0 => 99965.0
+21 o21 total 100000.0 filtered 319.0 => 99681.0
+21 se21 total 100000.0 filtered 53.0 => 99947.0

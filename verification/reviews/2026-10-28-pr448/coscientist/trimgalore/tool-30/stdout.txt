@@ -1,0 +1,32 @@
+== 06
+15efeb1eefbadeb015429238f46cddde  -
+99710 6891908
+6a6cb95eccbb002ce57b9b9659fc569f  -
+99710 6886142
+100000 sequences processed in total
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 290 (0.29%)
+Using Nextera adapter for trimming (count: 21698). Second best hit was smallRNA (count: 0)
+== 21
+5c6b560a3ab8f5dfdd0d7a700342d0b6  -
+99681 6882858
+70be4caf32f4b7afcb1d955d3526bf1c  -
+99681 6876384
+  R1 poly-G bases removed:             8450
+  R2 poly-C bases removed:             8591
+100000 sequences processed in total
+Adapter sequence: 'CTGTCTCTTATA' (user-specified or auto-detected)
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (0.32%):
+Poly-G trimming enabled: removing poly-G tails from 3' end of R1/SE reads, and poly-C heads from 5' end of R2 reads
+Poly-G trimming: ENABLED (auto-detected). 15 of 100000 reads (0.01%) have poly-G tails (>=10bp) — consistent with 2-colour chemistry (NovaSeq/NextSeq). To disable: --no_poly_g
+R1 reads with poly-G trimmed:          1988 (2.0%)
+R2 reads with poly-C trimmed:          2203 (2.2%)
+Reads with poly-G/C trimmed:	1988 (2.0%); 8,450 bp removed
+14c14
+< CCCACAAGTTCGCCCACCTCTTCATTGGTTTAACTAGGCGTCAACCGCGAGTCCATTATGATATGATTTTTATGTA
+---
+> ACAAGTTCGCCCACCTCTTCATTGGTTTAACTAGGCGTCAACCGCGAGTCCATTATGATATGATTTTTATGTA
+93c93
+< CCCAAATTCGACGATCGATTTGCACGTCAGAACCGCTACGAGCCTCCACCAGAGTTTCCTCTGGCTTCACCCTATT
+---
+> AAATTCGACGATCGATTTGCACGTCAGAACCGCTACGAGCCTCCACCAGAGTTTCCTCTGGCTTCACCCTATT

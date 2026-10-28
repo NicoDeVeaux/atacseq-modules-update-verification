@@ -1,0 +1,87 @@
+N E X T F L O W  ~  version 26.10.2
+Launching `main.nf` [stupefied_brazil] - revision: 04709f93e2
+WARN: There's no process matching config selector: SAMPLESHEET_CHECK
+WARN: There's no process matching config selector: GUNZIP_.*
+WARN: There's no process matching config selector: UNTAR_.*
+WARN: There's no process matching config selector: BWA_INDEX|BOWTIE2_BUILD|STAR_GENOMEGENERATE|CHROMAP_INDEX
+WARN: There's no process matching config selector: GFFREAD
+WARN: There's no process matching config selector: GTF2BED
+WARN: There's no process matching config selector: SAMTOOLS_FAIDX
+WARN: There's no process matching config selector: TSS_EXTRACT
+WARN: There's no process matching config selector: GENOME_BLACKLIST_REGIONS
+WARN: There's no process matching config selector: GET_AUTOSOMES
+WARN: There's no process matching config selector: KHMER_UNIQUEKMERS
+WARN: There's no process matching config selector: FASTQC
+WARN: There's no process matching config selector: TRIMGALORE
+WARN: There's no process matching config selector: NFCORE_ATACSEQ:ATACSEQ:.*:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT
+WARN: There's no process matching config selector: NFCORE_ATACSEQ:ATACSEQ:.*:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX
+WARN: There's no process matching config selector: NFCORE_ATACSEQ:ATACSEQ:.*:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_.*
+WARN: There's no process matching config selector: BWA_MEM
+WARN: There's no process matching config selector: BOWTIE2_ALIGN
+WARN: There's no process matching config selector: CHROMAP_INDEX
+WARN: There's no process matching config selector: CHROMAP_CHROMAP
+WARN: There's no process matching config selector: STAR_ALIGN
+WARN: There's no process matching config selector: .*:MERGED_LIBRARY_MARKDUPLICATES_PICARD:SAMTOOLS_INDEX
+WARN: There's no process matching config selector: .*:MERGED_LIBRARY_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:.*
+WARN: There's no process matching config selector: BAMTOOLS_FILTER
+WARN: There's no process matching config selector: .*:MERGED_LIBRARY_FILTER_BAM:SAMTOOLS_INDEX
+WARN: There's no process matching config selector: .*:MERGED_LIBRARY_FILTER_BAM:BAM_STATS_SAMTOOLS:.*
+WARN: There's no process matching config selector: .*:MERGED_LIBRARY_FILTER_BAM:SAMTOOLS_SORT
+WARN: There's no process matching config selector: BAM_REMOVE_ORPHANS
+WARN: There's no process matching config selector: .*:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:.*
+WARN: There's no process matching config selector: .*:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:.*
+WARN: There's no process matching config selector: .*:MERGED_LIBRARY_BAM_SHIFT_READS:DEEPTOOLS_ALIGNMENTSIEVE
+WARN: There's no process matching config selector: .*:MERGED_LIBRARY_BAM_SHIFT_READS:SAMTOOLS_SORT
+WARN: There's no process matching config selector: .*:MERGED_LIBRARY_BAM_SHIFT_READS:SAMTOOLS_INDEX
+WARN: There's no process matching config selector: .*:MERGED_LIBRARY_BAM_TO_BIGWIG:BEDTOOLS_GENOMECOV
+WARN: There's no process matching config selector: .*:MERGED_LIBRARY_BAM_TO_BIGWIG:UCSC_BEDGRAPHTOBIGWIG
+WARN: There's no process matching config selector: MERGED_LIBRARY_PICARD_COLLECTMULTIPLEMETRICS
+WARN: There's no process matching config selector: MERGED_LIBRARY_PRESEQ_LCEXTRAP
+WARN: There's no process matching config selector: DEEPTOOLS_COMPUTEMATRIX_SCALE_REGIONS
+WARN: There's no process matching config selector: DEEPTOOLS_COMPUTEMATRIX_REFERENCE_POINT
+WARN: There's no process matching config selector: DEEPTOOLS_PLOTPROFILE
+WARN: There's no process matching config selector: DEEPTOOLS_PLOTHEATMAP
+WARN: There's no process matching config selector: MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT
+WARN: There's no process matching config selector: .*:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:MACS3_CALLPEAK
+WARN: There's no process matching config selector: .*:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:FRIP_SCORE
+WARN: There's no process matching config selector: .*:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:MULTIQC_CUSTOM_PEAKS
+WARN: There's no process matching config selector: .*:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:HOMER_ANNOTATEPEAKS
+WARN: There's no process matching config selector: .*:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:PLOT_MACS3_QC
+WARN: There's no process matching config selector: .*:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:PLOT_HOMER_ANNOTATEPEAKS
+WARN: There's no process matching config selector: .*:MERGED_LIBRARY_CONSENSUS_PEAKS:MACS3_CONSENSUS
+WARN: There's no process matching config selector: .*:MERGED_LIBRARY_CONSENSUS_PEAKS:SUBREAD_FEATURECOUNTS
+WARN: There's no process matching config selector: .*:MERGED_LIBRARY_CONSENSUS_PEAKS:DESEQ2_QC
+WARN: There's no process matching config selector: .*:MERGED_LIBRARY_CONSENSUS_PEAKS:HOMER_ANNOTATEPEAKS
+WARN: There's no process matching config selector: MERGED_LIBRARY_ATAQV_ATAQV
+WARN: There's no process matching config selector: MERGED_LIBRARY_ATAQV_MKARV
+WARN: There's no process matching config selector: PICARD_MERGESAMFILES_REPLICATE
+WARN: There's no process matching config selector: .*:MERGED_REPLICATE_MARKDUPLICATES_PICARD:PICARD_MARKDUPLICATES
+WARN: There's no process matching config selector: .*:MERGED_REPLICATE_MARKDUPLICATES_PICARD:SAMTOOLS_INDEX
+WARN: There's no process matching config selector: .*:MERGED_REPLICATE_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:.*
+WARN: There's no process matching config selector: .*:MERGED_REPLICATE_BAM_SHIFT_READS:DEEPTOOLS_ALIGNMENTSIEVE
+WARN: There's no process matching config selector: .*:MERGED_REPLICATE_BAM_SHIFT_READS:SAMTOOLS_SORT
+WARN: There's no process matching config selector: .*:MERGED_REPLICATE_BAM_SHIFT_READS:SAMTOOLS_INDEX
+WARN: There's no process matching config selector: .*:MERGED_REPLICATE_BAM_TO_BIGWIG:BEDTOOLS_GENOMECOV
+WARN: There's no process matching config selector: .*:MERGED_REPLICATE_BAM_TO_BIGWIG:UCSC_BEDGRAPHTOBIGWIG
+WARN: There's no process matching config selector: .*:MERGED_REPLICATE_CALL_ANNOTATE_PEAKS:MACS3_CALLPEAK
+WARN: There's no process matching config selector: .*:MERGED_REPLICATE_CALL_ANNOTATE_PEAKS:FRIP_SCORE
+WARN: There's no process matching config selector: .*:MERGED_REPLICATE_CALL_ANNOTATE_PEAKS:MULTIQC_CUSTOM_PEAKS
+WARN: There's no process matching config selector: .*:MERGED_REPLICATE_CALL_ANNOTATE_PEAKS:HOMER_ANNOTATEPEAKS
+WARN: There's no process matching config selector: .*:MERGED_REPLICATE_CALL_ANNOTATE_PEAKS:PLOT_MACS3_QC
+WARN: There's no process matching config selector: .*:MERGED_REPLICATE_CALL_ANNOTATE_PEAKS:PLOT_HOMER_ANNOTATEPEAKS
+WARN: There's no process matching config selector: .*:MERGED_REPLICATE_CONSENSUS_PEAKS:MACS3_CONSENSUS
+WARN: There's no process matching config selector: .*:MERGED_REPLICATE_CONSENSUS_PEAKS:SUBREAD_FEATURECOUNTS
+WARN: There's no process matching config selector: .*:MERGED_REPLICATE_CONSENSUS_PEAKS:DESEQ2_QC
+WARN: There's no process matching config selector: .*:MERGED_REPLICATE_CONSENSUS_PEAKS:HOMER_ANNOTATEPEAKS
+WARN: There's no process matching config selector: IGV
+WARN: There's no process matching config selector: MULTIQC
+[7f/aaa04b] Submitted process > NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:PICARD_ADDORREPLACEREADGROUPS (SAMPLE_A_REP1_T2)
+[11/769dbc] Submitted process > NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:PICARD_ADDORREPLACEREADGROUPS (SAMPLE_A_REP1_T1)
+[46/d07932] Submitted process > NFCORE_ATACSEQ:ATACSEQ:PICARD_MERGESAMFILES_LIBRARY (SAMPLE_A_REP1)
+WARN: Unable to persist cache record for task entry 11769dbc515187fdb7400ffff5f389d5
+WARN: Unable to persist cache record for task entry 7faaa04b06697ea060b9aa3514551ad5
+WARN: Unable to persist cache record for task entry 46d0793296e893a85c9d0fee723ea961
+[fe/0d698c] Submitted process > NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:PICARD_MARKDUPLICATES (SAMPLE_A_REP1)
+OUTPUT REVIEW_ROOT/aligner-review/work-current/fe/0d698c62fdebb5dc1f4965e5a1be58/SAMPLE_A_REP1.mLb.mkD.sorted.bam
+METRICS REVIEW_ROOT/aligner-review/work-current/fe/0d698c62fdebb5dc1f4965e5a1be58/SAMPLE_A_REP1.mLb.mkD.sorted.metrics.txt
+WARN: Unable to persist cache record for task entry fe0d698c62fdebb5dc1f4965e5a1be58

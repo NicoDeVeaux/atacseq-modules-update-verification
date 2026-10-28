@@ -1,0 +1,9 @@
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+/opt/conda/bin/picard: line 5: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8): No such file or directory
+18:12:17.263 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/opt/conda/share/picard-3.4.0-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Wed Oct 28 18:12:17 GMT 2026] MergeSamFiles --INPUT SAMPLE_A_REP1_T2.Lb.rg.bam --INPUT SAMPLE_A_REP1_T1.Lb.rg.bam --OUTPUT SAMPLE_A_REP1.mLb.sorted.bam --SORT_ORDER coordinate --TMP_DIR tmp --VALIDATION_STRINGENCY LENIENT --ASSUME_SORTED false --MERGE_SEQUENCE_DICTIONARIES false --USE_THREADING false --VERBOSITY INFO --QUIET false --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+[Wed Oct 28 18:12:17 GMT 2026] Executing as root@724f458f0d5f on Linux 6.8.0-117-generic amd64; OpenJDK 64-Bit Server VM 23.0.2-internal-adhoc.conda.src; Deflater: Intel; Inflater: Intel; Provider GCS is available; Picard version: Version:3.4.0
+INFO	2026-10-28 18:12:17	MergeSamFiles	Input files are in same order as output so sorting to temp directory is not needed.
+INFO	2026-10-28 18:12:17	MergeSamFiles	Finished reading inputs.
+[Wed Oct 28 18:12:17 GMT 2026] picard.sam.MergeSamFiles done. Elapsed time: 0.01 minutes.
+Runtime.totalMemory()=16252928

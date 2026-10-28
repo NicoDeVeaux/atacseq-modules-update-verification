@@ -1,0 +1,12 @@
+cd /tmp/tgt && for v in 06 21; do echo "== $v PE R2 report"; grep -n -A1 "shorter than the length cutoff" o$v/S_2.fastq.gz_trimming_report.txt | cat -A | cut -c1-200; mkdir -p se$v && (cd se$v && ln -sf ../SRR1822154_1.fastq.gz S.fastq.gz && PATH=/tmp/tg$v/bin:$PATH trim_galore --cores 1 --gzip S.fastq.gz >run.log 2>&1; echo "== $v SE"; grep -h -A1 "shorter than the length cutoff\|processed in total" S.fastq.gz_trimming_report.txt | cut -c1-200; grep -h "Poly-G trimming:" S.fastq.gz_trimming_report.txt run.log | head -2); done; python3 - <<'E'
+import re
+for v in ['06','21']:
+  for f in [f'/tmp/tgt/o{v}/S_2.fastq.gz_trimming_report.txt', f'/tmp/tgt/se{v}/S.fastq.gz_trimming_report.txt']:
+    t=0;fl=0
+    for line in open(f):
+      m=re.search(r'([\d\.]+)\ssequences processed in total',line)
+      if m: t=float(m.group(1))
+      m=re.search(r'shorter than the length cutoff[^:]+:\s*([\d\.]+)',line)
+      if m: fl=float(m.group(1))
+    print(v,f.split('/')[-2],'total',t,'filtered',fl,'=>',t-fl)
+E

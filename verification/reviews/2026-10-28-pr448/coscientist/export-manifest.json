@@ -1,0 +1,282 @@
+[
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/trimgalore/tool-28/command.txt",
+    "bytes": 394,
+    "sha256": "3a29ca99d3033c9d920c840ed4fb297cfe08c7755501fb709c32bd7b10c3804e",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/trimgalore/tool-28/raw-tool-output.json",
+    "bytes": 98,
+    "sha256": "0fe6cfeedf20e84a8de71b7ce5568a6849c200c3ad73b397c60023c9de8b04dd",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/trimgalore/tool-28/stdout.txt",
+    "bytes": 52,
+    "sha256": "f03ebedfb401a034b0a9fea9e50a473b1e713ffaef1f41365abfc52941a7c4b1",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/trimgalore/tool-28/stderr.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/trimgalore/tool-28/record.json",
+    "bytes": 200,
+    "sha256": "88fd95ec6bade7f34893b1256a6eb0784001ef36306cbfa4ac35935c010df419",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/trimgalore/tool-29/command.txt",
+    "bytes": 450,
+    "sha256": "99c923c953ab32f32a82881b09192ad167050c2401c9e83dbda1f87be574aefe",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/trimgalore/tool-29/raw-tool-output.json",
+    "bytes": 760,
+    "sha256": "655c0fb828d1b5589e78e2b715683e1dc7cf93741a83d4e26064975f7a1eb26d",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/trimgalore/tool-29/stdout.txt",
+    "bytes": 693,
+    "sha256": "c640963e5579f3c0a594032e3892b00b2a662363540c723ab79a7e79b80d4e47",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/trimgalore/tool-29/stderr.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/trimgalore/tool-29/record.json",
+    "bytes": 200,
+    "sha256": "203726fee91ad23ce848d836aa32d982cd840ee83f2149a3451d04be8ad771ba",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/trimgalore/tool-30/command.txt",
+    "bytes": 458,
+    "sha256": "1d82b2891a0ae355269574f2c88ecbc75586ede02fd46a1face67a22ec2618f9",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/trimgalore/tool-30/raw-tool-output.json",
+    "bytes": 1689,
+    "sha256": "984ead380ae838a88d74e7a14a1e8a527e344c56d19d0fcfd8705b82e57202fa",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/trimgalore/tool-30/stdout.txt",
+    "bytes": 1612,
+    "sha256": "d52a5913d99dacf4eaa6ec5bb469e5768515f0f7fa00552d0630b79d4024ee0a",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/trimgalore/tool-30/stderr.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/trimgalore/tool-30/record.json",
+    "bytes": 200,
+    "sha256": "61101c017998447652a1c80c412f64225098779e624faa932d884dfe6c505de6",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/trimgalore/tool-31/command.txt",
+    "bytes": 1007,
+    "sha256": "af935045cb35e876fd6c767c4a30445045c3613be0a744d56f6db2d0fe440b98",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/trimgalore/tool-31/raw-tool-output.json",
+    "bytes": 1288,
+    "sha256": "f72a95bac770d7a912d647927b28b0e0db28cfe90653410784761539b2ca2df2",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/trimgalore/tool-31/stdout.txt",
+    "bytes": 1220,
+    "sha256": "32b6114fbea73f07b73ca65c91f05dc7264d02a7546aeae4a77fd1bf5d55feb2",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/trimgalore/tool-31/stderr.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/trimgalore/tool-31/record.json",
+    "bytes": 200,
+    "sha256": "a58520585734f943f6b0f1f4b8da8b40aace25f994920706b5fdd4e5dd4f4adb",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/chromap-picard/tool-34/command.txt",
+    "bytes": 1244,
+    "sha256": "fd03686d6c3b44c4456a5d108521e76ceefb6a5f608e6bd870d57e51c69514ee",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/chromap-picard/tool-34/raw-tool-output.json",
+    "bytes": 544,
+    "sha256": "b0eeff46cc0faf41a91197c891054125c72515741ddc38d95a8ecd49ddd1f921",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/chromap-picard/tool-34/stdout.txt",
+    "bytes": 262,
+    "sha256": "35361c6c320fd1e7fd2f3dc860cfa9bfdd57c0bea759fec40c3457b0eada886b",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/chromap-picard/tool-34/stderr.txt",
+    "bytes": 208,
+    "sha256": "5331e838e99cda91ae5fb7fbedfbf848450f84f0522511504f4b957f1830ceca",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/chromap-picard/tool-34/record.json",
+    "bytes": 200,
+    "sha256": "ef421eb63b45af7462731d4040581811691de3b306019f8175ba1374d850adf4",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/chromap-picard/tool-35/command.txt",
+    "bytes": 212,
+    "sha256": "d2a46eff461bc08af06c85a7cfd332480e3496becf5543650dc1c246b708c5a0",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/chromap-picard/tool-35/raw-tool-output.json",
+    "bytes": 347,
+    "sha256": "1e4da4ddb94d7a29e84c8367a32b2e72d875e7b4c7bfe13cc8126a79614b96e0",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/chromap-picard/tool-35/stdout.txt",
+    "bytes": 288,
+    "sha256": "44f7faf07d5e105fc10c5a529046ac75b67ea96ecd1e8e8f082ee8ae9f6945a9",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/chromap-picard/tool-35/stderr.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/chromap-picard/tool-35/record.json",
+    "bytes": 200,
+    "sha256": "14e09f50135dfdd4dceb7efc36a2e0debec4022118a3eba65422cf515e518412",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/chromap-picard/tool-36/command.txt",
+    "bytes": 437,
+    "sha256": "b12b5538fbc30be3a256b78a108941ac24ac060c830f1c82fbc70c988d70a80f",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/chromap-picard/tool-36/raw-tool-output.json",
+    "bytes": 219,
+    "sha256": "3e62213416952268c2fa76a0048710d510c01912cbf8967e58221a0a272e8e94",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/chromap-picard/tool-36/stdout.txt",
+    "bytes": 160,
+    "sha256": "b9dec2ac556ca6ec1f82e5ae51156edae8dde72097751677a4dbdf560047f9ea",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/chromap-picard/tool-36/stderr.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/chromap-picard/tool-36/record.json",
+    "bytes": 200,
+    "sha256": "5ee222d067d5077b595785ff853d65a648eb9290346eb4d3c11c7af8e407115c",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/cleanup/tool-38/command.txt",
+    "bytes": 174,
+    "sha256": "ef4744a7a58d7756c1baf068e3247a757521b7ae09d22f9fa6c98c29669db471",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/cleanup/tool-38/raw-tool-output.json",
+    "bytes": 48,
+    "sha256": "f6bf7840e7e924a6f06cd5403307e309e40608582ef90512569b3d6f21c852bd",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/cleanup/tool-38/stdout.txt",
+    "bytes": 3,
+    "sha256": "dc51b8c96c2d745df3bd5590d990230a482fd247123599548e0632fdbf97fc22",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/cleanup/tool-38/stderr.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  },
+  {
+    "path": "verification/reviews/2026-10-28-pr448/coscientist/cleanup/tool-38/record.json",
+    "bytes": 200,
+    "sha256": "6ead6ff31eb05c965f259e404934c7ad814fd01957cae4e4254a197925502dc3",
+    "source": "original Co-Scientist tool record",
+    "transform": "JSON field extraction only; values unchanged"
+  }
+]

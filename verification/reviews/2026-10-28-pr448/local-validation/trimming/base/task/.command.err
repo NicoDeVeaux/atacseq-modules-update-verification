@@ -1,0 +1,139 @@
+Proceeding with single-core trimming (user-defined)
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 5.2
+single-core operation.
+igzip detected. Using igzip for decompressing
+
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> poly_1.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	0	CTGTCTCTTATA	100	0.00
+smallRNA	0	TGGAATTCTCGG	100	0.00
+Illumina	0	AGATCGGAAGAGC	100	0.00
+Unable to auto-detect most prominent adapter from the first specified file (count Nextera: 0, count smallRNA: 0, count Illumina: 0)
+Defaulting to Illumina universal adapter ( AGATCGGAAGAGC ). Specify -a SEQUENCE to avoid this behavior).
+
+Writing report to 'poly_1.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: poly_1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 5.2
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; default (inconclusive auto-detection))
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 5.2). Setting -j 1
+Writing final adapter and quality trimmed output to poly_1_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file poly_1.fastq.gz <<< 
+This is cutadapt 5.2 with Python 3.12.12
+Command line parameters: -j 1 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC poly_1.fastq.gz
+Processing single-end reads on 1 core ...
+
+=== Summary ===
+
+Total reads processed:                     100
+Reads with adapters:                         0 (0.0%)
+Reads written (passing filters):           100 (100.0%)
+
+Total basepairs processed:         8,400 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):          8,400 bp (100.0%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 0 times
+
+RUN STATISTICS FOR INPUT FILE: poly_1.fastq.gz
+=============================================
+100 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to 'poly_2.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: poly_2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 5.2
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; default (inconclusive auto-detection))
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Output file(s) will be GZIP compressed
+
+Cutadapt seems to be fairly up-to-date (version 5.2). Setting -j -j 1
+Writing final adapter and quality trimmed output to poly_2_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file poly_2.fastq.gz <<< 
+This is cutadapt 5.2 with Python 3.12.12
+Command line parameters: -j 1 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC poly_2.fastq.gz
+Processing single-end reads on 1 core ...
+
+=== Summary ===
+
+Total reads processed:                     100
+Reads with adapters:                         0 (0.0%)
+Reads written (passing filters):           100 (100.0%)
+
+Total basepairs processed:         8,400 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):          8,400 bp (100.0%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 0 times
+
+RUN STATISTICS FOR INPUT FILE: poly_2.fastq.gz
+=============================================
+100 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files poly_1_trimmed.fq.gz and poly_2_trimmed.fq.gz
+file_1: poly_1_trimmed.fq.gz, file_2: poly_2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: poly_1_trimmed.fq.gz and poly_2_trimmed.fq.gz <<<<<
+Writing validated paired-end Read 1 reads to poly_1_val_1.fq.gz
+Writing validated paired-end Read 2 reads to poly_2_val_2.fq.gz
+
+Total number of sequences analysed: 100
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 0 (0.00%)
+
+
+  >>> Now running FastQC on the validated data poly_1_val_1.fq.gz<<<
+
+Started analysis of poly_1_val_1.fq.gz
+
+  >>> Now running FastQC on the validated data poly_2_val_2.fq.gz<<<
+
+Started analysis of poly_2_val_2.fq.gz
+Deleting both intermediate output files poly_1_trimmed.fq.gz and poly_2_trimmed.fq.gz
+
+====================================================================================================
+

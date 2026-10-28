@@ -1,0 +1,6 @@
+# Preserve original tool output, including trailing empty TSV fields and blank lines.
+coscientist/**/stdout.txt -whitespace
+coscientist/**/stderr.txt -whitespace
+local-validation/**/outputs/** -whitespace
+local-validation/**/task/.command.out -whitespace
+local-validation/**/task/.command.err -whitespace

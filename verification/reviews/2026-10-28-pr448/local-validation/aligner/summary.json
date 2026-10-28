@@ -1,0 +1,33 @@
+{
+  "base": {
+    "libraries": [
+      "Unknown Library"
+    ],
+    "read_pairs_examined": 2,
+    "duplicate_pairs": 1,
+    "reads_after_duplicate_filter": 2,
+    "metrics": "REVIEW_ROOT/aligner-review/work-base/93/cd942e9c9f079cd0465679cf2d1c48/SAMPLE_A_REP1.mLb.mkD.sorted.MarkDuplicates.metrics.txt",
+    "bam": "REVIEW_ROOT/aligner-review/work-base/93/cd942e9c9f079cd0465679cf2d1c48/SAMPLE_A_REP1.mLb.mkD.sorted.bam"
+  },
+  "current": {
+    "libraries": [
+      "SAMPLE_A_REP1_T1",
+      "SAMPLE_A_REP1_T2"
+    ],
+    "read_pairs_examined": 2,
+    "duplicate_pairs": 0,
+    "reads_after_duplicate_filter": 4,
+    "metrics": "REVIEW_ROOT/aligner-review/work-current/fe/0d698c62fdebb5dc1f4965e5a1be58/SAMPLE_A_REP1.mLb.mkD.sorted.metrics.txt",
+    "bam": "REVIEW_ROOT/aligner-review/work-current/fe/0d698c62fdebb5dc1f4965e5a1be58/SAMPLE_A_REP1.mLb.mkD.sorted.bam"
+  },
+  "fixed": {
+    "libraries": [
+      "SAMPLE_A_REP1"
+    ],
+    "read_pairs_examined": 2,
+    "duplicate_pairs": 1,
+    "reads_after_duplicate_filter": 2,
+    "metrics": "REVIEW_ROOT/aligner-review/work-fixed/ca/bce5287c996cb222cae9707ddfeab1/SAMPLE_A_REP1.mLb.mkD.sorted.metrics.txt",
+    "bam": "REVIEW_ROOT/aligner-review/work-fixed/ca/bce5287c996cb222cae9707ddfeab1/SAMPLE_A_REP1.mLb.mkD.sorted.bam"
+  }
+}

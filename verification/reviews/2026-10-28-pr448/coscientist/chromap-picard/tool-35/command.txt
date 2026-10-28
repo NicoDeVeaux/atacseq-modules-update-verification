@@ -1,0 +1,1 @@
+cd /tmp/md && export PATH=/tmp/pic/bin:$PATH; ls; picard MarkDuplicates -I m_norg.bam -O d_norg.bam -M d_norg.txt --ASSUME_SORTED true --VALIDATION_STRINGENCY LENIENT 2>&1 | grep -i -E "error|exception" | head -5

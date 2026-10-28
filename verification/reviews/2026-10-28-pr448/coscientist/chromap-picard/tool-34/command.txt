@@ -1,0 +1,13 @@
+cd /tmp && export MAMBA_ROOT_PREFIX=/tmp/mm && timeout 600 ./micromamba create -y -q -p /tmp/pic -c conda-forge -c bioconda picard=3.4.0 samtools >/tmp/pic.log 2>&1; ls /tmp/pic/bin/picard /tmp/pic/bin/samtools && mkdir -p md && cd md && python3 - <<'E'
+seq="ACGT"*10; q="I"*40
+hdr="@HD\tVN:1.6\tSO:coordinate\n@SQ\tSN:chr1\tLN:10000\n"
+def rec(n,rg=None):
+    t="" if rg is None else f"\tRG:Z:{rg}"
+    return (f"{n}\t99\tchr1\t100\t60\t40M\t=\t300\t240\t{seq}\t{q}{t}\n"
+            f"{n}\t147\tchr1\t300\t60\t40M\t=\t100\t-240\t{seq}\t{q}{t}\n")
+open("t1_norg.sam","w").write(hdr+rec("r1"))
+open("t2_norg.sam","w").write(hdr+rec("r2"))
+for i,n in [("1","r1"),("2","r2")]:
+    open(f"t{i}_rg.sam","w").write(hdr+f"@RG\tID:X_REP1_T{i}\tSM:X_REP1\tLB:X_REP1_T{i}\tPL:ILLUMINA\tPU:1\n"+rec(n,f"X_REP1_T{i}"))
+E
+export PATH=/tmp/pic/bin:$PATH; for m in norg rg; do picard MergeSamFiles -I t1_$m.sam -I t2_$m.sam -O m_$m.bam --SORT_ORDER coordinate --VALIDATION_STRINGENCY LENIENT >/dev/null 2>&1; picard MarkDuplicates -I m_$m.bam -O d_$m.bam -M d_$m.txt --ASSUME_SORTED true --VALIDATION_STRINGENCY LENIENT >/dev/null 2>&1; echo "$m: dup-flagged records = $(samtools view -c -f 1024 d_$m.bam)"; grep -A3 "^LIBRARY" d_$m.txt | cut -f1-3,7-9; done

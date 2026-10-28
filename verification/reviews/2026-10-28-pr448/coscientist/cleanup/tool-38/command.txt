@@ -1,0 +1,1 @@
+rm -rf /tmp/tgt /tmp/md /tmp/tg06 /tmp/tg21 /tmp/pic /tmp/pic31 /tmp/mm /tmp/micromamba /tmp/*.log /tmp/tg_CHANGELOG.md /tmp/chromap.* /tmp/bowtie2.* /tmp/default.* ; echo ok

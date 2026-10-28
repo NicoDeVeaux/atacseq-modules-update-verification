@@ -1,0 +1,1 @@
+{"stdout": "d_rg.bam\nd_rg.txt\nm_norg.bam\nm_rg.bam\nt1_norg.sam\nt1_rg.sam\nt2_norg.sam\nt2_rg.sam\nException in thread \"main\" java.lang.NullPointerException: Cannot invoke \"htsjdk.samtools.SAMReadGroupRecord.getReadGroupId()\" because the return value of \"htsjdk.samtools.SAMRecord.getReadGroup()\" is null\n", "stderr": "", "exit_code": 0}

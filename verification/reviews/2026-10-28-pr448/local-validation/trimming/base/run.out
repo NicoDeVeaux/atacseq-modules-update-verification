@@ -1,0 +1,5 @@
+[33mNextflow 26.10.4 is available - Please consider updating your version to it(B[m
+N E X T F L O W  ~  version 26.04.6
+Launching `main.nf` [kickass_mayer] - revision: a05342ef4a
+[80/81eff7] Submitted process > TRIMGALORE (poly)
+[[id:poly, single_end:false], [REVIEW_ROOT/trimming-review/poly-nf-base/work/80/81eff7ac61fbea58a9a793049f886c/poly_1_val_1.fq.gz, REVIEW_ROOT/trimming-review/poly-nf-base/work/80/81eff7ac61fbea58a9a793049f886c/poly_2_val_2.fq.gz]]

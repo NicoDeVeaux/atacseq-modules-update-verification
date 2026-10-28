@@ -1,0 +1,5 @@
+[33mNextflow 26.10.4 is available - Please consider updating your version to it(B[m
+N E X T F L O W  ~  version 26.04.6
+Launching `main.nf` [nice_easley] - revision: aee203ef07
+[93/aaf6b3] Submitted process > TRIMGALORE (poly)
+[[id:poly, single_end:false], [REVIEW_ROOT/trimming-review/poly-nf-disabled/work/93/aaf6b3066cc4b296c08eb7be919ed3/poly_1_val_1.fq.gz, REVIEW_ROOT/trimming-review/poly-nf-disabled/work/93/aaf6b3066cc4b296c08eb7be919ed3/poly_2_val_2.fq.gz]]

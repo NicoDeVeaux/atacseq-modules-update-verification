@@ -1,0 +1,39 @@
+{
+  "checked": "2026-10-28",
+  "searches": [
+    {
+      "query": "repo:nf-core/atacseq chromap duplicates",
+      "results": []
+    },
+    {
+      "query": "repo:nf-core/atacseq resequencing library",
+      "results": []
+    },
+    {
+      "query": "repo:nf-core/atacseq read groups",
+      "results": [
+        {
+          "number": 299,
+          "title": "nf-core atacseq version 2.0 doesn\u2019t perform deseq2 pairwise comparison"
+        },
+        {
+          "number": 76,
+          "title": "featureCounts coupled to DESeq2"
+        }
+      ]
+    }
+  ],
+  "upstream_dev_config_blob": "ca0e5c47598a8e17f5b15b09e048f4ed9d5483b6",
+  "nfcore_modules_master_fastq_align_chromap_blob": "1d532a8ff0bf02e5a28ef80cdcb01ac7460d62a7",
+  "historical_chromap_sam_writer": {
+    "repository": "haowenz/chromap",
+    "ref": "v0.2.4",
+    "path": "src/mapping_writer.cc",
+    "blob": "2bb381ee7796977adaf077c0ad0547b590ef7c65",
+    "lines": [
+      308,
+      354
+    ],
+    "observation": "SAM writer emits SQ headers and NM/MD/optional CB tags; no RG headers/tags"
+  }
+}

@@ -1,0 +1,8 @@
+/tmp/pic/bin/picard
+/tmp/pic/bin/samtools
+norg: dup-flagged records = 
+rg: dup-flagged records = 0
+LIBRARY	UNPAIRED_READS_EXAMINED	READ_PAIRS_EXAMINED	READ_PAIR_DUPLICATES	READ_PAIR_OPTICAL_DUPLICATES	PERCENT_DUPLICATION
+X_REP1_T1	0	1	0	0	0
+X_REP1_T2	0	1	0	0	0
+

@@ -1,0 +1,5 @@
+[33mNextflow 26.10.4 is available - Please consider updating your version to it(B[m
+N E X T F L O W  ~  version 26.04.6
+Launching `main.nf` [desperate_monod] - revision: aee203ef07
+[e5/696b48] Submitted process > TRIMGALORE (poly)
+[[id:poly, single_end:false], [REVIEW_ROOT/trimming-review/poly-nf-current/work/e5/696b4844ba2292ad9d127b0a764b91/poly_1_val_1.fq.gz, REVIEW_ROOT/trimming-review/poly-nf-current/work/e5/696b4844ba2292ad9d127b0a764b91/poly_2_val_2.fq.gz]]
