@@ -1,0 +1,5 @@
+Nextflow 26.10.4 is available - Please consider updating your version to it
+N E X T F L O W  ~  version 26.04.6
+Launching `main.nf` [kickass_pasteur] - revision: a39b7f9947
+[9f/0003ce] Submitted process > TRIMGALORE (poly)
+[[id:poly, single_end:false], [${VALIDATION_ROOT}/trimming/baseline/work/9f/0003ce0e0337a5ae4a9c69c6d44904/poly_1_val_1.fq.gz, ${VALIDATION_ROOT}/trimming/baseline/work/9f/0003ce0e0337a5ae4a9c69c6d44904/poly_2_val_2.fq.gz]]

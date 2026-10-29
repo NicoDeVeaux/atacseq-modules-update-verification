@@ -1,0 +1,1543 @@
+{
+  "repository": "https://github.com/nf-core/atacseq",
+  "base": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+  "merge": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+  "interpretation": "Source-declared Conda specifiers and literal image references/tags only. No image was executed or inspected; a container label is not a resolved package manifest. Opaque image contents and unpinned dependencies remain unknown. Static include reachability covers possible branches, not a measured execution.",
+  "records": [
+    {
+      "kind": "nfcore_module",
+      "name": "bowtie2/align",
+      "path": "modules/nf-core/bowtie2/align",
+      "status": "updated",
+      "changed_files": [
+        "modules/nf-core/bowtie2/align/environment.yml",
+        "modules/nf-core/bowtie2/align/main.nf",
+        "modules/nf-core/bowtie2/align/meta.yml",
+        "modules/nf-core/bowtie2/align/tests/large_index.config",
+        "modules/nf-core/bowtie2/align/tests/main.nf.test",
+        "modules/nf-core/bowtie2/align/tests/main.nf.test.snap",
+        "modules/nf-core/bowtie2/align/tests/sam.config",
+        "modules/nf-core/bowtie2/align/tests/sam2.config",
+        "modules/nf-core/bowtie2/align/tests/tags.yml"
+      ],
+      "old": {
+        "main_path": "modules/nf-core/bowtie2/align/main.nf",
+        "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/modules/nf-core/bowtie2/align/main.nf",
+        "main_sha256": "912c762e648896dff4c989cec7a07c66424e6d6862cc11284250466856607373",
+        "module_lock": {
+          "repository": "https://github.com/nf-core/modules.git",
+          "branch": "master",
+          "git_sha": "0fe30831abbc2ed115e46e92330edf38f56edc3d",
+          "installed_by": [
+            "fastq_align_bowtie2"
+          ]
+        },
+        "upstream_module_sha": "0fe30831abbc2ed115e46e92330edf38f56edc3d",
+        "reported_tools": [],
+        "conda": {
+          "directive": {
+            "expression": "conda \"${moduleDir}/environment.yml\"",
+            "value": "${moduleDir}/environment.yml",
+            "line": 5
+          },
+          "environment_path": "modules/nf-core/bowtie2/align/environment.yml",
+          "environment_source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/modules/nf-core/bowtie2/align/environment.yml",
+          "dependencies": [
+            {
+              "raw": "bioconda::bowtie2=2.5.2",
+              "name": "bowtie2",
+              "channel": "bioconda",
+              "version_specifier": "=2.5.2",
+              "line": 7
+            },
+            {
+              "raw": "bioconda::samtools=1.18",
+              "name": "samtools",
+              "channel": "bioconda",
+              "version_specifier": "=1.18",
+              "line": 8
+            },
+            {
+              "raw": "conda-forge::pigz=2.6",
+              "name": "pigz",
+              "channel": "conda-forge",
+              "version_specifier": "=2.6",
+              "line": 9
+            }
+          ],
+          "environment_text": "name: bowtie2_align\nchannels:\n  - conda-forge\n  - bioconda\n  - defaults\ndependencies:\n  - bioconda::bowtie2=2.5.2\n  - bioconda::samtools=1.18\n  - conda-forge::pigz=2.6\n"
+        },
+        "container": {
+          "directive": {
+            "expression": "container \"${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?\n        'https://depot.galaxyproject.org/singularity/mulled-v2-ac74a7f02cebcfcc07d8e8d1d750af9c83b4d45a:f70b31a2db15c023d641c32f433fb02cd04df5a6-0' :\n        'biocontainers/mulled-v2-ac74a7f02cebcfcc07d8e8d1d750af9c83b4d45a:f70b31a2db15c023d641c32f433fb02cd04df5a6-0' }\"",
+            "value": "${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?\n        'https://depot.galaxyproject.org/singularity/mulled-v2-ac74a7f02cebcfcc07d8e8d1d750af9c83b4d45a:f70b31a2db15c023d641c32f433fb02cd04df5a6-0' :\n        'biocontainers/mulled-v2-ac74a7f02cebcfcc07d8e8d1d750af9c83b4d45a:f70b31a2db15c023d641c32f433fb02cd04df5a6-0' }",
+            "line": 6
+          },
+          "references": [
+            {
+              "reference": "https://depot.galaxyproject.org/singularity/mulled-v2-ac74a7f02cebcfcc07d8e8d1d750af9c83b4d45a:f70b31a2db15c023d641c32f433fb02cd04df5a6-0",
+              "image_name": "mulled-v2-ac74a7f02cebcfcc07d8e8d1d750af9c83b4d45a",
+              "tag": "f70b31a2db15c023d641c32f433fb02cd04df5a6-0",
+              "version_label": null,
+              "digest": null
+            },
+            {
+              "reference": "biocontainers/mulled-v2-ac74a7f02cebcfcc07d8e8d1d750af9c83b4d45a:f70b31a2db15c023d641c32f433fb02cd04df5a6-0",
+              "image_name": "mulled-v2-ac74a7f02cebcfcc07d8e8d1d750af9c83b4d45a",
+              "tag": "f70b31a2db15c023d641c32f433fb02cd04df5a6-0",
+              "version_label": null,
+              "digest": null
+            }
+          ]
+        },
+        "metadata": {
+          "meta_path": "modules/nf-core/bowtie2/align/meta.yml",
+          "tool_names": [
+            "bowtie2"
+          ],
+          "tool_urls": [
+            {
+              "kind": "homepage",
+              "url": "http://bowtie-bio.sourceforge.net/bowtie2/index.shtml",
+              "metadata_path": "modules/nf-core/bowtie2/align/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/modules/nf-core/bowtie2/align/meta.yml"
+            },
+            {
+              "kind": "documentation",
+              "url": "http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml",
+              "metadata_path": "modules/nf-core/bowtie2/align/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/modules/nf-core/bowtie2/align/meta.yml"
+            }
+          ],
+          "citations": [
+            {
+              "label": "SAMtools",
+              "url": "https://www.ncbi.nlm.nih.gov/pubmed/19505943/",
+              "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/CITATIONS.md"
+            }
+          ]
+        },
+        "reachable_from_pipeline_main": true
+      },
+      "new": {
+        "main_path": "modules/nf-core/bowtie2/align/main.nf",
+        "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/bowtie2/align/main.nf",
+        "main_sha256": "780c7cf832e810c2d3241d62a43fb820c42dfcb8bb35344579fbb0f30626a266",
+        "module_lock": {
+          "repository": "https://github.com/nf-core/modules.git",
+          "branch": "master",
+          "git_sha": "a0961c41021561ac7cf139f86bd7812a2f99e994",
+          "installed_by": [
+            "fastq_align_bowtie2"
+          ]
+        },
+        "upstream_module_sha": "a0961c41021561ac7cf139f86bd7812a2f99e994",
+        "reported_tools": [
+          "bowtie2",
+          "samtools",
+          "pigz"
+        ],
+        "conda": {
+          "directive": {
+            "expression": "conda \"${moduleDir}/environment.yml\"",
+            "value": "${moduleDir}/environment.yml",
+            "line": 5
+          },
+          "environment_path": "modules/nf-core/bowtie2/align/environment.yml",
+          "environment_source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/bowtie2/align/environment.yml",
+          "dependencies": [
+            {
+              "raw": "bioconda::bowtie2=2.5.4",
+              "name": "bowtie2",
+              "channel": "bioconda",
+              "version_specifier": "=2.5.4",
+              "line": 8
+            },
+            {
+              "raw": "bioconda::htslib=1.21",
+              "name": "htslib",
+              "channel": "bioconda",
+              "version_specifier": "=1.21",
+              "line": 10
+            },
+            {
+              "raw": "bioconda::samtools=1.21",
+              "name": "samtools",
+              "channel": "bioconda",
+              "version_specifier": "=1.21",
+              "line": 12
+            },
+            {
+              "raw": "conda-forge::pigz=2.8",
+              "name": "pigz",
+              "channel": "conda-forge",
+              "version_specifier": "=2.8",
+              "line": 13
+            }
+          ],
+          "environment_text": "---\n# yaml-language-server: $schema=https://raw.githubusercontent.com/nf-core/modules/master/modules/environment-schema.json\nchannels:\n  - conda-forge\n  - bioconda\ndependencies:\n  # renovate: datasource=conda depName=bioconda/bowtie2\n  - bioconda::bowtie2=2.5.4\n  # renovate: datasource=conda depName=bioconda/htslib\n  - bioconda::htslib=1.21\n  # renovate: datasource=conda depName=bioconda/samtools\n  - bioconda::samtools=1.21\n  - conda-forge::pigz=2.8\n"
+        },
+        "container": {
+          "directive": {
+            "expression": "container \"${ workflow.containerEngine in ['singularity', 'apptainer'] && !task.ext.singularity_pull_docker_container ?\n        'https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/b4/b41b403e81883126c3227fc45840015538e8e2212f13abc9ae84e4b98891d51c/data' :\n        'community.wave.seqera.io/library/bowtie2_htslib_samtools_pigz:edeb13799090a2a6' }\"",
+            "value": "${ workflow.containerEngine in ['singularity', 'apptainer'] && !task.ext.singularity_pull_docker_container ?\n        'https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/b4/b41b403e81883126c3227fc45840015538e8e2212f13abc9ae84e4b98891d51c/data' :\n        'community.wave.seqera.io/library/bowtie2_htslib_samtools_pigz:edeb13799090a2a6' }",
+            "line": 6
+          },
+          "references": [
+            {
+              "reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/b4/b41b403e81883126c3227fc45840015538e8e2212f13abc9ae84e4b98891d51c/data",
+              "image_name": null,
+              "tag": null,
+              "version_label": null,
+              "digest": "b41b403e81883126c3227fc45840015538e8e2212f13abc9ae84e4b98891d51c"
+            },
+            {
+              "reference": "community.wave.seqera.io/library/bowtie2_htslib_samtools_pigz:edeb13799090a2a6",
+              "image_name": "bowtie2_htslib_samtools_pigz",
+              "tag": "edeb13799090a2a6",
+              "version_label": null,
+              "digest": null
+            }
+          ]
+        },
+        "metadata": {
+          "meta_path": "modules/nf-core/bowtie2/align/meta.yml",
+          "tool_names": [
+            "bowtie2"
+          ],
+          "tool_urls": [
+            {
+              "kind": "homepage",
+              "url": "http://bowtie-bio.sourceforge.net/bowtie2/index.shtml",
+              "metadata_path": "modules/nf-core/bowtie2/align/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/bowtie2/align/meta.yml"
+            },
+            {
+              "kind": "documentation",
+              "url": "http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml",
+              "metadata_path": "modules/nf-core/bowtie2/align/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/bowtie2/align/meta.yml"
+            }
+          ],
+          "citations": [
+            {
+              "label": "SAMtools",
+              "url": "https://www.ncbi.nlm.nih.gov/pubmed/19505943/",
+              "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/CITATIONS.md"
+            }
+          ]
+        },
+        "reachable_from_pipeline_main": true
+      },
+      "module_lock_revision_changed": true,
+      "main_source_changed": true,
+      "tool_version_classification": "declared_version_changed",
+      "declared_tool_version_changed": true,
+      "changed_conda_package_specifiers": [
+        "bowtie2",
+        "pigz",
+        "samtools"
+      ],
+      "added_conda_packages": [
+        "htslib"
+      ],
+      "removed_conda_packages": [],
+      "container_version_labels_changed": false,
+      "notes": [
+        "old: opaque image tag; contents/package versions not inferred.",
+        "new: opaque image tag; contents/package versions not inferred."
+      ]
+    },
+    {
+      "kind": "nfcore_module",
+      "name": "bowtie2/build",
+      "path": "modules/nf-core/bowtie2/build",
+      "status": "updated",
+      "changed_files": [
+        "modules/nf-core/bowtie2/build/environment.yml",
+        "modules/nf-core/bowtie2/build/main.nf",
+        "modules/nf-core/bowtie2/build/meta.yml",
+        "modules/nf-core/bowtie2/build/tests/main.nf.test",
+        "modules/nf-core/bowtie2/build/tests/main.nf.test.snap"
+      ],
+      "old": {
+        "main_path": "modules/nf-core/bowtie2/build/main.nf",
+        "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/modules/nf-core/bowtie2/build/main.nf",
+        "main_sha256": "20688ca91d5730903e561787a638285882d4a8f94bb4dd6d845439d210a0d072",
+        "module_lock": {
+          "repository": "https://github.com/nf-core/modules.git",
+          "branch": "master",
+          "git_sha": "6a24fbe314bb2e6fe6306c29a63076ea87e8eb3c",
+          "installed_by": [
+            "modules"
+          ]
+        },
+        "upstream_module_sha": "6a24fbe314bb2e6fe6306c29a63076ea87e8eb3c",
+        "reported_tools": [],
+        "conda": {
+          "directive": {
+            "expression": "conda \"bioconda::bowtie2=2.4.4\"",
+            "value": "bioconda::bowtie2=2.4.4",
+            "line": 5
+          },
+          "environment_path": null,
+          "environment_source_url": null,
+          "dependencies": [
+            {
+              "raw": "bioconda::bowtie2=2.4.4",
+              "name": "bowtie2",
+              "channel": "bioconda",
+              "version_specifier": "=2.4.4",
+              "line": null
+            }
+          ],
+          "environment_text": null
+        },
+        "container": {
+          "directive": {
+            "expression": "container \"${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?\n        'https://depot.galaxyproject.org/singularity/bowtie2:2.4.4--py39hbb4e92a_0' :\n        'biocontainers/bowtie2:2.4.4--py39hbb4e92a_0' }\"",
+            "value": "${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?\n        'https://depot.galaxyproject.org/singularity/bowtie2:2.4.4--py39hbb4e92a_0' :\n        'biocontainers/bowtie2:2.4.4--py39hbb4e92a_0' }",
+            "line": 6
+          },
+          "references": [
+            {
+              "reference": "https://depot.galaxyproject.org/singularity/bowtie2:2.4.4--py39hbb4e92a_0",
+              "image_name": "bowtie2",
+              "tag": "2.4.4--py39hbb4e92a_0",
+              "version_label": "2.4.4",
+              "digest": null
+            },
+            {
+              "reference": "biocontainers/bowtie2:2.4.4--py39hbb4e92a_0",
+              "image_name": "bowtie2",
+              "tag": "2.4.4--py39hbb4e92a_0",
+              "version_label": "2.4.4",
+              "digest": null
+            }
+          ]
+        },
+        "metadata": {
+          "meta_path": "modules/nf-core/bowtie2/build/meta.yml",
+          "tool_names": [
+            "bowtie2"
+          ],
+          "tool_urls": [
+            {
+              "kind": "homepage",
+              "url": "http://bowtie-bio.sourceforge.net/bowtie2/index.shtml",
+              "metadata_path": "modules/nf-core/bowtie2/build/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/modules/nf-core/bowtie2/build/meta.yml"
+            },
+            {
+              "kind": "documentation",
+              "url": "http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml",
+              "metadata_path": "modules/nf-core/bowtie2/build/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/modules/nf-core/bowtie2/build/meta.yml"
+            }
+          ],
+          "citations": []
+        },
+        "reachable_from_pipeline_main": true
+      },
+      "new": {
+        "main_path": "modules/nf-core/bowtie2/build/main.nf",
+        "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/bowtie2/build/main.nf",
+        "main_sha256": "c63651163285233fff53c919d85461ea2dd0ddfac15a7c0c11d5405c6cba9171",
+        "module_lock": {
+          "repository": "https://github.com/nf-core/modules.git",
+          "branch": "master",
+          "git_sha": "a0961c41021561ac7cf139f86bd7812a2f99e994",
+          "installed_by": [
+            "modules"
+          ]
+        },
+        "upstream_module_sha": "a0961c41021561ac7cf139f86bd7812a2f99e994",
+        "reported_tools": [
+          "bowtie2"
+        ],
+        "conda": {
+          "directive": {
+            "expression": "conda \"${moduleDir}/environment.yml\"",
+            "value": "${moduleDir}/environment.yml",
+            "line": 5
+          },
+          "environment_path": "modules/nf-core/bowtie2/build/environment.yml",
+          "environment_source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/bowtie2/build/environment.yml",
+          "dependencies": [
+            {
+              "raw": "bioconda::bowtie2=2.5.4",
+              "name": "bowtie2",
+              "channel": "bioconda",
+              "version_specifier": "=2.5.4",
+              "line": 8
+            },
+            {
+              "raw": "bioconda::htslib=1.21",
+              "name": "htslib",
+              "channel": "bioconda",
+              "version_specifier": "=1.21",
+              "line": 10
+            },
+            {
+              "raw": "bioconda::samtools=1.21",
+              "name": "samtools",
+              "channel": "bioconda",
+              "version_specifier": "=1.21",
+              "line": 12
+            },
+            {
+              "raw": "conda-forge::pigz=2.8",
+              "name": "pigz",
+              "channel": "conda-forge",
+              "version_specifier": "=2.8",
+              "line": 13
+            }
+          ],
+          "environment_text": "---\n# yaml-language-server: $schema=https://raw.githubusercontent.com/nf-core/modules/master/modules/environment-schema.json\nchannels:\n  - conda-forge\n  - bioconda\ndependencies:\n  # renovate: datasource=conda depName=bioconda/bowtie2\n  - bioconda::bowtie2=2.5.4\n  # renovate: datasource=conda depName=bioconda/htslib\n  - bioconda::htslib=1.21\n  # renovate: datasource=conda depName=bioconda/samtools\n  - bioconda::samtools=1.21\n  - conda-forge::pigz=2.8\n"
+        },
+        "container": {
+          "directive": {
+            "expression": "container \"${ workflow.containerEngine in ['singularity', 'apptainer'] && !task.ext.singularity_pull_docker_container ?\n        'https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/b4/b41b403e81883126c3227fc45840015538e8e2212f13abc9ae84e4b98891d51c/data' :\n        'community.wave.seqera.io/library/bowtie2_htslib_samtools_pigz:edeb13799090a2a6' }\"",
+            "value": "${ workflow.containerEngine in ['singularity', 'apptainer'] && !task.ext.singularity_pull_docker_container ?\n        'https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/b4/b41b403e81883126c3227fc45840015538e8e2212f13abc9ae84e4b98891d51c/data' :\n        'community.wave.seqera.io/library/bowtie2_htslib_samtools_pigz:edeb13799090a2a6' }",
+            "line": 6
+          },
+          "references": [
+            {
+              "reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/b4/b41b403e81883126c3227fc45840015538e8e2212f13abc9ae84e4b98891d51c/data",
+              "image_name": null,
+              "tag": null,
+              "version_label": null,
+              "digest": "b41b403e81883126c3227fc45840015538e8e2212f13abc9ae84e4b98891d51c"
+            },
+            {
+              "reference": "community.wave.seqera.io/library/bowtie2_htslib_samtools_pigz:edeb13799090a2a6",
+              "image_name": "bowtie2_htslib_samtools_pigz",
+              "tag": "edeb13799090a2a6",
+              "version_label": null,
+              "digest": null
+            }
+          ]
+        },
+        "metadata": {
+          "meta_path": "modules/nf-core/bowtie2/build/meta.yml",
+          "tool_names": [
+            "bowtie2"
+          ],
+          "tool_urls": [
+            {
+              "kind": "homepage",
+              "url": "http://bowtie-bio.sourceforge.net/bowtie2/index.shtml",
+              "metadata_path": "modules/nf-core/bowtie2/build/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/bowtie2/build/meta.yml"
+            },
+            {
+              "kind": "documentation",
+              "url": "http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml",
+              "metadata_path": "modules/nf-core/bowtie2/build/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/bowtie2/build/meta.yml"
+            }
+          ],
+          "citations": [
+            {
+              "label": "SAMtools",
+              "url": "https://www.ncbi.nlm.nih.gov/pubmed/19505943/",
+              "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/CITATIONS.md"
+            }
+          ]
+        },
+        "reachable_from_pipeline_main": true
+      },
+      "module_lock_revision_changed": true,
+      "main_source_changed": true,
+      "tool_version_classification": "declared_version_changed",
+      "declared_tool_version_changed": true,
+      "changed_conda_package_specifiers": [
+        "bowtie2"
+      ],
+      "added_conda_packages": [
+        "htslib",
+        "pigz",
+        "samtools"
+      ],
+      "removed_conda_packages": [],
+      "container_version_labels_changed": false,
+      "notes": [
+        "new: opaque image tag; contents/package versions not inferred."
+      ]
+    },
+    {
+      "kind": "nfcore_module",
+      "name": "bwa/index",
+      "path": "modules/nf-core/bwa/index",
+      "status": "updated",
+      "changed_files": [
+        "modules/nf-core/bwa/index/bwa-index.diff",
+        "modules/nf-core/bwa/index/main.nf"
+      ],
+      "old": {
+        "main_path": "modules/nf-core/bwa/index/main.nf",
+        "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/modules/nf-core/bwa/index/main.nf",
+        "main_sha256": "9c576230256c4ac87b304dc399bd487680127daefe0881213e29ce5fc906f679",
+        "module_lock": {
+          "repository": "https://github.com/nf-core/modules.git",
+          "branch": "master",
+          "git_sha": "baa9ee31e48f115832c8eb91a980bf35c9ffc9b9",
+          "installed_by": [
+            "modules"
+          ]
+        },
+        "upstream_module_sha": "baa9ee31e48f115832c8eb91a980bf35c9ffc9b9",
+        "reported_tools": [
+          "bwa"
+        ],
+        "conda": {
+          "directive": {
+            "expression": "conda \"${moduleDir}/environment.yml\"",
+            "value": "${moduleDir}/environment.yml",
+            "line": 7
+          },
+          "environment_path": "modules/nf-core/bwa/index/environment.yml",
+          "environment_source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/modules/nf-core/bwa/index/environment.yml",
+          "dependencies": [
+            {
+              "raw": "bioconda::bwa=0.7.19",
+              "name": "bwa",
+              "channel": "bioconda",
+              "version_specifier": "=0.7.19",
+              "line": 9
+            },
+            {
+              "raw": "bioconda::htslib=1.22.1",
+              "name": "htslib",
+              "channel": "bioconda",
+              "version_specifier": "=1.22.1",
+              "line": 11
+            },
+            {
+              "raw": "bioconda::samtools=1.22.1",
+              "name": "samtools",
+              "channel": "bioconda",
+              "version_specifier": "=1.22.1",
+              "line": 13
+            }
+          ],
+          "environment_text": "---\n# yaml-language-server: $schema=https://raw.githubusercontent.com/nf-core/modules/master/modules/environment-schema.json\nchannels:\n  - conda-forge\n  - bioconda\n\ndependencies:\n  # renovate: datasource=conda depName=bioconda/bwa\n  - bioconda::bwa=0.7.19\n  # renovate: datasource=conda depName=bioconda/htslib\n  - bioconda::htslib=1.22.1\n  # renovate: datasource=conda depName=bioconda/samtools\n  - bioconda::samtools=1.22.1\n"
+        },
+        "container": {
+          "directive": {
+            "expression": "container \"${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?\n        'https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/d7/d7e24dc1e4d93ca4d3a76a78d4c834a7be3985b0e1e56fddd61662e047863a8a/data' :\n        'community.wave.seqera.io/library/bwa_htslib_samtools:83b50ff84ead50d0' }\"",
+            "value": "${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?\n        'https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/d7/d7e24dc1e4d93ca4d3a76a78d4c834a7be3985b0e1e56fddd61662e047863a8a/data' :\n        'community.wave.seqera.io/library/bwa_htslib_samtools:83b50ff84ead50d0' }",
+            "line": 8
+          },
+          "references": [
+            {
+              "reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/d7/d7e24dc1e4d93ca4d3a76a78d4c834a7be3985b0e1e56fddd61662e047863a8a/data",
+              "image_name": null,
+              "tag": null,
+              "version_label": null,
+              "digest": "d7e24dc1e4d93ca4d3a76a78d4c834a7be3985b0e1e56fddd61662e047863a8a"
+            },
+            {
+              "reference": "community.wave.seqera.io/library/bwa_htslib_samtools:83b50ff84ead50d0",
+              "image_name": "bwa_htslib_samtools",
+              "tag": "83b50ff84ead50d0",
+              "version_label": null,
+              "digest": null
+            }
+          ]
+        },
+        "metadata": {
+          "meta_path": "modules/nf-core/bwa/index/meta.yml",
+          "tool_names": [
+            "bwa"
+          ],
+          "tool_urls": [
+            {
+              "kind": "homepage",
+              "url": "http://bio-bwa.sourceforge.net/",
+              "metadata_path": "modules/nf-core/bwa/index/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/modules/nf-core/bwa/index/meta.yml"
+            },
+            {
+              "kind": "documentation",
+              "url": "https://bio-bwa.sourceforge.net/bwa.shtml",
+              "metadata_path": "modules/nf-core/bwa/index/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/modules/nf-core/bwa/index/meta.yml"
+            }
+          ],
+          "citations": [
+            {
+              "label": "BWA",
+              "url": "https://www.ncbi.nlm.nih.gov/pubmed/19451168/",
+              "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/CITATIONS.md"
+            },
+            {
+              "label": "SAMtools",
+              "url": "https://www.ncbi.nlm.nih.gov/pubmed/19505943/",
+              "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/CITATIONS.md"
+            }
+          ]
+        },
+        "reachable_from_pipeline_main": true
+      },
+      "new": {
+        "main_path": "modules/nf-core/bwa/index/main.nf",
+        "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/bwa/index/main.nf",
+        "main_sha256": "6dc18706804c3816c17c849cd266da1293a389dc4a963ace946edbd547962484",
+        "module_lock": {
+          "repository": "https://github.com/nf-core/modules.git",
+          "branch": "master",
+          "git_sha": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+          "installed_by": [
+            "modules"
+          ],
+          "patch": "modules/nf-core/bwa/index/bwa-index.diff"
+        },
+        "upstream_module_sha": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+        "reported_tools": [
+          "bwa"
+        ],
+        "conda": {
+          "directive": {
+            "expression": "conda \"${moduleDir}/environment.yml\"",
+            "value": "${moduleDir}/environment.yml",
+            "line": 9
+          },
+          "environment_path": "modules/nf-core/bwa/index/environment.yml",
+          "environment_source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/bwa/index/environment.yml",
+          "dependencies": [
+            {
+              "raw": "bioconda::bwa=0.7.19",
+              "name": "bwa",
+              "channel": "bioconda",
+              "version_specifier": "=0.7.19",
+              "line": 9
+            },
+            {
+              "raw": "bioconda::htslib=1.22.1",
+              "name": "htslib",
+              "channel": "bioconda",
+              "version_specifier": "=1.22.1",
+              "line": 11
+            },
+            {
+              "raw": "bioconda::samtools=1.22.1",
+              "name": "samtools",
+              "channel": "bioconda",
+              "version_specifier": "=1.22.1",
+              "line": 13
+            }
+          ],
+          "environment_text": "---\n# yaml-language-server: $schema=https://raw.githubusercontent.com/nf-core/modules/master/modules/environment-schema.json\nchannels:\n  - conda-forge\n  - bioconda\n\ndependencies:\n  # renovate: datasource=conda depName=bioconda/bwa\n  - bioconda::bwa=0.7.19\n  # renovate: datasource=conda depName=bioconda/htslib\n  - bioconda::htslib=1.22.1\n  # renovate: datasource=conda depName=bioconda/samtools\n  - bioconda::samtools=1.22.1\n"
+        },
+        "container": {
+          "directive": {
+            "expression": "container \"${ workflow.containerEngine in ['singularity', 'apptainer'] && !task.ext.singularity_pull_docker_container ?\n        'https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/d7/d7e24dc1e4d93ca4d3a76a78d4c834a7be3985b0e1e56fddd61662e047863a8a/data' :\n        'community.wave.seqera.io/library/bwa_htslib_samtools:83b50ff84ead50d0' }\"",
+            "value": "${ workflow.containerEngine in ['singularity', 'apptainer'] && !task.ext.singularity_pull_docker_container ?\n        'https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/d7/d7e24dc1e4d93ca4d3a76a78d4c834a7be3985b0e1e56fddd61662e047863a8a/data' :\n        'community.wave.seqera.io/library/bwa_htslib_samtools:83b50ff84ead50d0' }",
+            "line": 10
+          },
+          "references": [
+            {
+              "reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/d7/d7e24dc1e4d93ca4d3a76a78d4c834a7be3985b0e1e56fddd61662e047863a8a/data",
+              "image_name": null,
+              "tag": null,
+              "version_label": null,
+              "digest": "d7e24dc1e4d93ca4d3a76a78d4c834a7be3985b0e1e56fddd61662e047863a8a"
+            },
+            {
+              "reference": "community.wave.seqera.io/library/bwa_htslib_samtools:83b50ff84ead50d0",
+              "image_name": "bwa_htslib_samtools",
+              "tag": "83b50ff84ead50d0",
+              "version_label": null,
+              "digest": null
+            }
+          ]
+        },
+        "metadata": {
+          "meta_path": "modules/nf-core/bwa/index/meta.yml",
+          "tool_names": [
+            "bwa"
+          ],
+          "tool_urls": [
+            {
+              "kind": "homepage",
+              "url": "http://bio-bwa.sourceforge.net/",
+              "metadata_path": "modules/nf-core/bwa/index/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/bwa/index/meta.yml"
+            },
+            {
+              "kind": "documentation",
+              "url": "https://bio-bwa.sourceforge.net/bwa.shtml",
+              "metadata_path": "modules/nf-core/bwa/index/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/bwa/index/meta.yml"
+            }
+          ],
+          "citations": [
+            {
+              "label": "BWA",
+              "url": "https://www.ncbi.nlm.nih.gov/pubmed/19451168/",
+              "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/CITATIONS.md"
+            },
+            {
+              "label": "SAMtools",
+              "url": "https://www.ncbi.nlm.nih.gov/pubmed/19505943/",
+              "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/CITATIONS.md"
+            }
+          ]
+        },
+        "reachable_from_pipeline_main": true
+      },
+      "module_lock_revision_changed": true,
+      "main_source_changed": true,
+      "tool_version_classification": "same_declared_versions_build_or_wiring_changed",
+      "declared_tool_version_changed": false,
+      "changed_conda_package_specifiers": [],
+      "added_conda_packages": [],
+      "removed_conda_packages": [],
+      "container_version_labels_changed": false,
+      "notes": [
+        "old: opaque image tag; contents/package versions not inferred.",
+        "new: opaque image tag; contents/package versions not inferred."
+      ]
+    },
+    {
+      "kind": "nfcore_module",
+      "name": "bwa/mem",
+      "path": "modules/nf-core/bwa/mem",
+      "status": "updated",
+      "changed_files": [
+        "modules/nf-core/bwa/mem/environment.yml",
+        "modules/nf-core/bwa/mem/main.nf",
+        "modules/nf-core/bwa/mem/meta.yml",
+        "modules/nf-core/bwa/mem/tests/main.nf.test",
+        "modules/nf-core/bwa/mem/tests/main.nf.test.snap",
+        "modules/nf-core/bwa/mem/tests/nextflow_sam.config",
+        "modules/nf-core/bwa/mem/tests/tags.yml"
+      ],
+      "old": {
+        "main_path": "modules/nf-core/bwa/mem/main.nf",
+        "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/modules/nf-core/bwa/mem/main.nf",
+        "main_sha256": "df55fa6c56d4ff3f38cf404907dbfce21e47b25a95fda59a83b14eefb70148c1",
+        "module_lock": {
+          "repository": "https://github.com/nf-core/modules.git",
+          "branch": "master",
+          "git_sha": "b97197968ac12dde2463fa54541f6350c46f2035",
+          "installed_by": [
+            "fastq_align_bwa"
+          ]
+        },
+        "upstream_module_sha": "b97197968ac12dde2463fa54541f6350c46f2035",
+        "reported_tools": [],
+        "conda": {
+          "directive": {
+            "expression": "conda \"${moduleDir}/environment.yml\"",
+            "value": "${moduleDir}/environment.yml",
+            "line": 5
+          },
+          "environment_path": "modules/nf-core/bwa/mem/environment.yml",
+          "environment_source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/modules/nf-core/bwa/mem/environment.yml",
+          "dependencies": [
+            {
+              "raw": "bwa=0.7.17",
+              "name": "bwa",
+              "channel": null,
+              "version_specifier": "=0.7.17",
+              "line": 7
+            },
+            {
+              "raw": "samtools=1.19.2",
+              "name": "samtools",
+              "channel": null,
+              "version_specifier": "=1.19.2",
+              "line": 9
+            },
+            {
+              "raw": "htslib=1.19.1",
+              "name": "htslib",
+              "channel": null,
+              "version_specifier": "=1.19.1",
+              "line": 10
+            }
+          ],
+          "environment_text": "name: bwa_mem\nchannels:\n  - conda-forge\n  - bioconda\n  - defaults\ndependencies:\n  - bwa=0.7.17\n  # renovate: datasource=conda depName=bioconda/samtools\n  - samtools=1.19.2\n  - htslib=1.19.1\n"
+        },
+        "container": {
+          "directive": {
+            "expression": "container \"${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?\n        'https://depot.galaxyproject.org/singularity/mulled-v2-fe8faa35dbf6dc65a0f7f5d4ea12e31a79f73e40:a34558545ae1413d94bde4578787ebef08027945-0' :\n        'biocontainers/mulled-v2-fe8faa35dbf6dc65a0f7f5d4ea12e31a79f73e40:a34558545ae1413d94bde4578787ebef08027945-0' }\"",
+            "value": "${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?\n        'https://depot.galaxyproject.org/singularity/mulled-v2-fe8faa35dbf6dc65a0f7f5d4ea12e31a79f73e40:a34558545ae1413d94bde4578787ebef08027945-0' :\n        'biocontainers/mulled-v2-fe8faa35dbf6dc65a0f7f5d4ea12e31a79f73e40:a34558545ae1413d94bde4578787ebef08027945-0' }",
+            "line": 6
+          },
+          "references": [
+            {
+              "reference": "https://depot.galaxyproject.org/singularity/mulled-v2-fe8faa35dbf6dc65a0f7f5d4ea12e31a79f73e40:a34558545ae1413d94bde4578787ebef08027945-0",
+              "image_name": "mulled-v2-fe8faa35dbf6dc65a0f7f5d4ea12e31a79f73e40",
+              "tag": "a34558545ae1413d94bde4578787ebef08027945-0",
+              "version_label": null,
+              "digest": null
+            },
+            {
+              "reference": "biocontainers/mulled-v2-fe8faa35dbf6dc65a0f7f5d4ea12e31a79f73e40:a34558545ae1413d94bde4578787ebef08027945-0",
+              "image_name": "mulled-v2-fe8faa35dbf6dc65a0f7f5d4ea12e31a79f73e40",
+              "tag": "a34558545ae1413d94bde4578787ebef08027945-0",
+              "version_label": null,
+              "digest": null
+            }
+          ]
+        },
+        "metadata": {
+          "meta_path": "modules/nf-core/bwa/mem/meta.yml",
+          "tool_names": [
+            "bwa"
+          ],
+          "tool_urls": [
+            {
+              "kind": "homepage",
+              "url": "http://bio-bwa.sourceforge.net/",
+              "metadata_path": "modules/nf-core/bwa/mem/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/modules/nf-core/bwa/mem/meta.yml"
+            },
+            {
+              "kind": "documentation",
+              "url": "http://www.htslib.org/doc/samtools.html",
+              "metadata_path": "modules/nf-core/bwa/mem/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/modules/nf-core/bwa/mem/meta.yml"
+            }
+          ],
+          "citations": [
+            {
+              "label": "BWA",
+              "url": "https://www.ncbi.nlm.nih.gov/pubmed/19451168/",
+              "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/CITATIONS.md"
+            },
+            {
+              "label": "SAMtools",
+              "url": "https://www.ncbi.nlm.nih.gov/pubmed/19505943/",
+              "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/CITATIONS.md"
+            }
+          ]
+        },
+        "reachable_from_pipeline_main": true
+      },
+      "new": {
+        "main_path": "modules/nf-core/bwa/mem/main.nf",
+        "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/bwa/mem/main.nf",
+        "main_sha256": "c3e0a79f96d165f04f9d7cbde36fcf0468dc8dcb2d10408580d45eef088c1f74",
+        "module_lock": {
+          "repository": "https://github.com/nf-core/modules.git",
+          "branch": "master",
+          "git_sha": "2fb127c8fd13de0adaa676df7169131e45c0b114",
+          "installed_by": [
+            "fastq_align_bwa"
+          ]
+        },
+        "upstream_module_sha": "2fb127c8fd13de0adaa676df7169131e45c0b114",
+        "reported_tools": [
+          "bwa",
+          "samtools"
+        ],
+        "conda": {
+          "directive": {
+            "expression": "conda \"${moduleDir}/environment.yml\"",
+            "value": "${moduleDir}/environment.yml",
+            "line": 5
+          },
+          "environment_path": "modules/nf-core/bwa/mem/environment.yml",
+          "environment_source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/bwa/mem/environment.yml",
+          "dependencies": [
+            {
+              "raw": "bioconda::bwa=0.7.19",
+              "name": "bwa",
+              "channel": "bioconda",
+              "version_specifier": "=0.7.19",
+              "line": 9
+            },
+            {
+              "raw": "bioconda::htslib=1.22.1",
+              "name": "htslib",
+              "channel": "bioconda",
+              "version_specifier": "=1.22.1",
+              "line": 11
+            },
+            {
+              "raw": "bioconda::samtools=1.22.1",
+              "name": "samtools",
+              "channel": "bioconda",
+              "version_specifier": "=1.22.1",
+              "line": 13
+            }
+          ],
+          "environment_text": "---\n# yaml-language-server: $schema=https://raw.githubusercontent.com/nf-core/modules/master/modules/environment-schema.json\nchannels:\n  - conda-forge\n  - bioconda\n\ndependencies:\n  # renovate: datasource=conda depName=bioconda/bwa\n  - bioconda::bwa=0.7.19\n  # renovate: datasource=conda depName=bioconda/htslib\n  - bioconda::htslib=1.22.1\n  # renovate: datasource=conda depName=bioconda/samtools\n  - bioconda::samtools=1.22.1\n"
+        },
+        "container": {
+          "directive": {
+            "expression": "container \"${ workflow.containerEngine in ['singularity', 'apptainer'] && !task.ext.singularity_pull_docker_container ?\n        'https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/d7/d7e24dc1e4d93ca4d3a76a78d4c834a7be3985b0e1e56fddd61662e047863a8a/data' :\n        'community.wave.seqera.io/library/bwa_htslib_samtools:83b50ff84ead50d0' }\"",
+            "value": "${ workflow.containerEngine in ['singularity', 'apptainer'] && !task.ext.singularity_pull_docker_container ?\n        'https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/d7/d7e24dc1e4d93ca4d3a76a78d4c834a7be3985b0e1e56fddd61662e047863a8a/data' :\n        'community.wave.seqera.io/library/bwa_htslib_samtools:83b50ff84ead50d0' }",
+            "line": 6
+          },
+          "references": [
+            {
+              "reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/d7/d7e24dc1e4d93ca4d3a76a78d4c834a7be3985b0e1e56fddd61662e047863a8a/data",
+              "image_name": null,
+              "tag": null,
+              "version_label": null,
+              "digest": "d7e24dc1e4d93ca4d3a76a78d4c834a7be3985b0e1e56fddd61662e047863a8a"
+            },
+            {
+              "reference": "community.wave.seqera.io/library/bwa_htslib_samtools:83b50ff84ead50d0",
+              "image_name": "bwa_htslib_samtools",
+              "tag": "83b50ff84ead50d0",
+              "version_label": null,
+              "digest": null
+            }
+          ]
+        },
+        "metadata": {
+          "meta_path": "modules/nf-core/bwa/mem/meta.yml",
+          "tool_names": [
+            "bwa"
+          ],
+          "tool_urls": [
+            {
+              "kind": "homepage",
+              "url": "http://bio-bwa.sourceforge.net/",
+              "metadata_path": "modules/nf-core/bwa/mem/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/bwa/mem/meta.yml"
+            },
+            {
+              "kind": "documentation",
+              "url": "https://bio-bwa.sourceforge.net/bwa.shtml",
+              "metadata_path": "modules/nf-core/bwa/mem/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/bwa/mem/meta.yml"
+            }
+          ],
+          "citations": [
+            {
+              "label": "BWA",
+              "url": "https://www.ncbi.nlm.nih.gov/pubmed/19451168/",
+              "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/CITATIONS.md"
+            },
+            {
+              "label": "SAMtools",
+              "url": "https://www.ncbi.nlm.nih.gov/pubmed/19505943/",
+              "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/CITATIONS.md"
+            }
+          ]
+        },
+        "reachable_from_pipeline_main": true
+      },
+      "module_lock_revision_changed": true,
+      "main_source_changed": true,
+      "tool_version_classification": "declared_version_changed",
+      "declared_tool_version_changed": true,
+      "changed_conda_package_specifiers": [
+        "bwa",
+        "htslib",
+        "samtools"
+      ],
+      "added_conda_packages": [],
+      "removed_conda_packages": [],
+      "container_version_labels_changed": false,
+      "notes": [
+        "old: opaque image tag; contents/package versions not inferred.",
+        "new: opaque image tag; contents/package versions not inferred."
+      ]
+    },
+    {
+      "kind": "nfcore_module",
+      "name": "chromap/chromap",
+      "path": "modules/nf-core/chromap/chromap",
+      "status": "updated",
+      "changed_files": [
+        "modules/nf-core/chromap/chromap/environment.yml",
+        "modules/nf-core/chromap/chromap/main.nf",
+        "modules/nf-core/chromap/chromap/meta.yml",
+        "modules/nf-core/chromap/chromap/tests/main.nf.test",
+        "modules/nf-core/chromap/chromap/tests/main.nf.test.snap",
+        "modules/nf-core/chromap/chromap/tests/nextflow.config"
+      ],
+      "old": {
+        "main_path": "modules/nf-core/chromap/chromap/main.nf",
+        "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/modules/nf-core/chromap/chromap/main.nf",
+        "main_sha256": "04c9e635fd74acbcee2980a16b944a9a681a5246ee1b39a6414b9e3ce5957f83",
+        "module_lock": {
+          "repository": "https://github.com/nf-core/modules.git",
+          "branch": "master",
+          "git_sha": "603ecbd9f45300c9788f197d2a15a005685b4220",
+          "installed_by": [
+            "fastq_align_chromap"
+          ]
+        },
+        "upstream_module_sha": "603ecbd9f45300c9788f197d2a15a005685b4220",
+        "reported_tools": [],
+        "conda": {
+          "directive": {
+            "expression": "conda \"bioconda::chromap=0.2.4 bioconda::samtools=1.16.1\"",
+            "value": "bioconda::chromap=0.2.4 bioconda::samtools=1.16.1",
+            "line": 5
+          },
+          "environment_path": null,
+          "environment_source_url": null,
+          "dependencies": [
+            {
+              "raw": "bioconda::chromap=0.2.4",
+              "name": "chromap",
+              "channel": "bioconda",
+              "version_specifier": "=0.2.4",
+              "line": null
+            },
+            {
+              "raw": "bioconda::samtools=1.16.1",
+              "name": "samtools",
+              "channel": "bioconda",
+              "version_specifier": "=1.16.1",
+              "line": null
+            }
+          ],
+          "environment_text": null
+        },
+        "container": {
+          "directive": {
+            "expression": "container \"${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?\n        'https://depot.galaxyproject.org/singularity/mulled-v2-1f09f39f20b1c4ee36581dc81cc323c70e661633:5b2e433ab8b3d1ef098fc944b567fd98caa23f56-0' :\n        'biocontainers/mulled-v2-1f09f39f20b1c4ee36581dc81cc323c70e661633:5b2e433ab8b3d1ef098fc944b567fd98caa23f56-0' }\"",
+            "value": "${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?\n        'https://depot.galaxyproject.org/singularity/mulled-v2-1f09f39f20b1c4ee36581dc81cc323c70e661633:5b2e433ab8b3d1ef098fc944b567fd98caa23f56-0' :\n        'biocontainers/mulled-v2-1f09f39f20b1c4ee36581dc81cc323c70e661633:5b2e433ab8b3d1ef098fc944b567fd98caa23f56-0' }",
+            "line": 6
+          },
+          "references": [
+            {
+              "reference": "https://depot.galaxyproject.org/singularity/mulled-v2-1f09f39f20b1c4ee36581dc81cc323c70e661633:5b2e433ab8b3d1ef098fc944b567fd98caa23f56-0",
+              "image_name": "mulled-v2-1f09f39f20b1c4ee36581dc81cc323c70e661633",
+              "tag": "5b2e433ab8b3d1ef098fc944b567fd98caa23f56-0",
+              "version_label": null,
+              "digest": null
+            },
+            {
+              "reference": "biocontainers/mulled-v2-1f09f39f20b1c4ee36581dc81cc323c70e661633:5b2e433ab8b3d1ef098fc944b567fd98caa23f56-0",
+              "image_name": "mulled-v2-1f09f39f20b1c4ee36581dc81cc323c70e661633",
+              "tag": "5b2e433ab8b3d1ef098fc944b567fd98caa23f56-0",
+              "version_label": null,
+              "digest": null
+            }
+          ]
+        },
+        "metadata": {
+          "meta_path": "modules/nf-core/chromap/chromap/meta.yml",
+          "tool_names": [
+            "chromap"
+          ],
+          "tool_urls": [
+            {
+              "kind": "homepage",
+              "url": "https://github.com/haowenz/chromap",
+              "metadata_path": "modules/nf-core/chromap/chromap/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/modules/nf-core/chromap/chromap/meta.yml"
+            },
+            {
+              "kind": "documentation",
+              "url": "https://github.com/haowenz/chromap",
+              "metadata_path": "modules/nf-core/chromap/chromap/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/modules/nf-core/chromap/chromap/meta.yml"
+            }
+          ],
+          "citations": [
+            {
+              "label": "SAMtools",
+              "url": "https://www.ncbi.nlm.nih.gov/pubmed/19505943/",
+              "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/CITATIONS.md"
+            }
+          ]
+        },
+        "reachable_from_pipeline_main": true
+      },
+      "new": {
+        "main_path": "modules/nf-core/chromap/chromap/main.nf",
+        "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/chromap/chromap/main.nf",
+        "main_sha256": "f717291103be6b81c23deca338663840b2e217e50f21e56bf9ec281c4c5979d9",
+        "module_lock": {
+          "repository": "https://github.com/nf-core/modules.git",
+          "branch": "master",
+          "git_sha": "f2f969a4ee32243c7fab75f341f9be1dd3ce1a23",
+          "installed_by": [
+            "fastq_align_chromap"
+          ]
+        },
+        "upstream_module_sha": "f2f969a4ee32243c7fab75f341f9be1dd3ce1a23",
+        "reported_tools": [
+          "chromap",
+          "samtools"
+        ],
+        "conda": {
+          "directive": {
+            "expression": "conda \"${moduleDir}/environment.yml\"",
+            "value": "${moduleDir}/environment.yml",
+            "line": 5
+          },
+          "environment_path": "modules/nf-core/chromap/chromap/environment.yml",
+          "environment_source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/chromap/chromap/environment.yml",
+          "dependencies": [
+            {
+              "raw": "bioconda::chromap=0.3.2",
+              "name": "chromap",
+              "channel": "bioconda",
+              "version_specifier": "=0.3.2",
+              "line": 7
+            },
+            {
+              "raw": "bioconda::samtools=1.23.1",
+              "name": "samtools",
+              "channel": "bioconda",
+              "version_specifier": "=1.23.1",
+              "line": 8
+            }
+          ],
+          "environment_text": "---\n# yaml-language-server: $schema=https://raw.githubusercontent.com/nf-core/modules/master/modules/environment-schema.json\nchannels:\n  - conda-forge\n  - bioconda\ndependencies:\n  - bioconda::chromap=0.3.2\n  - bioconda::samtools=1.23.1\n"
+        },
+        "container": {
+          "directive": {
+            "expression": "container \"${ workflow.containerEngine in ['singularity', 'apptainer'] && !task.ext.singularity_pull_docker_container ?\n        'https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/5d/5d39e0b3f00c5469ffc2ceef4bd76959fba6313064ed2408dd4ccac498022ad6/data' :\n        'community.wave.seqera.io/library/chromap_samtools:b975c17adf0096ba' }\"",
+            "value": "${ workflow.containerEngine in ['singularity', 'apptainer'] && !task.ext.singularity_pull_docker_container ?\n        'https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/5d/5d39e0b3f00c5469ffc2ceef4bd76959fba6313064ed2408dd4ccac498022ad6/data' :\n        'community.wave.seqera.io/library/chromap_samtools:b975c17adf0096ba' }",
+            "line": 6
+          },
+          "references": [
+            {
+              "reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/5d/5d39e0b3f00c5469ffc2ceef4bd76959fba6313064ed2408dd4ccac498022ad6/data",
+              "image_name": null,
+              "tag": null,
+              "version_label": null,
+              "digest": "5d39e0b3f00c5469ffc2ceef4bd76959fba6313064ed2408dd4ccac498022ad6"
+            },
+            {
+              "reference": "community.wave.seqera.io/library/chromap_samtools:b975c17adf0096ba",
+              "image_name": "chromap_samtools",
+              "tag": "b975c17adf0096ba",
+              "version_label": null,
+              "digest": null
+            }
+          ]
+        },
+        "metadata": {
+          "meta_path": "modules/nf-core/chromap/chromap/meta.yml",
+          "tool_names": [
+            "chromap"
+          ],
+          "tool_urls": [
+            {
+              "kind": "homepage",
+              "url": "https://github.com/haowenz/chromap",
+              "metadata_path": "modules/nf-core/chromap/chromap/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/chromap/chromap/meta.yml"
+            },
+            {
+              "kind": "documentation",
+              "url": "https://github.com/haowenz/chromap",
+              "metadata_path": "modules/nf-core/chromap/chromap/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/chromap/chromap/meta.yml"
+            }
+          ],
+          "citations": [
+            {
+              "label": "SAMtools",
+              "url": "https://www.ncbi.nlm.nih.gov/pubmed/19505943/",
+              "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/CITATIONS.md"
+            }
+          ]
+        },
+        "reachable_from_pipeline_main": true
+      },
+      "module_lock_revision_changed": true,
+      "main_source_changed": true,
+      "tool_version_classification": "declared_version_changed",
+      "declared_tool_version_changed": true,
+      "changed_conda_package_specifiers": [
+        "chromap",
+        "samtools"
+      ],
+      "added_conda_packages": [],
+      "removed_conda_packages": [],
+      "container_version_labels_changed": false,
+      "notes": [
+        "old: opaque image tag; contents/package versions not inferred.",
+        "new: opaque image tag; contents/package versions not inferred."
+      ]
+    },
+    {
+      "kind": "nfcore_module",
+      "name": "chromap/index",
+      "path": "modules/nf-core/chromap/index",
+      "status": "updated",
+      "changed_files": [
+        "modules/nf-core/chromap/index/environment.yml",
+        "modules/nf-core/chromap/index/main.nf",
+        "modules/nf-core/chromap/index/meta.yml",
+        "modules/nf-core/chromap/index/tests/main.nf.test",
+        "modules/nf-core/chromap/index/tests/main.nf.test.snap"
+      ],
+      "old": {
+        "main_path": "modules/nf-core/chromap/index/main.nf",
+        "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/modules/nf-core/chromap/index/main.nf",
+        "main_sha256": "f581224280e13c43b25fb57cf6dc39ba25d9458728677199f0469718773e5369",
+        "module_lock": {
+          "repository": "https://github.com/nf-core/modules.git",
+          "branch": "master",
+          "git_sha": "911696ea0b62df80e900ef244d7867d177971f73",
+          "installed_by": [
+            "modules"
+          ]
+        },
+        "upstream_module_sha": "911696ea0b62df80e900ef244d7867d177971f73",
+        "reported_tools": [],
+        "conda": {
+          "directive": {
+            "expression": "conda \"bioconda::chromap=0.2.4\"",
+            "value": "bioconda::chromap=0.2.4",
+            "line": 5
+          },
+          "environment_path": null,
+          "environment_source_url": null,
+          "dependencies": [
+            {
+              "raw": "bioconda::chromap=0.2.4",
+              "name": "chromap",
+              "channel": "bioconda",
+              "version_specifier": "=0.2.4",
+              "line": null
+            }
+          ],
+          "environment_text": null
+        },
+        "container": {
+          "directive": {
+            "expression": "container \"${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?\n        'https://depot.galaxyproject.org/singularity/chromap:0.2.4--hd03093a_0' :\n        'biocontainers/chromap:0.2.4--hd03093a_0' }\"",
+            "value": "${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?\n        'https://depot.galaxyproject.org/singularity/chromap:0.2.4--hd03093a_0' :\n        'biocontainers/chromap:0.2.4--hd03093a_0' }",
+            "line": 6
+          },
+          "references": [
+            {
+              "reference": "https://depot.galaxyproject.org/singularity/chromap:0.2.4--hd03093a_0",
+              "image_name": "chromap",
+              "tag": "0.2.4--hd03093a_0",
+              "version_label": "0.2.4",
+              "digest": null
+            },
+            {
+              "reference": "biocontainers/chromap:0.2.4--hd03093a_0",
+              "image_name": "chromap",
+              "tag": "0.2.4--hd03093a_0",
+              "version_label": "0.2.4",
+              "digest": null
+            }
+          ]
+        },
+        "metadata": {
+          "meta_path": "modules/nf-core/chromap/index/meta.yml",
+          "tool_names": [
+            "chromap"
+          ],
+          "tool_urls": [
+            {
+              "kind": "homepage",
+              "url": "https://github.com/haowenz/chromap",
+              "metadata_path": "modules/nf-core/chromap/index/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/modules/nf-core/chromap/index/meta.yml"
+            },
+            {
+              "kind": "documentation",
+              "url": "https://github.com/haowenz/chromap",
+              "metadata_path": "modules/nf-core/chromap/index/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/modules/nf-core/chromap/index/meta.yml"
+            }
+          ],
+          "citations": []
+        },
+        "reachable_from_pipeline_main": true
+      },
+      "new": {
+        "main_path": "modules/nf-core/chromap/index/main.nf",
+        "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/chromap/index/main.nf",
+        "main_sha256": "4d2f4d685994cd735a50b19d483f9b8745be372cbcbd764601c029c127bbfddd",
+        "module_lock": {
+          "repository": "https://github.com/nf-core/modules.git",
+          "branch": "master",
+          "git_sha": "f2f969a4ee32243c7fab75f341f9be1dd3ce1a23",
+          "installed_by": [
+            "modules"
+          ]
+        },
+        "upstream_module_sha": "f2f969a4ee32243c7fab75f341f9be1dd3ce1a23",
+        "reported_tools": [
+          "chromap"
+        ],
+        "conda": {
+          "directive": {
+            "expression": "conda \"${moduleDir}/environment.yml\"",
+            "value": "${moduleDir}/environment.yml",
+            "line": 5
+          },
+          "environment_path": "modules/nf-core/chromap/index/environment.yml",
+          "environment_source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/chromap/index/environment.yml",
+          "dependencies": [
+            {
+              "raw": "bioconda::chromap=0.3.2",
+              "name": "chromap",
+              "channel": "bioconda",
+              "version_specifier": "=0.3.2",
+              "line": 7
+            }
+          ],
+          "environment_text": "---\n# yaml-language-server: $schema=https://raw.githubusercontent.com/nf-core/modules/master/modules/environment-schema.json\nchannels:\n  - conda-forge\n  - bioconda\ndependencies:\n  - bioconda::chromap=0.3.2\n"
+        },
+        "container": {
+          "directive": {
+            "expression": "container \"${ workflow.containerEngine in ['singularity', 'apptainer'] && !task.ext.singularity_pull_docker_container ?\n        'https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/80/809e5a0166357804ca10097100e96844100019a11a3aaebf14e2cceb2ee98c0a/data' :\n        'community.wave.seqera.io/library/chromap:0.3.2--4ec4bca51cd82195' }\"",
+            "value": "${ workflow.containerEngine in ['singularity', 'apptainer'] && !task.ext.singularity_pull_docker_container ?\n        'https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/80/809e5a0166357804ca10097100e96844100019a11a3aaebf14e2cceb2ee98c0a/data' :\n        'community.wave.seqera.io/library/chromap:0.3.2--4ec4bca51cd82195' }",
+            "line": 6
+          },
+          "references": [
+            {
+              "reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/80/809e5a0166357804ca10097100e96844100019a11a3aaebf14e2cceb2ee98c0a/data",
+              "image_name": null,
+              "tag": null,
+              "version_label": null,
+              "digest": "809e5a0166357804ca10097100e96844100019a11a3aaebf14e2cceb2ee98c0a"
+            },
+            {
+              "reference": "community.wave.seqera.io/library/chromap:0.3.2--4ec4bca51cd82195",
+              "image_name": "chromap",
+              "tag": "0.3.2--4ec4bca51cd82195",
+              "version_label": "0.3.2",
+              "digest": null
+            }
+          ]
+        },
+        "metadata": {
+          "meta_path": "modules/nf-core/chromap/index/meta.yml",
+          "tool_names": [
+            "chromap"
+          ],
+          "tool_urls": [
+            {
+              "kind": "homepage",
+              "url": "https://github.com/haowenz/chromap",
+              "metadata_path": "modules/nf-core/chromap/index/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/chromap/index/meta.yml"
+            },
+            {
+              "kind": "documentation",
+              "url": "https://github.com/haowenz/chromap",
+              "metadata_path": "modules/nf-core/chromap/index/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/chromap/index/meta.yml"
+            }
+          ],
+          "citations": []
+        },
+        "reachable_from_pipeline_main": true
+      },
+      "module_lock_revision_changed": true,
+      "main_source_changed": true,
+      "tool_version_classification": "declared_version_changed",
+      "declared_tool_version_changed": true,
+      "changed_conda_package_specifiers": [
+        "chromap"
+      ],
+      "added_conda_packages": [],
+      "removed_conda_packages": [],
+      "container_version_labels_changed": true,
+      "notes": []
+    },
+    {
+      "kind": "nfcore_module",
+      "name": "macs3/callpeak",
+      "path": "modules/nf-core/macs3/callpeak",
+      "status": "updated",
+      "changed_files": [
+        "modules/nf-core/macs3/callpeak/environment.yml",
+        "modules/nf-core/macs3/callpeak/main.nf",
+        "modules/nf-core/macs3/callpeak/meta.yml",
+        "modules/nf-core/macs3/callpeak/tests/bam.config",
+        "modules/nf-core/macs3/callpeak/tests/bed.config",
+        "modules/nf-core/macs3/callpeak/tests/main.nf.test.snap"
+      ],
+      "old": {
+        "main_path": "modules/nf-core/macs3/callpeak/main.nf",
+        "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/modules/nf-core/macs3/callpeak/main.nf",
+        "main_sha256": "61b125ec099ce2fdc897da9464197bb3bee11e2d8dd9223399a59e27fd3e5cd5",
+        "module_lock": {
+          "repository": "https://github.com/nf-core/modules.git",
+          "branch": "master",
+          "git_sha": "06c8865e36741e05ad32ef70ab3fac127486af48",
+          "installed_by": [
+            "modules"
+          ]
+        },
+        "upstream_module_sha": "06c8865e36741e05ad32ef70ab3fac127486af48",
+        "reported_tools": [],
+        "conda": {
+          "directive": {
+            "expression": "conda \"${moduleDir}/environment.yml\"",
+            "value": "${moduleDir}/environment.yml",
+            "line": 6
+          },
+          "environment_path": "modules/nf-core/macs3/callpeak/environment.yml",
+          "environment_source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/modules/nf-core/macs3/callpeak/environment.yml",
+          "dependencies": [
+            {
+              "raw": "bioconda::macs3=3.0.1",
+              "name": "macs3",
+              "channel": "bioconda",
+              "version_specifier": "=3.0.1",
+              "line": 7
+            }
+          ],
+          "environment_text": "---\n# yaml-language-server: $schema=https://raw.githubusercontent.com/nf-core/modules/master/modules/environment-schema.json\nchannels:\n  - conda-forge\n  - bioconda\ndependencies:\n  - \"bioconda::macs3=3.0.1\"\n"
+        },
+        "container": {
+          "directive": {
+            "expression": "container \"${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?\n        'https://depot.galaxyproject.org/singularity/macs3:3.0.1--py311h0152c62_3':\n        'biocontainers/macs3:3.0.1--py311h0152c62_3' }\"",
+            "value": "${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?\n        'https://depot.galaxyproject.org/singularity/macs3:3.0.1--py311h0152c62_3':\n        'biocontainers/macs3:3.0.1--py311h0152c62_3' }",
+            "line": 7
+          },
+          "references": [
+            {
+              "reference": "https://depot.galaxyproject.org/singularity/macs3:3.0.1--py311h0152c62_3",
+              "image_name": "macs3",
+              "tag": "3.0.1--py311h0152c62_3",
+              "version_label": "3.0.1",
+              "digest": null
+            },
+            {
+              "reference": "biocontainers/macs3:3.0.1--py311h0152c62_3",
+              "image_name": "macs3",
+              "tag": "3.0.1--py311h0152c62_3",
+              "version_label": "3.0.1",
+              "digest": null
+            }
+          ]
+        },
+        "metadata": {
+          "meta_path": "modules/nf-core/macs3/callpeak/meta.yml",
+          "tool_names": [
+            "macs3"
+          ],
+          "tool_urls": [
+            {
+              "kind": "homepage",
+              "url": "https://macs3-project.github.io/MACS/",
+              "metadata_path": "modules/nf-core/macs3/callpeak/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/modules/nf-core/macs3/callpeak/meta.yml"
+            },
+            {
+              "kind": "documentation",
+              "url": "https://macs3-project.github.io/MACS/",
+              "metadata_path": "modules/nf-core/macs3/callpeak/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/modules/nf-core/macs3/callpeak/meta.yml"
+            }
+          ],
+          "citations": [
+            {
+              "label": "MACS3",
+              "url": "https://www.ncbi.nlm.nih.gov/pubmed/18798982/",
+              "source_url": "https://github.com/nf-core/atacseq/blob/4177ea95c56e15fdbdc52f6e210c3329ff69167b/CITATIONS.md"
+            }
+          ]
+        },
+        "reachable_from_pipeline_main": true
+      },
+      "new": {
+        "main_path": "modules/nf-core/macs3/callpeak/main.nf",
+        "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/macs3/callpeak/main.nf",
+        "main_sha256": "bb08c50df73fbe0fd7dfaa6ca37f5e9585a192eb683f54caffc0a9aa7101de2a",
+        "module_lock": {
+          "repository": "https://github.com/nf-core/modules.git",
+          "branch": "master",
+          "git_sha": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+          "installed_by": [
+            "modules"
+          ]
+        },
+        "upstream_module_sha": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+        "reported_tools": [
+          "macs3"
+        ],
+        "conda": {
+          "directive": {
+            "expression": "conda \"${moduleDir}/environment.yml\"",
+            "value": "${moduleDir}/environment.yml",
+            "line": 6
+          },
+          "environment_path": "modules/nf-core/macs3/callpeak/environment.yml",
+          "environment_source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/macs3/callpeak/environment.yml",
+          "dependencies": [
+            {
+              "raw": "bioconda::macs3=3.0.4",
+              "name": "macs3",
+              "channel": "bioconda",
+              "version_specifier": "=3.0.4",
+              "line": 7
+            }
+          ],
+          "environment_text": "---\n# yaml-language-server: $schema=https://raw.githubusercontent.com/nf-core/modules/master/modules/environment-schema.json\nchannels:\n  - conda-forge\n  - bioconda\ndependencies:\n  - bioconda::macs3=3.0.4\n"
+        },
+        "container": {
+          "directive": {
+            "expression": "container \"${ workflow.containerEngine in ['singularity', 'apptainer'] && !task.ext.singularity_pull_docker_container ?\n        'https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/2f/2fb492856efb63a7f824f0801b1386d08468cd4b7819ddc4c21e7f10e09b4fda/data':\n        'community.wave.seqera.io/library/macs3:3.0.4--e0346d811b8b428e' }\"",
+            "value": "${ workflow.containerEngine in ['singularity', 'apptainer'] && !task.ext.singularity_pull_docker_container ?\n        'https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/2f/2fb492856efb63a7f824f0801b1386d08468cd4b7819ddc4c21e7f10e09b4fda/data':\n        'community.wave.seqera.io/library/macs3:3.0.4--e0346d811b8b428e' }",
+            "line": 7
+          },
+          "references": [
+            {
+              "reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/2f/2fb492856efb63a7f824f0801b1386d08468cd4b7819ddc4c21e7f10e09b4fda/data",
+              "image_name": null,
+              "tag": null,
+              "version_label": null,
+              "digest": "2fb492856efb63a7f824f0801b1386d08468cd4b7819ddc4c21e7f10e09b4fda"
+            },
+            {
+              "reference": "community.wave.seqera.io/library/macs3:3.0.4--e0346d811b8b428e",
+              "image_name": "macs3",
+              "tag": "3.0.4--e0346d811b8b428e",
+              "version_label": "3.0.4",
+              "digest": null
+            }
+          ]
+        },
+        "metadata": {
+          "meta_path": "modules/nf-core/macs3/callpeak/meta.yml",
+          "tool_names": [
+            "macs3"
+          ],
+          "tool_urls": [
+            {
+              "kind": "homepage",
+              "url": "https://macs3-project.github.io/MACS/",
+              "metadata_path": "modules/nf-core/macs3/callpeak/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/macs3/callpeak/meta.yml"
+            },
+            {
+              "kind": "documentation",
+              "url": "https://macs3-project.github.io/MACS/",
+              "metadata_path": "modules/nf-core/macs3/callpeak/meta.yml",
+              "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/macs3/callpeak/meta.yml"
+            }
+          ],
+          "citations": [
+            {
+              "label": "MACS3",
+              "url": "https://www.ncbi.nlm.nih.gov/pubmed/18798982/",
+              "source_url": "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/CITATIONS.md"
+            }
+          ]
+        },
+        "reachable_from_pipeline_main": true
+      },
+      "module_lock_revision_changed": true,
+      "main_source_changed": true,
+      "tool_version_classification": "declared_version_changed",
+      "declared_tool_version_changed": true,
+      "changed_conda_package_specifiers": [
+        "macs3"
+      ],
+      "added_conda_packages": [],
+      "removed_conda_packages": [],
+      "container_version_labels_changed": true,
+      "notes": []
+    }
+  ]
+}

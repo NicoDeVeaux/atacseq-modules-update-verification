@@ -1,0 +1,83 @@
+Oct-29 10:27:44.314 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf -ansi-log false -with-trace trace.tsv -work-dir work
+Oct-29 10:27:44.342 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 26.04.6
+Oct-29 10:27:44.351 [main] DEBUG nextflow.plugin.PluginsFacade - Using dev plugins mode
+Oct-29 10:27:44.353 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=dev; embedded=false; plugins-dir=plugins; core-plugins: nf-amazon@3.9.2,nf-azure@1.22.6,nf-cloudcache@0.6.0,nf-codecommit@0.5.3,nf-console@1.3.0,nf-google@1.27.3,nf-k8s@1.5.4,nf-seqera@0.21.1,nf-tower@1.28.2,nf-wave@1.21.0
+Oct-29 10:27:44.354 [main] DEBUG nextflow.plugin.DevPluginManager - Add plugin root repository: plugins
+Oct-29 10:27:44.356 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Oct-29 10:27:44.356 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Oct-29 10:27:44.358 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.14.1 in 'development' mode
+Oct-29 10:27:44.362 [main] WARN  org.pf4j.AbstractPluginManager - No 'plugins' root
+Oct-29 10:27:44.363 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Oct-29 10:27:44.376 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: LOCAL_TMP/preseq-retry/proposed_append/nextflow.config
+Oct-29 10:27:44.378 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: LOCAL_TMP/preseq-retry/proposed_append/nextflow.config
+Oct-29 10:27:44.379 [main] DEBUG nextflow.config.ConfigParserFactory - Using config parser v2
+Oct-29 10:27:44.386 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Oct-29 10:27:44.543 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Oct-29 10:27:44.550 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: REVIEW_HOME/.nextflow/secrets/store.json
+Oct-29 10:27:44.552 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@475646d4] - activable => nextflow.secret.LocalSecretsProvider@475646d4
+Oct-29 10:27:44.577 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [spontaneous_darwin] - revision: aab3d7658a
+Oct-29 10:27:44.591 [main] WARN  nextflow.config.ConfigValidator - Unrecognized config option 'nextflow.enable.telemetry'
+Oct-29 10:27:44.626 [main] DEBUG nextflow.Session - Session UUID: 7397d017-0156-4b5a-962b-90198f764c37
+Oct-29 10:27:44.626 [main] DEBUG nextflow.Session - Run name: spontaneous_darwin
+Oct-29 10:27:44.626 [main] DEBUG nextflow.Session - Executor pool size: 12
+Oct-29 10:27:44.630 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Oct-29 10:27:44.633 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=36; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Oct-29 10:27:44.648 [main] DEBUG nextflow.cli.CmdInfo - Unable to fetch totalSwapSpaceSize - errno: 1 error: sysctlbyname failed
+
+Oct-29 10:27:44.649 [main] DEBUG nextflow.cli.CmdInfo - Unable to fetch freeSwapSpaceSize - errno: 1 error: sysctlbyname failed
+
+Oct-29 10:27:44.649 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 26.04.6 build 12646
+  Created: 09-07-2026 18:49 UTC (20:49 CEST)
+  System: Mac OS X 27.0.1
+  Runtime: Groovy 4.0.31 on OpenJDK 64-Bit Server VM 21.0.8+9-LTS
+  Encoding: UTF-8 (UTF-8)
+  Process: 30906@GLC7YYV0F5 [REDACTED-IPV4]
+  CPUs: 12 - Mem: 48 GB (238.5 MB) - Swap: - (-)
+Oct-29 10:27:44.657 [main] DEBUG nextflow.Session - Work-dir: LOCAL_TMP/preseq-retry/proposed_append/work [Mac OS X]
+Oct-29 10:27:44.657 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: LOCAL_TMP/preseq-retry/proposed_append/bin
+Oct-29 10:27:44.661 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Oct-29 10:27:44.666 [main] DEBUG nextflow.Session - Observer factory (v2): LinObserverFactory
+Oct-29 10:27:44.667 [main] DEBUG nextflow.Session - Observer factory (v2): DefaultObserverFactory
+Oct-29 10:27:44.687 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Oct-29 10:27:44.692 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 13; maxThreads: 1000
+Oct-29 10:27:44.718 [main] DEBUG nextflow.Session - Session start
+Oct-29 10:27:44.721 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: trace.tsv
+Oct-29 10:27:44.721 [main] DEBUG nextflow.script.ScriptLoaderFactory - Using script parser v2
+Oct-29 10:27:44.894 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Oct-29 10:27:44.975 [main] DEBUG n.script.dsl.ProcessConfigBuilder - Config settings `withLabel:error_retry` matches labels `process_single,error_retry` for process with name PRESEQ_LCEXTRAP
+Oct-29 10:27:44.978 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: local
+Oct-29 10:27:44.978 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Oct-29 10:27:44.982 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Oct-29 10:27:44.986 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=12; memory=48 GB; capacity=12; pollInterval=100ms; dumpInterval=5m
+Oct-29 10:27:44.987 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Oct-29 10:27:45.003 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'PRESEQ_LCEXTRAP': maxForks=0; fair=false; array=0
+Oct-29 10:27:45.020 [main] DEBUG nextflow.Session - Process names: PRESEQ_LCEXTRAP
+Oct-29 10:27:45.026 [main] DEBUG nextflow.Session - Igniting dataflow network (3)
+Oct-29 10:27:45.027 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PRESEQ_LCEXTRAP
+Oct-29 10:27:45.028 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+  Main: LOCAL_TMP/preseq-retry/proposed_append/main.nf
+  _nf_script_a8c94c2641c56520: LOCAL_TMP/preseq-retry/proposed_append/module.nf
+Oct-29 10:27:45.028 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Oct-29 10:27:45.028 [main] DEBUG nextflow.Session - Session await
+Oct-29 10:27:45.104 [Task submitter] WARN  n.executor.BashWrapperBuilder - Task runtime metrics are not reported when using macOS without a container engine
+Oct-29 10:27:45.112 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Oct-29 10:27:45.113 [Task submitter] INFO  nextflow.Session - [9c/38ce92] Submitted process > PRESEQ_LCEXTRAP (library)
+Oct-29 10:27:45.436 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: PRESEQ_LCEXTRAP (library); status: COMPLETED; exit: 42; error: -; workDir: LOCAL_TMP/preseq-retry/proposed_append/work/9c/38ce92254e26df776b97409416633b]
+Oct-29 10:27:45.436 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=36; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Oct-29 10:27:45.441 [TaskFinalizer-1] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PRESEQ_LCEXTRAP (library); work-dir=LOCAL_TMP/preseq-retry/proposed_append/work/9c/38ce92254e26df776b97409416633b
+  error [nextflow.exception.ProcessFailedException]: Process `PRESEQ_LCEXTRAP (library)` terminated with an error exit status (42)
+Oct-29 10:27:45.445 [TaskFinalizer-1] INFO  nextflow.processor.TaskProcessor - [9c/38ce92] NOTE: Process `PRESEQ_LCEXTRAP (library)` terminated with an error exit status (42) -- Execution is retried (1)
+Oct-29 10:27:45.452 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Oct-29 10:27:45.452 [Task submitter] INFO  nextflow.Session - [3f/29948b] Re-submitted process > PRESEQ_LCEXTRAP (library)
+Oct-29 10:27:45.671 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: PRESEQ_LCEXTRAP (library); status: COMPLETED; exit: 0; error: -; workDir: LOCAL_TMP/preseq-retry/proposed_append/work/3f/29948b109f5198f678793e2940a032]
+Oct-29 10:27:45.689 [main] DEBUG nextflow.Session - Session await > all processes finished
+Oct-29 10:27:45.774 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Oct-29 10:27:45.774 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Oct-29 10:27:45.775 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
+Oct-29 10:27:45.778 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=1; failedCount=1; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=1; abortedCount=0; succeedDuration=109ms; failedDuration=244ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=1 GB; ]
+Oct-29 10:27:45.778 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+Oct-29 10:27:45.782 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Oct-29 10:27:45.788 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Oct-29 10:27:45.789 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

@@ -1,0 +1,98 @@
+Homer Software and Data Download
+HOMER
+(v5.1, 7-16-2024)
+Software for motif discovery and next generation sequencing analysis
+HOMER (Hypergeometric Optimization of Motif EnRichment) is a suite of tools for motif discovery and next-gen sequencing analysis. It is a collection of command line programs for UNIX-style operating systems written mostly in Perl and C++, although some functionality requires additional tools to be installed as well (e.g. samtools, R, etc.). HOMER was primarily written as a
+de novo
+motif discovery algorithm and is well suited for finding 8-20 bp motifs in large scale genomics data. HOMER contains many useful tools for analyzing ChIP-Seq, GRO-Seq, RNA-Seq, DNase-Seq, Hi-C and numerous other types of functional genomics sequencing data sets.
+News
+(07-16-2024) HOMER2 - new version (v5.1). Improvements to some command structure, documentation, data/annotation updates.
+(04-25-2024) HOMER2 - new version (v5). Added additional support for positional sequence analysis, including expanded options for background sequence selection and modeling and variant analysis. For more information on these updates, see the
+HOMER2
+page.
+(10-24-2019) New version (v4.11) Added routines for csRNA-seq (TSS) analysis. Documentation is
+here
+, paper
+here
+.
+(10-24-2019) Updated genome-wide motif prediction tracks (see below)
+(04-01-2019) Check out
+Metascape
+for gene enrichment and functional analysis (
+paper
+).
+Old News
+Program Download
+Download Page
+- Get the latest version of HOMER (Distributed under
+GPLv3
+)
+Supported Organisms:
+Most HOMER tools will work with any FASTA or GTF file, however, additional annotation support is included/available for Human (hg18, hg19, hg38), Mouse (mm8, mm9, mm10), Rat (rn4, rn5, rn6), Frog (xenTro2, xenTro3), Zebrafish (danRer7), Drosophila (dm3), C elegans (ce6, ce10), S. cerevisiae (sacCer2, sacCer3), pombe (ASM294v1), Arabidopsis (tair10), Rice (msu6).
+Using HOMER
+Introduction to HOMER
+Installation
+Basic Configuration
+Updating and Customizing HOMER
+Basic Description of HOMER
+Index of HOMER Programs
+Duff
+-sponsored Tutorials
+HOMER Motif Discovery and Analysis
+Instructions and advice for finding enriched regulatory elements from a set of genome locations, a list of genes, or raw FASTA files.
+HOMER Next-gen Sequencing Tutorial
+Helps guide and explain how to use HOMER for csRNA-seq/ChIP-Seq/GRO-Seq/MNase-Seq/DNase-Seq/RNA-Seq/Hi-C etc. analysis
+Primary Motif Data
+HOMER Known Motifs - Genome-wide predictions and UCSC Track
+These tracks display motif positions genome-wide for human and mouse. They are based on HOMER-motifs, and certainly miss many "weak" binding sites and incorrectly predict others. However, the predictions can still serve as a useful guide to where transcription factors have the potential to bind (if they're expressed in the system you're studying).
+Human hg38 UCSC BigBed Track 191020
+(load as a custom track) - [
+primary BED file
+]
+Human hg19 UCSC BigBed Track 191020
+(load as a custom track) - [
+primary BED file
+]
+Mouse mm10 UCSC BigBed Track 191020
+(load as a custom track) - [
+primary BED file
+]
+Mouse mm9 UCSC BigBed Track 191020
+(load as a custom track) - [
+primary BED file
+]
+Data included in HOMER that may be useful for other purposes
+HOMER Motif Logos
+Custom Motif Matrices (.motif file)
+More Information
+about HOMER motifs
+Credits
+HOMER was developed primarily by Chris Benner, with significant contributions and suggestions by Sven Heinz, Max Chang, Kasey Hutt, Yin Lin, Gene Hsiao, Fernando Alcalde, Josh Stender, Amy Sullivan, Nathan Spann, Ivan Garcia-Bassets, Michael Lam, Michael Rehli, Sascha Duttke, and many others. Initial supervision for the project was provided by Professors Christopher K. Glass and Shankar Subramaniam.
+Development of HOMER is carried out in the
+Benner Lab at UCSD
+, and has been previously been developed in the
+Integrative Genomics and Bioinformatics Core
+at the
+Salk Institute
+and the
+Glass Lab at UCSD
+.
+If you use HOMER in your research, generally it is appropriate to cite the following paper:
+Heinz S, Benner C, Spann N, Bertolino E et al.
+Simple Combinations of Lineage-Determining Transcription Factors Prime cis-Regulatory Elements Required for Macrophage and B Cell Identities.
+Mol Cell
+2010 May 28;38(4):576-589. PMID:
+20513432
+For certain specialized analysis, it may be more appropriate to cite one of the following papers:
+csRNA-seq/TSS analysis: PMID:
+31649059
+, Hi-C: PMID:
+30146161
+, PMID:
+26417104
+, PMID:
+23064439
+, GRO-seq: PMID:
+21572438
+Can't figure something out? Questions, comments, concerns, or other feedback:
+cbenner@ucsd.edu

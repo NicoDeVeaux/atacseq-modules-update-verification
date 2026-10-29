@@ -1,0 +1,865 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    <title>Homer Software and Data Download</title>
+    <style type="text/css">
+<!--
+BODY
+   {
+   font-family:sans-serif;
+   }
+-->
+  </style>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-47263894-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </head>
+  <body>
+    <basefont face="arial">
+    <table>
+      <tbody>
+        <tr>
+          <td cellalign="top"><a href="index.html"><img alt="logo"
+                src="pic2.gif" style="border: 0px solid ; width: 148px;
+                height: 144px;" align="top"></a></td>
+          <td>
+            <h1>HOMER <small><small>(v5.1, 7-16-2024)</small></small></h1>
+            <p>Software for motif discovery and next generation
+              sequencing analysis</p>
+            <hr> </td>
+        </tr>
+        <tr>
+          <td><br>
+          </td>
+          <td>HOMER (Hypergeometric Optimization of Motif EnRichment) is
+            a suite of tools for motif discovery and next-gen sequencing
+            analysis.&nbsp; It is a collection of command line programs
+            for UNIX-style operating systems written mostly in Perl and
+            C++, although some functionality requires additional tools
+            to be installed as well (e.g. samtools, R, etc.). HOMER was
+            primarily written as a <span style="font-style: italic;">de
+              novo</span> motif discovery algorithm and is well suited
+            for finding 8-20 bp motifs in large scale genomics
+            data.&nbsp; HOMER contains many useful tools for analyzing
+            ChIP-Seq, GRO-Seq, RNA-Seq, DNase-Seq, Hi-C and numerous
+            other types of functional genomics sequencing data sets.<br>
+            <h2>News<br>
+            </h2>
+            <div style="margin-left: 40px;"><span style="color: rgb(0,
+                0, 0);"><span style="color: rgb(0, 0, 0);"><span
+                    style="color: rgb(0, 0, 0);"><span style="color:
+                      rgb(0, 0, 0);"><span style="color: rgb(0, 0, 0);"><span
+                          style="color: rgb(0, 0, 0);"><span
+                            style="color: rgb(0, 0, 0);"><span
+                              style="color: rgb(0, 0, 0);"><big><big><small><small><span
+                                        style="color: rgb(0, 0, 0);"><span
+                                          style="color: rgb(0, 0, 0);"><span
+                                            style="color: rgb(0, 0, 0);"><span
+                                              style="color: rgb(0, 0,
+                                              0);"><span style="color:
+                                                rgb(0, 0, 0);"><span
+                                                  style="color: rgb(0,
+                                                  0, 0);"><span
+                                                    style="color: rgb(0,
+                                                    0, 0);"><span
+                                                      style="color:
+                                                      rgb(0, 0, 0);"><big><big><small><small><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><big><big><small><small><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><big><big><small><small><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><big><big><small><small><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><big><big><small><small><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><big><big><small><small><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><span
+                                                          style="color:
+                                                          rgb(0, 0, 0);"><big><big><small><small>(07-16-2024)
+
+
+
+
+
+                                                          HOMER2 - new
+                                                          version
+                                                          (v5.1).
+                                                          Improvements
+                                                          to some
+                                                          command
+                                                          structure,
+                                                          documentation,
+                                                          data/annotation
+                                                          updates.</small></small></big></big></span></span></span></span></span></span></span></span></small></small></big></big></span></span></span></span></span></span></span></span></small></small></big></big></span></span></span></span></span></span></span></span></small></small></big></big></span></span></span></span></span></span></span></span><br>
+                                                          <br>
+                                                          (04-25-2024)
+                                                          HOMER2 - new
+                                                          version (v5).
+                                                          Added
+                                                          additional
+                                                          support for
+                                                          positional
+                                                          sequence
+                                                          analysis,
+                                                          including
+                                                          expanded
+                                                          options for
+                                                          background
+                                                          sequence
+                                                          selection and
+                                                          modeling and
+                                                          variant
+                                                          analysis. For
+                                                          more
+                                                          information on
+                                                          these updates,
+                                                          see the <a
+                                                          moz-do-not-send="true"
+href="homer2.html">HOMER2</a> page.</small></small></big></big></span></span></span></span></span></span></span></span></small></small></big></big></span></span></span></span></span></span></span></span><br>
+                                                          <br>
+                                                          (10-24-2019)
+                                                          New version
+                                                          (v4.11) Added
+                                                          routines for
+                                                          csRNA-seq
+                                                          (TSS)
+                                                          analysis.
+                                                          Documentation
+                                                          is <a
+                                                          href="ngs/csRNAseq/index.html">here</a>,
+                                                          paper <a
+href="https://genome.cshlp.org/content/early/2019/10/24/gr.253492.119.abstract">here</a>.<br>
+                                                          <br>
+                                                          (10-24-2019)
+                                                          Updated
+                                                          genome-wide
+                                                          motif
+                                                          prediction
+                                                          tracks (see
+                                                          below)<br>
+                                                          <br>
+                                                          (04-01-2019)
+                                                          Check out <a
+href="http://metascape.org/gp/index.html#/main/step1">Metascape</a> for
+                                                          gene
+                                                          enrichment and
+                                                          functional
+                                                          analysis (<a
+                                                          href="https://www.nature.com/articles/s41467-019-09234-6">paper</a>).</small></small></big></big></span></span></span></span></span></span></span></span><br>
+                                      <br>
+                                    </small></small></big></big></span></span></span></span></span></span></span></span>
+              <a href="oldNews.html">Old News</a><br>
+              <br>
+            </div>
+            <h2>Program Download<br>
+            </h2>
+            <div style="margin-left: 40px;"><a href="download.html">Download
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Page</a><span style="color: rgb(204, 0, 0);"><span
+                  style="color: rgb(0, 0, 0);"><span style="color:
+                    rgb(255, 0, 0);"> <span style="color: rgb(0, 0,
+                      0);">- Get the latest version of HOMER
+                      (Distributed under <a moz-do-not-send="true"
+                        href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPLv3</a>)<br>
+                      <br>
+                      <span style="text-decoration: underline;">Supported
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        Organisms:</span> Most HOMER tools will work
+                      with any FASTA or GTF file, however, additional
+                      annotation support is included/available for Human
+                      (hg18, hg19, hg38), Mouse (mm8, mm9, mm10), Rat
+                      (rn4, rn5, rn6), Frog (xenTro2, xenTro3),
+                      Zebrafish (danRer7), Drosophila (dm3), C elegans
+                      (ce6, ce10), S. cerevisiae (sacCer2, sacCer3),
+                      pombe (ASM294v1), Arabidopsis (tair10), Rice
+                      (msu6).</span></span></span></span>
+              <meta http-equiv="content-type" content="text/html;
+                charset=windows-1252">
+            </div>
+            <br>
+            <h2>Using HOMER</h2>
+            <div style="margin-left: 40px;"><big><big>Introduction to
+                  HOMER<br>
+                </big></big><br>
+              <div style="margin-left: 40px;"><a
+                  href="introduction/install.html">Installation</a><br>
+                <a href="introduction/configure.html">Basic
+                  Configuration</a><br>
+                <a href="introduction/update.html">Updating and
+                  Customizing HOMER</a><br>
+                <br>
+                <a href="introduction/basics.html">Basic Description of
+                  HOMER</a><br>
+                <a href="introduction/programs.html">Index of HOMER
+                  Programs</a><br>
+              </div>
+              <ul>
+              </ul>
+              <big><big><i><br>
+                    Duff</i>-sponsored Tutorials</big></big> <br>
+              <div style="margin-left: 40px;"><font size="+1"><font
+                    size="+2"><br>
+                    <a href="motif/index.html" moz-do-not-send="true">HOMER
+                      Motif Discovery and Analysis</a></font><br>
+                </font>
+                <blockquote> Instructions and advice for finding
+                  enriched regulatory elements from a set of genome
+                  locations, a list of genes, or raw FASTA files.<br>
+                </blockquote>
+                <big><big><a href="ngs/index.html"
+                      moz-do-not-send="true">HOMER Next-gen Sequencing
+                      Tutorial</a></big></big><br>
+                <br>
+                <div style="margin-left: 40px;">Helps guide and explain
+                  how to use HOMER for
+                  csRNA-seq/ChIP-Seq/GRO-Seq/MNase-Seq/DNase-Seq/RNA-Seq/Hi-C
+                  etc. analysis<br>
+                  <br>
+                </div>
+              </div>
+              <ul>
+              </ul>
+            </div>
+            <h2>Primary Motif Data<br>
+            </h2>
+            <div style="margin-left: 40px;">
+              <h4>HOMER Known Motifs - Genome-wide predictions and UCSC
+                Track</h4>
+              <h4> </h4>
+              <div style="margin-left: 40px;">These tracks display motif
+                positions genome-wide for human and mouse.&nbsp; They
+                are based on HOMER-motifs, and certainly miss many
+                "weak" binding sites and incorrectly predict
+                others.&nbsp; However, the predictions can still serve
+                as a useful guide to where transcription factors have
+                the potential to bind (if they're expressed in the
+                system you're studying).<br>
+                <br>
+                <a
+                  href="data/motifs/homer.KnownMotifs.hg38.191020.bigBed.track.txt">Human
+
+
+
+
+
+
+
+                  hg38 UCSC BigBed Track 191020</a> (load as a custom
+                track) - [<a
+                  href="data/motifs/homer.KnownMotifs.hg38.191020.bed.gz">primary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  BED file</a>]<br>
+                <a
+                  href="data/motifs/homer.KnownMotifs.hg19.191020.bigBed.track.txt">Human
+
+
+
+
+
+
+
+                  hg19 UCSC BigBed Track 191020</a> (load as a custom
+                track) - [<a
+                  href="data/motifs/homer.KnownMotifs.hg19.191020.bed.gz">primary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  BED file</a>]<br>
+                <br>
+                <a
+                  href="data/motifs/homer.KnownMotifs.mm10.191020.bigBed.track.txt">Mouse
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  mm10 UCSC BigBed Track 191020</a> (load as a custom
+                track) - [<a
+                  href="data/motifs/homer.KnownMotifs.mm10.191020.bed.gz">primary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  BED file</a>]<br>
+                <a
+                  href="data/motifs/homer.KnownMotifs.mm9.191020.bigBed.track.txt">Mouse
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  mm9 UCSC BigBed Track 191020</a> (load as a custom
+                track) - [<a
+                  href="data/motifs/homer.KnownMotifs.mm9.191020.bed.gz">primary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  BED file</a>]<br>
+                <br>
+              </div>
+              <h4>Data included in HOMER that may be useful for other
+                purposes </h4>
+              <div style="margin-left: 40px;"><a
+                  href="motif/HomerMotifDB/homerResults.html">HOMER
+                  Motif Logos</a><br>
+                <a href="custom.motifs">Custom Motif Matrices (.motif
+                  file)</a><br>
+                <br>
+                <a href="motif/motifDatabase.html">More Information</a>
+                about HOMER motifs<br>
+              </div>
+              <span style="font-weight: bold;"></span><span
+                style="font-weight: bold;"></span><br>
+              <br>
+            </div>
+            <h2>Credits<br>
+            </h2>
+            <div style="margin-left: 40px;">HOMER was developed
+              primarily by Chris Benner, with significant contributions
+              and suggestions by Sven Heinz, Max Chang, Kasey Hutt, Yin
+              Lin, Gene Hsiao, Fernando Alcalde, Josh Stender, Amy
+              Sullivan, Nathan Spann, Ivan Garcia-Bassets, Michael Lam,
+              Michael Rehli, Sascha Duttke, and many others.&nbsp;
+              Initial supervision for the project was provided by
+              Professors Christopher K. Glass and Shankar Subramaniam.<br>
+              <br>
+              Development of HOMER is carried out in the <a
+                href="http://homer.ucsd.edu/BennerLab/"
+                moz-do-not-send="true">Benner Lab at UCSD</a>, and has
+              been previously been developed in the <a
+href="https://www.salk.edu/science/core-facilities/integrative-genomics-and-bioinformatics-core/"
+                moz-do-not-send="true">Integrative Genomics and
+                Bioinformatics Core</a> at the <a
+                href="http://www.salk.edu/">Salk Institute</a> and the <a
+                href="http://glasslab.ucsd.edu/" moz-do-not-send="true">Glass
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Lab at UCSD</a>.<br>
+              <br>
+              If you use HOMER in your research, generally it is
+              appropriate to cite the following paper:<span
+                class="authors"><br>
+                <br>
+              </span>
+              <div style="margin-left: 40px;"><span class="authors">Heinz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  S, Benner C, Spann N, Bertolino E et al. </span><span
+                  class="title">Simple Combinations of
+                  Lineage-Determining Transcription Factors Prime
+                  cis-Regulatory Elements Required for Macrophage and B
+                  Cell Identities. </span><span class="source">Mol Cell</span>
+                2010 May 28;38(4):576-589. PMID:&nbsp;<a title="Link to
+                  PubMed record"
+href="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=Pubmed&amp;term=20513432[UID]">20513432<br>
+                </a></div>
+              <div style="margin-left: 40px;"> </div>
+              <br>
+            </div>
+            <blockquote> For certain specialized analysis, it may be
+              more appropriate to cite one of the following papers:<br>
+              <blockquote>csRNA-seq/TSS analysis: PMID:
+                <meta charset="utf-8">
+                <a moz-do-not-send="true"
+                  href="https://pubmed.ncbi.nlm.nih.gov/31649059/">31649059</a>,
+                Hi-C: PMID:<a
+                  href="https://www.ncbi.nlm.nih.gov/pubmed/30146161"
+                  moz-do-not-send="true">30146161</a>, PMID:<a
+                  href="https://www.ncbi.nlm.nih.gov/pubmed/26417104">26417104</a>,
+                PMID:<a
+                  href="https://www.ncbi.nlm.nih.gov/pubmed/23064439">23064439</a>,
+                GRO-seq: PMID:<a
+                  href="https://www.ncbi.nlm.nih.gov/pubmed/21572438">21572438</a><br>
+              </blockquote>
+            </blockquote>
+            <br>
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td><img src="pic1.jpg"></td>
+          <td>
+            <hr>Can't figure something out? Questions, comments,
+            concerns, or other feedback: <br>
+            cbenner@ucsd.edu </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

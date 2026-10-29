@@ -1,0 +1,14 @@
+{
+  "records_old": 6572,
+  "records_new": 6572,
+  "qnames_old": 3286,
+  "qnames_new": 3286,
+  "core_multisets_equal": true,
+  "all_tags_equal": false,
+  "core_old_only_records": 0,
+  "core_new_only_records": 0,
+  "qnames_old_only": [],
+  "qnames_new_only": [],
+  "core_changed_examples_old": [],
+  "core_changed_examples_new": []
+}

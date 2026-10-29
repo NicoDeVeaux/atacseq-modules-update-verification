@@ -1,0 +1,24 @@
+
+🚀 nf-test 0.9.5
+https://www.nf-test.com
+Please cite: https://doi.org/10.1093/gigascience/giaf130
+(c) 2021 - 2026 Lukas Forer and Sebastian Schoenherr
+
+Load .nf-test/plugins/nft-utils/0.0.9/nft-utils-0.0.9.jar
+nf-test runs in CI mode.
+
+Test Process GFFREAD
+
+  Test [c2a0570f] 'sarscov2-gff3-gtf' PASSED (3.438s)
+  Test [5a89016d] 'sarscov2-gff3-gtf-stub' PASSED (2.928s)
+  Test [647a6ee2] 'sarscov2-gff3-gff3' PASSED (2.998s)
+  Test [5538bbda] 'sarscov2-gff3-gff3-stub' PASSED (2.906s)
+  Test [dedeb7d6] 'sarscov2-gff3-fasta' PASSED (3.141s)
+  Test [6325f8c8] 'sarscov2-gff3-fasta-stub' PASSED (3.191s)
+  Test [379ef759] 'sarscov2-gff3-bed' PASSED (2.88s)
+  Test [6fbd6740] 'sarscov2-gff3-bed-stub' PASSED (3.103s)
+  Test [3e1bd339] 'sarscov2-gff3-fasta-fail-catch' PASSED (2.223s)
+
+
+SUCCESS: Executed 9 tests in 26.842s
+

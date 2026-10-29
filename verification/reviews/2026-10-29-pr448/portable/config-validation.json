@@ -1,0 +1,30 @@
+{
+  "bwa-unfixed": {
+    "exit_code": 0,
+    "executor_local": true,
+    "docker_enabled": true,
+    "remote_custom_configs_disabled": true,
+    "scientific_runs_launched": false
+  },
+  "bwa-fixed": {
+    "exit_code": 0,
+    "executor_local": true,
+    "docker_enabled": true,
+    "remote_custom_configs_disabled": true,
+    "scientific_runs_launched": false
+  },
+  "chromap-unfixed": {
+    "exit_code": 0,
+    "executor_local": true,
+    "docker_enabled": true,
+    "remote_custom_configs_disabled": true,
+    "scientific_runs_launched": false
+  },
+  "chromap-fixed": {
+    "exit_code": 0,
+    "executor_local": true,
+    "docker_enabled": true,
+    "remote_custom_configs_disabled": true,
+    "scientific_runs_launched": false
+  }
+}

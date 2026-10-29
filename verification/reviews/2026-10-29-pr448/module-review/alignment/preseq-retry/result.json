@@ -1,0 +1,91 @@
+{
+  "base": {
+    "exit_code": 0,
+    "invocations": [
+      [
+        "lc_extrap",
+        "-verbose",
+        "-bam",
+        "-seed",
+        "1",
+        "-pe",
+        "-output",
+        "library.lc_extrap.txt",
+        "input.bam"
+      ]
+    ],
+    "source_sha256": "cc1e9435fe07d874263c6897da1e374df7aa19a443a6c8f0d749b7e54654f7eb",
+    "source_commit": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "fixture": "Actual source wrapper; fake executable; no scientific computation"
+  },
+  "dev": {
+    "exit_code": 1,
+    "invocations": [
+      [
+        "lc_extrap",
+        "-verbose",
+        "-bam",
+        "-seed",
+        "1",
+        "-pe",
+        "-output",
+        "library.lc_extrap.txt",
+        "input.bam"
+      ],
+      [
+        "lc_extrap",
+        "-pe",
+        "-output",
+        "library.lc_extrap.txt",
+        "input.bam"
+      ],
+      [
+        "lc_extrap",
+        "-pe",
+        "-output",
+        "library.lc_extrap.txt",
+        "input.bam"
+      ]
+    ],
+    "source_sha256": "752b049ccf19b4455749f351ac9042598aa1e55268bdabcafe704a204ca05a79",
+    "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+    "fixture": "Actual source wrapper; fake executable; no scientific computation"
+  },
+  "proposed_append": {
+    "exit_code": 0,
+    "invocations": [
+      [
+        "lc_extrap",
+        "-verbose",
+        "-bam",
+        "-seed",
+        "1",
+        "-pe",
+        "-output",
+        "library.lc_extrap.txt",
+        "input.bam"
+      ],
+      [
+        "lc_extrap",
+        "-verbose",
+        "-bam",
+        "-seed",
+        "1",
+        "-defects",
+        "-pe",
+        "-output",
+        "library.lc_extrap.txt",
+        "input.bam"
+      ]
+    ],
+    "source_sha256": "f552974269d70b3cebf86c780be00529a89baeec55bb22c2cd8a65e3846dcb38",
+    "source_commit": null,
+    "fixture": "Actual source wrapper; fake executable; no scientific computation"
+  },
+  "gates": {
+    "base_ignores_failed_optional_estimate": true,
+    "dev_loses_original_args_on_retry": true,
+    "dev_fails_workflow": true,
+    "append_preserves_args_and_recovers": true
+  }
+}

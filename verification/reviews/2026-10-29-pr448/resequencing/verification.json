@@ -1,0 +1,13 @@
+{
+  "verified_parts": 10,
+  "verified_regular_files": 4565,
+  "verified_total_members": 5705,
+  "joined_archive_bytes": 431843357,
+  "joined_archive_sha256": "03a1b1268bbf3b499afe07f514e13e940afaa3694c9354b126846bd7147af53f",
+  "unpacked_file_bytes": 617688616,
+  "source_ARTIFACTS_sha256": "65bbe55339efacb56e17ec110a950f7c471dac9d3426222459fe5600a65e391a",
+  "all_member_hashes_match": true,
+  "normalized_safe_tar_metadata": true,
+  "verification": "streamed ordered parts; no second archive or extracted copy",
+  "scientific_runs": 0
+}

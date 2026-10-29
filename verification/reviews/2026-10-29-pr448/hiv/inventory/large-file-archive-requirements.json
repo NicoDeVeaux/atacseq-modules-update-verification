@@ -1,0 +1,106 @@
+{
+  "snapshot_total_published_bytes": 43658672320,
+  "files": 2278,
+  "largest_files": [
+    {
+      "case": "pr448-hiv-chromap-fixed-a9b588",
+      "relative_path": "genome/chromap/index/genome.index",
+      "bytes": 12280929560,
+      "etag": null
+    },
+    {
+      "case": "pr448-hiv-chromap-unfixed-a9b588",
+      "relative_path": "genome/chromap/index/genome.index",
+      "bytes": 12280929560,
+      "etag": null
+    },
+    {
+      "case": "pr448-hiv-bwa-unfixed-a9b588",
+      "relative_path": "bwa/merged_replicate/MOCK_48H.mRp.clN.sorted.bam",
+      "bytes": 760581691,
+      "etag": null
+    },
+    {
+      "case": "pr448-hiv-bwa-fixed-a9b588",
+      "relative_path": "bwa/merged_replicate/MOCK_48H.mRp.clN.sorted.bam",
+      "bytes": 758315376,
+      "etag": null
+    },
+    {
+      "case": "pr448-hiv-bwa-unfixed-a9b588",
+      "relative_path": "bwa/merged_replicate/HIV_CD86HI_48H.mRp.clN.sorted.bam",
+      "bytes": 703340897,
+      "etag": null
+    },
+    {
+      "case": "pr448-hiv-bwa-fixed-a9b588",
+      "relative_path": "bwa/merged_replicate/HIV_CD86HI_48H.mRp.clN.sorted.bam",
+      "bytes": 700869649,
+      "etag": null
+    },
+    {
+      "case": "pr448-hiv-chromap-unfixed-a9b588",
+      "relative_path": "chromap/merged_replicate/MOCK_48H.mRp.clN.sorted.bam",
+      "bytes": 683508877,
+      "etag": null
+    },
+    {
+      "case": "pr448-hiv-chromap-fixed-a9b588",
+      "relative_path": "chromap/merged_replicate/MOCK_48H.mRp.clN.sorted.bam",
+      "bytes": 682464365,
+      "etag": null
+    },
+    {
+      "case": "pr448-hiv-chromap-unfixed-a9b588",
+      "relative_path": "chromap/merged_replicate/HIV_CD86HI_48H.mRp.clN.sorted.bam",
+      "bytes": 632892381,
+      "etag": null
+    },
+    {
+      "case": "pr448-hiv-chromap-fixed-a9b588",
+      "relative_path": "chromap/merged_replicate/HIV_CD86HI_48H.mRp.clN.sorted.bam",
+      "bytes": 631758380,
+      "etag": null
+    },
+    {
+      "case": "pr448-hiv-bwa-unfixed-a9b588",
+      "relative_path": "bwa/merged_library/MOCK_48H_REP2.mLb.clN.sorted.bam",
+      "bytes": 438707578,
+      "etag": null
+    },
+    {
+      "case": "pr448-hiv-bwa-fixed-a9b588",
+      "relative_path": "bwa/merged_library/MOCK_48H_REP2.mLb.clN.sorted.bam",
+      "bytes": 437456249,
+      "etag": null
+    },
+    {
+      "case": "pr448-hiv-bwa-unfixed-a9b588",
+      "relative_path": "bwa/merged_library/HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam",
+      "bytes": 402490034,
+      "etag": null
+    },
+    {
+      "case": "pr448-hiv-bwa-fixed-a9b588",
+      "relative_path": "bwa/merged_library/HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam",
+      "bytes": 401126021,
+      "etag": null
+    },
+    {
+      "case": "pr448-hiv-chromap-unfixed-a9b588",
+      "relative_path": "chromap/merged_library/MOCK_48H_REP2.mLb.clN.sorted.bam",
+      "bytes": 395466596,
+      "etag": null
+    },
+    {
+      "case": "pr448-hiv-chromap-fixed-a9b588",
+      "relative_path": "chromap/merged_library/MOCK_48H_REP2.mLb.clN.sorted.bam",
+      "bytes": 394858016,
+      "etag": null
+    }
+  ],
+  "over_2GiB_files": 2,
+  "etag_available_files": 0,
+  "unknown_size_files": 0,
+  "durable_public_archive_created": false
+}

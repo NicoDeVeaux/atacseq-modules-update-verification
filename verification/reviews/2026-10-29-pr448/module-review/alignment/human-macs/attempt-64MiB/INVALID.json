@@ -1,0 +1,4 @@
+{
+  "valid_for_scientific_comparison": false,
+  "reason": "MACS3.0.4 emitted temporary-file OSError under the harness-imposed64MiB tmpfs cap, despite exit0. Both versions rerun with identical512MiB tmpfs; no scientific conclusion uses this attempt."
+}

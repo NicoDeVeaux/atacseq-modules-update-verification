@@ -1,0 +1,1657 @@
+{
+  "scope": "Original recorded artifact hashes only; these 324 original payloads are not all distributed inside portable/. Public rewritten copies need their own public-byte manifest.",
+  "cases": {
+    "pr448-hiv-bwa-unfixed-a9b588": {
+      "workflow_id": "miH78tIWtzQMy",
+      "revision": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "complete": true,
+      "workflow_source_verified": true,
+      "files": [
+        {
+          "relative_path": "pipeline_info/nf_core_atacseq_software_mqc_versions.yml",
+          "original_sha256": "dbcfad35e5eb89d65f2d3748f1baffa06812690f9a6c8f3e5be163581559d4db",
+          "original_bytes": 1603
+        },
+        {
+          "relative_path": "multiqc/broad_peak/multiqc_report.html",
+          "original_sha256": "3a8367192b9f253c05f77fdc3232e7ccaa8171813100fd12c43dfc0e0821a684",
+          "original_bytes": 1583375
+        },
+        {
+          "relative_path": "trimgalore/logs/HIV_CD86HI_48H_REP1_T1_1.fastq.gz_trimming_report.txt",
+          "original_sha256": "8b0d3122f04989494a82c3aea2e3ad922c2abba5ad3c7e3eb26834e3d7df2302",
+          "original_bytes": 3501
+        },
+        {
+          "relative_path": "trimgalore/logs/HIV_CD86HI_48H_REP1_T1_2.fastq.gz_trimming_report.txt",
+          "original_sha256": "9a5569432dde40b2477580533fceab8df22ba6795b01b565114e2525f792440e",
+          "original_bytes": 3813
+        },
+        {
+          "relative_path": "trimgalore/logs/HIV_CD86HI_48H_REP2_T1_1.fastq.gz_trimming_report.txt",
+          "original_sha256": "5c77d6c304f329a694a862d898986b5314f94698d5823ba36c5bf0d61e62dd86",
+          "original_bytes": 3497
+        },
+        {
+          "relative_path": "trimgalore/logs/HIV_CD86HI_48H_REP2_T1_2.fastq.gz_trimming_report.txt",
+          "original_sha256": "70e483b0a6f78dbc67bf4464e1d0106c33468db869d67471ff26b30b427afc23",
+          "original_bytes": 3811
+        },
+        {
+          "relative_path": "trimgalore/logs/MOCK_48H_REP1_T1_1.fastq.gz_trimming_report.txt",
+          "original_sha256": "7368bcefb9e4adb440f7bbca79c687ed4b8b6a86b4a1187645594aff06d81924",
+          "original_bytes": 3481
+        },
+        {
+          "relative_path": "trimgalore/logs/MOCK_48H_REP1_T1_2.fastq.gz_trimming_report.txt",
+          "original_sha256": "c90fb4fc5a358716bb4f642e894d02990324fce90ba620c422ce59b285eec4e4",
+          "original_bytes": 3791
+        },
+        {
+          "relative_path": "trimgalore/logs/MOCK_48H_REP2_T1_1.fastq.gz_trimming_report.txt",
+          "original_sha256": "83c95dbc71a8ff38464ab96219a668eeefd1a57e99ee9d589b51ec1fde793f2d",
+          "original_bytes": 3491
+        },
+        {
+          "relative_path": "trimgalore/logs/MOCK_48H_REP2_T1_2.fastq.gz_trimming_report.txt",
+          "original_sha256": "2f251a01f14e038239400bd3e6090e179cf5a672be15871f8c5428785770c1fc",
+          "original_bytes": 3806
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.alignment_summary_metrics",
+          "original_sha256": "476b7cddd04f2618b181f756c922913577a8243374a50473bb2f349592d09c7e",
+          "original_bytes": 3015
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.base_distribution_by_cycle_metrics",
+          "original_sha256": "31bf9aaeccd7aee04f1caa151d3167e71a20b2961cd41cc11561bfe2a7255d6c",
+          "original_bytes": 8566
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.insert_size_metrics",
+          "original_sha256": "3efac1fe9aa5860a7863a62bca66cdcbff9ae37a0ce486401a5a1f38b9424dc0",
+          "original_bytes": 7893
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.quality_by_cycle_metrics",
+          "original_sha256": "08d921deedcaef341df5390b0b9e5c185ef3dc8a58416407863c4d64a084bf0c",
+          "original_bytes": 2890
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.quality_distribution_metrics",
+          "original_sha256": "21336d73b4821586603f976e7eeabbc7d727bf49d9de797100a27ba59ccef20f",
+          "original_bytes": 945
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.mkD.sorted.metrics.txt",
+          "original_sha256": "5baaf304fc715fa5dd124f01f399b734af1024f0b55992acfc830a2b08673c12",
+          "original_bytes": 15184
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.alignment_summary_metrics",
+          "original_sha256": "9b7fa2961fbf36c2c28f214b3f31f98ccfb1babb0ad66e8380f2f0f0952764ed",
+          "original_bytes": 3022
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.base_distribution_by_cycle_metrics",
+          "original_sha256": "c816588e0065e571c8af672ca0cea334011b45777d437d0ccb5b053b13c5d9e2",
+          "original_bytes": 8566
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.insert_size_metrics",
+          "original_sha256": "648360bb6050d53b2f8a70efcfb3396857783f00f252347d1f927f0ddb1dd9dc",
+          "original_bytes": 7379
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.quality_by_cycle_metrics",
+          "original_sha256": "6f4b54078d8e93eacd4a9ce8320e53c83ec3104ed554c7dcc33007feeee89de0",
+          "original_bytes": 2883
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.quality_distribution_metrics",
+          "original_sha256": "e628ce7470b9ab1927665b57d19bf8d57e954f21fdf8770bd9a7bf95c273e75b",
+          "original_bytes": 945
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.mkD.sorted.metrics.txt",
+          "original_sha256": "ed7a22692865c7ef24a878f78337646c346ba85748e0ebd9a0e9c2df0d2b520d",
+          "original_bytes": 14311
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.alignment_summary_metrics",
+          "original_sha256": "f872c4250368713ae84a8d871c00663f5c2941909998e1db0d83d32a3396e217",
+          "original_bytes": 2998
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.base_distribution_by_cycle_metrics",
+          "original_sha256": "c145f7f250e1685405354d8194d9bacdd593447933cffe6afe5de1f3cba8fd88",
+          "original_bytes": 8495
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.insert_size_metrics",
+          "original_sha256": "96dde9c10182704e3bf5abe2e3adc5c457eff5d71bc3bdfe04a04ec047690708",
+          "original_bytes": 6878
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.quality_by_cycle_metrics",
+          "original_sha256": "073e30f863d2a4dca6039a0bf20b878d6994f95a1d66b579b0adfc93fc6e5d9a",
+          "original_bytes": 2882
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.quality_distribution_metrics",
+          "original_sha256": "b1055d6539df5dbcac5c38d663279daa287228fe38376dc4f190eecf654bafac",
+          "original_bytes": 933
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP1.mLb.mkD.sorted.metrics.txt",
+          "original_sha256": "b0049f8ee4bee6244be481e764db3881020dffce6d428847b17c0868f7248a91",
+          "original_bytes": 13500
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.alignment_summary_metrics",
+          "original_sha256": "2547255fd8f5fb1893815cbd0488e9d091deb0d3ebce29239d50d6fb5ee7de52",
+          "original_bytes": 3029
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.base_distribution_by_cycle_metrics",
+          "original_sha256": "5880fcdb3c4a7d075d0754a027451d435a42ad98f7d0c77d7d529ae36095f306",
+          "original_bytes": 8540
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.insert_size_metrics",
+          "original_sha256": "ba72ef8d37e49c69328e187ee88a9e2b8156edec0ada56063cdfc4e7cf2f46a9",
+          "original_bytes": 6397
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.quality_by_cycle_metrics",
+          "original_sha256": "355ff7e9782e35e2b143dcec3d288fbd6e544abef367b9340b85d13bc2fc697c",
+          "original_bytes": 2881
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.quality_distribution_metrics",
+          "original_sha256": "8a8686553bf8fe5d6c05a8b23983917e13e406d1175883eb12c91ec8ba7b7b8a",
+          "original_bytes": 933
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP2.mLb.mkD.sorted.metrics.txt",
+          "original_sha256": "dd9d3c340657908690bb119e0c082996b30243ad6c71272358d34c4ef060a17d",
+          "original_bytes": 14261
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam.flagstat",
+          "original_sha256": "8e9412aba9ab3c3f64c0bf160b0495b2ec4bd0fddaa12e41ef9a54daefe158f1",
+          "original_bytes": 510
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam.idxstats",
+          "original_sha256": "baf7baefb168688617c5471550ea3ee0d58122c56553984bd2cbd8489714d7d9",
+          "original_bytes": 5520
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam.stats",
+          "original_sha256": "7013d163b05befccdbfb1898ff234f187a1b8516d62ca8f0b72353c03056ed2f",
+          "original_bytes": 57643
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.mkD.sorted.bam.flagstat",
+          "original_sha256": "8512a63e6cb0ba9d7680bde63ce7c8efc812f77880ba51003b7a5e7a71e77da6",
+          "original_bytes": 543
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.mkD.sorted.bam.idxstats",
+          "original_sha256": "708fe9771bf0a33de6a6a5127b8277490dd9ffdde31203a630b9eb609658d1b9",
+          "original_bytes": 5671
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.mkD.sorted.bam.stats",
+          "original_sha256": "a08578b51b5e564345bf43e54fd00a6febf64cd53ba02d2261e1c2de9042dd6b",
+          "original_bytes": 74408
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam.flagstat",
+          "original_sha256": "ecd2bfb5f948d2057c5fdad77ba6ae6f25f4b9bd42b41c37a31f73c59ecfed4a",
+          "original_bytes": 510
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam.idxstats",
+          "original_sha256": "42c653dd7c4f3c230e472bd4c14b72279f346e9e21f9422919a86fa7ee32cd8b",
+          "original_bytes": 5540
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam.stats",
+          "original_sha256": "4ed273d8ecc2dffc497368306e20188ad17affbcd3007c273fac3a24b9190d34",
+          "original_bytes": 58628
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.mkD.sorted.bam.flagstat",
+          "original_sha256": "2ae34d7ad84b6d1031de38a9584a0c01454645d3b6249deb080a0b452e7b4c31",
+          "original_bytes": 543
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.mkD.sorted.bam.idxstats",
+          "original_sha256": "2c209b4f91e093ad5af5a718cf511a998587a6235799f014e6cab47efe8bd265",
+          "original_bytes": 5704
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.mkD.sorted.bam.stats",
+          "original_sha256": "c10c96e681b08991037432b7a0f2187a7099f2984eae3427f35da79bf43ed5ba",
+          "original_bytes": 74893
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP1.mLb.clN.sorted.bam.flagstat",
+          "original_sha256": "ee262eff02822e8dbd9529c073a3bd14ad1076371efddef25e9c186ed2602374",
+          "original_bytes": 510
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP1.mLb.clN.sorted.bam.idxstats",
+          "original_sha256": "2c5ae39c7f42c2d2821e72a2e1b275aeee692e335b65f491a6d47f7ff8e3c333",
+          "original_bytes": 5527
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP1.mLb.clN.sorted.bam.stats",
+          "original_sha256": "57d34428b844dc1b523e8ac52b33aa7718806cad1442f1c59cbc597339899c16",
+          "original_bytes": 57728
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP1.mLb.mkD.sorted.bam.flagstat",
+          "original_sha256": "3ffc5652e93a5a5dc299da22aabf87513cdf59f6c7ab166ee12775f0c4513aec",
+          "original_bytes": 543
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP1.mLb.mkD.sorted.bam.idxstats",
+          "original_sha256": "5ad9ea46ecc348d2caa2ea8cace5ad5d519a6d4008ec29d350f540e370529d0e",
+          "original_bytes": 5685
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP1.mLb.mkD.sorted.bam.stats",
+          "original_sha256": "811980a992001d4538e926986de32d10f412cf09d4fc82a1d52c051505b94b0e",
+          "original_bytes": 75167
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP2.mLb.clN.sorted.bam.flagstat",
+          "original_sha256": "0fe28422c29188053a4c60d440ab0f47f9f93134f662bcf0a29176ca599fed7e",
+          "original_bytes": 510
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP2.mLb.clN.sorted.bam.idxstats",
+          "original_sha256": "de41e4bfdf0c6ec38c6a21eab9ccdce39d0be43fd9e42ecee63202a27b149a09",
+          "original_bytes": 5547
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP2.mLb.clN.sorted.bam.stats",
+          "original_sha256": "b47181d696e55799acf121d0aedb49e97c41e0fbfd9a4b7494c842ee5cec8e4a",
+          "original_bytes": 59091
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP2.mLb.mkD.sorted.bam.flagstat",
+          "original_sha256": "b5cc8aec37875fb0537b624bd3f799822556e11ac716efde19829e22a460844e",
+          "original_bytes": 544
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP2.mLb.mkD.sorted.bam.idxstats",
+          "original_sha256": "faefce63a45c9f698abce441848c108e64e36b8a0a88fe6f09d5187aab7871cd",
+          "original_bytes": 5723
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP2.mLb.mkD.sorted.bam.stats",
+          "original_sha256": "05df9c02cd8744b37a29d612f2ff456f2ccd61bf5bf963fffe5b4ac9af9f8cc2",
+          "original_bytes": 75136
+        },
+        {
+          "relative_path": "bwa/merged_replicate/picard_metrics/HIV_CD86HI_48H.mRp.clN.sorted.metrics.txt",
+          "original_sha256": "334da4cf0a7acfc28b3c2c28f82f962d3f2b077a2d5d5378c8dbb0d3bdf4a592",
+          "original_bytes": 1947
+        },
+        {
+          "relative_path": "bwa/merged_replicate/picard_metrics/MOCK_48H.mRp.clN.sorted.metrics.txt",
+          "original_sha256": "f8ec56c3dce0f9e7a4c1abddc185642484d7c54723e6dad277217cdaef02d9ac",
+          "original_bytes": 1917
+        },
+        {
+          "relative_path": "bwa/merged_replicate/samtools_stats/HIV_CD86HI_48H.mRp.clN.sorted.bam.flagstat",
+          "original_sha256": "1d11299ac78198af14b95859e4658106ce078744faaf6de9455c275ccdcf4d7b",
+          "original_bytes": 517
+        },
+        {
+          "relative_path": "bwa/merged_replicate/samtools_stats/HIV_CD86HI_48H.mRp.clN.sorted.bam.idxstats",
+          "original_sha256": "7dc4aa403a32bbd38735efbcab9c48c6f2d8ed9a6ee3186ef350fd4cd5c41d47",
+          "original_bytes": 5568
+        },
+        {
+          "relative_path": "bwa/merged_replicate/samtools_stats/HIV_CD86HI_48H.mRp.clN.sorted.bam.stats",
+          "original_sha256": "f7ad8eb638e6702ac5468ab4ab086db1fcc386c77a4441e136d3a3c092ebf0bf",
+          "original_bytes": 61194
+        },
+        {
+          "relative_path": "bwa/merged_replicate/samtools_stats/MOCK_48H.mRp.clN.sorted.bam.flagstat",
+          "original_sha256": "2e838d5d97cfc1fd219908b9126469d2cba96a099ce16c1d97690bb7667c704d",
+          "original_bytes": 517
+        },
+        {
+          "relative_path": "bwa/merged_replicate/samtools_stats/MOCK_48H.mRp.clN.sorted.bam.idxstats",
+          "original_sha256": "e13a7430472d5e0ae580d5de22b9a12459aafb6b41faa41a81f29834751d2a19",
+          "original_bytes": 5567
+        },
+        {
+          "relative_path": "bwa/merged_replicate/samtools_stats/MOCK_48H.mRp.clN.sorted.bam.stats",
+          "original_sha256": "7adca180f6db55e1d3eab2782a8273d23bacedf41b28392ef859a33ae3876057",
+          "original_bytes": 62654
+        },
+        {
+          "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_data.json",
+          "original_sha256": "161bec81333859815a6c0d0c7537336e733d3daae7a2c4ccdfa45b077b9c0149",
+          "original_bytes": 3714228
+        },
+        {
+          "relative_path": "bwa/merged_library/bigwig/scale/HIV_CD86HI_48H_REP1.mLb.clN.scale_factor.txt",
+          "original_sha256": "b8824d4041aeeefec0e353d5587fcdb7abc3f4271d3da32cd8849c63508ea0ca",
+          "original_bytes": 9
+        },
+        {
+          "relative_path": "bwa/merged_library/bigwig/scale/HIV_CD86HI_48H_REP2.mLb.clN.scale_factor.txt",
+          "original_sha256": "865d7e26239f00fea7a2d202f30aacb9c89571b8c11551f87e630ce5718eb291",
+          "original_bytes": 8
+        },
+        {
+          "relative_path": "bwa/merged_library/bigwig/scale/MOCK_48H_REP1.mLb.clN.scale_factor.txt",
+          "original_sha256": "2ff439e83e3f241b3508f0767f1c7fb9053e000fcb337761a9d1074d26e579b9",
+          "original_bytes": 9
+        },
+        {
+          "relative_path": "bwa/merged_library/bigwig/scale/MOCK_48H_REP2.mLb.clN.scale_factor.txt",
+          "original_sha256": "81e317b296432ff7ef2884f9541f6b499d844f06864172840e9b428b64e92418",
+          "original_bytes": 9
+        },
+        {
+          "relative_path": "bwa/merged_replicate/bigwig/scale/HIV_CD86HI_48H.mRp.clN.scale_factor.txt",
+          "original_sha256": "b6cc95c826eca9c17c39ef627d77af65696bf46922b6c36a2249b26bc95782c3",
+          "original_bytes": 10
+        },
+        {
+          "relative_path": "bwa/merged_replicate/bigwig/scale/MOCK_48H.mRp.clN.scale_factor.txt",
+          "original_sha256": "7773c493750e55633cc63eeb08645eb93da830cff322d642b195eb7883d44cab",
+          "original_bytes": 9
+        },
+        {
+          "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.bed",
+          "original_sha256": "7b48cc789f2f42d1bbcd24ec546ef763d2451d8a22fdc42c0b7b44aab4e67dee",
+          "original_bytes": 3208336
+        },
+        {
+          "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.featureCounts.tsv",
+          "original_sha256": "74a78c98e9529706d4031200cc16feb3f933307844152055e709b50a99d7a0eb",
+          "original_bytes": 4065870
+        },
+        {
+          "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.featureCounts.tsv.summary",
+          "original_sha256": "4a3f01ee3aa900259ee5c7da6c3a5114019adb99fe383b5cda67368c37b52edc",
+          "original_bytes": 626
+        },
+        {
+          "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.saf",
+          "original_sha256": "52d6cbf6b333c4a18357252db28fcefbe13172148d66da4b0b1051f4c1087b9e",
+          "original_bytes": 3058494
+        },
+        {
+          "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.bed",
+          "original_sha256": "9a8c8f6ec74d862c69fca4858c90fbc14b54a2758857730ccd7be7b24c52d0bf",
+          "original_bytes": 4998057
+        },
+        {
+          "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.featureCounts.tsv",
+          "original_sha256": "c187ba08843078bc089b456cbb022737605f960038268c306e80d56204132d32",
+          "original_bytes": 6273548
+        },
+        {
+          "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.featureCounts.tsv.summary",
+          "original_sha256": "e4a21a494700fd7397f9b107a32818901b4708f54cb00759b258bab50b1ef7c0",
+          "original_bytes": 626
+        },
+        {
+          "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.saf",
+          "original_sha256": "abc0151dae3fd5491b8ef50113cda28327cccc16ec58b7c43f6613561e205784",
+          "original_bytes": 4765643
+        }
+      ]
+    },
+    "pr448-hiv-bwa-fixed-a9b588": {
+      "workflow_id": "BVYqNpYNcUhEN",
+      "revision": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "complete": true,
+      "workflow_source_verified": true,
+      "files": [
+        {
+          "relative_path": "pipeline_info/nf_core_atacseq_software_mqc_versions.yml",
+          "original_sha256": "8b71ad042ce3c0e51a5c7782aeba030827f0c088beab185d8fb4b668098445ba",
+          "original_bytes": 1603
+        },
+        {
+          "relative_path": "multiqc/broad_peak/multiqc_report.html",
+          "original_sha256": "34b848de376ced4fa02bd1167e9506097e69b6a902c7076e9095c2de1585e2a4",
+          "original_bytes": 1582885
+        },
+        {
+          "relative_path": "trimgalore/logs/HIV_CD86HI_48H_REP1_T1_1.fastq.gz_trimming_report.txt",
+          "original_sha256": "7e3d94f626fb72f7d86717d468cb01f190b2de4ae0c960300250f16002d2905a",
+          "original_bytes": 3282
+        },
+        {
+          "relative_path": "trimgalore/logs/HIV_CD86HI_48H_REP1_T1_2.fastq.gz_trimming_report.txt",
+          "original_sha256": "bd868ce3fb90ec1ed84fabf832531f299f2030ff6af2223d0e9eea5c98d50634",
+          "original_bytes": 3675
+        },
+        {
+          "relative_path": "trimgalore/logs/HIV_CD86HI_48H_REP2_T1_1.fastq.gz_trimming_report.txt",
+          "original_sha256": "41a8de75e7624a188ec46a3ca7579fa91870701c0efec439a4f30dc9f47bfafb",
+          "original_bytes": 3278
+        },
+        {
+          "relative_path": "trimgalore/logs/HIV_CD86HI_48H_REP2_T1_2.fastq.gz_trimming_report.txt",
+          "original_sha256": "3e4b1cf74a3f69c3883b8b80dfc31fed5376026a88b3ab8513bf728eb00c02d0",
+          "original_bytes": 3673
+        },
+        {
+          "relative_path": "trimgalore/logs/MOCK_48H_REP1_T1_1.fastq.gz_trimming_report.txt",
+          "original_sha256": "f179288eca762997e2dfd556d1ecb687ec42d6ff16b794c15c7cd94735f902bc",
+          "original_bytes": 3262
+        },
+        {
+          "relative_path": "trimgalore/logs/MOCK_48H_REP1_T1_2.fastq.gz_trimming_report.txt",
+          "original_sha256": "7c681189b88890e5338a934028acad855b53296805635eef841abc3fcdb09d4c",
+          "original_bytes": 3653
+        },
+        {
+          "relative_path": "trimgalore/logs/MOCK_48H_REP2_T1_1.fastq.gz_trimming_report.txt",
+          "original_sha256": "bedffaaaf66289ef4973e6362b4759df998192b92654422e4a30e480d4ac9e2c",
+          "original_bytes": 3272
+        },
+        {
+          "relative_path": "trimgalore/logs/MOCK_48H_REP2_T1_2.fastq.gz_trimming_report.txt",
+          "original_sha256": "7650fa51b2865155362253da6ca0da72015502a0d3657c194fd5c1e4c34fce5d",
+          "original_bytes": 3667
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.alignment_summary_metrics",
+          "original_sha256": "cc462fb4977356fe07e89f6083571844860239e1452ba95456e9d59d48bf4f48",
+          "original_bytes": 3013
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.base_distribution_by_cycle_metrics",
+          "original_sha256": "0b85d9aeec602eecadde8ef3751fdd0d48b8f796087e41e73e767a7f18540f33",
+          "original_bytes": 8512
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.insert_size_metrics",
+          "original_sha256": "9a595f8ff444ddc22abfde57aa1dac7a88e153a15e1f0edc4d54618ea1e88677",
+          "original_bytes": 7885
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.quality_by_cycle_metrics",
+          "original_sha256": "d2d4ea07e9412485463b1e0ea2f268b5b9c5fd9b7ce6bdf633612b72a813ca1d",
+          "original_bytes": 2894
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.quality_distribution_metrics",
+          "original_sha256": "bb4335cc80f5f3b8e3649db3e2c2e0a0d45273d5d03504d8f3b7693145132bb6",
+          "original_bytes": 945
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.mkD.sorted.metrics.txt",
+          "original_sha256": "7b701226a3c67eac23ae95ffc01073fd158b29489ee144851adcb1a1b6a883cf",
+          "original_bytes": 15166
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.alignment_summary_metrics",
+          "original_sha256": "7424f7d42d3f4f9a848f98043ac68fa547464caa6d8ec38bf5d9eac6c148ae43",
+          "original_bytes": 3015
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.base_distribution_by_cycle_metrics",
+          "original_sha256": "7e557da03b228ca11a66dba68e51100228e24f12f48f2b2cd8e14f1ca129585d",
+          "original_bytes": 8554
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.insert_size_metrics",
+          "original_sha256": "577d353eab90e29763f58b4a6797992e574e26b199c77825bd310efe1f1e10ad",
+          "original_bytes": 7367
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.quality_by_cycle_metrics",
+          "original_sha256": "c8b0ce492d1a7cbfee38d612e615e354978a6a5dd96e835a98d996227190f059",
+          "original_bytes": 2898
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.quality_distribution_metrics",
+          "original_sha256": "344536775f71827173be0388649b3d46da30380406c197666b9464b15c354bce",
+          "original_bytes": 945
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.mkD.sorted.metrics.txt",
+          "original_sha256": "f3a32dff350bf33633cc76e163d0c4cc2601f9c87110da99249b15d1e1a4b2ae",
+          "original_bytes": 14310
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.alignment_summary_metrics",
+          "original_sha256": "bde2ff5015090182d55b3c71785daffa7e0e7e6c6af85abe9a9a2a144fa5dbcd",
+          "original_bytes": 2997
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.base_distribution_by_cycle_metrics",
+          "original_sha256": "0e49ba41337800de99d876a478675d9c9ffa8a86d55a685c536083b1c7d8e5e6",
+          "original_bytes": 8505
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.insert_size_metrics",
+          "original_sha256": "4eb8cd27a61c5a6449c0f9bef40a675f4f9de4bb6cc822dac13d7bf2ce9c537a",
+          "original_bytes": 6872
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.quality_by_cycle_metrics",
+          "original_sha256": "e62efce33368dd90c5853e973f5d3f0a534ea0dc0079093b0d899be96545dc1c",
+          "original_bytes": 2884
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.quality_distribution_metrics",
+          "original_sha256": "e04d4fb5ab4949b7bbdb5570fc402d0d993615a3fbec8dd08e15f8cc3a11d98f",
+          "original_bytes": 933
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP1.mLb.mkD.sorted.metrics.txt",
+          "original_sha256": "50930b9ed7999fd7d7e79a86cd5bea24c41f5521eac622ee34a574be31dbd1c9",
+          "original_bytes": 13627
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.alignment_summary_metrics",
+          "original_sha256": "fa798462a289c8c1246e2e60086f6d29feb0c7111937b6d19db5ccd0f613aa59",
+          "original_bytes": 3024
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.base_distribution_by_cycle_metrics",
+          "original_sha256": "c866fd81cac879660a204948fac006fddaecd0a68c344df272f94d44c65d0d0f",
+          "original_bytes": 8513
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.insert_size_metrics",
+          "original_sha256": "1ac41631637b321028ef5c41aa8722963ec7d5b7805b4079d07a17f0af370c2a",
+          "original_bytes": 6389
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.quality_by_cycle_metrics",
+          "original_sha256": "4b5fd6d200a58224f4f04c2f70c884878432cb2fdcbea9d2de3d749da339804d",
+          "original_bytes": 2877
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.quality_distribution_metrics",
+          "original_sha256": "13328c85d2400bb0835b6cf46ed2200fa77bd7c27b086a20830bb5fa2cbffa5e",
+          "original_bytes": 933
+        },
+        {
+          "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP2.mLb.mkD.sorted.metrics.txt",
+          "original_sha256": "ed52c6abb80f0107ce080aaba44f5e6210b68dd3defe3e8b7286a534c291da63",
+          "original_bytes": 14399
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam.flagstat",
+          "original_sha256": "2ec80cf8b1aed5988f9c0d34587fe5647c87eeb3782f04f29f34048e902bb641",
+          "original_bytes": 510
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam.idxstats",
+          "original_sha256": "1e2baf55710ae51ebad15a42dafd1ff6bcc6430b9e219894fea71365151dbf3e",
+          "original_bytes": 5520
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam.stats",
+          "original_sha256": "51eb00547788b0bf0ec3e365c6622157b8e5e6482eb2b75d58b3506e4155bc3d",
+          "original_bytes": 57706
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.mkD.sorted.bam.flagstat",
+          "original_sha256": "970f36aa023591ea3fb60b9c3e39338bf5ce64dd9c556962f66b93782f8c6b37",
+          "original_bytes": 543
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.mkD.sorted.bam.idxstats",
+          "original_sha256": "ec82a5ad6d3a9bb62b72569e7424cd4c4339ccfbf82ad14edb3df73a82897e0d",
+          "original_bytes": 5667
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.mkD.sorted.bam.stats",
+          "original_sha256": "fc723d266e88679ff7cbd4ec1cffe019eb9fb06c7f27eac8cb25f0ad6929ecba",
+          "original_bytes": 74151
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam.flagstat",
+          "original_sha256": "2ccf66fcb4e01c983006399f3f00f124fd657bf917e92cc2e52afc1ace437754",
+          "original_bytes": 510
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam.idxstats",
+          "original_sha256": "9c8376c3b74181afdd89b6c488f4a07e20fd4aedcb9ee134e82932325f55f3f8",
+          "original_bytes": 5540
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam.stats",
+          "original_sha256": "ce6aa522e9c0feda963826f8ba110e202ccb3ef3ba22c899404e3ee28e568fd5",
+          "original_bytes": 58625
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.mkD.sorted.bam.flagstat",
+          "original_sha256": "8f5a06f0a2189f4d4a46b7def55c4a17b0a1638b897d7fb376904481a12e8a4e",
+          "original_bytes": 543
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.mkD.sorted.bam.idxstats",
+          "original_sha256": "cbd9fda1adc358e8edcc2c2ccbd83f1b728faef29df6a933b9d5dedcee6ee2fd",
+          "original_bytes": 5703
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.mkD.sorted.bam.stats",
+          "original_sha256": "24a47db9cc0809f0fe58a9440607095ab95cb9876b31d2025fe225b610decb8c",
+          "original_bytes": 75096
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP1.mLb.clN.sorted.bam.flagstat",
+          "original_sha256": "3b8ae52b90cd8781b05477fb83b0422b25ae747cd30a21b0fac2a61f4d31433a",
+          "original_bytes": 510
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP1.mLb.clN.sorted.bam.idxstats",
+          "original_sha256": "ee16f9fd9ff4fdec0cb1f5233440adb061ac1e48d1d017aaa405de5621a66811",
+          "original_bytes": 5527
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP1.mLb.clN.sorted.bam.stats",
+          "original_sha256": "23543fdb112f8f411aa857c68062e35dbd349d8305a65540c04e7ee881285bc1",
+          "original_bytes": 57605
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP1.mLb.mkD.sorted.bam.flagstat",
+          "original_sha256": "b0cbad03eb9f24a1a8682075f645d32b9cc1281ea575887a76dce57068679831",
+          "original_bytes": 543
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP1.mLb.mkD.sorted.bam.idxstats",
+          "original_sha256": "d3cb4d54da428ded9c1287a2b400d72c3d09a11a87f1c6d90a31f27174aad1d0",
+          "original_bytes": 5682
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP1.mLb.mkD.sorted.bam.stats",
+          "original_sha256": "21f304561eaf0836c0fdab6e0ea8d822d343345b4b5fb5db89deb717474c056b",
+          "original_bytes": 75004
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP2.mLb.clN.sorted.bam.flagstat",
+          "original_sha256": "f5ce5eaea79f14db2be727f46af60964ebaca7476fa41f9455a14bee70906fde",
+          "original_bytes": 510
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP2.mLb.clN.sorted.bam.idxstats",
+          "original_sha256": "cdeeeec31c17df9d1552de387e4e5754bea75463540ea04af58a548b79ca27bf",
+          "original_bytes": 5547
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP2.mLb.clN.sorted.bam.stats",
+          "original_sha256": "794bebbe233a0d532d615e0f3750e6a9ddb9fbc9b5a39cc46c85927925c1c8c0",
+          "original_bytes": 59018
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP2.mLb.mkD.sorted.bam.flagstat",
+          "original_sha256": "9802cefd3fbb7417645978e30e87242dd50fb40aee1429926708dedb9ffa92fc",
+          "original_bytes": 544
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP2.mLb.mkD.sorted.bam.idxstats",
+          "original_sha256": "d11bc1b5b113a5cc4d55f903bc2102cbbfdcefa842372981cfd83852aeeb2b5e",
+          "original_bytes": 5725
+        },
+        {
+          "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP2.mLb.mkD.sorted.bam.stats",
+          "original_sha256": "8169e76d157f45aae1055937ba3fcad64e68166324fe6f00504b2ab69a7ca797",
+          "original_bytes": 75406
+        },
+        {
+          "relative_path": "bwa/merged_replicate/picard_metrics/HIV_CD86HI_48H.mRp.clN.sorted.metrics.txt",
+          "original_sha256": "ac2823083f4fcd0d3c0d2c19e164e10a5f8b72f8132d3bb398fb471a575cf792",
+          "original_bytes": 1947
+        },
+        {
+          "relative_path": "bwa/merged_replicate/picard_metrics/MOCK_48H.mRp.clN.sorted.metrics.txt",
+          "original_sha256": "7e77a17c16d9548a379565c4a992cf5b2724c6a2c4d3000445afc07d44e80ec4",
+          "original_bytes": 1917
+        },
+        {
+          "relative_path": "bwa/merged_replicate/samtools_stats/HIV_CD86HI_48H.mRp.clN.sorted.bam.flagstat",
+          "original_sha256": "cf21dd1f438a79e87698a1bc1623dff6153af02823c96390073a7889efd89323",
+          "original_bytes": 517
+        },
+        {
+          "relative_path": "bwa/merged_replicate/samtools_stats/HIV_CD86HI_48H.mRp.clN.sorted.bam.idxstats",
+          "original_sha256": "ae66817e82fbe35cfb97072798bfed4f39842d6b6fde0731559fb1295c02105c",
+          "original_bytes": 5568
+        },
+        {
+          "relative_path": "bwa/merged_replicate/samtools_stats/HIV_CD86HI_48H.mRp.clN.sorted.bam.stats",
+          "original_sha256": "49452634e6d340df215ff8bea46557121b344ab862a0f2aad1abff0688bf5666",
+          "original_bytes": 61180
+        },
+        {
+          "relative_path": "bwa/merged_replicate/samtools_stats/MOCK_48H.mRp.clN.sorted.bam.flagstat",
+          "original_sha256": "0393c9b730be8c00480a9f38a0e2a8f1e65365b559d1eed9fe9297b262b8b193",
+          "original_bytes": 517
+        },
+        {
+          "relative_path": "bwa/merged_replicate/samtools_stats/MOCK_48H.mRp.clN.sorted.bam.idxstats",
+          "original_sha256": "69b6a658964d26a7acb41d48e5ef00deb9931f0b433c9cebbf734b9e91391273",
+          "original_bytes": 5567
+        },
+        {
+          "relative_path": "bwa/merged_replicate/samtools_stats/MOCK_48H.mRp.clN.sorted.bam.stats",
+          "original_sha256": "6e54805a350c0f4a9e3883e01fcecc226fdbd2d434d68b47bd05d85276bc380a",
+          "original_bytes": 62522
+        },
+        {
+          "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_data.json",
+          "original_sha256": "5fa2c6c92d7de9f4b2d8f43b8f099e4ff5159859e7b86587f966da4cb50ac0fe",
+          "original_bytes": 3712591
+        },
+        {
+          "relative_path": "bwa/merged_library/bigwig/scale/HIV_CD86HI_48H_REP1.mLb.clN.scale_factor.txt",
+          "original_sha256": "1b14612fcaa22dad5fb8f49c1012900371f413575ddf0bdcdf8389d96c8397e1",
+          "original_bytes": 9
+        },
+        {
+          "relative_path": "bwa/merged_library/bigwig/scale/HIV_CD86HI_48H_REP2.mLb.clN.scale_factor.txt",
+          "original_sha256": "e41e7b2bcac0f8b34afd5136acc038224f2ed2d5ad8cf16640dcb570ada26f27",
+          "original_bytes": 9
+        },
+        {
+          "relative_path": "bwa/merged_library/bigwig/scale/MOCK_48H_REP1.mLb.clN.scale_factor.txt",
+          "original_sha256": "e81d0457ed55b230288324631ee4c858b21d3f2fdf90a689de69b039937a5d22",
+          "original_bytes": 9
+        },
+        {
+          "relative_path": "bwa/merged_library/bigwig/scale/MOCK_48H_REP2.mLb.clN.scale_factor.txt",
+          "original_sha256": "eb2f0082960c632183b66212ab185df3d3342f6bf807ffa80e6132d4f5199e6b",
+          "original_bytes": 9
+        },
+        {
+          "relative_path": "bwa/merged_replicate/bigwig/scale/HIV_CD86HI_48H.mRp.clN.scale_factor.txt",
+          "original_sha256": "00bd7370e4511665a99a743897266c2b5d317416d0a859b19eded1aee53323fe",
+          "original_bytes": 9
+        },
+        {
+          "relative_path": "bwa/merged_replicate/bigwig/scale/MOCK_48H.mRp.clN.scale_factor.txt",
+          "original_sha256": "b895755f4f965319f6c81347307bf52450b2f140389cf3c65ba532bb89efcd5e",
+          "original_bytes": 10
+        },
+        {
+          "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.bed",
+          "original_sha256": "cce1858a1f6f283875cc00720e2936075186aec1a06ab91ac7059be89bcde771",
+          "original_bytes": 3206594
+        },
+        {
+          "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.featureCounts.tsv",
+          "original_sha256": "7623ea076dfe8aba9100e2b76c52735f9dba4e3f6852dc17cd36fb101b617bef",
+          "original_bytes": 4063680
+        },
+        {
+          "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.featureCounts.tsv.summary",
+          "original_sha256": "ac549611198436d8811c23b43999eb9a7f829e0166058efa06084499cc226c0a",
+          "original_bytes": 626
+        },
+        {
+          "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.saf",
+          "original_sha256": "387a661c3cd88d347a5ef4d41ca9cc38eb49cc9ba723916689ac2c45aaa6943c",
+          "original_bytes": 3056832
+        },
+        {
+          "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.bed",
+          "original_sha256": "6478fc34135771a7df08cdb7a631151f822c2952afe6b4ac23171570c39514a9",
+          "original_bytes": 4983076
+        },
+        {
+          "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.featureCounts.tsv",
+          "original_sha256": "ccac664bca2144c9042eb6536548e086973914c0d01b86d364fce982e87e5dfc",
+          "original_bytes": 6255181
+        },
+        {
+          "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.featureCounts.tsv.summary",
+          "original_sha256": "6b53f81440e7f60f216ac824a62d211c1c9172a3adb51addcb116902125af4f9",
+          "original_bytes": 626
+        },
+        {
+          "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.saf",
+          "original_sha256": "d2b5899d5215c31eb76affee1f02faad3552c00de7cc08155e97b739b86bd780",
+          "original_bytes": 4751344
+        }
+      ]
+    },
+    "pr448-hiv-chromap-unfixed-a9b588": {
+      "workflow_id": "6n2TeKZ3HxTua",
+      "revision": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "complete": true,
+      "workflow_source_verified": true,
+      "files": [
+        {
+          "relative_path": "pipeline_info/nf_core_atacseq_software_mqc_versions.yml",
+          "original_sha256": "77cde815f124d68d7d2866dab84b503967786b775cdb9efc67b49ce6402b0eaa",
+          "original_bytes": 1697
+        },
+        {
+          "relative_path": "multiqc/broad_peak/multiqc_report.html",
+          "original_sha256": "a1dad8eff9e3559302c40e5061eadebedc715acbd39e835579c02f06b4e4a0f8",
+          "original_bytes": 1582072
+        },
+        {
+          "relative_path": "trimgalore/logs/HIV_CD86HI_48H_REP1_T1_1.fastq.gz_trimming_report.txt",
+          "original_sha256": "8b0d3122f04989494a82c3aea2e3ad922c2abba5ad3c7e3eb26834e3d7df2302",
+          "original_bytes": 3501
+        },
+        {
+          "relative_path": "trimgalore/logs/HIV_CD86HI_48H_REP1_T1_2.fastq.gz_trimming_report.txt",
+          "original_sha256": "9a5569432dde40b2477580533fceab8df22ba6795b01b565114e2525f792440e",
+          "original_bytes": 3813
+        },
+        {
+          "relative_path": "trimgalore/logs/HIV_CD86HI_48H_REP2_T1_1.fastq.gz_trimming_report.txt",
+          "original_sha256": "5c77d6c304f329a694a862d898986b5314f94698d5823ba36c5bf0d61e62dd86",
+          "original_bytes": 3497
+        },
+        {
+          "relative_path": "trimgalore/logs/HIV_CD86HI_48H_REP2_T1_2.fastq.gz_trimming_report.txt",
+          "original_sha256": "70e483b0a6f78dbc67bf4464e1d0106c33468db869d67471ff26b30b427afc23",
+          "original_bytes": 3811
+        },
+        {
+          "relative_path": "trimgalore/logs/MOCK_48H_REP1_T1_1.fastq.gz_trimming_report.txt",
+          "original_sha256": "7368bcefb9e4adb440f7bbca79c687ed4b8b6a86b4a1187645594aff06d81924",
+          "original_bytes": 3481
+        },
+        {
+          "relative_path": "trimgalore/logs/MOCK_48H_REP1_T1_2.fastq.gz_trimming_report.txt",
+          "original_sha256": "c90fb4fc5a358716bb4f642e894d02990324fce90ba620c422ce59b285eec4e4",
+          "original_bytes": 3791
+        },
+        {
+          "relative_path": "trimgalore/logs/MOCK_48H_REP2_T1_1.fastq.gz_trimming_report.txt",
+          "original_sha256": "83c95dbc71a8ff38464ab96219a668eeefd1a57e99ee9d589b51ec1fde793f2d",
+          "original_bytes": 3491
+        },
+        {
+          "relative_path": "trimgalore/logs/MOCK_48H_REP2_T1_2.fastq.gz_trimming_report.txt",
+          "original_sha256": "2f251a01f14e038239400bd3e6090e179cf5a672be15871f8c5428785770c1fc",
+          "original_bytes": 3806
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.alignment_summary_metrics",
+          "original_sha256": "a78f93793b19dedb73aec03bb10e1fac1c484cf0e3550372cf162112a14dbc9e",
+          "original_bytes": 2862
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.base_distribution_by_cycle_metrics",
+          "original_sha256": "f8548ef9fcbb392de51ce1f12506a39945c365ba6f14852c1a912cda4dfdef92",
+          "original_bytes": 8533
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.insert_size_metrics",
+          "original_sha256": "159d0d27a2b2b774aa8ee8278351df687bc388a63530ec949d656a88325fc806",
+          "original_bytes": 7824
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.quality_by_cycle_metrics",
+          "original_sha256": "63ef1a245461e217fe6dd2c657b8c5468d91810af3de11c78286e465228679a9",
+          "original_bytes": 2891
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.quality_distribution_metrics",
+          "original_sha256": "a601bf1a51b0c2c6e570ec928dee4e217b240227f586d14e394defb742c84df9",
+          "original_bytes": 945
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.mkD.sorted.metrics.txt",
+          "original_sha256": "3f59c9bed06f5d42e0dde71319b033ee5ad4e4e66293dcb12887b4f314db382b",
+          "original_bytes": 14728
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.alignment_summary_metrics",
+          "original_sha256": "e4780d65a10e5578bad499802bfc092692df163e04545128452011be316529c6",
+          "original_bytes": 2869
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.base_distribution_by_cycle_metrics",
+          "original_sha256": "4bbc47a1c85e69d29d046ed0dd8385d99721043ff496b7ab468497b42e7a379f",
+          "original_bytes": 8515
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.insert_size_metrics",
+          "original_sha256": "58d1b74b0f3a843fb04fa53759dd1d511ada16deb34b963aacc85ee16a27a6d0",
+          "original_bytes": 7317
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.quality_by_cycle_metrics",
+          "original_sha256": "9d447fc2165559ed35597a1a3afa397b0c695f3bc697ef766a00cb13b4d89228",
+          "original_bytes": 2889
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.quality_distribution_metrics",
+          "original_sha256": "a1118715a825c36f5817650e752e15be0578a0fe4298dd40a6c8c51ac03a6bee",
+          "original_bytes": 945
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.mkD.sorted.metrics.txt",
+          "original_sha256": "acfc7bf0cfb75c629beb4376834ae389efe1b13af2cccc4b0692664371eaf7d6",
+          "original_bytes": 14130
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.alignment_summary_metrics",
+          "original_sha256": "7c72da928fc8f2f203726d4c2fd595ff4d280d5b461f4e7a24a75850c85e8512",
+          "original_bytes": 2846
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.base_distribution_by_cycle_metrics",
+          "original_sha256": "0d7ce8ea60bf487abe76136bef34fde538940817e59d1ae9d5736851b1a7ab87",
+          "original_bytes": 8469
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.insert_size_metrics",
+          "original_sha256": "b2a0aa1a7fa4d5b050ef4191ba0b4dfae10793d55bf01bd5a8a86425f457479e",
+          "original_bytes": 6807
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.quality_by_cycle_metrics",
+          "original_sha256": "2229af98af0a690ef072a21b2131ff9367e1d22a85cdf276a1d4eb29f9452137",
+          "original_bytes": 2877
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.quality_distribution_metrics",
+          "original_sha256": "c78a4eb57286e304f5ec49feefcbf94234e12c3aa452040a35eeaae6433a6e83",
+          "original_bytes": 933
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/MOCK_48H_REP1.mLb.mkD.sorted.metrics.txt",
+          "original_sha256": "b975ae2b36f71f45295738a1baa9bc6adee746e6c6b7d97aaf93a667bdd471ee",
+          "original_bytes": 13283
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.alignment_summary_metrics",
+          "original_sha256": "9937f799148166acd0c21ab15fcdf0c2840f78babfd4c8ef7c68a0bb5768e63a",
+          "original_bytes": 2876
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.base_distribution_by_cycle_metrics",
+          "original_sha256": "02fca7652c030dde47683af485630c2faf56bdb5833935c62cac8c9f5f3f5882",
+          "original_bytes": 8502
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.insert_size_metrics",
+          "original_sha256": "f90713ef8d788f288a295c525179805f5abf354b8f5faedf83404adb6738fe95",
+          "original_bytes": 6340
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.quality_by_cycle_metrics",
+          "original_sha256": "44453821105d8e21baee12db484e7f14a9d48d9167cda40f480b603d66e88238",
+          "original_bytes": 2891
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.quality_distribution_metrics",
+          "original_sha256": "54dde6563767fa9dea1b0ef290df958a3a0800975f317b4a628cfcac7855c92f",
+          "original_bytes": 933
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/MOCK_48H_REP2.mLb.mkD.sorted.metrics.txt",
+          "original_sha256": "9751cd41214c23d426b0f80c569ada23639fc7d1a76de4c92652e55ab1b170d7",
+          "original_bytes": 13925
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam.flagstat",
+          "original_sha256": "08d85c6e424951459e0af5ff2d59eb67efc84c1e515f3a84a4bc1664d46e23d0",
+          "original_bytes": 511
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam.idxstats",
+          "original_sha256": "4caf4bfbaac6d38f3dfdeaca27777ab6b3b285d1d2a0ed79d3985eda1b680888",
+          "original_bytes": 5496
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam.stats",
+          "original_sha256": "2d89b3ea64ce0a47ae026aafc773f8efe5c5b76591adfd9f86dd7987876bbe56",
+          "original_bytes": 56451
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.mkD.sorted.bam.flagstat",
+          "original_sha256": "304d1512d3e1a0341180ae8d88fae3777b7b3de7d05dbb1b6bbcbc1e2c712530",
+          "original_bytes": 534
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.mkD.sorted.bam.idxstats",
+          "original_sha256": "e12abea35d63d87410faa99e7b22ce6cdba2dee7ef2775693d842bbe46d95256",
+          "original_bytes": 5513
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.mkD.sorted.bam.stats",
+          "original_sha256": "ecf579aaee4ff7400dfe82662f38e8e08aa647b47678ecff4af172755bc3f4a3",
+          "original_bytes": 62387
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam.flagstat",
+          "original_sha256": "8d1fbca3ded3ea3c99d1a718607f1a57266ea4774db5432f6fe049d71322f8cc",
+          "original_bytes": 511
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam.idxstats",
+          "original_sha256": "e0e30e820ed9f2b36438962136ff0d3e9415f69c8b6ef8f64012df3d339ddbac",
+          "original_bytes": 5513
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam.stats",
+          "original_sha256": "bf3f1a0c8e68e261fedeac5eee432a6d56612e20e8e1391e4b317809d5898de2",
+          "original_bytes": 56902
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.mkD.sorted.bam.flagstat",
+          "original_sha256": "65f96111baf738648fd030a4fff9ed1fc10aa5770f9093f64a714114e6ca0738",
+          "original_bytes": 534
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.mkD.sorted.bam.idxstats",
+          "original_sha256": "4e903b193e12a738d3777b5c982c7c73d270f51b4dbca5861acccf05cd9a5052",
+          "original_bytes": 5541
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.mkD.sorted.bam.stats",
+          "original_sha256": "9e08b8d5de58151452b01f70209c32c3a59bff165b0a53b5ca3a496482063b22",
+          "original_bytes": 62528
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/MOCK_48H_REP1.mLb.clN.sorted.bam.flagstat",
+          "original_sha256": "edf872db299815d094770607d713ee94e175e9555e942996e416c8888e0c29b2",
+          "original_bytes": 511
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/MOCK_48H_REP1.mLb.clN.sorted.bam.idxstats",
+          "original_sha256": "374e1d39e47b32f810390b2ecf42782926be50afe8e80516f6c82f9bff67e99f",
+          "original_bytes": 5507
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/MOCK_48H_REP1.mLb.clN.sorted.bam.stats",
+          "original_sha256": "1ae623836846e0d61b641534175f9e4b2d7ea6854f7958540f7ae8400388a67d",
+          "original_bytes": 56049
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/MOCK_48H_REP1.mLb.mkD.sorted.bam.flagstat",
+          "original_sha256": "7f71239bc8b420db23fe35728bc4851318cf933db87e851de5dc4835869a715f",
+          "original_bytes": 534
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/MOCK_48H_REP1.mLb.mkD.sorted.bam.idxstats",
+          "original_sha256": "1f2b7e9655d07a11eae0d8d291cae0239eba36781cd16fb146caaa5a5c1f0590",
+          "original_bytes": 5531
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/MOCK_48H_REP1.mLb.mkD.sorted.bam.stats",
+          "original_sha256": "f9a7b92d43ed223d76867a358bf5ba0c808e60e1d0e6c5d904aac58e74ecd28c",
+          "original_bytes": 63249
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/MOCK_48H_REP2.mLb.clN.sorted.bam.flagstat",
+          "original_sha256": "1ce1511be70865a0de9ed2174a93068babb114fbfa12dc6fbeb87f8c59788fc5",
+          "original_bytes": 511
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/MOCK_48H_REP2.mLb.clN.sorted.bam.idxstats",
+          "original_sha256": "13ee4c6720798cde35fac1328f4d7ca5f68563a7b15830253281ece2837cc163",
+          "original_bytes": 5530
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/MOCK_48H_REP2.mLb.clN.sorted.bam.stats",
+          "original_sha256": "ec183cea53f7b4ebae5ed48048462f02af94791ebfe48aea1427ca2c826b62eb",
+          "original_bytes": 57707
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/MOCK_48H_REP2.mLb.mkD.sorted.bam.flagstat",
+          "original_sha256": "1ff95711a29ae0a33cd797bd5eb32ae094e61105153422e1b634a985dab924a6",
+          "original_bytes": 534
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/MOCK_48H_REP2.mLb.mkD.sorted.bam.idxstats",
+          "original_sha256": "33c9252ff20169574078f8d9505f9c4cd088178037d86e6861b91bb9a54814a6",
+          "original_bytes": 5551
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/MOCK_48H_REP2.mLb.mkD.sorted.bam.stats",
+          "original_sha256": "5ee214127fdd10951e9ea5e42e3095be12f3fc42a76f9ef2850d20f837ce5ad9",
+          "original_bytes": 62836
+        },
+        {
+          "relative_path": "chromap/merged_replicate/picard_metrics/HIV_CD86HI_48H.mRp.clN.sorted.metrics.txt",
+          "original_sha256": "53ca9b4285e3b63fd50055468df5c070d41aea08946a54c798fd91a42c5f8282",
+          "original_bytes": 1947
+        },
+        {
+          "relative_path": "chromap/merged_replicate/picard_metrics/MOCK_48H.mRp.clN.sorted.metrics.txt",
+          "original_sha256": "5468365086150ecfaec3e75827e1288ef9bfcec40e69abb88870b50a10920b3c",
+          "original_bytes": 1917
+        },
+        {
+          "relative_path": "chromap/merged_replicate/samtools_stats/HIV_CD86HI_48H.mRp.clN.sorted.bam.flagstat",
+          "original_sha256": "aa0f60f321f557b2a113990aefa0a0bf8d07878557d829dbb91a7e2c0df48b53",
+          "original_bytes": 518
+        },
+        {
+          "relative_path": "chromap/merged_replicate/samtools_stats/HIV_CD86HI_48H.mRp.clN.sorted.bam.idxstats",
+          "original_sha256": "122507a631eaaec872d8ba3772a0bc6b9d4646fe010951885e3e39ba52d2b64c",
+          "original_bytes": 5545
+        },
+        {
+          "relative_path": "chromap/merged_replicate/samtools_stats/HIV_CD86HI_48H.mRp.clN.sorted.bam.stats",
+          "original_sha256": "179fac6e61f80ccc85c24f5b7f8954d75a20d75376947bffb93a175280e4b35c",
+          "original_bytes": 59257
+        },
+        {
+          "relative_path": "chromap/merged_replicate/samtools_stats/MOCK_48H.mRp.clN.sorted.bam.flagstat",
+          "original_sha256": "0ad9592f29f8b43d41948a516d93bde611a7bc2ad4389f65b0a81e16fea989af",
+          "original_bytes": 518
+        },
+        {
+          "relative_path": "chromap/merged_replicate/samtools_stats/MOCK_48H.mRp.clN.sorted.bam.idxstats",
+          "original_sha256": "64a92c7cdfb78e86c3037eb153df139faa2c665fb3eec1333ed4aa9d2608a9d6",
+          "original_bytes": 5552
+        },
+        {
+          "relative_path": "chromap/merged_replicate/samtools_stats/MOCK_48H.mRp.clN.sorted.bam.stats",
+          "original_sha256": "2a793b71f555977936397521871e3c5b9d9be53f2ca3eff36aa77d8e64710360",
+          "original_bytes": 60362
+        },
+        {
+          "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_data.json",
+          "original_sha256": "e874df0b79ff8a66fa8a467fda2ea0852fc5a39b9da3ec1f76438671f26b7d8f",
+          "original_bytes": 3698721
+        },
+        {
+          "relative_path": "chromap/merged_library/bigwig/scale/HIV_CD86HI_48H_REP1.mLb.clN.scale_factor.txt",
+          "original_sha256": "267de4052ea59694ce2f2b23832c3c9fad997d5c675da73e55e0691d94c6232d",
+          "original_bytes": 9
+        },
+        {
+          "relative_path": "chromap/merged_library/bigwig/scale/HIV_CD86HI_48H_REP2.mLb.clN.scale_factor.txt",
+          "original_sha256": "ef356b963898e3f9da9110619bc4308e239c247f2bf9d2dba405886cb34d9218",
+          "original_bytes": 9
+        },
+        {
+          "relative_path": "chromap/merged_library/bigwig/scale/MOCK_48H_REP1.mLb.clN.scale_factor.txt",
+          "original_sha256": "ca63085ac3bd1d6e0c78b8ad113d82925d28901de717465ac95cacf6e0a87322",
+          "original_bytes": 9
+        },
+        {
+          "relative_path": "chromap/merged_library/bigwig/scale/MOCK_48H_REP2.mLb.clN.scale_factor.txt",
+          "original_sha256": "7a72c01fa1fed18a40676ddc45e00fdeaf9b757419d8a69739f28246daccaa34",
+          "original_bytes": 9
+        },
+        {
+          "relative_path": "chromap/merged_replicate/bigwig/scale/HIV_CD86HI_48H.mRp.clN.scale_factor.txt",
+          "original_sha256": "630b492110121dea3f3d6658295d1ecf4b24588f68103d14fa7be3b2e3280b59",
+          "original_bytes": 10
+        },
+        {
+          "relative_path": "chromap/merged_replicate/bigwig/scale/MOCK_48H.mRp.clN.scale_factor.txt",
+          "original_sha256": "42f5d9c2a184f074d7f59a9a1d4f1a755bf7f1332d77c866abd78605e258a434",
+          "original_bytes": 10
+        },
+        {
+          "relative_path": "chromap/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.bed",
+          "original_sha256": "be4527519b2521ba1714188928cde143c948abf244b84455f6ad147d80ead60b",
+          "original_bytes": 3153438
+        },
+        {
+          "relative_path": "chromap/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.featureCounts.tsv",
+          "original_sha256": "2dcc1e8c8e1357199cbcc1f36dfca610da51304c27600ed5ed93ffc41adff210",
+          "original_bytes": 3999540
+        },
+        {
+          "relative_path": "chromap/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.featureCounts.tsv.summary",
+          "original_sha256": "6f25d6f6b57f905b7a5dd21b2a4e6e0cc9ece9178e466829953d3d806f6bc614",
+          "original_bytes": 626
+        },
+        {
+          "relative_path": "chromap/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.saf",
+          "original_sha256": "c9189bb4983ef85ecef2694c05f0d4638d858864492958d762b3e74ad0689810",
+          "original_bytes": 3006126
+        },
+        {
+          "relative_path": "chromap/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.bed",
+          "original_sha256": "e5aef4956584e0b12472b7a981f6a76990945864a91871ea9b14563c0d282311",
+          "original_bytes": 4840942
+        },
+        {
+          "relative_path": "chromap/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.featureCounts.tsv",
+          "original_sha256": "dc3cd6c66759543464b2de830570ea0caeab140596f514f28519e21e450ad353",
+          "original_bytes": 6081856
+        },
+        {
+          "relative_path": "chromap/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.featureCounts.tsv.summary",
+          "original_sha256": "a94659ee3faf6c3fcad1e7541202fe33b661a115b5aa79fd42b0a7a459d8c5b4",
+          "original_bytes": 626
+        },
+        {
+          "relative_path": "chromap/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.saf",
+          "original_sha256": "f41f2efbf502a116b71437302d86a7c11fbb40d2229a1049735f2d4c6b68f6c8",
+          "original_bytes": 4615654
+        }
+      ]
+    },
+    "pr448-hiv-chromap-fixed-a9b588": {
+      "workflow_id": "2DOXAsX9V2FbkY",
+      "revision": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "complete": true,
+      "workflow_source_verified": true,
+      "files": [
+        {
+          "relative_path": "pipeline_info/nf_core_atacseq_software_mqc_versions.yml",
+          "original_sha256": "f5608391b01dc33747761afc5e7e42616652c6094f370bb7dea4d0d4c910ef7c",
+          "original_bytes": 1697
+        },
+        {
+          "relative_path": "multiqc/broad_peak/multiqc_report.html",
+          "original_sha256": "f37dc6e06d92f12bdf610a2fb6987f35b470f6b65e797bc7f1f61fd3ac7c9ad6",
+          "original_bytes": 1581898
+        },
+        {
+          "relative_path": "trimgalore/logs/HIV_CD86HI_48H_REP1_T1_1.fastq.gz_trimming_report.txt",
+          "original_sha256": "7e3d94f626fb72f7d86717d468cb01f190b2de4ae0c960300250f16002d2905a",
+          "original_bytes": 3282
+        },
+        {
+          "relative_path": "trimgalore/logs/HIV_CD86HI_48H_REP1_T1_2.fastq.gz_trimming_report.txt",
+          "original_sha256": "bd868ce3fb90ec1ed84fabf832531f299f2030ff6af2223d0e9eea5c98d50634",
+          "original_bytes": 3675
+        },
+        {
+          "relative_path": "trimgalore/logs/HIV_CD86HI_48H_REP2_T1_1.fastq.gz_trimming_report.txt",
+          "original_sha256": "41a8de75e7624a188ec46a3ca7579fa91870701c0efec439a4f30dc9f47bfafb",
+          "original_bytes": 3278
+        },
+        {
+          "relative_path": "trimgalore/logs/HIV_CD86HI_48H_REP2_T1_2.fastq.gz_trimming_report.txt",
+          "original_sha256": "3e4b1cf74a3f69c3883b8b80dfc31fed5376026a88b3ab8513bf728eb00c02d0",
+          "original_bytes": 3673
+        },
+        {
+          "relative_path": "trimgalore/logs/MOCK_48H_REP1_T1_1.fastq.gz_trimming_report.txt",
+          "original_sha256": "f179288eca762997e2dfd556d1ecb687ec42d6ff16b794c15c7cd94735f902bc",
+          "original_bytes": 3262
+        },
+        {
+          "relative_path": "trimgalore/logs/MOCK_48H_REP1_T1_2.fastq.gz_trimming_report.txt",
+          "original_sha256": "7c681189b88890e5338a934028acad855b53296805635eef841abc3fcdb09d4c",
+          "original_bytes": 3653
+        },
+        {
+          "relative_path": "trimgalore/logs/MOCK_48H_REP2_T1_1.fastq.gz_trimming_report.txt",
+          "original_sha256": "bedffaaaf66289ef4973e6362b4759df998192b92654422e4a30e480d4ac9e2c",
+          "original_bytes": 3272
+        },
+        {
+          "relative_path": "trimgalore/logs/MOCK_48H_REP2_T1_2.fastq.gz_trimming_report.txt",
+          "original_sha256": "7650fa51b2865155362253da6ca0da72015502a0d3657c194fd5c1e4c34fce5d",
+          "original_bytes": 3667
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.alignment_summary_metrics",
+          "original_sha256": "15811ac695ac47ad5f734564b63727f434d9c2a480fe25a92500e93c27c1ba65",
+          "original_bytes": 2864
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.base_distribution_by_cycle_metrics",
+          "original_sha256": "7a59e92816dc96be818e3ec160a022650960d7ed2277f5568525028cd637462b",
+          "original_bytes": 8490
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.insert_size_metrics",
+          "original_sha256": "7eafe76f45c1e507f8d74759b9e64a3dba1b2c3b5286c649b069e3e52a6f8819",
+          "original_bytes": 7824
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.quality_by_cycle_metrics",
+          "original_sha256": "e09aa8f472666342fcfade0b7928e6ede2e6bf234a24f508d2521c8336d346d9",
+          "original_bytes": 2889
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.quality_distribution_metrics",
+          "original_sha256": "652b88955c81ad96cb3fe8d3df9da7821e3304aa67cb3162f718ad0b5fd9a501",
+          "original_bytes": 945
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.mkD.sorted.metrics.txt",
+          "original_sha256": "e8cdb4dea684e4b5435017380438fa2d404b18c0d559f04ea8ec380e73e69e22",
+          "original_bytes": 14856
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.alignment_summary_metrics",
+          "original_sha256": "3e7f62e6ef15cbbddc9c1f5f22056bcb2dd922510ec57d7659336eafcb5e3ead",
+          "original_bytes": 2865
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.base_distribution_by_cycle_metrics",
+          "original_sha256": "1ba5faa736fc0aabf86df0fc2252accbc4c6fc06d78954af70d61052b67b8a5d",
+          "original_bytes": 8500
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.insert_size_metrics",
+          "original_sha256": "e1d424b0c2bf42a9ccfbcd283726e8eb063adbd1d9ddd02ec96156b6c6c53eae",
+          "original_bytes": 7318
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.quality_by_cycle_metrics",
+          "original_sha256": "5592bed5ee48ccaef84bd4103bf37986c64b707845846455e32cba10e92c09ce",
+          "original_bytes": 2892
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.quality_distribution_metrics",
+          "original_sha256": "4e9d1cc1c6dfe5417645d7836ea4dacacd808eccd20a7bee4e3b205e26cf9794",
+          "original_bytes": 945
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.mkD.sorted.metrics.txt",
+          "original_sha256": "f2818c4d9f30717f7696958b9c7c260de9d17f133961e0c78c2885eac3d59f18",
+          "original_bytes": 14044
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.alignment_summary_metrics",
+          "original_sha256": "055163b6659fcfd8c0f6c5e5eebd5f24e9803c9eca467c2019b6a464cec3a148",
+          "original_bytes": 2850
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.base_distribution_by_cycle_metrics",
+          "original_sha256": "21f2cb30365c8f60b2955d42834e180780f50f3429e86d0802a400de4d348557",
+          "original_bytes": 8473
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.insert_size_metrics",
+          "original_sha256": "f6569032658e8cead64016baf95c77edb51c76f5070d74170275ed79668b30c3",
+          "original_bytes": 6811
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.quality_by_cycle_metrics",
+          "original_sha256": "e3faa3d65c1bb084de2c7e10d390fb11bb8adb5295d3570ce12a8903b6ab0efc",
+          "original_bytes": 2887
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.quality_distribution_metrics",
+          "original_sha256": "573faf8d6f835a8530e55f1b1e0cf44a2e933c277697c8abeddd8a5d688e7df1",
+          "original_bytes": 933
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/MOCK_48H_REP1.mLb.mkD.sorted.metrics.txt",
+          "original_sha256": "8eff3cb66924e338edd26ad4cd6f0d9f0cf8abcaf8f34eb3c913d10ad4609607",
+          "original_bytes": 13252
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.alignment_summary_metrics",
+          "original_sha256": "07668cf7831ffb2c37bca89df466d0180319c1884b6d9e165688966998449c27",
+          "original_bytes": 2877
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.base_distribution_by_cycle_metrics",
+          "original_sha256": "90e57164b0c452a1e4a8e284c392355e923b696a335bebe587c5a297ec3edffe",
+          "original_bytes": 8486
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.insert_size_metrics",
+          "original_sha256": "d96d0cebd4e4061144a5a66e7bbbf16c870e96fd256cb8cfdf19db6ee2fd20f8",
+          "original_bytes": 6339
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.quality_by_cycle_metrics",
+          "original_sha256": "d89be2cb77f284aaf82e2e2d6f66f1d239443ec86ce07259557829fd544b889e",
+          "original_bytes": 2878
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.quality_distribution_metrics",
+          "original_sha256": "84fbce276a43795f26bbf0f280cd028ce13ceb613148fcfa2b1ddeb9bf02b5b1",
+          "original_bytes": 933
+        },
+        {
+          "relative_path": "chromap/merged_library/picard_metrics/MOCK_48H_REP2.mLb.mkD.sorted.metrics.txt",
+          "original_sha256": "902019ead32c30ad705df126ecb0310f5819fe683e7869b53206e17ed634bb8c",
+          "original_bytes": 14069
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam.flagstat",
+          "original_sha256": "4a0a6469fb82dec4c54aff38343eb30383f4064facfc56d9e9d00715a3192165",
+          "original_bytes": 511
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam.idxstats",
+          "original_sha256": "478fd1d1e988b90f7cad8e6bd329112e47fbec31c9895359c768a5242386ff1a",
+          "original_bytes": 5496
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam.stats",
+          "original_sha256": "839070ed5f3d0626223ba5c8f6ef015bd27bdcec8072fbca80ef4a59497a12d5",
+          "original_bytes": 56498
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.mkD.sorted.bam.flagstat",
+          "original_sha256": "340ad879afba13d0ca06eb587f7b303837381c24699c47332dbf789b31346bf2",
+          "original_bytes": 534
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.mkD.sorted.bam.idxstats",
+          "original_sha256": "d6b2cbd0906ced4c1f2d6923a134c8e9284d833483cfd5f298c34e5c04eb7f21",
+          "original_bytes": 5515
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.mkD.sorted.bam.stats",
+          "original_sha256": "32b8ffc040e9acb3cfe55e36ebb62e6c0ea2659e7bfa22002f5765c1c684fc18",
+          "original_bytes": 62353
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam.flagstat",
+          "original_sha256": "9a04b4c17b3cc5e2f969ded5eb02d5cc44dfe2463a98065c679a6ab801a027c9",
+          "original_bytes": 511
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam.idxstats",
+          "original_sha256": "eb7261b37d702f894fa3103c27123b26f9b5ab2477fd9edde108de2739240afb",
+          "original_bytes": 5513
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam.stats",
+          "original_sha256": "482dc2abf6b9e97f15ebb154f9c4508d32eeb819f4c65a39f68ffa279fd68da7",
+          "original_bytes": 56852
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.mkD.sorted.bam.flagstat",
+          "original_sha256": "be92328a554389ffe1d742c857538d5d78e9f41155fb5bf6370fd4c6eb1f7ef8",
+          "original_bytes": 534
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.mkD.sorted.bam.idxstats",
+          "original_sha256": "52b59cd8a8c8b96c5f70d6cee79a9c113065aeb17cb338dfd2668c3748b05217",
+          "original_bytes": 5541
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.mkD.sorted.bam.stats",
+          "original_sha256": "ce956e38c4c1793586cd0593ea320b2037f4513350349b13a014c69f32502865",
+          "original_bytes": 62310
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/MOCK_48H_REP1.mLb.clN.sorted.bam.flagstat",
+          "original_sha256": "520a76a44ccb49a0033db2008248e723a6f7aea653d6408792e68d2318844656",
+          "original_bytes": 511
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/MOCK_48H_REP1.mLb.clN.sorted.bam.idxstats",
+          "original_sha256": "d1d16dc1a4233fb0de90363be28f13bd5d241820231029905542bd1b8d9b5988",
+          "original_bytes": 5508
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/MOCK_48H_REP1.mLb.clN.sorted.bam.stats",
+          "original_sha256": "274d0e2682bca02f783111438f4f9ba660330c3e2af88f317c086f44c4b22ac5",
+          "original_bytes": 56037
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/MOCK_48H_REP1.mLb.mkD.sorted.bam.flagstat",
+          "original_sha256": "114089682153ba7a62bf2144f34bcde1ce2b5c6042810900fac4a4f038745e1b",
+          "original_bytes": 534
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/MOCK_48H_REP1.mLb.mkD.sorted.bam.idxstats",
+          "original_sha256": "6226bd72efed5f15acb0bda2e432716594af4fc050de5afc8f3af8b7d5a8f207",
+          "original_bytes": 5531
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/MOCK_48H_REP1.mLb.mkD.sorted.bam.stats",
+          "original_sha256": "3c3304dcd151f524899665aa371582652305b31cf7a285a2e5aedc4e704a3623",
+          "original_bytes": 63236
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/MOCK_48H_REP2.mLb.clN.sorted.bam.flagstat",
+          "original_sha256": "4fe022ca8d0e45e33af80ea497bf4c83231a5ed84edfa871ad0664b87e816fc2",
+          "original_bytes": 511
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/MOCK_48H_REP2.mLb.clN.sorted.bam.idxstats",
+          "original_sha256": "fbe7e341bcbf5bd6445d449fe419986304bdfe9a9d42e3ebfdb00f074b9a3ad6",
+          "original_bytes": 5530
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/MOCK_48H_REP2.mLb.clN.sorted.bam.stats",
+          "original_sha256": "5505cbddb39b7f761972f9316bcee7ded7cdfe314a6185037caf56e454f1f900",
+          "original_bytes": 57733
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/MOCK_48H_REP2.mLb.mkD.sorted.bam.flagstat",
+          "original_sha256": "6a16786437074722ec5fbe3ea81cb3eb681c8164d5219491fd616323a630be21",
+          "original_bytes": 534
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/MOCK_48H_REP2.mLb.mkD.sorted.bam.idxstats",
+          "original_sha256": "362e41e3ac3f30692e97977b6a38901f2d8fcb61c12b5c1fd2a75c44d9a16b70",
+          "original_bytes": 5551
+        },
+        {
+          "relative_path": "chromap/merged_library/samtools_stats/MOCK_48H_REP2.mLb.mkD.sorted.bam.stats",
+          "original_sha256": "88377085ae8dadc46922cfb2c4de5ffc964ef1dda95c695422feaf00cb9fbf7a",
+          "original_bytes": 62873
+        },
+        {
+          "relative_path": "chromap/merged_replicate/picard_metrics/HIV_CD86HI_48H.mRp.clN.sorted.metrics.txt",
+          "original_sha256": "052b9a14c8d0805fd1c09e9963775c1e8efbded0aa26dd6c756442e5c7b26341",
+          "original_bytes": 1941
+        },
+        {
+          "relative_path": "chromap/merged_replicate/picard_metrics/MOCK_48H.mRp.clN.sorted.metrics.txt",
+          "original_sha256": "365c0471a7d98e94a69f0f63391f97d4728bc25610fec7c128da6442caf4ee02",
+          "original_bytes": 1911
+        },
+        {
+          "relative_path": "chromap/merged_replicate/samtools_stats/HIV_CD86HI_48H.mRp.clN.sorted.bam.flagstat",
+          "original_sha256": "f6d49b2e68e9f5e189c05b86a916e9073a4d9b922903ab39c3ed3eacef5d9564",
+          "original_bytes": 518
+        },
+        {
+          "relative_path": "chromap/merged_replicate/samtools_stats/HIV_CD86HI_48H.mRp.clN.sorted.bam.idxstats",
+          "original_sha256": "58e36fb1cecc5138b2fca51ca526452fef65b3f0a37e970e605273f26297b35e",
+          "original_bytes": 5545
+        },
+        {
+          "relative_path": "chromap/merged_replicate/samtools_stats/HIV_CD86HI_48H.mRp.clN.sorted.bam.stats",
+          "original_sha256": "6fae5256972952b035cc073d59c89948393a5de331754ea97909e47645c619d5",
+          "original_bytes": 59325
+        },
+        {
+          "relative_path": "chromap/merged_replicate/samtools_stats/MOCK_48H.mRp.clN.sorted.bam.flagstat",
+          "original_sha256": "9ac68b5afc8e12468e0abcf6fe39853b2d721e11c98572bf472cbefcce294169",
+          "original_bytes": 518
+        },
+        {
+          "relative_path": "chromap/merged_replicate/samtools_stats/MOCK_48H.mRp.clN.sorted.bam.idxstats",
+          "original_sha256": "c9906fb7f94559bd5e596eedaf137fd0bf1bef2f635255825186f49beaa1d259",
+          "original_bytes": 5552
+        },
+        {
+          "relative_path": "chromap/merged_replicate/samtools_stats/MOCK_48H.mRp.clN.sorted.bam.stats",
+          "original_sha256": "071c4d671284e7534940025bcfc172dae0bdde21540ed618093b8d17ff000306",
+          "original_bytes": 60453
+        },
+        {
+          "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_data.json",
+          "original_sha256": "c1fd7a817ecbd5bab1d353275f102758432ad119a6139b0a14a080e6f4fa0732",
+          "original_bytes": 3698134
+        },
+        {
+          "relative_path": "chromap/merged_library/bigwig/scale/HIV_CD86HI_48H_REP1.mLb.clN.scale_factor.txt",
+          "original_sha256": "eec4394a9dec2502ddd17edfc94afe1b1faf4876d7c892c888fc51de32b9ea88",
+          "original_bytes": 9
+        },
+        {
+          "relative_path": "chromap/merged_library/bigwig/scale/HIV_CD86HI_48H_REP2.mLb.clN.scale_factor.txt",
+          "original_sha256": "befd08826570ba52af492b4637e468475e29ae7530378ba2e51b025ae61c05bf",
+          "original_bytes": 9
+        },
+        {
+          "relative_path": "chromap/merged_library/bigwig/scale/MOCK_48H_REP1.mLb.clN.scale_factor.txt",
+          "original_sha256": "065c4c34ab028f18804587d2991c0009ca916e75e5fb5f37c19b66f6bddda29b",
+          "original_bytes": 9
+        },
+        {
+          "relative_path": "chromap/merged_library/bigwig/scale/MOCK_48H_REP2.mLb.clN.scale_factor.txt",
+          "original_sha256": "905c38e0e6b01881199cba23f1513b1445e67179938603ec96dc8c21ba676608",
+          "original_bytes": 9
+        },
+        {
+          "relative_path": "chromap/merged_replicate/bigwig/scale/HIV_CD86HI_48H.mRp.clN.scale_factor.txt",
+          "original_sha256": "cbf899ad74a1d5a7cb66ef8164493c58a5392fb1f159edb1b7542dd1cb88768c",
+          "original_bytes": 10
+        },
+        {
+          "relative_path": "chromap/merged_replicate/bigwig/scale/MOCK_48H.mRp.clN.scale_factor.txt",
+          "original_sha256": "c220294c43cbd968ccea616536de4bcc70be46a94d1b5a0383d37c347aaf9723",
+          "original_bytes": 10
+        },
+        {
+          "relative_path": "chromap/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.bed",
+          "original_sha256": "21d139355731b3b4ecf270a21734a97c113d21ba28f784995836721e17f695f1",
+          "original_bytes": 3149062
+        },
+        {
+          "relative_path": "chromap/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.featureCounts.tsv",
+          "original_sha256": "f93618f06d43d792b4bf17d59addcedc8a9e7d4c92cade3a06aa8977637b5d0a",
+          "original_bytes": 3994182
+        },
+        {
+          "relative_path": "chromap/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.featureCounts.tsv.summary",
+          "original_sha256": "945f7897de1ea1ea8d38daf1cad3bcd93ebbd5914c28de6cb3195ed996cabe08",
+          "original_bytes": 626
+        },
+        {
+          "relative_path": "chromap/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.saf",
+          "original_sha256": "9f65be84064a0f8bf0c7d7862168b1c25392ec7e168923e537606e19ae72f89e",
+          "original_bytes": 3001954
+        },
+        {
+          "relative_path": "chromap/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.bed",
+          "original_sha256": "d008ffdf0089466ab4da7756b0a4d040ea4f69a261fd2c4a68a6562a2098b5ca",
+          "original_bytes": 4833142
+        },
+        {
+          "relative_path": "chromap/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.featureCounts.tsv",
+          "original_sha256": "95d5ca21521c45c5ea5730d7877c02eb7776a5699657270686961d5533a928a6",
+          "original_bytes": 6072279
+        },
+        {
+          "relative_path": "chromap/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.featureCounts.tsv.summary",
+          "original_sha256": "b6fb11a7f2f50cd03c6cafe51f21292751d37d2e09eff4732679929302b821f1",
+          "original_bytes": 626
+        },
+        {
+          "relative_path": "chromap/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.saf",
+          "original_sha256": "76fc223c41d7aab32e1a5a2c6191a13ecad5269224ef2ed9e0a19fd3504900f4",
+          "original_bytes": 4608208
+        }
+      ]
+    }
+  }
+}

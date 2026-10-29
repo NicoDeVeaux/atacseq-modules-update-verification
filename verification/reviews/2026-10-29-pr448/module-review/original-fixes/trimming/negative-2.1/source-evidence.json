@@ -1,0 +1,19 @@
+{
+  "source": "${WORKTREE_ROOT}/atacseq-pr448-review/source",
+  "commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+  "sha256": {
+    "conf/modules.config": "81b15aee7dab0fae26fc028c04f32b73ef3cc2b6ec38c63fdaaf56383a22273e",
+    "nextflow.config": "e47935daa6dba8eb3fd284bcabe44099d3755fc104b26f525a03ce5a45ed8e55",
+    "modules/nf-core/trimgalore/main.nf": "f3b551ea103f9fe669f1c1fafe87b635a6f42b238f1919d7bc9af3feac36f45a",
+    "modules/nf-core/trimgalore/environment.yml": "19b1a0a231b3c7812c0423a5fea53f01883c19bd25fb2dd759a31435696599dc"
+  },
+  "ext_args_verbatim": "\n                [\n                    '--fastqc',\n                    params.trim_nextseq > 0 ? \"--nextseq ${params.trim_nextseq}\" : '',\n                    params.clip_r1 > 0 ? \"--clip_r1 ${params.clip_r1}\" : '',\n                    params.clip_r2 > 0 ? \"--clip_r2 ${params.clip_r2}\" : '',\n                    params.three_prime_clip_r1 > 0 ? \"--three_prime_clip_r1 ${params.three_prime_clip_r1}\" : '',\n                    params.three_prime_clip_r2 > 0 ? \"--three_prime_clip_r2 ${params.three_prime_clip_r2}\" : ''\n                ].join(' ').trim()",
+  "literal_defaults": {
+    "clip_r1": "null",
+    "clip_r2": "null",
+    "three_prime_clip_r1": "null",
+    "three_prime_clip_r2": "null",
+    "trim_nextseq": "null"
+  },
+  "container_override": null
+}

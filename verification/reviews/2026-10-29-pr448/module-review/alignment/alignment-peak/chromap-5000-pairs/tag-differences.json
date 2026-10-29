@@ -1,0 +1,108 @@
+{
+  "changed_records": 92,
+  "changed_tag_counts": {
+    "MD": 92
+  },
+  "examples": [
+    {
+      "qname": "SRR19479021.3843",
+      "flag": "83",
+      "tags": {
+        "MD": [
+          "MD:Z:C53A43",
+          "MD:Z:0C53A43"
+        ]
+      }
+    },
+    {
+      "qname": "SRR19479021.490",
+      "flag": "83",
+      "tags": {
+        "MD": [
+          "MD:Z:1T36T",
+          "MD:Z:1T36T0"
+        ]
+      }
+    },
+    {
+      "qname": "SRR19479021.1280",
+      "flag": "83",
+      "tags": {
+        "MD": [
+          "MD:Z:80T",
+          "MD:Z:80T0"
+        ]
+      }
+    },
+    {
+      "qname": "SRR19479021.1563",
+      "flag": "83",
+      "tags": {
+        "MD": [
+          "MD:Z:95A4A",
+          "MD:Z:95A4A0"
+        ]
+      }
+    },
+    {
+      "qname": "SRR19479021.3175",
+      "flag": "99",
+      "tags": {
+        "MD": [
+          "MD:Z:A2^A98",
+          "MD:Z:0A2^A98"
+        ]
+      }
+    },
+    {
+      "qname": "SRR19479021.4031",
+      "flag": "99",
+      "tags": {
+        "MD": [
+          "MD:Z:C99",
+          "MD:Z:0C99"
+        ]
+      }
+    },
+    {
+      "qname": "SRR19479021.58",
+      "flag": "99",
+      "tags": {
+        "MD": [
+          "MD:Z:C97",
+          "MD:Z:0C97"
+        ]
+      }
+    },
+    {
+      "qname": "SRR19479021.3021",
+      "flag": "147",
+      "tags": {
+        "MD": [
+          "MD:Z:G8C89",
+          "MD:Z:0G8C89"
+        ]
+      }
+    },
+    {
+      "qname": "SRR19479021.990",
+      "flag": "99",
+      "tags": {
+        "MD": [
+          "MD:Z:T100",
+          "MD:Z:0T100"
+        ]
+      }
+    },
+    {
+      "qname": "SRR19479021.4141",
+      "flag": "83",
+      "tags": {
+        "MD": [
+          "MD:Z:9C23A23CA7A3A28",
+          "MD:Z:9C23A23C0A7A3A28"
+        ]
+      }
+    }
+  ]
+}

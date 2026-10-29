@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="Test Process GFFREAD" time="28.065" tests="9" skipped="0" failures="8" timestamp="2026 10 29 11:10:58"><testcase classname="Test Process GFFREAD" name="sarscov2-gff3-gtf" time="3.251" status="FAILED"><failure message="Assertion failed: 
+
+1 of 4 assertions failed
+">Nextflow stdout:
+
+N E X T F L O W  ~  version 26.04.6
+Launching `LOCAL_STAGE/gffread-nftest/.nf-test-c2a0570f8f78caa3d3c21535c6b8fdd3.nf` [sad_ardinghelli] - revision: 6c61d67059
+[d7/f539f7] Submitted process &gt; GFFREAD (test)
+Nextflow stderr:
+
+</failure></testcase><testcase classname="Test Process GFFREAD" name="sarscov2-gff3-gtf-stub" time="3.088" status="FAILED"><failure message="Assertion failed: 
+
+1 of 4 assertions failed
+">Nextflow stdout:
+
+N E X T F L O W  ~  version 26.04.6
+Launching `LOCAL_STAGE/gffread-nftest/.nf-test-5a89016dfabab62f36497394c1a9dcbd.nf` [admiring_solvay] - revision: 5b44158275
+[64/55c38e] Submitted process &gt; GFFREAD (test)
+Nextflow stderr:
+
+</failure></testcase><testcase classname="Test Process GFFREAD" name="sarscov2-gff3-gff3" time="3.296" status="FAILED"><failure message="Assertion failed: 
+
+1 of 4 assertions failed
+">Nextflow stdout:
+
+N E X T F L O W  ~  version 26.04.6
+Launching `LOCAL_STAGE/gffread-nftest/.nf-test-647a6ee2620d33dca02359c2ad47fbe3.nf` [pensive_lamarr] - revision: 5b44158275
+[10/21d2fe] Submitted process &gt; GFFREAD (test)
+Nextflow stderr:
+
+</failure></testcase><testcase classname="Test Process GFFREAD" name="sarscov2-gff3-gff3-stub" time="3.176" status="FAILED"><failure message="Assertion failed: 
+
+1 of 4 assertions failed
+">Nextflow stdout:
+
+N E X T F L O W  ~  version 26.04.6
+Launching `LOCAL_STAGE/gffread-nftest/.nf-test-5538bbda1d9de123a23cc25ff79945.nf` [mad_waddington] - revision: 5b44158275
+[d0/0709d6] Submitted process &gt; GFFREAD (test)
+Nextflow stderr:
+
+</failure></testcase><testcase classname="Test Process GFFREAD" name="sarscov2-gff3-fasta" time="3.326" status="FAILED"><failure message="Assertion failed: 
+
+1 of 4 assertions failed
+">Nextflow stdout:
+
+N E X T F L O W  ~  version 26.04.6
+Launching `LOCAL_STAGE/gffread-nftest/.nf-test-dedeb7d625ef79883b90bebe9313aa10.nf` [scruffy_bartik] - revision: ad45f183ba
+[e9/bc2e77] Submitted process &gt; GFFREAD (test)
+Nextflow stderr:
+
+</failure></testcase><testcase classname="Test Process GFFREAD" name="sarscov2-gff3-fasta-stub" time="3.625" status="FAILED"><failure message="Assertion failed: 
+
+1 of 4 assertions failed
+">Nextflow stdout:
+
+N E X T F L O W  ~  version 26.04.6
+Launching `LOCAL_STAGE/gffread-nftest/.nf-test-6325f8c8f78ad7ac6d6abe13233eb82.nf` [drunk_lagrange] - revision: ad45f183ba
+[53/213305] Submitted process &gt; GFFREAD (test)
+Nextflow stderr:
+
+</failure></testcase><testcase classname="Test Process GFFREAD" name="sarscov2-gff3-bed" time="3.013" status="FAILED"><failure message="Assertion failed: 
+
+1 of 2 assertions failed
+">Nextflow stdout:
+
+N E X T F L O W  ~  version 26.04.6
+Launching `LOCAL_STAGE/gffread-nftest/.nf-test-379ef759845f6d294c974ba8a6e1892e.nf` [romantic_murdock] - revision: 5b44158275
+[ab/92982f] Submitted process &gt; GFFREAD (test)
+Nextflow stderr:
+
+</failure></testcase><testcase classname="Test Process GFFREAD" name="sarscov2-gff3-bed-stub" time="3.172" status="FAILED"><failure message="Assertion failed: 
+
+1 of 2 assertions failed
+">Nextflow stdout:
+
+N E X T F L O W  ~  version 26.04.6
+Launching `LOCAL_STAGE/gffread-nftest/.nf-test-6fbd6740b9a8c77aac44f01c92b3616.nf` [compassionate_fermi] - revision: 5b44158275
+[d6/870d43] Submitted process &gt; GFFREAD (test)
+Nextflow stderr:
+
+</failure></testcase><testcase classname="Test Process GFFREAD" name="sarscov2-gff3-fasta-fail-catch" time="2.078" status="PASSED"></testcase></testsuite></testsuites>

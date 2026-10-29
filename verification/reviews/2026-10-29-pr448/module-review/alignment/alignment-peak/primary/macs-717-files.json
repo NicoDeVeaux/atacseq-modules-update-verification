@@ -1,0 +1,36 @@
+[
+  {
+    "sha": "658e13c346f67abf4be4e068671e91de5077544a",
+    "filename": "MACS3/Signal/ScoreTrack.py",
+    "status": "modified",
+    "additions": 5,
+    "deletions": 3,
+    "changes": 8,
+    "blob_url": "https://github.com/macs3-project/MACS/blob/6c01cb87dd92c39e38f3f744fd2ea57507a26d00/MACS3%2FSignal%2FScoreTrack.py",
+    "raw_url": "https://github.com/macs3-project/MACS/raw/6c01cb87dd92c39e38f3f744fd2ea57507a26d00/MACS3%2FSignal%2FScoreTrack.py",
+    "contents_url": "https://api.github.com/repos/macs3-project/MACS/contents/MACS3%2FSignal%2FScoreTrack.py?ref=6c01cb87dd92c39e38f3f744fd2ea57507a26d00",
+    "patch": "@@ -1,6 +1,6 @@\n # cython: language_level=3\n # cython: profile=True\n-# Time-stamp: <2025-11-16 13:00:03 Tao Liu>\n+# Time-stamp: <2025-11-20 10:58:03 Tao Liu>\n \n \"\"\"Scoring utilities for MACS3 signal tracks and peak callers.\n \n@@ -414,6 +414,7 @@ def compute_pvalue(self):\n         v: cnp.ndarray\n         pos: cnp.ndarray\n         ln: cython.long\n+        tmp_l: cython.long\n         i: cython.long\n         prev_pos: cython.long\n         chrom: bytes\n@@ -429,10 +430,11 @@ def compute_pvalue(self):\n                 v[i] = get_pscore(cython.cast(cython.int,\n                                               (p[i] + self.pseudocount)),\n                                   c[i] + self.pseudocount)\n+                tmp_l = pos[i] - prev_pos\n                 try:\n-                    self.pvalue_stat[v[i]] += pos[i] - prev_pos\n+                    self.pvalue_stat[v[i]] += tmp_l\n                 except Exception:\n-                    self.pvalue_stat[v[i]] = pos[i] - prev_pos\n+                    self.pvalue_stat[v[i]] = tmp_l\n                 prev_pos = pos[i]\n \n         self.scoring_method = ord('p')"
+  },
+  {
+    "sha": "b35e3092f9501dd42df0a609386ee0c8b3b4a1b2",
+    "filename": "notebooks/10k-PBMC-test/macs3-scATAC-pbmc-10k.ipynb",
+    "status": "modified",
+    "additions": 627,
+    "deletions": 303,
+    "changes": 930,
+    "blob_url": "https://github.com/macs3-project/MACS/blob/6c01cb87dd92c39e38f3f744fd2ea57507a26d00/notebooks%2F10k-PBMC-test%2Fmacs3-scATAC-pbmc-10k.ipynb",
+    "raw_url": "https://github.com/macs3-project/MACS/raw/6c01cb87dd92c39e38f3f744fd2ea57507a26d00/notebooks%2F10k-PBMC-test%2Fmacs3-scATAC-pbmc-10k.ipynb",
+    "contents_url": "https://api.github.com/repos/macs3-project/MACS/contents/notebooks%2F10k-PBMC-test%2Fmacs3-scATAC-pbmc-10k.ipynb?ref=6c01cb87dd92c39e38f3f744fd2ea57507a26d00"
+  },
+  {
+    "sha": "60ac48ec16799b77c5375800c6bc25d7cad00f60",
+    "filename": "notebooks/500-PBMC-test/macs3-scATAC-pbmc-500.ipynb",
+    "status": "modified",
+    "additions": 152,
+    "deletions": 82,
+    "changes": 234,
+    "blob_url": "https://github.com/macs3-project/MACS/blob/6c01cb87dd92c39e38f3f744fd2ea57507a26d00/notebooks%2F500-PBMC-test%2Fmacs3-scATAC-pbmc-500.ipynb",
+    "raw_url": "https://github.com/macs3-project/MACS/raw/6c01cb87dd92c39e38f3f744fd2ea57507a26d00/notebooks%2F500-PBMC-test%2Fmacs3-scATAC-pbmc-500.ipynb",
+    "contents_url": "https://api.github.com/repos/macs3-project/MACS/contents/notebooks%2F500-PBMC-test%2Fmacs3-scATAC-pbmc-500.ipynb?ref=6c01cb87dd92c39e38f3f744fd2ea57507a26d00"
+  }
+]

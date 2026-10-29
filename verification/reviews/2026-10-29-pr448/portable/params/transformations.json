@@ -1,0 +1,65 @@
+{
+  "transformations": [
+    {
+      "case": "bwa-unfixed",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "original_payload_sha256": "6e351aa067451371afe29bba75ae9fa00730537f9daf43f70b6b9d44accf6baa",
+      "original_params_text_sha256": "a6728745305290c7962e129f45f41fd2e7a9d831dbfe98c93e4398df15756573",
+      "original_parameter_count": 41,
+      "normalized_parameter_sha256": "8bc9c4d9fe6719d6706966eec74050f25d078f727d9a8ab923f752031e5cf828",
+      "replacements": {
+        "input": "Public eight-ENA-URL samplesheet",
+        "outdir": "User-selected per-case output",
+        "blacklist": "Bundled byte-identical verified blacklist"
+      },
+      "private_execution_config": "Not redistributed; user supplies executor/storage/resource configuration",
+      "nextflow_version": "26.04.6"
+    },
+    {
+      "case": "bwa-fixed",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "original_payload_sha256": "a2cdc859d6045b2c93f487e9ab770b6a46353f18e2bef2f1d90084d3367206b3",
+      "original_params_text_sha256": "ace8f49dc8d3d926c384735f64d031ccee2aa91365bb2c5aa55eeaa1b1bb9914",
+      "original_parameter_count": 41,
+      "normalized_parameter_sha256": "8bc9c4d9fe6719d6706966eec74050f25d078f727d9a8ab923f752031e5cf828",
+      "replacements": {
+        "input": "Public eight-ENA-URL samplesheet",
+        "outdir": "User-selected per-case output",
+        "blacklist": "Bundled byte-identical verified blacklist"
+      },
+      "private_execution_config": "Not redistributed; user supplies executor/storage/resource configuration",
+      "nextflow_version": "26.04.6"
+    },
+    {
+      "case": "chromap-unfixed",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "original_payload_sha256": "e49c1a0468ded0cd9b3b99bce346059527501d26df7946a9d1916a296a7bd8ee",
+      "original_params_text_sha256": "9b9956b271a334c95fd82d11e5da80abf4fe62c1d1e5cfa6a020a502f75ef429",
+      "original_parameter_count": 41,
+      "normalized_parameter_sha256": "8331f6bcc987fc035a521c9363c21bee3632849a01c865465b99911a4a068d12",
+      "replacements": {
+        "input": "Public eight-ENA-URL samplesheet",
+        "outdir": "User-selected per-case output",
+        "blacklist": "Bundled byte-identical verified blacklist"
+      },
+      "private_execution_config": "Not redistributed; user supplies executor/storage/resource configuration",
+      "nextflow_version": "26.04.6"
+    },
+    {
+      "case": "chromap-fixed",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "original_payload_sha256": "a903d5e98afb1d0a7fe5dbaafac90d69ef4e0687a8fca9781514778a989ed300",
+      "original_params_text_sha256": "25d53e6b980be503615050880958d6c841458a86f4ab2669728656924f5be510",
+      "original_parameter_count": 41,
+      "normalized_parameter_sha256": "8331f6bcc987fc035a521c9363c21bee3632849a01c865465b99911a4a068d12",
+      "replacements": {
+        "input": "Public eight-ENA-URL samplesheet",
+        "outdir": "User-selected per-case output",
+        "blacklist": "Bundled byte-identical verified blacklist"
+      },
+      "private_execution_config": "Not redistributed; user supplies executor/storage/resource configuration",
+      "nextflow_version": "26.04.6"
+    }
+  ],
+  "runtime_only_change": "Launcher sets params.custom_config_base=\"\" to disable mutable remote community configs. This is a portability change outside the 41 recorded scientific parameters."
+}

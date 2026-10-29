@@ -1,0 +1,16 @@
+The gffread update in PR448 introduces a known upstream conversion failure for some valid numeric GFF score fields. Actual runs with the pipeline's `--keep-exon-attrs -F -T` options succeed in 0.12.1, fail in 0.12.7, and succeed in 0.12.9. The exact fixed container passes a parsed coordinate/transcript/gene-identity oracle. This affects the optional GFF→GTF input path; the completed HIV runs supplied GTF and do not test it.
+
+| Candidate | Result across PR448's tool versions | Action |
+|---|---|---|
+| gffread conversion | Introduced:0.12.1 succeeds,0.12.7 fails on the same valid annotation; 0.12.9 succeeds | Update the gffread pin to 0.12.9; retain a benign conversion test |
+| deepTools chromosome-boundary bins | Inherited:3.5.5 and3.5.6 produce identical values in both computeMatrix modes | Track separately from PR448 regressions |
+
+The upstream library refactor [419a91](https://github.com/gpertea/gclib/commit/419a918d28107447950082118793abd50039b077) reduced the transcript-score formatting buffer; fix [35376c](https://github.com/gpertea/gclib/commit/35376c8f69889178306ce80d986a3cc09e726a22) restores its capacity and is bundled in [gffread 0.12.9](https://github.com/gpertea/gffread/releases/tag/v0.12.9). Long attributes alone did not fail under the current pipeline flags in the tested fixture. An [existing upstream issue](https://github.com/gpertea/gffread/issues/134) reports the same diagnostic, but its exact input/root cause was not established here.
+
+Vetted Docker tag: `quay.io/biocontainers/gffread:0.12.9--hf426362_0` (digest `c63259`; full digest in the smoke receipt). The matching Galaxy Singularity artifact returned HTTP200; execution was not tested. The [Bioconda recipe](https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffread) pins source archive SHA `3ee1a3`, matching the independently downloaded release archive. Use `bioconda::gffread=0.12.9` in a portable environment; the tested linux-64 build is `hf426362_0`. Conda resolution was not executed.
+
+The benign `gffread_safe_smoke.py` fixture produces one transcript, two exons and 150 exonic bases with exact expected coordinates and identifiers. Historical failure witnesses remain private and are excluded from this public summary and benign test.
+
+For deepTools, a 10 kb synthetic chromosome with a real internal coverage gap was checked using the pipeline's 3 kb flanks, scale-regions body length 1000, bin size 10, `--skipZeros` and `--missingDataAsZero`. Both versions convert off-chromosome bins to zero as well as the intentional internal missing-data bins. Reference-point edge rows have 290/280 off-chromosome zero bins; scale-regions has 290 at each edge. Tagged `heatmapper.py` sources are identical after `np.NAN`→`np.nan`. The [4.0.0 release](https://github.com/deeptools/deepTools/releases/tag/4.0.0) changes chromosome-boundary handling, but also rewrites the backend and changes other semantics; 4.0.0 was not executed or recommended as a blind module update.
+
+Validation: eight evidence checks pass; exact fixed-container conversions pass the coordinate/identity oracle. Linux amd64 images ran under Colima's architecture emulation. This is a bounded behavior audit, not a full annotation corpus or pipeline rerun.

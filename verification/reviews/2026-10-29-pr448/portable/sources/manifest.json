@@ -1,0 +1,21 @@
+{
+  "sources": {
+    "unfixed": {
+      "commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "archive": "sources/unfixed-73155d.tar.gz",
+      "sha256": "25c40fec6cc420f0013cb3063dfb670f470adcf2785b1b6c44181b0a93b51ab7",
+      "repository": "https://github.com/nf-core/atacseq"
+    },
+    "fixed": {
+      "commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "archive": "sources/fixed-a9b588.tar.gz",
+      "sha256": "266bfb7af2f3df2f56ba540695b46e77fb1518ee02b26c36811f3204111d3a62",
+      "repository": "https://github.com/NicoDeVeaux/atacseq-nfcore"
+    }
+  },
+  "patches": {
+    "full-proposal.patch": "2bbdb8c98e0e6085603db50281106148e71ecbf0165ebdc2775c07982894524a",
+    "scientific-fix.patch": "eb47143bc37b9f692b788f14d35bf6593f6b0702ef193bb3c5996c755927f54c"
+  },
+  "scientific_patch_limit": "Three executable/config/environment files; full patch also includes changelog/metadata/snapshots."
+}

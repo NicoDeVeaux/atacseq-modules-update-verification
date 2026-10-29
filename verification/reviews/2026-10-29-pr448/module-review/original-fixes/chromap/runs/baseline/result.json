@@ -1,0 +1,62 @@
+{
+  "SAMPLE_A_REP1": {
+    "read_pairs_examined": 2,
+    "duplicate_pairs": 1,
+    "retained_reads": 2,
+    "readgroups": {},
+    "records": [
+      {
+        "name": "rep1_lane1",
+        "flag": 99,
+        "RG": null
+      },
+      {
+        "name": "rep1_lane2",
+        "flag": 1123,
+        "RG": null
+      },
+      {
+        "name": "rep1_lane1",
+        "flag": 147,
+        "RG": null
+      },
+      {
+        "name": "rep1_lane2",
+        "flag": 1171,
+        "RG": null
+      }
+    ],
+    "metrics": "${VALIDATION_ROOT}/chromap/runs/baseline/work/61/6fdd9c861259818a73109c0809c12d/SAMPLE_A_REP1.mLb.mkD.sorted.MarkDuplicates.metrics.txt",
+    "bam": "${VALIDATION_ROOT}/chromap/runs/baseline/work/61/6fdd9c861259818a73109c0809c12d/SAMPLE_A_REP1.mLb.mkD.sorted.bam"
+  },
+  "SAMPLE_A_REP2": {
+    "read_pairs_examined": 2,
+    "duplicate_pairs": 1,
+    "retained_reads": 2,
+    "readgroups": {},
+    "records": [
+      {
+        "name": "rep2_lane1",
+        "flag": 99,
+        "RG": null
+      },
+      {
+        "name": "rep2_lane2",
+        "flag": 1123,
+        "RG": null
+      },
+      {
+        "name": "rep2_lane1",
+        "flag": 147,
+        "RG": null
+      },
+      {
+        "name": "rep2_lane2",
+        "flag": 1171,
+        "RG": null
+      }
+    ],
+    "metrics": "${VALIDATION_ROOT}/chromap/runs/baseline/work/4b/aa9efeee77944f44e39ff575a8a737/SAMPLE_A_REP2.mLb.mkD.sorted.MarkDuplicates.metrics.txt",
+    "bam": "${VALIDATION_ROOT}/chromap/runs/baseline/work/4b/aa9efeee77944f44e39ff575a8a737/SAMPLE_A_REP2.mLb.mkD.sorted.bam"
+  }
+}

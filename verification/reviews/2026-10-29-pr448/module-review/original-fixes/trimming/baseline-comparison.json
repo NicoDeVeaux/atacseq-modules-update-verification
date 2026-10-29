@@ -1,0 +1,7 @@
+{
+  "base_version": "0.6.10",
+  "negative_control_version": "2.1.0",
+  "pairs": 100,
+  "negative_r1_bases_removed": 20,
+  "negative_r2_bases_removed": 20
+}

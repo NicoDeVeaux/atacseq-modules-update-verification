@@ -1,0 +1,9 @@
+{
+  "source": "https://github.com/samtools/samtools/blob/7162950d0988480faeddeb49f03520737e13a9c4/stats.c",
+  "tag": "1.25",
+  "tag_commit": "7162950d0988480faeddeb49f03520737e13a9c4",
+  "source_sha256": "0ff5a2371dc4c068ee4f97912dcc7eb98175397c70b14ce8fabf383ff6c681cc",
+  "conclusion": "Released source subtracts the zero-insert bin from the denominator and starts the mean/SD loops at one. The PR body describes an earlier iteration; the final patch and tagged source agree with the release notes.",
+  "checked_lines": "1586-1608",
+  "pull_request": "https://github.com/samtools/samtools/pull/2388"
+}

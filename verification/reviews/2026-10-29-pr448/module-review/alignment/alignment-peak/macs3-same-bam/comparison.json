@@ -1,0 +1,81 @@
+[
+  {
+    "case": "broad_no_control",
+    "outputs": {
+      "broadPeak": {
+        "left_rows": 1431,
+        "right_rows": 1431,
+        "exact_noncomment_rows_equal": true,
+        "left_sha256": "45269d5cfb6a6fd17d14c7722198ae7a86dfd09a12982fc9d12d2bcb7554f170",
+        "right_sha256": "45269d5cfb6a6fd17d14c7722198ae7a86dfd09a12982fc9d12d2bcb7554f170",
+        "changed_rows": 0
+      },
+      "gappedPeak": {
+        "left_rows": 1431,
+        "right_rows": 1431,
+        "exact_noncomment_rows_equal": false,
+        "left_sha256": "8a358d93734e409d260d14ba70f97ea9713649d8ff0b7e8a0514e7614c3560b2",
+        "right_sha256": "00a7c5490937b4de3ac8cd57d880c4910a7750ce7267a8eb355977121a25f743",
+        "changed_rows": 1431
+      },
+      "xls": {
+        "left_rows": 1432,
+        "right_rows": 1432,
+        "exact_noncomment_rows_equal": true,
+        "left_sha256": "e84a74d4c447c219771533bf2f9a6d3e6db995e3953ede9cef06073418d3a45a",
+        "right_sha256": "5852ecf5a026e1695dfd2c7ab74a676ef05f22a42adbcb4282ecd4b3fa43abe2",
+        "changed_rows": 0
+      }
+    }
+  },
+  {
+    "case": "narrow_no_control",
+    "outputs": {
+      "narrowPeak": {
+        "left_rows": 1150,
+        "right_rows": 1150,
+        "exact_noncomment_rows_equal": true,
+        "left_sha256": "824bc6c95c2a37fcd3980dce05506f61f6c0d5e1637a8d5e88ef2d1229112a4c",
+        "right_sha256": "824bc6c95c2a37fcd3980dce05506f61f6c0d5e1637a8d5e88ef2d1229112a4c",
+        "changed_rows": 0
+      },
+      "xls": {
+        "left_rows": 1151,
+        "right_rows": 1151,
+        "exact_noncomment_rows_equal": true,
+        "left_sha256": "944b92e5ecad52c45d5aa6ac1f1890cb7da1c4bd1019c49450bae7e0612ff370",
+        "right_sha256": "722098df9ddb5c4728f06b850f914ed53473c21f0585acf58ad9bc0b98e46482",
+        "changed_rows": 0
+      }
+    }
+  },
+  {
+    "case": "broad_with_control",
+    "outputs": {
+      "broadPeak": {
+        "left_rows": 1,
+        "right_rows": 1,
+        "exact_noncomment_rows_equal": true,
+        "left_sha256": "871e836605b60be48fccc8aacef2f1bcab18fd8d672f7d2d39616a33155d6d45",
+        "right_sha256": "871e836605b60be48fccc8aacef2f1bcab18fd8d672f7d2d39616a33155d6d45",
+        "changed_rows": 0
+      },
+      "gappedPeak": {
+        "left_rows": 1,
+        "right_rows": 1,
+        "exact_noncomment_rows_equal": false,
+        "left_sha256": "76fa41e51d517f5400c41223785f3a37da741b5a69fbc40dc4e6138b3d7226a4",
+        "right_sha256": "6867dfd317ce0848976dbbf67c59b488bd01ab729faf330aeaa6fb3789d9f889",
+        "changed_rows": 1
+      },
+      "xls": {
+        "left_rows": 2,
+        "right_rows": 2,
+        "exact_noncomment_rows_equal": true,
+        "left_sha256": "10bc8ff27ea09e803b43c4fc9769989f1fc59dc1c814d2fa37160e1b639e7600",
+        "right_sha256": "86c0fcd533af7ba63d6c961db6c2ed230a6c3f3592944a46749bac144ad296b1",
+        "changed_rows": 0
+      }
+    }
+  }
+]

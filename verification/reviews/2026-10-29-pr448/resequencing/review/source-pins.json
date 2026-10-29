@@ -1,0 +1,38 @@
+[
+  {
+    "case": "base",
+    "commit": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "archive": "sources/base.tar.gz",
+    "bytes": 1581633,
+    "sha256": "f15d0bd24a2389a5bfd370a2913ea2fb6d095ef7b697f898d9f8b883a3621a02",
+    "archive_tree": "594e6524965d126acb433652c6e89fc7dc939b81",
+    "licenses": [
+      "LICENSE"
+    ],
+    "unmodified_git_archive": true
+  },
+  {
+    "case": "unfixed",
+    "commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+    "archive": "sources/unfixed.tar.gz",
+    "bytes": 1597493,
+    "sha256": "25c40fec6cc420f0013cb3063dfb670f470adcf2785b1b6c44181b0a93b51ab7",
+    "archive_tree": "4be3a324d1eba228b4768532f3e9fc9531fc76f3",
+    "licenses": [
+      "LICENSE"
+    ],
+    "unmodified_git_archive": true
+  },
+  {
+    "case": "fixed",
+    "commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+    "archive": "sources/fixed.tar.gz",
+    "bytes": 1597648,
+    "sha256": "266bfb7af2f3df2f56ba540695b46e77fb1518ee02b26c36811f3204111d3a62",
+    "archive_tree": "adb75be4c8f89253777bfa431fc27f72691a11c3",
+    "licenses": [
+      "LICENSE"
+    ],
+    "unmodified_git_archive": true
+  }
+]

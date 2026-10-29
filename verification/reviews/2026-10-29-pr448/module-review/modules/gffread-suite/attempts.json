@@ -1,0 +1,7 @@
+{
+  "initial_tooling": "nf-test0.9.4 then0.9.5 with pipeline nft-utils0.0.3 could execute conversions but lacked sanitizeOutput for BED assertions",
+  "discarded_update_attempt": "An update attempt under the mismatched helper failed; its isolated snapshot was saved as discarded-tooling-update.snap and the pristine original snapshot restored before the reviewed baseline. No discarded snapshot is proposed.",
+  "reviewed_baseline": "nf-test0.9.5 plus nft-utils0.0.9 matching exact upstream module source; all functional assertions passed; eight expected snapshot mismatches explicitly reviewed before final update.",
+  "reviewed_update": "All9 tests passed; generated snapshot content mechanically restricted to exact reviewed differences.",
+  "final": "Strict CI run with snapshot updates disabled, recorded in final.xml/final.out."
+}

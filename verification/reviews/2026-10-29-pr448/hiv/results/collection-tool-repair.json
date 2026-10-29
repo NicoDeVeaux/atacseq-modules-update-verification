@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-29T06:22:12.708357+00:00",
+  "scope": "Local HIV result collection/comparison fixes; no workflow launch or receipt mutation.",
+  "changes": [
+    "Authenticate approved recovery run_name separately from stable case key",
+    "Recognize current MarkDuplicates metrics suffix",
+    "Require affirmative workflow/source/collection identity evidence",
+    "Freeze completed real-library comparator dependency before updating HIV helper"
+  ],
+  "source_hashes": {
+    "collect_campaign_outputs.py": "0b36b90c970a52456acb78674c166a96ba1f66bf8d357acfd977659b1f9bb509",
+    "compare_campaign_outputs.py": "2c844a7aebea68007358064fb31fa14742758a87d133d979bc57d9a8eca95ea7"
+  },
+  "tests": {
+    "collector": 22,
+    "hiv_comparison": 13,
+    "frozen_full_core_comparison": 11
+  }
+}

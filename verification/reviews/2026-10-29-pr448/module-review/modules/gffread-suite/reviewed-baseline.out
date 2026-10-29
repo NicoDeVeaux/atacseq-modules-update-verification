@@ -1,0 +1,611 @@
+
+🚀 nf-test 0.9.5
+https://www.nf-test.com
+Please cite: https://doi.org/10.1093/gigascience/giaf130
+(c) 2021 - 2026 Lukas Forer and Sebastian Schoenherr
+
+Load .nf-test/plugins/nft-utils/0.0.9/nft-utils-0.0.9.jar
+nf-test runs in CI mode.
+
+Test Process GFFREAD
+
+  Test [c2a0570f] 'sarscov2-gff3-gtf' 
+    > N E X T F L O W  ~  version 26.04.6
+    > Launching `LOCAL_STAGE/gffread-nftest/.nf-test-c2a0570f8f78caa3d3c21535c6b8fdd3.nf` [sad_ardinghelli] - revision: 6c61d67059
+    > [d7/f539f7] Submitted process > GFFREAD (test)
+    java.lang.RuntimeException: Different Snapshot:
+[													[
+    {													    {
+        "0": [												        "0": [
+            [												            [
+                {											                {
+                    "id": "test"									                    "id": "test"
+                },											                },
+                "test.gtf:md5,1ea0ae98d3388e0576407dc4a24ef428"						                "test.gtf:md5,1ea0ae98d3388e0576407dc4a24ef428"
+            ]												            ]
+        ],												        ],
+        "1": [												        "1": [
+            												            
+        ],												        ],
+        "2": [												        "2": [
+            												            
+        ],												        ],
+        "3": [												        "3": [
+            												            
+        ],												        ],
+        "4": [												        "4": [
+            [												            [
+                "GFFREAD",										                "GFFREAD",
+                "gffread",										                "gffread",
+                "0.12.7"									   |	                "0.12.9"
+            ]												            ]
+        ],												        ],
+        "bed": [											        "bed": [
+            												            
+        ],												        ],
+        "gffread_fasta": [										        "gffread_fasta": [
+            												            
+        ],												        ],
+        "gffread_gff": [										        "gffread_gff": [
+            												            
+        ],												        ],
+        "gtf": [											        "gtf": [
+            [												            [
+                {											                {
+                    "id": "test"									                    "id": "test"
+                },											                },
+                "test.gtf:md5,1ea0ae98d3388e0576407dc4a24ef428"						                "test.gtf:md5,1ea0ae98d3388e0576407dc4a24ef428"
+            ]												            ]
+        ],												        ],
+        "versions_gffread": [										        "versions_gffread": [
+            [												            [
+                "GFFREAD",										                "GFFREAD",
+                "gffread",										                "gffread",
+                "0.12.7"									   |	                "0.12.9"
+            ]												            ]
+        ]												        ]
+    }													    }
+]
+\ No newline at end of file
+													]
+\ No newline at end of file
+
+
+FAILED (3.251s)
+
+  Assertion failed: 
+  
+  1 of 4 assertions failed
+  
+  Nextflow stdout:
+  
+  N E X T F L O W  ~  version 26.04.6
+  Launching `LOCAL_STAGE/gffread-nftest/.nf-test-c2a0570f8f78caa3d3c21535c6b8fdd3.nf` [sad_ardinghelli] - revision: 6c61d67059
+  [d7/f539f7] Submitted process > GFFREAD (test)
+  Nextflow stderr:
+  
+  
+
+  Test [5a89016d] 'sarscov2-gff3-gtf-stub' 
+    > N E X T F L O W  ~  version 26.04.6
+    > Launching `LOCAL_STAGE/gffread-nftest/.nf-test-5a89016dfabab62f36497394c1a9dcbd.nf` [admiring_solvay] - revision: 5b44158275
+    > [64/55c38e] Submitted process > GFFREAD (test)
+    java.lang.RuntimeException: Different Snapshot:
+[													[
+    {													    {
+        "0": [												        "0": [
+            [												            [
+                {											                {
+                    "id": "test"									                    "id": "test"
+                },											                },
+                "test.gtf:md5,d41d8cd98f00b204e9800998ecf8427e"						                "test.gtf:md5,d41d8cd98f00b204e9800998ecf8427e"
+            ]												            ]
+        ],												        ],
+        "1": [												        "1": [
+            												            
+        ],												        ],
+        "2": [												        "2": [
+            												            
+        ],												        ],
+        "3": [												        "3": [
+            												            
+        ],												        ],
+        "4": [												        "4": [
+            [												            [
+                "GFFREAD",										                "GFFREAD",
+                "gffread",										                "gffread",
+                "0.12.7"									   |	                "0.12.9"
+            ]												            ]
+        ],												        ],
+        "bed": [											        "bed": [
+            												            
+        ],												        ],
+        "gffread_fasta": [										        "gffread_fasta": [
+            												            
+        ],												        ],
+        "gffread_gff": [										        "gffread_gff": [
+            												            
+        ],												        ],
+        "gtf": [											        "gtf": [
+            [												            [
+                {											                {
+                    "id": "test"									                    "id": "test"
+                },											                },
+                "test.gtf:md5,d41d8cd98f00b204e9800998ecf8427e"						                "test.gtf:md5,d41d8cd98f00b204e9800998ecf8427e"
+            ]												            ]
+        ],												        ],
+        "versions_gffread": [										        "versions_gffread": [
+            [												            [
+                "GFFREAD",										                "GFFREAD",
+                "gffread",										                "gffread",
+                "0.12.7"									   |	                "0.12.9"
+            ]												            ]
+        ]												        ]
+    }													    }
+]
+\ No newline at end of file
+													]
+\ No newline at end of file
+
+
+FAILED (3.088s)
+
+  Assertion failed: 
+  
+  1 of 4 assertions failed
+  
+  Nextflow stdout:
+  
+  N E X T F L O W  ~  version 26.04.6
+  Launching `LOCAL_STAGE/gffread-nftest/.nf-test-5a89016dfabab62f36497394c1a9dcbd.nf` [admiring_solvay] - revision: 5b44158275
+  [64/55c38e] Submitted process > GFFREAD (test)
+  Nextflow stderr:
+  
+  
+
+  Test [647a6ee2] 'sarscov2-gff3-gff3' 
+    > N E X T F L O W  ~  version 26.04.6
+    > Launching `LOCAL_STAGE/gffread-nftest/.nf-test-647a6ee2620d33dca02359c2ad47fbe3.nf` [pensive_lamarr] - revision: 5b44158275
+    > [10/21d2fe] Submitted process > GFFREAD (test)
+    java.lang.RuntimeException: Different Snapshot:
+[													[
+    {													    {
+        "0": [												        "0": [
+            												            
+        ],												        ],
+        "1": [												        "1": [
+            [												            [
+                {											                {
+                    "id": "test"									                    "id": "test"
+                },											                },
+                "test.gff3:md5,c4e5da6267c6bee5899a2c204ae1ad91"				   |	                "test.gff3:md5,f964eb24e3beef677faf9bf209d28dd0"
+            ]												            ]
+        ],												        ],
+        "2": [												        "2": [
+            												            
+        ],												        ],
+        "3": [												        "3": [
+            												            
+        ],												        ],
+        "4": [												        "4": [
+            [												            [
+                "GFFREAD",										                "GFFREAD",
+                "gffread",										                "gffread",
+                "0.12.7"									   |	                "0.12.9"
+            ]												            ]
+        ],												        ],
+        "bed": [											        "bed": [
+            												            
+        ],												        ],
+        "gffread_fasta": [										        "gffread_fasta": [
+            												            
+        ],												        ],
+        "gffread_gff": [										        "gffread_gff": [
+            [												            [
+                {											                {
+                    "id": "test"									                    "id": "test"
+                },											                },
+                "test.gff3:md5,c4e5da6267c6bee5899a2c204ae1ad91"				   |	                "test.gff3:md5,f964eb24e3beef677faf9bf209d28dd0"
+            ]												            ]
+        ],												        ],
+        "gtf": [											        "gtf": [
+            												            
+        ],												        ],
+        "versions_gffread": [										        "versions_gffread": [
+            [												            [
+                "GFFREAD",										                "GFFREAD",
+                "gffread",										                "gffread",
+                "0.12.7"									   |	                "0.12.9"
+            ]												            ]
+        ]												        ]
+    }													    }
+]
+\ No newline at end of file
+													]
+\ No newline at end of file
+
+
+FAILED (3.296s)
+
+  Assertion failed: 
+  
+  1 of 4 assertions failed
+  
+  Nextflow stdout:
+  
+  N E X T F L O W  ~  version 26.04.6
+  Launching `LOCAL_STAGE/gffread-nftest/.nf-test-647a6ee2620d33dca02359c2ad47fbe3.nf` [pensive_lamarr] - revision: 5b44158275
+  [10/21d2fe] Submitted process > GFFREAD (test)
+  Nextflow stderr:
+  
+  
+
+  Test [5538bbda] 'sarscov2-gff3-gff3-stub' 
+    > N E X T F L O W  ~  version 26.04.6
+    > Launching `LOCAL_STAGE/gffread-nftest/.nf-test-5538bbda1d9de123a23cc25ff79945.nf` [mad_waddington] - revision: 5b44158275
+    > [d0/0709d6] Submitted process > GFFREAD (test)
+    java.lang.RuntimeException: Different Snapshot:
+[													[
+    {													    {
+        "0": [												        "0": [
+            												            
+        ],												        ],
+        "1": [												        "1": [
+            [												            [
+                {											                {
+                    "id": "test"									                    "id": "test"
+                },											                },
+                "test.gff3:md5,d41d8cd98f00b204e9800998ecf8427e"					                "test.gff3:md5,d41d8cd98f00b204e9800998ecf8427e"
+            ]												            ]
+        ],												        ],
+        "2": [												        "2": [
+            												            
+        ],												        ],
+        "3": [												        "3": [
+            												            
+        ],												        ],
+        "4": [												        "4": [
+            [												            [
+                "GFFREAD",										                "GFFREAD",
+                "gffread",										                "gffread",
+                "0.12.7"									   |	                "0.12.9"
+            ]												            ]
+        ],												        ],
+        "bed": [											        "bed": [
+            												            
+        ],												        ],
+        "gffread_fasta": [										        "gffread_fasta": [
+            												            
+        ],												        ],
+        "gffread_gff": [										        "gffread_gff": [
+            [												            [
+                {											                {
+                    "id": "test"									                    "id": "test"
+                },											                },
+                "test.gff3:md5,d41d8cd98f00b204e9800998ecf8427e"					                "test.gff3:md5,d41d8cd98f00b204e9800998ecf8427e"
+            ]												            ]
+        ],												        ],
+        "gtf": [											        "gtf": [
+            												            
+        ],												        ],
+        "versions_gffread": [										        "versions_gffread": [
+            [												            [
+                "GFFREAD",										                "GFFREAD",
+                "gffread",										                "gffread",
+                "0.12.7"									   |	                "0.12.9"
+            ]												            ]
+        ]												        ]
+    }													    }
+]
+\ No newline at end of file
+													]
+\ No newline at end of file
+
+
+FAILED (3.176s)
+
+  Assertion failed: 
+  
+  1 of 4 assertions failed
+  
+  Nextflow stdout:
+  
+  N E X T F L O W  ~  version 26.04.6
+  Launching `LOCAL_STAGE/gffread-nftest/.nf-test-5538bbda1d9de123a23cc25ff79945.nf` [mad_waddington] - revision: 5b44158275
+  [d0/0709d6] Submitted process > GFFREAD (test)
+  Nextflow stderr:
+  
+  
+
+  Test [dedeb7d6] 'sarscov2-gff3-fasta' 
+    > N E X T F L O W  ~  version 26.04.6
+    > Launching `LOCAL_STAGE/gffread-nftest/.nf-test-dedeb7d625ef79883b90bebe9313aa10.nf` [scruffy_bartik] - revision: ad45f183ba
+    > [e9/bc2e77] Submitted process > GFFREAD (test)
+    java.lang.RuntimeException: Different Snapshot:
+[													[
+    {													    {
+        "0": [												        "0": [
+            												            
+        ],												        ],
+        "1": [												        "1": [
+            												            
+        ],												        ],
+        "2": [												        "2": [
+            [												            [
+                {											                {
+                    "id": "test"									                    "id": "test"
+                },											                },
+                "test.fasta:md5,5f8108fb51739a0588ccf0a251de919a"					                "test.fasta:md5,5f8108fb51739a0588ccf0a251de919a"
+            ]												            ]
+        ],												        ],
+        "3": [												        "3": [
+            												            
+        ],												        ],
+        "4": [												        "4": [
+            [												            [
+                "GFFREAD",										                "GFFREAD",
+                "gffread",										                "gffread",
+                "0.12.7"									   |	                "0.12.9"
+            ]												            ]
+        ],												        ],
+        "bed": [											        "bed": [
+            												            
+        ],												        ],
+        "gffread_fasta": [										        "gffread_fasta": [
+            [												            [
+                {											                {
+                    "id": "test"									                    "id": "test"
+                },											                },
+                "test.fasta:md5,5f8108fb51739a0588ccf0a251de919a"					                "test.fasta:md5,5f8108fb51739a0588ccf0a251de919a"
+            ]												            ]
+        ],												        ],
+        "gffread_gff": [										        "gffread_gff": [
+            												            
+        ],												        ],
+        "gtf": [											        "gtf": [
+            												            
+        ],												        ],
+        "versions_gffread": [										        "versions_gffread": [
+            [												            [
+                "GFFREAD",										                "GFFREAD",
+                "gffread",										                "gffread",
+                "0.12.7"									   |	                "0.12.9"
+            ]												            ]
+        ]												        ]
+    }													    }
+]
+\ No newline at end of file
+													]
+\ No newline at end of file
+
+
+FAILED (3.326s)
+
+  Assertion failed: 
+  
+  1 of 4 assertions failed
+  
+  Nextflow stdout:
+  
+  N E X T F L O W  ~  version 26.04.6
+  Launching `LOCAL_STAGE/gffread-nftest/.nf-test-dedeb7d625ef79883b90bebe9313aa10.nf` [scruffy_bartik] - revision: ad45f183ba
+  [e9/bc2e77] Submitted process > GFFREAD (test)
+  Nextflow stderr:
+  
+  
+
+  Test [6325f8c8] 'sarscov2-gff3-fasta-stub' 
+    > N E X T F L O W  ~  version 26.04.6
+    > Launching `LOCAL_STAGE/gffread-nftest/.nf-test-6325f8c8f78ad7ac6d6abe13233eb82.nf` [drunk_lagrange] - revision: ad45f183ba
+    > [53/213305] Submitted process > GFFREAD (test)
+    java.lang.RuntimeException: Different Snapshot:
+[													[
+    {													    {
+        "0": [												        "0": [
+            												            
+        ],												        ],
+        "1": [												        "1": [
+            												            
+        ],												        ],
+        "2": [												        "2": [
+            [												            [
+                {											                {
+                    "id": "test"									                    "id": "test"
+                },											                },
+                "test.fasta:md5,d41d8cd98f00b204e9800998ecf8427e"					                "test.fasta:md5,d41d8cd98f00b204e9800998ecf8427e"
+            ]												            ]
+        ],												        ],
+        "3": [												        "3": [
+            												            
+        ],												        ],
+        "4": [												        "4": [
+            [												            [
+                "GFFREAD",										                "GFFREAD",
+                "gffread",										                "gffread",
+                "0.12.7"									   |	                "0.12.9"
+            ]												            ]
+        ],												        ],
+        "bed": [											        "bed": [
+            												            
+        ],												        ],
+        "gffread_fasta": [										        "gffread_fasta": [
+            [												            [
+                {											                {
+                    "id": "test"									                    "id": "test"
+                },											                },
+                "test.fasta:md5,d41d8cd98f00b204e9800998ecf8427e"					                "test.fasta:md5,d41d8cd98f00b204e9800998ecf8427e"
+            ]												            ]
+        ],												        ],
+        "gffread_gff": [										        "gffread_gff": [
+            												            
+        ],												        ],
+        "gtf": [											        "gtf": [
+            												            
+        ],												        ],
+        "versions_gffread": [										        "versions_gffread": [
+            [												            [
+                "GFFREAD",										                "GFFREAD",
+                "gffread",										                "gffread",
+                "0.12.7"									   |	                "0.12.9"
+            ]												            ]
+        ]												        ]
+    }													    }
+]
+\ No newline at end of file
+													]
+\ No newline at end of file
+
+
+FAILED (3.625s)
+
+  Assertion failed: 
+  
+  1 of 4 assertions failed
+  
+  Nextflow stdout:
+  
+  N E X T F L O W  ~  version 26.04.6
+  Launching `LOCAL_STAGE/gffread-nftest/.nf-test-6325f8c8f78ad7ac6d6abe13233eb82.nf` [drunk_lagrange] - revision: ad45f183ba
+  [53/213305] Submitted process > GFFREAD (test)
+  Nextflow stderr:
+  
+  
+
+  Test [379ef759] 'sarscov2-gff3-bed' 
+    > N E X T F L O W  ~  version 26.04.6
+    > Launching `LOCAL_STAGE/gffread-nftest/.nf-test-379ef759845f6d294c974ba8a6e1892e.nf` [romantic_murdock] - revision: 5b44158275
+    > [ab/92982f] Submitted process > GFFREAD (test)
+    java.lang.RuntimeException: Different Snapshot:
+[													[
+    {													    {
+        "bed": [											        "bed": [
+            [												            [
+                {											                {
+                    "id": "test"									                    "id": "test"
+                },											                },
+                "test.bed:md5,96fd7117a706e7c2ccbe062beb635172"						                "test.bed:md5,96fd7117a706e7c2ccbe062beb635172"
+            ]												            ]
+        ],												        ],
+        "gffread_fasta": [										        "gffread_fasta": [
+            												            
+        ],												        ],
+        "gffread_gff": [										        "gffread_gff": [
+            												            
+        ],												        ],
+        "gtf": [											        "gtf": [
+            												            
+        ],												        ],
+        "versions_gffread": [										        "versions_gffread": [
+            [												            [
+                "GFFREAD",										                "GFFREAD",
+                "gffread",										                "gffread",
+                "0.12.7"									   |	                "0.12.9"
+            ]												            ]
+        ]												        ]
+    }													    }
+]
+\ No newline at end of file
+													]
+\ No newline at end of file
+
+
+FAILED (3.013s)
+
+  Assertion failed: 
+  
+  1 of 2 assertions failed
+  
+  Nextflow stdout:
+  
+  N E X T F L O W  ~  version 26.04.6
+  Launching `LOCAL_STAGE/gffread-nftest/.nf-test-379ef759845f6d294c974ba8a6e1892e.nf` [romantic_murdock] - revision: 5b44158275
+  [ab/92982f] Submitted process > GFFREAD (test)
+  Nextflow stderr:
+  
+  
+
+  Test [6fbd6740] 'sarscov2-gff3-bed-stub' 
+    > N E X T F L O W  ~  version 26.04.6
+    > Launching `LOCAL_STAGE/gffread-nftest/.nf-test-6fbd6740b9a8c77aac44f01c92b3616.nf` [compassionate_fermi] - revision: 5b44158275
+    > [d6/870d43] Submitted process > GFFREAD (test)
+    java.lang.RuntimeException: Different Snapshot:
+[													[
+    {													    {
+        "bed": [											        "bed": [
+            [												            [
+                {											                {
+                    "id": "test"									                    "id": "test"
+                },											                },
+                "test.bed:md5,d41d8cd98f00b204e9800998ecf8427e"						                "test.bed:md5,d41d8cd98f00b204e9800998ecf8427e"
+            ]												            ]
+        ],												        ],
+        "gffread_fasta": [										        "gffread_fasta": [
+            												            
+        ],												        ],
+        "gffread_gff": [										        "gffread_gff": [
+            												            
+        ],												        ],
+        "gtf": [											        "gtf": [
+            												            
+        ],												        ],
+        "versions_gffread": [										        "versions_gffread": [
+            [												            [
+                "GFFREAD",										                "GFFREAD",
+                "gffread",										                "gffread",
+                "0.12.7"									   |	                "0.12.9"
+            ]												            ]
+        ]												        ]
+    }													    }
+]
+\ No newline at end of file
+													]
+\ No newline at end of file
+
+
+FAILED (3.172s)
+
+  Assertion failed: 
+  
+  1 of 2 assertions failed
+  
+  Nextflow stdout:
+  
+  N E X T F L O W  ~  version 26.04.6
+  Launching `LOCAL_STAGE/gffread-nftest/.nf-test-6fbd6740b9a8c77aac44f01c92b3616.nf` [compassionate_fermi] - revision: 5b44158275
+  [d6/870d43] Submitted process > GFFREAD (test)
+  Nextflow stderr:
+  
+  
+
+  Test [3e1bd339] 'sarscov2-gff3-fasta-fail-catch' 
+    > N E X T F L O W  ~  version 26.04.6
+    > Launching `LOCAL_STAGE/gffread-nftest/.nf-test-3e1bd3391f8df76e56bc23292c5c1e09.nf` [soggy_archimedes] - revision: ddd8727a92
+    > ERROR ~ Error executing process > 'GFFREAD'
+    > 
+    > Caused by:
+    >   Input and output names are the same, use "task.ext.prefix" to disambiguate! -- Check script 'LOCAL_STAGE/gffread-nftest/module/main.nf' at line: 47
+    > 
+    > 
+    > Source block:
+    >   stub:
+    >   def args        = task.ext.args             ?: ''
+    >   def prefix      = task.ext.prefix           ?: "${meta.id}"
+    >   def extension   = args.contains("--bed")    ? 'bed' : ( args.contains("-T")       ? 'gtf' : ( ( ['-w', '-x', '-y' ].any { flag -> args.contains(flag) } ) ? 'fasta' : 'gff3' ) )
+    >   def output_name = "${prefix}.${extension}"
+    >   if ( "$output_name" in [ "$gff", "$fasta" ] ) error "Input and output names are the same, use \"task.ext.prefix\" to disambiguate!"
+    >   """
+    >   touch $output_name
+    >   """
+    > 
+    > Container:
+    >   quay.io/biocontainers/gffread:0.12.9--hf426362_0
+    > 
+    > Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+    > 
+    >  -- Check 'LOCAL_STAGE/gffread-nftest/.nf-test/tests/3e1bd3391f8df76e56bc23292c5c1e09/meta/nextflow.log' file for details
+    PASSED (2.078s)
+    Obsolete snapshots can only be checked if all tests of a file are executed successful.
+
+
+FAILURE: Executed 9 tests in 28.065s (8 failed)
+

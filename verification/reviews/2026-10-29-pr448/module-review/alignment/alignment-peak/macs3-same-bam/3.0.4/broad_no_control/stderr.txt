@@ -1,0 +1,36 @@
+INFO  @ 29 Oct 2026 09:29:20: [53 MB] 
+# Command line: callpeak --keep-dup all --nomodel --broad --broad-cutoff 0.1 --gsize 11777680 --format BAMPE --name controlled --treatment /input/D28P_REP1.mLb.clN.sorted.bam
+# ARGUMENTS LIST:
+# name = controlled
+# format = BAMPE
+# ChIP-seq file = ['/input/D28P_REP1.mLb.clN.sorted.bam']
+# control file = None
+# effective genome size = 1.18e+07
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is on
+# Paired-End mode is on
+ 
+INFO  @ 29 Oct 2026 09:29:20: [53 MB] #1 read fragment files... 
+INFO  @ 29 Oct 2026 09:29:20: [53 MB] #1 read treatment fragments... 
+INFO  @ 29 Oct 2026 09:29:21: [100 MB] 283754 fragments have been read. 
+INFO  @ 29 Oct 2026 09:29:21: [100 MB] #1 mean fragment size is determined as 186.1 bp from treatment 
+INFO  @ 29 Oct 2026 09:29:21: [100 MB] #1 fragment size = 186.1 
+INFO  @ 29 Oct 2026 09:29:21: [100 MB] #1  total fragments in treatment: 283754 
+INFO  @ 29 Oct 2026 09:29:21: [100 MB] #1 finished! 
+INFO  @ 29 Oct 2026 09:29:21: [100 MB] #2 Build Peak Model... 
+INFO  @ 29 Oct 2026 09:29:21: [100 MB] #2 Skipped... 
+INFO  @ 29 Oct 2026 09:29:21: [100 MB] #3 Call peaks... 
+INFO  @ 29 Oct 2026 09:29:21: [100 MB] #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ 29 Oct 2026 09:29:21: [100 MB] #3 Pre-compute pvalue-qvalue table... 
+INFO  @ 29 Oct 2026 09:29:22: [100 MB] #3 Call peaks for each chromosome... 
+INFO  @ 29 Oct 2026 09:29:23: [100 MB] #4 Write output xls file... controlled_peaks.xls 
+INFO  @ 29 Oct 2026 09:29:23: [101 MB] #4 Write broad peak in broadPeak format file... controlled_peaks.broadPeak 
+INFO  @ 29 Oct 2026 09:29:23: [101 MB] #4 Write broad peak in bed12/gappedPeak format file... controlled_peaks.gappedPeak 
+INFO  @ 29 Oct 2026 09:29:23: [101 MB] Done! 

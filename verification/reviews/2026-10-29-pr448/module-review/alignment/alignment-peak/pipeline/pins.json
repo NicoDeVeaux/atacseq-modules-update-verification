@@ -1,0 +1,128 @@
+[
+  {
+    "case": "base",
+    "commit": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "path": "conf/modules.config",
+    "git_blob": "03b6bbdc28bb86f0f6b0e187f3fbb134545a54d8",
+    "sha256": "f713696e799c5087f57d699305b02550c3305c3e97fc6a888961515fc571c1b1"
+  },
+  {
+    "case": "base",
+    "commit": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "path": "nextflow.config",
+    "git_blob": "77a7f60e7a8c5e42e78227f8d0dce1e73c6faab0",
+    "sha256": "06dbbd447576cbcd0079c29b527571eeef07823142c7f0303fe112b9a5bf35b2"
+  },
+  {
+    "case": "base",
+    "commit": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "path": "modules/nf-core/bowtie2/align/main.nf",
+    "git_blob": "96a7027ddbe22c43341e38657ef040b37dad9f81",
+    "sha256": "912c762e648896dff4c989cec7a07c66424e6d6862cc11284250466856607373"
+  },
+  {
+    "case": "base",
+    "commit": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "path": "modules/nf-core/bowtie2/build/main.nf",
+    "git_blob": "069d9c120415fd332a514a7de62ac1ce955523f1",
+    "sha256": "20688ca91d5730903e561787a638285882d4a8f94bb4dd6d845439d210a0d072"
+  },
+  {
+    "case": "base",
+    "commit": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "path": "modules/nf-core/bwa/index/main.nf",
+    "git_blob": "03f00422f58713350de761a9983821aeeb588147",
+    "sha256": "9c576230256c4ac87b304dc399bd487680127daefe0881213e29ce5fc906f679"
+  },
+  {
+    "case": "base",
+    "commit": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "path": "modules/nf-core/bwa/mem/main.nf",
+    "git_blob": "d8bd28151954201335853eb247b6915389515453",
+    "sha256": "df55fa6c56d4ff3f38cf404907dbfce21e47b25a95fda59a83b14eefb70148c1"
+  },
+  {
+    "case": "base",
+    "commit": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "path": "modules/nf-core/chromap/chromap/main.nf",
+    "git_blob": "a39302e3de3ca5b74c480427263fd2eee4e2aa71",
+    "sha256": "04c9e635fd74acbcee2980a16b944a9a681a5246ee1b39a6414b9e3ce5957f83"
+  },
+  {
+    "case": "base",
+    "commit": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "path": "modules/nf-core/chromap/index/main.nf",
+    "git_blob": "fb3773f860dd3113fec402fae1e3123a561041ee",
+    "sha256": "f581224280e13c43b25fb57cf6dc39ba25d9458728677199f0469718773e5369"
+  },
+  {
+    "case": "base",
+    "commit": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "path": "modules/nf-core/macs3/callpeak/main.nf",
+    "git_blob": "53a1a200fda9d5e4acd1ffaded64fe617b286344",
+    "sha256": "61b125ec099ce2fdc897da9464197bb3bee11e2d8dd9223399a59e27fd3e5cd5"
+  },
+  {
+    "case": "merge",
+    "commit": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+    "path": "conf/modules.config",
+    "git_blob": "ca0e5c47598a8e17f5b15b09e048f4ed9d5483b6",
+    "sha256": "81b15aee7dab0fae26fc028c04f32b73ef3cc2b6ec38c63fdaaf56383a22273e"
+  },
+  {
+    "case": "merge",
+    "commit": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+    "path": "nextflow.config",
+    "git_blob": "77a7f60e7a8c5e42e78227f8d0dce1e73c6faab0",
+    "sha256": "06dbbd447576cbcd0079c29b527571eeef07823142c7f0303fe112b9a5bf35b2"
+  },
+  {
+    "case": "merge",
+    "commit": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+    "path": "modules/nf-core/bowtie2/align/main.nf",
+    "git_blob": "9be0dfeeef186d2535bbefa5b894ae78fa6dede1",
+    "sha256": "780c7cf832e810c2d3241d62a43fb820c42dfcb8bb35344579fbb0f30626a266"
+  },
+  {
+    "case": "merge",
+    "commit": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+    "path": "modules/nf-core/bowtie2/build/main.nf",
+    "git_blob": "ee4b14f983e2f7b545b12673f51e294bd18cb5c8",
+    "sha256": "c63651163285233fff53c919d85461ea2dd0ddfac15a7c0c11d5405c6cba9171"
+  },
+  {
+    "case": "merge",
+    "commit": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+    "path": "modules/nf-core/bwa/index/main.nf",
+    "git_blob": "215a6f93ac778153a1ff12a4e12d098e926b08cf",
+    "sha256": "6dc18706804c3816c17c849cd266da1293a389dc4a963ace946edbd547962484"
+  },
+  {
+    "case": "merge",
+    "commit": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+    "path": "modules/nf-core/bwa/mem/main.nf",
+    "git_blob": "bde6a9a334e8e1ea33a00c2b9ca3b123152a9043",
+    "sha256": "c3e0a79f96d165f04f9d7cbde36fcf0468dc8dcb2d10408580d45eef088c1f74"
+  },
+  {
+    "case": "merge",
+    "commit": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+    "path": "modules/nf-core/chromap/chromap/main.nf",
+    "git_blob": "ec3b8eecf2da9f136a6a3ae78598c98e5e38a4e6",
+    "sha256": "f717291103be6b81c23deca338663840b2e217e50f21e56bf9ec281c4c5979d9"
+  },
+  {
+    "case": "merge",
+    "commit": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+    "path": "modules/nf-core/chromap/index/main.nf",
+    "git_blob": "666f8f11e3cbb5ffb04c6b9a8684e90632fe0632",
+    "sha256": "4d2f4d685994cd735a50b19d483f9b8745be372cbcbd764601c029c127bbfddd"
+  },
+  {
+    "case": "merge",
+    "commit": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+    "path": "modules/nf-core/macs3/callpeak/main.nf",
+    "git_blob": "7f70167cbe19468bb47d087df799e2b3e4072b26",
+    "sha256": "bb08c50df73fbe0fd7dfaa6ca37f5e9585a192eb683f54caffc0a9aa7101de2a"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "observed_at": "2026-10-28T22:53:23.465297+00:00",
+  "passed": true,
+  "gates": {
+    "D28P_REP1": {
+      "all_three_have_identical_alignment_core": true,
+      "pre448_and_fixed_retained_fragment_multisets_equal": true,
+      "pre448_and_fixed_duplicate_counts_equal": true,
+      "unfixed_retains_excess_cross_run_duplicates": true,
+      "fixed_rgids_stay_distinct_and_share_correct_library": true,
+      "unfixed_rgids_have_separate_libraries": true
+    },
+    "D28_REP1": {
+      "all_three_have_identical_alignment_core": true,
+      "pre448_and_fixed_retained_fragment_multisets_equal": true,
+      "pre448_and_fixed_duplicate_counts_equal": true,
+      "unfixed_retains_excess_cross_run_duplicates": true,
+      "fixed_rgids_stay_distinct_and_share_correct_library": true,
+      "unfixed_rgids_have_separate_libraries": true
+    }
+  },
+  "scope": "Identical-alignment replay through actual source-specific duplicate-marking paths on real resequenced libraries; raw-read comparisons reported separately."
+}

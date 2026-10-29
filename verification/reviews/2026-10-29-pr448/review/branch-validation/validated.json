@@ -1,0 +1,80 @@
+{
+  "base": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+  "branch": "fix/pr448-module-regressions",
+  "files": {
+    "modules/nf-core/preseq/lcextrap/main.nf": "f552974269d70b3cebf86c780be00529a89baeec55bb22c2cd8a65e3846dcb38",
+    "modules/nf-core/preseq/lcextrap/preseq-lcextrap.diff": "72b3c079621d7fd4531eb1a9cae3b6023b0efc56e58760218357c704f346f076",
+    "modules.json": "ea290e94873cfe7b8a5a2b1e1852fe7a338439957ce51d39def9438e34692d42",
+    "CHANGELOG.md": "cfabd2598a1e808afc5c17ab1a4041004ed670d54135677292dc7933658122da",
+    "PR-DRAFT.md": "2c4e4ffe49ceabe5bed7139956e6a9a9715574f6e0a7570eab77f06d3c071653",
+    "docs/module-update-audit.md": "6585166cb36c73455d09eac77623bceb7c2ba0608e0e90463d9a906fb30aa982",
+    "tests/regressions/preseq_retry.py": "178c2bc17dd2296ed31578e29608a74c0b651c04339975f457d64cb0e6a02167",
+    "tests/regressions/README.md": "073ef95981598a551e4adfe8d334b2d43ca0635c96b28063a6bf95d338176d06"
+  },
+  "checks_passed": [
+    "PRESEQ normal/retry/mutation contract",
+    "Changed-file pre-commit hooks",
+    "Local module patch reverse-application check",
+    "git diff --check"
+  ],
+  "nfcore_lint": {
+    "passed": false,
+    "same_13_failures_on_immutable_base": true,
+    "failures": [
+      [
+        "files_unchanged",
+        "`.github/PULL_REQUEST_TEMPLATE.md` does not match the template"
+      ],
+      [
+        "files_unchanged",
+        "`.github/workflows/branch.yml` does not match the template"
+      ],
+      [
+        "files_unchanged",
+        "`.github/workflows/linting.yml` does not match the template"
+      ],
+      [
+        "files_unchanged",
+        "`assets/nf-core-atacseq_logo_light.png` does not match the template"
+      ],
+      [
+        "files_unchanged",
+        "`docs/images/nf-core-atacseq_logo_light.png` does not match the template"
+      ],
+      [
+        "container_configs",
+        "`conf/containers_conda_lock_files_amd64.config` is out of date \u2013 please regenerate the container configuration files."
+      ],
+      [
+        "container_configs",
+        "`conf/containers_conda_lock_files_arm64.config` is out of date \u2013 please regenerate the container configuration files."
+      ],
+      [
+        "container_configs",
+        "`conf/containers_docker_amd64.config` is out of date \u2013 please regenerate the container configuration files."
+      ],
+      [
+        "container_configs",
+        "`conf/containers_docker_arm64.config` is out of date \u2013 please regenerate the container configuration files."
+      ],
+      [
+        "container_configs",
+        "`conf/containers_singularity_https_amd64.config` is out of date \u2013 please regenerate the container configuration files."
+      ],
+      [
+        "container_configs",
+        "`conf/containers_singularity_https_arm64.config` is out of date \u2013 please regenerate the container configuration files."
+      ],
+      [
+        "container_configs",
+        "`conf/containers_singularity_oras_amd64.config` is out of date \u2013 please regenerate the container configuration files."
+      ],
+      [
+        "container_configs",
+        "`conf/containers_singularity_oras_arm64.config` is out of date \u2013 please regenerate the container configuration files."
+      ]
+    ],
+    "warning": "nf-core internal formatter setup encountered npm/prek error; standalone repository formatter hook passed"
+  },
+  "upstream_pr_opened": false
+}

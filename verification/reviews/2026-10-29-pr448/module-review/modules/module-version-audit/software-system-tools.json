@@ -1,0 +1,89 @@
+{
+  "schema": "nf-verify/pr448-upstream-system-tool-scan/v1",
+  "checked_on": "2026-10-28",
+  "interpretation": "Source-declared versions; opaque image contents were not resolved. Upstream fixes are not new pipeline findings without reproductions.",
+  "tools": [
+    {
+      "tool": "SAMtools",
+      "dependency_names": ["samtools"],
+      "declared_versions": ["1.24", "1.23.1", "1.22.1", "1.21", "1.20"],
+      "latest_checked_release": "1.25",
+      "maintenance_releases_checked": ["1.24.1", "1.23.3", "1.22.4", "1.21.3"],
+      "sources": ["https://github.com/samtools/samtools/releases/tag/1.25", "https://github.com/samtools/samtools/releases/tag/1.24.1"],
+      "fixes": [
+        {"description": "The stats command now excludes secondary/supplementary duplicate records from duplicate counts and excludes unknown zero insert sizes consistently from insert-size statistics.", "source": "https://github.com/samtools/samtools/pull/2388", "status": "released in 1.25", "relevance": "The pipeline uses samtools stats before and after filtering/deduplication. Its QC summaries can encounter the relevant record flags or TLEN=0. Actual output impact has not been reproduced; no claim that flagstat, scaling, peaks or counts change from this fix."},
+        {"description": "Additional fixes harden record/tag parsing, reference caches, CRAM errors and optional commands.", "status": "released in 1.24.1 and/or 1.25", "relevance": "Separate robustness/format-trigger review; the listed markdup/checksum/mpileup options are not the default Picard duplicate-marking path."}
+      ],
+      "coverage_limit": "Release-note scan of saved 1.20-and-newer records; not an exhaustive audit of every bundled executable or binary build. A pre-existing defect is not automatically a regression introduced by 448."
+    },
+    {
+      "tool": "HTSlib",
+      "dependency_names": ["htslib"],
+      "declared_versions": ["1.24", "1.23.1", "1.22.1", "1.21"],
+      "latest_checked_release": "1.25",
+      "maintenance_releases_checked": ["1.24.1", "1.23.3", "1.22.4", "1.21.3"],
+      "sources": ["https://github.com/samtools/htslib/releases/tag/1.25", "https://github.com/samtools/htslib/releases/tag/1.24.1"],
+      "fixes": [
+        {"description": "Fixes include native-S3 reads at a part-boundary EOF, index/record validation, expression-filter parsing, compressed-reference index rebuild failures and CRAM handling.", "status": "released in 1.24.1 and/or 1.25", "relevance": "BAM/index robustness can be relevant to used libraries. Native-S3 and compressed-FASTA/CRAM triggers are not established for this Fusion-backed, plain-FASTA/BAM campaign. Library security fixes do not by themselves demonstrate numerical differences on these valid inputs."}
+      ],
+      "coverage_limit": "The environment pin does not prove which HTSlib was linked into every executable/container; actual package manifests were not inspected."
+    },
+    {
+      "tool": "GNU grep",
+      "dependency_names": ["grep"],
+      "declared_version": "3.11",
+      "latest_checked_release": "3.12",
+      "sources": ["https://ftp.gnu.org/gnu/grep/grep-3.12.tar.xz", "https://git.savannah.gnu.org/cgit/grep.git/plain/NEWS"],
+      "fixes": [
+        {"description": "3.12 repairs recursive searches of directories with at least 100,000 entries and an interaction between a match limit and /dev/null output.", "status": "released 2025-04-10", "relevance": "The inspected UNTAR wrapper uses grep -o -P over an archive listing, not recursive directory search or the affected match-limit form. No matching trigger identified in those module commands."}
+      ],
+      "coverage_limit": "Official release NEWS was read from the release archive; arbitrary user scripts and complete transitive dependency behaviour are outside scope."
+    },
+    {
+      "tool": "GNU sed",
+      "dependency_names": ["sed"],
+      "declared_version": "4.8",
+      "latest_checked_release": "4.9",
+      "sources": ["https://ftp.gnu.org/gnu/sed/sed-4.9.tar.xz"],
+      "fixes": [
+        {"description": "4.9 repairs in-place symlink cycles, very large command/input lines, specific Unicode matching and temporary-file error handling.", "status": "released 2022-11-06", "relevance": "The inspected extraction wrappers use simple ASCII version-string substitutions in pipes. The documented triggers were not identified there."}
+      ],
+      "coverage_limit": "Release NEWS and relevant wrapper commands were checked; no universal no-bug claim."
+    },
+    {
+      "tool": "pigz",
+      "dependency_names": ["pigz"],
+      "declared_version": "2.8",
+      "latest_checked_tag": "v2.8",
+      "checked_head": "fe4894f57739e3039a2ffc2a2a360d35e19bacbe",
+      "sources": ["https://github.com/madler/pigz/compare/v2.8...fe4894f57739e3039a2ffc2a2a360d35e19bacbe"],
+      "post_tag_commit_count": 0,
+      "fixes": [],
+      "relevance": "Default-branch head and the v2.8 tag are identical. No later merged default-branch correction exists in that comparison.",
+      "coverage_limit": "Unmerged branches, external libraries and build-specific differences were not audited."
+    },
+    {
+      "tool": "UCSC bedGraphToBigWig",
+      "dependency_names": ["ucsc-bedgraphtobigwig"],
+      "declared_version": "482",
+      "baseline_source_tag": "v482_base",
+      "checked_head": "03e151fd3b8da8fe976cdb2e3ab99b2eeb8a0683",
+      "sources": ["https://github.com/ucscGenomeBrowser/kent/commit/60cad5e721e5d65174698249b7d37edd5988139e"],
+      "fixes": [
+        {"description": "A later merged correction rewinds compressed bedGraph input by reopening its decompression stream, permitting complete bigWig data and zoom-level output.", "status": "merged 2026-10-12; packaged-build availability not checked", "relevance": "The ATAC workflow supplies sorted uncompressed bedGraph, so the compressed-input trigger is bypassed in the inspected path."}
+      ],
+      "coverage_limit": "Bounded post-v482 histories for src/utils/bedGraphToBigWig and four relevant library paths; not all of Kent or all shared-library dependencies."
+    },
+    {
+      "tool": "HOMER",
+      "dependency_names": ["homer"],
+      "declared_version": "4.11",
+      "tool_version_changed_in_448": false,
+      "latest_official_version_checked": "5.1",
+      "sources": ["http://homer.ucsd.edu/homer/", "http://homer.ucsd.edu/homer/update.txt"],
+      "fixes": [],
+      "relevance": "Official news describes version-5 positional/motif work and 5.1 command/documentation/annotation updates. It does not identify a specific post-4.11 annotatePeaks correctness repair in the inspected news. The tool pin itself was unchanged by 448.",
+      "coverage_limit": "The official site is not an exhaustive per-command bug-fix changelog. No source-level proof that annotatePeaks has no subsequent fix."
+    }
+  ]
+}

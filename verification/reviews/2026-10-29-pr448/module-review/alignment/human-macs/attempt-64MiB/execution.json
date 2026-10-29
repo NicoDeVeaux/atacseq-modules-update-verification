@@ -1,0 +1,76 @@
+{
+  "3.0.1": {
+    "image": "quay.io/biocontainers/macs3:3.0.1--py311h0152c62_3",
+    "identity": {
+      "Id": "sha256:38967cf3d3217209bcb8baa9f277c53910e1d48d1afd825008ea27848f83c8d7",
+      "RepoDigests": [
+        "quay.io/biocontainers/macs3@sha256:38967cf3d3217209bcb8baa9f277c53910e1d48d1afd825008ea27848f83c8d7"
+      ],
+      "Architecture": "amd64",
+      "Os": "linux",
+      "Size": 142354181
+    },
+    "version_stdout": "macs3 3.0.1",
+    "argv": [
+      "macs3",
+      "callpeak",
+      "--keep-dup",
+      "all",
+      "--nomodel",
+      "--broad",
+      "--broad-cutoff",
+      "0.1",
+      "--gsize",
+      "2701262066",
+      "--format",
+      "BAMPE",
+      "--name",
+      "HIV_CD86HI_48H_REP1.mLb.clN",
+      "--treatment",
+      "HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 15.463151959000001,
+    "timed_out": false,
+    "memory_limit_bytes": 4294967296,
+    "cpu_limit": 2,
+    "network_disabled": true
+  },
+  "3.0.4": {
+    "image": "community.wave.seqera.io/library/macs3:3.0.4--e0346d811b8b428e",
+    "identity": {
+      "Id": "sha256:905e06a7e79f43a5c25c7a77147bd7cda341e0dfee1ff988bb85453c5ba2f6f2",
+      "RepoDigests": [
+        "community.wave.seqera.io/library/macs3@sha256:905e06a7e79f43a5c25c7a77147bd7cda341e0dfee1ff988bb85453c5ba2f6f2"
+      ],
+      "Architecture": "amd64",
+      "Os": "linux",
+      "Size": 242665702
+    },
+    "version_stdout": "macs3 3.0.4",
+    "argv": [
+      "macs3",
+      "callpeak",
+      "--keep-dup",
+      "all",
+      "--nomodel",
+      "--broad",
+      "--broad-cutoff",
+      "0.1",
+      "--gsize",
+      "2701262066",
+      "--format",
+      "BAMPE",
+      "--name",
+      "HIV_CD86HI_48H_REP1.mLb.clN",
+      "--treatment",
+      "HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 28.579327291,
+    "timed_out": false,
+    "memory_limit_bytes": 4294967296,
+    "cpu_limit": 2,
+    "network_disabled": true
+  }
+}

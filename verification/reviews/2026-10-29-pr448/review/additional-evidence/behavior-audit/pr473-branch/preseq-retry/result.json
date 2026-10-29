@@ -1,0 +1,86 @@
+{
+  "gates": {
+    "normal_succeeds_once_without_defects": true,
+    "retry_succeeds_with_original_options": true,
+    "defects_only_added_on_retry": true,
+    "negative_control_detects_lost_options": true
+  },
+  "cases": {
+    "normal": {
+      "exit_code": 0,
+      "argv": [
+        [
+          "lc_extrap",
+          "-verbose",
+          "-bam",
+          "-seed",
+          "1",
+          "-pe",
+          "-output",
+          "library.lc_extrap.txt",
+          "input.bam"
+        ]
+      ]
+    },
+    "retry": {
+      "exit_code": 0,
+      "argv": [
+        [
+          "lc_extrap",
+          "-verbose",
+          "-bam",
+          "-seed",
+          "1",
+          "-pe",
+          "-output",
+          "library.lc_extrap.txt",
+          "input.bam"
+        ],
+        [
+          "lc_extrap",
+          "-verbose",
+          "-bam",
+          "-seed",
+          "1",
+          "-defects",
+          "-pe",
+          "-output",
+          "library.lc_extrap.txt",
+          "input.bam"
+        ]
+      ]
+    },
+    "lost_options_control": {
+      "exit_code": 1,
+      "argv": [
+        [
+          "lc_extrap",
+          "-verbose",
+          "-bam",
+          "-seed",
+          "1",
+          "-pe",
+          "-output",
+          "library.lc_extrap.txt",
+          "input.bam"
+        ],
+        [
+          "lc_extrap",
+          "-pe",
+          "-output",
+          "library.lc_extrap.txt",
+          "input.bam"
+        ],
+        [
+          "lc_extrap",
+          "-pe",
+          "-output",
+          "library.lc_extrap.txt",
+          "input.bam"
+        ]
+      ]
+    }
+  },
+  "module_sha256": "f552974269d70b3cebf86c780be00529a89baeec55bb22c2cd8a65e3846dcb38",
+  "scope": "Real Nextflow module; fake PRESEQ executable; no estimate or full pipeline is validated"
+}

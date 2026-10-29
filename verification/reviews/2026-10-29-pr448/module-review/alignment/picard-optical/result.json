@@ -1,0 +1,76 @@
+{
+  "results": {
+    "pre448": {
+      "image": "quay.io/biocontainers/picard:3.1.1--hdfd78af_0",
+      "metrics": {
+        "LIBRARY": "library",
+        "UNPAIRED_READS_EXAMINED": "0",
+        "READ_PAIRS_EXAMINED": "2",
+        "SECONDARY_OR_SUPPLEMENTARY_RDS": "0",
+        "UNMAPPED_READS": "0",
+        "UNPAIRED_READ_DUPLICATES": "0",
+        "READ_PAIR_DUPLICATES": "1",
+        "READ_PAIR_OPTICAL_DUPLICATES": "0",
+        "PERCENT_DUPLICATION": "0.5",
+        "ESTIMATED_LIBRARY_SIZE": "1"
+      },
+      "duplicate_flags": [
+        [
+          "INST:1:FLOW:1:1101:32760:36800",
+          1123
+        ],
+        [
+          "INST:1:FLOW:1:1101:32770:36800",
+          99
+        ],
+        [
+          "INST:1:FLOW:1:1101:32760:36800",
+          1171
+        ],
+        [
+          "INST:1:FLOW:1:1101:32770:36800",
+          147
+        ]
+      ],
+      "bam_sha256": "5730ed6f0f743b92c1c94f452d72d21e2af331e8fad04450bd14099b05286324"
+    },
+    "selected": {
+      "image": "community.wave.seqera.io/library/picard:3.4.0--e9963040df0a9bf6",
+      "metrics": {
+        "LIBRARY": "library",
+        "UNPAIRED_READS_EXAMINED": "0",
+        "READ_PAIRS_EXAMINED": "2",
+        "SECONDARY_OR_SUPPLEMENTARY_RDS": "0",
+        "UNMAPPED_READS": "0",
+        "UNPAIRED_READ_DUPLICATES": "0",
+        "READ_PAIR_DUPLICATES": "1",
+        "READ_PAIR_OPTICAL_DUPLICATES": "0",
+        "PERCENT_DUPLICATION": "0.5",
+        "ESTIMATED_LIBRARY_SIZE": "1"
+      },
+      "duplicate_flags": [
+        [
+          "INST:1:FLOW:1:1101:32760:36800",
+          1123
+        ],
+        [
+          "INST:1:FLOW:1:1101:32770:36800",
+          99
+        ],
+        [
+          "INST:1:FLOW:1:1101:32760:36800",
+          1171
+        ],
+        [
+          "INST:1:FLOW:1:1101:32770:36800",
+          147
+        ]
+      ],
+      "bam_sha256": "572d2b16309c661f34c4c3ea5f988f462a948806478b0987720c0d5cfb88b7eb"
+    }
+  },
+  "same_duplicate_flags": true,
+  "fixture_sha256": "17b4147daa0e031c82bddfd0b7a4048a02bfef9c8e346c2213194f94d5ddb4fd",
+  "expected_optical_pairs": 1,
+  "scope": "Two duplicate pairs ten pixels apart straddling32767; actual default optical distance100; actual tool binaries"
+}

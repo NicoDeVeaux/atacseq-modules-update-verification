@@ -1,0 +1,4 @@
+task_id	hash	native_id	name	status	exit	submit	duration	realtime	%cpu	peak_rss	peak_vmem	rchar	wchar
+1	fc/e4ea6a	30837	PRESEQ_LCEXTRAP (library)	FAILED	42	2026-10-29 10:27:43.314	168ms	79ms	-	-	-	-	-
+2	f8/5bd6be	30855	PRESEQ_LCEXTRAP (library)	FAILED	43	2026-10-29 10:27:43.501	146ms	71ms	-	-	-	-	-
+3	d3/273a79	30878	PRESEQ_LCEXTRAP (library)	FAILED	43	2026-10-29 10:27:43.654	155ms	61ms	-	-	-	-	-

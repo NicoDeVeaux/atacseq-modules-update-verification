@@ -1,0 +1,94 @@
+{
+  "schema": "nf-verify/gffread-0129-nftest/v1",
+  "nf_test": "0.9.5",
+  "nextflow": "26.04.6",
+  "java": "21.0.8-tem",
+  "upstream_module_source": "c9ad4d691aa339e478a77847e3ef854ccd21778b",
+  "upstream_helper": "nft-utils@0.0.9",
+  "source_worktree_head": "60412205bb13c13ef1434cc5f5cbd9403d7eace6",
+  "container": "quay.io/biocontainers/gffread:0.12.9--hf426362_0",
+  "source_changes_in_isolated_copy": [
+    "GFFREAD image/Singularity build pin0.12.7\u21920.12.9",
+    "GFFREAD environment dependency0.12.7\u21920.12.9"
+  ],
+  "test_script_changed": false,
+  "historical_crash_inputs_used": false,
+  "canonical_source_modified": false,
+  "artifact_hashes": [
+    {
+      "path": "module/main.nf",
+      "sha256": "8eba1f12171fa5d5bef67dc4d947630eb90a980823f11bbca9b7893eac35e9a8",
+      "bytes": 2466
+    },
+    {
+      "path": "module/environment.yml",
+      "sha256": "2683dc682c82caf86fa8fd98032e9a350f8a45f4368dd8c6c5906ab5c2c4a7d3",
+      "bytes": 207
+    },
+    {
+      "path": "module/tests/main.nf.test",
+      "sha256": "0f0fd8a1e9124c2b78251be17b5087502c45d8b41c3441c46fa18e4fe74a4bbe",
+      "bytes": 7106
+    },
+    {
+      "path": "original.snap",
+      "sha256": "f4e233725a09a54f9736fce43eeed48465f93492a71984d87509fc918d0514a1",
+      "bytes": 10275
+    },
+    {
+      "path": "candidate/main.nf.test.snap",
+      "sha256": "a897dc0caf601a32b270222e5d2267fafadf6d717732abd1a95b3e12e6803604",
+      "bytes": 11091
+    },
+    {
+      "path": "nf-test.config",
+      "sha256": "8c768878f6a55fe62949b2c2c9c0bd471c7f27ac3820a818945552a663c58593",
+      "bytes": 148
+    },
+    {
+      "path": "nextflow.config",
+      "sha256": "32dd5734077fe83491bd1775ed3c499955f4779885619290d6637d5e5153f1c0",
+      "bytes": 253
+    },
+    {
+      "path": "bin/nextflow",
+      "sha256": "052264c8feee31df71802354c32706dd61f009f2ec6e8484f918894e784bf418",
+      "bytes": 1034
+    },
+    {
+      "path": "bin/nf-test.jar",
+      "sha256": "39516b1e7cc1eb4603001e2a6cbb6370b483f9a918db51dfb58a93608eca5602",
+      "bytes": 18736932
+    },
+    {
+      "path": "input-provenance.json",
+      "sha256": "d73c34a34db043e726834753021e7698853c8171b509fec7841ea7f80dd53d0f",
+      "bytes": 1860
+    },
+    {
+      "path": "pre-update-review.json",
+      "sha256": "bd732b2a6057ee7c50c28d819d2d04c5098c83b4074234c401deebfb2bc1e461",
+      "bytes": 2266
+    },
+    {
+      "path": "post-update-review.json",
+      "sha256": "03f2617504010791abda0c9bdb80c06dcd9bbd036706b6b5d83f0d6d9e42511a",
+      "bytes": 1784
+    },
+    {
+      "path": "snapshot.diff",
+      "sha256": "c7e7c509478e309ebb6b5c86cca48f1e412a86bce59f5b80f0c05b6f81cecbe7",
+      "bytes": 15272
+    },
+    {
+      "path": "upstream-module-nf-test.config",
+      "sha256": "88e8f6fb81b9a549c83c6f0a9b1542ec91310c7b6ff335f2512c1472a92f85e9",
+      "bytes": 686
+    },
+    {
+      "path": ".nf-test/plugins/nft-utils/0.0.9/nft-utils-0.0.9.jar",
+      "sha256": "04eea8fb0295a924554d471092775e48bc999ce8240f77867354b6880a13da0f",
+      "bytes": 369154
+    }
+  ]
+}

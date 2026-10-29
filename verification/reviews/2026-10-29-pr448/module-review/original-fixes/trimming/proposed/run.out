@@ -1,0 +1,5 @@
+Nextflow 26.10.4 is available - Please consider updating your version to it
+N E X T F L O W  ~  version 26.04.6
+Launching `main.nf` [dreamy_almeida] - revision: 5eb92aa56c
+[3e/5afc17] Submitted process > TRIMGALORE (poly)
+[[id:poly, single_end:false], [${VALIDATION_ROOT}/trimming/proposed/work/3e/5afc179bf25291508a8fb8d72ddead/poly_1_val_1.fq.gz, ${VALIDATION_ROOT}/trimming/proposed/work/3e/5afc179bf25291508a8fb8d72ddead/poly_2_val_2.fq.gz]]

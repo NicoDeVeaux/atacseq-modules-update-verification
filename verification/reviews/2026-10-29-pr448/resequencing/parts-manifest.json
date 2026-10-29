@@ -1,0 +1,66 @@
+{
+  "schema": "pr448-reseq-distribution/v1",
+  "archive_name": "pr448-resequencing-control.tar.gz",
+  "archive_bytes": 431843357,
+  "archive_sha256": "03a1b1268bbf3b499afe07f514e13e940afaa3694c9354b126846bd7147af53f",
+  "archive_prefix": "pr448-resequencing-control",
+  "part_size_limit_bytes": 45088768,
+  "parts": [
+    {
+      "path": "parts/pr448-resequencing-control.tar.gz.part-0001",
+      "bytes": 45088768,
+      "sha256": "69f65be54ff801db4f999eea249792873b8295e0481340824955896ca64c3520"
+    },
+    {
+      "path": "parts/pr448-resequencing-control.tar.gz.part-0002",
+      "bytes": 45088768,
+      "sha256": "99ae5799c0d206b90a1d9af2890936ba2208ebafc19998bbe58b07e8120382c6"
+    },
+    {
+      "path": "parts/pr448-resequencing-control.tar.gz.part-0003",
+      "bytes": 45088768,
+      "sha256": "2101bc5f5a94d7f50fc4e49af79878f179a7313b506331247108eaa285bb9d60"
+    },
+    {
+      "path": "parts/pr448-resequencing-control.tar.gz.part-0004",
+      "bytes": 45088768,
+      "sha256": "4a9cbe4901447cdc2bb6a39ae3b0064bd4101343bca8a94f45981590432c711f"
+    },
+    {
+      "path": "parts/pr448-resequencing-control.tar.gz.part-0005",
+      "bytes": 45088768,
+      "sha256": "de4648a80ca3493c26911ebe7b50de0ae53242cae0d6d22fa247b385ff983741"
+    },
+    {
+      "path": "parts/pr448-resequencing-control.tar.gz.part-0006",
+      "bytes": 45088768,
+      "sha256": "8e3da90af8dc879f43bea82f7a41904dd82ae1bbecaf4cd6a63865f0a9596053"
+    },
+    {
+      "path": "parts/pr448-resequencing-control.tar.gz.part-0007",
+      "bytes": 45088768,
+      "sha256": "7b5150bbee464fde78b2dab5854fb236f8f6a56ad6e5efd09892113be3515922"
+    },
+    {
+      "path": "parts/pr448-resequencing-control.tar.gz.part-0008",
+      "bytes": 45088768,
+      "sha256": "e077a1dd00aca0dfb492e0aae2bff2ee6737339872481443ac0545661cef78d5"
+    },
+    {
+      "path": "parts/pr448-resequencing-control.tar.gz.part-0009",
+      "bytes": 45088768,
+      "sha256": "acb621831f0f0528a665d48a3993be9a48347bca0fd7cd4190b03b161cc988f9"
+    },
+    {
+      "path": "parts/pr448-resequencing-control.tar.gz.part-0010",
+      "bytes": 26044445,
+      "sha256": "a8d1861b9f489ef3af2064ebadd921b5cbe3b40815fb1cf36306da7a0da6c986"
+    }
+  ],
+  "member_index": "archive-members.jsonl",
+  "member_index_sha256": "7334e2dbedf125eaac1834702ce3158b999ac85e3c8a65546b600af83dbc289b",
+  "source_files": 4565,
+  "total_members": 5705,
+  "source_ARTIFACTS_sha256": "65bbe55339efacb56e17ec110a950f7c471dac9d3426222459fe5600a65e391a",
+  "unsharded_archive_publish": false
+}

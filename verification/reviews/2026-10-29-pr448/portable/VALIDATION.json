@@ -1,0 +1,71 @@
+{
+  "scope": "Staging validation only; no scientific/cloud runs or full FASTQ downloads",
+  "static_validate": {
+    "source_archives": 2,
+    "patches_applicable": 2,
+    "scientific_parameter_cases": 4,
+    "public_fastqs": 8,
+    "total_input_pairs": 87089251
+  },
+  "unit_tests": {
+    "passed": 7
+  },
+  "nextflow_config_validation": {
+    "bwa-unfixed": {
+      "exit_code": 0,
+      "executor_local": true,
+      "docker_enabled": true,
+      "remote_custom_configs_disabled": true,
+      "scientific_runs_launched": false
+    },
+    "bwa-fixed": {
+      "exit_code": 0,
+      "executor_local": true,
+      "docker_enabled": true,
+      "remote_custom_configs_disabled": true,
+      "scientific_runs_launched": false
+    },
+    "chromap-unfixed": {
+      "exit_code": 0,
+      "executor_local": true,
+      "docker_enabled": true,
+      "remote_custom_configs_disabled": true,
+      "scientific_runs_launched": false
+    },
+    "chromap-fixed": {
+      "exit_code": 0,
+      "executor_local": true,
+      "docker_enabled": true,
+      "remote_custom_configs_disabled": true,
+      "scientific_runs_launched": false
+    }
+  },
+  "historical_count_reproduction": {
+    "old_dev_vs_new_fixed": "equal coordinates and counts, 74895 regions x 4 libraries = 299580 cells",
+    "old_PR448_vs_new_unfixed": "equal coordinates and counts",
+    "old_dev_vs_new_unfixed": {
+      "changed_shared_cells": 6982,
+      "only_old_dev": 5299,
+      "only_new_unfixed": 5339
+    }
+  },
+  "public_scan": {
+    "findings": 0,
+    "checks": "Known personal path, internal bucket/workspace/compute environment identifiers, presigned signature and bearer-token literals"
+  },
+  "limits": [
+    "Four original cloud arms are separate recorded observations; new executor runs have their own receipts.",
+    "Public artifacts verify their public bytes, not private launch provenance.",
+    "FASTA/GTF/index content hashes and resolved historical task-container digests are not available."
+  ],
+  "attempt_preservation_test": "Real temporary filesystem, mocked external Nextflow boundary only: failed attempt refused without resume; explicit resume preserves stdout/receipt/trace/report/timeline/logs/params/config/history and leaves other arms unchanged.",
+  "final_observed_metadata": {
+    "state": "FINAL",
+    "successful_arms": 4,
+    "recorded_original_artifacts": 324,
+    "input_pairs_in_every_arm": 87089251,
+    "software_version_artifacts": 4,
+    "private_provenance_scope": "Not claimed runnable on public-only sanitized records",
+    "refresh_scope": "Metadata only; prior seven tests/four config parses retained; public byte and sanitization checks repeated"
+  }
+}

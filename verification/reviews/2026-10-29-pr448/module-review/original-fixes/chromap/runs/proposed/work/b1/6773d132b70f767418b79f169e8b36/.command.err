@@ -1,0 +1,9 @@
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+/opt/conda/bin/picard: line 5: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8): No such file or directory
+20:04:51.180 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/opt/conda/share/picard-3.4.0-0/picard.jar!/com/intel/gkl/native/libgkl_compression.so
+[Wed Oct 28 20:04:51 GMT 2026] AddOrReplaceReadGroups --INPUT rep2_lane1.bam --OUTPUT SAMPLE_A_REP2_T1.Lb.rg.bam --RGID SAMPLE_A_REP2_T1 --RGLB SAMPLE_A_REP2 --RGPL ILLUMINA --RGPU 1 --RGSM SAMPLE_A_REP2 --RGCN Test Centre --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 5 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+[Wed Oct 28 20:04:51 GMT 2026] Executing as root@edce3c597b0b on Linux 6.8.0-117-generic amd64; OpenJDK 64-Bit Server VM 23.0.2-internal-adhoc.conda.src; Deflater: Intel; Inflater: Intel; Provider GCS is available; Picard version: Version:3.4.0
+INFO	2026-10-28 20:04:51	AddOrReplaceReadGroups	Created read-group ID=SAMPLE_A_REP2_T1 PL=ILLUMINA LB=SAMPLE_A_REP2 SM=SAMPLE_A_REP2
+
+[Wed Oct 28 20:04:52 GMT 2026] picard.sam.AddOrReplaceReadGroups done. Elapsed time: 0.02 minutes.
+Runtime.totalMemory()=16252928

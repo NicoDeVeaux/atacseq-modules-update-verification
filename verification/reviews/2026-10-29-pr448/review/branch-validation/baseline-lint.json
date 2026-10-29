@@ -1,0 +1,135 @@
+{
+    "nf_core_tools_version": "4.1.0",
+    "date_run": "2026-10-29 10:41:31",
+    "tests_pass": [
+        [
+            "files_unchanged",
+            "`.gitattributes` matches the template"
+        ],
+        [
+            "files_unchanged",
+            "`.prettierrc.yml` matches the template"
+        ],
+        [
+            "files_unchanged",
+            "`CODE_OF_CONDUCT.md` matches the template"
+        ],
+        [
+            "files_unchanged",
+            "`LICENSE` matches the template"
+        ],
+        [
+            "files_unchanged",
+            "`.github/.dockstore.yml` matches the template"
+        ],
+        [
+            "files_unchanged",
+            "`.github/ISSUE_TEMPLATE/bug_report.yml` matches the template"
+        ],
+        [
+            "files_unchanged",
+            "`.github/ISSUE_TEMPLATE/config.yml` matches the template"
+        ],
+        [
+            "files_unchanged",
+            "`.github/ISSUE_TEMPLATE/feature_request.yml` matches the template"
+        ],
+        [
+            "files_unchanged",
+            "`.github/workflows/pr-comment.yml` matches the template"
+        ],
+        [
+            "files_unchanged",
+            "`assets/email_template.html` matches the template"
+        ],
+        [
+            "files_unchanged",
+            "`assets/email_template.txt` matches the template"
+        ],
+        [
+            "files_unchanged",
+            "`assets/sendmail_template.txt` matches the template"
+        ],
+        [
+            "files_unchanged",
+            "`docs/images/nf-core-atacseq_logo_dark.png` matches the template"
+        ],
+        [
+            "files_unchanged",
+            "`docs/README.md` matches the template"
+        ]
+    ],
+    "tests_ignored": [
+        [
+            "files_unchanged",
+            "File ignored due to lint config: `.gitignore` or `.prettierignore`"
+        ]
+    ],
+    "tests_fixed": [],
+    "tests_warned": [],
+    "tests_failed": [
+        [
+            "files_unchanged",
+            "`.github/PULL_REQUEST_TEMPLATE.md` does not match the template"
+        ],
+        [
+            "files_unchanged",
+            "`.github/workflows/branch.yml` does not match the template"
+        ],
+        [
+            "files_unchanged",
+            "`.github/workflows/linting.yml` does not match the template"
+        ],
+        [
+            "files_unchanged",
+            "`assets/nf-core-atacseq_logo_light.png` does not match the template"
+        ],
+        [
+            "files_unchanged",
+            "`docs/images/nf-core-atacseq_logo_light.png` does not match the template"
+        ],
+        [
+            "container_configs",
+            "`conf/containers_conda_lock_files_amd64.config` is out of date \u2013 please regenerate the container configuration files."
+        ],
+        [
+            "container_configs",
+            "`conf/containers_conda_lock_files_arm64.config` is out of date \u2013 please regenerate the container configuration files."
+        ],
+        [
+            "container_configs",
+            "`conf/containers_docker_amd64.config` is out of date \u2013 please regenerate the container configuration files."
+        ],
+        [
+            "container_configs",
+            "`conf/containers_docker_arm64.config` is out of date \u2013 please regenerate the container configuration files."
+        ],
+        [
+            "container_configs",
+            "`conf/containers_singularity_https_amd64.config` is out of date \u2013 please regenerate the container configuration files."
+        ],
+        [
+            "container_configs",
+            "`conf/containers_singularity_https_arm64.config` is out of date \u2013 please regenerate the container configuration files."
+        ],
+        [
+            "container_configs",
+            "`conf/containers_singularity_oras_amd64.config` is out of date \u2013 please regenerate the container configuration files."
+        ],
+        [
+            "container_configs",
+            "`conf/containers_singularity_oras_arm64.config` is out of date \u2013 please regenerate the container configuration files."
+        ]
+    ],
+    "num_tests_pass": 14,
+    "num_tests_ignored": 1,
+    "num_tests_fixed": 0,
+    "num_tests_warned": 0,
+    "num_tests_failed": 13,
+    "has_tests_pass": true,
+    "has_tests_ignored": true,
+    "has_tests_fixed": false,
+    "has_tests_warned": false,
+    "has_tests_failed": true,
+    "markdown_result": "## `nf-core pipelines lint` overall result: Failed :x:\n\nPosted for pipeline commit a9b5882\n\n```diff\n+| \u2705  14 tests passed       |+\n#| \u2754   1 tests were ignored |#\n-| \u274c  13 tests failed       |-\n```\n\n<details>\n\n### :x: Test failures:\n\n* [files_unchanged](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/files_unchanged) - `.github/PULL_REQUEST_TEMPLATE.md` does not match the template\n* [files_unchanged](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/files_unchanged) - `.github/workflows/branch.yml` does not match the template\n* [files_unchanged](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/files_unchanged) - `.github/workflows/linting.yml` does not match the template\n* [files_unchanged](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/files_unchanged) - `assets/nf-core-atacseq_logo_light.png` does not match the template\n* [files_unchanged](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/files_unchanged) - `docs/images/nf-core-atacseq_logo_light.png` does not match the template\n* [container_configs](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/container_configs) - `conf/containers_conda_lock_files_amd64.config` is out of date \u2013 please regenerate the container configuration files.\n* [container_configs](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/container_configs) - `conf/containers_conda_lock_files_arm64.config` is out of date \u2013 please regenerate the container configuration files.\n* [container_configs](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/container_configs) - `conf/containers_docker_amd64.config` is out of date \u2013 please regenerate the container configuration files.\n* [container_configs](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/container_configs) - `conf/containers_docker_arm64.config` is out of date \u2013 please regenerate the container configuration files.\n* [container_configs](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/container_configs) - `conf/containers_singularity_https_amd64.config` is out of date \u2013 please regenerate the container configuration files.\n* [container_configs](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/container_configs) - `conf/containers_singularity_https_arm64.config` is out of date \u2013 please regenerate the container configuration files.\n* [container_configs](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/container_configs) - `conf/containers_singularity_oras_amd64.config` is out of date \u2013 please regenerate the container configuration files.\n* [container_configs](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/container_configs) - `conf/containers_singularity_oras_arm64.config` is out of date \u2013 please regenerate the container configuration files.\n\n### :grey_question: Tests ignored:\n\n* [files_unchanged](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/files_unchanged) - File ignored due to lint config: `.gitignore` or `.prettierignore`\n\n### :white_check_mark: Tests passed:\n\n* [files_unchanged](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/files_unchanged) - `.gitattributes` matches the template\n* [files_unchanged](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/files_unchanged) - `.prettierrc.yml` matches the template\n* [files_unchanged](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/files_unchanged) - `CODE_OF_CONDUCT.md` matches the template\n* [files_unchanged](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/files_unchanged) - `LICENSE` matches the template\n* [files_unchanged](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/files_unchanged) - `.github/.dockstore.yml` matches the template\n* [files_unchanged](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/files_unchanged) - `.github/ISSUE_TEMPLATE/bug_report.yml` matches the template\n* [files_unchanged](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/files_unchanged) - `.github/ISSUE_TEMPLATE/config.yml` matches the template\n* [files_unchanged](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/files_unchanged) - `.github/ISSUE_TEMPLATE/feature_request.yml` matches the template\n* [files_unchanged](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/files_unchanged) - `.github/workflows/pr-comment.yml` matches the template\n* [files_unchanged](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/files_unchanged) - `assets/email_template.html` matches the template\n* [files_unchanged](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/files_unchanged) - `assets/email_template.txt` matches the template\n* [files_unchanged](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/files_unchanged) - `assets/sendmail_template.txt` matches the template\n* [files_unchanged](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/files_unchanged) - `docs/images/nf-core-atacseq_logo_dark.png` matches the template\n* [files_unchanged](https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/files_unchanged) - `docs/README.md` matches the template\n\n### Run details\n\n* nf-core/tools version 4.1.0\n* Run at `2026-10-29 10:41:31`\n\n</details>\n"
+}

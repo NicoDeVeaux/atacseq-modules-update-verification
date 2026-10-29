@@ -1,0 +1,100 @@
+{
+  "archives": [
+    {
+      "case": "pr448-hiv-bwa-fixed-a9b588",
+      "compressed_bytes": 63448995,
+      "filename": "pr448-hiv-bwa-fixed-a9b588-scientific-text-and-execution.tar.gz",
+      "member_count": 1381,
+      "sha256": "fc5cfd2e1448493535f5748f5d19c5ad9ec2c5810e026aacf2cada7a73ae0b0d",
+      "parts": [
+        {
+          "path": "hiv/execution/pr448-hiv-bwa-fixed-a9b588-scientific-text-and-execution.tar.gz.part-0001",
+          "bytes": 45088768,
+          "sha256": "27d9e6ecff0a5ed6dbab5e1b3d8376c6b1609f90dc7edf3e0a82af18d22d34a7",
+          "original_sha256": null,
+          "transformed": false
+        },
+        {
+          "path": "hiv/execution/pr448-hiv-bwa-fixed-a9b588-scientific-text-and-execution.tar.gz.part-0002",
+          "bytes": 18360227,
+          "sha256": "203c9804d6ed342e6d46c583a2a8c3a6d9b46fb819e750699f3ee97157ada5a1",
+          "original_sha256": null,
+          "transformed": false
+        }
+      ],
+      "member_manifest": "hiv/execution/pr448-hiv-bwa-fixed-a9b588-scientific-text-and-execution.tar.gz.members.json"
+    },
+    {
+      "case": "pr448-hiv-bwa-unfixed-a9b588",
+      "compressed_bytes": 63540996,
+      "filename": "pr448-hiv-bwa-unfixed-a9b588-scientific-text-and-execution.tar.gz",
+      "member_count": 1381,
+      "sha256": "8c3a79c6eb4f1e319929319fbd318c00b1489899cd3864f462259c5b1b82135c",
+      "parts": [
+        {
+          "path": "hiv/execution/pr448-hiv-bwa-unfixed-a9b588-scientific-text-and-execution.tar.gz.part-0001",
+          "bytes": 45088768,
+          "sha256": "6497b6394601ab50ce56064fa617dd70273340c699b16f7390cae6471d985a3c",
+          "original_sha256": null,
+          "transformed": false
+        },
+        {
+          "path": "hiv/execution/pr448-hiv-bwa-unfixed-a9b588-scientific-text-and-execution.tar.gz.part-0002",
+          "bytes": 18452228,
+          "sha256": "5c95fcc45072795e96591f9b249a225e7bba4e8d2144e2a073114b4ff8786263",
+          "original_sha256": null,
+          "transformed": false
+        }
+      ],
+      "member_manifest": "hiv/execution/pr448-hiv-bwa-unfixed-a9b588-scientific-text-and-execution.tar.gz.members.json"
+    },
+    {
+      "case": "pr448-hiv-chromap-fixed-a9b588",
+      "compressed_bytes": 62335080,
+      "filename": "pr448-hiv-chromap-fixed-a9b588-scientific-text-and-execution.tar.gz",
+      "member_count": 1413,
+      "sha256": "f55f0504dbe9bc2e46f6688718548a0d27a8c0495c15a891c552ee2cac835091",
+      "parts": [
+        {
+          "path": "hiv/execution/pr448-hiv-chromap-fixed-a9b588-scientific-text-and-execution.tar.gz.part-0001",
+          "bytes": 45088768,
+          "sha256": "bf80fa229d588a8116ea97857041b54828873199740143d3142d1eee330836d4",
+          "original_sha256": null,
+          "transformed": false
+        },
+        {
+          "path": "hiv/execution/pr448-hiv-chromap-fixed-a9b588-scientific-text-and-execution.tar.gz.part-0002",
+          "bytes": 17246312,
+          "sha256": "4de5b9b18ccf346e75f78b415568c226a190d4560f617c4c4583e3353b4ef1d4",
+          "original_sha256": null,
+          "transformed": false
+        }
+      ],
+      "member_manifest": "hiv/execution/pr448-hiv-chromap-fixed-a9b588-scientific-text-and-execution.tar.gz.members.json"
+    },
+    {
+      "case": "pr448-hiv-chromap-unfixed-a9b588",
+      "compressed_bytes": 62446778,
+      "filename": "pr448-hiv-chromap-unfixed-a9b588-scientific-text-and-execution.tar.gz",
+      "member_count": 1413,
+      "sha256": "9660eb6c76147487311f83e32b3432881b697a24e0ea127722bbb7a49b8934d0",
+      "parts": [
+        {
+          "path": "hiv/execution/pr448-hiv-chromap-unfixed-a9b588-scientific-text-and-execution.tar.gz.part-0001",
+          "bytes": 45088768,
+          "sha256": "789fdcb17a201aafcf184be729ab25e471e6d5a0054c70b675b5ad221384e68e",
+          "original_sha256": null,
+          "transformed": false
+        },
+        {
+          "path": "hiv/execution/pr448-hiv-chromap-unfixed-a9b588-scientific-text-and-execution.tar.gz.part-0002",
+          "bytes": 17358010,
+          "sha256": "b41cf56b9ce60ed4029efd44274e2ec5c8316db6dbb2c8535594613d799e9e1b",
+          "original_sha256": null,
+          "transformed": false
+        }
+      ],
+      "member_manifest": "hiv/execution/pr448-hiv-chromap-unfixed-a9b588-scientific-text-and-execution.tar.gz.members.json"
+    }
+  ]
+}

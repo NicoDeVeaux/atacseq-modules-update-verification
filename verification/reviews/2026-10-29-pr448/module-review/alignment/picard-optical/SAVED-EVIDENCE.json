@@ -1,0 +1,57 @@
+{
+  "scope": "Completed local module audit; no new scientific execution or publication",
+  "files": {
+    "boundary.sam": {
+      "bytes": 823,
+      "sha256": "17b4147daa0e031c82bddfd0b7a4048a02bfef9c8e346c2213194f94d5ddb4fd"
+    },
+    "pre448/marked.bam": {
+      "bytes": 955,
+      "sha256": "5730ed6f0f743b92c1c94f452d72d21e2af331e8fad04450bd14099b05286324"
+    },
+    "pre448/marked.sam": {
+      "bytes": 807,
+      "sha256": "a7e528585263a681b3df5c8c977f596f0b8f930e3b79bad64246ec814fd4ab83"
+    },
+    "pre448/metrics.txt": {
+      "bytes": 2894,
+      "sha256": "0685a6e21beaf73555d77e0bded77606d0238caa52ad4d5a7b2f318f069e9b66"
+    },
+    "pre448/stderr.txt": {
+      "bytes": 3593,
+      "sha256": "c32988f993a560ad7b1520efd97d1e2cca2f06ff4492ab0eb8185e1e39e149e2"
+    },
+    "pre448/stdout.txt": {
+      "bytes": 2339,
+      "sha256": "396a6085dcac342d1e10eaed6b8bec55453ae4e7977d37906c8477795ef4b3d0"
+    },
+    "result.json": {
+      "bytes": 2193,
+      "sha256": "19d745ba759152456b1ff4320d9533190452cdf6ea61c0e0b5fa0b4750157e33"
+    },
+    "run.py": {
+      "bytes": 2981,
+      "sha256": "84607468e51c9f720facbdf92a44513b9687f5752c1d5ce172a0b2369a36770e"
+    },
+    "selected/marked.bam": {
+      "bytes": 970,
+      "sha256": "572d2b16309c661f34c4c3ea5f988f462a948806478b0987720c0d5cfb88b7eb"
+    },
+    "selected/marked.sam": {
+      "bytes": 807,
+      "sha256": "a7e528585263a681b3df5c8c977f596f0b8f930e3b79bad64246ec814fd4ab83"
+    },
+    "selected/metrics.txt": {
+      "bytes": 2963,
+      "sha256": "630fe56d53750974749d0acf85d94fba0341854c3335657ac7d2c3a2747387fd"
+    },
+    "selected/stderr.txt": {
+      "bytes": 3634,
+      "sha256": "6fc96dc925eb4c81e0a4a3dbe926a5e9834edcf33f6fea2ecdbe425ef7842bf8"
+    },
+    "selected/stdout.txt": {
+      "bytes": 2339,
+      "sha256": "801736d1bf980fe7163005aca5b3e8214a6ef60543bca4d3609c7707c2a8b373"
+    }
+  }
+}

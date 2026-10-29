@@ -1,0 +1,149 @@
+{
+  "scope": "Normal-Git publication candidate only; no remote publication performed",
+  "publish_files": [
+    {
+      "path": "README.md",
+      "bytes": 3745,
+      "sha256": "9d4fb308b36b4ee9c97d77f725df7ab8017bb6d0ee3c5642a33b605ad818ebda"
+    },
+    {
+      "path": "PUBLICATION-PLAN.md",
+      "bytes": 1423,
+      "sha256": "0c0de807b0fde2a21e064ed95e9390dceee096bf1a841c9185c4bcf191cb8953"
+    },
+    {
+      "path": "parts-manifest.json",
+      "bytes": 2523,
+      "sha256": "94c80f38bb06015d794642909f81458d54912e7e6bc142a51899fd7d35e47cf3"
+    },
+    {
+      "path": "archive-members.jsonl",
+      "bytes": 2037649,
+      "sha256": "7334e2dbedf125eaac1834702ce3158b999ac85e3c8a65546b600af83dbc289b"
+    },
+    {
+      "path": "verify_parts.py",
+      "bytes": 5899,
+      "sha256": "165f409d10499c604c93fb9ecfaab40a6134d80dc65039cae0507275e548c4bc"
+    },
+    {
+      "path": "distribution.json",
+      "bytes": 1419,
+      "sha256": "2366aded1dddcb3c91bff9ac7e9345e1e273a3b553b983fb2ae2807b0f6d0a1b"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 540,
+      "sha256": "4a53f7a58178a882c15404068fa16716aedb4962a013f87bad81f8cd09a4fb02"
+    },
+    {
+      "path": "SHA256SUMS",
+      "bytes": 1160,
+      "sha256": "7afe824e5550dc57ae462a9f5b8046129e8104f1106e9544e2d2069a9dc10d48"
+    },
+    {
+      "path": "SOURCE-PACKAGE-ARTIFACTS.sha256",
+      "bytes": 109,
+      "sha256": "6377f1ffdfcb2b2ad7f74e0e53bce7fa6b6491e414d806eab35f0b1758fcd99f"
+    },
+    {
+      "path": "loose-review-files.json",
+      "bytes": 1836,
+      "sha256": "77389a848b8ecd1d03663093777f6ee483fc46428a7cda2d79fd0773cdd42e94"
+    },
+    {
+      "path": "parts/pr448-resequencing-control.tar.gz.part-0001",
+      "bytes": 45088768,
+      "sha256": "69f65be54ff801db4f999eea249792873b8295e0481340824955896ca64c3520"
+    },
+    {
+      "path": "parts/pr448-resequencing-control.tar.gz.part-0002",
+      "bytes": 45088768,
+      "sha256": "99ae5799c0d206b90a1d9af2890936ba2208ebafc19998bbe58b07e8120382c6"
+    },
+    {
+      "path": "parts/pr448-resequencing-control.tar.gz.part-0003",
+      "bytes": 45088768,
+      "sha256": "2101bc5f5a94d7f50fc4e49af79878f179a7313b506331247108eaa285bb9d60"
+    },
+    {
+      "path": "parts/pr448-resequencing-control.tar.gz.part-0004",
+      "bytes": 45088768,
+      "sha256": "4a9cbe4901447cdc2bb6a39ae3b0064bd4101343bca8a94f45981590432c711f"
+    },
+    {
+      "path": "parts/pr448-resequencing-control.tar.gz.part-0005",
+      "bytes": 45088768,
+      "sha256": "de4648a80ca3493c26911ebe7b50de0ae53242cae0d6d22fa247b385ff983741"
+    },
+    {
+      "path": "parts/pr448-resequencing-control.tar.gz.part-0006",
+      "bytes": 45088768,
+      "sha256": "8e3da90af8dc879f43bea82f7a41904dd82ae1bbecaf4cd6a63865f0a9596053"
+    },
+    {
+      "path": "parts/pr448-resequencing-control.tar.gz.part-0007",
+      "bytes": 45088768,
+      "sha256": "7b5150bbee464fde78b2dab5854fb236f8f6a56ad6e5efd09892113be3515922"
+    },
+    {
+      "path": "parts/pr448-resequencing-control.tar.gz.part-0008",
+      "bytes": 45088768,
+      "sha256": "e077a1dd00aca0dfb492e0aae2bff2ee6737339872481443ac0545661cef78d5"
+    },
+    {
+      "path": "parts/pr448-resequencing-control.tar.gz.part-0009",
+      "bytes": 45088768,
+      "sha256": "acb621831f0f0528a665d48a3993be9a48347bca0fd7cd4190b03b161cc988f9"
+    },
+    {
+      "path": "parts/pr448-resequencing-control.tar.gz.part-0010",
+      "bytes": 26044445,
+      "sha256": "a8d1861b9f489ef3af2064ebadd921b5cbe3b40815fb1cf36306da7a0da6c986"
+    },
+    {
+      "path": "reports/CORE-COMPARISON.md",
+      "bytes": 11701,
+      "sha256": "33cd29cf1f32f8f713a9887d20a756e8bdf4799a088b858a9e3723438f733d91"
+    },
+    {
+      "path": "reports/RESEQUENCING-REPORT.md",
+      "bytes": 4909,
+      "sha256": "ab2013f33dfc995d14f4979fba49c0102983f377270f22dd02039dcdcdc26f4c"
+    },
+    {
+      "path": "reports/RESIDUAL-ONE-COUNT.md",
+      "bytes": 2336,
+      "sha256": "da33612cacec9b9d69375793bac0855d1ef99ec11f64a6272fe7ef2224fbfe48"
+    },
+    {
+      "path": "review/core-completion-check.json",
+      "bytes": 12838,
+      "sha256": "ac346e6fc733bb18fcd3e66774b8f94dfe2e85bb999cc95df9a51ef38d14b0e2"
+    },
+    {
+      "path": "review/fixed-core-params.json",
+      "bytes": 923,
+      "sha256": "1a96fcaffaf4df357f475208cd69eb9b3f8c67dce41cc0a26cc9126d13dd8e5f"
+    },
+    {
+      "path": "review/selected-inputs.json",
+      "bytes": 8780,
+      "sha256": "18a896e47e42e151312d6393457c0191d71cce3aed7220df644aa044aa013bd8"
+    },
+    {
+      "path": "review/source-pins.json",
+      "bytes": 1118,
+      "sha256": "d7b04be65334ef76726286a34742cb56ba4d0d73a3f9ee2b63d4fd58fe90fef0"
+    }
+  ],
+  "also_include_this_publication_manifest": "publish-files.json",
+  "excluded_staging_files": [
+    "build_distribution.py",
+    "pr448-resequencing-control.tar.gz"
+  ],
+  "full_content_storage": "ten ordered actual-byte archive parts; no LFS/release pointer required",
+  "regular_publication_files_including_this_manifest": 28,
+  "archive_parts": 10,
+  "unsharded_archive_staging_only": true
+}

@@ -1,0 +1,125 @@
+{
+  "sha": "6cde47a1dc4c00b3e3a61fe6f7bcfbb0067bec89",
+  "node_id": "C_kwDODPXM3NoAKDZjZGU0N2ExZGM0YzAwYjNlM2E2MWZlNmY3YmNmYmIwMDY3YmVjODk",
+  "commit": {
+    "author": {
+      "name": "mourisl",
+      "email": "mourisl@hotmail.com",
+      "date": "2025-07-17T05:38:01Z"
+    },
+    "committer": {
+      "name": "Li Song",
+      "email": "mourisl@users.noreply.github.com",
+      "date": "2025-07-20T23:54:37Z"
+    },
+    "message": "Fix a serious issue of generating best paired mapping results, especially when the pair read length differs a lot",
+    "tree": {
+      "sha": "4957b886e6f3911dfb4d98879386d0dbd554675c",
+      "url": "https://api.github.com/repos/haowenz/chromap/git/trees/4957b886e6f3911dfb4d98879386d0dbd554675c"
+    },
+    "url": "https://api.github.com/repos/haowenz/chromap/git/commits/6cde47a1dc4c00b3e3a61fe6f7bcfbb0067bec89",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/haowenz/chromap/commits/6cde47a1dc4c00b3e3a61fe6f7bcfbb0067bec89",
+  "html_url": "https://github.com/haowenz/chromap/commit/6cde47a1dc4c00b3e3a61fe6f7bcfbb0067bec89",
+  "comments_url": "https://api.github.com/repos/haowenz/chromap/commits/6cde47a1dc4c00b3e3a61fe6f7bcfbb0067bec89/comments",
+  "author": {
+    "login": "mourisl",
+    "id": 1904147,
+    "node_id": "MDQ6VXNlcjE5MDQxNDc=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1904147?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/mourisl",
+    "html_url": "https://github.com/mourisl",
+    "followers_url": "https://api.github.com/users/mourisl/followers",
+    "following_url": "https://api.github.com/users/mourisl/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mourisl/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/mourisl/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/mourisl/subscriptions",
+    "organizations_url": "https://api.github.com/users/mourisl/orgs",
+    "repos_url": "https://api.github.com/users/mourisl/repos",
+    "events_url": "https://api.github.com/users/mourisl/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/mourisl/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "mourisl",
+    "id": 1904147,
+    "node_id": "MDQ6VXNlcjE5MDQxNDc=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1904147?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/mourisl",
+    "html_url": "https://github.com/mourisl",
+    "followers_url": "https://api.github.com/users/mourisl/followers",
+    "following_url": "https://api.github.com/users/mourisl/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mourisl/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/mourisl/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/mourisl/subscriptions",
+    "organizations_url": "https://api.github.com/users/mourisl/orgs",
+    "repos_url": "https://api.github.com/users/mourisl/repos",
+    "events_url": "https://api.github.com/users/mourisl/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/mourisl/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "ccbc423e7a013cad984793196a973b48f2c1bf23",
+      "url": "https://api.github.com/repos/haowenz/chromap/commits/ccbc423e7a013cad984793196a973b48f2c1bf23",
+      "html_url": "https://github.com/haowenz/chromap/commit/ccbc423e7a013cad984793196a973b48f2c1bf23"
+    }
+  ],
+  "stats": {
+    "total": 18,
+    "additions": 9,
+    "deletions": 9
+  },
+  "files": [
+    {
+      "sha": "8dc6ca7e1c1d851f578395ae39fd303867681dcd",
+      "filename": "src/chromap.h",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/haowenz/chromap/blob/6cde47a1dc4c00b3e3a61fe6f7bcfbb0067bec89/src%2Fchromap.h",
+      "raw_url": "https://github.com/haowenz/chromap/raw/6cde47a1dc4c00b3e3a61fe6f7bcfbb0067bec89/src%2Fchromap.h",
+      "contents_url": "https://api.github.com/repos/haowenz/chromap/contents/src%2Fchromap.h?ref=6cde47a1dc4c00b3e3a61fe6f7bcfbb0067bec89",
+      "patch": "@@ -34,7 +34,7 @@\n #include \"temp_mapping.h\"\n #include \"utils.h\"\n \n-#define CHROMAP_VERSION \"0.3.1-r516\"\n+#define CHROMAP_VERSION \"0.3.2-r517\"\n \n namespace chromap {\n "
+    },
+    {
+      "sha": "a159d54b7fb8b743ec5c95b9de40ffa0b938317b",
+      "filename": "src/index.cc",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 6,
+      "changes": 12,
+      "blob_url": "https://github.com/haowenz/chromap/blob/6cde47a1dc4c00b3e3a61fe6f7bcfbb0067bec89/src%2Findex.cc",
+      "raw_url": "https://github.com/haowenz/chromap/raw/6cde47a1dc4c00b3e3a61fe6f7bcfbb0067bec89/src%2Findex.cc",
+      "contents_url": "https://api.github.com/repos/haowenz/chromap/contents/src%2Findex.cc?ref=6cde47a1dc4c00b3e3a61fe6f7bcfbb0067bec89",
+      "patch": "@@ -334,13 +334,13 @@ int Index::GenerateCandidatePositions(\n   }\n \n #ifdef LI_DEBUG\n-  for (uint32_t mi = 0; mi < positive_hits.size(); ++mi)\n-    printf(\"+ %llu %d %d\\n\", positive_hits[mi],\n-           (int)(positive_hits[mi] >> 32), (int)(positive_hits[mi]));\n+  for (uint32_t mi = 0; mi < mapping_metadata.positive_hits_.size(); ++mi)\n+    printf(\"+ %llu %d %d\\n\", mapping_metadata.positive_hits_[mi],\n+           (int)(mapping_metadata.positive_hits_[mi] >> 32), (int)(mapping_metadata.positive_hits_[mi]));\n \n-  for (uint32_t mi = 0; mi < negative_hits.size(); ++mi)\n-    printf(\"- %llu %d %d\\n\", negative_hits[mi],\n-           (int)(negative_hits[mi] >> 32), (int)(negative_hits[mi]));\n+  for (uint32_t mi = 0; mi < mapping_metadata.negative_hits_.size(); ++mi)\n+    printf(\"- %llu %d %d\\n\", mapping_metadata.negative_hits_[mi],\n+           (int)(mapping_metadata.negative_hits_[mi] >> 32), (int)(mapping_metadata.negative_hits_[mi]));\n #endif\n \n   mapping_metadata.repetitive_seed_length_ ="
+    },
+    {
+      "sha": "8501a28c00ba1e65389b53da1556989c1398c911",
+      "filename": "src/mapping_generator.h",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/haowenz/chromap/blob/6cde47a1dc4c00b3e3a61fe6f7bcfbb0067bec89/src%2Fmapping_generator.h",
+      "raw_url": "https://github.com/haowenz/chromap/raw/6cde47a1dc4c00b3e3a61fe6f7bcfbb0067bec89/src%2Fmapping_generator.h",
+      "contents_url": "https://api.github.com/repos/haowenz/chromap/contents/src%2Fmapping_generator.h?ref=6cde47a1dc4c00b3e3a61fe6f7bcfbb0067bec89",
+      "patch": "@@ -441,10 +441,10 @@ void MappingGenerator<MappingRecord>::\n           ((first_read_strand == kPositive &&\n             mappings2[current_i2].position <=\n                 mappings1[i1].position + mapping_parameters_.max_insert_size -\n-                    read2_length) ||\n+                    read1_length) ||\n            (first_read_strand == kNegative &&\n             mappings2[current_i2].position <=\n-                mappings1[i1].position + read1_length - min_overlap_length))) {\n+                mappings1[i1].position + read2_length - min_overlap_length))) {\n #ifdef LI_DEBUG\n         printf(\n             \"%s passed: %llu %d %d %llu %d %d: %d %d %d\\n\", __func__,"
+    }
+  ]
+}

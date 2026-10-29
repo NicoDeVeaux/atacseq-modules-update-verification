@@ -1,0 +1,56 @@
+{
+  "observed_at": "2026-10-29T06:40:43.160109+00:00",
+  "payload_hashes_verified": true,
+  "source_pins": {
+    "unfixed": "73155d2b59d37f521e3f00228d559031d2e7847f",
+    "fixed": "a9b588235e4a1ceb3c8838acad430628c5737c86"
+  },
+  "within_aligner": {
+    "bwa": {
+      "parameter_count": 41,
+      "only_parameter_differences": [
+        "outdir"
+      ],
+      "config_equal": true,
+      "config_supplied": false,
+      "compute_environment_equal": true,
+      "nextflow_version_equal": true
+    },
+    "chromap": {
+      "parameter_count": 41,
+      "only_parameter_differences": [
+        "outdir"
+      ],
+      "config_equal": true,
+      "config_supplied": true,
+      "compute_environment_equal": true,
+      "nextflow_version_equal": true
+    }
+  },
+  "payloads": [
+    {
+      "case": "pr448-hiv-bwa-unfixed-a9b588",
+      "sha256": "6e351aa067451371afe29bba75ae9fa00730537f9daf43f70b6b9d44accf6baa"
+    },
+    {
+      "case": "pr448-hiv-bwa-fixed-a9b588",
+      "sha256": "a2cdc859d6045b2c93f487e9ab770b6a46353f18e2bef2f1d90084d3367206b3"
+    },
+    {
+      "case": "pr448-hiv-chromap-unfixed-a9b588",
+      "sha256": "e49c1a0468ded0cd9b3b99bce346059527501d26df7946a9d1916a296a7bd8ee"
+    },
+    {
+      "case": "pr448-hiv-chromap-fixed-a9b588",
+      "sha256": "a903d5e98afb1d0a7fe5dbaafac90d69ef4e0687a8fca9781514778a989ed300"
+    }
+  ],
+  "common_settings": {
+    "read_length": 50,
+    "macs_gsize": 2701262066,
+    "keep_dups": false,
+    "mito_name": "chrM",
+    "skip_multiqc": false
+  },
+  "limits": "Prepared launch payload comparison; API-observed commit and collection identity are checked separately. Recovery-only configuration concerns file transfer transport; no reference byte identity claim."
+}

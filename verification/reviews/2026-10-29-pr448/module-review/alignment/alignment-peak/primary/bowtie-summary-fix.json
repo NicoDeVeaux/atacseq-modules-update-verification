@@ -1,0 +1,101 @@
+{
+  "sha": "3e25cb9c8fe423b479275cee8e573b0cf13f3646",
+  "node_id": "C_kwDOAG7TItoAKDNlMjVjYjljOGZlNDIzYjQ3OTI3NWNlZThlNTczYjBjZjEzZjM2NDY",
+  "commit": {
+    "author": {
+      "name": "Rone Charles",
+      "email": "rone_charles@fastmail.com",
+      "date": "2024-04-24T14:55:54Z"
+    },
+    "committer": {
+      "name": "Rone Charles",
+      "email": "rone_charles@fastmail.com",
+      "date": "2024-04-24T14:55:54Z"
+    },
+    "message": "Fix an issue causing repetitive alignments for concordant reads to be overcounted",
+    "tree": {
+      "sha": "f025a8ae8f40f1eb96ca7d68bdedeecfe308623b",
+      "url": "https://api.github.com/repos/BenLangmead/bowtie2/git/trees/f025a8ae8f40f1eb96ca7d68bdedeecfe308623b"
+    },
+    "url": "https://api.github.com/repos/BenLangmead/bowtie2/git/commits/3e25cb9c8fe423b479275cee8e573b0cf13f3646",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/BenLangmead/bowtie2/commits/3e25cb9c8fe423b479275cee8e573b0cf13f3646",
+  "html_url": "https://github.com/BenLangmead/bowtie2/commit/3e25cb9c8fe423b479275cee8e573b0cf13f3646",
+  "comments_url": "https://api.github.com/repos/BenLangmead/bowtie2/commits/3e25cb9c8fe423b479275cee8e573b0cf13f3646/comments",
+  "author": {
+    "login": "ch4rr0",
+    "id": 22770906,
+    "node_id": "MDQ6VXNlcjIyNzcwOTA2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/22770906?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ch4rr0",
+    "html_url": "https://github.com/ch4rr0",
+    "followers_url": "https://api.github.com/users/ch4rr0/followers",
+    "following_url": "https://api.github.com/users/ch4rr0/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ch4rr0/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ch4rr0/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ch4rr0/subscriptions",
+    "organizations_url": "https://api.github.com/users/ch4rr0/orgs",
+    "repos_url": "https://api.github.com/users/ch4rr0/repos",
+    "events_url": "https://api.github.com/users/ch4rr0/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ch4rr0/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "ch4rr0",
+    "id": 22770906,
+    "node_id": "MDQ6VXNlcjIyNzcwOTA2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/22770906?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ch4rr0",
+    "html_url": "https://github.com/ch4rr0",
+    "followers_url": "https://api.github.com/users/ch4rr0/followers",
+    "following_url": "https://api.github.com/users/ch4rr0/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ch4rr0/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ch4rr0/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ch4rr0/subscriptions",
+    "organizations_url": "https://api.github.com/users/ch4rr0/orgs",
+    "repos_url": "https://api.github.com/users/ch4rr0/repos",
+    "events_url": "https://api.github.com/users/ch4rr0/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ch4rr0/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "f08f26f8885f9cbf39f967b51f26de47c201f4da",
+      "url": "https://api.github.com/repos/BenLangmead/bowtie2/commits/f08f26f8885f9cbf39f967b51f26de47c201f4da",
+      "html_url": "https://github.com/BenLangmead/bowtie2/commit/f08f26f8885f9cbf39f967b51f26de47c201f4da"
+    }
+  ],
+  "stats": {
+    "total": 5,
+    "additions": 2,
+    "deletions": 3
+  },
+  "files": [
+    {
+      "sha": "f7d68bf88a1326a671b64a97e7d18e3e1557253d",
+      "filename": "aln_sink.cpp",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "changes": 5,
+      "blob_url": "https://github.com/BenLangmead/bowtie2/blob/3e25cb9c8fe423b479275cee8e573b0cf13f3646/aln_sink.cpp",
+      "raw_url": "https://github.com/BenLangmead/bowtie2/raw/3e25cb9c8fe423b479275cee8e573b0cf13f3646/aln_sink.cpp",
+      "contents_url": "https://api.github.com/repos/BenLangmead/bowtie2/contents/aln_sink.cpp?ref=3e25cb9c8fe423b479275cee8e573b0cf13f3646",
+      "patch": "@@ -834,9 +834,8 @@ void AlnSinkWrap::finishRead(\n \t\t\t} else {\n \t\t\t\tmet.nconcord_uni++;\n \t\t\t\tassert(!rs1_.empty());\n-\t\t\t\tAlnScore sc1 = concordSumm.bestUnchosenP1Score();\n-\t\t\t\tAlnScore sc2 = concordSumm.bestUnchosenP2Score();\n-\t\t\t\tif(!sc1.valid() && !sc2.valid()) {\n+\n+\t\t\t\tif(!concordSumm.bestUnchosenCScore().valid()) {\n \t\t\t\t\tmet.nconcord_uni1++;\n \t\t\t\t} else {\n \t\t\t\t\tmet.nconcord_uni2++;"
+    }
+  ]
+}

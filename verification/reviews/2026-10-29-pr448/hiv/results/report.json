@@ -1,0 +1,2843 @@
+{
+  "state": "FINAL",
+  "observed_at": "2026-10-29T08:00:38.568097+00:00",
+  "comparison_observed_at": "2026-10-29T08:00:23.762139+00:00",
+  "status_observed_at": "2026-10-29T07:55:17.941600+00:00",
+  "full_comparison_complete": true,
+  "libraries": [
+    "HIV_CD86HI_48H_REP1",
+    "HIV_CD86HI_48H_REP2",
+    "MOCK_48H_REP1",
+    "MOCK_48H_REP2"
+  ],
+  "groups": [
+    "HIV_CD86HI_48H",
+    "MOCK_48H"
+  ],
+  "inputs": [
+    {
+      "accession": "SRR8508547",
+      "library": "HIV_CD86HI_48H_REP1",
+      "ena_pairs": 21260206,
+      "archived_sequences_per_mate": 21260206
+    },
+    {
+      "accession": "SRR8508548",
+      "library": "HIV_CD86HI_48H_REP2",
+      "ena_pairs": 20649365,
+      "archived_sequences_per_mate": 20649365
+    },
+    {
+      "accession": "SRR8508553",
+      "library": "MOCK_48H_REP1",
+      "ena_pairs": 21344854,
+      "archived_sequences_per_mate": 21344854
+    },
+    {
+      "accession": "SRR8508554",
+      "library": "MOCK_48H_REP2",
+      "ena_pairs": 23834826,
+      "archived_sequences_per_mate": 23834826
+    }
+  ],
+  "cases": {
+    "pr448-hiv-bwa-unfixed-a9b588": {
+      "aligner": "bwa",
+      "arm": "unfixed",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "workflow_id": "miH78tIWtzQMy",
+      "url": "https://cloud.dev-seqera.io/orgs/ACME_Pharmaceuticals/workspaces/cascade-t2d-discovery/watch/miH78tIWtzQMy",
+      "status": "SUCCEEDED",
+      "collection_complete": true,
+      "verified_artifacts": 81,
+      "workflow_run_name": "pr448-hiv-bwa-unfixed-a9b588",
+      "libraries": {
+        "HIV_CD86HI_48H_REP1": {
+          "clN_total_reads": 5215726,
+          "clN_mapped_reads": 5215726,
+          "clN_properly_paired_reads": 5140616,
+          "clN_duplicate_reads": 0,
+          "flagstat_qc_split": {
+            "in total": {
+              "passed": 5215726,
+              "failed": 0,
+              "total": 5215726
+            },
+            "primary": {
+              "passed": 5215726,
+              "failed": 0,
+              "total": 5215726
+            },
+            "secondary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "supplementary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "primary duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "mapped": {
+              "passed": 5215726,
+              "failed": 0,
+              "total": 5215726
+            },
+            "primary mapped": {
+              "passed": 5215726,
+              "failed": 0,
+              "total": 5215726
+            },
+            "paired in sequencing": {
+              "passed": 5215726,
+              "failed": 0,
+              "total": 5215726
+            },
+            "read1": {
+              "passed": 2607863,
+              "failed": 0,
+              "total": 2607863
+            },
+            "read2": {
+              "passed": 2607863,
+              "failed": 0,
+              "total": 2607863
+            },
+            "properly paired": {
+              "passed": 5140616,
+              "failed": 0,
+              "total": 5140616
+            },
+            "with itself and mate mapped": {
+              "passed": 5215726,
+              "failed": 0,
+              "total": 5215726
+            },
+            "singletons": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr (mapQ>=5)": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            }
+          },
+          "scale_factor": 0.191728,
+          "macs3_peak_count": 30436.0,
+          "frip": 0.216445,
+          "raw_fastqc_reads_per_mate": [
+            21260206,
+            21260206
+          ],
+          "raw_input_pairs": 21260206
+        },
+        "HIV_CD86HI_48H_REP2": {
+          "clN_total_reads": 7443774,
+          "clN_mapped_reads": 7443774,
+          "clN_properly_paired_reads": 7359036,
+          "clN_duplicate_reads": 0,
+          "flagstat_qc_split": {
+            "in total": {
+              "passed": 7443774,
+              "failed": 0,
+              "total": 7443774
+            },
+            "primary": {
+              "passed": 7443774,
+              "failed": 0,
+              "total": 7443774
+            },
+            "secondary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "supplementary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "primary duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "mapped": {
+              "passed": 7443774,
+              "failed": 0,
+              "total": 7443774
+            },
+            "primary mapped": {
+              "passed": 7443774,
+              "failed": 0,
+              "total": 7443774
+            },
+            "paired in sequencing": {
+              "passed": 7443774,
+              "failed": 0,
+              "total": 7443774
+            },
+            "read1": {
+              "passed": 3721887,
+              "failed": 0,
+              "total": 3721887
+            },
+            "read2": {
+              "passed": 3721887,
+              "failed": 0,
+              "total": 3721887
+            },
+            "properly paired": {
+              "passed": 7359036,
+              "failed": 0,
+              "total": 7359036
+            },
+            "with itself and mate mapped": {
+              "passed": 7443774,
+              "failed": 0,
+              "total": 7443774
+            },
+            "singletons": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr (mapQ>=5)": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            }
+          },
+          "scale_factor": 0.13434,
+          "macs3_peak_count": 35860.0,
+          "frip": 0.230036,
+          "raw_fastqc_reads_per_mate": [
+            20649365,
+            20649365
+          ],
+          "raw_input_pairs": 20649365
+        },
+        "MOCK_48H_REP1": {
+          "clN_total_reads": 5676724,
+          "clN_mapped_reads": 5676724,
+          "clN_properly_paired_reads": 5629646,
+          "clN_duplicate_reads": 0,
+          "flagstat_qc_split": {
+            "in total": {
+              "passed": 5676724,
+              "failed": 0,
+              "total": 5676724
+            },
+            "primary": {
+              "passed": 5676724,
+              "failed": 0,
+              "total": 5676724
+            },
+            "secondary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "supplementary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "primary duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "mapped": {
+              "passed": 5676724,
+              "failed": 0,
+              "total": 5676724
+            },
+            "primary mapped": {
+              "passed": 5676724,
+              "failed": 0,
+              "total": 5676724
+            },
+            "paired in sequencing": {
+              "passed": 5676724,
+              "failed": 0,
+              "total": 5676724
+            },
+            "read1": {
+              "passed": 2838362,
+              "failed": 0,
+              "total": 2838362
+            },
+            "read2": {
+              "passed": 2838362,
+              "failed": 0,
+              "total": 2838362
+            },
+            "properly paired": {
+              "passed": 5629646,
+              "failed": 0,
+              "total": 5629646
+            },
+            "with itself and mate mapped": {
+              "passed": 5676724,
+              "failed": 0,
+              "total": 5676724
+            },
+            "singletons": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr (mapQ>=5)": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            }
+          },
+          "scale_factor": 0.176158,
+          "macs3_peak_count": 36521.0,
+          "frip": 0.198293,
+          "raw_fastqc_reads_per_mate": [
+            21344854,
+            21344854
+          ],
+          "raw_input_pairs": 21344854
+        },
+        "MOCK_48H_REP2": {
+          "clN_total_reads": 8364076,
+          "clN_mapped_reads": 8364076,
+          "clN_properly_paired_reads": 8272454,
+          "clN_duplicate_reads": 0,
+          "flagstat_qc_split": {
+            "in total": {
+              "passed": 8364076,
+              "failed": 0,
+              "total": 8364076
+            },
+            "primary": {
+              "passed": 8364076,
+              "failed": 0,
+              "total": 8364076
+            },
+            "secondary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "supplementary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "primary duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "mapped": {
+              "passed": 8364076,
+              "failed": 0,
+              "total": 8364076
+            },
+            "primary mapped": {
+              "passed": 8364076,
+              "failed": 0,
+              "total": 8364076
+            },
+            "paired in sequencing": {
+              "passed": 8364076,
+              "failed": 0,
+              "total": 8364076
+            },
+            "read1": {
+              "passed": 4182038,
+              "failed": 0,
+              "total": 4182038
+            },
+            "read2": {
+              "passed": 4182038,
+              "failed": 0,
+              "total": 4182038
+            },
+            "properly paired": {
+              "passed": 8272454,
+              "failed": 0,
+              "total": 8272454
+            },
+            "with itself and mate mapped": {
+              "passed": 8364076,
+              "failed": 0,
+              "total": 8364076
+            },
+            "singletons": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr (mapQ>=5)": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            }
+          },
+          "scale_factor": 0.119559,
+          "macs3_peak_count": 51624.0,
+          "frip": 0.251002,
+          "raw_fastqc_reads_per_mate": [
+            23834826,
+            23834826
+          ],
+          "raw_input_pairs": 23834826
+        }
+      },
+      "merged_replicates": {
+        "HIV_CD86HI_48H": {
+          "clN_total_reads": 12659500,
+          "clN_mapped_reads": 12659500,
+          "clN_properly_paired_reads": 12499652,
+          "clN_duplicate_reads": 0,
+          "flagstat_qc_split": {
+            "in total": {
+              "passed": 12659500,
+              "failed": 0,
+              "total": 12659500
+            },
+            "primary": {
+              "passed": 12659500,
+              "failed": 0,
+              "total": 12659500
+            },
+            "secondary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "supplementary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "primary duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "mapped": {
+              "passed": 12659500,
+              "failed": 0,
+              "total": 12659500
+            },
+            "primary mapped": {
+              "passed": 12659500,
+              "failed": 0,
+              "total": 12659500
+            },
+            "paired in sequencing": {
+              "passed": 12659500,
+              "failed": 0,
+              "total": 12659500
+            },
+            "read1": {
+              "passed": 6329750,
+              "failed": 0,
+              "total": 6329750
+            },
+            "read2": {
+              "passed": 6329750,
+              "failed": 0,
+              "total": 6329750
+            },
+            "properly paired": {
+              "passed": 12499652,
+              "failed": 0,
+              "total": 12499652
+            },
+            "with itself and mate mapped": {
+              "passed": 12659500,
+              "failed": 0,
+              "total": 12659500
+            },
+            "singletons": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr (mapQ>=5)": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            }
+          },
+          "scale_factor": 0.0789921,
+          "macs3_peak_count": 70213.0,
+          "frip": 0.275028,
+          "derived_input_pairs": 41909571
+        },
+        "MOCK_48H": {
+          "clN_total_reads": 14040800,
+          "clN_mapped_reads": 14040800,
+          "clN_properly_paired_reads": 13902100,
+          "clN_duplicate_reads": 0,
+          "flagstat_qc_split": {
+            "in total": {
+              "passed": 14040800,
+              "failed": 0,
+              "total": 14040800
+            },
+            "primary": {
+              "passed": 14040800,
+              "failed": 0,
+              "total": 14040800
+            },
+            "secondary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "supplementary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "primary duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "mapped": {
+              "passed": 14040800,
+              "failed": 0,
+              "total": 14040800
+            },
+            "primary mapped": {
+              "passed": 14040800,
+              "failed": 0,
+              "total": 14040800
+            },
+            "paired in sequencing": {
+              "passed": 14040800,
+              "failed": 0,
+              "total": 14040800
+            },
+            "read1": {
+              "passed": 7020400,
+              "failed": 0,
+              "total": 7020400
+            },
+            "read2": {
+              "passed": 7020400,
+              "failed": 0,
+              "total": 7020400
+            },
+            "properly paired": {
+              "passed": 13902100,
+              "failed": 0,
+              "total": 13902100
+            },
+            "with itself and mate mapped": {
+              "passed": 14040800,
+              "failed": 0,
+              "total": 14040800
+            },
+            "singletons": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr (mapQ>=5)": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            }
+          },
+          "scale_factor": 0.071221,
+          "macs3_peak_count": 88651.0,
+          "frip": 0.281133,
+          "derived_input_pairs": 45179680
+        }
+      },
+      "initial_workflow_id": null,
+      "payload_sha256": "6e351aa067451371afe29bba75ae9fa00730537f9daf43f70b6b9d44accf6baa",
+      "raw_input_pairs": 87089251,
+      "used_artifact_sha256": {
+        "multiqc/broad_peak/multiqc_data/multiqc_data.json": "161bec81333859815a6c0d0c7537336e733d3daae7a2c4ccdfa45b077b9c0149",
+        "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam.flagstat": "8e9412aba9ab3c3f64c0bf160b0495b2ec4bd0fddaa12e41ef9a54daefe158f1",
+        "bwa/merged_library/bigwig/scale/HIV_CD86HI_48H_REP1.mLb.clN.scale_factor.txt": "b8824d4041aeeefec0e353d5587fcdb7abc3f4271d3da32cd8849c63508ea0ca",
+        "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam.flagstat": "ecd2bfb5f948d2057c5fdad77ba6ae6f25f4b9bd42b41c37a31f73c59ecfed4a",
+        "bwa/merged_library/bigwig/scale/HIV_CD86HI_48H_REP2.mLb.clN.scale_factor.txt": "865d7e26239f00fea7a2d202f30aacb9c89571b8c11551f87e630ce5718eb291",
+        "bwa/merged_library/samtools_stats/MOCK_48H_REP1.mLb.clN.sorted.bam.flagstat": "ee262eff02822e8dbd9529c073a3bd14ad1076371efddef25e9c186ed2602374",
+        "bwa/merged_library/bigwig/scale/MOCK_48H_REP1.mLb.clN.scale_factor.txt": "2ff439e83e3f241b3508f0767f1c7fb9053e000fcb337761a9d1074d26e579b9",
+        "bwa/merged_library/samtools_stats/MOCK_48H_REP2.mLb.clN.sorted.bam.flagstat": "0fe28422c29188053a4c60d440ab0f47f9f93134f662bcf0a29176ca599fed7e",
+        "bwa/merged_library/bigwig/scale/MOCK_48H_REP2.mLb.clN.scale_factor.txt": "81e317b296432ff7ef2884f9541f6b499d844f06864172840e9b428b64e92418",
+        "bwa/merged_replicate/samtools_stats/HIV_CD86HI_48H.mRp.clN.sorted.bam.flagstat": "1d11299ac78198af14b95859e4658106ce078744faaf6de9455c275ccdcf4d7b",
+        "bwa/merged_replicate/bigwig/scale/HIV_CD86HI_48H.mRp.clN.scale_factor.txt": "b6cc95c826eca9c17c39ef627d77af65696bf46922b6c36a2249b26bc95782c3",
+        "bwa/merged_replicate/samtools_stats/MOCK_48H.mRp.clN.sorted.bam.flagstat": "2e838d5d97cfc1fd219908b9126469d2cba96a099ce16c1d97690bb7667c704d",
+        "bwa/merged_replicate/bigwig/scale/MOCK_48H.mRp.clN.scale_factor.txt": "7773c493750e55633cc63eeb08645eb93da830cff322d642b195eb7883d44cab"
+      }
+    },
+    "pr448-hiv-bwa-fixed-a9b588": {
+      "aligner": "bwa",
+      "arm": "fixed",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "workflow_id": "BVYqNpYNcUhEN",
+      "url": "https://cloud.dev-seqera.io/orgs/ACME_Pharmaceuticals/workspaces/cascade-t2d-discovery/watch/BVYqNpYNcUhEN",
+      "status": "SUCCEEDED",
+      "collection_complete": true,
+      "verified_artifacts": 81,
+      "workflow_run_name": "pr448-hiv-bwa-fixed-a9b588",
+      "libraries": {
+        "HIV_CD86HI_48H_REP1": {
+          "clN_total_reads": 5214522,
+          "clN_mapped_reads": 5214522,
+          "clN_properly_paired_reads": 5138634,
+          "clN_duplicate_reads": 0,
+          "flagstat_qc_split": {
+            "in total": {
+              "passed": 5214522,
+              "failed": 0,
+              "total": 5214522
+            },
+            "primary": {
+              "passed": 5214522,
+              "failed": 0,
+              "total": 5214522
+            },
+            "secondary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "supplementary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "primary duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "mapped": {
+              "passed": 5214522,
+              "failed": 0,
+              "total": 5214522
+            },
+            "primary mapped": {
+              "passed": 5214522,
+              "failed": 0,
+              "total": 5214522
+            },
+            "paired in sequencing": {
+              "passed": 5214522,
+              "failed": 0,
+              "total": 5214522
+            },
+            "read1": {
+              "passed": 2607261,
+              "failed": 0,
+              "total": 2607261
+            },
+            "read2": {
+              "passed": 2607261,
+              "failed": 0,
+              "total": 2607261
+            },
+            "properly paired": {
+              "passed": 5138634,
+              "failed": 0,
+              "total": 5138634
+            },
+            "with itself and mate mapped": {
+              "passed": 5214522,
+              "failed": 0,
+              "total": 5214522
+            },
+            "singletons": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr (mapQ>=5)": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            }
+          },
+          "scale_factor": 0.191772,
+          "macs3_peak_count": 30438.0,
+          "frip": 0.216448,
+          "raw_fastqc_reads_per_mate": [
+            21260206,
+            21260206
+          ],
+          "raw_input_pairs": 21260206
+        },
+        "HIV_CD86HI_48H_REP2": {
+          "clN_total_reads": 7442266,
+          "clN_mapped_reads": 7442266,
+          "clN_properly_paired_reads": 7357266,
+          "clN_duplicate_reads": 0,
+          "flagstat_qc_split": {
+            "in total": {
+              "passed": 7442266,
+              "failed": 0,
+              "total": 7442266
+            },
+            "primary": {
+              "passed": 7442266,
+              "failed": 0,
+              "total": 7442266
+            },
+            "secondary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "supplementary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "primary duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "mapped": {
+              "passed": 7442266,
+              "failed": 0,
+              "total": 7442266
+            },
+            "primary mapped": {
+              "passed": 7442266,
+              "failed": 0,
+              "total": 7442266
+            },
+            "paired in sequencing": {
+              "passed": 7442266,
+              "failed": 0,
+              "total": 7442266
+            },
+            "read1": {
+              "passed": 3721133,
+              "failed": 0,
+              "total": 3721133
+            },
+            "read2": {
+              "passed": 3721133,
+              "failed": 0,
+              "total": 3721133
+            },
+            "properly paired": {
+              "passed": 7357266,
+              "failed": 0,
+              "total": 7357266
+            },
+            "with itself and mate mapped": {
+              "passed": 7442266,
+              "failed": 0,
+              "total": 7442266
+            },
+            "singletons": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr (mapQ>=5)": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            }
+          },
+          "scale_factor": 0.134368,
+          "macs3_peak_count": 35854.0,
+          "frip": 0.23001,
+          "raw_fastqc_reads_per_mate": [
+            20649365,
+            20649365
+          ],
+          "raw_input_pairs": 20649365
+        },
+        "MOCK_48H_REP1": {
+          "clN_total_reads": 5676056,
+          "clN_mapped_reads": 5676056,
+          "clN_properly_paired_reads": 5628814,
+          "clN_duplicate_reads": 0,
+          "flagstat_qc_split": {
+            "in total": {
+              "passed": 5676056,
+              "failed": 0,
+              "total": 5676056
+            },
+            "primary": {
+              "passed": 5676056,
+              "failed": 0,
+              "total": 5676056
+            },
+            "secondary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "supplementary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "primary duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "mapped": {
+              "passed": 5676056,
+              "failed": 0,
+              "total": 5676056
+            },
+            "primary mapped": {
+              "passed": 5676056,
+              "failed": 0,
+              "total": 5676056
+            },
+            "paired in sequencing": {
+              "passed": 5676056,
+              "failed": 0,
+              "total": 5676056
+            },
+            "read1": {
+              "passed": 2838028,
+              "failed": 0,
+              "total": 2838028
+            },
+            "read2": {
+              "passed": 2838028,
+              "failed": 0,
+              "total": 2838028
+            },
+            "properly paired": {
+              "passed": 5628814,
+              "failed": 0,
+              "total": 5628814
+            },
+            "with itself and mate mapped": {
+              "passed": 5676056,
+              "failed": 0,
+              "total": 5676056
+            },
+            "singletons": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr (mapQ>=5)": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            }
+          },
+          "scale_factor": 0.176179,
+          "macs3_peak_count": 36551.0,
+          "frip": 0.198316,
+          "raw_fastqc_reads_per_mate": [
+            21344854,
+            21344854
+          ],
+          "raw_input_pairs": 21344854
+        },
+        "MOCK_48H_REP2": {
+          "clN_total_reads": 8362892,
+          "clN_mapped_reads": 8362892,
+          "clN_properly_paired_reads": 8270044,
+          "clN_duplicate_reads": 0,
+          "flagstat_qc_split": {
+            "in total": {
+              "passed": 8362892,
+              "failed": 0,
+              "total": 8362892
+            },
+            "primary": {
+              "passed": 8362892,
+              "failed": 0,
+              "total": 8362892
+            },
+            "secondary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "supplementary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "primary duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "mapped": {
+              "passed": 8362892,
+              "failed": 0,
+              "total": 8362892
+            },
+            "primary mapped": {
+              "passed": 8362892,
+              "failed": 0,
+              "total": 8362892
+            },
+            "paired in sequencing": {
+              "passed": 8362892,
+              "failed": 0,
+              "total": 8362892
+            },
+            "read1": {
+              "passed": 4181446,
+              "failed": 0,
+              "total": 4181446
+            },
+            "read2": {
+              "passed": 4181446,
+              "failed": 0,
+              "total": 4181446
+            },
+            "properly paired": {
+              "passed": 8270044,
+              "failed": 0,
+              "total": 8270044
+            },
+            "with itself and mate mapped": {
+              "passed": 8362892,
+              "failed": 0,
+              "total": 8362892
+            },
+            "singletons": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr (mapQ>=5)": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            }
+          },
+          "scale_factor": 0.119576,
+          "macs3_peak_count": 51633.0,
+          "frip": 0.250963,
+          "raw_fastqc_reads_per_mate": [
+            23834826,
+            23834826
+          ],
+          "raw_input_pairs": 23834826
+        }
+      },
+      "merged_replicates": {
+        "HIV_CD86HI_48H": {
+          "clN_total_reads": 12656788,
+          "clN_mapped_reads": 12656788,
+          "clN_properly_paired_reads": 12495900,
+          "clN_duplicate_reads": 0,
+          "flagstat_qc_split": {
+            "in total": {
+              "passed": 12656788,
+              "failed": 0,
+              "total": 12656788
+            },
+            "primary": {
+              "passed": 12656788,
+              "failed": 0,
+              "total": 12656788
+            },
+            "secondary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "supplementary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "primary duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "mapped": {
+              "passed": 12656788,
+              "failed": 0,
+              "total": 12656788
+            },
+            "primary mapped": {
+              "passed": 12656788,
+              "failed": 0,
+              "total": 12656788
+            },
+            "paired in sequencing": {
+              "passed": 12656788,
+              "failed": 0,
+              "total": 12656788
+            },
+            "read1": {
+              "passed": 6328394,
+              "failed": 0,
+              "total": 6328394
+            },
+            "read2": {
+              "passed": 6328394,
+              "failed": 0,
+              "total": 6328394
+            },
+            "properly paired": {
+              "passed": 12495900,
+              "failed": 0,
+              "total": 12495900
+            },
+            "with itself and mate mapped": {
+              "passed": 12656788,
+              "failed": 0,
+              "total": 12656788
+            },
+            "singletons": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr (mapQ>=5)": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            }
+          },
+          "scale_factor": 0.079009,
+          "macs3_peak_count": 69791.0,
+          "frip": 0.274689,
+          "derived_input_pairs": 41909571
+        },
+        "MOCK_48H": {
+          "clN_total_reads": 14038948,
+          "clN_mapped_reads": 14038948,
+          "clN_properly_paired_reads": 13898858,
+          "clN_duplicate_reads": 0,
+          "flagstat_qc_split": {
+            "in total": {
+              "passed": 14038948,
+              "failed": 0,
+              "total": 14038948
+            },
+            "primary": {
+              "passed": 14038948,
+              "failed": 0,
+              "total": 14038948
+            },
+            "secondary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "supplementary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "primary duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "mapped": {
+              "passed": 14038948,
+              "failed": 0,
+              "total": 14038948
+            },
+            "primary mapped": {
+              "passed": 14038948,
+              "failed": 0,
+              "total": 14038948
+            },
+            "paired in sequencing": {
+              "passed": 14038948,
+              "failed": 0,
+              "total": 14038948
+            },
+            "read1": {
+              "passed": 7019474,
+              "failed": 0,
+              "total": 7019474
+            },
+            "read2": {
+              "passed": 7019474,
+              "failed": 0,
+              "total": 7019474
+            },
+            "properly paired": {
+              "passed": 13898858,
+              "failed": 0,
+              "total": 13898858
+            },
+            "with itself and mate mapped": {
+              "passed": 14038948,
+              "failed": 0,
+              "total": 14038948
+            },
+            "singletons": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr (mapQ>=5)": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            }
+          },
+          "scale_factor": 0.0712304,
+          "macs3_peak_count": 88666.0,
+          "frip": 0.281163,
+          "derived_input_pairs": 45179680
+        }
+      },
+      "initial_workflow_id": null,
+      "payload_sha256": "a2cdc859d6045b2c93f487e9ab770b6a46353f18e2bef2f1d90084d3367206b3",
+      "raw_input_pairs": 87089251,
+      "used_artifact_sha256": {
+        "multiqc/broad_peak/multiqc_data/multiqc_data.json": "5fa2c6c92d7de9f4b2d8f43b8f099e4ff5159859e7b86587f966da4cb50ac0fe",
+        "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam.flagstat": "2ec80cf8b1aed5988f9c0d34587fe5647c87eeb3782f04f29f34048e902bb641",
+        "bwa/merged_library/bigwig/scale/HIV_CD86HI_48H_REP1.mLb.clN.scale_factor.txt": "1b14612fcaa22dad5fb8f49c1012900371f413575ddf0bdcdf8389d96c8397e1",
+        "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam.flagstat": "2ccf66fcb4e01c983006399f3f00f124fd657bf917e92cc2e52afc1ace437754",
+        "bwa/merged_library/bigwig/scale/HIV_CD86HI_48H_REP2.mLb.clN.scale_factor.txt": "e41e7b2bcac0f8b34afd5136acc038224f2ed2d5ad8cf16640dcb570ada26f27",
+        "bwa/merged_library/samtools_stats/MOCK_48H_REP1.mLb.clN.sorted.bam.flagstat": "3b8ae52b90cd8781b05477fb83b0422b25ae747cd30a21b0fac2a61f4d31433a",
+        "bwa/merged_library/bigwig/scale/MOCK_48H_REP1.mLb.clN.scale_factor.txt": "e81d0457ed55b230288324631ee4c858b21d3f2fdf90a689de69b039937a5d22",
+        "bwa/merged_library/samtools_stats/MOCK_48H_REP2.mLb.clN.sorted.bam.flagstat": "f5ce5eaea79f14db2be727f46af60964ebaca7476fa41f9455a14bee70906fde",
+        "bwa/merged_library/bigwig/scale/MOCK_48H_REP2.mLb.clN.scale_factor.txt": "eb2f0082960c632183b66212ab185df3d3342f6bf807ffa80e6132d4f5199e6b",
+        "bwa/merged_replicate/samtools_stats/HIV_CD86HI_48H.mRp.clN.sorted.bam.flagstat": "cf21dd1f438a79e87698a1bc1623dff6153af02823c96390073a7889efd89323",
+        "bwa/merged_replicate/bigwig/scale/HIV_CD86HI_48H.mRp.clN.scale_factor.txt": "00bd7370e4511665a99a743897266c2b5d317416d0a859b19eded1aee53323fe",
+        "bwa/merged_replicate/samtools_stats/MOCK_48H.mRp.clN.sorted.bam.flagstat": "0393c9b730be8c00480a9f38a0e2a8f1e65365b559d1eed9fe9297b262b8b193",
+        "bwa/merged_replicate/bigwig/scale/MOCK_48H.mRp.clN.scale_factor.txt": "b895755f4f965319f6c81347307bf52450b2f140389cf3c65ba532bb89efcd5e"
+      }
+    },
+    "pr448-hiv-chromap-unfixed-a9b588": {
+      "aligner": "chromap",
+      "arm": "unfixed",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "workflow_id": "6n2TeKZ3HxTua",
+      "url": "https://cloud.dev-seqera.io/orgs/ACME_Pharmaceuticals/workspaces/cascade-t2d-discovery/watch/6n2TeKZ3HxTua",
+      "status": "SUCCEEDED",
+      "collection_complete": true,
+      "verified_artifacts": 81,
+      "workflow_run_name": "pr448-hiv-chromap-unfixed-a9b588_r2",
+      "libraries": {
+        "HIV_CD86HI_48H_REP1": {
+          "clN_total_reads": 5101672,
+          "clN_mapped_reads": 5101672,
+          "clN_properly_paired_reads": 5101672,
+          "clN_duplicate_reads": 0,
+          "flagstat_qc_split": {
+            "in total": {
+              "passed": 5101672,
+              "failed": 0,
+              "total": 5101672
+            },
+            "primary": {
+              "passed": 5101672,
+              "failed": 0,
+              "total": 5101672
+            },
+            "secondary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "supplementary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "primary duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "mapped": {
+              "passed": 5101672,
+              "failed": 0,
+              "total": 5101672
+            },
+            "primary mapped": {
+              "passed": 5101672,
+              "failed": 0,
+              "total": 5101672
+            },
+            "paired in sequencing": {
+              "passed": 5101672,
+              "failed": 0,
+              "total": 5101672
+            },
+            "read1": {
+              "passed": 2550836,
+              "failed": 0,
+              "total": 2550836
+            },
+            "read2": {
+              "passed": 2550836,
+              "failed": 0,
+              "total": 2550836
+            },
+            "properly paired": {
+              "passed": 5101672,
+              "failed": 0,
+              "total": 5101672
+            },
+            "with itself and mate mapped": {
+              "passed": 5101672,
+              "failed": 0,
+              "total": 5101672
+            },
+            "singletons": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr (mapQ>=5)": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            }
+          },
+          "scale_factor": 0.196014,
+          "macs3_peak_count": 30478.0,
+          "frip": 0.227356,
+          "raw_fastqc_reads_per_mate": [
+            21260206,
+            21260206
+          ],
+          "raw_input_pairs": 21260206
+        },
+        "HIV_CD86HI_48H_REP2": {
+          "clN_total_reads": 7267790,
+          "clN_mapped_reads": 7267790,
+          "clN_properly_paired_reads": 7267790,
+          "clN_duplicate_reads": 0,
+          "flagstat_qc_split": {
+            "in total": {
+              "passed": 7267790,
+              "failed": 0,
+              "total": 7267790
+            },
+            "primary": {
+              "passed": 7267790,
+              "failed": 0,
+              "total": 7267790
+            },
+            "secondary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "supplementary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "primary duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "mapped": {
+              "passed": 7267790,
+              "failed": 0,
+              "total": 7267790
+            },
+            "primary mapped": {
+              "passed": 7267790,
+              "failed": 0,
+              "total": 7267790
+            },
+            "paired in sequencing": {
+              "passed": 7267790,
+              "failed": 0,
+              "total": 7267790
+            },
+            "read1": {
+              "passed": 3633895,
+              "failed": 0,
+              "total": 3633895
+            },
+            "read2": {
+              "passed": 3633895,
+              "failed": 0,
+              "total": 3633895
+            },
+            "properly paired": {
+              "passed": 7267790,
+              "failed": 0,
+              "total": 7267790
+            },
+            "with itself and mate mapped": {
+              "passed": 7267790,
+              "failed": 0,
+              "total": 7267790
+            },
+            "singletons": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr (mapQ>=5)": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            }
+          },
+          "scale_factor": 0.137593,
+          "macs3_peak_count": 35646.0,
+          "frip": 0.239107,
+          "raw_fastqc_reads_per_mate": [
+            20649365,
+            20649365
+          ],
+          "raw_input_pairs": 20649365
+        },
+        "MOCK_48H_REP1": {
+          "clN_total_reads": 5553678,
+          "clN_mapped_reads": 5553678,
+          "clN_properly_paired_reads": 5553678,
+          "clN_duplicate_reads": 0,
+          "flagstat_qc_split": {
+            "in total": {
+              "passed": 5553678,
+              "failed": 0,
+              "total": 5553678
+            },
+            "primary": {
+              "passed": 5553678,
+              "failed": 0,
+              "total": 5553678
+            },
+            "secondary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "supplementary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "primary duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "mapped": {
+              "passed": 5553678,
+              "failed": 0,
+              "total": 5553678
+            },
+            "primary mapped": {
+              "passed": 5553678,
+              "failed": 0,
+              "total": 5553678
+            },
+            "paired in sequencing": {
+              "passed": 5553678,
+              "failed": 0,
+              "total": 5553678
+            },
+            "read1": {
+              "passed": 2776839,
+              "failed": 0,
+              "total": 2776839
+            },
+            "read2": {
+              "passed": 2776839,
+              "failed": 0,
+              "total": 2776839
+            },
+            "properly paired": {
+              "passed": 5553678,
+              "failed": 0,
+              "total": 5553678
+            },
+            "with itself and mate mapped": {
+              "passed": 5553678,
+              "failed": 0,
+              "total": 5553678
+            },
+            "singletons": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr (mapQ>=5)": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            }
+          },
+          "scale_factor": 0.180061,
+          "macs3_peak_count": 36449.0,
+          "frip": 0.205499,
+          "raw_fastqc_reads_per_mate": [
+            21344854,
+            21344854
+          ],
+          "raw_input_pairs": 21344854
+        },
+        "MOCK_48H_REP2": {
+          "clN_total_reads": 8178346,
+          "clN_mapped_reads": 8178346,
+          "clN_properly_paired_reads": 8178346,
+          "clN_duplicate_reads": 0,
+          "flagstat_qc_split": {
+            "in total": {
+              "passed": 8178346,
+              "failed": 0,
+              "total": 8178346
+            },
+            "primary": {
+              "passed": 8178346,
+              "failed": 0,
+              "total": 8178346
+            },
+            "secondary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "supplementary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "primary duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "mapped": {
+              "passed": 8178346,
+              "failed": 0,
+              "total": 8178346
+            },
+            "primary mapped": {
+              "passed": 8178346,
+              "failed": 0,
+              "total": 8178346
+            },
+            "paired in sequencing": {
+              "passed": 8178346,
+              "failed": 0,
+              "total": 8178346
+            },
+            "read1": {
+              "passed": 4089173,
+              "failed": 0,
+              "total": 4089173
+            },
+            "read2": {
+              "passed": 4089173,
+              "failed": 0,
+              "total": 4089173
+            },
+            "properly paired": {
+              "passed": 8178346,
+              "failed": 0,
+              "total": 8178346
+            },
+            "with itself and mate mapped": {
+              "passed": 8178346,
+              "failed": 0,
+              "total": 8178346
+            },
+            "singletons": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr (mapQ>=5)": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            }
+          },
+          "scale_factor": 0.122274,
+          "macs3_peak_count": 50704.0,
+          "frip": 0.258664,
+          "raw_fastqc_reads_per_mate": [
+            23834826,
+            23834826
+          ],
+          "raw_input_pairs": 23834826
+        }
+      },
+      "merged_replicates": {
+        "HIV_CD86HI_48H": {
+          "clN_total_reads": 12369462,
+          "clN_mapped_reads": 12369462,
+          "clN_properly_paired_reads": 12369462,
+          "clN_duplicate_reads": 0,
+          "flagstat_qc_split": {
+            "in total": {
+              "passed": 12369462,
+              "failed": 0,
+              "total": 12369462
+            },
+            "primary": {
+              "passed": 12369462,
+              "failed": 0,
+              "total": 12369462
+            },
+            "secondary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "supplementary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "primary duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "mapped": {
+              "passed": 12369462,
+              "failed": 0,
+              "total": 12369462
+            },
+            "primary mapped": {
+              "passed": 12369462,
+              "failed": 0,
+              "total": 12369462
+            },
+            "paired in sequencing": {
+              "passed": 12369462,
+              "failed": 0,
+              "total": 12369462
+            },
+            "read1": {
+              "passed": 6184731,
+              "failed": 0,
+              "total": 6184731
+            },
+            "read2": {
+              "passed": 6184731,
+              "failed": 0,
+              "total": 6184731
+            },
+            "properly paired": {
+              "passed": 12369462,
+              "failed": 0,
+              "total": 12369462
+            },
+            "with itself and mate mapped": {
+              "passed": 12369462,
+              "failed": 0,
+              "total": 12369462
+            },
+            "singletons": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr (mapQ>=5)": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            }
+          },
+          "scale_factor": 0.0808443,
+          "macs3_peak_count": 68273.0,
+          "frip": 0.282848,
+          "derived_input_pairs": 41909571
+        },
+        "MOCK_48H": {
+          "clN_total_reads": 13732024,
+          "clN_mapped_reads": 13732024,
+          "clN_properly_paired_reads": 13732024,
+          "clN_duplicate_reads": 0,
+          "flagstat_qc_split": {
+            "in total": {
+              "passed": 13732024,
+              "failed": 0,
+              "total": 13732024
+            },
+            "primary": {
+              "passed": 13732024,
+              "failed": 0,
+              "total": 13732024
+            },
+            "secondary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "supplementary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "primary duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "mapped": {
+              "passed": 13732024,
+              "failed": 0,
+              "total": 13732024
+            },
+            "primary mapped": {
+              "passed": 13732024,
+              "failed": 0,
+              "total": 13732024
+            },
+            "paired in sequencing": {
+              "passed": 13732024,
+              "failed": 0,
+              "total": 13732024
+            },
+            "read1": {
+              "passed": 6866012,
+              "failed": 0,
+              "total": 6866012
+            },
+            "read2": {
+              "passed": 6866012,
+              "failed": 0,
+              "total": 6866012
+            },
+            "properly paired": {
+              "passed": 13732024,
+              "failed": 0,
+              "total": 13732024
+            },
+            "with itself and mate mapped": {
+              "passed": 13732024,
+              "failed": 0,
+              "total": 13732024
+            },
+            "singletons": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr (mapQ>=5)": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            }
+          },
+          "scale_factor": 0.0728225,
+          "macs3_peak_count": 86275.0,
+          "frip": 0.287599,
+          "derived_input_pairs": 45179680
+        }
+      },
+      "initial_workflow_id": "48WxHkBBQLwjxZ",
+      "payload_sha256": "e49c1a0468ded0cd9b3b99bce346059527501d26df7946a9d1916a296a7bd8ee",
+      "raw_input_pairs": 87089251,
+      "used_artifact_sha256": {
+        "multiqc/broad_peak/multiqc_data/multiqc_data.json": "e874df0b79ff8a66fa8a467fda2ea0852fc5a39b9da3ec1f76438671f26b7d8f",
+        "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam.flagstat": "08d85c6e424951459e0af5ff2d59eb67efc84c1e515f3a84a4bc1664d46e23d0",
+        "chromap/merged_library/bigwig/scale/HIV_CD86HI_48H_REP1.mLb.clN.scale_factor.txt": "267de4052ea59694ce2f2b23832c3c9fad997d5c675da73e55e0691d94c6232d",
+        "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam.flagstat": "8d1fbca3ded3ea3c99d1a718607f1a57266ea4774db5432f6fe049d71322f8cc",
+        "chromap/merged_library/bigwig/scale/HIV_CD86HI_48H_REP2.mLb.clN.scale_factor.txt": "ef356b963898e3f9da9110619bc4308e239c247f2bf9d2dba405886cb34d9218",
+        "chromap/merged_library/samtools_stats/MOCK_48H_REP1.mLb.clN.sorted.bam.flagstat": "edf872db299815d094770607d713ee94e175e9555e942996e416c8888e0c29b2",
+        "chromap/merged_library/bigwig/scale/MOCK_48H_REP1.mLb.clN.scale_factor.txt": "ca63085ac3bd1d6e0c78b8ad113d82925d28901de717465ac95cacf6e0a87322",
+        "chromap/merged_library/samtools_stats/MOCK_48H_REP2.mLb.clN.sorted.bam.flagstat": "1ce1511be70865a0de9ed2174a93068babb114fbfa12dc6fbeb87f8c59788fc5",
+        "chromap/merged_library/bigwig/scale/MOCK_48H_REP2.mLb.clN.scale_factor.txt": "7a72c01fa1fed18a40676ddc45e00fdeaf9b757419d8a69739f28246daccaa34",
+        "chromap/merged_replicate/samtools_stats/HIV_CD86HI_48H.mRp.clN.sorted.bam.flagstat": "aa0f60f321f557b2a113990aefa0a0bf8d07878557d829dbb91a7e2c0df48b53",
+        "chromap/merged_replicate/bigwig/scale/HIV_CD86HI_48H.mRp.clN.scale_factor.txt": "630b492110121dea3f3d6658295d1ecf4b24588f68103d14fa7be3b2e3280b59",
+        "chromap/merged_replicate/samtools_stats/MOCK_48H.mRp.clN.sorted.bam.flagstat": "0ad9592f29f8b43d41948a516d93bde611a7bc2ad4389f65b0a81e16fea989af",
+        "chromap/merged_replicate/bigwig/scale/MOCK_48H.mRp.clN.scale_factor.txt": "42f5d9c2a184f074d7f59a9a1d4f1a755bf7f1332d77c866abd78605e258a434"
+      }
+    },
+    "pr448-hiv-chromap-fixed-a9b588": {
+      "aligner": "chromap",
+      "arm": "fixed",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "workflow_id": "2DOXAsX9V2FbkY",
+      "url": "https://cloud.dev-seqera.io/orgs/ACME_Pharmaceuticals/workspaces/cascade-t2d-discovery/watch/2DOXAsX9V2FbkY",
+      "status": "SUCCEEDED",
+      "collection_complete": true,
+      "verified_artifacts": 81,
+      "workflow_run_name": "pr448-hiv-chromap-fixed-a9b588_r2",
+      "libraries": {
+        "HIV_CD86HI_48H_REP1": {
+          "clN_total_reads": 5102390,
+          "clN_mapped_reads": 5102390,
+          "clN_properly_paired_reads": 5102390,
+          "clN_duplicate_reads": 0,
+          "flagstat_qc_split": {
+            "in total": {
+              "passed": 5102390,
+              "failed": 0,
+              "total": 5102390
+            },
+            "primary": {
+              "passed": 5102390,
+              "failed": 0,
+              "total": 5102390
+            },
+            "secondary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "supplementary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "primary duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "mapped": {
+              "passed": 5102390,
+              "failed": 0,
+              "total": 5102390
+            },
+            "primary mapped": {
+              "passed": 5102390,
+              "failed": 0,
+              "total": 5102390
+            },
+            "paired in sequencing": {
+              "passed": 5102390,
+              "failed": 0,
+              "total": 5102390
+            },
+            "read1": {
+              "passed": 2551195,
+              "failed": 0,
+              "total": 2551195
+            },
+            "read2": {
+              "passed": 2551195,
+              "failed": 0,
+              "total": 2551195
+            },
+            "properly paired": {
+              "passed": 5102390,
+              "failed": 0,
+              "total": 5102390
+            },
+            "with itself and mate mapped": {
+              "passed": 5102390,
+              "failed": 0,
+              "total": 5102390
+            },
+            "singletons": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr (mapQ>=5)": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            }
+          },
+          "scale_factor": 0.195987,
+          "macs3_peak_count": 30501.0,
+          "frip": 0.22754,
+          "raw_fastqc_reads_per_mate": [
+            21260206,
+            21260206
+          ],
+          "raw_input_pairs": 21260206
+        },
+        "HIV_CD86HI_48H_REP2": {
+          "clN_total_reads": 7269776,
+          "clN_mapped_reads": 7269776,
+          "clN_properly_paired_reads": 7269776,
+          "clN_duplicate_reads": 0,
+          "flagstat_qc_split": {
+            "in total": {
+              "passed": 7269776,
+              "failed": 0,
+              "total": 7269776
+            },
+            "primary": {
+              "passed": 7269776,
+              "failed": 0,
+              "total": 7269776
+            },
+            "secondary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "supplementary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "primary duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "mapped": {
+              "passed": 7269776,
+              "failed": 0,
+              "total": 7269776
+            },
+            "primary mapped": {
+              "passed": 7269776,
+              "failed": 0,
+              "total": 7269776
+            },
+            "paired in sequencing": {
+              "passed": 7269776,
+              "failed": 0,
+              "total": 7269776
+            },
+            "read1": {
+              "passed": 3634888,
+              "failed": 0,
+              "total": 3634888
+            },
+            "read2": {
+              "passed": 3634888,
+              "failed": 0,
+              "total": 3634888
+            },
+            "properly paired": {
+              "passed": 7269776,
+              "failed": 0,
+              "total": 7269776
+            },
+            "with itself and mate mapped": {
+              "passed": 7269776,
+              "failed": 0,
+              "total": 7269776
+            },
+            "singletons": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr (mapQ>=5)": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            }
+          },
+          "scale_factor": 0.137556,
+          "macs3_peak_count": 35640.0,
+          "frip": 0.239254,
+          "raw_fastqc_reads_per_mate": [
+            20649365,
+            20649365
+          ],
+          "raw_input_pairs": 20649365
+        },
+        "MOCK_48H_REP1": {
+          "clN_total_reads": 5554034,
+          "clN_mapped_reads": 5554034,
+          "clN_properly_paired_reads": 5554034,
+          "clN_duplicate_reads": 0,
+          "flagstat_qc_split": {
+            "in total": {
+              "passed": 5554034,
+              "failed": 0,
+              "total": 5554034
+            },
+            "primary": {
+              "passed": 5554034,
+              "failed": 0,
+              "total": 5554034
+            },
+            "secondary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "supplementary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "primary duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "mapped": {
+              "passed": 5554034,
+              "failed": 0,
+              "total": 5554034
+            },
+            "primary mapped": {
+              "passed": 5554034,
+              "failed": 0,
+              "total": 5554034
+            },
+            "paired in sequencing": {
+              "passed": 5554034,
+              "failed": 0,
+              "total": 5554034
+            },
+            "read1": {
+              "passed": 2777017,
+              "failed": 0,
+              "total": 2777017
+            },
+            "read2": {
+              "passed": 2777017,
+              "failed": 0,
+              "total": 2777017
+            },
+            "properly paired": {
+              "passed": 5554034,
+              "failed": 0,
+              "total": 5554034
+            },
+            "with itself and mate mapped": {
+              "passed": 5554034,
+              "failed": 0,
+              "total": 5554034
+            },
+            "singletons": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr (mapQ>=5)": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            }
+          },
+          "scale_factor": 0.180049,
+          "macs3_peak_count": 36318.0,
+          "frip": 0.205352,
+          "raw_fastqc_reads_per_mate": [
+            21344854,
+            21344854
+          ],
+          "raw_input_pairs": 21344854
+        },
+        "MOCK_48H_REP2": {
+          "clN_total_reads": 8180562,
+          "clN_mapped_reads": 8180562,
+          "clN_properly_paired_reads": 8180562,
+          "clN_duplicate_reads": 0,
+          "flagstat_qc_split": {
+            "in total": {
+              "passed": 8180562,
+              "failed": 0,
+              "total": 8180562
+            },
+            "primary": {
+              "passed": 8180562,
+              "failed": 0,
+              "total": 8180562
+            },
+            "secondary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "supplementary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "primary duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "mapped": {
+              "passed": 8180562,
+              "failed": 0,
+              "total": 8180562
+            },
+            "primary mapped": {
+              "passed": 8180562,
+              "failed": 0,
+              "total": 8180562
+            },
+            "paired in sequencing": {
+              "passed": 8180562,
+              "failed": 0,
+              "total": 8180562
+            },
+            "read1": {
+              "passed": 4090281,
+              "failed": 0,
+              "total": 4090281
+            },
+            "read2": {
+              "passed": 4090281,
+              "failed": 0,
+              "total": 4090281
+            },
+            "properly paired": {
+              "passed": 8180562,
+              "failed": 0,
+              "total": 8180562
+            },
+            "with itself and mate mapped": {
+              "passed": 8180562,
+              "failed": 0,
+              "total": 8180562
+            },
+            "singletons": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr (mapQ>=5)": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            }
+          },
+          "scale_factor": 0.122241,
+          "macs3_peak_count": 50729.0,
+          "frip": 0.258836,
+          "raw_fastqc_reads_per_mate": [
+            23834826,
+            23834826
+          ],
+          "raw_input_pairs": 23834826
+        }
+      },
+      "merged_replicates": {
+        "HIV_CD86HI_48H": {
+          "clN_total_reads": 12372166,
+          "clN_mapped_reads": 12372166,
+          "clN_properly_paired_reads": 12372166,
+          "clN_duplicate_reads": 0,
+          "flagstat_qc_split": {
+            "in total": {
+              "passed": 12372166,
+              "failed": 0,
+              "total": 12372166
+            },
+            "primary": {
+              "passed": 12372166,
+              "failed": 0,
+              "total": 12372166
+            },
+            "secondary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "supplementary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "primary duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "mapped": {
+              "passed": 12372166,
+              "failed": 0,
+              "total": 12372166
+            },
+            "primary mapped": {
+              "passed": 12372166,
+              "failed": 0,
+              "total": 12372166
+            },
+            "paired in sequencing": {
+              "passed": 12372166,
+              "failed": 0,
+              "total": 12372166
+            },
+            "read1": {
+              "passed": 6186083,
+              "failed": 0,
+              "total": 6186083
+            },
+            "read2": {
+              "passed": 6186083,
+              "failed": 0,
+              "total": 6186083
+            },
+            "properly paired": {
+              "passed": 12372166,
+              "failed": 0,
+              "total": 12372166
+            },
+            "with itself and mate mapped": {
+              "passed": 12372166,
+              "failed": 0,
+              "total": 12372166
+            },
+            "singletons": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr (mapQ>=5)": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            }
+          },
+          "scale_factor": 0.0808266,
+          "macs3_peak_count": 67979.0,
+          "frip": 0.282765,
+          "derived_input_pairs": 41909571
+        },
+        "MOCK_48H": {
+          "clN_total_reads": 13734596,
+          "clN_mapped_reads": 13734596,
+          "clN_properly_paired_reads": 13734596,
+          "clN_duplicate_reads": 0,
+          "flagstat_qc_split": {
+            "in total": {
+              "passed": 13734596,
+              "failed": 0,
+              "total": 13734596
+            },
+            "primary": {
+              "passed": 13734596,
+              "failed": 0,
+              "total": 13734596
+            },
+            "secondary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "supplementary": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "primary duplicates": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "mapped": {
+              "passed": 13734596,
+              "failed": 0,
+              "total": 13734596
+            },
+            "primary mapped": {
+              "passed": 13734596,
+              "failed": 0,
+              "total": 13734596
+            },
+            "paired in sequencing": {
+              "passed": 13734596,
+              "failed": 0,
+              "total": 13734596
+            },
+            "read1": {
+              "passed": 6867298,
+              "failed": 0,
+              "total": 6867298
+            },
+            "read2": {
+              "passed": 6867298,
+              "failed": 0,
+              "total": 6867298
+            },
+            "properly paired": {
+              "passed": 13734596,
+              "failed": 0,
+              "total": 13734596
+            },
+            "with itself and mate mapped": {
+              "passed": 13734596,
+              "failed": 0,
+              "total": 13734596
+            },
+            "singletons": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            },
+            "with mate mapped to a different chr (mapQ>=5)": {
+              "passed": 0,
+              "failed": 0,
+              "total": 0
+            }
+          },
+          "scale_factor": 0.0728088,
+          "macs3_peak_count": 86331.0,
+          "frip": 0.2877,
+          "derived_input_pairs": 45179680
+        }
+      },
+      "initial_workflow_id": "52m3J1jROxpico",
+      "payload_sha256": "a903d5e98afb1d0a7fe5dbaafac90d69ef4e0687a8fca9781514778a989ed300",
+      "raw_input_pairs": 87089251,
+      "used_artifact_sha256": {
+        "multiqc/broad_peak/multiqc_data/multiqc_data.json": "c1fd7a817ecbd5bab1d353275f102758432ad119a6139b0a14a080e6f4fa0732",
+        "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam.flagstat": "4a0a6469fb82dec4c54aff38343eb30383f4064facfc56d9e9d00715a3192165",
+        "chromap/merged_library/bigwig/scale/HIV_CD86HI_48H_REP1.mLb.clN.scale_factor.txt": "eec4394a9dec2502ddd17edfc94afe1b1faf4876d7c892c888fc51de32b9ea88",
+        "chromap/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam.flagstat": "9a04b4c17b3cc5e2f969ded5eb02d5cc44dfe2463a98065c679a6ab801a027c9",
+        "chromap/merged_library/bigwig/scale/HIV_CD86HI_48H_REP2.mLb.clN.scale_factor.txt": "befd08826570ba52af492b4637e468475e29ae7530378ba2e51b025ae61c05bf",
+        "chromap/merged_library/samtools_stats/MOCK_48H_REP1.mLb.clN.sorted.bam.flagstat": "520a76a44ccb49a0033db2008248e723a6f7aea653d6408792e68d2318844656",
+        "chromap/merged_library/bigwig/scale/MOCK_48H_REP1.mLb.clN.scale_factor.txt": "065c4c34ab028f18804587d2991c0009ca916e75e5fb5f37c19b66f6bddda29b",
+        "chromap/merged_library/samtools_stats/MOCK_48H_REP2.mLb.clN.sorted.bam.flagstat": "4fe022ca8d0e45e33af80ea497bf4c83231a5ed84edfa871ad0664b87e816fc2",
+        "chromap/merged_library/bigwig/scale/MOCK_48H_REP2.mLb.clN.scale_factor.txt": "905c38e0e6b01881199cba23f1513b1445e67179938603ec96dc8c21ba676608",
+        "chromap/merged_replicate/samtools_stats/HIV_CD86HI_48H.mRp.clN.sorted.bam.flagstat": "f6d49b2e68e9f5e189c05b86a916e9073a4d9b922903ab39c3ed3eacef5d9564",
+        "chromap/merged_replicate/bigwig/scale/HIV_CD86HI_48H.mRp.clN.scale_factor.txt": "cbf899ad74a1d5a7cb66ef8164493c58a5392fb1f159edb1b7542dd1cb88768c",
+        "chromap/merged_replicate/samtools_stats/MOCK_48H.mRp.clN.sorted.bam.flagstat": "9ac68b5afc8e12468e0abcf6fe39853b2d721e11c98572bf472cbefcce294169",
+        "chromap/merged_replicate/bigwig/scale/MOCK_48H.mRp.clN.scale_factor.txt": "c220294c43cbd968ccea616536de4bcc70be46a94d1b5a0383d37c347aaf9723"
+      }
+    }
+  },
+  "aligners": {
+    "bwa": {
+      "state": "COMPARED",
+      "library_consensus": [
+        {
+          "path": "bwa/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.bed",
+          "kind": "bed",
+          "state": "COMPARED",
+          "unfixed_intervals": 74935,
+          "fixed_intervals": 74895,
+          "shared_exact_intervals": 69596,
+          "exact_interval_jaccard": 0.8674128175087868,
+          "intersection_bp": 28202686,
+          "union_bp": 28404679,
+          "basepair_jaccard": 0.9928887420273258,
+          "only_unfixed": 5339,
+          "only_fixed": 5299
+        },
+        {
+          "path": "bwa/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.featureCounts.tsv",
+          "kind": "counts",
+          "state": "COMPARED",
+          "baseline_version": "v2.0.1",
+          "other_version": "v2.0.1",
+          "baseline_intervals": 74935,
+          "other_intervals": 74895,
+          "shared_intervals": 69596,
+          "shared_samples": [
+            "HIV_CD86HI_48H_REP1",
+            "HIV_CD86HI_48H_REP2",
+            "MOCK_48H_REP1",
+            "MOCK_48H_REP2"
+          ],
+          "per_sample": [
+            {
+              "sample": "HIV_CD86HI_48H_REP1",
+              "baseline_total": 755866,
+              "other_total": 755472,
+              "total_delta": -394,
+              "changed_intervals": 1410,
+              "sum_abs_delta": 1564,
+              "max_abs_delta": 7,
+              "pearson_r": 0.9999514207404142
+            },
+            {
+              "sample": "HIV_CD86HI_48H_REP2",
+              "baseline_total": 1049954,
+              "other_total": 1049186,
+              "total_delta": -768,
+              "changed_intervals": 2243,
+              "sum_abs_delta": 2602,
+              "max_abs_delta": 7,
+              "pearson_r": 0.9999548646070389
+            },
+            {
+              "sample": "MOCK_48H_REP1",
+              "baseline_total": 728600,
+              "other_total": 728326,
+              "total_delta": -274,
+              "changed_intervals": 1079,
+              "sum_abs_delta": 1152,
+              "max_abs_delta": 7,
+              "pearson_r": 0.9999564713594564
+            },
+            {
+              "sample": "MOCK_48H_REP2",
+              "baseline_total": 1207725,
+              "other_total": 1207245,
+              "total_delta": -480,
+              "changed_intervals": 2250,
+              "sum_abs_delta": 2552,
+              "max_abs_delta": 8,
+              "pearson_r": 0.9999558078614819
+            }
+          ],
+          "changed_count_cells": 6982
+        }
+      ],
+      "merged_replicate_consensus": [
+        {
+          "path": "bwa/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.bed",
+          "kind": "bed",
+          "state": "COMPARED",
+          "unfixed_intervals": 116221,
+          "fixed_intervals": 115880,
+          "shared_exact_intervals": 108451,
+          "exact_interval_jaccard": 0.8770804690659119,
+          "intersection_bp": 41727435,
+          "union_bp": 42091451,
+          "basepair_jaccard": 0.9913517830497219,
+          "only_unfixed": 7770,
+          "only_fixed": 7429
+        },
+        {
+          "path": "bwa/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.featureCounts.tsv",
+          "kind": "counts",
+          "state": "COMPARED",
+          "baseline_version": "v2.0.1",
+          "other_version": "v2.0.1",
+          "baseline_intervals": 116221,
+          "other_intervals": 115880,
+          "shared_intervals": 108451,
+          "shared_samples": [
+            "HIV_CD86HI_48H_REP1",
+            "HIV_CD86HI_48H_REP2",
+            "MOCK_48H_REP1",
+            "MOCK_48H_REP2"
+          ],
+          "per_sample": [
+            {
+              "sample": "HIV_CD86HI_48H_REP1",
+              "baseline_total": 849066,
+              "other_total": 848202,
+              "total_delta": -864,
+              "changed_intervals": 1450,
+              "sum_abs_delta": 1590,
+              "max_abs_delta": 6,
+              "pearson_r": 0.9999555106823897
+            },
+            {
+              "sample": "HIV_CD86HI_48H_REP2",
+              "baseline_total": 1153180,
+              "other_total": 1152042,
+              "total_delta": -1138,
+              "changed_intervals": 2305,
+              "sum_abs_delta": 2666,
+              "max_abs_delta": 7,
+              "pearson_r": 0.9999575763358326
+            },
+            {
+              "sample": "MOCK_48H_REP1",
+              "baseline_total": 835699,
+              "other_total": 835329,
+              "total_delta": -370,
+              "changed_intervals": 1066,
+              "sum_abs_delta": 1121,
+              "max_abs_delta": 4,
+              "pearson_r": 0.9999634108737765
+            },
+            {
+              "sample": "MOCK_48H_REP2",
+              "baseline_total": 1335504,
+              "other_total": 1334980,
+              "total_delta": -524,
+              "changed_intervals": 2322,
+              "sum_abs_delta": 2612,
+              "max_abs_delta": 8,
+              "pearson_r": 0.9999604290221782
+            }
+          ],
+          "changed_count_cells": 7143
+        }
+      ]
+    },
+    "chromap": {
+      "state": "COMPARED",
+      "library_consensus": [
+        {
+          "path": "chromap/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.bed",
+          "kind": "bed",
+          "state": "COMPARED",
+          "unfixed_intervals": 73670,
+          "fixed_intervals": 73568,
+          "shared_exact_intervals": 68598,
+          "exact_interval_jaccard": 0.8723041709053917,
+          "intersection_bp": 29659087,
+          "union_bp": 29836396,
+          "basepair_jaccard": 0.9940572916380384,
+          "only_unfixed": 5072,
+          "only_fixed": 4970
+        },
+        {
+          "path": "chromap/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.featureCounts.tsv",
+          "kind": "counts",
+          "state": "COMPARED",
+          "baseline_version": "v2.0.1",
+          "other_version": "v2.0.1",
+          "baseline_intervals": 73670,
+          "other_intervals": 73568,
+          "shared_intervals": 68598,
+          "shared_samples": [
+            "HIV_CD86HI_48H_REP1",
+            "HIV_CD86HI_48H_REP2",
+            "MOCK_48H_REP1",
+            "MOCK_48H_REP2"
+          ],
+          "per_sample": [
+            {
+              "sample": "HIV_CD86HI_48H_REP1",
+              "baseline_total": 760127,
+              "other_total": 760435,
+              "total_delta": 308,
+              "changed_intervals": 1675,
+              "sum_abs_delta": 1855,
+              "max_abs_delta": 5,
+              "pearson_r": 0.9999450173617033
+            },
+            {
+              "sample": "HIV_CD86HI_48H_REP2",
+              "baseline_total": 1054408,
+              "other_total": 1055027,
+              "total_delta": 619,
+              "changed_intervals": 2633,
+              "sum_abs_delta": 3060,
+              "max_abs_delta": 7,
+              "pearson_r": 0.9999490234269306
+            },
+            {
+              "sample": "MOCK_48H_REP1",
+              "baseline_total": 728717,
+              "other_total": 728350,
+              "total_delta": -367,
+              "changed_intervals": 1191,
+              "sum_abs_delta": 1251,
+              "max_abs_delta": 3,
+              "pearson_r": 0.9999555182663789
+            },
+            {
+              "sample": "MOCK_48H_REP2",
+              "baseline_total": 1208273,
+              "other_total": 1208796,
+              "total_delta": 523,
+              "changed_intervals": 2566,
+              "sum_abs_delta": 2912,
+              "max_abs_delta": 8,
+              "pearson_r": 0.9999508148773039
+            }
+          ],
+          "changed_count_cells": 8065
+        }
+      ],
+      "merged_replicate_consensus": [
+        {
+          "path": "chromap/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.bed",
+          "kind": "bed",
+          "state": "COMPARED",
+          "unfixed_intervals": 112658,
+          "fixed_intervals": 112481,
+          "shared_exact_intervals": 105694,
+          "exact_interval_jaccard": 0.8848758842982125,
+          "intersection_bp": 42809882,
+          "union_bp": 43094773,
+          "basepair_jaccard": 0.9933891982677342,
+          "only_unfixed": 6964,
+          "only_fixed": 6787
+        },
+        {
+          "path": "chromap/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.featureCounts.tsv",
+          "kind": "counts",
+          "state": "COMPARED",
+          "baseline_version": "v2.0.1",
+          "other_version": "v2.0.1",
+          "baseline_intervals": 112658,
+          "other_intervals": 112481,
+          "shared_intervals": 105694,
+          "shared_samples": [
+            "HIV_CD86HI_48H_REP1",
+            "HIV_CD86HI_48H_REP2",
+            "MOCK_48H_REP1",
+            "MOCK_48H_REP2"
+          ],
+          "per_sample": [
+            {
+              "sample": "HIV_CD86HI_48H_REP1",
+              "baseline_total": 848108,
+              "other_total": 848068,
+              "total_delta": -40,
+              "changed_intervals": 1709,
+              "sum_abs_delta": 1886,
+              "max_abs_delta": 5,
+              "pearson_r": 0.9999495786570135
+            },
+            {
+              "sample": "HIV_CD86HI_48H_REP2",
+              "baseline_total": 1152115,
+              "other_total": 1152354,
+              "total_delta": 239,
+              "changed_intervals": 2702,
+              "sum_abs_delta": 3109,
+              "max_abs_delta": 7,
+              "pearson_r": 0.9999536579726611
+            },
+            {
+              "sample": "MOCK_48H_REP1",
+              "baseline_total": 830705,
+              "other_total": 830680,
+              "total_delta": -25,
+              "changed_intervals": 1212,
+              "sum_abs_delta": 1274,
+              "max_abs_delta": 5,
+              "pearson_r": 0.9999590353642214
+            },
+            {
+              "sample": "MOCK_48H_REP2",
+              "baseline_total": 1330099,
+              "other_total": 1330645,
+              "total_delta": 546,
+              "changed_intervals": 2668,
+              "sum_abs_delta": 3022,
+              "max_abs_delta": 8,
+              "pearson_r": 0.9999548732530439
+            }
+          ],
+          "changed_count_cells": 8291
+        }
+      ]
+    }
+  },
+  "issues": [],
+  "history": {
+    "ena_recovery": {
+      "scientific_source_and_parameters_unchanged": true,
+      "same_arm_resume_only": true,
+      "filePorter.maxRetries": 8,
+      "filePorter.maxTransfers": 2,
+      "failed_workflows_retained_in_history": true
+    },
+    "nextflow": "26.04.6",
+    "blacklist_portability": true
+  },
+  "provenance": {
+    "campaign.json": "5e46342df95bb1516ca214881150d377431c0bbd5b164866b52584eab8d2bb63",
+    "comparison.json": "c072584dd791ced3704990aac1c5c747f0982091f97098928ab4cf2aa5584d6d",
+    "live-status.json": "4a9169361b67b1dc4abf6601e23558b5ca151576ff5dcfa2d0d217b99f158a77",
+    "outputs/manifest.json": "720d7a497c67ce2aea601275864e3b7a893bba057f563efd8bbd2db7374f5a0e",
+    "hiv-input-provenance.json": "a5b3d9caa08af0199ed2c78ac1072bfebd55fb490103a49a287a5288e1c8567f"
+  },
+  "generator_sha256": "26e96c21a6d07260530953115e8890c5f86f917f1d904e96be96f12c17190eb3",
+  "parameter_evidence": {
+    "observed_at": "2026-10-29T06:40:43.160109+00:00",
+    "source_pins": {
+      "unfixed": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "fixed": "a9b588235e4a1ceb3c8838acad430628c5737c86"
+    },
+    "payload_hashes_verified": true,
+    "payloads": [
+      {
+        "case": "pr448-hiv-bwa-unfixed-a9b588",
+        "sha256": "6e351aa067451371afe29bba75ae9fa00730537f9daf43f70b6b9d44accf6baa"
+      },
+      {
+        "case": "pr448-hiv-bwa-fixed-a9b588",
+        "sha256": "a2cdc859d6045b2c93f487e9ab770b6a46353f18e2bef2f1d90084d3367206b3"
+      },
+      {
+        "case": "pr448-hiv-chromap-unfixed-a9b588",
+        "sha256": "e49c1a0468ded0cd9b3b99bce346059527501d26df7946a9d1916a296a7bd8ee"
+      },
+      {
+        "case": "pr448-hiv-chromap-fixed-a9b588",
+        "sha256": "a903d5e98afb1d0a7fe5dbaafac90d69ef4e0687a8fca9781514778a989ed300"
+      }
+    ],
+    "within_aligner": {
+      "bwa": {
+        "parameter_count": 41,
+        "only_parameter_differences": [
+          "outdir"
+        ],
+        "config_equal": true,
+        "config_supplied": false,
+        "compute_environment_equal": true,
+        "nextflow_version_equal": true
+      },
+      "chromap": {
+        "parameter_count": 41,
+        "only_parameter_differences": [
+          "outdir"
+        ],
+        "config_equal": true,
+        "config_supplied": true,
+        "compute_environment_equal": true,
+        "nextflow_version_equal": true
+      }
+    },
+    "common_settings": {
+      "read_length": 50,
+      "macs_gsize": 2701262066,
+      "keep_dups": false,
+      "mito_name": "chrM",
+      "skip_multiqc": false
+    }
+  },
+  "parameter_evidence_sha256": "35bc64836ca649928ad3f923f348d02434eefff673fa1dc66a5bad24a8aff740",
+  "historical_count_agreement": {
+    "evidence": "historical-comparison.json",
+    "sha256": "2cad2ac873e744081b26e6b273b0c5cdc36c5ae3d8a5d413fe2691aa836881a2",
+    "historical_dev_vs_new_fixed_exact": true,
+    "historical_pr448_vs_new_unfixed_exact": true,
+    "fixed_matrix_regions": 74895,
+    "fixed_matrix_count_cells": 299580,
+    "reproduction_script_sha256": "e12794e8418a05745cdafeb57a6db13ad9691dee1cea1ccd68035cdc75a8cc9e",
+    "augmentation_driver_sha256": "5ae9cb93fe8d58e72934ccf309a67964dc40d073090fed6f9e2536b070e557b3"
+  }
+}

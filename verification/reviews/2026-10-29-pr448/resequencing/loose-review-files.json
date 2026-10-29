@@ -1,0 +1,51 @@
+[
+  {
+    "path": "reports/RESEQUENCING-REPORT.md",
+    "source_package_path": "real-samples/REPORT.md",
+    "bytes": 4909,
+    "sha256": "ab2013f33dfc995d14f4979fba49c0102983f377270f22dd02039dcdcdc26f4c",
+    "copy": "exact original public text"
+  },
+  {
+    "path": "reports/CORE-COMPARISON.md",
+    "source_package_path": "real-samples/full-core-comparison/COMPARISON.md",
+    "bytes": 11701,
+    "sha256": "33cd29cf1f32f8f713a9887d20a756e8bdf4799a088b858a9e3723438f733d91",
+    "copy": "exact original public text"
+  },
+  {
+    "path": "reports/RESIDUAL-ONE-COUNT.md",
+    "source_package_path": "real-samples/residual-one-count/REPORT.md",
+    "bytes": 2336,
+    "sha256": "da33612cacec9b9d69375793bac0855d1ef99ec11f64a6272fe7ef2224fbfe48",
+    "copy": "exact original public text"
+  },
+  {
+    "path": "review/source-pins.json",
+    "source_package_path": "source-pins.json",
+    "bytes": 1118,
+    "sha256": "d7b04be65334ef76726286a34742cb56ba4d0d73a3f9ee2b63d4fd58fe90fef0",
+    "copy": "exact original public text"
+  },
+  {
+    "path": "review/selected-inputs.json",
+    "source_package_path": "real-samples/selected-inputs.json",
+    "bytes": 8780,
+    "sha256": "18a896e47e42e151312d6393457c0191d71cce3aed7220df644aa044aa013bd8",
+    "copy": "exact original public text"
+  },
+  {
+    "path": "review/core-completion-check.json",
+    "source_package_path": "real-samples/full-core/completion-check.json",
+    "bytes": 12838,
+    "sha256": "ac346e6fc733bb18fcd3e66774b8f94dfe2e85bb999cc95df9a51ef38d14b0e2",
+    "copy": "exact original public text"
+  },
+  {
+    "path": "review/fixed-core-params.json",
+    "source_package_path": "real-samples/full-core/cases/fixed/params.json",
+    "bytes": 923,
+    "sha256": "1a96fcaffaf4df357f475208cd69eb9b3f8c67dce41cc0a26cc9126d13dd8e5f",
+    "copy": "exact original public text"
+  }
+]

@@ -1,0 +1,7 @@
+The full requested public control belongs in the branch through the ordered parts. The unsharded tarball is staging-only: it exceeds Git’s per-file limit and duplicates the same bytes already in the parts.
+
+Recommended normal-Git contents are exactly `publish-files.json`: ten parts (each 43MiB or less), the parts/member/source manifests and checksum files, the portable streaming verifier, distribution/verification receipts, three concise scientific reports and four small selected source/input/completion/parameter files. This keeps the full 4,565-file dataset present while limiting the archive changes to ten binary paths. The raw per-task files remain inspectable after verification/unpacking and individually indexed.
+
+No Git LFS pointer or unpublished-release link is required for completeness. The parts are the real compressed bytes and concatenate into the deterministic full archive. A release asset mirror is optional and remains uncreated. If later authorized, publish the full tar as a release asset using the same checksum; do not commit that unsharded copy.
+
+Before integration, review the source package’s licenses, the explicitly documented scientific/test limits and the exact publication list. The staged list excludes the full tar, builder and any B1/private investigation files. No source package or user files were changed, and no scientific jobs, commits or remote publication were performed.

@@ -1,0 +1,26 @@
+[
+  {
+    "version": "0.2.4",
+    "fixture": "two_actual_pairs",
+    "exit_code": 0,
+    "sam_records": 2
+  },
+  {
+    "version": "0.2.4",
+    "fixture": "unequal_pair_only",
+    "exit_code": 0,
+    "sam_records": 0
+  },
+  {
+    "version": "0.3.2",
+    "fixture": "two_actual_pairs",
+    "exit_code": 0,
+    "sam_records": 4
+  },
+  {
+    "version": "0.3.2",
+    "fixture": "unequal_pair_only",
+    "exit_code": 0,
+    "sam_records": 2
+  }
+]

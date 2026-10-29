@@ -1,0 +1,213 @@
+INFO  @ 29 Oct 2026 10:23:10: [53 MB] 
+# Command line: callpeak --keep-dup all --nomodel --broad --broad-cutoff 0.1 --gsize 2701262066 --format BAMPE --name HIV_CD86HI_48H_REP1.mLb.clN --treatment HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam
+# ARGUMENTS LIST:
+# name = HIV_CD86HI_48H_REP1.mLb.clN
+# format = BAMPE
+# ChIP-seq file = ['HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam']
+# control file = None
+# effective genome size = 2.70e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is on
+# Paired-End mode is on
+ 
+INFO  @ 29 Oct 2026 10:23:10: [53 MB] #1 read fragment files... 
+INFO  @ 29 Oct 2026 10:23:10: [53 MB] #1 read treatment fragments... 
+INFO  @ 29 Oct 2026 10:23:12: [94 MB]  1000000 fragments parsed 
+INFO  @ 29 Oct 2026 10:23:15: [105 MB]  2000000 fragments parsed 
+INFO  @ 29 Oct 2026 10:23:16: [125 MB] 2569317 fragments have been read. 
+INFO  @ 29 Oct 2026 10:23:17: [125 MB] #1 mean fragment size is determined as 141.6 bp from treatment 
+INFO  @ 29 Oct 2026 10:23:17: [125 MB] #1 fragment size = 141.6 
+INFO  @ 29 Oct 2026 10:23:17: [125 MB] #1  total fragments in treatment: 2569317 
+INFO  @ 29 Oct 2026 10:23:17: [125 MB] #1 finished! 
+INFO  @ 29 Oct 2026 10:23:17: [125 MB] #2 Build Peak Model... 
+INFO  @ 29 Oct 2026 10:23:17: [125 MB] #2 Skipped... 
+INFO  @ 29 Oct 2026 10:23:17: [125 MB] #3 Call peaks... 
+INFO  @ 29 Oct 2026 10:23:17: [125 MB] #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ 29 Oct 2026 10:23:17: [125 MB] #3 Pre-compute pvalue-qvalue table... 
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+INFO  @ 29 Oct 2026 10:23:28: [206 MB] #3 Call peaks for each chromosome... 
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+Exception ignored in: <_io.BufferedWriter name=b'LOCAL_TMP'>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.13/site-packages/MACS3/Commands/callpeak_cmd.py", line 265, in run
+    peakdetect.call_peaks()
+OSError: [Errno 28] No space left on device
+INFO  @ 29 Oct 2026 10:23:37: [214 MB] #4 Write output xls file... HIV_CD86HI_48H_REP1.mLb.clN_peaks.xls 
+INFO  @ 29 Oct 2026 10:23:37: [214 MB] #4 Write broad peak in broadPeak format file... HIV_CD86HI_48H_REP1.mLb.clN_peaks.broadPeak 
+INFO  @ 29 Oct 2026 10:23:37: [214 MB] #4 Write broad peak in bed12/gappedPeak format file... HIV_CD86HI_48H_REP1.mLb.clN_peaks.gappedPeak 
+INFO  @ 29 Oct 2026 10:23:37: [214 MB] Done! 

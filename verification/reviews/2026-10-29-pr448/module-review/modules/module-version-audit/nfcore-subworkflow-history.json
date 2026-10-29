@@ -1,0 +1,701 @@
+{
+  "repository": "https://github.com/nf-core/modules",
+  "pinned_master": "a582d5633f7df32396681ef4458068e2b509ca91",
+  "pipeline_merge": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+  "scope": "Seven shared subworkflows changed by PR448; exact installed modules.json revisions to pinned master.",
+  "subworkflows": [
+    {
+      "name": "bam_markduplicates_picard",
+      "path": "subworkflows/nf-core/bam_markduplicates_picard",
+      "installed_sha": "9339809fcb90af8a8b7051e6cd914894d5c52002",
+      "base_installed_sha": "1943aa60f7490c3d6740e8872e6e69122ccc8087",
+      "installed_is_ancestor_of_pinned_master": true,
+      "pipeline_main_matches_declared_install": true,
+      "pipeline_main_sha256": "470499ce52023442e4199606886c301ccd945f74e7d5c5268c83dc2f37b52515",
+      "installed_main_sha256": "470499ce52023442e4199606886c301ccd945f74e7d5c5268c83dc2f37b52515",
+      "subsequent_commit_count": 4,
+      "subsequent_main_change_count": 1,
+      "subsequent_commits": [
+        {
+          "sha": "a582d5633f7df32396681ef4458068e2b509ca91",
+          "author_date": "2026-10-28T17:44:43Z",
+          "committer_date": "2026-10-28T17:44:43Z",
+          "subject": "Bump samtools to 1.25 (#13473)",
+          "commit_url": "https://github.com/nf-core/modules/commit/a582d5633f7df32396681ef4458068e2b509ca91",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13473"
+          ],
+          "files": [
+            "subworkflows/nf-core/bam_markduplicates_picard/tests/main.nf.test.snap"
+          ],
+          "main_nf_changed": false,
+          "explicit_fix_keyword": false,
+          "classification": "tests-only",
+          "diff_review": "Only samtools-dependent snapshots change in these subworkflow directories; no production wiring change.",
+          "postdates_pr448_merge": true,
+          "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+        },
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "author_date": "2026-10-27T21:05:49+01:00",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "subworkflows/nf-core/bam_markduplicates_picard/main.nf"
+          ],
+          "main_nf_changed": true,
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "Only a common copyright/licence header is prepended; prior main.nf bytes are unchanged.",
+          "postdates_pr448_merge": true,
+          "body_identical_after_header_removal": true,
+          "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+        },
+        {
+          "sha": "6ef220fd9252b42fb3c50348bbdbcb6246730686",
+          "author_date": "2026-09-04T14:23:17Z",
+          "committer_date": "2026-09-04T14:23:17Z",
+          "subject": "fix: align meta.yml input/output with main.nf across all modules and subworkflows (#12882)",
+          "commit_url": "https://github.com/nf-core/modules/commit/6ef220fd9252b42fb3c50348bbdbcb6246730686",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12882"
+          ],
+          "files": [
+            "subworkflows/nf-core/bam_markduplicates_picard/meta.yml"
+          ],
+          "main_nf_changed": false,
+          "explicit_fix_keyword": true,
+          "classification": "documentation-only",
+          "diff_review": "meta.yml is corrected to describe existing take/emit channels; main.nf is unchanged, including existing index/version-topic interfaces.",
+          "postdates_pr448_merge": false,
+          "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+        },
+        {
+          "sha": "fe08122c3dc2f2d7890daba06f6c90e570ef01de",
+          "author_date": "2026-08-20T15:40:27Z",
+          "committer_date": "2026-08-20T15:40:27Z",
+          "subject": "Bump Picard to 3.5.0 (#12753)",
+          "commit_url": "https://github.com/nf-core/modules/commit/fe08122c3dc2f2d7890daba06f6c90e570ef01de",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12753"
+          ],
+          "files": [
+            "subworkflows/nf-core/bam_markduplicates_picard/tests/main.nf.test",
+            "subworkflows/nf-core/bam_markduplicates_picard/tests/main.nf.test.snap"
+          ],
+          "main_nf_changed": false,
+          "explicit_fix_keyword": false,
+          "classification": "tests-only",
+          "diff_review": "Only Picard-dependent subworkflow tests/snapshots change; module version changes are classified in the companion module audit.",
+          "postdates_pr448_merge": false,
+          "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+        }
+      ],
+      "statically_reachable_at_merge": true,
+      "audit_status": "history-and-diffs-reviewed"
+    },
+    {
+      "name": "bam_sort_stats_samtools",
+      "path": "subworkflows/nf-core/bam_sort_stats_samtools",
+      "installed_sha": "9339809fcb90af8a8b7051e6cd914894d5c52002",
+      "base_installed_sha": "4352dbdb09ec40db71e9b172b97a01dcf5622c26",
+      "installed_is_ancestor_of_pinned_master": true,
+      "pipeline_main_matches_declared_install": true,
+      "pipeline_main_sha256": "ab7e934299332d40c67b90c8646d1f3eb446d36f2f27844eb84cbf4074d0e30f",
+      "installed_main_sha256": "ab7e934299332d40c67b90c8646d1f3eb446d36f2f27844eb84cbf4074d0e30f",
+      "subsequent_commit_count": 4,
+      "subsequent_main_change_count": 1,
+      "subsequent_commits": [
+        {
+          "sha": "a582d5633f7df32396681ef4458068e2b509ca91",
+          "author_date": "2026-10-28T17:44:43Z",
+          "committer_date": "2026-10-28T17:44:43Z",
+          "subject": "Bump samtools to 1.25 (#13473)",
+          "commit_url": "https://github.com/nf-core/modules/commit/a582d5633f7df32396681ef4458068e2b509ca91",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13473"
+          ],
+          "files": [
+            "subworkflows/nf-core/bam_sort_stats_samtools/tests/main.nf.test.snap"
+          ],
+          "main_nf_changed": false,
+          "explicit_fix_keyword": false,
+          "classification": "tests-only",
+          "diff_review": "Only samtools-dependent snapshots change in these subworkflow directories; no production wiring change.",
+          "postdates_pr448_merge": true,
+          "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+        },
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "author_date": "2026-10-27T21:05:49+01:00",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "subworkflows/nf-core/bam_sort_stats_samtools/main.nf"
+          ],
+          "main_nf_changed": true,
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "Only a common copyright/licence header is prepended; prior main.nf bytes are unchanged.",
+          "postdates_pr448_merge": true,
+          "body_identical_after_header_removal": true,
+          "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+        },
+        {
+          "sha": "5f344f0e41fdfaf2506f89400e42a2689d6ab323",
+          "author_date": "2026-10-19T16:32:10+02:00",
+          "committer_date": "2026-10-19T16:32:10+02:00",
+          "subject": "samtools: Add Seqera container metadata and conda lock files (#13382)",
+          "commit_url": "https://github.com/nf-core/modules/commit/5f344f0e41fdfaf2506f89400e42a2689d6ab323",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13382"
+          ],
+          "files": [
+            "subworkflows/nf-core/bam_sort_stats_samtools/tests/main.nf.test",
+            "subworkflows/nf-core/bam_sort_stats_samtools/tests/main.nf.test.snap"
+          ],
+          "main_nf_changed": false,
+          "explicit_fix_keyword": false,
+          "classification": "tests-only",
+          "diff_review": "Only samtools-dependent test assertions/snapshots change; production wiring is unchanged.",
+          "postdates_pr448_merge": true,
+          "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+        },
+        {
+          "sha": "6ef220fd9252b42fb3c50348bbdbcb6246730686",
+          "author_date": "2026-09-04T14:23:17Z",
+          "committer_date": "2026-09-04T14:23:17Z",
+          "subject": "fix: align meta.yml input/output with main.nf across all modules and subworkflows (#12882)",
+          "commit_url": "https://github.com/nf-core/modules/commit/6ef220fd9252b42fb3c50348bbdbcb6246730686",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12882"
+          ],
+          "files": [
+            "subworkflows/nf-core/bam_sort_stats_samtools/meta.yml"
+          ],
+          "main_nf_changed": false,
+          "explicit_fix_keyword": true,
+          "classification": "documentation-only",
+          "diff_review": "meta.yml is corrected to describe existing take/emit channels; main.nf is unchanged, including existing index/version-topic interfaces.",
+          "postdates_pr448_merge": false,
+          "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+        }
+      ],
+      "statically_reachable_at_merge": true,
+      "audit_status": "history-and-diffs-reviewed"
+    },
+    {
+      "name": "bam_stats_samtools",
+      "path": "subworkflows/nf-core/bam_stats_samtools",
+      "installed_sha": "9339809fcb90af8a8b7051e6cd914894d5c52002",
+      "base_installed_sha": "f4596fe0bdc096cf53ec4497e83defdb3a94ff62",
+      "installed_is_ancestor_of_pinned_master": true,
+      "pipeline_main_matches_declared_install": true,
+      "pipeline_main_sha256": "ea73f9ab71c88ae03b2e2edb9e98736d0533f3ff2a1604eb28ef5aecb3e44c5a",
+      "installed_main_sha256": "ea73f9ab71c88ae03b2e2edb9e98736d0533f3ff2a1604eb28ef5aecb3e44c5a",
+      "subsequent_commit_count": 4,
+      "subsequent_main_change_count": 1,
+      "subsequent_commits": [
+        {
+          "sha": "a582d5633f7df32396681ef4458068e2b509ca91",
+          "author_date": "2026-10-28T17:44:43Z",
+          "committer_date": "2026-10-28T17:44:43Z",
+          "subject": "Bump samtools to 1.25 (#13473)",
+          "commit_url": "https://github.com/nf-core/modules/commit/a582d5633f7df32396681ef4458068e2b509ca91",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13473"
+          ],
+          "files": [
+            "subworkflows/nf-core/bam_stats_samtools/tests/main.nf.test.snap"
+          ],
+          "main_nf_changed": false,
+          "explicit_fix_keyword": false,
+          "classification": "tests-only",
+          "diff_review": "Only samtools-dependent snapshots change in these subworkflow directories; no production wiring change.",
+          "postdates_pr448_merge": true,
+          "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+        },
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "author_date": "2026-10-27T21:05:49+01:00",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "subworkflows/nf-core/bam_stats_samtools/main.nf"
+          ],
+          "main_nf_changed": true,
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "Only a common copyright/licence header is prepended; prior main.nf bytes are unchanged.",
+          "postdates_pr448_merge": true,
+          "body_identical_after_header_removal": true,
+          "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+        },
+        {
+          "sha": "5f344f0e41fdfaf2506f89400e42a2689d6ab323",
+          "author_date": "2026-10-19T16:32:10+02:00",
+          "committer_date": "2026-10-19T16:32:10+02:00",
+          "subject": "samtools: Add Seqera container metadata and conda lock files (#13382)",
+          "commit_url": "https://github.com/nf-core/modules/commit/5f344f0e41fdfaf2506f89400e42a2689d6ab323",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13382"
+          ],
+          "files": [
+            "subworkflows/nf-core/bam_stats_samtools/tests/main.nf.test.snap"
+          ],
+          "main_nf_changed": false,
+          "explicit_fix_keyword": false,
+          "classification": "tests-only",
+          "diff_review": "Only samtools-dependent test assertions/snapshots change; production wiring is unchanged.",
+          "postdates_pr448_merge": true,
+          "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+        },
+        {
+          "sha": "6ef220fd9252b42fb3c50348bbdbcb6246730686",
+          "author_date": "2026-09-04T14:23:17Z",
+          "committer_date": "2026-09-04T14:23:17Z",
+          "subject": "fix: align meta.yml input/output with main.nf across all modules and subworkflows (#12882)",
+          "commit_url": "https://github.com/nf-core/modules/commit/6ef220fd9252b42fb3c50348bbdbcb6246730686",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12882"
+          ],
+          "files": [
+            "subworkflows/nf-core/bam_stats_samtools/meta.yml"
+          ],
+          "main_nf_changed": false,
+          "explicit_fix_keyword": true,
+          "classification": "documentation-only",
+          "diff_review": "meta.yml is corrected to describe existing take/emit channels; main.nf is unchanged, including existing index/version-topic interfaces.",
+          "postdates_pr448_merge": false,
+          "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+        }
+      ],
+      "statically_reachable_at_merge": true,
+      "audit_status": "history-and-diffs-reviewed"
+    },
+    {
+      "name": "fastq_align_bowtie2",
+      "path": "subworkflows/nf-core/fastq_align_bowtie2",
+      "installed_sha": "a0961c41021561ac7cf139f86bd7812a2f99e994",
+      "base_installed_sha": "0fe30831abbc2ed115e46e92330edf38f56edc3d",
+      "installed_is_ancestor_of_pinned_master": true,
+      "pipeline_main_matches_declared_install": true,
+      "pipeline_main_sha256": "4b3099f3ca8a6881d18df0586b10e886cf08056c098541ba3a2e6f3562e8a8e7",
+      "installed_main_sha256": "4b3099f3ca8a6881d18df0586b10e886cf08056c098541ba3a2e6f3562e8a8e7",
+      "subsequent_commit_count": 3,
+      "subsequent_main_change_count": 1,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "author_date": "2026-10-27T21:05:49+01:00",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "subworkflows/nf-core/fastq_align_bowtie2/main.nf"
+          ],
+          "main_nf_changed": true,
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "Only a common copyright/licence header is prepended; prior main.nf bytes are unchanged.",
+          "postdates_pr448_merge": true,
+          "body_identical_after_header_removal": true,
+          "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+        },
+        {
+          "sha": "6ef220fd9252b42fb3c50348bbdbcb6246730686",
+          "author_date": "2026-09-04T14:23:17Z",
+          "committer_date": "2026-09-04T14:23:17Z",
+          "subject": "fix: align meta.yml input/output with main.nf across all modules and subworkflows (#12882)",
+          "commit_url": "https://github.com/nf-core/modules/commit/6ef220fd9252b42fb3c50348bbdbcb6246730686",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12882"
+          ],
+          "files": [
+            "subworkflows/nf-core/fastq_align_bowtie2/meta.yml"
+          ],
+          "main_nf_changed": false,
+          "explicit_fix_keyword": true,
+          "classification": "documentation-only",
+          "diff_review": "meta.yml is corrected to describe existing take/emit channels; main.nf is unchanged, including existing index/version-topic interfaces.",
+          "postdates_pr448_merge": false,
+          "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+        },
+        {
+          "sha": "0cd85f32cf1a1828205b16e4267277ba9457570b",
+          "author_date": "2026-07-15T10:16:26+02:00",
+          "committer_date": "2026-07-15T08:16:26Z",
+          "subject": "updated test evaluation strategy - check for files and statistics, instead of getREADs using the nf-bam plugin to avoid linting conflicts. (#12348)",
+          "commit_url": "https://github.com/nf-core/modules/commit/0cd85f32cf1a1828205b16e4267277ba9457570b",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12348"
+          ],
+          "files": [
+            "subworkflows/nf-core/fastq_align_bowtie2/tests/main.nf.test.snap"
+          ],
+          "main_nf_changed": false,
+          "explicit_fix_keyword": false,
+          "classification": "tests-only",
+          "diff_review": "Only fastq_align_bowtie2 nf-test snapshot changes; production wiring is unchanged.",
+          "postdates_pr448_merge": false,
+          "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+        }
+      ],
+      "statically_reachable_at_merge": true,
+      "audit_status": "history-and-diffs-reviewed"
+    },
+    {
+      "name": "fastq_align_bwa",
+      "path": "subworkflows/nf-core/fastq_align_bwa",
+      "installed_sha": "cbb7a6362981f07d2c26e43f8186025320569ffd",
+      "base_installed_sha": "b97197968ac12dde2463fa54541f6350c46f2035",
+      "installed_is_ancestor_of_pinned_master": true,
+      "pipeline_main_matches_declared_install": true,
+      "pipeline_main_sha256": "b226397db5813fe6716a604427cb1eda2c27e340717eefaa37bfd101d000240c",
+      "installed_main_sha256": "b226397db5813fe6716a604427cb1eda2c27e340717eefaa37bfd101d000240c",
+      "subsequent_commit_count": 2,
+      "subsequent_main_change_count": 1,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "author_date": "2026-10-27T21:05:49+01:00",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "subworkflows/nf-core/fastq_align_bwa/main.nf"
+          ],
+          "main_nf_changed": true,
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "Only a common copyright/licence header is prepended; prior main.nf bytes are unchanged.",
+          "postdates_pr448_merge": true,
+          "body_identical_after_header_removal": true,
+          "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+        },
+        {
+          "sha": "6ef220fd9252b42fb3c50348bbdbcb6246730686",
+          "author_date": "2026-09-04T14:23:17Z",
+          "committer_date": "2026-09-04T14:23:17Z",
+          "subject": "fix: align meta.yml input/output with main.nf across all modules and subworkflows (#12882)",
+          "commit_url": "https://github.com/nf-core/modules/commit/6ef220fd9252b42fb3c50348bbdbcb6246730686",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12882"
+          ],
+          "files": [
+            "subworkflows/nf-core/fastq_align_bwa/meta.yml"
+          ],
+          "main_nf_changed": false,
+          "explicit_fix_keyword": true,
+          "classification": "documentation-only",
+          "diff_review": "meta.yml is corrected to describe existing take/emit channels; main.nf is unchanged, including existing index/version-topic interfaces.",
+          "postdates_pr448_merge": false,
+          "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+        }
+      ],
+      "statically_reachable_at_merge": true,
+      "audit_status": "history-and-diffs-reviewed"
+    },
+    {
+      "name": "fastq_align_chromap",
+      "path": "subworkflows/nf-core/fastq_align_chromap",
+      "installed_sha": "d92e0f8276a79d316fd324eae0edefeaf680804c",
+      "base_installed_sha": "cfd937a668919d948f6fcbf4218e79de50c2f36f",
+      "installed_is_ancestor_of_pinned_master": true,
+      "pipeline_main_matches_declared_install": true,
+      "pipeline_main_sha256": "f5e215f390829836fa21b35bc08075058d452d3b7f709ed364a35ff4a1690273",
+      "installed_main_sha256": "f5e215f390829836fa21b35bc08075058d452d3b7f709ed364a35ff4a1690273",
+      "subsequent_commit_count": 3,
+      "subsequent_main_change_count": 1,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "author_date": "2026-10-27T21:05:49+01:00",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "subworkflows/nf-core/fastq_align_chromap/main.nf"
+          ],
+          "main_nf_changed": true,
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "Only a common copyright/licence header is prepended; prior main.nf bytes are unchanged.",
+          "postdates_pr448_merge": true,
+          "body_identical_after_header_removal": true,
+          "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+        },
+        {
+          "sha": "6ef220fd9252b42fb3c50348bbdbcb6246730686",
+          "author_date": "2026-09-04T14:23:17Z",
+          "committer_date": "2026-09-04T14:23:17Z",
+          "subject": "fix: align meta.yml input/output with main.nf across all modules and subworkflows (#12882)",
+          "commit_url": "https://github.com/nf-core/modules/commit/6ef220fd9252b42fb3c50348bbdbcb6246730686",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12882"
+          ],
+          "files": [
+            "subworkflows/nf-core/fastq_align_chromap/meta.yml"
+          ],
+          "main_nf_changed": false,
+          "explicit_fix_keyword": true,
+          "classification": "documentation-only",
+          "diff_review": "meta.yml is corrected to describe existing take/emit channels; main.nf is unchanged, including existing index/version-topic interfaces.",
+          "postdates_pr448_merge": false,
+          "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+        },
+        {
+          "sha": "fe08122c3dc2f2d7890daba06f6c90e570ef01de",
+          "author_date": "2026-08-20T15:40:27Z",
+          "committer_date": "2026-08-20T15:40:27Z",
+          "subject": "Bump Picard to 3.5.0 (#12753)",
+          "commit_url": "https://github.com/nf-core/modules/commit/fe08122c3dc2f2d7890daba06f6c90e570ef01de",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12753"
+          ],
+          "files": [
+            "subworkflows/nf-core/fastq_align_chromap/tests/main.nf.test.snap"
+          ],
+          "main_nf_changed": false,
+          "explicit_fix_keyword": false,
+          "classification": "tests-only",
+          "diff_review": "Only Picard-dependent subworkflow tests/snapshots change; module version changes are classified in the companion module audit.",
+          "postdates_pr448_merge": false,
+          "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+        }
+      ],
+      "statically_reachable_at_merge": true,
+      "audit_status": "history-and-diffs-reviewed"
+    },
+    {
+      "name": "fastq_fastqc_umitools_trimgalore",
+      "path": "subworkflows/nf-core/fastq_fastqc_umitools_trimgalore",
+      "installed_sha": "e5777ea46cc591b519b9bb931e952e4a149cb47d",
+      "base_installed_sha": "8f2ec534d0418bf724cfd5f053176a9c500fae78",
+      "installed_is_ancestor_of_pinned_master": true,
+      "pipeline_main_matches_declared_install": true,
+      "pipeline_main_sha256": "ea950cd99cd4146d01d7c274eb28279d615eaf61d9a04c456c962ebe54b4857d",
+      "installed_main_sha256": "ea950cd99cd4146d01d7c274eb28279d615eaf61d9a04c456c962ebe54b4857d",
+      "subsequent_commit_count": 3,
+      "subsequent_main_change_count": 2,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "author_date": "2026-10-27T21:05:49+01:00",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "subworkflows/nf-core/fastq_fastqc_umitools_trimgalore/main.nf"
+          ],
+          "main_nf_changed": true,
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "Only a common copyright/licence header is prepended; prior main.nf bytes are unchanged.",
+          "postdates_pr448_merge": true,
+          "body_identical_after_header_removal": true,
+          "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+        },
+        {
+          "sha": "ea400d55ea0a63c1a0f9fd527211208b842ea15e",
+          "author_date": "2026-09-19T17:49:06Z",
+          "committer_date": "2026-09-19T17:49:06Z",
+          "subject": "fix(fastq_fastqc_umitools_trimgalore): propagate Trim Galore JSON report (#12998)",
+          "commit_url": "https://github.com/nf-core/modules/commit/ea400d55ea0a63c1a0f9fd527211208b842ea15e",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12998"
+          ],
+          "files": [
+            "subworkflows/nf-core/fastq_fastqc_umitools_trimgalore/main.nf",
+            "subworkflows/nf-core/fastq_fastqc_umitools_trimgalore/meta.yml",
+            "subworkflows/nf-core/fastq_fastqc_umitools_trimgalore/tests/main.nf.test.snap"
+          ],
+          "main_nf_changed": true,
+          "explicit_fix_keyword": true,
+          "classification": "output-propagation-fix",
+          "diff_review": "FASTQ_FASTQC_UMITOOLS_TRIMGALORE initialises ch_trim_json, binds TRIMGALORE.out.json, and emits trim_json; read filtering, alignment and metadata grouping are unchanged.",
+          "postdates_pr448_merge": false,
+          "pipeline_applicability": "Requires the TRIMGALORE json module output introduced by nf-core/modules PR12986 and consumer forwarding to modern MultiQC. Atacseq uses local MultiQC1.13 and has existing text-report/cutadapt plots, so no reproduced current missing-section failure is claimed."
+        },
+        {
+          "sha": "6ef220fd9252b42fb3c50348bbdbcb6246730686",
+          "author_date": "2026-09-04T14:23:17Z",
+          "committer_date": "2026-09-04T14:23:17Z",
+          "subject": "fix: align meta.yml input/output with main.nf across all modules and subworkflows (#12882)",
+          "commit_url": "https://github.com/nf-core/modules/commit/6ef220fd9252b42fb3c50348bbdbcb6246730686",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12882"
+          ],
+          "files": [
+            "subworkflows/nf-core/fastq_fastqc_umitools_trimgalore/meta.yml"
+          ],
+          "main_nf_changed": false,
+          "explicit_fix_keyword": true,
+          "classification": "documentation-only",
+          "diff_review": "meta.yml is corrected to describe existing take/emit channels; main.nf is unchanged, including existing index/version-topic interfaces.",
+          "postdates_pr448_merge": false,
+          "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+        }
+      ],
+      "statically_reachable_at_merge": true,
+      "audit_status": "history-and-diffs-reviewed"
+    }
+  ],
+  "unique_subsequent_commits": [
+    {
+      "sha": "0cd85f32cf1a1828205b16e4267277ba9457570b",
+      "author_date": "2026-07-15T10:16:26+02:00",
+      "committer_date": "2026-07-15T08:16:26Z",
+      "subject": "updated test evaluation strategy - check for files and statistics, instead of getREADs using the nf-bam plugin to avoid linting conflicts. (#12348)",
+      "commit_url": "https://github.com/nf-core/modules/commit/0cd85f32cf1a1828205b16e4267277ba9457570b",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/12348"
+      ],
+      "explicit_fix_keyword": false,
+      "classification": "tests-only",
+      "diff_review": "Only fastq_align_bowtie2 nf-test snapshot changes; production wiring is unchanged.",
+      "postdates_pr448_merge": false,
+      "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+    },
+    {
+      "sha": "fe08122c3dc2f2d7890daba06f6c90e570ef01de",
+      "author_date": "2026-08-20T15:40:27Z",
+      "committer_date": "2026-08-20T15:40:27Z",
+      "subject": "Bump Picard to 3.5.0 (#12753)",
+      "commit_url": "https://github.com/nf-core/modules/commit/fe08122c3dc2f2d7890daba06f6c90e570ef01de",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/12753"
+      ],
+      "explicit_fix_keyword": false,
+      "classification": "tests-only",
+      "diff_review": "Only Picard-dependent subworkflow tests/snapshots change; module version changes are classified in the companion module audit.",
+      "postdates_pr448_merge": false,
+      "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+    },
+    {
+      "sha": "6ef220fd9252b42fb3c50348bbdbcb6246730686",
+      "author_date": "2026-09-04T14:23:17Z",
+      "committer_date": "2026-09-04T14:23:17Z",
+      "subject": "fix: align meta.yml input/output with main.nf across all modules and subworkflows (#12882)",
+      "commit_url": "https://github.com/nf-core/modules/commit/6ef220fd9252b42fb3c50348bbdbcb6246730686",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/12882"
+      ],
+      "explicit_fix_keyword": true,
+      "classification": "documentation-only",
+      "diff_review": "meta.yml is corrected to describe existing take/emit channels; main.nf is unchanged, including existing index/version-topic interfaces.",
+      "postdates_pr448_merge": false,
+      "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+    },
+    {
+      "sha": "ea400d55ea0a63c1a0f9fd527211208b842ea15e",
+      "author_date": "2026-09-19T17:49:06Z",
+      "committer_date": "2026-09-19T17:49:06Z",
+      "subject": "fix(fastq_fastqc_umitools_trimgalore): propagate Trim Galore JSON report (#12998)",
+      "commit_url": "https://github.com/nf-core/modules/commit/ea400d55ea0a63c1a0f9fd527211208b842ea15e",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/12998"
+      ],
+      "explicit_fix_keyword": true,
+      "classification": "output-propagation-fix",
+      "diff_review": "FASTQ_FASTQC_UMITOOLS_TRIMGALORE initialises ch_trim_json, binds TRIMGALORE.out.json, and emits trim_json; read filtering, alignment and metadata grouping are unchanged.",
+      "postdates_pr448_merge": false,
+      "pipeline_applicability": "Requires the TRIMGALORE json module output introduced by nf-core/modules PR12986 and consumer forwarding to modern MultiQC. Atacseq uses local MultiQC1.13 and has existing text-report/cutadapt plots, so no reproduced current missing-section failure is claimed."
+    },
+    {
+      "sha": "5f344f0e41fdfaf2506f89400e42a2689d6ab323",
+      "author_date": "2026-10-19T16:32:10+02:00",
+      "committer_date": "2026-10-19T16:32:10+02:00",
+      "subject": "samtools: Add Seqera container metadata and conda lock files (#13382)",
+      "commit_url": "https://github.com/nf-core/modules/commit/5f344f0e41fdfaf2506f89400e42a2689d6ab323",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/13382"
+      ],
+      "explicit_fix_keyword": false,
+      "classification": "tests-only",
+      "diff_review": "Only samtools-dependent test assertions/snapshots change; production wiring is unchanged.",
+      "postdates_pr448_merge": true,
+      "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+    },
+    {
+      "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+      "author_date": "2026-10-27T21:05:49+01:00",
+      "committer_date": "2026-10-27T21:05:49+01:00",
+      "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+      "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/13448"
+      ],
+      "explicit_fix_keyword": false,
+      "classification": "licensing-only",
+      "diff_review": "Only a common copyright/licence header is prepended; prior main.nf bytes are unchanged.",
+      "postdates_pr448_merge": true,
+      "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+    },
+    {
+      "sha": "a582d5633f7df32396681ef4458068e2b509ca91",
+      "author_date": "2026-10-28T17:44:43Z",
+      "committer_date": "2026-10-28T17:44:43Z",
+      "subject": "Bump samtools to 1.25 (#13473)",
+      "commit_url": "https://github.com/nf-core/modules/commit/a582d5633f7df32396681ef4458068e2b509ca91",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/13473"
+      ],
+      "explicit_fix_keyword": false,
+      "classification": "tests-only",
+      "diff_review": "Only samtools-dependent snapshots change in these subworkflow directories; no production wiring change.",
+      "postdates_pr448_merge": true,
+      "pipeline_applicability": "No new production queue, value, library-metadata or version-topic API change in this subworkflow diff."
+    }
+  ],
+  "summary": {
+    "changed_shared_subworkflows": 7,
+    "installed_main_files_match_upstream": 7,
+    "all_installed_revisions_ancestor_of_master": true,
+    "subworkflow_commit_associations": 23,
+    "unique_subsequent_commits": 7,
+    "licensing_prefix_checks_passed": 7,
+    "non_licensing_main_changes": [
+      {
+        "subworkflow": "fastq_fastqc_umitools_trimgalore",
+        "commit": "ea400d55ea0a63c1a0f9fd527211208b842ea15e",
+        "classification": "output-propagation-fix"
+      }
+    ],
+    "all_classified": true,
+    "combined_module_and_subworkflow_changed_components": 43,
+    "combined_retained_components": 42,
+    "combined_component_commit_associations": 101,
+    "combined_unique_subsequent_commits": 22
+  },
+  "limitations": [
+    "Scope begins at each exact installed subworkflow revision, not at the PR merge date. The JSON propagation fix predates the 2026-09-29 pipeline merge.",
+    "Shared module changes are classified separately in nfcore-history.json; test snapshots reflecting tool upgrades are not subworkflow wiring fixes.",
+    "No pipeline source edits, runtime reproductions, workflow launches, service restarts or remote publication were performed.",
+    "No new actual atacseq execution defect is asserted."
+  ]
+}

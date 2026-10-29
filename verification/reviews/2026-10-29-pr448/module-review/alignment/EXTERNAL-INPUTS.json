@@ -1,0 +1,17 @@
+{
+  "schema": "pr448/grader-external-inputs/v1",
+  "human_bam": {
+    "case": "pr448-hiv-bwa-fixed-a9b588",
+    "source_workflow_id": "BVYqNpYNcUhEN",
+    "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+    "relative_member": "bwa/merged_library/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam",
+    "bytes": 285036036,
+    "sha256": "eade69e402e2510939dc047d4754dc4d1372d52e2f87d973df5ff9cca11797cc",
+    "archive_source_relative_path": "pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam",
+    "availability": "Source archive transfer in progress; draft release is not yet publicly published. This is an exact retrieval identity, not a public download URL.",
+    "repository": "NicoDeVeaux/atacseq-modules-update-verification",
+    "release_tag": "pr448-full-repro-2026-10-29",
+    "scientific_replay_scope": "One full cleaned fixed-BWA human library; not a pre448 pipeline execution."
+  },
+  "other_omitted_inputs": "Mapper indexes can be rebuilt; yeast FASTA/BAM/index pins are preserved in alignment-peak/input-pins.json. They are not included as standalone input data in this bounded package."
+}

@@ -1,0 +1,2 @@
+{"argv": ["lc_extrap", "-verbose", "-bam", "-seed", "1", "-pe", "-output", "library.lc_extrap.txt", "input.bam"]}
+{"argv": ["lc_extrap", "-verbose", "-bam", "-seed", "1", "-defects", "-pe", "-output", "library.lc_extrap.txt", "input.bam"]}

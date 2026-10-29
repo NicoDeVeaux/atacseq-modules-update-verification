@@ -1,0 +1,9 @@
+
+macs3 \
+    callpeak \
+    --keep-dup all --nomodel --broad --broad-cutoff 0.1 \
+    --gsize 2701262066 \
+    --format BAMPE \
+    --name HIV_CD86HI_48H_REP1.mLb.clN \
+    --treatment HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam \
+

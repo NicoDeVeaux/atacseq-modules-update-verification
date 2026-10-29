@@ -1,0 +1,208 @@
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 32b199a..cac9030 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
+ 
+ ### Enhancements & fixes
+ 
++- Update `trimgalore` module to Trim Galore 2.3.0 and pass `--no_poly_g` so the default preprocessing matches Trim Galore 0.6.x (no automatic poly-G trimming); fixes the 2.1.0 regression from [[#448]](https://github.com/nf-core/atacseq/pull/448) where legitimate 5′ poly-C heads on Read 2 could be removed.
++- Set the Chromap `PICARD_ADDORREPLACEREADGROUPS` read-group library (`RGLB`) to the sample/replicate name without the final `_T<n>` suffix, so `MarkDuplicates` marks duplicates across technical runs of the same library again (follow-up to [[#448]](https://github.com/nf-core/atacseq/pull/448)).
+ - [[#466]](https://github.com/nf-core/atacseq/pull/466) - Run the `test_controls` profile in `tests/controls.nf.test` and set `with_control = true` in it, so CI exercises `--with_control`.
+ - [[#448]](https://github.com/nf-core/atacseq/pull/448) - Update nf-core modules and subworkflows to their latest versions and reconcile the resulting call-signature changes.
+ - [[#448]](https://github.com/nf-core/atacseq/pull/448) - Add read groups to Chromap alignments, which Picard 3.4.0 `MarkDuplicates` now requires.
+@@ -62,7 +64,7 @@ Note, since the pipeline is now using Nextflow DSL2, each process will be run wi
+ | `picard`                | 3.0.0       | 3.4.0       |
+ | `preseq`                | 3.1.2       | 3.2.0       |
+ | `samtools`              | 1.17        | 1.24        |
+-| `trim-galore`           | 0.6.7       | 2.1.0       |
++| `trim-galore`           | 0.6.7       | 2.3.0       |
+ | `ucsc-bedgraphtobigwig` | 445         | 482         |
+ 
+ ## [[2.1.2](https://github.com/nf-core/atacseq/releases/tag/2.1.2)] - 2022-08-07
+diff --git a/conf/modules.config b/conf/modules.config
+index ca0e5c4..3a1ea07 100644
+--- a/conf/modules.config
++++ b/conf/modules.config
+@@ -156,6 +156,7 @@ process {
+             ext.args   = {
+                 [
+                     '--fastqc',
++                    '--no_poly_g',
+                     params.trim_nextseq > 0 ? "--nextseq ${params.trim_nextseq}" : '',
+                     params.clip_r1 > 0 ? "--clip_r1 ${params.clip_r1}" : '',
+                     params.clip_r2 > 0 ? "--clip_r2 ${params.clip_r2}" : '',
+@@ -300,7 +301,7 @@ process {
+                     "--RGID ${meta.id}",
+                     "--RGSM ${meta.id - ~/_T\d+$/}",
+                     "--RGPL ILLUMINA",
+-                    "--RGLB ${meta.id}",
++                    "--RGLB ${meta.id - ~/_T\d+$/}",
+                     "--RGPU 1",
+                     params.seq_center ? "--RGCN '${params.seq_center}'" : ''
+                 ].join(' ').trim()
+diff --git a/modules.json b/modules.json
+index 717b50a..65d3db5 100644
+--- a/modules.json
++++ b/modules.json
+@@ -169,7 +169,7 @@
+                     },
+                     "trimgalore": {
+                         "branch": "master",
+-                        "git_sha": "0991b1032cccfcd9245ef59c6e56d6092ac0b3e7",
++                        "git_sha": "2a30bfb6a1b4667692d734e33e000a3bd1d74a0d",
+                         "installed_by": ["fastq_fastqc_umitools_trimgalore"]
+                     },
+                     "ucsc/bedgraphtobigwig": {
+diff --git a/modules/nf-core/trimgalore/environment.yml b/modules/nf-core/trimgalore/environment.yml
+index ac5b9fa..6f07df0 100644
+--- a/modules/nf-core/trimgalore/environment.yml
++++ b/modules/nf-core/trimgalore/environment.yml
+@@ -4,4 +4,4 @@ channels:
+   - conda-forge
+   - bioconda
+ dependencies:
+-  - bioconda::trim-galore=2.1.0
++  - bioconda::trim-galore=2.3.0
+diff --git a/modules/nf-core/trimgalore/main.nf b/modules/nf-core/trimgalore/main.nf
+index 2a08be9..af819db 100644
+--- a/modules/nf-core/trimgalore/main.nf
++++ b/modules/nf-core/trimgalore/main.nf
+@@ -5,8 +5,8 @@ process TRIMGALORE {
+ 
+     conda "${moduleDir}/environment.yml"
+     container "${workflow.containerEngine in ['singularity', 'apptainer'] && !task.ext.singularity_pull_docker_container ?
+-        'https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/7e/7e44249e3fafe3d136ea726225551b51bca642387e16d9687b3e602207dedb20/data' :
+-        'community.wave.seqera.io/library/trim-galore:2.1.0--27e6376b8f6c1872'}"
++        'https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/e0/e00369598bd6b7b34a7c83d5496c381104bf8b885c31a4b65b92e6ea2059fbb3/data' :
++        'community.wave.seqera.io/library/trim-galore:2.3.0--6a38a479b4972363'}"
+ 
+     input:
+     tuple val(meta), path(reads)
+diff --git a/modules/nf-core/trimgalore/tests/main.nf.test.snap b/modules/nf-core/trimgalore/tests/main.nf.test.snap
+index 3a806d8..a909b56 100644
+--- a/modules/nf-core/trimgalore/tests/main.nf.test.snap
++++ b/modules/nf-core/trimgalore/tests/main.nf.test.snap
+@@ -30,7 +30,7 @@
+                     [
+                         "TRIMGALORE",
+                         "trimgalore",
+-                        "2.1.0"
++                        "2.3.0"
+                     ]
+                 ]
+             }
+@@ -74,7 +74,7 @@
+                     [
+                         "TRIMGALORE",
+                         "trimgalore",
+-                        "2.1.0"
++                        "2.3.0"
+                     ]
+                 ]
+             }
+@@ -110,7 +110,7 @@
+                     [
+                         "TRIMGALORE",
+                         "trimgalore",
+-                        "2.1.0"
++                        "2.3.0"
+                     ]
+                 ]
+             }
+@@ -142,7 +142,7 @@
+                     [
+                         "TRIMGALORE",
+                         "trimgalore",
+-                        "2.1.0"
++                        "2.3.0"
+                     ]
+                 ]
+             }
+@@ -170,7 +170,7 @@
+                     [
+                         "TRIMGALORE",
+                         "trimgalore",
+-                        "2.1.0"
++                        "2.3.0"
+                     ]
+                 ]
+             }
+diff --git a/tests/bowtie2.nf.test.snap b/tests/bowtie2.nf.test.snap
+index 1284698..80c941e 100644
+--- a/tests/bowtie2.nf.test.snap
++++ b/tests/bowtie2.nf.test.snap
+@@ -125,7 +125,7 @@
+                     "subread": "2.0.1"
+                 },
+                 "TRIMGALORE": {
+-                    "trimgalore": "2.1.0"
++                    "trimgalore": "2.3.0"
+                 },
+                 "TSS_EXTRACT": {
+                     "sed": 4.7
+diff --git a/tests/chromap.nf.test.snap b/tests/chromap.nf.test.snap
+index 8f1c903..225d08e 100644
+--- a/tests/chromap.nf.test.snap
++++ b/tests/chromap.nf.test.snap
+@@ -127,7 +127,7 @@
+                     "subread": "2.0.1"
+                 },
+                 "TRIMGALORE": {
+-                    "trimgalore": "2.1.0"
++                    "trimgalore": "2.3.0"
+                 },
+                 "TSS_EXTRACT": {
+                     "sed": 4.7
+diff --git a/tests/controls.nf.test.snap b/tests/controls.nf.test.snap
+index 6da9e13..47da07a 100644
+--- a/tests/controls.nf.test.snap
++++ b/tests/controls.nf.test.snap
+@@ -124,7 +124,7 @@
+                     "subread": "2.0.1"
+                 },
+                 "TRIMGALORE": {
+-                    "trimgalore": "2.1.0"
++                    "trimgalore": "2.3.0"
+                 },
+                 "TSS_EXTRACT": {
+                     "sed": 4.7
+diff --git a/tests/default.nf.test.snap b/tests/default.nf.test.snap
+index 2a4203e..0628874 100644
+--- a/tests/default.nf.test.snap
++++ b/tests/default.nf.test.snap
+@@ -124,7 +124,7 @@
+                     "subread": "2.0.1"
+                 },
+                 "TRIMGALORE": {
+-                    "trimgalore": "2.1.0"
++                    "trimgalore": "2.3.0"
+                 },
+                 "TSS_EXTRACT": {
+                     "sed": 4.7
+diff --git a/tests/skip_consensus_peaks.nf.test.snap b/tests/skip_consensus_peaks.nf.test.snap
+index e48ef39..cbae783 100644
+--- a/tests/skip_consensus_peaks.nf.test.snap
++++ b/tests/skip_consensus_peaks.nf.test.snap
+@@ -123,7 +123,7 @@
+                     "samtools": 1.24
+                 },
+                 "TRIMGALORE": {
+-                    "trimgalore": "2.1.0"
++                    "trimgalore": "2.3.0"
+                 },
+                 "TSS_EXTRACT": {
+                     "sed": 4.7
+diff --git a/tests/star.nf.test.snap b/tests/star.nf.test.snap
+index 66c4dec..71b4a36 100644
+--- a/tests/star.nf.test.snap
++++ b/tests/star.nf.test.snap
+@@ -123,7 +123,7 @@
+                     "subread": "2.0.1"
+                 },
+                 "TRIMGALORE": {
+-                    "trimgalore": "2.1.0"
++                    "trimgalore": "2.3.0"
+                 },
+                 "TSS_EXTRACT": {
+                     "sed": 4.7

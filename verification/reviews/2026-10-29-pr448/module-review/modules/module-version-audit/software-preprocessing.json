@@ -1,0 +1,385 @@
+{
+  "schema": "nf-verify/pr448-software-preprocessing-audit/v1",
+  "checked_at_utc": "2026-10-28 21:00:12 UTC",
+  "pipeline_merge": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+  "pipeline_merge_date": "2026-09-29",
+  "scope": "Six assigned preprocessing/QC tool families. Released notes plus post-tag primary-branch history where no newer release was listed. Source audit, not a new runtime reproduction campaign.",
+  "interpretation": "A fix after the selected tool version may predate PR448's merge. Upstream fixes are not automatically pipeline findings. The frozen proposed patch and cloud runs were not changed.",
+  "tools": [
+    {
+      "name": "ataqv",
+      "selected_versions": [
+        "1.3.1"
+      ],
+      "upstream_repository": "ParkerLab/ataqv",
+      "latest_published_github_release": {
+        "tag": "1.3.1",
+        "published_at": "2023-02-17T17:14:27Z",
+        "url": "https://github.com/ParkerLab/ataqv/releases/tag/1.3.1"
+      },
+      "checked_primary_branch": {
+        "name": "master",
+        "sha": "9ae28b8f89e2303caab8ad6d28ef2b1887d1e2b6",
+        "commit_date": "2025-01-08T23:23:16Z",
+        "url": "https://github.com/ParkerLab/ataqv/commit/9ae28b8f89e2303caab8ad6d28ef2b1887d1e2b6"
+      },
+      "selected_tag_sha": "15686234e707c3d779a8e45f39a390c29a8691f5",
+      "actual_usage": {
+        "command": "ataqv --ignore-read-groups, then mkarv",
+        "source_urls": [
+          "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/conf/modules.config#L747",
+          "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/ataqv/ataqv/main.nf",
+          "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/ataqv/mkarv/main.nf"
+        ]
+      },
+      "checks": {
+        "published_release_count": 18,
+        "post_tag_commits": 5,
+        "tags_after_1_3_1_found": false
+      },
+      "changes": [
+        {
+          "status": "included_already",
+          "summary": "The TSS-enrichment correction for --ignore-read-groups is already in pinned 1.3.1.",
+          "sources": [
+            "https://github.com/ParkerLab/ataqv/releases/tag/1.3.1"
+          ]
+        },
+        {
+          "status": "not_applicable_to_current_bulk_mode",
+          "summary": "Later source labels 1.4.0/1.5.0 add tabular output and reduce single-nucleus memory; the final commit corrects reported version text.",
+          "sources": [
+            "https://github.com/ParkerLab/ataqv/blob/9ae28b8f89e2303caab8ad6d28ef2b1887d1e2b6/debian/changelog",
+            "https://github.com/ParkerLab/ataqv/compare/1.3.1...9ae28b8f89e2303caab8ad6d28ef2b1887d1e2b6"
+          ]
+        }
+      ],
+      "assessment": "No later bulk-ATAC metric correctness fix identified in the five post-tag commits examined. Source version bumps are not a published/tagged release.",
+      "limitations": [
+        "No new metric reproduction or exhaustive issue audit."
+      ]
+    },
+    {
+      "name": "khmer",
+      "selected_versions": [
+        "3.0.0a3"
+      ],
+      "upstream_repository": "dib-lab/khmer",
+      "latest_published_github_release": {
+        "tag": "v2.1.2",
+        "published_at": "2017-07-03T18:25:30Z",
+        "url": "https://github.com/dib-lab/khmer/releases/tag/v2.1.2"
+      },
+      "checked_primary_branch": {
+        "name": "master",
+        "sha": "fb65d21eaedf0d397d49ae3debc578897f9d6eb4",
+        "commit_date": "2019-03-13T13:42:12Z",
+        "url": "https://github.com/dib-lab/khmer/commit/fb65d21eaedf0d397d49ae3debc578897f9d6eb4"
+      },
+      "selected_tag": "v3.0.0a3",
+      "selected_tag_sha": "fb65d21eaedf0d397d49ae3debc578897f9d6eb4",
+      "actual_usage": {
+        "command": "unique-kmers.py -k read_length -R report fasta; only when macs_gsize is absent",
+        "source_urls": [
+          "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/khmer/uniquekmers/main.nf",
+          "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/subworkflows/local/prepare_genome.nf#L224"
+        ]
+      },
+      "checks": {
+        "selected_tag_equals_primary_head": true,
+        "post_tag_commits": 0,
+        "tag_lookup_method": "git ls-remote --tags, because the connector excludes the tags endpoint"
+      },
+      "changes": [],
+      "assessment": "No newer primary-branch fix after the actual alpha pin: v3.0.0a3 equals current master. The GitHub Releases page's v2.1.2 is older and must not be mistaken for a later replacement.",
+      "sources": [
+        "https://github.com/dib-lab/khmer/tree/v3.0.0a3",
+        "https://github.com/dib-lab/khmer/blob/fb65d21eaedf0d397d49ae3debc578897f9d6eb4/CHANGELOG.md"
+      ],
+      "limitations": [
+        "Alpha-version maintenance and accuracy are not established by the absence of later commits; no effective-genome-size reproduction."
+      ]
+    },
+    {
+      "name": "Subread / featureCounts",
+      "selected_versions": [
+        "2.0.1"
+      ],
+      "upstream_repository": "ShiLab-Bioinformatics/subread",
+      "latest_official_release": {
+        "version": "2.1.1",
+        "date": "2025-04-17",
+        "url": "https://subread.sourceforge.net/"
+      },
+      "latest_published_github_release": {
+        "tag": "2.0.2",
+        "published_at": "2021-03-29T01:30:45Z",
+        "url": "https://github.com/ShiLab-Bioinformatics/subread/releases/tag/2.0.2"
+      },
+      "checked_primary_branch": {
+        "name": "master",
+        "sha": "58fb87ab1c665a9f254cb11d20284857c36a3cf7",
+        "commit_date": "2026-10-28T04:45:27Z",
+        "url": "https://github.com/ShiLab-Bioinformatics/subread/commit/58fb87ab1c665a9f254cb11d20284857c36a3cf7"
+      },
+      "actual_usage": {
+        "command": "featureCounts -F SAF -O --fracOverlap 0.2; module supplies -p from meta.single_end",
+        "source_urls": [
+          "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/conf/modules.config#L706",
+          "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/conf/modules.config#L947",
+          "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/subread/featurecounts/main.nf"
+        ],
+        "intentional_local_pin": true,
+        "old_and_new_tool_pin_equal": true
+      },
+      "changes": [
+        {
+          "status": "upstream_fix_candidate",
+          "fixed_in": "2.0.4",
+          "date": "2023-02-27",
+          "summary": "The released overlap-fraction correction is relevant to this pipeline's explicit --fracOverlap 0.2.",
+          "sources": [
+            "https://subread.sourceforge.net/"
+          ],
+          "next_check": "Compare 2.0.1 against a newer tool using a tiny BAM/SAF boundary-overlap case; not reproduced here."
+        },
+        {
+          "status": "upgrade_semantic_hazard",
+          "changed_in": "2.0.2",
+          "summary": "After 2.0.1, -p identifies paired input; --countReadPairs is additionally required for fragment counts.",
+          "sources": [
+            "https://subread.sourceforge.net/",
+            "https://github.com/ShiLab-Bioinformatics/subread/releases/tag/2.0.2"
+          ]
+        },
+        {
+          "status": "conditional_upstream_fix",
+          "fixed_in": "2.0.8",
+          "date": "2024-11-04",
+          "summary": "Annotation loading for very long chromosomes was corrected; applicability needs a triggering reference.",
+          "sources": [
+            "https://subread.sourceforge.net/"
+          ]
+        },
+        {
+          "status": "not_default_path",
+          "summary": "Later junction-counting, long-read and fraction/largest-overlap changes target flags absent from these SAF calls.",
+          "sources": [
+            "https://subread.sourceforge.net/"
+          ]
+        }
+      ],
+      "assessment": "Existing debt, not a demonstrated PR448 regression: the tool pin was already 2.0.1. An upgrade must preserve fragment semantics and handle the known mixed SE/PE cohort issue.",
+      "limitations": [
+        "Official SourceForge release history is newer than GitHub's release index. No new overlap-count reproduction; latest 30 master commit subjects were mostly aligner/fusion work and are not a full post-release featureCounts audit."
+      ]
+    },
+    {
+      "name": "Trim Galore",
+      "selected_versions": [
+        "2.1.0"
+      ],
+      "proposed_version": "2.3.0",
+      "upstream_repository": "FelixKrueger/TrimGalore",
+      "latest_published_github_release": {
+        "tag": "v2.3.0",
+        "published_at": "2026-07-07T09:12:19Z",
+        "url": "https://github.com/FelixKrueger/TrimGalore/releases/tag/v2.3.0"
+      },
+      "checked_primary_branch": {
+        "name": "master",
+        "sha": "c6528e54512e0e388a392d36475291bcbf0eb0dd",
+        "commit_date": "2026-06-27T16:00:51Z",
+        "url": "https://github.com/FelixKrueger/TrimGalore/commit/c6528e54512e0e388a392d36475291bcbf0eb0dd"
+      },
+      "checked_development_branch": {
+        "name": "dev",
+        "sha": "630315276ce1910bac3b39a7f0c0f5598e3d4139",
+        "commit_date": "2026-10-21T13:33:06Z",
+        "compare_to_2_3_0_commits": 102
+      },
+      "actual_usage": {
+        "command": "--fastqc, --gzip, one sample per task; distinct staged mate names. Proposed default adds --no_poly_g.",
+        "source_urls": [
+          "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/trimgalore/main.nf",
+          "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/conf/modules.config#L154",
+          "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/bin/check_samplesheet.py#L101"
+        ]
+      },
+      "changes": [
+        {
+          "status": "previously_reproduced_and_addressed",
+          "fixed_in": "2.3.0",
+          "merged_at": "2026-06-27T07:00:22Z",
+          "release_published_at": "2026-07-07T09:12:19Z",
+          "summary": "Wrong-end R2 poly-C clipping is corrected by upstream #322. The proposed default also disables the new autodetection to preserve baseline sequences.",
+          "sources": [
+            "https://github.com/FelixKrueger/TrimGalore/pull/322",
+            "https://github.com/FelixKrueger/TrimGalore/releases/tag/v2.3.0"
+          ],
+          "local_evidence": "../trimming/REPORT.md",
+          "available_before_pr448_merge": true
+        },
+        {
+          "status": "conditional_unreleased_fix_not_default_arguments",
+          "summary": "Dev corrects a Read-2-only adapter override when no Read-1 override is supplied; current pipeline arguments supply neither.",
+          "sources": [
+            "https://github.com/FelixKrueger/TrimGalore/issues/369",
+            "https://github.com/FelixKrueger/TrimGalore/blob/630315276ce1910bac3b39a7f0c0f5598e3d4139/CHANGELOG.md"
+          ]
+        },
+        {
+          "status": "not_default_path",
+          "summary": "Dev also hardens output collisions, compression detection, specialty-mode flags and poly-A/G ordering. Current one-sample tasks, distinct .fastq.gz mates and disabled poly-G avoid the identified trigger paths.",
+          "sources": [
+            "https://github.com/FelixKrueger/TrimGalore/blob/630315276ce1910bac3b39a7f0c0f5598e3d4139/CHANGELOG.md"
+          ]
+        }
+      ],
+      "assessment": "The known clipping regression is already covered by the frozen proposed fix and its independent 100-pair real-module comparison. No additional default-path issue established by this notes scan.",
+      "limitations": [
+        "Dev is unreleased and differs from master by 102 commits. Its changelog and recent commit subjects were reviewed, not every patch or optional argument. No further upgrade was made."
+      ]
+    },
+    {
+      "name": "UMI-tools",
+      "selected_versions": [
+        "1.1.6"
+      ],
+      "upstream_repository": "CGATOxford/UMI-tools",
+      "latest_published_github_release": {
+        "tag": "v1.1.6",
+        "published_at": "2024-10-03T10:15:16Z",
+        "url": "https://github.com/CGATOxford/UMI-tools/releases/tag/v1.1.6"
+      },
+      "checked_primary_branch": {
+        "name": "master",
+        "sha": "79d8b818676c1e7fb6c5a620e4cb24b372d03eea",
+        "commit_date": "2026-10-04T14:30:53Z",
+        "url": "https://github.com/CGATOxford/UMI-tools/commit/79d8b818676c1e7fb6c5a620e4cb24b372d03eea"
+      },
+      "selected_tag_sha": "3f2cb4f41e07fe4a6cea3b3389f534bee957176b",
+      "actual_usage": {
+        "command": "Only umi_tools extract is imported; ATACSEQ hardcodes with_umi=false, so the module is not called.",
+        "source_urls": [
+          "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/workflows/atacseq.nf#L149",
+          "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/subworkflows/nf-core/fastq_fastqc_umitools_trimgalore/main.nf#L48",
+          "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/umitools/extract/main.nf"
+        ]
+      },
+      "checks": {
+        "compare_post_tag_commits": 54,
+        "listed_post_tag_commit_subjects_reviewed": 53,
+        "extract_py_changed_since_tag": false
+      },
+      "changes": [
+        {
+          "status": "not_used_by_atacseq",
+          "merged_at": "2026-05-27T13:46:06Z",
+          "summary": "Post-tag #707 corrects loss of chimeric mates in the alignment writer, outside this disabled extract path.",
+          "sources": [
+            "https://github.com/CGATOxford/UMI-tools/pull/707"
+          ]
+        },
+        {
+          "status": "not_used_by_atacseq",
+          "summary": "Post-tag CRAM handling, large-bundle clustering and packaging fixes were found; this workflow uses neither UMI-tools dedup/group nor enabled extraction.",
+          "sources": [
+            "https://github.com/CGATOxford/UMI-tools/compare/v1.1.6...79d8b818676c1e7fb6c5a620e4cb24b372d03eea"
+          ]
+        }
+      ],
+      "assessment": "Latest published release remains 1.1.6. Later merged fixes do not affect the current ATACSEQ invocation; enabling UMI processing would require a separate review.",
+      "limitations": [
+        "Shared helpers and packaging changed after the tag; no claim that the whole UMI-tools release is bug-free."
+      ]
+    },
+    {
+      "name": "MultiQC",
+      "selected_versions": [
+        "1.13"
+      ],
+      "inactive_installed_module_version": "1.35",
+      "upstream_repository": "MultiQC/MultiQC",
+      "selected_release": {
+        "tag": "v1.13",
+        "published_at": "2022-09-08T21:35:43Z",
+        "url": "https://github.com/MultiQC/MultiQC/releases/tag/v1.13"
+      },
+      "latest_published_github_release": {
+        "tag": "v1.35",
+        "published_at": "2026-05-13T01:00:41Z",
+        "url": "https://github.com/MultiQC/MultiQC/releases/tag/v1.35"
+      },
+      "checked_primary_branch": {
+        "name": "main",
+        "sha": "a286ece225e06bd0f918b51d50a2eea0c4e3a0f8",
+        "commit_date": "2026-10-06T16:23:09Z",
+        "url": "https://github.com/MultiQC/MultiQC/commit/a286ece225e06bd0f918b51d50a2eea0c4e3a0f8"
+      },
+      "actual_usage": {
+        "command": "The reachable modules/local/multiqc.nf executes multiqc 1.13. assets/multiqc_config.yml repeats FastQC, SAMtools, Picard and featureCounts sections.",
+        "source_urls": [
+          "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/local/multiqc.nf#L1",
+          "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/workflows/atacseq.nf#L11",
+          "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/assets/multiqc_config.yml#L23"
+        ],
+        "nfcore_module_reachable": false,
+        "old_and_new_executing_version_equal": true
+      },
+      "checks": {
+        "released_notes_checked": "v1.14 through v1.35 (29 release entries after v1.13)"
+      },
+      "changes": [
+        {
+          "status": "existing_reporting_debt_candidate",
+          "fixed_in": "1.20",
+          "merged_at": "2024-01-04T16:43:26Z",
+          "summary": "Repeated Picard sections had a file-discovery bug; this pipeline configures Picard multiple times.",
+          "sources": [
+            "https://github.com/MultiQC/MultiQC/pull/2255",
+            "https://github.com/MultiQC/MultiQC/releases/tag/v1.20"
+          ]
+        },
+        {
+          "status": "existing_reporting_debt_candidate",
+          "fixed_in": "1.17",
+          "merged_at": "2023-09-28T23:23:34Z",
+          "summary": "Picard MarkDuplicates parsing was hardened for mixed field types and trailing delimiters.",
+          "sources": [
+            "https://github.com/MultiQC/MultiQC/pull/2083",
+            "https://github.com/MultiQC/MultiQC/releases/tag/v1.17"
+          ]
+        },
+        {
+          "status": "existing_reporting_debt_candidate",
+          "fixed_in": "1.25",
+          "merged_at": "2024-09-05T01:31:04Z",
+          "summary": "FastQC average-read-length calculation was corrected; variable trimmed lengths make it worth checking.",
+          "sources": [
+            "https://github.com/MultiQC/MultiQC/pull/2817",
+            "https://github.com/MultiQC/MultiQC/releases/tag/v1.25"
+          ]
+        },
+        {
+          "status": "conditional_reporting_fixes",
+          "summary": "Later releases fix duplicate FastQC view behavior, R2-null Cutadapt values and featureCounts section metadata; they do not automatically imply wrong count matrices.",
+          "sources": [
+            "https://github.com/MultiQC/MultiQC/releases/tag/v1.25",
+            "https://github.com/MultiQC/MultiQC/releases/tag/v1.25.2"
+          ]
+        }
+      ],
+      "assessment": "Prioritize a separate controlled report-compatibility upgrade. PR448 did not upgrade the executing MultiQC binary; installing nf-core 1.35 did not deliver its fixes.",
+      "limitations": [
+        "These are known upstream reporting fixes with plausible config overlap, not newly reproduced report defects here. An upgrade is broader than the frozen two-fix patch; no changes were made."
+      ]
+    }
+  ],
+  "overall_assessment": "One already reproduced Trim Galore regression is addressed by the existing proposed patch. Subread overlap precision and legacy MultiQC report parsing deserve focused follow-up tests. No new pipeline finding is asserted from release notes alone.",
+  "scope_limits": [
+    "No exhaustive security, all-issue, or full optional-mode audit.",
+    "No Docker images, source branches, proposed patch, cloud jobs or pipeline files were changed during this upstream source scan.",
+    "Six assigned tool families only; complementary agent reports cover other module families."
+  ]
+}

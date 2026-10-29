@@ -1,0 +1,11 @@
+{
+  "original_sha256": "69fbc0f448896619efb1961954b18c07457224dfa9e965ec13dfa81919ba3d3f",
+  "public_member_sha256": "302fb09436280ece0e751fb6101e127e758e8bb6eadecfb6ed0842b5657afb22",
+  "original_bytes": 25382567,
+  "public_bytes": 25382424,
+  "all_json_nonstring_tokens_identical": true,
+  "archive_sha256": "03a1b1268bbf3b499afe07f514e13e940afaa3694c9354b126846bd7147af53f",
+  "archive_parts_manifest": "resequencing/parts-manifest.json",
+  "member": "pr448-resequencing-control/real-samples/full-core-comparison/comparison.json",
+  "scope": "Existing comparison capture normalized only in JSON strings; does not validate its computation or interpretation."
+}

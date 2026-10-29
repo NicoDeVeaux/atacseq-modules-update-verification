@@ -1,0 +1,15 @@
+{
+  "tests": 9,
+  "failed": 0,
+  "skipped": 0,
+  "strict_ci_without_snapshot_update": true,
+  "candidate_snapshot_sha256": "a897dc0caf601a32b270222e5d2267fafadf6d717732abd1a95b3e12e6803604",
+  "nf_test": "0.9.5",
+  "nextflow": "26.04.6",
+  "helper": "nft-utils@0.0.9",
+  "new_data_bytes": 36916192,
+  "container_tasks_network_disabled": true,
+  "module_test_script_unchanged": true,
+  "old_snapshot_expected_mismatches": 8,
+  "output_changes": "Version values plus GFF3 version/command-path comment lines; scientific output bytes match original snapshots after those two GFF3 comments are restored."
+}

@@ -1,0 +1,96 @@
+{
+  "SAMPLE_A_REP1": {
+    "read_pairs_examined": 2,
+    "duplicate_pairs": 1,
+    "retained_reads": 2,
+    "readgroups": {
+      "SAMPLE_A_REP1_T1": {
+        "ID": "SAMPLE_A_REP1_T1",
+        "LB": "SAMPLE_A_REP1",
+        "PL": "ILLUMINA",
+        "SM": "SAMPLE_A_REP1",
+        "PU": "1",
+        "CN": "Test Centre"
+      },
+      "SAMPLE_A_REP1_T2": {
+        "ID": "SAMPLE_A_REP1_T2",
+        "LB": "SAMPLE_A_REP1",
+        "PL": "ILLUMINA",
+        "SM": "SAMPLE_A_REP1",
+        "PU": "1",
+        "CN": "Test Centre"
+      }
+    },
+    "records": [
+      {
+        "name": "rep1_lane1",
+        "flag": 99,
+        "RG": "SAMPLE_A_REP1_T1"
+      },
+      {
+        "name": "rep1_lane2",
+        "flag": 1123,
+        "RG": "SAMPLE_A_REP1_T2"
+      },
+      {
+        "name": "rep1_lane1",
+        "flag": 147,
+        "RG": "SAMPLE_A_REP1_T1"
+      },
+      {
+        "name": "rep1_lane2",
+        "flag": 1171,
+        "RG": "SAMPLE_A_REP1_T2"
+      }
+    ],
+    "metrics": "${VALIDATION_ROOT}/chromap/runs/proposed/work/67/17c286a29e1c7ad517d85ecbf80115/SAMPLE_A_REP1.mLb.mkD.sorted.metrics.txt",
+    "bam": "${VALIDATION_ROOT}/chromap/runs/proposed/work/67/17c286a29e1c7ad517d85ecbf80115/SAMPLE_A_REP1.mLb.mkD.sorted.bam"
+  },
+  "SAMPLE_A_REP2": {
+    "read_pairs_examined": 2,
+    "duplicate_pairs": 1,
+    "retained_reads": 2,
+    "readgroups": {
+      "SAMPLE_A_REP2_T1": {
+        "ID": "SAMPLE_A_REP2_T1",
+        "LB": "SAMPLE_A_REP2",
+        "PL": "ILLUMINA",
+        "SM": "SAMPLE_A_REP2",
+        "PU": "1",
+        "CN": "Test Centre"
+      },
+      "SAMPLE_A_REP2_T2": {
+        "ID": "SAMPLE_A_REP2_T2",
+        "LB": "SAMPLE_A_REP2",
+        "PL": "ILLUMINA",
+        "SM": "SAMPLE_A_REP2",
+        "PU": "1",
+        "CN": "Test Centre"
+      }
+    },
+    "records": [
+      {
+        "name": "rep2_lane1",
+        "flag": 99,
+        "RG": "SAMPLE_A_REP2_T1"
+      },
+      {
+        "name": "rep2_lane2",
+        "flag": 1123,
+        "RG": "SAMPLE_A_REP2_T2"
+      },
+      {
+        "name": "rep2_lane1",
+        "flag": 147,
+        "RG": "SAMPLE_A_REP2_T1"
+      },
+      {
+        "name": "rep2_lane2",
+        "flag": 1171,
+        "RG": "SAMPLE_A_REP2_T2"
+      }
+    ],
+    "metrics": "${VALIDATION_ROOT}/chromap/runs/proposed/work/e9/caa78f1ec6a7500df59fb8b040aa8c/SAMPLE_A_REP2.mLb.mkD.sorted.metrics.txt",
+    "bam": "${VALIDATION_ROOT}/chromap/runs/proposed/work/e9/caa78f1ec6a7500df59fb8b040aa8c/SAMPLE_A_REP2.mLb.mkD.sorted.bam"
+  }
+}

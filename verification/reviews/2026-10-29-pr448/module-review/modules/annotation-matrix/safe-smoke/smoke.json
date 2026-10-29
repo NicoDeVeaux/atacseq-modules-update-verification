@@ -1,0 +1,20 @@
+{
+  "image": "quay.io/biocontainers/gffread:0.12.9--hf426362_0@sha256:c63259461255a7ec818697ccb6960fc120917b036281a7044aac0796d43fad4c",
+  "version": "0.12.9",
+  "argv": [
+    "gffread",
+    "input.gff3",
+    "--keep-exon-attrs",
+    "-F",
+    "-T",
+    "-o",
+    "output.gtf"
+  ],
+  "exit_code": 0,
+  "input_sha256": "bc32d294c49e0b5319e18dc42c547e1bff16d1c93cbfc8293f9b7bc9dd0e9685",
+  "output_sha256": "316af7893ef49314c5e73e3cf7dc60e263cd82f5583b9c47cf3af78d6cc269cf",
+  "transcripts": 1,
+  "exons": 2,
+  "exonic_bases": 150,
+  "coordinate_and_identity_oracle_passed": true
+}

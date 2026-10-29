@@ -1,0 +1,43 @@
+{
+  "cases": [
+    {
+      "case": "pr448-hiv-bwa-unfixed-a9b588",
+      "file_count": 669,
+      "over_50MB_bytes": 4391203146,
+      "over_50MB_file_count": 16,
+      "status": "SUCCEEDED",
+      "total_published_bytes": 4977318516,
+      "unknown_size_files": 0
+    },
+    {
+      "case": "pr448-hiv-bwa-fixed-a9b588",
+      "file_count": 669,
+      "over_50MB_bytes": 4383548458,
+      "over_50MB_file_count": 16,
+      "status": "SUCCEEDED",
+      "total_published_bytes": 4970074499,
+      "unknown_size_files": 0
+    },
+    {
+      "case": "pr448-hiv-chromap-unfixed-a9b588",
+      "file_count": 674,
+      "over_50MB_bytes": 16372997213,
+      "over_50MB_file_count": 17,
+      "status": "SUCCEEDED",
+      "total_published_bytes": 16957854214,
+      "unknown_size_files": 0
+    },
+    {
+      "case": "pr448-hiv-chromap-fixed-a9b588",
+      "file_count": 674,
+      "over_50MB_bytes": 16348847847,
+      "over_50MB_file_count": 17,
+      "status": "SUCCEEDED",
+      "total_published_bytes": 16932982147,
+      "unknown_size_files": 0
+    }
+  ],
+  "durable_public_archive_created": false,
+  "note": "Stable internal object locations are private inventory, not usable public downloads. No BAM/bigWig/raw/reference/image objects downloaded.",
+  "observed_at": "2026-10-29T08:32:43.170605+00:00"
+}

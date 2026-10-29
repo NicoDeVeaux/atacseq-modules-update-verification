@@ -1,0 +1,1549 @@
+
+
+
+  
+
+    
+
+    
+Homer Software and Data Download
+
+    
+
+<!--
+BODY
+   {
+   font-family:sans-serif;
+   }
+-->
+  
+
+    
+
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-47263894-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
+
+  
+
+  
+
+    
+
+      
+
+        
+
+          
+
+          
+
+            
+HOMER
+
+            
+Software for motif discovery and next-gen sequencing
+              analysis
+
+            
+
+            
+ 
+
+        
+
+        
+
+          
+
+          
+
+          
+
+            
+Configuring, Updating, and Customizing HOMER 
+
+            
+
+            This section covers how to update and customize HOMER - It
+            is new to v4.4, and long overdue.  All of the
+            annotation parsing and updating scripts that were previously
+            kept with the development code are now part of HOMER. 
+            Overall, there are 5 different strategies for customizing
+            HOMER:
+
+            
+
+              
+[
+configureHomer.pl
+] Installing & updating
+                packages from the HOMER website using 
+configureHomer.pl
+
+                - this is the normal way to change HOMER, 
+covered here
+.
+
+              
+Using FASTA genome files and custom GTF files with
+                HOMER analysis programs (no permanent Homer
+                configuration changes)
+
+              
+[
+loadGenome.pl
+, 
+loadPromoters.pl
+]
+                Creating your own genome and promoter packages from
+                FASTA and/or annotation files.
+
+              
+[
+update/
+updateGeneIdentifiers.pl
+, 
+update/updateUCSCGenomeAnnotations.pl
+]
+                Updating or adding organism gene accessions and GO terms
+                from NCBI, updating or adding additional UCSC genomes or
+                annotation.
+
+              
+Spoofing HOMER format files to incorporate you own
+                data.
+
+              
+
+            
+
+            If these options don't make sense to you, don't worry. 
+            As you go through this section and/or use HOMER these will
+            start to make more sense.
+
+            
+
+            
+
+            
+[1] Basic Configuration of HOMER - recommended
+
+            
+
+            
+ In an effort to make sure things are
+              standardized for analysis, HOMER organizes promoters,
+              genome sequences and annotation into packages. 
+              Versions are based on assemblies from the 
+UCSC Genome Browser
+
+              whenever possible.  Accession numbers gene ontology
+              definitions are based on the NCBI gene database.  All
+              program files and motif libraries are all part of the
+              standard HOMER installation.
+
+            
+
+            
+Configuration is handled
+              automatically through the 
+configureHomer.pl
+ script, which should
+              reside in the directory where 
+HOMER
+
+
+
+                is installed
+ (i.e. /path-to-homer/).  To see
+              which packages are available, run the 
+configureHomer.pl
+
+              script:
+
+              
+
+              
+perl /path-to-homer/configureHomer.pl -list
+
+                
+
+                Every time you run the configureHomer.pl script, it will
+                attempt to update the available packages by downloading
+                the 
+update.txt
+
+                file from homer.salk.edu/homer/.  Using this, the
+                program will assess which packages are installed and
+                which are available to download.
+
+              
+
+              
+
+              To install or remove any packages, simply rerun the
+              command using "
+-install
+                <package name>
+" or "
+-remove <package name>
+".
+
+              
+
+              
+perl /path-to-homer/configureHomer.pl -install
+                  human
+
+                
+
+              
+
+              
+This would configure HOMER
+                for analysis of human promoters.
+
+              
+
+              
+
+            
+
+            
+You may notice that a
+              package may have a "-p" (i.e. "human-p") at the end of it,
+              or a "-o" or "-g".  These help disambiguate package
+              names if they have the same name in different sections
+              (i.e. -p for promoters).  Overall, HOMER packages
+              come in 4 types:
+
+              
+
+                
+SOFTWARE - In this case only the homer code is
+                  there.  This package contains all of the code
+                  plus some general data files, such as motif matrices.
+
+                
+ORGANISMS - Species specific packages contain
+                  accession conversion data, gene descriptions, and GO
+                  analysis files specific to each organism.  Most
+                  are based on NCBI Gene database information
+
+                
+PROMOTERS - Promoter sequences and related files for
+                  analyzing promoters for motif enrichment.  Most
+                  often based on RefSeq transcript definitions. 
+                  Packages with "-mRNA" in the name contain RNA sequence
+                  for analysis of RNA instead of DNA
+
+                
+GENOMES - Genomic sequence and annotation
+                  information
+
+                
+
+              
+
+              You may also notice that if you download the hg19 genome,
+              it will automatically download the 'human' organism
+              package.  Each time you download a promoter or genome
+              package, it will check to make sure you have the Organism
+              package too.
+
+            
+
+            
+
+            
+[2] Using Custom Genomes and annotation files
+              "on-the-fly"
+
+            
+
+              
+If you want to use a genome, set of promoters, or
+                genomic annotations that are not part of HOMER's
+                configuration, most HOMER commands support the use of
+                FASTA files, GTF files, or other sensible options to
+                enable analysis.
+
+              
+
+              
+Genomes (FASTA):
+
+              
+
+              
+Nearly every program in HOMER that accepts a
+                genome parameter can also accept a genome FASTA file.
+                Genome FASTA files should contain all chromosomes in a
+                single file.  Chromosome names should occur right
+                after the FASTA header (i.e. ">chr1").  If
+                additional information is in the FASTA headers, there
+                should be a space between the chromosome name and the
+                additional information.
+
+                
+
+                Example of using FASTA file for motif finding for the
+                alien A.L.F.: 
+findMotifsGenome.pl peaks.txt 
+ALF.fasta
+
+                
+OutputResults/
+
+                
+
+                Or, lets say you did ChIP-Seq on one of A.L.F.'s alien
+                transcription factors: 
+makeTagDirectory
+                  ALF-TF-ChIPseq/ reads.sam -genome 
+ALF.fasta
+
+                  -checkGC
+ 
+
+              
+
+            
+
+            
+
+              
+Gene Annotation (GTF files):
+
+              
+When annotating regions in the genome with
+                programs like 
+annotatePeaks.pl
+, you may with to
+                use novel transcripts (or be using a genome with no
+                annotation).  Most programs such as this 
+annotatePeaks.pl
+
+                offer a "
+-gtf <gtffilename>
+" option to
+                specify a custom annotation.
+
+                
+
+                If you do not have a GTF file, you can try to use GFF or
+                GFF3 formatted files (use "-gff" or "-gff3" instead of
+                "-gtf").  GFF, GFF3, and GTF format files are all
+                very similar in their format, however, GFF/GFF3 files
+                are not as strict in their specification and it may be
+                difficult for HOMER to process their contents.  As
+                a result, it's best to use GTF files whenever possible.
+
+                
+
+                If you're having trouble with your file, you can try
+                parsing the GTF/GFF files with the 
+parseGTF.pl
+
+                program.  This script is used internally by
+                programs like 
+annotatePeaks.p
+l
+ to convert
+                GTF files into HOMER-style annotation files. 
+                Running this script with your files as a test can
+                sometimes identify problems with the parsing.
+
+              
+
+              
+Motif Finding from FASTA files (FASTA):
+
+              
+
+                
+findMotifs.pl
+ (and 
+homer2
+) allow you
+                  to use FASTA files for motif finding (i.e. 
+findMotifs.pl
+
+
+                    targets.fa fasta OutputDirectory -fasta
+                    background.fa
+).  
+More information here
+.
+
+                
+
+              
+
+            
+
+            
+
+            
+[3] Adding Custom Genomes and Promoters to the HOMER
+              configuration
+
+            
+
+            
+
+              
+To simplify the use of custom genomes and annotations,
+                you may want to load them into HOMER's configuration so
+                that you can use them by name like pre-configured HOMER
+                packages.  HOMER offers two basic programs that
+                assist with promoter and genome configuration.
+
+              
+
+              
+Loading Custom Promoter Sets [loadPromoters.pl]
+
+              
+
+              
+
+                
+Promoter set creation starts with either a FASTA file
+                  of promoter sequences, or a genome and TSS peak file
+                  that defines the promoter locations.  The
+                  loadPromoters.pl command will takes either of these
+                  data types and place a database of promoter sequences
+                  in the data/promoters directory so that they can be
+                  referenced by their 'name' using 
+findMotifs.pl
+
+                  and other commands that reference promoter sets. 
+                  Required pieces of information include:
+
+                
+
+                
+
+                  
+Promoter Set Name (-name): Name that you will
+                    refer to it later by when running 
+findMotifs.pl
+
+                  
+Organism (-org): If you supply a HOMER organism it
+                    will attempt to leverage all of the ID conversion
+                    and GO analysis.  Put 
+null
+ here if you
+                    are using an unsupported organism.
+
+                  
+
+                  
+ID type (-id): The type of ID your promoters are
+                    indexed by (gene [as in NCBI Gene], refseq, ensembl,
+                    unigene, or custom).  Put 
+custom
+ here
+                    if you have an unsupported id type.
+
+                  
+
+                
+
+                
+The Promoter Set Name should be unique.  If
+                  there is a conflict, the program will tell you to
+                  rerun the command with "-force" to overwrite the
+                  existing definition.  There are other options,
+                  such as specifying the version for record keeping
+                  purposes (
+-version <#>
+).  As a heads
+                  up, if you start your version with a 'v', HOMER will
+                  assume it is part of the normally maintained packages
+                  and might overwrite it during an update with 
+configureHomer.pl
+. 
+
+
+                  After you run the 
+loadPromoters.pl
+ command, a
+                  new entry will appear in the config.txt file in the
+                  base homer directory.
+
+                
+
+                
+Example with FASTA file as input:
+
+                
+
+                
+
+                  
+If all you want to do is find motifs from a FASTA
+                    file, you do NOT want to run this configuration
+                    command.  If, however, you have a list of
+                    promoter sequences (or something similar) where you
+                    will frequently want to perform motif finding on a
+                    subset of them (i.e. co-regulated genes, etc.), then
+                    this is the perfect command for you!  The key
+                    is that you must specify the FASTA file with
+                    sequences that are the same length for each entry
+                    (i.e. +/- 2kb from the TSS).  You MUST also
+                    specify the offset from the TSS for the first
+                    nucleotide in the file using "
+-offset <#>
+". 
+
+
+                    For example, if you have sequences that are from
+                    -2kb to +2kb, use "-offset -2000".
+
+                  
+
+                  
+Example of custom human promoters:
+
+                    
+loadPromoters.pl -name ChucksPromoters -org human
+                      -id refseq -fasta ChuckSequences.fasta -offset
+                      2000
+
+                  
+
+                  
+Example from alternative organism not recognized by
+                    HOMER:
+
+                    
+loadPromoters.pl -name ALFpromoters -org null -id
+                      custom -fasta ALFsequences.fasta -offset 2000
+
+                  
+
+                
+
+                
+Example with Genome/TSS peaks as input:
+
+                
+
+                
+
+                  
+The other popular option is that you may have a
+                    list of TSS derived from 5'RNA-Seq or CAGE, or you
+                    have a custom genome with TSS locations.  In
+                    these cases you can specify the genome and TSS
+                    peaks.  The TSS should be specified in a peak
+                    file where the 'center' of the peak in the actual
+                    TSS:
+
+                  
+
+                  
+Example of custom human promoters:
+
+                    
+loadPromoters.pl -name GencodePromoters -org
+                      human -id ensembl -genome hg19 -tss
+                      gencode.tss.txt
+
+                  
+
+                
+
+                
+RNA-based motif finding (FASTA)
+
+                
+
+                
+HOMER will let you load promoter sets that
+                  aren't really promoters at all, but rather RNA
+                  sequences.  This can facilitate motif finding for
+                  RNA motifs.  In these cases it works just like a
+                  traditional FASTA command, but be sure to name the
+                  promoter set such that it contains -mRNA, such as
+                  "human-mRNA".  findMotifs.pl will look for
+                  "-mRNA" in the promoter set name and automatically
+                  adjust settings for RNA motif finding.  It is
+                  recommended that if you are using RNA sequences for
+                  submission, use "
+-offset 0
+".
+
+                  
+
+                
+
+              
+
+              
+Loading Custom Genomes [loadGenome.pl]
+
+              
+
+                
+Loading custom genomes can save you a lot of time if
+                  you use HOMER a bunch.  If your genome is
+                  available through the UCSC Genome Browser, it is
+                  recommended that you try adding it to HOMER through
+                  the update scripts in the next section.  However,
+                  if that is not an option for you, I would recommend
+                  adding it with 
+loadGenome.pl
+.  To load a
+                  genome, there are several required parameters:
+
+                
+
+                
+
+                  
+Genome name (-name): Name that you will refer to
+                    the genome as when running 
+findMotifsGenome.pl
+,
+                    
+annotatePeaks.pl
+, etc.
+
+                  
+A FASTA file of the genome (-fasta): all in one
+                    file (soft masked is preferred)
+
+                  
+A GTF file describing the locations of genes
+                    (-gtf):  HOMER will attempt to choke down GFF
+                    and GFF3 files, but the conventions for how genes
+                    are recorded in these files is more variable and
+                    HOMER might have trouble.  You can test HOMER's
+                    parsing of these files by running 
+parseGTF.pl
+.
+
+                  
+
+                  
+Organism (-org): If you supply a HOMER organism it
+                    will attempt to leverage all of the ID conversion
+                    and GO analysis.  Put 
+null
+ here if you
+                    are using an unsupported organism.
+
+                
+
+                
+The Genome Name should be unique.  If there is a
+                  conflict, the program will tell you to rerun the
+                  command with "-force" to overwrite the existing
+                  definition.  There are other options, such as
+                  specifying the version for record keeping purposes (
+-version
+
+
+                    <#>
+).  As a heads up, if you start
+                  your version with a 'v', HOMER will assume it is part
+                  of the normally maintained packages and might
+                  overwrite it during an update with 
+configureHomer.pl
+. 
+
+
+                  After you run the 
+loadGenomes.pl
+ command, a
+                  new entry will appear in the config.txt file in the
+                  base homer directory.
+
+                
+
+                
+Example:
+
+                
+
+                
+loadGenome.pl -name alf -org null -fasta
+                    ALFgenome.fasta -gtf ALFgenes.gtf
+
+                
+
+                
+loadGenome.pl
+ can also save you some time will
+                  creating a promoter set for your genome too!  Add
+                  "
+-promoters <PromoterSetName>
+" and it
+                  will automatically call 
+loadPromoters.pl
+ in
+                  the command using the TSS defined in your GTF file.
+
+                  
+
+                
+
+              
+
+            
+
+            
+[4] Updating Organism Accessions, Promoters, and Genomes
+              from NCBI & UCSC
+
+            
+
+              
+Starting with HOMER v4.4, the auxiliary scripts used to
+                generate HOMER annotation packages are now part of the
+                software release.  This means that you can now
+                update HOMER annotations whenever you like, and also
+                allows you to add organisms and genomes such that they
+                are prepared the same way that most HOMER genomes and
+                annotation is prepared.  
+
+              
+
+              
+The following update scripts are located in the 
+update/
+
+                directory and can be used for the following:
+
+              
+
+              
+
+                
+Update and/or add organism gene accessions and
+                  conversion tables, GO and pathway ontologies [
+updateGeneIdentifiers.pl
+]
+
+                
+Update and/or add genomes and annotations maintained
+                  by the UCSC Genome Browser [
+updateUCSCGenomeAnnotations.pl
+]
+
+                
+Update and/or add promoter sets based on genome
+                  annotations [
+updatePromoters.pl
+]
+
+                
+Update Transcription Factor motif libraries [
+updateMotifFiles.pl
+]
+
+                
+
+              
+
+              
+NOTE
+: These programs are designed to be
+                executed from the 
+update/
+ directory - do not
+                attempt to run them from a different directory. 
+                Also, they should be executed in order when performing a
+                full update (i.e. update the gene identifiers before
+                updating the genome, etc.)
+
+              
+
+              
+WARNING: These scripts *should* work on both UNIX/Linux
+                and Mac OS based systems.  However, due to all the
+                small differences between how these systems operate and
+                if you encounter trouble please contact us.
+
+              
+
+              
+General Concept behind update/ scripts:
+
+              
+
+                
+Each of these scripts will attempt to download
+                  information from various sources using 
+wget
+ to
+                  fetch files over your internet connection.  Most
+                  of it comes from NCBI Gene Database and the UCSC
+                  Genome Browser, but other sources are included as
+                  well.  The organisms, genomes, etc. that are
+                  incorporated are determined by initial manifest tables
+                  that are provided as the primary input file to each of
+                  the commands.  Examples are in the update/
+                  directory and described in greater detail below. 
+                  In each case, the update programs will download the
+                  appropriate data, parse it and perform any initial
+                  data organization or manipulation that is necessary,
+                  and then automatically autoconfigure the data for use
+                  with HOMER's configuration management.  It will
+                  then be ready to use with the rest of HOMER.
+
+                
+
+              
+
+              
+Updating Gene Identifiers, Accession number mappings,
+                and Gene Onotology/Pathway resources (i.e. Organism
+                packages)
+
+              
+
+              
+
+                
+The 
+updateGeneIdentifiers.pl
+ script can be
+                  used to update and add organism packages to
+                  HOMER.  To run the script you must create an
+                  organism manifest file, or use/modify the example
+                  provided in the update/ directory
+                  ("taxids.tsv").  The file is a tab-delimited text
+                  file with the following columns:
+
+                
+
+                
+
+                  
+NCBI Taxonomy ID for the organism (i.e. human is
+                    9606)
+
+                  
+The common name for the organism that HOMER will
+                    use to reference the data later in commands like 
+convertIDs.pl
+
+                    (i.e. human, mouse, etc.)
+
+                  
+The full species name for the organism.
+
+                  
+The version specification of the package HOMER
+                    creates.  You may use whatever you want for
+                    this value - if it starts with a "v" (i.e. v1.0),
+                    the 
+configureHomer.pl
+ script may attempt to
+                    modify the package later.  If it starts with
+                    anything else, 
+configureHomer.pl
+ should
+                    ignore when attempting to update HOMER.
+
+                  
+
+                
+
+              
+
+              
+
+                
+(Check out taxids.tsv in the update/ directory for an
+                  example)
+
+                
+
+                
+To run the command (from the update/ directory):
+
+                
+
+                
+./updateGeneIdentifiers.pl taxids.tsv
+
+                  
+
+                  # or, to include some common affymetrix ID
+                  conversions:
+
+                  
+./updateGeneIdentifiers.pl taxids.tsv
+                    externalIDs.tsv
+ 
+
+                
+
+                
+The gene identifier update process
+
+                
+
+                  
+Gene identifiers are build around the NCBI Gene
+                    Database, which depending on your point of view is
+                    one of the more complete databases of information on
+                    gene accession information available across a wide
+                    range of species.  The script will basically
+                    raid all of the files on the NCBI Gene FTP site
+                    (ftp://ftp.ncbi.nih.gov/gene/DATA/) and process them
+                    to create ID conversion tables for each of the
+                    organisms in the input manifest file (i.e.
+                    taxids.tsv).  It will also download the primary
+                    uniprot data files
+(ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/).
+
+                  
+
+                
+
+              
+
+              
+
+                
+The GO/pathway update process
+
+                
+
+                
+By Gene Ontology(GO) and pathway
+                  information, what we really mean is any type of gene
+                  groupings that could provide information about how a
+                  group of genes are connected.  The Gene Onotology
+                  is by far the most used database for functional
+                  enrichment calculations, but there are many other
+                  sources worth considering.  HOMER downloads the
+                  GO trees directly from the GO website, and uses the
+                  NCBI Gene database mappings to populate the genes in
+                  the GO tree.  HOMER also parses the Gene
+                  annotation in NCBI Gene and Uniprot files to identify
+                  genes with common protein domains, chromosome
+                  locations, and protein-protein interactions. 
+                  HOMER also downloads files from the new NCBI
+                  biosystems database, which include KEGG, Pathway
+                  Interaction Database, REACTOME, BIOCYC, Lipid Maps,
+                  and Wikipathways databases.  Finally get
+                  downloads genes with GWAS hits (GWAS Catalog) and or
+                  ones mutated in the same cancer (COSMIC database).
+
+                
+
+              
+
+              
+
+                
+Downloading uniprot_trembl.dat
+
+                
+
+                  
+The most resource intensive aspect of the 
+updateGeneIdentifiers.pl
+
+                    script is the time it takes to download the
+                    uniprot/trembl data files and parse them.  The
+                    script that does this is relatively inefficient and
+                    uses up to 
+30Gb of RAM
+. 
+                    Downloading the file itself can also take several
+                    hours - if you download it once and leave it in the
+                    update/ directory, the program will NOT download it
+                    again if it finds it.  This can save time...
+
+                  
+
+                
+
+              
+
+              
+Updating Genomes and Genomic Annotations from the UCSC
+                Genome Browser (i.e. Genome packages)
+
+              
+
+              
+
+                
+updateUCSCGenomeAnnotations.pl
+ helps automate
+                  the process of compiling key information for genomes
+                  maintained by the UCSC Genome Browser.  Just like
+                  the 
+updateGeneIdentifiers.p
+l script, it
+                  requires an input file containing key information
+                  about the genomes you want to create packages out
+                  of.  The file is a tab-delimited text file
+                  (example file in the update/ directory is
+                  ucsc.txt).  The following are the columns
+                  required 
+(Changed for v4.5)
+:
+
+                
+
+                
+
+                  
+Name of the UCSC Genome (i.e. hg19, mm9, ce10,
+                    etc.)
+
+                  
+Organism name (ideally the organism used for the
+                    organism package, i.e. human, mouse, etc.)
+
+                  
+The version specification of the package HOMER
+                    creates.  You may use whatever you want for
+                    this value - if it starts with a "v" (i.e. v1.0),
+                    the 
+configureHomer.pl
+ script may attempt to
+                    modify the package later.  If it starts with
+                    anything else, 
+configureHomer.pl
+ should
+                    ignore when attempting to update HOMER.
+
+                
+
+                
+(Check out ucsc.txt in the update/ directory for an
+                  example)
+
+                
+
+                
+To run the command (from the update/ directory):
+
+                
+
+                
+./updateUCSCGenomeAnnotations.pl ucsc.txt
+
+                
+
+                
+The Genome Update Process
+
+                
+
+                  
+Similar to the other update scripts, this one will
+                    extract the genome FASTA file(s) and key files from
+                    the annotation database at UCSC for each
+                    organism.  Gene annotations are built from the
+                    refGene.txt files stored for each genome, and repeat
+                    definitions are derived from repeat mask
+                    files.  These files are parsed into the various
+                    files found in the genome directories.
+
+                  
+
+                
+
+              
+
+              
+
+                
+Potential Problems when adding new organisms
+
+                
+
+                  
+The UCSC Genome Browser is nearly infallible due to
+                    the incredible resource they provide the community,
+                    but sometimes the information about each organism is
+                    stored slightly differently and the current update
+                    scripts in HOMER may not be looking for the correct
+                    files (or they have a slightly different format,
+                    etc.).  If this happens let me know and maybe
+                    we can adjust things to fix it.  
+
+                  
+
+                
+
+              
+
+              
+Updating Promoters from available Genomes (i.e.
+                Promoter packages)
+
+              
+
+                
+updatePromoters.pl
+ works a lot like the other
+                  update scripts, and takes a promoter manifest file as
+                  input.  The file should be a tab-delimited text
+                  file with the following columns:
+
+                
+
+                
+
+                  
+Promoter Set Name (package name to be used with
+
+                      findMotifs.pl
+)
+
+                  
+Genome to use (i.e. hg19)
+
+                  
+Offset
+
+                
+
+                (Check out promoters.txt in the update/ directory for an
+                example)
+
+                
+To run the command (from the update/ directory):
+
+                
+
+                
+./updatePromoters.pl promoters.txt
+
+                  
+
+                
+The Promoter Update Process
+
+                
+This script will automatically find the TSS
+                  locations in the genome annotation and create promoter
+                  sets using sequences from these regions.  The
+                  script basically automates the execution of 
+loadPromoters.pl
+
+                
+
+                
+Creating mRNA, 3'UTR, and 5'UTR analysis sets
+
+                
+If you feel like trying your luck and RNA
+                  motif finding, you can specify "
+-rna
+" at the
+                  command line when running 
+updatePromoters.pl
+
+                  to have the program automatically download RefSeq RNAs
+                  from UCSC and set them up as promoter sets.
+
+                  
+
+                
+
+              
+
+              
+
+              
+Updating Motif Files
+
+              
+
+                
+The 
+updateMotifFiles.pl
+ script is useful for
+                  two purposes - it will re-download JASPAR motif
+                  matrices and incorporate them in the motif files homer
+                  uses.  It also provides you an opportunity to add
+                  your own motifs in the motif/ directory.  Motifs
+                  placed in the correct directories in the motif/ folder
+                  will be incorporated into the final files.
+
+                
+
+              
+
+              
+
+              
+
+            
+
+            
+[5] Customizing HOMER and the organization of the
+              software
+
+            
+
+            
+ What follows is a short description of how
+              HOMER is organized - as some researchers may want to force
+              HOMER to do things that aren't available out of the box,
+              this might help them accomplish this successfully!
+
+              
+
+              HOMER configuration is stored in a file named "
+config.txt
+" which is
+              located in the base Homer directory.  This is a
+              tab-delimited file that is read by various programs to
+              determine where certain data is stored.  Directories
+              to genome or promoter based data are stored here (given
+              relative to the base Homer directory).
+
+              
+
+              Other standard files, such as a 
+README.txt
+, 
+COPYING
+, and 
+Homer.pdf
+ documentation are also found in
+              this directory, as well as the 
+configureHomer.pl
+ script and the 
+update.txt
+ file which
+              is downloaded each time 
+configureHomer.pl
+
+              is evoked.
+
+              
+
+              
+Sub-Directories:
+
+              
+
+              
+ 
+bin/
+
+                - location of all perl scripts and executable programs
+                that apart of HOMER.  There is a lot of "stuff" in
+                here, some of which are half finished, abandoned, or
+                simply don't work.  These pages only talk about the
+                ones that do work :)
+
+                
+
+                
+cpp/
+ - location
+                of c++ source files.  Parts of the program which
+                need to be fast and/or memory efficient are written in
+                c++.  As time goes on, and data sets get bigger,
+                I've been slowly migrating perl programs to c++.  I
+                love perl - it's much much faster to write a useful
+                program, but in the end c++ is much much faster at
+                executing.  
+
+                
+
+                
+motifs/
+ - location to put custom motif files you
+                may want to reuse
+
+                
+
+                
+update/
+ - location of annotation update
+                scripts.  Also contains some specialized
+                information (such as organism specific motifs,
+                affymetrix probeID conversion files, etc.) (new in v4.4)
+
+                
+ 
+
+                
+ data/
+ -
+                location of all the data files for HOMER
+
+                
+
+                
+ 
+data/accession/
+
+                  - location of flat files for accession number
+                  conversion.  For each organism, there is a 
+org
+2gene.tsv
+ and 
+org
+.description
+, both of
+                  which are tab-delimited text files, which are used for
+                  ID conversion and annotation information.
+
+                  
+
+                  
+data/GO/
+ -
+                  gene ontology files (*.genes) that are tab-delimited
+                  text files with GO ID, GO name, and a comma separated
+                  list of gene IDs for various "ontologies".  These
+                  files are species independent (contain IDs from
+                  several organisms).  The names of the files are
+                  hard-coded in the gene ontology program, so you can
+                  either replace the files with something you are
+                  interested in or change the hard-coded file names in 
+findGO.pl
+ program.
+
+                  
+
+                  
+data/knownTFs/
+
+                  - This directory contains motif libraries used for
+                  checking the identities of 
+de novo
+ motifs (
+all.motifs 
+- most
+                  of which come from 
+JASPAR
+), and a
+                  list of previously found motifs (
+known.motifs
+) used
+                  for checking the enrichment of known motifs. 
+                  These files can be replaced with similar formatted
+                  files if you wish.  There is also a sub
+                  directory, named "
+data/knownTFs/motifs/
+",
+
+
+
+
+                  which contains 
+*.motif
+
+                  files for my own personal motif library (to be used
+                  with other applications such as 
+annotatePeaks.pl
+).
+
+                  
+
+                  
+data/misc/
+ - I
+                  guess if don't like reading about a legendary human
+                  being at the bottom of your motif finding results, you
+                  could delete or change this file.  Be warned -
+                  I'm not responsible if you end up getting a swift
+                  roundhouse kick to the face.
+
+                  
+
+                  
+data/promoters/
+
+                  - files used for promoter motif finding.  For
+                  each promoter set (called "
+name
+"), there are several files:
+
+                  
+
+                    
+name.seq (promoter sequence)
+
+                    
+name.mask (repeat-masked promoter sequence)
+
+                    
+name.cgbins (assignments of promoters to
+                      different CpG classes)
+
+                    
+name.cgfreq (CpG/GC frequencies)
+
+                    
+name.pos (genomic positions of promoters)
+
+                    
+name.redun (mapping between redundant promoters
+                      i.e. share similar sequence)
+
+                    
+name.cons (might be missing - 0-9 phastCons
+                      score or promoter sequence)
+
+                    
+name.base (IDs to use as background - typically
+                      expressed or confident promoters)
+
+                    
+name.base.gene (name.base in terms of gene ids
+                      to use with gene ontology analysis)  
+
+                    
+
+                  
+
+                  
+data/genomes/
+
+                  - each 
+genome
+ has it's own directory. 
+                  Within each directory are the 
+*.fa
+ files or 
+*.fa.masked
+ files
+                  containing the genome sequence.  In addition,
+                  there are several annotation files:
+
+                  
+
+                    
+*.fa or *.fa.masked files for each chromosome
+
+                    
+
+                    
+genome.tss (positions of refseq transcription
+                      start sites)
+
+                    
+genome.tts (positions of refseq transcription
+                      termination sites)
+
+                    
+genome.splice3p (positons of refseq 3' splice
+                      sites)
+
+                    
+genome.splice5p (positons of refseq 5' splice
+                      sites)
+
+                    
+genome.aug (positions of refseq translation
+                      start codons)
+
+                    
+genome.stop (positions of refseq translation
+                      stop codons)
+
+                    
+genome.rna (refseq RNA definition file)
+
+                    
+genome.repeats.rna (repeat RNA definition file)
+
+                    
+genome.basic.annotation
+                      (exon/intron/TSS/TTS/intergenic region
+                      annotations)
+
+                    
+genome.full.annotation (basic with CpG island
+                      and repeats annotated)
+
+                    
+conservation/ subdirectory (contains
+                      "FASTA-like" files with phastcons information) -
+                      this is being phased out
+
+                    
+
+                    
+annotation/ subdirectory (contains annotation
+                      definitions for the GenomeOntology)
+
+                  
+
+                
+
+              
+
+            
+
+            
+
+              
+
+                
+
+                  
+
+                
+
+              
+
+            
+
+            
+ 
+
+            
+
+            
+
+            
+
+          
+
+        
+
+        
+
+          
+
+          
+
+            
+Can't figure something out? Questions, comments,
+            concerns, or other feedback: 
+
+            cbenner@ucsd.edu 
+
+        
+
+      
+
+    
+
+  
+
+
+

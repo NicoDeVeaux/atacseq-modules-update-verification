@@ -1,0 +1,19 @@
+{
+  "source": "${WORKTREE_ROOT}/atacseq-pr448-proposed-fix",
+  "commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+  "sha256": {
+    "conf/modules.config": "3cc3a56fd6ed88b57c52fbfd9f4b9c5a3e79d57866f314ad408fbc4d7835e3a3",
+    "nextflow.config": "e47935daa6dba8eb3fd284bcabe44099d3755fc104b26f525a03ce5a45ed8e55",
+    "modules/nf-core/trimgalore/main.nf": "75db2795106e69a93f7e31da0dca1cef608f82323d92894c88b621ba380e24d7",
+    "modules/nf-core/trimgalore/environment.yml": "1878192a84a7b69ad32261f3f6239223cac83c81ddbef28f72ff976afd4b87b0"
+  },
+  "ext_args_verbatim": "\n                [\n                    '--fastqc',\n                    '--no_poly_g',\n                    params.trim_nextseq > 0 ? \"--nextseq ${params.trim_nextseq}\" : '',\n                    params.clip_r1 > 0 ? \"--clip_r1 ${params.clip_r1}\" : '',\n                    params.clip_r2 > 0 ? \"--clip_r2 ${params.clip_r2}\" : '',\n                    params.three_prime_clip_r1 > 0 ? \"--three_prime_clip_r1 ${params.three_prime_clip_r1}\" : '',\n                    params.three_prime_clip_r2 > 0 ? \"--three_prime_clip_r2 ${params.three_prime_clip_r2}\" : ''\n                ].join(' ').trim()",
+  "literal_defaults": {
+    "clip_r1": "null",
+    "clip_r2": "null",
+    "three_prime_clip_r1": "null",
+    "three_prime_clip_r2": "null",
+    "trim_nextseq": "null"
+  },
+  "container_override": null
+}

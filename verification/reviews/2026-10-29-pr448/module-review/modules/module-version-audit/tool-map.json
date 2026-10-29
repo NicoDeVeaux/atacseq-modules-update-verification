@@ -1,0 +1,1630 @@
+{
+  "base": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+  "merge": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+  "families": {
+    "ataqv": {
+      "components": [
+        "modules/nf-core/ataqv/ataqv",
+        "modules/nf-core/ataqv/mkarv"
+      ],
+      "old_conda": [
+        "bioconda::ataqv=1.3.1"
+      ],
+      "new_conda": [
+        "bioconda::ataqv=1.3.1"
+      ],
+      "old_docker_tags": [
+        "ataqv:1.3.1--py310ha155cf9_1"
+      ],
+      "new_docker_tags": [
+        "ataqv:1.3.1--py310ha155cf9_1"
+      ],
+      "upstream_urls": [
+        "https://github.com/ParkerLab/ataqv",
+        "https://github.com/ParkerLab/ataqv/blob/master/README.rst"
+      ]
+    },
+    "bowtie2": {
+      "components": [
+        "modules/nf-core/bowtie2/align",
+        "modules/nf-core/bowtie2/build"
+      ],
+      "old_conda": [
+        "bioconda::bowtie2=2.4.4",
+        "bioconda::bowtie2=2.5.2"
+      ],
+      "new_conda": [
+        "bioconda::bowtie2=2.5.4"
+      ],
+      "old_docker_tags": [
+        "bowtie2:2.4.4--py39hbb4e92a_0",
+        "mulled-v2-ac74a7f02cebcfcc07d8e8d1d750af9c83b4d45a:f70b31a2db15c023d641c32f433fb02cd04df5a6-0"
+      ],
+      "new_docker_tags": [
+        "bowtie2_htslib_samtools_pigz:edeb13799090a2a6"
+      ],
+      "upstream_urls": [
+        "http://bowtie-bio.sourceforge.net/bowtie2/index.shtml",
+        "http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml",
+        "https://www.ncbi.nlm.nih.gov/pubmed/19505943/"
+      ]
+    },
+    "bwa": {
+      "components": [
+        "modules/nf-core/bwa/index",
+        "modules/nf-core/bwa/mem"
+      ],
+      "old_conda": [
+        "bioconda::bwa=0.7.19",
+        "bwa=0.7.17"
+      ],
+      "new_conda": [
+        "bioconda::bwa=0.7.19"
+      ],
+      "old_docker_tags": [
+        "bwa_htslib_samtools:83b50ff84ead50d0",
+        "mulled-v2-fe8faa35dbf6dc65a0f7f5d4ea12e31a79f73e40:a34558545ae1413d94bde4578787ebef08027945-0"
+      ],
+      "new_docker_tags": [
+        "bwa_htslib_samtools:83b50ff84ead50d0"
+      ],
+      "upstream_urls": [
+        "http://bio-bwa.sourceforge.net/",
+        "http://www.htslib.org/doc/samtools.html",
+        "https://bio-bwa.sourceforge.net/bwa.shtml",
+        "https://www.ncbi.nlm.nih.gov/pubmed/19451168/",
+        "https://www.ncbi.nlm.nih.gov/pubmed/19505943/"
+      ]
+    },
+    "chromap": {
+      "components": [
+        "modules/nf-core/chromap/chromap",
+        "modules/nf-core/chromap/index"
+      ],
+      "old_conda": [
+        "bioconda::chromap=0.2.4"
+      ],
+      "new_conda": [
+        "bioconda::chromap=0.3.2"
+      ],
+      "old_docker_tags": [
+        "chromap:0.2.4--hd03093a_0",
+        "mulled-v2-1f09f39f20b1c4ee36581dc81cc323c70e661633:5b2e433ab8b3d1ef098fc944b567fd98caa23f56-0"
+      ],
+      "new_docker_tags": [
+        "chromap:0.3.2--4ec4bca51cd82195",
+        "chromap_samtools:b975c17adf0096ba"
+      ],
+      "upstream_urls": [
+        "https://github.com/haowenz/chromap",
+        "https://www.ncbi.nlm.nih.gov/pubmed/19505943/"
+      ]
+    },
+    "custom": {
+      "components": [
+        "modules/nf-core/custom/getchromsizes"
+      ],
+      "old_conda": [],
+      "new_conda": [],
+      "old_docker_tags": [
+        "samtools:1.16.1--h6899075_1"
+      ],
+      "new_docker_tags": [],
+      "upstream_urls": [
+        "http://www.htslib.org/",
+        "http://www.htslib.org/doc/samtools.html",
+        "https://www.ncbi.nlm.nih.gov/pubmed/19505943/"
+      ]
+    },
+    "deeptools": {
+      "components": [
+        "modules/nf-core/deeptools/alignmentsieve",
+        "modules/nf-core/deeptools/computematrix",
+        "modules/nf-core/deeptools/plotfingerprint",
+        "modules/nf-core/deeptools/plotheatmap",
+        "modules/nf-core/deeptools/plotprofile"
+      ],
+      "old_conda": [
+        "bioconda::deeptools=3.5.5"
+      ],
+      "new_conda": [
+        "bioconda::deeptools=3.5.6"
+      ],
+      "old_docker_tags": [
+        "deeptools:3.5.5--pyhdfd78af_0",
+        "mulled-v2-eb9e7907c7a753917c1e4d7a64384c047429618a:41defd13a6f2ce014549fcc05d0b051f655777f9-0"
+      ],
+      "new_docker_tags": [
+        "deeptools:3.5.6--pyhdfd78af_0",
+        "mulled-v2-eb9e7907c7a753917c1e4d7a64384c047429618a:28424fe3aec58d2b3e4e4390025d886207657d25-0"
+      ],
+      "upstream_urls": [
+        "https://deeptools.readthedocs.io/en/develop/content/tools/alignmentSieve.html",
+        "https://deeptools.readthedocs.io/en/develop/index.html",
+        "https://www.ncbi.nlm.nih.gov/pubmed/19505943/",
+        "https://www.ncbi.nlm.nih.gov/pubmed/27079975/"
+      ]
+    },
+    "gffread": {
+      "components": [
+        "modules/nf-core/gffread"
+      ],
+      "old_conda": [
+        "bioconda::gffread=0.12.1"
+      ],
+      "new_conda": [
+        "bioconda::gffread=0.12.7"
+      ],
+      "old_docker_tags": [
+        "gffread:0.12.1--h8b12597_0"
+      ],
+      "new_docker_tags": [
+        "gffread:0.12.7--hdcf5f25_4"
+      ],
+      "upstream_urls": [
+        "http://ccb.jhu.edu/software/stringtie/gff.shtml#gffread"
+      ]
+    },
+    "gunzip": {
+      "components": [
+        "modules/nf-core/gunzip"
+      ],
+      "old_conda": [],
+      "new_conda": [
+        "conda-forge::gzip=1.13"
+      ],
+      "old_docker_tags": [
+        "ubuntu:20.04"
+      ],
+      "new_docker_tags": [
+        "coreutils_grep_gzip_lbzip2_pruned:838ba80435a629f8"
+      ],
+      "upstream_urls": [
+        "https://www.gnu.org/software/gzip/manual/gzip.html"
+      ]
+    },
+    "homer": {
+      "components": [
+        "modules/nf-core/homer/annotatepeaks"
+      ],
+      "old_conda": [
+        "bioconda::homer=4.11"
+      ],
+      "new_conda": [
+        "bioconda::homer=4.11"
+      ],
+      "old_docker_tags": [
+        "homer:4.11--pl526hc9558a2_3"
+      ],
+      "new_docker_tags": [
+        "bioconductor-deseq2_bioconductor-edger_homer_samtools_pruned:a8f4c58755bb281b"
+      ],
+      "upstream_urls": [
+        "http://homer.ucsd.edu/homer/",
+        "https://www.ncbi.nlm.nih.gov/pubmed/19505943/",
+        "https://www.ncbi.nlm.nih.gov/pubmed/20513432/",
+        "https://www.ncbi.nlm.nih.gov/pubmed/25516281/"
+      ]
+    },
+    "khmer": {
+      "components": [
+        "modules/nf-core/khmer/uniquekmers"
+      ],
+      "old_conda": [
+        "bioconda::khmer=3.0.0a3"
+      ],
+      "new_conda": [
+        "bioconda::khmer=3.0.0a3"
+      ],
+      "old_docker_tags": [
+        "khmer:3.0.0a3--py37haa7609a_2"
+      ],
+      "new_docker_tags": [
+        "khmer:3.0.0a3--py37haa7609a_2"
+      ],
+      "upstream_urls": [
+        "https://github.com/dib-lab/khmer",
+        "https://khmer.readthedocs.io/en/latest/"
+      ]
+    },
+    "local/bam_remove_orphans": {
+      "components": [
+        "modules/local/bam_remove_orphans.nf"
+      ],
+      "old_conda": [
+        "bioconda::pysam=0.19.0",
+        "bioconda::samtools=1.15.1"
+      ],
+      "new_conda": [
+        "bioconda::pysam=0.19.0",
+        "bioconda::samtools=1.15.1"
+      ],
+      "old_docker_tags": [
+        "mulled-v2-57736af1eb98c01010848572c9fec9fff6ffaafd:402e865b8f6af2f3e58c6fc8d57127ff0144b2c7-0"
+      ],
+      "new_docker_tags": [
+        "mulled-v2-57736af1eb98c01010848572c9fec9fff6ffaafd:402e865b8f6af2f3e58c6fc8d57127ff0144b2c7-0"
+      ],
+      "upstream_urls": [
+        "https://github.com/pysam-developers/pysam",
+        "https://www.ncbi.nlm.nih.gov/pubmed/19505943/"
+      ]
+    },
+    "local/bamtools_filter": {
+      "components": [
+        "modules/local/bamtools_filter.nf"
+      ],
+      "old_conda": [
+        "bioconda::bamtools=2.5.2",
+        "bioconda::samtools=1.15.1"
+      ],
+      "new_conda": [
+        "bioconda::bamtools=2.5.2",
+        "bioconda::samtools=1.15.1"
+      ],
+      "old_docker_tags": [
+        "mulled-v2-0560a8046fc82aa4338588eca29ff18edab2c5aa:5687a7da26983502d0a8a9a6b05ed727c740ddc4-0"
+      ],
+      "new_docker_tags": [
+        "mulled-v2-0560a8046fc82aa4338588eca29ff18edab2c5aa:5687a7da26983502d0a8a9a6b05ed727c740ddc4-0"
+      ],
+      "upstream_urls": [
+        "https://www.ncbi.nlm.nih.gov/pubmed/19505943/",
+        "https://www.ncbi.nlm.nih.gov/pubmed/21493652/"
+      ]
+    },
+    "local/bedtools_genomecov": {
+      "components": [
+        "modules/local/bedtools_genomecov.nf"
+      ],
+      "old_conda": [
+        "bioconda::bedtools=2.31.1",
+        "conda-forge::coreutils=9.5"
+      ],
+      "new_conda": [
+        "bioconda::bedtools=2.31.1",
+        "conda-forge::coreutils=9.5"
+      ],
+      "old_docker_tags": [
+        "bedtools_coreutils:a623c13f66d5262b",
+        "bedtools_coreutils:ba273c06a3909a15"
+      ],
+      "new_docker_tags": [
+        "bedtools_coreutils:a623c13f66d5262b",
+        "bedtools_coreutils:ba273c06a3909a15"
+      ],
+      "upstream_urls": [
+        "https://www.ncbi.nlm.nih.gov/pubmed/20110278/"
+      ]
+    },
+    "local/deseq2_qc": {
+      "components": [
+        "modules/local/deseq2_qc.nf"
+      ],
+      "old_conda": [
+        "bioconda::bioconductor-biocparallel",
+        "bioconda::bioconductor-complexheatmap",
+        "bioconda::bioconductor-deseq2",
+        "bioconda::bioconductor-tximport",
+        "conda-forge::r-base",
+        "conda-forge::r-ggplot2",
+        "conda-forge::r-optparse",
+        "conda-forge::r-pheatmap",
+        "conda-forge::r-rcolorbrewer"
+      ],
+      "new_conda": [
+        "bioconda::bioconductor-biocparallel",
+        "bioconda::bioconductor-complexheatmap",
+        "bioconda::bioconductor-deseq2",
+        "bioconda::bioconductor-tximport",
+        "conda-forge::r-base",
+        "conda-forge::r-ggplot2",
+        "conda-forge::r-optparse",
+        "conda-forge::r-pheatmap",
+        "conda-forge::r-rcolorbrewer"
+      ],
+      "old_docker_tags": [
+        "mulled-v2-8849acf39a43cdd6c839a369a74c0adc823e2f91:ab110436faf952a33575c64dd74615a84011450b-0"
+      ],
+      "new_docker_tags": [
+        "mulled-v2-8849acf39a43cdd6c839a369a74c0adc823e2f91:ab110436faf952a33575c64dd74615a84011450b-0"
+      ],
+      "upstream_urls": [
+        "https://CRAN.R-project.org/package=RColorBrewer",
+        "https://CRAN.R-project.org/package=optparse",
+        "https://CRAN.R-project.org/package=pheatmap",
+        "https://cran.r-project.org/web/packages/ggplot2/index.html",
+        "https://www.ncbi.nlm.nih.gov/pubmed/25516281/"
+      ]
+    },
+    "local/frip_score": {
+      "components": [
+        "modules/local/frip_score.nf"
+      ],
+      "old_conda": [
+        "bioconda::bedtools=2.30.0",
+        "bioconda::samtools=1.15.1"
+      ],
+      "new_conda": [
+        "bioconda::bedtools=2.30.0",
+        "bioconda::samtools=1.15.1"
+      ],
+      "old_docker_tags": [
+        "mulled-v2-8186960447c5cb2faa697666dc1e6d919ad23f3e:3127fcae6b6bdaf8181e21a26ae61231030a9fcb-0"
+      ],
+      "new_docker_tags": [
+        "mulled-v2-8186960447c5cb2faa697666dc1e6d919ad23f3e:3127fcae6b6bdaf8181e21a26ae61231030a9fcb-0"
+      ],
+      "upstream_urls": [
+        "https://www.ncbi.nlm.nih.gov/pubmed/19505943/",
+        "https://www.ncbi.nlm.nih.gov/pubmed/20110278/"
+      ]
+    },
+    "local/genome_blacklist_regions": {
+      "components": [
+        "modules/local/genome_blacklist_regions.nf"
+      ],
+      "old_conda": [
+        "bioconda::bedtools=2.30.0"
+      ],
+      "new_conda": [
+        "bioconda::bedtools=2.30.0"
+      ],
+      "old_docker_tags": [
+        "bedtools:2.30.0--hc088bd4_0"
+      ],
+      "new_docker_tags": [
+        "bedtools:2.30.0--hc088bd4_0"
+      ],
+      "upstream_urls": [
+        "https://www.ncbi.nlm.nih.gov/pubmed/20110278/"
+      ]
+    },
+    "local/get_autosomes": {
+      "components": [
+        "modules/local/get_autosomes.nf"
+      ],
+      "old_conda": [
+        "conda-forge::python=3.8.3"
+      ],
+      "new_conda": [
+        "conda-forge::python=3.8.3"
+      ],
+      "old_docker_tags": [
+        "python:3.8.3"
+      ],
+      "new_docker_tags": [
+        "python:3.8.3"
+      ],
+      "upstream_urls": []
+    },
+    "local/gtf2bed": {
+      "components": [
+        "modules/local/gtf2bed.nf"
+      ],
+      "old_conda": [
+        "conda-forge::perl=5.26.2"
+      ],
+      "new_conda": [
+        "conda-forge::perl=5.26.2"
+      ],
+      "old_docker_tags": [
+        "perl:5.26.2"
+      ],
+      "new_docker_tags": [
+        "perl:5.26.2"
+      ],
+      "upstream_urls": []
+    },
+    "local/igv": {
+      "components": [
+        "modules/local/igv.nf"
+      ],
+      "old_conda": [
+        "conda-forge::python=3.8.3"
+      ],
+      "new_conda": [
+        "conda-forge::python=3.8.3"
+      ],
+      "old_docker_tags": [
+        "python:3.8.3"
+      ],
+      "new_docker_tags": [
+        "python:3.8.3"
+      ],
+      "upstream_urls": []
+    },
+    "local/macs3_consensus": {
+      "components": [
+        "modules/local/macs3_consensus.nf"
+      ],
+      "old_conda": [
+        "bioconda::bedtools=2.30.0",
+        "conda-forge::biopython",
+        "conda-forge::r-optparse=1.7.1",
+        "conda-forge::r-upsetr=1.4.0"
+      ],
+      "new_conda": [
+        "bioconda::bedtools=2.30.0",
+        "conda-forge::biopython",
+        "conda-forge::r-optparse=1.7.1",
+        "conda-forge::r-upsetr=1.4.0"
+      ],
+      "old_docker_tags": [
+        "mulled-v2-2f48cc59b03027e31ead6d383fe1b8057785dd24:5d182f583f4696f4c4d9f3be93052811b383341f-0"
+      ],
+      "new_docker_tags": [
+        "mulled-v2-2f48cc59b03027e31ead6d383fe1b8057785dd24:5d182f583f4696f4c4d9f3be93052811b383341f-0"
+      ],
+      "upstream_urls": [
+        "https://CRAN.R-project.org/package=UpSetR",
+        "https://CRAN.R-project.org/package=optparse",
+        "https://www.ncbi.nlm.nih.gov/pubmed/20110278/"
+      ]
+    },
+    "local/multiqc": {
+      "components": [
+        "modules/local/multiqc.nf"
+      ],
+      "old_conda": [
+        "bioconda::multiqc=1.13"
+      ],
+      "new_conda": [
+        "bioconda::multiqc=1.13"
+      ],
+      "old_docker_tags": [
+        "multiqc:1.13--pyhdfd78af_0"
+      ],
+      "new_docker_tags": [
+        "multiqc:1.13--pyhdfd78af_0"
+      ],
+      "upstream_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/27312411/"
+      ]
+    },
+    "local/multiqc_custom_peaks": {
+      "components": [
+        "modules/local/multiqc_custom_peaks.nf"
+      ],
+      "old_conda": [
+        "conda-forge::sed=4.7"
+      ],
+      "new_conda": [
+        "conda-forge::sed=4.7"
+      ],
+      "old_docker_tags": [
+        "ubuntu:20.04"
+      ],
+      "new_docker_tags": [
+        "ubuntu:20.04"
+      ],
+      "upstream_urls": []
+    },
+    "local/plot_homer_annotatepeaks": {
+      "components": [
+        "modules/local/plot_homer_annotatepeaks.nf"
+      ],
+      "old_conda": [
+        "bioconda::bioconductor-biostrings=2.58.0",
+        "bioconda::bioconductor-complexheatmap=2.6.2",
+        "conda-forge::r-base=4.0.3",
+        "conda-forge::r-ggplot2=3.3.3",
+        "conda-forge::r-optparse=1.6.6",
+        "conda-forge::r-reshape2=1.4.4",
+        "conda-forge::r-scales=1.1.1",
+        "conda-forge::r-tidyverse=1.3.0",
+        "conda-forge::r-viridis=0.5.1"
+      ],
+      "new_conda": [
+        "bioconda::bioconductor-biostrings=2.58.0",
+        "bioconda::bioconductor-complexheatmap=2.6.2",
+        "conda-forge::r-base=4.0.3",
+        "conda-forge::r-ggplot2=3.3.3",
+        "conda-forge::r-optparse=1.6.6",
+        "conda-forge::r-reshape2=1.4.4",
+        "conda-forge::r-scales=1.1.1",
+        "conda-forge::r-tidyverse=1.3.0",
+        "conda-forge::r-viridis=0.5.1"
+      ],
+      "old_docker_tags": [
+        "mulled-v2-ad9dd5f398966bf899ae05f8e7c54d0fb10cdfa7:05678da05b8e5a7a5130e90a9f9a6c585b965afa-0"
+      ],
+      "new_docker_tags": [
+        "mulled-v2-ad9dd5f398966bf899ae05f8e7c54d0fb10cdfa7:05678da05b8e5a7a5130e90a9f9a6c585b965afa-0"
+      ],
+      "upstream_urls": [
+        "http://www.jstatsoft.org/v21/i12/",
+        "https://CRAN.R-project.org/package=optparse",
+        "https://CRAN.R-project.org/package=scales",
+        "https://cran.r-project.org/web/packages/ggplot2/index.html"
+      ]
+    },
+    "local/plot_macs3_qc": {
+      "components": [
+        "modules/local/plot_macs3_qc.nf"
+      ],
+      "old_conda": [
+        "bioconda::bioconductor-biostrings=2.58.0",
+        "bioconda::bioconductor-complexheatmap=2.6.2",
+        "conda-forge::r-base=4.0.3",
+        "conda-forge::r-ggplot2=3.3.3",
+        "conda-forge::r-optparse=1.6.6",
+        "conda-forge::r-reshape2=1.4.4",
+        "conda-forge::r-scales=1.1.1",
+        "conda-forge::r-tidyverse=1.3.0",
+        "conda-forge::r-viridis=0.5.1"
+      ],
+      "new_conda": [
+        "bioconda::bioconductor-biostrings=2.58.0",
+        "bioconda::bioconductor-complexheatmap=2.6.2",
+        "conda-forge::r-base=4.0.3",
+        "conda-forge::r-ggplot2=3.3.3",
+        "conda-forge::r-optparse=1.6.6",
+        "conda-forge::r-reshape2=1.4.4",
+        "conda-forge::r-scales=1.1.1",
+        "conda-forge::r-tidyverse=1.3.0",
+        "conda-forge::r-viridis=0.5.1"
+      ],
+      "old_docker_tags": [
+        "mulled-v2-ad9dd5f398966bf899ae05f8e7c54d0fb10cdfa7:05678da05b8e5a7a5130e90a9f9a6c585b965afa-0"
+      ],
+      "new_docker_tags": [
+        "mulled-v2-ad9dd5f398966bf899ae05f8e7c54d0fb10cdfa7:05678da05b8e5a7a5130e90a9f9a6c585b965afa-0"
+      ],
+      "upstream_urls": [
+        "http://www.jstatsoft.org/v21/i12/",
+        "https://CRAN.R-project.org/package=optparse",
+        "https://CRAN.R-project.org/package=scales",
+        "https://cran.r-project.org/web/packages/ggplot2/index.html"
+      ]
+    },
+    "local/samplesheet_check": {
+      "components": [
+        "modules/local/samplesheet_check.nf"
+      ],
+      "old_conda": [
+        "conda-forge::python=3.8.3"
+      ],
+      "new_conda": [
+        "conda-forge::python=3.8.3"
+      ],
+      "old_docker_tags": [
+        "python:3.8.3"
+      ],
+      "new_docker_tags": [
+        "python:3.8.3"
+      ],
+      "upstream_urls": []
+    },
+    "local/star_align": {
+      "components": [
+        "modules/local/star_align.nf"
+      ],
+      "old_conda": [
+        "bioconda::star=2.6.1d"
+      ],
+      "new_conda": [
+        "bioconda::star=2.6.1d"
+      ],
+      "old_docker_tags": [
+        "star:2.6.1d--0"
+      ],
+      "new_docker_tags": [
+        "star:2.6.1d--0"
+      ],
+      "upstream_urls": []
+    },
+    "local/star_genomegenerate": {
+      "components": [
+        "modules/local/star_genomegenerate.nf"
+      ],
+      "old_conda": [
+        "bioconda::samtools=1.10",
+        "bioconda::star=2.6.1d",
+        "conda-forge::gawk=5.1.0"
+      ],
+      "new_conda": [
+        "bioconda::samtools=1.10",
+        "bioconda::star=2.6.1d",
+        "conda-forge::gawk=5.1.0"
+      ],
+      "old_docker_tags": [
+        "mulled-v2-1fa26d1ce03c295fe2fdcf85831a92fbcbd7e8c2:59cdd445419f14abac76b31dd0d71217994cbcc9-0"
+      ],
+      "new_docker_tags": [
+        "mulled-v2-1fa26d1ce03c295fe2fdcf85831a92fbcbd7e8c2:59cdd445419f14abac76b31dd0d71217994cbcc9-0"
+      ],
+      "upstream_urls": [
+        "https://www.ncbi.nlm.nih.gov/pubmed/19505943/"
+      ]
+    },
+    "local/tss_extract": {
+      "components": [
+        "modules/local/tss_extract.nf"
+      ],
+      "old_conda": [
+        "conda-forge::sed=4.7"
+      ],
+      "new_conda": [
+        "conda-forge::sed=4.7"
+      ],
+      "old_docker_tags": [
+        "ubuntu:20.04"
+      ],
+      "new_docker_tags": [
+        "ubuntu:20.04"
+      ],
+      "upstream_urls": []
+    },
+    "macs3": {
+      "components": [
+        "modules/nf-core/macs3/callpeak"
+      ],
+      "old_conda": [
+        "bioconda::macs3=3.0.1"
+      ],
+      "new_conda": [
+        "bioconda::macs3=3.0.4"
+      ],
+      "old_docker_tags": [
+        "macs3:3.0.1--py311h0152c62_3"
+      ],
+      "new_docker_tags": [
+        "macs3:3.0.4--e0346d811b8b428e"
+      ],
+      "upstream_urls": [
+        "https://macs3-project.github.io/MACS/",
+        "https://www.ncbi.nlm.nih.gov/pubmed/18798982/"
+      ]
+    },
+    "multiqc": {
+      "components": [
+        "modules/nf-core/multiqc"
+      ],
+      "old_conda": [
+        "bioconda::multiqc=1.34"
+      ],
+      "new_conda": [
+        "bioconda::multiqc=1.35"
+      ],
+      "old_docker_tags": [
+        "multiqc:1.34--db7c73dae76bc9e6"
+      ],
+      "new_docker_tags": [
+        "multiqc:1.35--c17fb751507e9dfc"
+      ],
+      "upstream_urls": [
+        "https://multiqc.info/",
+        "https://multiqc.info/docs/",
+        "https://pubmed.ncbi.nlm.nih.gov/27312411/"
+      ]
+    },
+    "picard": {
+      "components": [
+        "modules/nf-core/picard/addorreplacereadgroups",
+        "modules/nf-core/picard/collectmultiplemetrics",
+        "modules/nf-core/picard/markduplicates",
+        "modules/nf-core/picard/mergesamfiles"
+      ],
+      "old_conda": [
+        "bioconda::picard=3.0.0",
+        "bioconda::picard=3.1.1",
+        "bioconda::picard=3.4.0"
+      ],
+      "new_conda": [
+        "bioconda::picard=3.4.0"
+      ],
+      "old_docker_tags": [
+        "picard:3.0.0--hdfd78af_1",
+        "picard:3.1.1--hdfd78af_0",
+        "picard:3.4.0--e9963040df0a9bf6"
+      ],
+      "new_docker_tags": [
+        "picard:3.4.0--e9963040df0a9bf6"
+      ],
+      "upstream_urls": [
+        "http://broadinstitute.github.io/picard",
+        "https://broadinstitute.github.io/picard/",
+        "https://gatk.broadinstitute.org/hc/en-us/articles/360037226472-AddOrReplaceReadGroups-Picard-"
+      ]
+    },
+    "preseq": {
+      "components": [
+        "modules/nf-core/preseq/lcextrap"
+      ],
+      "old_conda": [
+        "bioconda::preseq=3.1.2"
+      ],
+      "new_conda": [
+        "bioconda::preseq=3.2.0"
+      ],
+      "old_docker_tags": [
+        "preseq:3.1.2--h445547b_2"
+      ],
+      "new_docker_tags": [
+        "preseq:3.2.0--hdcf5f25_6"
+      ],
+      "upstream_urls": [
+        "http://smithlabresearch.org/software/preseq/",
+        "http://smithlabresearch.org/wp-content/uploads/manual.pdf",
+        "https://www.ncbi.nlm.nih.gov/pubmed/23435259/"
+      ]
+    },
+    "samtools": {
+      "components": [
+        "modules/nf-core/samtools/faidx",
+        "modules/nf-core/samtools/flagstat",
+        "modules/nf-core/samtools/idxstats",
+        "modules/nf-core/samtools/index",
+        "modules/nf-core/samtools/sort",
+        "modules/nf-core/samtools/stats"
+      ],
+      "old_conda": [
+        "bioconda::samtools=1.19.2"
+      ],
+      "new_conda": [
+        "bioconda::samtools=1.23.1",
+        "bioconda::samtools=1.24"
+      ],
+      "old_docker_tags": [
+        "samtools:1.19.2--h50ea8bc_0"
+      ],
+      "new_docker_tags": [
+        "htslib_samtools:1.23.1--5b6bb4ede7e612e5",
+        "htslib_samtools:1.24--d697cfb9dce007cd"
+      ],
+      "upstream_urls": [
+        "http://www.htslib.org/",
+        "http://www.htslib.org/doc/samtools.html",
+        "https://www.ncbi.nlm.nih.gov/pubmed/19505943/"
+      ]
+    },
+    "subread": {
+      "components": [
+        "modules/nf-core/subread/featurecounts"
+      ],
+      "old_conda": [
+        "bioconda::subread=2.0.1"
+      ],
+      "new_conda": [
+        "bioconda::subread=2.0.1"
+      ],
+      "old_docker_tags": [
+        "subread:2.0.1--hed695b0_0"
+      ],
+      "new_docker_tags": [
+        "subread:2.0.1--hed695b0_0"
+      ],
+      "upstream_urls": [
+        "http://bioinf.wehi.edu.au/featureCounts/",
+        "http://bioinf.wehi.edu.au/subread-package/SubreadUsersGuide.pdf",
+        "https://www.ncbi.nlm.nih.gov/pubmed/24227677/"
+      ]
+    },
+    "trimgalore": {
+      "components": [
+        "modules/nf-core/trimgalore"
+      ],
+      "old_conda": [
+        "bioconda::trim-galore=0.6.10"
+      ],
+      "new_conda": [
+        "bioconda::trim-galore=2.1.0"
+      ],
+      "old_docker_tags": [
+        "trim-galore:0.6.10--hdfd78af_2"
+      ],
+      "new_docker_tags": [
+        "trim-galore:2.1.0--27e6376b8f6c1872"
+      ],
+      "upstream_urls": [
+        "https://github.com/FelixKrueger/TrimGalore/blob/master/Docs/Trim_Galore_User_Guide.md",
+        "https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/"
+      ]
+    },
+    "ucsc": {
+      "components": [
+        "modules/nf-core/ucsc/bedgraphtobigwig"
+      ],
+      "old_conda": [
+        "bioconda::ucsc-bedgraphtobigwig=445"
+      ],
+      "new_conda": [
+        "bioconda::ucsc-bedgraphtobigwig=482"
+      ],
+      "old_docker_tags": [
+        "ucsc-bedgraphtobigwig:445--h954228d_0"
+      ],
+      "new_docker_tags": [
+        "ucsc-bedgraphtobigwig:482--hdc0a859_0"
+      ],
+      "upstream_urls": [
+        "http://hgdownload.cse.ucsc.edu/admin/exe/",
+        "https://genome.ucsc.edu/goldenPath/help/bigWig.html",
+        "https://www.ncbi.nlm.nih.gov/pubmed/20639541/"
+      ]
+    },
+    "umitools": {
+      "components": [
+        "modules/nf-core/umitools/extract"
+      ],
+      "old_conda": [
+        "bioconda::umi_tools=1.1.6"
+      ],
+      "new_conda": [
+        "bioconda::umi_tools=1.1.6"
+      ],
+      "old_docker_tags": [
+        "umi_tools_future_matplotlib_numpy_pruned:1ee668bafc8c9f81"
+      ],
+      "new_docker_tags": [
+        "umi_tools_future_matplotlib_numpy_pruned:1ee668bafc8c9f81"
+      ],
+      "upstream_urls": [
+        "https://github.com/pysam-developers/pysam",
+        "https://umi-tools.readthedocs.io/en/latest/"
+      ]
+    },
+    "untar": {
+      "components": [
+        "modules/nf-core/untar"
+      ],
+      "old_conda": [
+        "conda-forge::tar=1.34"
+      ],
+      "new_conda": [
+        "conda-forge::tar=1.34"
+      ],
+      "old_docker_tags": [
+        "ubuntu:20.04"
+      ],
+      "new_docker_tags": [
+        "coreutils_grep_gzip_lbzip2_pruned:838ba80435a629f8"
+      ],
+      "upstream_urls": [
+        "https://www.gnu.org/software/tar/manual/"
+      ]
+    }
+  },
+  "declared_conda_packages": {
+    "ataqv": {
+      "old_specifiers": [
+        "=1.3.1"
+      ],
+      "new_specifiers": [
+        "=1.3.1"
+      ],
+      "components": [
+        "modules/nf-core/ataqv/ataqv",
+        "modules/nf-core/ataqv/mkarv"
+      ]
+    },
+    "bamtools": {
+      "old_specifiers": [
+        "=2.5.2"
+      ],
+      "new_specifiers": [
+        "=2.5.2"
+      ],
+      "components": [
+        "modules/local/bamtools_filter.nf"
+      ]
+    },
+    "bedtools": {
+      "old_specifiers": [
+        "=2.30.0",
+        "=2.31.1"
+      ],
+      "new_specifiers": [
+        "=2.30.0",
+        "=2.31.1"
+      ],
+      "components": [
+        "modules/local/bedtools_genomecov.nf",
+        "modules/local/frip_score.nf",
+        "modules/local/genome_blacklist_regions.nf",
+        "modules/local/macs3_consensus.nf"
+      ]
+    },
+    "bioconductor-biocparallel": {
+      "old_specifiers": [
+        "(unpinned)"
+      ],
+      "new_specifiers": [
+        "(unpinned)"
+      ],
+      "components": [
+        "modules/local/deseq2_qc.nf"
+      ]
+    },
+    "bioconductor-biostrings": {
+      "old_specifiers": [
+        "=2.58.0"
+      ],
+      "new_specifiers": [
+        "=2.58.0"
+      ],
+      "components": [
+        "modules/local/plot_homer_annotatepeaks.nf",
+        "modules/local/plot_macs3_qc.nf"
+      ]
+    },
+    "bioconductor-complexheatmap": {
+      "old_specifiers": [
+        "(unpinned)",
+        "=2.6.2"
+      ],
+      "new_specifiers": [
+        "(unpinned)",
+        "=2.6.2"
+      ],
+      "components": [
+        "modules/local/deseq2_qc.nf",
+        "modules/local/plot_homer_annotatepeaks.nf",
+        "modules/local/plot_macs3_qc.nf"
+      ]
+    },
+    "bioconductor-deseq2": {
+      "old_specifiers": [
+        "(unpinned)"
+      ],
+      "new_specifiers": [
+        "(unpinned)",
+        "=1.42.0"
+      ],
+      "components": [
+        "modules/local/deseq2_qc.nf",
+        "modules/nf-core/homer/annotatepeaks"
+      ]
+    },
+    "bioconductor-edger": {
+      "old_specifiers": [],
+      "new_specifiers": [
+        "=4.0.16"
+      ],
+      "components": [
+        "modules/nf-core/homer/annotatepeaks"
+      ]
+    },
+    "bioconductor-tximport": {
+      "old_specifiers": [
+        "(unpinned)"
+      ],
+      "new_specifiers": [
+        "(unpinned)"
+      ],
+      "components": [
+        "modules/local/deseq2_qc.nf"
+      ]
+    },
+    "biopython": {
+      "old_specifiers": [
+        "(unpinned)"
+      ],
+      "new_specifiers": [
+        "(unpinned)"
+      ],
+      "components": [
+        "modules/local/macs3_consensus.nf"
+      ]
+    },
+    "bowtie2": {
+      "old_specifiers": [
+        "=2.4.4",
+        "=2.5.2"
+      ],
+      "new_specifiers": [
+        "=2.5.4"
+      ],
+      "components": [
+        "modules/nf-core/bowtie2/align",
+        "modules/nf-core/bowtie2/build"
+      ]
+    },
+    "bwa": {
+      "old_specifiers": [
+        "=0.7.17",
+        "=0.7.19"
+      ],
+      "new_specifiers": [
+        "=0.7.19"
+      ],
+      "components": [
+        "modules/nf-core/bwa/index",
+        "modules/nf-core/bwa/mem"
+      ]
+    },
+    "chromap": {
+      "old_specifiers": [
+        "=0.2.4"
+      ],
+      "new_specifiers": [
+        "=0.3.2"
+      ],
+      "components": [
+        "modules/nf-core/chromap/chromap",
+        "modules/nf-core/chromap/index"
+      ]
+    },
+    "coreutils": {
+      "old_specifiers": [
+        "=9.5"
+      ],
+      "new_specifiers": [
+        "=9.5"
+      ],
+      "components": [
+        "modules/local/bedtools_genomecov.nf",
+        "modules/nf-core/gunzip",
+        "modules/nf-core/untar"
+      ]
+    },
+    "deeptools": {
+      "old_specifiers": [
+        "=3.5.5"
+      ],
+      "new_specifiers": [
+        "=3.5.6"
+      ],
+      "components": [
+        "modules/nf-core/deeptools/alignmentsieve",
+        "modules/nf-core/deeptools/computematrix",
+        "modules/nf-core/deeptools/plotfingerprint",
+        "modules/nf-core/deeptools/plotheatmap",
+        "modules/nf-core/deeptools/plotprofile"
+      ]
+    },
+    "future": {
+      "old_specifiers": [
+        "=0.18.3"
+      ],
+      "new_specifiers": [
+        "=0.18.3"
+      ],
+      "components": [
+        "modules/nf-core/umitools/extract"
+      ]
+    },
+    "gawk": {
+      "old_specifiers": [
+        "=5.1.0"
+      ],
+      "new_specifiers": [
+        "=5.1.0"
+      ],
+      "components": [
+        "modules/local/star_genomegenerate.nf"
+      ]
+    },
+    "gffread": {
+      "old_specifiers": [
+        "=0.12.1"
+      ],
+      "new_specifiers": [
+        "=0.12.7"
+      ],
+      "components": [
+        "modules/nf-core/gffread"
+      ]
+    },
+    "grep": {
+      "old_specifiers": [
+        "=3.4"
+      ],
+      "new_specifiers": [
+        "=3.11"
+      ],
+      "components": [
+        "modules/nf-core/gunzip",
+        "modules/nf-core/untar"
+      ]
+    },
+    "gzip": {
+      "old_specifiers": [],
+      "new_specifiers": [
+        "=1.13"
+      ],
+      "components": [
+        "modules/nf-core/gunzip",
+        "modules/nf-core/untar"
+      ]
+    },
+    "homer": {
+      "old_specifiers": [
+        "=4.11"
+      ],
+      "new_specifiers": [
+        "=4.11"
+      ],
+      "components": [
+        "modules/nf-core/homer/annotatepeaks"
+      ]
+    },
+    "htslib": {
+      "old_specifiers": [
+        "=1.19.1",
+        "=1.22.1"
+      ],
+      "new_specifiers": [
+        "=1.21",
+        "=1.22.1",
+        "=1.23.1",
+        "=1.24"
+      ],
+      "components": [
+        "modules/nf-core/bowtie2/align",
+        "modules/nf-core/bowtie2/build",
+        "modules/nf-core/bwa/index",
+        "modules/nf-core/bwa/mem",
+        "modules/nf-core/samtools/faidx",
+        "modules/nf-core/samtools/flagstat",
+        "modules/nf-core/samtools/idxstats",
+        "modules/nf-core/samtools/index",
+        "modules/nf-core/samtools/sort",
+        "modules/nf-core/samtools/stats"
+      ]
+    },
+    "khmer": {
+      "old_specifiers": [
+        "=3.0.0a3"
+      ],
+      "new_specifiers": [
+        "=3.0.0a3"
+      ],
+      "components": [
+        "modules/nf-core/khmer/uniquekmers"
+      ]
+    },
+    "lbzip2": {
+      "old_specifiers": [],
+      "new_specifiers": [
+        "=2.5"
+      ],
+      "components": [
+        "modules/nf-core/gunzip",
+        "modules/nf-core/untar"
+      ]
+    },
+    "macs3": {
+      "old_specifiers": [
+        "=3.0.1"
+      ],
+      "new_specifiers": [
+        "=3.0.4"
+      ],
+      "components": [
+        "modules/nf-core/macs3/callpeak"
+      ]
+    },
+    "matplotlib": {
+      "old_specifiers": [
+        "=3.8.2"
+      ],
+      "new_specifiers": [
+        "=3.8.2"
+      ],
+      "components": [
+        "modules/nf-core/umitools/extract"
+      ]
+    },
+    "multiqc": {
+      "old_specifiers": [
+        "=1.13",
+        "=1.34"
+      ],
+      "new_specifiers": [
+        "=1.13",
+        "=1.35"
+      ],
+      "components": [
+        "modules/local/multiqc.nf",
+        "modules/nf-core/multiqc"
+      ]
+    },
+    "numpy": {
+      "old_specifiers": [
+        "=1.26.4"
+      ],
+      "new_specifiers": [
+        "=1.26.4"
+      ],
+      "components": [
+        "modules/nf-core/umitools/extract"
+      ]
+    },
+    "pandas": {
+      "old_specifiers": [
+        "=2.2.0"
+      ],
+      "new_specifiers": [
+        "=2.2.0"
+      ],
+      "components": [
+        "modules/nf-core/umitools/extract"
+      ]
+    },
+    "perl": {
+      "old_specifiers": [
+        "=5.26.2"
+      ],
+      "new_specifiers": [
+        "=5.26.2"
+      ],
+      "components": [
+        "modules/local/gtf2bed.nf"
+      ]
+    },
+    "picard": {
+      "old_specifiers": [
+        "=3.0.0",
+        "=3.1.1",
+        "=3.4.0"
+      ],
+      "new_specifiers": [
+        "=3.4.0"
+      ],
+      "components": [
+        "modules/nf-core/picard/addorreplacereadgroups",
+        "modules/nf-core/picard/collectmultiplemetrics",
+        "modules/nf-core/picard/markduplicates",
+        "modules/nf-core/picard/mergesamfiles"
+      ]
+    },
+    "pigz": {
+      "old_specifiers": [
+        "=2.6"
+      ],
+      "new_specifiers": [
+        "=2.8"
+      ],
+      "components": [
+        "modules/nf-core/bowtie2/align",
+        "modules/nf-core/bowtie2/build"
+      ]
+    },
+    "preseq": {
+      "old_specifiers": [
+        "=3.1.2"
+      ],
+      "new_specifiers": [
+        "=3.2.0"
+      ],
+      "components": [
+        "modules/nf-core/preseq/lcextrap"
+      ]
+    },
+    "pybktree": {
+      "old_specifiers": [
+        "=1.1"
+      ],
+      "new_specifiers": [
+        "=1.1"
+      ],
+      "components": [
+        "modules/nf-core/umitools/extract"
+      ]
+    },
+    "pysam": {
+      "old_specifiers": [
+        "=0.19.0",
+        "=0.22.0"
+      ],
+      "new_specifiers": [
+        "=0.19.0",
+        "=0.22.0"
+      ],
+      "components": [
+        "modules/local/bam_remove_orphans.nf",
+        "modules/nf-core/umitools/extract"
+      ]
+    },
+    "python": {
+      "old_specifiers": [
+        "=3.8.3",
+        "=3.9.18"
+      ],
+      "new_specifiers": [
+        "=3.8.3",
+        "=3.9.18"
+      ],
+      "components": [
+        "modules/local/get_autosomes.nf",
+        "modules/local/igv.nf",
+        "modules/local/samplesheet_check.nf",
+        "modules/nf-core/umitools/extract"
+      ]
+    },
+    "r-base": {
+      "old_specifiers": [
+        "(unpinned)",
+        "=4.0.3"
+      ],
+      "new_specifiers": [
+        "(unpinned)",
+        "=4.0.3"
+      ],
+      "components": [
+        "modules/local/deseq2_qc.nf",
+        "modules/local/plot_homer_annotatepeaks.nf",
+        "modules/local/plot_macs3_qc.nf"
+      ]
+    },
+    "r-essentials": {
+      "old_specifiers": [],
+      "new_specifiers": [
+        "=4.3"
+      ],
+      "components": [
+        "modules/nf-core/homer/annotatepeaks"
+      ]
+    },
+    "r-ggplot2": {
+      "old_specifiers": [
+        "(unpinned)",
+        "=3.3.3"
+      ],
+      "new_specifiers": [
+        "(unpinned)",
+        "=3.3.3"
+      ],
+      "components": [
+        "modules/local/deseq2_qc.nf",
+        "modules/local/plot_homer_annotatepeaks.nf",
+        "modules/local/plot_macs3_qc.nf"
+      ]
+    },
+    "r-optparse": {
+      "old_specifiers": [
+        "(unpinned)",
+        "=1.6.6",
+        "=1.7.1"
+      ],
+      "new_specifiers": [
+        "(unpinned)",
+        "=1.6.6",
+        "=1.7.1"
+      ],
+      "components": [
+        "modules/local/deseq2_qc.nf",
+        "modules/local/macs3_consensus.nf",
+        "modules/local/plot_homer_annotatepeaks.nf",
+        "modules/local/plot_macs3_qc.nf"
+      ]
+    },
+    "r-pheatmap": {
+      "old_specifiers": [
+        "(unpinned)"
+      ],
+      "new_specifiers": [
+        "(unpinned)"
+      ],
+      "components": [
+        "modules/local/deseq2_qc.nf"
+      ]
+    },
+    "r-rcolorbrewer": {
+      "old_specifiers": [
+        "(unpinned)"
+      ],
+      "new_specifiers": [
+        "(unpinned)"
+      ],
+      "components": [
+        "modules/local/deseq2_qc.nf"
+      ]
+    },
+    "r-reshape2": {
+      "old_specifiers": [
+        "=1.4.4"
+      ],
+      "new_specifiers": [
+        "=1.4.4"
+      ],
+      "components": [
+        "modules/local/plot_homer_annotatepeaks.nf",
+        "modules/local/plot_macs3_qc.nf"
+      ]
+    },
+    "r-scales": {
+      "old_specifiers": [
+        "=1.1.1"
+      ],
+      "new_specifiers": [
+        "=1.1.1"
+      ],
+      "components": [
+        "modules/local/plot_homer_annotatepeaks.nf",
+        "modules/local/plot_macs3_qc.nf"
+      ]
+    },
+    "r-tidyverse": {
+      "old_specifiers": [
+        "=1.3.0"
+      ],
+      "new_specifiers": [
+        "=1.3.0"
+      ],
+      "components": [
+        "modules/local/plot_homer_annotatepeaks.nf",
+        "modules/local/plot_macs3_qc.nf"
+      ]
+    },
+    "r-upsetr": {
+      "old_specifiers": [
+        "=1.4.0"
+      ],
+      "new_specifiers": [
+        "=1.4.0"
+      ],
+      "components": [
+        "modules/local/macs3_consensus.nf"
+      ]
+    },
+    "r-viridis": {
+      "old_specifiers": [
+        "=0.5.1"
+      ],
+      "new_specifiers": [
+        "=0.5.1"
+      ],
+      "components": [
+        "modules/local/plot_homer_annotatepeaks.nf",
+        "modules/local/plot_macs3_qc.nf"
+      ]
+    },
+    "regex": {
+      "old_specifiers": [
+        "=2023.12.25"
+      ],
+      "new_specifiers": [
+        "=2023.12.25"
+      ],
+      "components": [
+        "modules/nf-core/umitools/extract"
+      ]
+    },
+    "samtools": {
+      "old_specifiers": [
+        "=1.10",
+        "=1.15.1",
+        "=1.16.1",
+        "=1.18",
+        "=1.19.2",
+        "=1.20",
+        "=1.22.1"
+      ],
+      "new_specifiers": [
+        "=1.10",
+        "=1.15.1",
+        "=1.20",
+        "=1.21",
+        "=1.22.1",
+        "=1.23.1",
+        "=1.24"
+      ],
+      "components": [
+        "modules/local/bam_remove_orphans.nf",
+        "modules/local/bamtools_filter.nf",
+        "modules/local/frip_score.nf",
+        "modules/local/star_genomegenerate.nf",
+        "modules/nf-core/bowtie2/align",
+        "modules/nf-core/bowtie2/build",
+        "modules/nf-core/bwa/index",
+        "modules/nf-core/bwa/mem",
+        "modules/nf-core/chromap/chromap",
+        "modules/nf-core/custom/getchromsizes",
+        "modules/nf-core/deeptools/alignmentsieve",
+        "modules/nf-core/homer/annotatepeaks",
+        "modules/nf-core/samtools/faidx",
+        "modules/nf-core/samtools/flagstat",
+        "modules/nf-core/samtools/idxstats",
+        "modules/nf-core/samtools/index",
+        "modules/nf-core/samtools/sort",
+        "modules/nf-core/samtools/stats"
+      ]
+    },
+    "scipy": {
+      "old_specifiers": [
+        "=1.12.0"
+      ],
+      "new_specifiers": [
+        "=1.12.0"
+      ],
+      "components": [
+        "modules/nf-core/umitools/extract"
+      ]
+    },
+    "sed": {
+      "old_specifiers": [
+        "=4.7"
+      ],
+      "new_specifiers": [
+        "=4.7",
+        "=4.8"
+      ],
+      "components": [
+        "modules/local/multiqc_custom_peaks.nf",
+        "modules/local/tss_extract.nf",
+        "modules/nf-core/gunzip",
+        "modules/nf-core/untar"
+      ]
+    },
+    "star": {
+      "old_specifiers": [
+        "=2.6.1d"
+      ],
+      "new_specifiers": [
+        "=2.6.1d"
+      ],
+      "components": [
+        "modules/local/star_align.nf",
+        "modules/local/star_genomegenerate.nf"
+      ]
+    },
+    "subread": {
+      "old_specifiers": [
+        "=2.0.1"
+      ],
+      "new_specifiers": [
+        "=2.0.1"
+      ],
+      "components": [
+        "modules/nf-core/subread/featurecounts"
+      ]
+    },
+    "tar": {
+      "old_specifiers": [
+        "=1.34"
+      ],
+      "new_specifiers": [
+        "=1.34"
+      ],
+      "components": [
+        "modules/nf-core/gunzip",
+        "modules/nf-core/untar"
+      ]
+    },
+    "trim-galore": {
+      "old_specifiers": [
+        "=0.6.10"
+      ],
+      "new_specifiers": [
+        "=2.1.0"
+      ],
+      "components": [
+        "modules/nf-core/trimgalore"
+      ]
+    },
+    "ucsc-bedgraphtobigwig": {
+      "old_specifiers": [
+        "=445"
+      ],
+      "new_specifiers": [
+        "=482"
+      ],
+      "components": [
+        "modules/nf-core/ucsc/bedgraphtobigwig"
+      ]
+    },
+    "umi_tools": {
+      "old_specifiers": [
+        "=1.1.6"
+      ],
+      "new_specifiers": [
+        "=1.1.6"
+      ],
+      "components": [
+        "modules/nf-core/umitools/extract"
+      ]
+    },
+    "wget": {
+      "old_specifiers": [],
+      "new_specifiers": [
+        "=1.21.4"
+      ],
+      "components": [
+        "modules/nf-core/homer/annotatepeaks"
+      ]
+    }
+  }
+}

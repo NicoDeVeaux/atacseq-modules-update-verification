@@ -1,0 +1,21 @@
+{
+  "genome": "GRCh38",
+  "fasta": {
+    "uri": "s3://ngi-igenomes/igenomes//Homo_sapiens/NCBI/GRCh38/Sequence/WholeGenomeFasta/genome.fa",
+    "byte_sha256": null
+  },
+  "gtf": {
+    "uri": "s3://ngi-igenomes/igenomes//Homo_sapiens/NCBI/GRCh38/Annotation/Genes/genes.gtf",
+    "byte_sha256": null
+  },
+  "bwa_index": {
+    "uri": "s3://ngi-igenomes/igenomes//Homo_sapiens/NCBI/GRCh38/Sequence/BWAIndex/version0.6.0/",
+    "byte_sha256": null
+  },
+  "blacklist": {
+    "original_immutable_url": "https://raw.githubusercontent.com/nf-core/atacseq/19f44eea2854b2ceaf68d6f57d883bde72080bd0/assets/blacklists/v3.0/hg38-blacklist.v3.bed",
+    "file": "references/hg38-blacklist.v3.bed",
+    "sha256": "5d214c58c07f33a4fa1d6bcfe61ff00c666510e8fee5520fc1015c5d3ef16f3b"
+  },
+  "limit": "Original public reference URI identities retained. FASTA/GTF/index bytes/object versions not independently hashed; no invented content pin."
+}

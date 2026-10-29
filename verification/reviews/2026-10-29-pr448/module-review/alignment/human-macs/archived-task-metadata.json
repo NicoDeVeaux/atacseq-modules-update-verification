@@ -1,0 +1,13 @@
+{
+  "taskId": 101,
+  "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:MACS3_CALLPEAK (HIV_CD86HI_48H_REP1)",
+  "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:MACS3_CALLPEAK",
+  "tag": "HIV_CD86HI_48H_REP1",
+  "status": "COMPLETED",
+  "container": "wave.dev-seqera.io/wt/d7f5c3cd58c3/library/macs3:3.0.4--e0346d811b8b428e",
+  "exit": 0,
+  "exitStatus": 0,
+  "attempt": 1,
+  "cpus": 6,
+  "memory": 38654705664
+}

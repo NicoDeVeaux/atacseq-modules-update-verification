@@ -1,0 +1,8 @@
+{
+  "offline_check_exit_code": 0,
+  "offline_check_stdout": "PASS: 21 successful local tool commands; 10 primary source blobs; 18 pipeline source pins; saved scientific and metadata witnesses verified offline\n",
+  "python_sources_ast_parse": "passed",
+  "scientific_commands_total": 21,
+  "all_scientific_commands_exit_zero": true,
+  "scope": "local paired yeast tool controls; no cloud/CoScientist/new Nextflow run; no pipeline source changes"
+}

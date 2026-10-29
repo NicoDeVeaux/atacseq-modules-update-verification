@@ -1,0 +1,14 @@
+{
+  "dev": {
+    "commit": "24f0ddd5c1f9ebb9554e2b69d868a9c1d7e78883",
+    "git_path": "verification/counts/dev/consensus_peaks.mLb.clN.featureCounts.txt",
+    "bundled_path": "observed/historical-counts/dev/consensus_peaks.mLb.clN.featureCounts.txt",
+    "sha256": "cbdf490e3112781bd0e31d561e14c00f03c3052991cc1a1e2f8870327725eb62"
+  },
+  "pr448": {
+    "commit": "24f0ddd5c1f9ebb9554e2b69d868a9c1d7e78883",
+    "git_path": "verification/counts/pr448/consensus_peaks.mLb.clN.featureCounts.tsv",
+    "bundled_path": "observed/historical-counts/pr448/consensus_peaks.mLb.clN.featureCounts.tsv",
+    "sha256": "74a78c98e9529706d4031200cc16feb3f933307844152055e709b50a99d7a0eb"
+  }
+}

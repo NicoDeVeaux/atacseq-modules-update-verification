@@ -1,0 +1,2342 @@
+{
+  "schema": "pr448-independent-review-handoff/v1",
+  "created_at_utc": "2026-10-29T11:52:09.128378+00:00",
+  "author": "This is written by GPT-6 (Codex) on Nico DeVeaux's behalf.",
+  "purpose": "Neutral claim/source/run map; no fixed score or required verdict.",
+  "activity": "Documentation only; no scientific, test or cloud execution during preparation.",
+  "source_state": {
+    "observed_head": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+    "clean": true,
+    "published_commit_verified_via_readonly_GitHub_API": true
+  },
+  "revisions": {
+    "pre448": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "pr448_merge": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+    "reviewed_dev": "73155d2b59d37f521e3f00228d559031d2e7847f",
+    "full_run_fixed": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+    "preseq_followup": "60412205bb13c13ef1434cc5f5cbd9403d7eace6",
+    "gffread_followup": "bd5dec36c8e615f9dba7c321a521bffb0437671a",
+    "review_target": "1d840c087bd72f227bad1bdf89deccc48a1f0206"
+  },
+  "roots": {
+    "source": {
+      "local_path": "SOURCE_ROOT",
+      "repository_url": "https://github.com/NicoDeVeaux/atacseq-nfcore",
+      "branch": "fix/pr448-module-regressions"
+    },
+    "validation": {
+      "local_path": "REVIEW_ROOT",
+      "public_repository_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification",
+      "integrated_remote_revision": null
+    },
+    "reseq_distribution": {
+      "local_path": "LOCAL_TMP/pr448-reseq-distribution",
+      "remote_url": null
+    }
+  },
+  "integration": {
+    "status": "local_bundle_integrated_remote_publication_pending",
+    "upstream_pr_url": null,
+    "final_evidence_commit": null,
+    "claim_artifact_remote_urls": null,
+    "full_output_release_url": null,
+    "full_output_asset_urls": null,
+    "remote_grader_self_contained": false,
+    "instructions": "Fill verified URLs and revisions before claiming remote grader access; local paths are not published asset links.",
+    "local_bundle_root": ".."
+  },
+  "claims": [
+    {
+      "id": "trim_default",
+      "claim": "Trim Galore 2.3.0 plus --no_poly_g preserves pre-448 trimming on the triggering fixture.",
+      "sources": [
+        {
+          "revision": "review_target",
+          "path": "conf/modules.config",
+          "line": 159,
+          "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/1d840c087bd72f227bad1bdf89deccc48a1f0206/conf/modules.config#L159"
+        },
+        {
+          "revision": "review_target",
+          "path": "modules/nf-core/trimgalore/main.nf",
+          "line": null,
+          "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/1d840c087bd72f227bad1bdf89deccc48a1f0206/modules/nf-core/trimgalore/main.nf"
+        },
+        {
+          "revision": "review_target",
+          "path": "modules/nf-core/trimgalore/environment.yml",
+          "line": null,
+          "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/1d840c087bd72f227bad1bdf89deccc48a1f0206/modules/nf-core/trimgalore/environment.yml"
+        }
+      ],
+      "runs": [
+        "trim_targeted"
+      ],
+      "evidence": [
+        {
+          "root": "validation",
+          "path": "trimming/REPORT.md",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "trimming/comparison.json",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "trimming/baseline-comparison.json",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        }
+      ],
+      "limits": [
+        "Synthetic 100-pair targeted fixture; real-data effects are separate.",
+        "Version bump alone does not preserve the earlier no-poly-G default."
+      ]
+    },
+    {
+      "id": "chromap_library",
+      "claim": "Shared per-library RGLB with distinct technical-run RGID restores cross-run duplicate marking in controlled chains.",
+      "sources": [
+        {
+          "revision": "review_target",
+          "path": "conf/modules.config",
+          "line": 304,
+          "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/1d840c087bd72f227bad1bdf89deccc48a1f0206/conf/modules.config#L304"
+        },
+        {
+          "revision": "review_target",
+          "path": "workflows/atacseq.nf",
+          "line": null,
+          "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/1d840c087bd72f227bad1bdf89deccc48a1f0206/workflows/atacseq.nf"
+        }
+      ],
+      "runs": [
+        "picard_constructed",
+        "yeast_shared"
+      ],
+      "evidence": [
+        {
+          "root": "validation",
+          "path": "chromap/runs/proposed/result.json",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "real-samples/analysis/shared/REPORT.md",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "real-samples/validation-result.json",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        }
+      ],
+      "limits": [
+        "HIV has one technical run per library and does not isolate this defect.",
+        "Inherited BWA/Bowtie2 technical-run LB behavior remains unchanged; no new bug claim for those aligners."
+      ]
+    },
+    {
+      "id": "preseq_retry",
+      "claim": "Retry retains original arguments and appends -defects.",
+      "sources": [
+        {
+          "revision": "review_target",
+          "path": "modules/nf-core/preseq/lcextrap/main.nf",
+          "line": 24,
+          "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/1d840c087bd72f227bad1bdf89deccc48a1f0206/modules/nf-core/preseq/lcextrap/main.nf#L24"
+        },
+        {
+          "revision": "review_target",
+          "path": "modules/nf-core/preseq/lcextrap/preseq-lcextrap.diff",
+          "line": null,
+          "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/1d840c087bd72f227bad1bdf89deccc48a1f0206/modules/nf-core/preseq/lcextrap/preseq-lcextrap.diff"
+        },
+        {
+          "revision": "review_target",
+          "path": "modules.json",
+          "line": null,
+          "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/1d840c087bd72f227bad1bdf89deccc48a1f0206/modules.json"
+        },
+        {
+          "revision": "review_target",
+          "path": "tests/regressions/preseq_retry.py",
+          "line": null,
+          "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/1d840c087bd72f227bad1bdf89deccc48a1f0206/tests/regressions/preseq_retry.py"
+        },
+        {
+          "revision": "review_target",
+          "path": "nextflow.config",
+          "line": 69,
+          "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/1d840c087bd72f227bad1bdf89deccc48a1f0206/nextflow.config#L69"
+        }
+      ],
+      "runs": [
+        "preseq_standin"
+      ],
+      "evidence": [
+        {
+          "root": "validation",
+          "path": "behavior-audit/pr473-branch/preseq-retry/result.json",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        }
+      ],
+      "limits": [
+        "Actual Nextflow module; argv-checking stand-in executable, not numerical complexity estimation.",
+        "Default skip_preseq=true; relevant only when enabled, e.g. --skip_preseq false.",
+        "The upstream retry policy and defect-check suppression are retained."
+      ]
+    },
+    {
+      "id": "gffread_package",
+      "claim": "GFFREAD 0.12.9 package passes benign conversion and the existing module suite with reviewed snapshots.",
+      "sources": [
+        {
+          "revision": "review_target",
+          "path": "modules/nf-core/gffread/main.nf",
+          "line": null,
+          "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/1d840c087bd72f227bad1bdf89deccc48a1f0206/modules/nf-core/gffread/main.nf"
+        },
+        {
+          "revision": "review_target",
+          "path": "modules/nf-core/gffread/environment.yml",
+          "line": null,
+          "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/1d840c087bd72f227bad1bdf89deccc48a1f0206/modules/nf-core/gffread/environment.yml"
+        },
+        {
+          "revision": "review_target",
+          "path": "modules/nf-core/gffread/gffread.diff",
+          "line": null,
+          "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/1d840c087bd72f227bad1bdf89deccc48a1f0206/modules/nf-core/gffread/gffread.diff"
+        },
+        {
+          "revision": "review_target",
+          "path": "modules/nf-core/gffread/tests/main.nf.test.snap",
+          "line": null,
+          "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/1d840c087bd72f227bad1bdf89deccc48a1f0206/modules/nf-core/gffread/tests/main.nf.test.snap"
+        },
+        {
+          "revision": "review_target",
+          "path": "tests/regressions/gffread_conversion.py",
+          "line": null,
+          "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/1d840c087bd72f227bad1bdf89deccc48a1f0206/tests/regressions/gffread_conversion.py"
+        }
+      ],
+      "runs": [
+        "gffread_conversion",
+        "gffread_nine"
+      ],
+      "evidence": [
+        {
+          "root": "validation",
+          "path": "behavior-audit/pr473-gffread/conversion/result.json",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "behavior-audit/gffread-nftest/result.json",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "behavior-audit/gffread-nftest/REPORT.md",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "behavior-audit/gffread-nftest/provenance.json",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "behavior-audit/gffread-nftest/final.xml",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        }
+      ],
+      "limits": [
+        "Public benign tests do not reproduce historical failure inputs; those inputs are outside this handoff.",
+        "Docker amd64 exercised; Conda resolution and SIF execution not exercised.",
+        "Isolated module suite uses upstream nft-utils 0.0.9; pipeline-level helper remains 0.0.3."
+      ]
+    },
+    {
+      "id": "hiv_completion",
+      "claim": "Four successful full-cohort workflows each process 87,089,251 pairs from four libraries.",
+      "sources": [
+        {
+          "revision": "review_target",
+          "path": "PR-DRAFT.md",
+          "line": null,
+          "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/1d840c087bd72f227bad1bdf89deccc48a1f0206/PR-DRAFT.md"
+        }
+      ],
+      "runs": [
+        "hiv_bwa_unfixed",
+        "hiv_bwa_fixed",
+        "hiv_chromap_unfixed",
+        "hiv_chromap_fixed"
+      ],
+      "evidence": [
+        {
+          "root": "validation",
+          "path": "original-cohorts/FINAL-REPORT.md",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "original-cohorts/report.json",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "original-cohorts/hiv-input-provenance.json",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "original-cohorts/campaign.json",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        }
+      ],
+      "limits": [
+        "Same cohort executed four ways, not four unique cohorts.",
+        "Success is distinct from scientific agreement; initial transport failures and recoveries are separate.",
+        "Full fixed arms run a9b588, before PRESEQ/GFFREAD additions."
+      ]
+    },
+    {
+      "id": "hiv_bwa_archived_matrix",
+      "claim": "Fixed BWA agrees with the archived original-dev matrix at 74,895 regions and all 299,580 count cells; fresh unfixed agrees with the archived PR448 matrix.",
+      "sources": [
+        {
+          "revision": "review_target",
+          "path": "PR-DRAFT.md",
+          "line": null,
+          "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/1d840c087bd72f227bad1bdf89deccc48a1f0206/PR-DRAFT.md"
+        }
+      ],
+      "runs": [
+        "hiv_bwa_unfixed",
+        "hiv_bwa_fixed"
+      ],
+      "evidence": [
+        {
+          "root": "validation",
+          "path": "original-cohorts/HISTORICAL-AGREEMENT.md",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "original-cohorts/historical-comparison.json",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        }
+      ],
+      "limits": [
+        "Archived-matrix comparison, not a fresh full-input immediate-parent replay.",
+        "Historical FASTQ byte identity is unestablished.",
+        "No general biological-equivalence claim."
+      ]
+    },
+    {
+      "id": "yeast_core",
+      "claim": "Parent/fix individual peak coordinates and 1,934 consensus regions agree; one of 3,868 count cells differs by one.",
+      "sources": [
+        {
+          "revision": "review_target",
+          "path": "PR-DRAFT.md",
+          "line": null,
+          "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/1d840c087bd72f227bad1bdf89deccc48a1f0206/PR-DRAFT.md"
+        }
+      ],
+      "runs": [
+        "yeast_base",
+        "yeast_unfixed",
+        "yeast_fixed"
+      ],
+      "evidence": [
+        {
+          "root": "validation",
+          "path": "real-samples/REPORT.md",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "real-samples/full-core-comparison/comparison.json",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "real-samples/full-core/completion-check.json",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "real-samples/residual-one-count/REPORT.md",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        }
+      ],
+      "limits": [
+        "One fixed-only Chromap mapping changes duplicate representative then NM/orphan filtering; complete alignment identity is not established.",
+        "Four actual 250,000-pair public prefixes; optional QC exclusions equal across arms.",
+        "No subset-based biological differential inference."
+      ]
+    },
+    {
+      "id": "yeast_shared_dedup",
+      "claim": "With identical real aligned inputs, parent/fix retained names, fragments and duplicate counts agree; unfixed retains 2,553 and 1,865 extra duplicate pairs.",
+      "sources": [
+        {
+          "revision": "review_target",
+          "path": "conf/modules.config",
+          "line": 304,
+          "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/1d840c087bd72f227bad1bdf89deccc48a1f0206/conf/modules.config#L304"
+        }
+      ],
+      "runs": [
+        "yeast_shared"
+      ],
+      "evidence": [
+        {
+          "root": "validation",
+          "path": "real-samples/analysis/shared/REPORT.md",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "real-samples/validation-result.json",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "real-samples/harness/README.md",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        }
+      ],
+      "limits": [
+        "Stops at the duplicate-marking contract; core workflow evidence covers later stages separately."
+      ]
+    },
+    {
+      "id": "human_macs",
+      "claim": "The same complete 285,036,036-byte human BAM yields 30,438 exact broadPeak rows/fields and non-comment XLS rows in MACS3 3.0.1/3.0.4; the new replay also matches archived cloud outputs.",
+      "sources": [
+        {
+          "revision": "review_target",
+          "path": "modules/nf-core/macs3/callpeak/main.nf",
+          "line": null,
+          "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/1d840c087bd72f227bad1bdf89deccc48a1f0206/modules/nf-core/macs3/callpeak/main.nf"
+        },
+        {
+          "revision": "review_target",
+          "path": "conf/modules.config",
+          "line": null,
+          "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/1d840c087bd72f227bad1bdf89deccc48a1f0206/conf/modules.config"
+        }
+      ],
+      "runs": [
+        "human_macs301",
+        "human_macs304"
+      ],
+      "evidence": [
+        {
+          "root": "validation",
+          "path": "behavior-audit/human-macs/REPORT.md",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "behavior-audit/human-macs/comparison.json",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "behavior-audit/human-macs/execution.json",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "behavior-audit/human-macs/input-provenance.json",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "behavior-audit/human-macs/test_compare.py",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        }
+      ],
+      "limits": [
+        "One paired-end broad/no-control library, emitted precision only.",
+        "GappedPeak fields 7/8 change to zero; other fields agree.",
+        "Invalid 64-MiB tmpfs attempt excluded; valid comparisons use 512 MiB.",
+        "No SE/narrow/control/all-library/full-pipeline equivalence."
+      ]
+    },
+    {
+      "id": "bounded_module_audit",
+      "claim": "Inventory covers 267 changed files, 70 components and 16 changed declared dependencies, plus later histories of 36 modules and seven subworkflows.",
+      "sources": [
+        {
+          "revision": "review_target",
+          "path": "docs/module-update-audit.md",
+          "line": null,
+          "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/1d840c087bd72f227bad1bdf89deccc48a1f0206/docs/module-update-audit.md"
+        }
+      ],
+      "runs": [
+        "alignment_peak_controls"
+      ],
+      "evidence": [
+        {
+          "root": "validation",
+          "path": "module-version-audit/inventory.json",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "module-version-audit/AUDIT.md",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "module-version-audit/coverage.json",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "behavior-audit/alignment-peak/REPORT.md",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "behavior-audit/read-group-scope/REPORT.md",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        }
+      ],
+      "limits": [
+        "Declared versions are separate from opaque container/transitive contents.",
+        "Known later fixes are leads, not automatically new pipeline regressions.",
+        "Neither release-note silence nor bounded passing tests prove general absence of defects."
+      ]
+    },
+    {
+      "id": "lint_baseline",
+      "claim": "Changed-file checks passed; full nf-core/tools 4.1.0 lint has 13 failures matching the immutable a9b588 baseline.",
+      "sources": [
+        {
+          "revision": "review_target",
+          "path": "PR-DRAFT.md",
+          "line": null,
+          "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/1d840c087bd72f227bad1bdf89deccc48a1f0206/PR-DRAFT.md"
+        },
+        {
+          "revision": "review_target",
+          "path": "nextflow.config",
+          "line": null,
+          "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/1d840c087bd72f227bad1bdf89deccc48a1f0206/nextflow.config"
+        }
+      ],
+      "runs": [
+        "lint_comparison"
+      ],
+      "evidence": [
+        {
+          "root": "validation",
+          "path": "behavior-audit/pr473-branch/lint-baseline-comparison.json",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "behavior-audit/pr473-branch/baseline-lint.out",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        },
+        {
+          "root": "validation",
+          "path": "behavior-audit/pr473-branch/nfcore-lint.out",
+          "remote_url": null,
+          "availability": "local_until_integration"
+        }
+      ],
+      "limits": [
+        "Five template and eight generated-container-config differences remain debt, not an all-green result.",
+        "Generated files contain FASTQC bindings only and default nextflow.config does not include them; custom inclusion differs.",
+        "Baseline comparison predates the final documentation head; record final target validation independently."
+      ]
+    }
+  ],
+  "runs": [
+    {
+      "id": "trim_targeted",
+      "type": "actual_nextflow_and_tool",
+      "source_revisions": [
+        "pre448",
+        "reviewed_dev"
+      ],
+      "recorded_result": "Pre-448 and proposed complete FASTQ records agree; the 2.1.0 negative control triggers clipping.",
+      "new_execution_during_handoff": false,
+      "source_identity_note": "The proposed test observed checkout HEAD 73155d with uncommitted proposal edits; all four captured source-file hashes match a9b588. Negative control used reviewed dev 73155d, not a fresh merge checkout.",
+      "module_bytes_match_revision": "full_run_fixed"
+    },
+    {
+      "id": "picard_constructed",
+      "type": "actual_nextflow_picard_constructed_bams",
+      "source_revisions": [
+        "pre448",
+        "full_run_fixed"
+      ],
+      "recorded_result": "Biological-replicate separation, distinct RGIDs/shared LB and duplicate-marking gates pass.",
+      "new_execution_during_handoff": false,
+      "source_identity_note": "The proposed source receipt records file hashes, not a commit identity; all five captured source-file hashes match a9b588.",
+      "module_bytes_match_revision": "full_run_fixed"
+    },
+    {
+      "id": "yeast_shared",
+      "type": "six_targeted_real_read_or_shared_alignment_nextflow_experiments",
+      "source_revisions": [
+        "pre448",
+        "reviewed_dev",
+        "full_run_fixed"
+      ],
+      "recorded_result": "Six targeted runs succeeded; identical-alignment experiments isolate the read-group correction.",
+      "new_execution_during_handoff": false
+    },
+    {
+      "id": "yeast_base",
+      "type": "core_workflow",
+      "source_revisions": [
+        "pre448"
+      ],
+      "recorded_result": "Completed; four times 250,000 actual pairs; 1,934 consensus regions.",
+      "new_execution_during_handoff": false
+    },
+    {
+      "id": "yeast_unfixed",
+      "type": "core_workflow",
+      "source_revisions": [
+        "reviewed_dev"
+      ],
+      "recorded_result": "Completed; 1,800 consensus regions; differs from parent/fix.",
+      "new_execution_during_handoff": false
+    },
+    {
+      "id": "yeast_fixed",
+      "type": "core_workflow",
+      "source_revisions": [
+        "full_run_fixed"
+      ],
+      "recorded_result": "Completed; 1,934 regions; one of 3,868 count cells differs from parent.",
+      "new_execution_during_handoff": false
+    },
+    {
+      "id": "preseq_standin",
+      "type": "actual_nextflow_module_with_standin_executable",
+      "source_revisions": [
+        "preseq_followup"
+      ],
+      "recorded_result": "Normal success, retry recovery and deliberate option-loss mutation pass their expected gates.",
+      "new_execution_during_handoff": false
+    },
+    {
+      "id": "gffread_conversion",
+      "type": "actual_nextflow_module_docker_amd64_benign_annotation",
+      "source_revisions": [
+        "gffread_followup"
+      ],
+      "recorded_result": "Coordinates, identifiers and observed-runtime gates pass.",
+      "new_execution_during_handoff": false
+    },
+    {
+      "id": "gffread_nine",
+      "type": "strict_local_nftest_ci",
+      "source_revisions": [
+        "gffread_followup"
+      ],
+      "recorded_result": {
+        "tests": 9,
+        "failures": 0,
+        "skips": 0,
+        "snapshot_updates_during_final_run": false,
+        "nf_test": "0.9.5",
+        "nextflow": "26.04.6",
+        "helper": "nft-utils@0.0.9"
+      },
+      "new_execution_during_handoff": false,
+      "observed_source_worktree_head": "60412205bb13c13ef1434cc5f5cbd9403d7eace6",
+      "source_identity_note": "Suite used an isolated fixed-version module copy prepared from checkout HEAD 604122 before the GFFREAD commit; exact module/test/snapshot receipts connect it to bd5dec. Final source snapshot differs from the accepted candidate by formatting only."
+    },
+    {
+      "id": "human_macs301",
+      "type": "same_bam_local_tool",
+      "source_revisions": [
+        "full_run_fixed"
+      ],
+      "tool_version": "3.0.1",
+      "recorded_result": "Exit 0; 30,438 peaks; exact emitted-field comparison.",
+      "new_execution_during_handoff": false
+    },
+    {
+      "id": "human_macs304",
+      "type": "same_bam_local_tool",
+      "source_revisions": [
+        "full_run_fixed"
+      ],
+      "tool_version": "3.0.4",
+      "recorded_result": "Exit 0; 30,438 peaks; exact emitted-field comparison and archived cloud output match.",
+      "new_execution_during_handoff": false
+    },
+    {
+      "id": "alignment_peak_controls",
+      "type": "21localboundedtoolcommands",
+      "source_revisions": [
+        "pre448",
+        "pr448_merge"
+      ],
+      "recorded_result": "Expected mapping, metadata, summary and display changes separated in bounded actual-tool controls.",
+      "new_execution_during_handoff": false
+    },
+    {
+      "id": "lint_comparison",
+      "type": "nf_core_lint",
+      "source_revisions": [
+        "full_run_fixed",
+        "preseq_followup"
+      ],
+      "recorded_result": {
+        "exit_code": 1,
+        "same_failures": true,
+        "failures": 13
+      },
+      "new_execution_during_handoff": false
+    },
+    {
+      "id": "hiv_bwa_unfixed",
+      "type": "full_input_cloud_workflow",
+      "source_revisions": [
+        "reviewed_dev"
+      ],
+      "workflow_id": "miH78tIWtzQMy",
+      "aligner": "bwa",
+      "arm": "unfixed",
+      "pairs": 87089251,
+      "libraries": 4,
+      "technical_runs_per_library": 1,
+      "recorded_result": "SUCCEEDED; collection complete.",
+      "new_execution_during_handoff": false
+    },
+    {
+      "id": "hiv_bwa_fixed",
+      "type": "full_input_cloud_workflow",
+      "source_revisions": [
+        "full_run_fixed"
+      ],
+      "workflow_id": "BVYqNpYNcUhEN",
+      "aligner": "bwa",
+      "arm": "fixed",
+      "pairs": 87089251,
+      "libraries": 4,
+      "technical_runs_per_library": 1,
+      "recorded_result": "SUCCEEDED; collection complete.",
+      "new_execution_during_handoff": false
+    },
+    {
+      "id": "hiv_chromap_unfixed",
+      "type": "full_input_cloud_workflow",
+      "source_revisions": [
+        "reviewed_dev"
+      ],
+      "workflow_id": "6n2TeKZ3HxTua",
+      "aligner": "chromap",
+      "arm": "unfixed",
+      "pairs": 87089251,
+      "libraries": 4,
+      "technical_runs_per_library": 1,
+      "recorded_result": "SUCCEEDED; collection complete.",
+      "new_execution_during_handoff": false
+    },
+    {
+      "id": "hiv_chromap_fixed",
+      "type": "full_input_cloud_workflow",
+      "source_revisions": [
+        "full_run_fixed"
+      ],
+      "workflow_id": "2DOXAsX9V2FbkY",
+      "aligner": "chromap",
+      "arm": "fixed",
+      "pairs": 87089251,
+      "libraries": 4,
+      "technical_runs_per_library": 1,
+      "recorded_result": "SUCCEEDED; collection complete.",
+      "new_execution_during_handoff": false
+    }
+  ],
+  "checks": [
+    {
+      "id": "public_preseq",
+      "kind": "local_future_execution",
+      "argv": [
+        "python3",
+        "${SRC}/tests/regressions/preseq_retry.py",
+        "--repo",
+        "${SRC}",
+        "--output",
+        "${OUT}/preseq"
+      ],
+      "requirements": [
+        "Python 3",
+        "cached Nextflow distribution"
+      ],
+      "claims": [
+        "preseq_retry"
+      ],
+      "failure_control": "The script deliberately restores the args.join option-loss expression and requires its invocation sequence to fail."
+    },
+    {
+      "id": "public_gffread",
+      "kind": "local_future_execution",
+      "argv": [
+        "python3",
+        "${SRC}/tests/regressions/gffread_conversion.py",
+        "--repo",
+        "${SRC}",
+        "--docker-context",
+        "colima",
+        "--output",
+        "${OUT}/gffread-conversion"
+      ],
+      "requirements": [
+        "Python 3",
+        "cached Nextflow distribution",
+        "Docker amd64 fixed image"
+      ],
+      "claims": [
+        "gffread_package"
+      ],
+      "failure_control": "Requires observed runtime >=0.12.9; the benign fixture does not reproduce historical failures."
+    },
+    {
+      "id": "gffread_nine_ci",
+      "kind": "local_future_execution",
+      "cwd": "${OUT}/isolated-gffread-suite",
+      "argv": [
+        "nf-test",
+        "test",
+        "--ci",
+        "--junitxml",
+        "final.xml",
+        "--log",
+        "final.log",
+        "module/tests/main.nf.test"
+      ],
+      "requirements": [
+        "Fresh isolated module/tests copy from review_target",
+        "recorded public fixture bytes",
+        "nf-test 0.9.5",
+        "Nextflow 26.04.6",
+        "nft-utils 0.0.9",
+        "Docker amd64 fixed image",
+        "normalized fixture-path configuration"
+      ],
+      "claims": [
+        "gffread_package"
+      ],
+      "failure_control": "Eight old-snapshot mismatches reviewed; final run has no snapshot-update flag; inspect accepted version/GFF3 comment changes."
+    },
+    {
+      "id": "human_macs_comparison",
+      "kind": "offline_future_execution",
+      "cwd": "${EVIDENCE}/behavior-audit/human-macs",
+      "argv": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_compare.py"
+      ],
+      "requirements": [
+        "Python 3",
+        "mapped existing outputs"
+      ],
+      "claims": [
+        "human_macs"
+      ],
+      "failure_control": "Detects 1e-6 numeric changes, coordinate shifts despite equal counts, and other-field changes despite display exclusions."
+    },
+    {
+      "id": "yeast_comparison_tests",
+      "kind": "offline_future_execution",
+      "cwd": "${EVIDENCE}/real-samples",
+      "argv": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "comparison-tests",
+        "-p",
+        "test*.py",
+        "-v"
+      ],
+      "requirements": [
+        "Python 3",
+        "mapped comparator source"
+      ],
+      "claims": [
+        "yeast_core"
+      ],
+      "failure_control": "Covers wrong source/completion identity, changed counts, coordinate joins, duplicate keys, missing arms and partial coverage."
+    },
+    {
+      "id": "alignment_evidence",
+      "kind": "offline_future_execution",
+      "argv": [
+        "python3",
+        "${EVIDENCE}/behavior-audit/alignment-peak/check.py"
+      ],
+      "requirements": [
+        "Python 3",
+        "mapped existing outputs"
+      ],
+      "claims": [
+        "bounded_module_audit"
+      ],
+      "failure_control": "Checks saved scientific comparison witnesses and Git blob/source pins."
+    },
+    {
+      "id": "reseq_archive_integrity",
+      "kind": "offline_future_execution",
+      "cwd": "${RESEQ_DISTRIBUTION}",
+      "argv": [
+        "python3",
+        "verify_parts.py"
+      ],
+      "requirements": [
+        "Python 3.9+",
+        "all ten ordered parts and manifests"
+      ],
+      "claims": [
+        "yeast_core",
+        "yeast_shared_dedup"
+      ],
+      "failure_control": "Part/member bytes must match hashes; integrity is not semantic correctness."
+    }
+  ],
+  "files": [
+    {
+      "root": "source",
+      "path": "CHANGELOG.md",
+      "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+      "git_blob": "b61f3e1f043ea0a6caeb52eb24929f7cdf97901e",
+      "sha256": "4356101abd6318bf97c96d6eee4492ad912be562ab6e223c1f12b829675807a2",
+      "bytes": 22889
+    },
+    {
+      "root": "source",
+      "path": "PR-DRAFT.md",
+      "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+      "git_blob": "6a87f9a77c64f85b16a8b13c139b435b76253800",
+      "sha256": "14252dcd319106616ce93eba7ffe53ddc9823f406bedcbc3d85a49d191d864c6",
+      "bytes": 6676
+    },
+    {
+      "root": "source",
+      "path": "conf/modules.config",
+      "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+      "git_blob": "3a1ea07f9c7507ea550e907333d8235aa33a74a7",
+      "sha256": "3cc3a56fd6ed88b57c52fbfd9f4b9c5a3e79d57866f314ad408fbc4d7835e3a3",
+      "bytes": 40675
+    },
+    {
+      "root": "source",
+      "path": "docs/module-update-audit.md",
+      "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+      "git_blob": "3976e9b14b27dcb6513f9f71fa051613b8751f73",
+      "sha256": "3e5d2b26ea1b8c531718b868cb3fce2a1243839d01482ed6aa7a6f3b833ec763",
+      "bytes": 9411
+    },
+    {
+      "root": "source",
+      "path": "modules.json",
+      "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+      "git_blob": "f47a49281d7821802b89de31a45465224f9baf1c",
+      "sha256": "f070cc67a8e82e5f46d5d198a33f4357ec735501a25534e1c27fa9f7a74d8016",
+      "bytes": 12147
+    },
+    {
+      "root": "source",
+      "path": "modules/nf-core/gffread/environment.yml",
+      "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+      "git_blob": "97e616b3f48b0cd89b3acb301c2dc9ae6be038af",
+      "sha256": "2683dc682c82caf86fa8fd98032e9a350f8a45f4368dd8c6c5906ab5c2c4a7d3",
+      "bytes": 207
+    },
+    {
+      "root": "source",
+      "path": "modules/nf-core/gffread/gffread.diff",
+      "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+      "git_blob": "b78c3dd0ea3f6a546d5a5749d645dee8297c1fb0",
+      "sha256": "80563fd6be943971453b4f58a51ce4b861bbb817e4584b1bf51b1dece7b4378d",
+      "bytes": 14833
+    },
+    {
+      "root": "source",
+      "path": "modules/nf-core/gffread/main.nf",
+      "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+      "git_blob": "3d3c7324c832d78c5e2568ee3d366d322de5cc1a",
+      "sha256": "8eba1f12171fa5d5bef67dc4d947630eb90a980823f11bbca9b7893eac35e9a8",
+      "bytes": 2466
+    },
+    {
+      "root": "source",
+      "path": "modules/nf-core/gffread/tests/main.nf.test.snap",
+      "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+      "git_blob": "afe37c468c622d233af7d12c34e4fc4cede75ec6",
+      "sha256": "b95f843813e96044f37fac122305c23f4aa96d70a8aa410345e7c7894aff8e3c",
+      "bytes": 10252
+    },
+    {
+      "root": "source",
+      "path": "modules/nf-core/macs3/callpeak/main.nf",
+      "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+      "git_blob": "7f70167cbe19468bb47d087df799e2b3e4072b26",
+      "sha256": "bb08c50df73fbe0fd7dfaa6ca37f5e9585a192eb683f54caffc0a9aa7101de2a",
+      "bytes": 1975
+    },
+    {
+      "root": "source",
+      "path": "modules/nf-core/preseq/lcextrap/environment.yml",
+      "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+      "git_blob": "a2088502826573aa79651f56f933e1874a973822",
+      "sha256": "02351348a0c64c3db9810c5665afda6e0acb8a6bce69f1b25a912e0198b7f773",
+      "bytes": 205
+    },
+    {
+      "root": "source",
+      "path": "modules/nf-core/preseq/lcextrap/main.nf",
+      "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+      "git_blob": "523d6e74cd0951a34396c185d9e57e5156831527",
+      "sha256": "f552974269d70b3cebf86c780be00529a89baeec55bb22c2cd8a65e3846dcb38",
+      "bytes": 1346
+    },
+    {
+      "root": "source",
+      "path": "modules/nf-core/preseq/lcextrap/preseq-lcextrap.diff",
+      "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+      "git_blob": "f3f5d886730fc2bcfdb77d4953f32e640175a41c",
+      "sha256": "72b3c079621d7fd4531eb1a9cae3b6023b0efc56e58760218357c704f346f076",
+      "bytes": 557
+    },
+    {
+      "root": "source",
+      "path": "modules/nf-core/trimgalore/environment.yml",
+      "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+      "git_blob": "6f07df064384888c4f9257ad9e893cad083e0155",
+      "sha256": "1878192a84a7b69ad32261f3f6239223cac83c81ddbef28f72ff976afd4b87b0",
+      "bytes": 210
+    },
+    {
+      "root": "source",
+      "path": "modules/nf-core/trimgalore/main.nf",
+      "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+      "git_blob": "af819db974232232692722c64e704bda051ceb24",
+      "sha256": "75db2795106e69a93f7e31da0dca1cef608f82323d92894c88b621ba380e24d7",
+      "bytes": 3368
+    },
+    {
+      "root": "source",
+      "path": "nextflow.config",
+      "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+      "git_blob": "ea5186e72cf7bdeff393925ae28cd0af3244166e",
+      "sha256": "e47935daa6dba8eb3fd284bcabe44099d3755fc104b26f525a03ce5a45ed8e55",
+      "bytes": 13354
+    },
+    {
+      "root": "source",
+      "path": "tests/regressions/README.md",
+      "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+      "git_blob": "294b12abc06cbb2aec2545c0bd44b56f7414f588",
+      "sha256": "5a5cd0d204a0f70f5f601b14ffef983d3e9cf5e919b6a037cf62c68556956c8a",
+      "bytes": 1254
+    },
+    {
+      "root": "source",
+      "path": "tests/regressions/gffread_conversion.py",
+      "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+      "git_blob": "b0aaa720e1acc78ad8287adb50b9f71afa3a67da",
+      "sha256": "c0de488032c09a25e776be35798c6dd139dac83ad73998767b3b68cdcd421bf9",
+      "bytes": 3999
+    },
+    {
+      "root": "source",
+      "path": "tests/regressions/preseq_retry.py",
+      "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+      "git_blob": "651e5915f80d315313d1c7a0d8f01d583a5ce857",
+      "sha256": "178c2bc17dd2296ed31578e29608a74c0b651c04339975f457d64cb0e6a02167",
+      "bytes": 5073
+    },
+    {
+      "root": "source",
+      "path": "workflows/atacseq.nf",
+      "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+      "git_blob": "6613956735c014d8a57253502cbb3ca9f39bfe6a",
+      "sha256": "f4885c36d4b28d11933ea72ec8445450e73061245aba4a32978eb830b1d7caee",
+      "bytes": 33365
+    },
+    {
+      "root": "validation",
+      "path": "behavior-audit/alignment-peak/REPORT.md",
+      "sha256": "ffc62c9bdb7b07003fd08da62da0555e31226ec531eb91aff55cc41c21a3e122",
+      "bytes": 14834
+    },
+    {
+      "root": "validation",
+      "path": "behavior-audit/gffread-nftest/REPORT.md",
+      "sha256": "b238f1514d22bccb5929663c6d85a4d0d071e04327f679dd479e54fc6d3844c0",
+      "bytes": 1660
+    },
+    {
+      "root": "validation",
+      "path": "behavior-audit/gffread-nftest/final.xml",
+      "sha256": "25bdcb7d79eba94bad1a7b539bf8299cc1385a72e893a85864221c760068c731",
+      "bytes": 1205
+    },
+    {
+      "root": "validation",
+      "path": "behavior-audit/gffread-nftest/provenance.json",
+      "sha256": "630fdbac161e960807c1cae30ddd7d348c7979d512d517bf644b844a8a0a1aba",
+      "bytes": 3017
+    },
+    {
+      "root": "validation",
+      "path": "behavior-audit/gffread-nftest/result.json",
+      "sha256": "5c0626d05f41433a25c4a51418b142fe77cc7808c46a826aa61e3d33d7e12192",
+      "bytes": 602
+    },
+    {
+      "root": "validation",
+      "path": "behavior-audit/human-macs/REPORT.md",
+      "sha256": "00759280482fb3c3f258e23d5893729ddac65e0696e4216263824a6c9b1dfe40",
+      "bytes": 3360
+    },
+    {
+      "root": "validation",
+      "path": "behavior-audit/human-macs/comparison.json",
+      "sha256": "f42ee2273673f4fd71cf1131c1d8dfeb2f72386a57f3163ff010eb6a0ae96066",
+      "bytes": 7372
+    },
+    {
+      "root": "validation",
+      "path": "behavior-audit/human-macs/execution.json",
+      "sha256": "7947add332692c42c646b80542ff0d56df70f749c36cb04dfa7e9aa815b813e9",
+      "bytes": 2126
+    },
+    {
+      "root": "validation",
+      "path": "behavior-audit/human-macs/input-provenance.json",
+      "sha256": "3521af47c7a64384395ff9955076bcffcbacec3fd3a0e4b4b3b9bc30e3915aee",
+      "bytes": 714
+    },
+    {
+      "root": "validation",
+      "path": "behavior-audit/human-macs/test_compare.py",
+      "sha256": "44d7c94888f3a380388d3ff08aad38e5c0a2c982721481c9a1f2267a37363815",
+      "bytes": 1712
+    },
+    {
+      "root": "validation",
+      "path": "behavior-audit/pr473-branch/baseline-lint.out",
+      "sha256": "3367ed9a9bef980b6e4509edbfa9dc8d900e6f7f7b8f992f0dda7446e31c1227",
+      "bytes": 21964
+    },
+    {
+      "root": "validation",
+      "path": "behavior-audit/pr473-branch/lint-baseline-comparison.json",
+      "sha256": "e303ac1219ab845d4ec32a53bc5581ff5f18fd61b78f522509254c1d4428bde6",
+      "bytes": 3972
+    },
+    {
+      "root": "validation",
+      "path": "behavior-audit/pr473-branch/nfcore-lint.out",
+      "sha256": "e347163e27f18c0f62b25205167b6a1405d090462dd9e3bc2c9f7cb91f4f5fb7",
+      "bytes": 39685
+    },
+    {
+      "root": "validation",
+      "path": "behavior-audit/pr473-branch/preseq-retry/result.json",
+      "sha256": "7b693ea84e7e491d16ea622c18ea698e83d83c1ca6849a205c9a320976ab8dee",
+      "bytes": 1787
+    },
+    {
+      "root": "validation",
+      "path": "behavior-audit/pr473-gffread/conversion/result.json",
+      "sha256": "4f40eadbdce1888c8fb6dd57cdac32dd5bc1a9af61c76cdcbd566b1922788ef9",
+      "bytes": 502
+    },
+    {
+      "root": "validation",
+      "path": "behavior-audit/read-group-scope/REPORT.md",
+      "sha256": "0cad946c467cbfe6cc6286c33247547d51c6ce1537d9dd9c748ffb061a01bb1f",
+      "bytes": 5214
+    },
+    {
+      "root": "validation",
+      "path": "chromap/runs/proposed/result.json",
+      "sha256": "fbb2ffb904de3d07d815bfa2d7ade8626db54e7d58de1a91fca140c3b08e17e9",
+      "bytes": 2695
+    },
+    {
+      "root": "validation",
+      "path": "module-version-audit/AUDIT.md",
+      "sha256": "149f4a11f0239ba836fd5cbefd7c2b330b3af194bdc7b7d7f29c7592040513e9",
+      "bytes": 7516
+    },
+    {
+      "root": "validation",
+      "path": "module-version-audit/coverage.json",
+      "sha256": "91bfd565957fb89c62374729a79178b8b2abdc1f030a8b0494a5ff1e6fe7c324",
+      "bytes": 10582
+    },
+    {
+      "root": "validation",
+      "path": "module-version-audit/inventory.json",
+      "sha256": "546d034f8a1359a6a69340d8c2fb5a1fb5f87e239748fb415842ceada3a7e2fc",
+      "bytes": 526197
+    },
+    {
+      "root": "validation",
+      "path": "original-cohorts/FINAL-REPORT.md",
+      "sha256": "5a69f08c11e7985d33f7b9cfa44ca4fbf0b9eb911026d6c910de63b55066adbd",
+      "bytes": 18564
+    },
+    {
+      "root": "validation",
+      "path": "original-cohorts/HISTORICAL-AGREEMENT.md",
+      "sha256": "a81d8d736a2e42fb03de758a226b18d54b27451f2fbbe039a1b20cc00f0f5ca9",
+      "bytes": 1372
+    },
+    {
+      "root": "validation",
+      "path": "original-cohorts/campaign.json",
+      "sha256": "5e46342df95bb1516ca214881150d377431c0bbd5b164866b52584eab8d2bb63",
+      "bytes": 4794
+    },
+    {
+      "root": "validation",
+      "path": "original-cohorts/historical-comparison.json",
+      "sha256": "2cad2ac873e744081b26e6b273b0c5cdc36c5ae3d8a5d413fe2691aa836881a2",
+      "bytes": 6840250
+    },
+    {
+      "root": "validation",
+      "path": "original-cohorts/hiv-input-provenance.json",
+      "sha256": "a5b3d9caa08af0199ed2c78ac1072bfebd55fb490103a49a287a5288e1c8567f",
+      "bytes": 11465
+    },
+    {
+      "root": "validation",
+      "path": "original-cohorts/report.json",
+      "sha256": "4ac5f851bd26f8628037b54512840f6328c8e73e6d3c24075d213370fa927d4b",
+      "bytes": 88268
+    },
+    {
+      "root": "validation",
+      "path": "real-samples/REPORT.md",
+      "sha256": "ab2013f33dfc995d14f4979fba49c0102983f377270f22dd02039dcdcdc26f4c",
+      "bytes": 4909
+    },
+    {
+      "root": "validation",
+      "path": "real-samples/analysis/shared/REPORT.md",
+      "sha256": "9f47cd9e7940bac869f32fda73ea15d77ac95f5eda59df80da6283dafc8025b0",
+      "bytes": 2405
+    },
+    {
+      "root": "validation",
+      "path": "real-samples/full-core-comparison/comparison.json",
+      "sha256": "69fbc0f448896619efb1961954b18c07457224dfa9e965ec13dfa81919ba3d3f",
+      "bytes": 25382567
+    },
+    {
+      "root": "validation",
+      "path": "real-samples/full-core/completion-check.json",
+      "sha256": "ac346e6fc733bb18fcd3e66774b8f94dfe2e85bb999cc95df9a51ef38d14b0e2",
+      "bytes": 12838
+    },
+    {
+      "root": "validation",
+      "path": "real-samples/harness/README.md",
+      "sha256": "c47a9fbff873328c727d519e11b9e002d23bad15040fb8fea96e440787da9eda",
+      "bytes": 3659
+    },
+    {
+      "root": "validation",
+      "path": "real-samples/residual-one-count/REPORT.md",
+      "sha256": "da33612cacec9b9d69375793bac0855d1ef99ec11f64a6272fe7ef2224fbfe48",
+      "bytes": 2336
+    },
+    {
+      "root": "validation",
+      "path": "real-samples/validation-result.json",
+      "sha256": "be93f7203e275a3ce9354e0e82828ef56d3b0b29c00d59992d43183e7a35581d",
+      "bytes": 1019
+    },
+    {
+      "root": "validation",
+      "path": "trimming/REPORT.md",
+      "sha256": "f5efeaf4d4b62306e01ea14713d98a08fdfaa4fca8f806afcf0ea3452283843d",
+      "bytes": 1892
+    },
+    {
+      "root": "validation",
+      "path": "trimming/baseline-comparison.json",
+      "sha256": "2b473ced39088395ca7d53ae3a37013ffea49fd2907b15b727ab4eeebf6e7bb9",
+      "bytes": 156
+    },
+    {
+      "root": "validation",
+      "path": "trimming/comparison.json",
+      "sha256": "24242006513bf587d22cc26aa62b88f0ff804ce8a032d4c306c4e93b462f7fb4",
+      "bytes": 228
+    },
+    {
+      "root": "validation",
+      "path": "trimming/baseline/source-evidence.json",
+      "sha256": "40ee6e067a9c49038281a4cf00917ae572c00dd1b56c7b633fc97c5f913c5302",
+      "bytes": 1438
+    },
+    {
+      "root": "validation",
+      "path": "trimming/negative-2.1/source-evidence.json",
+      "sha256": "76a2667dfdf967446ffb3438f15394c00d98019e64cf06953a715b2b0885d5ba",
+      "bytes": 1376
+    },
+    {
+      "root": "validation",
+      "path": "trimming/proposed/source-evidence.json",
+      "sha256": "0af8465fd521ff844f804973764f04929e014b02431e124a87dfa94bac92aa2c",
+      "bytes": 1411
+    },
+    {
+      "root": "validation",
+      "path": "chromap/runs/proposed/source-used.json",
+      "sha256": "683111da65d8bac30bdbbeebf1a503cef734e83c28431be09edeb6792aea475a",
+      "bytes": 1128
+    }
+  ],
+  "reseq_archive_integrity": {
+    "archive_bytes": 431843357,
+    "archive_sha256": "03a1b1268bbf3b499afe07f514e13e940afaa3694c9354b126846bd7147af53f",
+    "parts": 10,
+    "part_limit_bytes": 45088768,
+    "source_files": 4565,
+    "total_members": 5705,
+    "source_unpacked_file_bytes": 617688616,
+    "source_ARTIFACTS_sha256": "65bbe55339efacb56e17ec110a950f7c471dac9d3426222459fe5600a65e391a"
+  },
+  "exclusions": [
+    "Historical failure inputs are not provided; the public benign GFFREAD test does not establish their trigger.",
+    "Raw private reasoning, event streams, prompts, tool inputs and credentials are not included.",
+    "No all-four-fix full workflow rerun is asserted."
+  ],
+  "source_identity_receipt_checks": {
+    "trimming_and_picard_receipts_match_a9b588": {
+      "trimming/proposed/source-evidence.json": {
+        "conf/modules.config": true,
+        "nextflow.config": true,
+        "modules/nf-core/trimgalore/main.nf": true,
+        "modules/nf-core/trimgalore/environment.yml": true
+      },
+      "chromap/runs/proposed/source-used.json": {
+        "workflows/atacseq.nf": true,
+        "conf/modules.config": true,
+        "modules/nf-core/picard/mergesamfiles/main.nf": true,
+        "modules/nf-core/picard/markduplicates/main.nf": true,
+        "modules/nf-core/picard/addorreplacereadgroups/main.nf": true
+      }
+    },
+    "interpretation": "Full workflow sources are exact frozen commits. Some earlier targeted experiments used uncommitted or isolated module copies; recorded file hashes, rather than checkout HEAD alone, establish the tested implementation."
+  },
+  "source_review_md_sha256": "2f7be7f287ac1f600d805fd541f4b3b83f79414d48d47d786831d903cf69247b",
+  "review_md_sha256": "21a822a6351ca62a3298615fe4bda89235cd06508c9bddb5fd55f3f50b587872",
+  "distributed_file_mappings": [
+    {
+      "source_capture": {
+        "root": "source",
+        "path": "CHANGELOG.md",
+        "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+        "git_blob": "b61f3e1f043ea0a6caeb52eb24929f7cdf97901e",
+        "sha256": "4356101abd6318bf97c96d6eee4492ad912be562ab6e223c1f12b829675807a2",
+        "bytes": 22889
+      },
+      "distributed_paths": [],
+      "source_archive_members": [
+        {
+          "archive": "review/atacseq-1d840c.tar.gz",
+          "member": "CHANGELOG.md",
+          "sha256": "4356101abd6318bf97c96d6eee4492ad912be562ab6e223c1f12b829675807a2"
+        }
+      ],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "source",
+        "path": "PR-DRAFT.md",
+        "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+        "git_blob": "6a87f9a77c64f85b16a8b13c139b435b76253800",
+        "sha256": "14252dcd319106616ce93eba7ffe53ddc9823f406bedcbc3d85a49d191d864c6",
+        "bytes": 6676
+      },
+      "distributed_paths": [],
+      "source_archive_members": [
+        {
+          "archive": "review/atacseq-1d840c.tar.gz",
+          "member": "PR-DRAFT.md",
+          "sha256": "14252dcd319106616ce93eba7ffe53ddc9823f406bedcbc3d85a49d191d864c6"
+        }
+      ],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "source",
+        "path": "conf/modules.config",
+        "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+        "git_blob": "3a1ea07f9c7507ea550e907333d8235aa33a74a7",
+        "sha256": "3cc3a56fd6ed88b57c52fbfd9f4b9c5a3e79d57866f314ad408fbc4d7835e3a3",
+        "bytes": 40675
+      },
+      "distributed_paths": [
+        "module-review/original-fixes/source-capture/trimming-proposed/conf/modules.config",
+        "module-review/original-fixes/source-capture/chromap-proposed/conf/modules.config"
+      ],
+      "source_archive_members": [
+        {
+          "archive": "review/atacseq-1d840c.tar.gz",
+          "member": "conf/modules.config",
+          "sha256": "3cc3a56fd6ed88b57c52fbfd9f4b9c5a3e79d57866f314ad408fbc4d7835e3a3"
+        }
+      ],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "source",
+        "path": "docs/module-update-audit.md",
+        "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+        "git_blob": "3976e9b14b27dcb6513f9f71fa051613b8751f73",
+        "sha256": "3e5d2b26ea1b8c531718b868cb3fce2a1243839d01482ed6aa7a6f3b833ec763",
+        "bytes": 9411
+      },
+      "distributed_paths": [],
+      "source_archive_members": [
+        {
+          "archive": "review/atacseq-1d840c.tar.gz",
+          "member": "docs/module-update-audit.md",
+          "sha256": "3e5d2b26ea1b8c531718b868cb3fce2a1243839d01482ed6aa7a6f3b833ec763"
+        }
+      ],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "source",
+        "path": "modules.json",
+        "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+        "git_blob": "f47a49281d7821802b89de31a45465224f9baf1c",
+        "sha256": "f070cc67a8e82e5f46d5d198a33f4357ec735501a25534e1c27fa9f7a74d8016",
+        "bytes": 12147
+      },
+      "distributed_paths": [
+        "module-review/modules/source-fork/modules.json"
+      ],
+      "source_archive_members": [
+        {
+          "archive": "review/atacseq-1d840c.tar.gz",
+          "member": "modules.json",
+          "sha256": "f070cc67a8e82e5f46d5d198a33f4357ec735501a25534e1c27fa9f7a74d8016"
+        }
+      ],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "source",
+        "path": "modules/nf-core/gffread/environment.yml",
+        "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+        "git_blob": "97e616b3f48b0cd89b3acb301c2dc9ae6be038af",
+        "sha256": "2683dc682c82caf86fa8fd98032e9a350f8a45f4368dd8c6c5906ab5c2c4a7d3",
+        "bytes": 207
+      },
+      "distributed_paths": [
+        "module-review/modules/gffread-suite/module/environment.yml",
+        "module-review/modules/source-fork/modules/nf-core/gffread/environment.yml"
+      ],
+      "source_archive_members": [
+        {
+          "archive": "review/atacseq-1d840c.tar.gz",
+          "member": "modules/nf-core/gffread/environment.yml",
+          "sha256": "2683dc682c82caf86fa8fd98032e9a350f8a45f4368dd8c6c5906ab5c2c4a7d3"
+        }
+      ],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "source",
+        "path": "modules/nf-core/gffread/gffread.diff",
+        "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+        "git_blob": "b78c3dd0ea3f6a546d5a5749d645dee8297c1fb0",
+        "sha256": "80563fd6be943971453b4f58a51ce4b861bbb817e4584b1bf51b1dece7b4378d",
+        "bytes": 14833
+      },
+      "distributed_paths": [
+        "module-review/modules/source-fork/modules/nf-core/gffread/gffread.diff"
+      ],
+      "source_archive_members": [
+        {
+          "archive": "review/atacseq-1d840c.tar.gz",
+          "member": "modules/nf-core/gffread/gffread.diff",
+          "sha256": "80563fd6be943971453b4f58a51ce4b861bbb817e4584b1bf51b1dece7b4378d"
+        }
+      ],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "source",
+        "path": "modules/nf-core/gffread/main.nf",
+        "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+        "git_blob": "3d3c7324c832d78c5e2568ee3d366d322de5cc1a",
+        "sha256": "8eba1f12171fa5d5bef67dc4d947630eb90a980823f11bbca9b7893eac35e9a8",
+        "bytes": 2466
+      },
+      "distributed_paths": [
+        "module-review/modules/gffread-suite/module/main.nf",
+        "module-review/modules/source-fork/modules/nf-core/gffread/main.nf"
+      ],
+      "source_archive_members": [
+        {
+          "archive": "review/atacseq-1d840c.tar.gz",
+          "member": "modules/nf-core/gffread/main.nf",
+          "sha256": "8eba1f12171fa5d5bef67dc4d947630eb90a980823f11bbca9b7893eac35e9a8"
+        }
+      ],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "source",
+        "path": "modules/nf-core/gffread/tests/main.nf.test.snap",
+        "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+        "git_blob": "afe37c468c622d233af7d12c34e4fc4cede75ec6",
+        "sha256": "b95f843813e96044f37fac122305c23f4aa96d70a8aa410345e7c7894aff8e3c",
+        "bytes": 10252
+      },
+      "distributed_paths": [
+        "module-review/modules/source-fork/modules/nf-core/gffread/tests/main.nf.test.snap"
+      ],
+      "source_archive_members": [
+        {
+          "archive": "review/atacseq-1d840c.tar.gz",
+          "member": "modules/nf-core/gffread/tests/main.nf.test.snap",
+          "sha256": "b95f843813e96044f37fac122305c23f4aa96d70a8aa410345e7c7894aff8e3c"
+        }
+      ],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "source",
+        "path": "modules/nf-core/macs3/callpeak/main.nf",
+        "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+        "git_blob": "7f70167cbe19468bb47d087df799e2b3e4072b26",
+        "sha256": "bb08c50df73fbe0fd7dfaa6ca37f5e9585a192eb683f54caffc0a9aa7101de2a",
+        "bytes": 1975
+      },
+      "distributed_paths": [
+        "module-review/alignment/alignment-peak/pipeline/merge/modules/nf-core/macs3/callpeak/main.nf"
+      ],
+      "source_archive_members": [
+        {
+          "archive": "review/atacseq-1d840c.tar.gz",
+          "member": "modules/nf-core/macs3/callpeak/main.nf",
+          "sha256": "bb08c50df73fbe0fd7dfaa6ca37f5e9585a192eb683f54caffc0a9aa7101de2a"
+        }
+      ],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "source",
+        "path": "modules/nf-core/preseq/lcextrap/environment.yml",
+        "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+        "git_blob": "a2088502826573aa79651f56f933e1874a973822",
+        "sha256": "02351348a0c64c3db9810c5665afda6e0acb8a6bce69f1b25a912e0198b7f773",
+        "bytes": 205
+      },
+      "distributed_paths": [],
+      "source_archive_members": [
+        {
+          "archive": "review/atacseq-1d840c.tar.gz",
+          "member": "modules/nf-core/preseq/lcextrap/environment.yml",
+          "sha256": "02351348a0c64c3db9810c5665afda6e0acb8a6bce69f1b25a912e0198b7f773"
+        }
+      ],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "source",
+        "path": "modules/nf-core/preseq/lcextrap/main.nf",
+        "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+        "git_blob": "523d6e74cd0951a34396c185d9e57e5156831527",
+        "sha256": "f552974269d70b3cebf86c780be00529a89baeec55bb22c2cd8a65e3846dcb38",
+        "bytes": 1346
+      },
+      "distributed_paths": [
+        "module-review/alignment/preseq-retry/proposed_append/module.nf"
+      ],
+      "source_archive_members": [
+        {
+          "archive": "review/atacseq-1d840c.tar.gz",
+          "member": "modules/nf-core/preseq/lcextrap/main.nf",
+          "sha256": "f552974269d70b3cebf86c780be00529a89baeec55bb22c2cd8a65e3846dcb38"
+        }
+      ],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "source",
+        "path": "modules/nf-core/preseq/lcextrap/preseq-lcextrap.diff",
+        "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+        "git_blob": "f3f5d886730fc2bcfdb77d4953f32e640175a41c",
+        "sha256": "72b3c079621d7fd4531eb1a9cae3b6023b0efc56e58760218357c704f346f076",
+        "bytes": 557
+      },
+      "distributed_paths": [],
+      "source_archive_members": [
+        {
+          "archive": "review/atacseq-1d840c.tar.gz",
+          "member": "modules/nf-core/preseq/lcextrap/preseq-lcextrap.diff",
+          "sha256": "72b3c079621d7fd4531eb1a9cae3b6023b0efc56e58760218357c704f346f076"
+        }
+      ],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "source",
+        "path": "modules/nf-core/trimgalore/environment.yml",
+        "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+        "git_blob": "6f07df064384888c4f9257ad9e893cad083e0155",
+        "sha256": "1878192a84a7b69ad32261f3f6239223cac83c81ddbef28f72ff976afd4b87b0",
+        "bytes": 210
+      },
+      "distributed_paths": [
+        "module-review/original-fixes/source-capture/trimming-proposed/modules/nf-core/trimgalore/environment.yml"
+      ],
+      "source_archive_members": [
+        {
+          "archive": "review/atacseq-1d840c.tar.gz",
+          "member": "modules/nf-core/trimgalore/environment.yml",
+          "sha256": "1878192a84a7b69ad32261f3f6239223cac83c81ddbef28f72ff976afd4b87b0"
+        }
+      ],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "source",
+        "path": "modules/nf-core/trimgalore/main.nf",
+        "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+        "git_blob": "af819db974232232692722c64e704bda051ceb24",
+        "sha256": "75db2795106e69a93f7e31da0dca1cef608f82323d92894c88b621ba380e24d7",
+        "bytes": 3368
+      },
+      "distributed_paths": [
+        "module-review/original-fixes/source-capture/trimming-proposed/modules/nf-core/trimgalore/main.nf"
+      ],
+      "source_archive_members": [
+        {
+          "archive": "review/atacseq-1d840c.tar.gz",
+          "member": "modules/nf-core/trimgalore/main.nf",
+          "sha256": "75db2795106e69a93f7e31da0dca1cef608f82323d92894c88b621ba380e24d7"
+        }
+      ],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "source",
+        "path": "nextflow.config",
+        "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+        "git_blob": "ea5186e72cf7bdeff393925ae28cd0af3244166e",
+        "sha256": "e47935daa6dba8eb3fd284bcabe44099d3755fc104b26f525a03ce5a45ed8e55",
+        "bytes": 13354
+      },
+      "distributed_paths": [
+        "module-review/alignment/read-group-scope/current/nextflow.config",
+        "module-review/original-fixes/source-capture/trimming-negative-2.1/nextflow.config",
+        "module-review/original-fixes/source-capture/trimming-proposed/nextflow.config"
+      ],
+      "source_archive_members": [
+        {
+          "archive": "review/atacseq-1d840c.tar.gz",
+          "member": "nextflow.config",
+          "sha256": "e47935daa6dba8eb3fd284bcabe44099d3755fc104b26f525a03ce5a45ed8e55"
+        }
+      ],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "source",
+        "path": "tests/regressions/README.md",
+        "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+        "git_blob": "294b12abc06cbb2aec2545c0bd44b56f7414f588",
+        "sha256": "5a5cd0d204a0f70f5f601b14ffef983d3e9cf5e919b6a037cf62c68556956c8a",
+        "bytes": 1254
+      },
+      "distributed_paths": [],
+      "source_archive_members": [
+        {
+          "archive": "review/atacseq-1d840c.tar.gz",
+          "member": "tests/regressions/README.md",
+          "sha256": "5a5cd0d204a0f70f5f601b14ffef983d3e9cf5e919b6a037cf62c68556956c8a"
+        }
+      ],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "source",
+        "path": "tests/regressions/gffread_conversion.py",
+        "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+        "git_blob": "b0aaa720e1acc78ad8287adb50b9f71afa3a67da",
+        "sha256": "c0de488032c09a25e776be35798c6dd139dac83ad73998767b3b68cdcd421bf9",
+        "bytes": 3999
+      },
+      "distributed_paths": [],
+      "source_archive_members": [
+        {
+          "archive": "review/atacseq-1d840c.tar.gz",
+          "member": "tests/regressions/gffread_conversion.py",
+          "sha256": "c0de488032c09a25e776be35798c6dd139dac83ad73998767b3b68cdcd421bf9"
+        }
+      ],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "source",
+        "path": "tests/regressions/preseq_retry.py",
+        "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+        "git_blob": "651e5915f80d315313d1c7a0d8f01d583a5ce857",
+        "sha256": "178c2bc17dd2296ed31578e29608a74c0b651c04339975f457d64cb0e6a02167",
+        "bytes": 5073
+      },
+      "distributed_paths": [],
+      "source_archive_members": [
+        {
+          "archive": "review/atacseq-1d840c.tar.gz",
+          "member": "tests/regressions/preseq_retry.py",
+          "sha256": "178c2bc17dd2296ed31578e29608a74c0b651c04339975f457d64cb0e6a02167"
+        }
+      ],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "source",
+        "path": "workflows/atacseq.nf",
+        "revision": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+        "git_blob": "6613956735c014d8a57253502cbb3ca9f39bfe6a",
+        "sha256": "f4885c36d4b28d11933ea72ec8445450e73061245aba4a32978eb830b1d7caee",
+        "bytes": 33365
+      },
+      "distributed_paths": [
+        "module-review/alignment/read-group-scope/current/workflows/atacseq.nf",
+        "module-review/alignment/read-group-scope/merge/workflows/atacseq.nf",
+        "module-review/original-fixes/source-capture/chromap-proposed/workflows/atacseq.nf"
+      ],
+      "source_archive_members": [
+        {
+          "archive": "review/atacseq-1d840c.tar.gz",
+          "member": "workflows/atacseq.nf",
+          "sha256": "f4885c36d4b28d11933ea72ec8445450e73061245aba4a32978eb830b1d7caee"
+        }
+      ],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "behavior-audit/alignment-peak/REPORT.md",
+        "sha256": "ffc62c9bdb7b07003fd08da62da0555e31226ec531eb91aff55cc41c21a3e122",
+        "bytes": 14834
+      },
+      "distributed_paths": [
+        "module-review/alignment/alignment-peak/REPORT.md"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "behavior-audit/gffread-nftest/REPORT.md",
+        "sha256": "b238f1514d22bccb5929663c6d85a4d0d071e04327f679dd479e54fc6d3844c0",
+        "bytes": 1660
+      },
+      "distributed_paths": [
+        "module-review/modules/gffread-suite/REPORT.md"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "behavior-audit/gffread-nftest/final.xml",
+        "sha256": "25bdcb7d79eba94bad1a7b539bf8299cc1385a72e893a85864221c760068c731",
+        "bytes": 1205
+      },
+      "distributed_paths": [
+        "module-review/modules/gffread-suite/final.xml"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "behavior-audit/gffread-nftest/provenance.json",
+        "sha256": "630fdbac161e960807c1cae30ddd7d348c7979d512d517bf644b844a8a0a1aba",
+        "bytes": 3017
+      },
+      "distributed_paths": [
+        "module-review/modules/gffread-suite/provenance.json"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "behavior-audit/gffread-nftest/result.json",
+        "sha256": "5c0626d05f41433a25c4a51418b142fe77cc7808c46a826aa61e3d33d7e12192",
+        "bytes": 602
+      },
+      "distributed_paths": [
+        "module-review/modules/gffread-suite/result.json"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "behavior-audit/human-macs/REPORT.md",
+        "sha256": "00759280482fb3c3f258e23d5893729ddac65e0696e4216263824a6c9b1dfe40",
+        "bytes": 3360
+      },
+      "distributed_paths": [
+        "module-review/alignment/human-macs/REPORT.md"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "behavior-audit/human-macs/comparison.json",
+        "sha256": "f42ee2273673f4fd71cf1131c1d8dfeb2f72386a57f3163ff010eb6a0ae96066",
+        "bytes": 7372
+      },
+      "distributed_paths": [
+        "module-review/alignment/human-macs/comparison.json"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "behavior-audit/human-macs/execution.json",
+        "sha256": "7947add332692c42c646b80542ff0d56df70f749c36cb04dfa7e9aa815b813e9",
+        "bytes": 2126
+      },
+      "distributed_paths": [
+        "module-review/alignment/human-macs/execution.json"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "behavior-audit/human-macs/input-provenance.json",
+        "sha256": "3521af47c7a64384395ff9955076bcffcbacec3fd3a0e4b4b3b9bc30e3915aee",
+        "bytes": 714
+      },
+      "distributed_paths": [
+        "module-review/alignment/human-macs/input-provenance.json"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "behavior-audit/human-macs/test_compare.py",
+        "sha256": "44d7c94888f3a380388d3ff08aad38e5c0a2c982721481c9a1f2267a37363815",
+        "bytes": 1712
+      },
+      "distributed_paths": [
+        "module-review/alignment/human-macs/test_compare.py"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "behavior-audit/pr473-branch/baseline-lint.out",
+        "sha256": "3367ed9a9bef980b6e4509edbfa9dc8d900e6f7f7b8f992f0dda7446e31c1227",
+        "bytes": 21964
+      },
+      "distributed_paths": [
+        "review/additional-evidence/behavior-audit/pr473-branch/baseline-lint.out"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "behavior-audit/pr473-branch/lint-baseline-comparison.json",
+        "sha256": "e303ac1219ab845d4ec32a53bc5581ff5f18fd61b78f522509254c1d4428bde6",
+        "bytes": 3972
+      },
+      "distributed_paths": [
+        "review/branch-validation/lint-baseline-comparison.json"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "behavior-audit/pr473-branch/nfcore-lint.out",
+        "sha256": "e347163e27f18c0f62b25205167b6a1405d090462dd9e3bc2c9f7cb91f4f5fb7",
+        "bytes": 39685
+      },
+      "distributed_paths": [
+        "review/additional-evidence/behavior-audit/pr473-branch/nfcore-lint.out"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "behavior-audit/pr473-branch/preseq-retry/result.json",
+        "sha256": "7b693ea84e7e491d16ea622c18ea698e83d83c1ca6849a205c9a320976ab8dee",
+        "bytes": 1787
+      },
+      "distributed_paths": [
+        "review/additional-evidence/behavior-audit/pr473-branch/preseq-retry/result.json"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "behavior-audit/pr473-gffread/conversion/result.json",
+        "sha256": "4f40eadbdce1888c8fb6dd57cdac32dd5bc1a9af61c76cdcbd566b1922788ef9",
+        "bytes": 502
+      },
+      "distributed_paths": [
+        "review/additional-evidence/behavior-audit/pr473-gffread/conversion/result.json"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "behavior-audit/read-group-scope/REPORT.md",
+        "sha256": "0cad946c467cbfe6cc6286c33247547d51c6ce1537d9dd9c748ffb061a01bb1f",
+        "bytes": 5214
+      },
+      "distributed_paths": [
+        "module-review/alignment/read-group-scope/REPORT.md"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "chromap/runs/proposed/result.json",
+        "sha256": "fbb2ffb904de3d07d815bfa2d7ade8626db54e7d58de1a91fca140c3b08e17e9",
+        "bytes": 2695
+      },
+      "distributed_paths": [
+        "module-review/original-fixes/chromap/runs/proposed/result.json"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "module-version-audit/AUDIT.md",
+        "sha256": "149f4a11f0239ba836fd5cbefd7c2b330b3af194bdc7b7d7f29c7592040513e9",
+        "bytes": 7516
+      },
+      "distributed_paths": [
+        "module-review/modules/module-version-audit/AUDIT.md"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "module-version-audit/coverage.json",
+        "sha256": "91bfd565957fb89c62374729a79178b8b2abdc1f030a8b0494a5ff1e6fe7c324",
+        "bytes": 10582
+      },
+      "distributed_paths": [
+        "module-review/modules/module-version-audit/coverage.json"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "module-version-audit/inventory.json",
+        "sha256": "546d034f8a1359a6a69340d8c2fb5a1fb5f87e239748fb415842ceada3a7e2fc",
+        "bytes": 526197
+      },
+      "distributed_paths": [
+        "module-review/modules/module-version-audit/inventory.json"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "original-cohorts/FINAL-REPORT.md",
+        "sha256": "5a69f08c11e7985d33f7b9cfa44ca4fbf0b9eb911026d6c910de63b55066adbd",
+        "bytes": 18564
+      },
+      "distributed_paths": [
+        "hiv/results/FINAL-REPORT.md"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "original-cohorts/HISTORICAL-AGREEMENT.md",
+        "sha256": "a81d8d736a2e42fb03de758a226b18d54b27451f2fbbe039a1b20cc00f0f5ca9",
+        "bytes": 1372
+      },
+      "distributed_paths": [
+        "hiv/results/HISTORICAL-AGREEMENT.md"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "original-cohorts/campaign.json",
+        "sha256": "5e46342df95bb1516ca214881150d377431c0bbd5b164866b52584eab8d2bb63",
+        "bytes": 4794
+      },
+      "distributed_paths": [],
+      "source_archive_members": [],
+      "status": "private_control_plane_capture_not_exported",
+      "exclusion": "Private launch/compute-environment metadata. Scientific workflow IDs, source commits, settings and results have separate public records."
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "original-cohorts/historical-comparison.json",
+        "sha256": "2cad2ac873e744081b26e6b273b0c5cdc36c5ae3d8a5d413fe2691aa836881a2",
+        "bytes": 6840250
+      },
+      "distributed_paths": [
+        "portable/observed/historical-comparison-original.json",
+        "hiv/results/historical-comparison.json"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "original-cohorts/hiv-input-provenance.json",
+        "sha256": "a5b3d9caa08af0199ed2c78ac1072bfebd55fb490103a49a287a5288e1c8567f",
+        "bytes": 11465
+      },
+      "distributed_paths": [
+        "hiv/results/hiv-input-provenance.json"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "original-cohorts/report.json",
+        "sha256": "4ac5f851bd26f8628037b54512840f6328c8e73e6d3c24075d213370fa927d4b",
+        "bytes": 88268
+      },
+      "distributed_paths": [
+        "hiv/results/report.json"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "real-samples/REPORT.md",
+        "sha256": "ab2013f33dfc995d14f4979fba49c0102983f377270f22dd02039dcdcdc26f4c",
+        "bytes": 4909
+      },
+      "distributed_paths": [
+        "resequencing/reports/RESEQUENCING-REPORT.md"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "real-samples/analysis/shared/REPORT.md",
+        "sha256": "9f47cd9e7940bac869f32fda73ea15d77ac95f5eda59df80da6283dafc8025b0",
+        "bytes": 2405
+      },
+      "distributed_paths": [
+        "review/additional-evidence/real-samples/analysis/shared/REPORT.md"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "real-samples/full-core-comparison/comparison.json",
+        "sha256": "69fbc0f448896619efb1961954b18c07457224dfa9e965ec13dfa81919ba3d3f",
+        "bytes": 25382567
+      },
+      "distributed_paths": [],
+      "source_archive_members": [
+        {
+          "original_sha256": "69fbc0f448896619efb1961954b18c07457224dfa9e965ec13dfa81919ba3d3f",
+          "public_member_sha256": "302fb09436280ece0e751fb6101e127e758e8bb6eadecfb6ed0842b5657afb22",
+          "original_bytes": 25382567,
+          "public_bytes": 25382424,
+          "all_json_nonstring_tokens_identical": true,
+          "archive_sha256": "03a1b1268bbf3b499afe07f514e13e940afaa3694c9354b126846bd7147af53f",
+          "archive_parts_manifest": "resequencing/parts-manifest.json",
+          "member": "pr448-resequencing-control/real-samples/full-core-comparison/comparison.json",
+          "scope": "Existing comparison capture normalized only in JSON strings; does not validate its computation or interpretation."
+        }
+      ],
+      "status": "mapped_in_verified_multipart_archive"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "real-samples/full-core/completion-check.json",
+        "sha256": "ac346e6fc733bb18fcd3e66774b8f94dfe2e85bb999cc95df9a51ef38d14b0e2",
+        "bytes": 12838
+      },
+      "distributed_paths": [
+        "resequencing/review/core-completion-check.json"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "real-samples/harness/README.md",
+        "sha256": "c47a9fbff873328c727d519e11b9e002d23bad15040fb8fea96e440787da9eda",
+        "bytes": 3659
+      },
+      "distributed_paths": [
+        "review/additional-evidence/real-samples/harness/README.md"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "real-samples/residual-one-count/REPORT.md",
+        "sha256": "da33612cacec9b9d69375793bac0855d1ef99ec11f64a6272fe7ef2224fbfe48",
+        "bytes": 2336
+      },
+      "distributed_paths": [
+        "resequencing/reports/RESIDUAL-ONE-COUNT.md"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "real-samples/validation-result.json",
+        "sha256": "be93f7203e275a3ce9354e0e82828ef56d3b0b29c00d59992d43183e7a35581d",
+        "bytes": 1019
+      },
+      "distributed_paths": [
+        "review/additional-evidence/real-samples/validation-result.json"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "trimming/REPORT.md",
+        "sha256": "f5efeaf4d4b62306e01ea14713d98a08fdfaa4fca8f806afcf0ea3452283843d",
+        "bytes": 1892
+      },
+      "distributed_paths": [
+        "module-review/original-fixes/trimming/REPORT.md"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "trimming/baseline-comparison.json",
+        "sha256": "2b473ced39088395ca7d53ae3a37013ffea49fd2907b15b727ab4eeebf6e7bb9",
+        "bytes": 156
+      },
+      "distributed_paths": [
+        "module-review/original-fixes/trimming/baseline-comparison.json"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "trimming/comparison.json",
+        "sha256": "24242006513bf587d22cc26aa62b88f0ff804ce8a032d4c306c4e93b462f7fb4",
+        "bytes": 228
+      },
+      "distributed_paths": [
+        "module-review/original-fixes/trimming/comparison.json"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "trimming/baseline/source-evidence.json",
+        "sha256": "40ee6e067a9c49038281a4cf00917ae572c00dd1b56c7b633fc97c5f913c5302",
+        "bytes": 1438
+      },
+      "distributed_paths": [
+        "module-review/original-fixes/trimming/baseline/source-evidence.json"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "trimming/negative-2.1/source-evidence.json",
+        "sha256": "76a2667dfdf967446ffb3438f15394c00d98019e64cf06953a715b2b0885d5ba",
+        "bytes": 1376
+      },
+      "distributed_paths": [
+        "module-review/original-fixes/trimming/negative-2.1/source-evidence.json"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "trimming/proposed/source-evidence.json",
+        "sha256": "0af8465fd521ff844f804973764f04929e014b02431e124a87dfa94bac92aa2c",
+        "bytes": 1411
+      },
+      "distributed_paths": [
+        "module-review/original-fixes/trimming/proposed/source-evidence.json"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    },
+    {
+      "source_capture": {
+        "root": "validation",
+        "path": "chromap/runs/proposed/source-used.json",
+        "sha256": "683111da65d8bac30bdbbeebf1a503cef734e83c28431be09edeb6792aea475a",
+        "bytes": 1128
+      },
+      "distributed_paths": [
+        "module-review/original-fixes/chromap/runs/proposed/source-used.json"
+      ],
+      "source_archive_members": [],
+      "status": "mapped_by_original_or_public_sha256"
+    }
+  ]
+}

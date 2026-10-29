@@ -1,0 +1,27 @@
+[
+  {
+    "path": "REVIEW_ROOT/real-samples/reference/sacCer3.fa",
+    "bytes": 12400379,
+    "sha256": "6ff72f079c3268431fc514a1a88730f8290e717663d343fa8a3590af65c422c3"
+  },
+  {
+    "path": "REVIEW_ROOT/real-samples/full-core/cases/fixed/results/chromap/merged_library/D28P_REP1.mLb.clN.sorted.bam",
+    "bytes": 24846819,
+    "sha256": "215105d087d3322603e34c0cdb56c8fe9c0d061d10a9ae7e4539e221f2347fbb"
+  },
+  {
+    "path": "REVIEW_ROOT/real-samples/full-core/cases/fixed/results/chromap/merged_library/D28_REP1.mLb.clN.sorted.bam",
+    "bytes": 23179583,
+    "sha256": "40cc2330a45a964aa56eacdff422377495a0bb0cb99212f729e8ddaec7ba61b1"
+  },
+  {
+    "path": "REVIEW_ROOT/real-samples/full-core/cases/base/results/genome/chromap/index/sacCer3.index",
+    "bytes": 70107896,
+    "sha256": "8a90c8d4af9829786005dcb762b29407158a984cc8addc9a512e74437e2ffccf"
+  },
+  {
+    "path": "REVIEW_ROOT/real-samples/full-core/cases/fixed/results/genome/chromap/index/sacCer3.index",
+    "bytes": 70107896,
+    "sha256": "f42d8b5cb0a0041287da834d8af150a9d0970fc5521150c501b4b217f0cdf6cc"
+  }
+]

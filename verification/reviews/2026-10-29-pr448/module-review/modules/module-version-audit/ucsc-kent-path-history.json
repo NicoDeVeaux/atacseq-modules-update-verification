@@ -1,0 +1,51 @@
+{
+  "installed_version": "482",
+  "baseline_tag": "v482_base",
+  "baseline_sha": "e4481bfc920729522f59d98b7fdfd09023e9ce4f",
+  "baseline_date": "2025-05-19T18:24:48Z",
+  "head_sha": "03e151fd3b8da8fe976cdb2e3ab99b2eeb8a0683",
+  "head_date": "2026-10-28T19:41:22Z",
+  "source": "https://github.com/ucscGenomeBrowser/kent",
+  "path_history": [
+    {
+      "path": "src/utils/bedGraphToBigWig",
+      "commits": [
+        {
+          "sha": "60cad5e721e5d65174698249b7d37edd5988139e",
+          "date": "2026-10-12T05:20:58Z",
+          "message": "bedGraphToBigWig could not read a compressed bedGraph at all.  It reads its input three times, once to survey the chromosomes, once to write the data and once for the zoom levels, and got back to the start with a seek, which a decompression pipe cannot do, so a .gz died with \"Can't lineFileSeek on a compressed file\".  bedToBigBed hit the same wall and was fixed in #32293 by closing and reopening the pipe; that rewind is now bbiRewindFile() in bbiWrite.c, beside the bbiWriteZoomLevels() whose pre-rewind contract it serves, and both programs call it instead of each carrying its own copy.  Gzip and bzip2 input now work and produce a bigWig byte for byte identical to the one built from the uncompressed file, and both usage messages now say the input may be compressed.  The new testCompress compares the two bigWig files rather than converting back to bedGraph, because bigWigToBedGraph reads only the full resolution data and would not notice a wrong zoom level, which is exactly what the second rewind feeds.  refs #38525",
+          "url": "https://github.com/ucscGenomeBrowser/kent/commit/60cad5e721e5d65174698249b7d37edd5988139e"
+        },
+        {
+          "sha": "198c9b8daecc44fbda6a6494c566c723920f030a",
+          "date": "2026-03-12T01:25:21Z",
+          "message": "Fixing a few hundred clear typos with the help of Claude. Some are less important in code comments, but majority of them are in user-facing places. I manually approved 60%+ of the changes and didn't see any that were an incorrect suggestion, at worst it was potentially uncessesary, like a code comment having cant instead of can't. No RM.",
+          "url": "https://github.com/ucscGenomeBrowser/kent/commit/198c9b8daecc44fbda6a6494c566c723920f030a"
+        }
+      ]
+    },
+    {
+      "path": "src/lib/bwgCreate.c",
+      "commits": []
+    },
+    {
+      "path": "src/lib/bbiWrite.c",
+      "commits": [
+        {
+          "sha": "60cad5e721e5d65174698249b7d37edd5988139e",
+          "date": "2026-10-12T05:20:58Z",
+          "message": "bedGraphToBigWig could not read a compressed bedGraph at all.  It reads its input three times, once to survey the chromosomes, once to write the data and once for the zoom levels, and got back to the start with a seek, which a decompression pipe cannot do, so a .gz died with \"Can't lineFileSeek on a compressed file\".  bedToBigBed hit the same wall and was fixed in #32293 by closing and reopening the pipe; that rewind is now bbiRewindFile() in bbiWrite.c, beside the bbiWriteZoomLevels() whose pre-rewind contract it serves, and both programs call it instead of each carrying its own copy.  Gzip and bzip2 input now work and produce a bigWig byte for byte identical to the one built from the uncompressed file, and both usage messages now say the input may be compressed.  The new testCompress compares the two bigWig files rather than converting back to bedGraph, because bigWigToBedGraph reads only the full resolution data and would not notice a wrong zoom level, which is exactly what the second rewind feeds.  refs #38525",
+          "url": "https://github.com/ucscGenomeBrowser/kent/commit/60cad5e721e5d65174698249b7d37edd5988139e"
+        }
+      ]
+    },
+    {
+      "path": "src/lib/bbiRead.c",
+      "commits": []
+    },
+    {
+      "path": "src/lib/bigWig.c",
+      "commits": []
+    }
+  ]
+}

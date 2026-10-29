@@ -1,0 +1,2085 @@
+{
+  "schema": "pr448-original-controls-public/v1",
+  "files": {
+    "trimming/README.md": {
+      "source_locator": "trimming/README.md",
+      "original_sha256": "56c342e941e8bc92dd87295146dcfa1a68992740f233fd2c61bdce3b9ba61ff1",
+      "public_sha256": "56c342e941e8bc92dd87295146dcfa1a68992740f233fd2c61bdce3b9ba61ff1",
+      "original_bytes": 1396,
+      "public_bytes": 1396,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/REPORT.md": {
+      "source_locator": "trimming/REPORT.md",
+      "original_sha256": "f5efeaf4d4b62306e01ea14713d98a08fdfaa4fca8f806afcf0ea3452283843d",
+      "public_sha256": "5d55f17655f9f053441c09272b4ce1ce5ea55ed0b42aa35be607409a3706fc2f",
+      "original_bytes": 1892,
+      "public_bytes": 1865,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {
+        "worktree_root_legacy": 1
+      }
+    },
+    "trimming/assert_results.py": {
+      "source_locator": "trimming/assert_results.py",
+      "original_sha256": "d2f7193209ee48c38f46113ae3d053e213a74b74cb724955b022676a584db29b",
+      "public_sha256": "d2f7193209ee48c38f46113ae3d053e213a74b74cb724955b022676a584db29b",
+      "original_bytes": 3166,
+      "public_bytes": 3166,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/baseline/main.nf": {
+      "source_locator": "trimming/baseline/main.nf",
+      "original_sha256": "523c08a9fa1de7263edd8147e970501e4aeed4e3ece138e68857a6245ffde76c",
+      "public_sha256": "e0289ebb68f0fd1e8e75394302ff136d7deff76429d903074bd014acb67680a5",
+      "original_bytes": 509,
+      "public_bytes": 482,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {
+        "worktree_root_legacy": 1
+      }
+    },
+    "trimming/baseline/nextflow.config": {
+      "source_locator": "trimming/baseline/nextflow.config",
+      "original_sha256": "40ace682b418b6ee6c29b118950bd78f03b24f4fd16f38ee99f7f816b2976fb3",
+      "public_sha256": "40ace682b418b6ee6c29b118950bd78f03b24f4fd16f38ee99f7f816b2976fb3",
+      "original_bytes": 1006,
+      "public_bytes": 1006,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/baseline/outputs/poly_1.fastq.gz_trimming_report.txt": {
+      "source_locator": "trimming/baseline/outputs/poly_1.fastq.gz_trimming_report.txt",
+      "original_sha256": "35c52c2122970d36786943a467a8c3e279bee3c6a2b8f7a9446c37e3e16176cd",
+      "public_sha256": "35c52c2122970d36786943a467a8c3e279bee3c6a2b8f7a9446c37e3e16176cd",
+      "original_bytes": 1600,
+      "public_bytes": 1600,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/baseline/outputs/poly_1_val_1.fq.gz": {
+      "source_locator": "trimming/baseline/outputs/poly_1_val_1.fq.gz",
+      "original_sha256": "64f9eec39e10e476f0e6889e0f69e0239d5688d2edc6656ebff14d41eef9f0fd",
+      "public_sha256": "64f9eec39e10e476f0e6889e0f69e0239d5688d2edc6656ebff14d41eef9f0fd",
+      "original_bytes": 367,
+      "public_bytes": 367,
+      "transformation": {
+        "kind": "byte-identical-FASTQ-gzip",
+        "uncompressed_sha256": "f67d816c2d8cc798fd98e1e1d30f823e9b39bbf6848101e13d61585175dcc1ce"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/baseline/outputs/poly_2.fastq.gz_trimming_report.txt": {
+      "source_locator": "trimming/baseline/outputs/poly_2.fastq.gz_trimming_report.txt",
+      "original_sha256": "48ecb8002f82a97b951735a887b6398c2eb11daa7f4346507328d97f56ccdccf",
+      "public_sha256": "48ecb8002f82a97b951735a887b6398c2eb11daa7f4346507328d97f56ccdccf",
+      "original_bytes": 1794,
+      "public_bytes": 1794,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/baseline/outputs/poly_2_val_2.fq.gz": {
+      "source_locator": "trimming/baseline/outputs/poly_2_val_2.fq.gz",
+      "original_sha256": "2dc1b6aa040cb40ccfd4cc3a2ef71600cc0ed936f1b13024cb1e467e0f0a0bb1",
+      "public_sha256": "2dc1b6aa040cb40ccfd4cc3a2ef71600cc0ed936f1b13024cb1e467e0f0a0bb1",
+      "original_bytes": 366,
+      "public_bytes": 366,
+      "transformation": {
+        "kind": "byte-identical-FASTQ-gzip",
+        "uncompressed_sha256": "4c20881577b532e36b6cfc851619c25467b0a841009b5385d7e1dc6cee4cc0b8"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/baseline/run.out": {
+      "source_locator": "trimming/baseline/run.out",
+      "original_sha256": "3a4d8672ff4bbadbf197414aced05b1e9ce6238c40e32c216e9383592e3e850b",
+      "public_sha256": "ce0b308569ef38c6259835c785d4cd19defd0a29a51766a6d5246fc549de9d60",
+      "original_bytes": 555,
+      "public_bytes": 447,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {
+        "validation_root_legacy": 2
+      }
+    },
+    "trimming/baseline/source-evidence.json": {
+      "source_locator": "trimming/baseline/source-evidence.json",
+      "original_sha256": "40ee6e067a9c49038281a4cf00917ae572c00dd1b56c7b633fc97c5f913c5302",
+      "public_sha256": "c6a3213702a56cda1a00f2422ea9d11a5c37e9435e92957c18d5cc06471b5639",
+      "original_bytes": 1438,
+      "public_bytes": 1411,
+      "transformation": {
+        "kind": "JSON-string-path-normalization-and-reserialization",
+        "all_nonstrings_preserved": true
+      },
+      "replacement_counts": {
+        "worktree_root_legacy": 1
+      }
+    },
+    "trimming/baseline/tool-version.txt": {
+      "source_locator": "trimming/baseline/tool-version.txt",
+      "original_sha256": "9895341e71a4fe248944ae11461d868700439dcaea7160a0940fb7b1535601c9",
+      "public_sha256": "9895341e71a4fe248944ae11461d868700439dcaea7160a0940fb7b1535601c9",
+      "original_bytes": 18,
+      "public_bytes": 18,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/baseline/work/9f/0003ce0e0337a5ae4a9c69c6d44904/.command.err": {
+      "source_locator": "trimming/baseline/work/9f/0003ce0e0337a5ae4a9c69c6d44904/.command.err",
+      "original_sha256": "ed995ef0c43a090005f5689e4107a9ed437bfbcab2326d6ba97e8f9907c517e1",
+      "public_sha256": "ed995ef0c43a090005f5689e4107a9ed437bfbcab2326d6ba97e8f9907c517e1",
+      "original_bytes": 5570,
+      "public_bytes": 5570,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/baseline/work/9f/0003ce0e0337a5ae4a9c69c6d44904/.command.out": {
+      "source_locator": "trimming/baseline/work/9f/0003ce0e0337a5ae4a9c69c6d44904/.command.out",
+      "original_sha256": "8b4d50f2745d1c709b874ac67550c4bf30e4c8058fb303e02bd176f052860251",
+      "public_sha256": "8b4d50f2745d1c709b874ac67550c4bf30e4c8058fb303e02bd176f052860251",
+      "original_bytes": 152,
+      "public_bytes": 152,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/baseline/work/9f/0003ce0e0337a5ae4a9c69c6d44904/.command.sh": {
+      "source_locator": "trimming/baseline/work/9f/0003ce0e0337a5ae4a9c69c6d44904/.command.sh",
+      "original_sha256": "7da518fd5c114a9d05c6ae7cbfb4e09644b0334d2043d17e5ba60e8209826035",
+      "public_sha256": "7da518fd5c114a9d05c6ae7cbfb4e09644b0334d2043d17e5ba60e8209826035",
+      "original_bytes": 1039,
+      "public_bytes": 1039,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/baseline/work/9f/0003ce0e0337a5ae4a9c69c6d44904/.exitcode": {
+      "source_locator": "trimming/baseline/work/9f/0003ce0e0337a5ae4a9c69c6d44904/.exitcode",
+      "original_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "public_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "original_bytes": 1,
+      "public_bytes": 1,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/baseline-comparison.json": {
+      "source_locator": "trimming/baseline-comparison.json",
+      "original_sha256": "2b473ced39088395ca7d53ae3a37013ffea49fd2907b15b727ab4eeebf6e7bb9",
+      "public_sha256": "2b473ced39088395ca7d53ae3a37013ffea49fd2907b15b727ab4eeebf6e7bb9",
+      "original_bytes": 156,
+      "public_bytes": 156,
+      "transformation": {
+        "kind": "JSON-string-path-normalization-and-reserialization",
+        "all_nonstrings_preserved": true
+      },
+      "replacement_counts": {}
+    },
+    "trimming/comparison.json": {
+      "source_locator": "trimming/comparison.json",
+      "original_sha256": "24242006513bf587d22cc26aa62b88f0ff804ce8a032d4c306c4e93b462f7fb4",
+      "public_sha256": "24242006513bf587d22cc26aa62b88f0ff804ce8a032d4c306c4e93b462f7fb4",
+      "original_bytes": 228,
+      "public_bytes": 228,
+      "transformation": {
+        "kind": "JSON-string-path-normalization-and-reserialization",
+        "all_nonstrings_preserved": true
+      },
+      "replacement_counts": {}
+    },
+    "trimming/inputs/poly_1.fastq.gz": {
+      "source_locator": "trimming/inputs/poly_1.fastq.gz",
+      "original_sha256": "4354d72f08a3e4465662e67a6bdfd4d33794de456c52318619ca537cd90b493d",
+      "public_sha256": "4354d72f08a3e4465662e67a6bdfd4d33794de456c52318619ca537cd90b493d",
+      "original_bytes": 391,
+      "public_bytes": 391,
+      "transformation": {
+        "kind": "byte-identical-FASTQ-gzip",
+        "uncompressed_sha256": "f67d816c2d8cc798fd98e1e1d30f823e9b39bbf6848101e13d61585175dcc1ce"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/inputs/poly_2.fastq.gz": {
+      "source_locator": "trimming/inputs/poly_2.fastq.gz",
+      "original_sha256": "3cc4e87c3b35e47353228625ec38c62893b951a7629a510dddb2b09201781931",
+      "public_sha256": "3cc4e87c3b35e47353228625ec38c62893b951a7629a510dddb2b09201781931",
+      "original_bytes": 390,
+      "public_bytes": 390,
+      "transformation": {
+        "kind": "byte-identical-FASTQ-gzip",
+        "uncompressed_sha256": "4c20881577b532e36b6cfc851619c25467b0a841009b5385d7e1dc6cee4cc0b8"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/negative-2.1/main.nf": {
+      "source_locator": "trimming/negative-2.1/main.nf",
+      "original_sha256": "5c525a8c667ff6194bdc5f89148d877e59dbf72f2d8501ceb54f8ca7e74592fa",
+      "public_sha256": "cc9a2ce7c22403aa28e9f15136e3c08b8471c0f900d5454fdc5a16f91b07caf4",
+      "original_bytes": 511,
+      "public_bytes": 484,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {
+        "worktree_root_legacy": 1
+      }
+    },
+    "trimming/negative-2.1/nextflow.config": {
+      "source_locator": "trimming/negative-2.1/nextflow.config",
+      "original_sha256": "856ef4e024845df55d2ecac2feed9f3c2218a343eae5ccb5cee03b1d297479a0",
+      "public_sha256": "856ef4e024845df55d2ecac2feed9f3c2218a343eae5ccb5cee03b1d297479a0",
+      "original_bytes": 940,
+      "public_bytes": 940,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/negative-2.1/outputs/poly_1.fastq.gz_trimming_report.txt": {
+      "source_locator": "trimming/negative-2.1/outputs/poly_1.fastq.gz_trimming_report.txt",
+      "original_sha256": "f75c3aff35ee4cafa0e45a2fe5d2cbb966e8733b9a9d6cc90e49938969b80071",
+      "public_sha256": "f75c3aff35ee4cafa0e45a2fe5d2cbb966e8733b9a9d6cc90e49938969b80071",
+      "original_bytes": 1841,
+      "public_bytes": 1841,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/negative-2.1/outputs/poly_1_val_1.fq.gz": {
+      "source_locator": "trimming/negative-2.1/outputs/poly_1_val_1.fq.gz",
+      "original_sha256": "1b0ff8d9e2e884fd17c7b4ef50470047ff80bd7ce4414630c463899735726ad8",
+      "public_sha256": "1b0ff8d9e2e884fd17c7b4ef50470047ff80bd7ce4414630c463899735726ad8",
+      "original_bytes": 519,
+      "public_bytes": 519,
+      "transformation": {
+        "kind": "byte-identical-FASTQ-gzip",
+        "uncompressed_sha256": "6bbeaa597124a2050b50af9b89d443fc68c54216ee9ef5e7ad2100dc230cbbaa"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/negative-2.1/outputs/poly_2.fastq.gz_trimming_report.txt": {
+      "source_locator": "trimming/negative-2.1/outputs/poly_2.fastq.gz_trimming_report.txt",
+      "original_sha256": "d9ea3788121ae17ff9eddeb184225fa7471376f4862fd61204d88e2d40e4d3b9",
+      "public_sha256": "d9ea3788121ae17ff9eddeb184225fa7471376f4862fd61204d88e2d40e4d3b9",
+      "original_bytes": 2151,
+      "public_bytes": 2151,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/negative-2.1/outputs/poly_2_val_2.fq.gz": {
+      "source_locator": "trimming/negative-2.1/outputs/poly_2_val_2.fq.gz",
+      "original_sha256": "334037b8b47e54622f9af2e051804524b7c484f0af5c63ea8b8defa45cab2bca",
+      "public_sha256": "334037b8b47e54622f9af2e051804524b7c484f0af5c63ea8b8defa45cab2bca",
+      "original_bytes": 519,
+      "public_bytes": 519,
+      "transformation": {
+        "kind": "byte-identical-FASTQ-gzip",
+        "uncompressed_sha256": "53a7cca5b798a1cda36909cc556e3d47a9176d97ee823f4fedca4fa1fb3bb3c6"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/negative-2.1/run.out": {
+      "source_locator": "trimming/negative-2.1/run.out",
+      "original_sha256": "f59a26c1cd889157d80873d0b282b8bd8ae1e094d66897d661fb61d28d465513",
+      "public_sha256": "01eab9310a60275fa53dab49ccf854bfa72211904f83e77d6043d3147063000f",
+      "original_bytes": 561,
+      "public_bytes": 453,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {
+        "validation_root_legacy": 2
+      }
+    },
+    "trimming/negative-2.1/source-diff.patch": {
+      "source_locator": "trimming/negative-2.1/source-diff.patch",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/negative-2.1/source-evidence.json": {
+      "source_locator": "trimming/negative-2.1/source-evidence.json",
+      "original_sha256": "76a2667dfdf967446ffb3438f15394c00d98019e64cf06953a715b2b0885d5ba",
+      "public_sha256": "6d0bf31af0d0ec281151f42137d152ee63f9614582211622e826a4d65f3c7b3f",
+      "original_bytes": 1376,
+      "public_bytes": 1349,
+      "transformation": {
+        "kind": "JSON-string-path-normalization-and-reserialization",
+        "all_nonstrings_preserved": true
+      },
+      "replacement_counts": {
+        "worktree_root_legacy": 1
+      }
+    },
+    "trimming/negative-2.1/tool-version.txt": {
+      "source_locator": "trimming/negative-2.1/tool-version.txt",
+      "original_sha256": "c6821da39556d8d10ce454756f3335fdb4b18c62c6eda72e5ff02522440d280b",
+      "public_sha256": "c6821da39556d8d10ce454756f3335fdb4b18c62c6eda72e5ff02522440d280b",
+      "original_bytes": 17,
+      "public_bytes": 17,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/negative-2.1/work/96/0ded5c74b50626739b54e85ba5bb08/.command.err": {
+      "source_locator": "trimming/negative-2.1/work/96/0ded5c74b50626739b54e85ba5bb08/.command.err",
+      "original_sha256": "feed715caca93e8175f3edd779011b7bc39f01c2cb9418c4e33ebff5fe9e4373",
+      "public_sha256": "feed715caca93e8175f3edd779011b7bc39f01c2cb9418c4e33ebff5fe9e4373",
+      "original_bytes": 1547,
+      "public_bytes": 1547,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/negative-2.1/work/96/0ded5c74b50626739b54e85ba5bb08/.command.out": {
+      "source_locator": "trimming/negative-2.1/work/96/0ded5c74b50626739b54e85ba5bb08/.command.out",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/negative-2.1/work/96/0ded5c74b50626739b54e85ba5bb08/.command.sh": {
+      "source_locator": "trimming/negative-2.1/work/96/0ded5c74b50626739b54e85ba5bb08/.command.sh",
+      "original_sha256": "7da518fd5c114a9d05c6ae7cbfb4e09644b0334d2043d17e5ba60e8209826035",
+      "public_sha256": "7da518fd5c114a9d05c6ae7cbfb4e09644b0334d2043d17e5ba60e8209826035",
+      "original_bytes": 1039,
+      "public_bytes": 1039,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/negative-2.1/work/96/0ded5c74b50626739b54e85ba5bb08/.exitcode": {
+      "source_locator": "trimming/negative-2.1/work/96/0ded5c74b50626739b54e85ba5bb08/.exitcode",
+      "original_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "public_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "original_bytes": 1,
+      "public_bytes": 1,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/negative-2.1/work/96/0ded5c74b50626739b54e85ba5bb08/poly_1.fastq.gz_trimming_report.json": {
+      "source_locator": "trimming/negative-2.1/work/96/0ded5c74b50626739b54e85ba5bb08/poly_1.fastq.gz_trimming_report.json",
+      "original_sha256": "31ffcefb4e7f4f3e6ccf45cfda0485254103e5c4c7f697cc3e982055ec6d95d4",
+      "public_sha256": "2a06b4d40a5548190813f9a007b008119e10342a764ed0bcd44effb8cb21e453",
+      "original_bytes": 1890,
+      "public_bytes": 1938,
+      "transformation": {
+        "kind": "JSON-string-path-normalization-and-reserialization",
+        "all_nonstrings_preserved": true
+      },
+      "replacement_counts": {}
+    },
+    "trimming/negative-2.1/work/96/0ded5c74b50626739b54e85ba5bb08/poly_2.fastq.gz_trimming_report.json": {
+      "source_locator": "trimming/negative-2.1/work/96/0ded5c74b50626739b54e85ba5bb08/poly_2.fastq.gz_trimming_report.json",
+      "original_sha256": "a5251ebb32513d247f2977603de2cedfb483daea396a14cb22bb2144a632ba3b",
+      "public_sha256": "e3c57e207b0edc172950f17bf35d792ccc7eea0e99652589359365eb0649fc85",
+      "original_bytes": 1890,
+      "public_bytes": 1938,
+      "transformation": {
+        "kind": "JSON-string-path-normalization-and-reserialization",
+        "all_nonstrings_preserved": true
+      },
+      "replacement_counts": {}
+    },
+    "trimming/prepare.py": {
+      "source_locator": "trimming/prepare.py",
+      "original_sha256": "568afd72457443e0045764768e5bbaa39df1fe5facc3deb01d7409f01a857d4c",
+      "public_sha256": "568afd72457443e0045764768e5bbaa39df1fe5facc3deb01d7409f01a857d4c",
+      "original_bytes": 5055,
+      "public_bytes": 5055,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/proposed/main.nf": {
+      "source_locator": "trimming/proposed/main.nf",
+      "original_sha256": "8f50512d338024eed5fcc21a97547b0081dbca583e341f8458bc512c0fdd3ba2",
+      "public_sha256": "8f67bef8efac9b66d568a4e28bd8f47678c0a3cd8a18df7470f48e6050f1df95",
+      "original_bytes": 510,
+      "public_bytes": 483,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {
+        "worktree_root_legacy": 1
+      }
+    },
+    "trimming/proposed/nextflow.config": {
+      "source_locator": "trimming/proposed/nextflow.config",
+      "original_sha256": "a66669a9269faac25626f44a733b542484ddfa21ef68b98fd6970c11b1dbc3d4",
+      "public_sha256": "a66669a9269faac25626f44a733b542484ddfa21ef68b98fd6970c11b1dbc3d4",
+      "original_bytes": 975,
+      "public_bytes": 975,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/proposed/outputs/poly_1.fastq.gz_trimming_report.txt": {
+      "source_locator": "trimming/proposed/outputs/poly_1.fastq.gz_trimming_report.txt",
+      "original_sha256": "9acdaa5648be7ca82010de02dbe681a0c0e8f0507ae56169a144414340ce41b7",
+      "public_sha256": "9acdaa5648be7ca82010de02dbe681a0c0e8f0507ae56169a144414340ce41b7",
+      "original_bytes": 1627,
+      "public_bytes": 1627,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/proposed/outputs/poly_1_val_1.fq.gz": {
+      "source_locator": "trimming/proposed/outputs/poly_1_val_1.fq.gz",
+      "original_sha256": "feb71269a6b7690cae3f7aa0cfbba0de0d164572eebf251658a9e17d3d106f02",
+      "public_sha256": "feb71269a6b7690cae3f7aa0cfbba0de0d164572eebf251658a9e17d3d106f02",
+      "original_bytes": 379,
+      "public_bytes": 379,
+      "transformation": {
+        "kind": "byte-identical-FASTQ-gzip",
+        "uncompressed_sha256": "f67d816c2d8cc798fd98e1e1d30f823e9b39bbf6848101e13d61585175dcc1ce"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/proposed/outputs/poly_2.fastq.gz_trimming_report.txt": {
+      "source_locator": "trimming/proposed/outputs/poly_2.fastq.gz_trimming_report.txt",
+      "original_sha256": "901117f0b70d456670ed5ba1ca08ebcbc28ab138d22741e414129781644867ac",
+      "public_sha256": "901117f0b70d456670ed5ba1ca08ebcbc28ab138d22741e414129781644867ac",
+      "original_bytes": 1937,
+      "public_bytes": 1937,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/proposed/outputs/poly_2_val_2.fq.gz": {
+      "source_locator": "trimming/proposed/outputs/poly_2_val_2.fq.gz",
+      "original_sha256": "755757cd578f2e370c677c5b2b7c6a5ffac2423fd82262be1f72ffed279f971f",
+      "public_sha256": "755757cd578f2e370c677c5b2b7c6a5ffac2423fd82262be1f72ffed279f971f",
+      "original_bytes": 378,
+      "public_bytes": 378,
+      "transformation": {
+        "kind": "byte-identical-FASTQ-gzip",
+        "uncompressed_sha256": "4c20881577b532e36b6cfc851619c25467b0a841009b5385d7e1dc6cee4cc0b8"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/proposed/run.out": {
+      "source_locator": "trimming/proposed/run.out",
+      "original_sha256": "1761da5dbfe78875e54b828d7e659e22d505031396419488fe6e2b221edc87cb",
+      "public_sha256": "339741861ce58aace41714a6b779c013eb40ad8826c4a949c29d11956bc1c2b4",
+      "original_bytes": 554,
+      "public_bytes": 446,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {
+        "validation_root_legacy": 2
+      }
+    },
+    "trimming/proposed/source-diff.patch": {
+      "source_locator": "trimming/proposed/source-diff.patch",
+      "original_sha256": "eb47143bc37b9f692b788f14d35bf6593f6b0702ef193bb3c5996c755927f54c",
+      "public_sha256": "eb47143bc37b9f692b788f14d35bf6593f6b0702ef193bb3c5996c755927f54c",
+      "original_bytes": 2225,
+      "public_bytes": 2225,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/proposed/source-evidence.json": {
+      "source_locator": "trimming/proposed/source-evidence.json",
+      "original_sha256": "0af8465fd521ff844f804973764f04929e014b02431e124a87dfa94bac92aa2c",
+      "public_sha256": "4196cb50920043e67c81eafc2f959683bbb3c60c019133aa439f66a2384a4328",
+      "original_bytes": 1411,
+      "public_bytes": 1384,
+      "transformation": {
+        "kind": "JSON-string-path-normalization-and-reserialization",
+        "all_nonstrings_preserved": true
+      },
+      "replacement_counts": {
+        "worktree_root_legacy": 1
+      }
+    },
+    "trimming/proposed/tool-version.txt": {
+      "source_locator": "trimming/proposed/tool-version.txt",
+      "original_sha256": "92aa446b34a06fc4c1795378499294eb1b734f911261b1519a308e8ae5812b43",
+      "public_sha256": "92aa446b34a06fc4c1795378499294eb1b734f911261b1519a308e8ae5812b43",
+      "original_bytes": 17,
+      "public_bytes": 17,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/proposed/work/3e/5afc179bf25291508a8fb8d72ddead/.command.err": {
+      "source_locator": "trimming/proposed/work/3e/5afc179bf25291508a8fb8d72ddead/.command.err",
+      "original_sha256": "a6f138282de5b9f3e9526d63e305b4fe07984153cef1bb778a6345e2de1d54e0",
+      "public_sha256": "a6f138282de5b9f3e9526d63e305b4fe07984153cef1bb778a6345e2de1d54e0",
+      "original_bytes": 1735,
+      "public_bytes": 1735,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/proposed/work/3e/5afc179bf25291508a8fb8d72ddead/.command.out": {
+      "source_locator": "trimming/proposed/work/3e/5afc179bf25291508a8fb8d72ddead/.command.out",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/proposed/work/3e/5afc179bf25291508a8fb8d72ddead/.command.sh": {
+      "source_locator": "trimming/proposed/work/3e/5afc179bf25291508a8fb8d72ddead/.command.sh",
+      "original_sha256": "6ccb1da6ffe52997d1482e684db16f26368ff9ffb8c8b7d02d0c8cfba1d7645d",
+      "public_sha256": "6ccb1da6ffe52997d1482e684db16f26368ff9ffb8c8b7d02d0c8cfba1d7645d",
+      "original_bytes": 1051,
+      "public_bytes": 1051,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/proposed/work/3e/5afc179bf25291508a8fb8d72ddead/.exitcode": {
+      "source_locator": "trimming/proposed/work/3e/5afc179bf25291508a8fb8d72ddead/.exitcode",
+      "original_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "public_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "original_bytes": 1,
+      "public_bytes": 1,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "trimming/proposed/work/3e/5afc179bf25291508a8fb8d72ddead/poly_1.fastq.gz_trimming_report.json": {
+      "source_locator": "trimming/proposed/work/3e/5afc179bf25291508a8fb8d72ddead/poly_1.fastq.gz_trimming_report.json",
+      "original_sha256": "16c163490221ac01d3df72cbb6fc9ea3f1b901fd603d3b24ea14fdce802a2e81",
+      "public_sha256": "f92173f12df852604d906678b454bc550dbc0e1b18fb468cf811c92c0b34ef6c",
+      "original_bytes": 1921,
+      "public_bytes": 1969,
+      "transformation": {
+        "kind": "JSON-string-path-normalization-and-reserialization",
+        "all_nonstrings_preserved": true
+      },
+      "replacement_counts": {}
+    },
+    "trimming/proposed/work/3e/5afc179bf25291508a8fb8d72ddead/poly_2.fastq.gz_trimming_report.json": {
+      "source_locator": "trimming/proposed/work/3e/5afc179bf25291508a8fb8d72ddead/poly_2.fastq.gz_trimming_report.json",
+      "original_sha256": "5b29fb14ff45f6bcb957e393228b8325ff2e6d591d8821568fbbc9f5f169db8a",
+      "public_sha256": "cc025d3fd6548a0fbf1a9d77c9235e9f86a093521caf2feb5cbb7b24364aa95d",
+      "original_bytes": 1921,
+      "public_bytes": 1969,
+      "transformation": {
+        "kind": "JSON-string-path-normalization-and-reserialization",
+        "all_nonstrings_preserved": true
+      },
+      "replacement_counts": {}
+    },
+    "trimming/run.sh": {
+      "source_locator": "trimming/run.sh",
+      "original_sha256": "7ad54733ff1e8854ec624954c88af2cf53647bf59498af17b35c55263739904e",
+      "public_sha256": "16526c405bcabb7c3dd77abe54f7ee6607bf4116c74c74996cc4fe0c70d2286d",
+      "original_bytes": 827,
+      "public_bytes": 785,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {
+        "agent_nextflow": 1,
+        "home_root": 1
+      }
+    },
+    "chromap/README.md": {
+      "source_locator": "chromap/README.md",
+      "original_sha256": "cf29c1ab0310c814630ec981426d84d82382aff4d45fde0f01fb31adf9eb83db",
+      "public_sha256": "989667c6e3a03cb6632ca97a2974ed4e056ed184b20d53e2b3a32d5675d81ac3",
+      "original_bytes": 2131,
+      "public_bytes": 2104,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {
+        "worktree_root_legacy": 1
+      }
+    },
+    "chromap/check.py": {
+      "source_locator": "chromap/check.py",
+      "original_sha256": "14086deaa32117edef8f621a32f4a9fadffdda3c151df6d47f8b36ba091a2dbb",
+      "public_sha256": "14086deaa32117edef8f621a32f4a9fadffdda3c151df6d47f8b36ba091a2dbb",
+      "original_bytes": 3658,
+      "public_bytes": 3658,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/inputs/rep1_lane1.bam": {
+      "source_locator": "chromap/inputs/rep1_lane1.bam",
+      "original_sha256": "d59f3d3df35d10be9ea61e8c2fb5b3cd7ba69b7b615e1429ce19f4dd7fb803af",
+      "public_sha256": "14432cc8269487cb088de9abbb7e64487e070616f8e3e2f36ca8f8714b1b5a47",
+      "original_bytes": 286,
+      "public_bytes": 249,
+      "transformation": {
+        "kind": "BAM-header-path-normalization-and-BGZF-reencoding",
+        "post_header_payload_sha256": "74ce1447451d9302dfc92caa3ead1f49f433e1b5982427ca9c07dbfc76ae22ca",
+        "post_header_payload_unchanged": true,
+        "original_header_sha256": "d7dd6bd2d2a209e22ebfa94ef0c510ca02e0d306242b818aa40cdd287f2fa5bc",
+        "public_header_sha256": "d7dd6bd2d2a209e22ebfa94ef0c510ca02e0d306242b818aa40cdd287f2fa5bc"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/inputs/rep1_lane1.sam": {
+      "source_locator": "chromap/inputs/rep1_lane1.sam",
+      "original_sha256": "1b359da75e9a6c4ade642c637fa6bf89681eca7793d9121318c785e1cbf53727",
+      "public_sha256": "1b359da75e9a6c4ade642c637fa6bf89681eca7793d9121318c785e1cbf53727",
+      "original_bytes": 331,
+      "public_bytes": 331,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/inputs/rep1_lane2.bam": {
+      "source_locator": "chromap/inputs/rep1_lane2.bam",
+      "original_sha256": "9208dc619bbb67ec79868a8327e15713751778b45cd179caf0aa9ca2da7def54",
+      "public_sha256": "11bccab33a67f570c890308b3abee890f039b5e5fede3825caeb516394e1a516",
+      "original_bytes": 286,
+      "public_bytes": 249,
+      "transformation": {
+        "kind": "BAM-header-path-normalization-and-BGZF-reencoding",
+        "post_header_payload_sha256": "625fdac41bdec2a82166cd835b2132958d9b586d09f24116172e4c26259d78aa",
+        "post_header_payload_unchanged": true,
+        "original_header_sha256": "74b47610ceef5993199adf9d060c3e627f8750ee57fda6ffc5e5ebdeae2fc9da",
+        "public_header_sha256": "74b47610ceef5993199adf9d060c3e627f8750ee57fda6ffc5e5ebdeae2fc9da"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/inputs/rep1_lane2.sam": {
+      "source_locator": "chromap/inputs/rep1_lane2.sam",
+      "original_sha256": "c6d33060c08ddf61cd25b68d39d99029bf3060e73e21341e5af7614752335c5b",
+      "public_sha256": "c6d33060c08ddf61cd25b68d39d99029bf3060e73e21341e5af7614752335c5b",
+      "original_bytes": 331,
+      "public_bytes": 331,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/inputs/rep2_lane1.bam": {
+      "source_locator": "chromap/inputs/rep2_lane1.bam",
+      "original_sha256": "af720882814f5a11a656d001e8acf859df47a1f8d986feb5cc8f0f45ed55d2a3",
+      "public_sha256": "4d0df3c1f9c4cea1e82a8e57fb16cc1623808665f8269eefef48a0bca2294b42",
+      "original_bytes": 286,
+      "public_bytes": 249,
+      "transformation": {
+        "kind": "BAM-header-path-normalization-and-BGZF-reencoding",
+        "post_header_payload_sha256": "efa474e9bb14d6921d95e57f2e1c48aef6bff0e2daeb41e47799a0819616c5c8",
+        "post_header_payload_unchanged": true,
+        "original_header_sha256": "8a52e97e31a637263d350a80074c7f209df547e8641058d6538d7fbc3df52acf",
+        "public_header_sha256": "8a52e97e31a637263d350a80074c7f209df547e8641058d6538d7fbc3df52acf"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/inputs/rep2_lane1.sam": {
+      "source_locator": "chromap/inputs/rep2_lane1.sam",
+      "original_sha256": "2959787082c15cf1ee113b6b7e553a694b7e97be31275221841a7760bea23405",
+      "public_sha256": "2959787082c15cf1ee113b6b7e553a694b7e97be31275221841a7760bea23405",
+      "original_bytes": 331,
+      "public_bytes": 331,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/inputs/rep2_lane2.bam": {
+      "source_locator": "chromap/inputs/rep2_lane2.bam",
+      "original_sha256": "039bc58edcb2764c5d897728afc20cb3ae97e5d1b3034a1b0e21b0821aacc5b9",
+      "public_sha256": "4820451407015484ecc1013843d3561a1f973fcf7bea97fb79fe0d35b9f66474",
+      "original_bytes": 286,
+      "public_bytes": 249,
+      "transformation": {
+        "kind": "BAM-header-path-normalization-and-BGZF-reencoding",
+        "post_header_payload_sha256": "b8bab21ae22335d9769de4e4da990c83995d13e703de68db035725fa33556a8d",
+        "post_header_payload_unchanged": true,
+        "original_header_sha256": "6807376bdd9d77eb64c7c8f7800e8229676a555c1cfa0e98450682e844a3e387",
+        "public_header_sha256": "6807376bdd9d77eb64c7c8f7800e8229676a555c1cfa0e98450682e844a3e387"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/inputs/rep2_lane2.sam": {
+      "source_locator": "chromap/inputs/rep2_lane2.sam",
+      "original_sha256": "550b4d547767d499567be0bfc7a5fe7bd81b304ad0f81593865d8b3ffaa02bf0",
+      "public_sha256": "550b4d547767d499567be0bfc7a5fe7bd81b304ad0f81593865d8b3ffaa02bf0",
+      "original_bytes": 331,
+      "public_bytes": 331,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/make_inputs.py": {
+      "source_locator": "chromap/make_inputs.py",
+      "original_sha256": "bff977c4e9c0eb40d6799bbba6a6522b5ed13390a79b303652c9cf581f131ac2",
+      "public_sha256": "bff977c4e9c0eb40d6799bbba6a6522b5ed13390a79b303652c9cf581f131ac2",
+      "original_bytes": 535,
+      "public_bytes": 535,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/nextflow.config.in": {
+      "source_locator": "chromap/nextflow.config.in",
+      "original_sha256": "44df1a6ba6501c727b532123effb86cc0de9d17a8616ee388e361bcbdc1e7c74",
+      "public_sha256": "44df1a6ba6501c727b532123effb86cc0de9d17a8616ee388e361bcbdc1e7c74",
+      "original_bytes": 424,
+      "public_bytes": 424,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/prepare.py": {
+      "source_locator": "chromap/prepare.py",
+      "original_sha256": "0f2452334a8cbe6f8180a3d1110a8deaad386f5b4f3fc0bd8a581ef1dceb020d",
+      "public_sha256": "f2758dd2ff725346163a1e68dc75d23686f8b88668774ef4a419c480b9e9c5f7",
+      "original_bytes": 2814,
+      "public_bytes": 2760,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {
+        "worktree_root_legacy": 2
+      }
+    },
+    "chromap/run.sh": {
+      "source_locator": "chromap/run.sh",
+      "original_sha256": "95ef888f4b562e63a4e685a0d984ff8e9f5b11072c84d6f1caccefedd8f01cc6",
+      "public_sha256": "b8cfc245d837d0887ac3cb3677f0419df7909096d0be9b79039de2a5cc31f2bb",
+      "original_bytes": 906,
+      "public_bytes": 864,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {
+        "agent_nextflow": 1,
+        "home_root": 1
+      }
+    },
+    "chromap/runs/baseline/main.nf": {
+      "source_locator": "chromap/runs/baseline/main.nf",
+      "original_sha256": "74ae5a32d3a2b634dbd6a00a1dec7108c899e4128a3555e2cfa1912774399ddf",
+      "public_sha256": "ff6677cdc89b760d47bfa11c0bbc3caf2990e68d5873e1aa7bf25fe9cdc1126e",
+      "original_bytes": 2018,
+      "public_bytes": 1964,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {
+        "worktree_root_legacy": 2
+      }
+    },
+    "chromap/runs/baseline/nextflow.config": {
+      "source_locator": "chromap/runs/baseline/nextflow.config",
+      "original_sha256": "5ed142bee4b4ca8432ad1eb5af34e97cff89bbca5361ac06e02fb18956f4269f",
+      "public_sha256": "55391f24bf429143d856e398f367d242cea39f3f35fc741f10c0cb3d91369a00",
+      "original_bytes": 604,
+      "public_bytes": 577,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {
+        "worktree_root_legacy": 1
+      }
+    },
+    "chromap/runs/baseline/outputs/chromap/merged_library/SAMPLE_A_REP1.mLb.mkD.sorted.bam": {
+      "source_locator": "chromap/runs/baseline/outputs/chromap/merged_library/SAMPLE_A_REP1.mLb.mkD.sorted.bam",
+      "original_sha256": "2bcbd46b6395c9c7f20fd02b0f5820f9e6aa2baa13f659cb488f7fe9b58f2231",
+      "public_sha256": "2bcbd46b6395c9c7f20fd02b0f5820f9e6aa2baa13f659cb488f7fe9b58f2231",
+      "original_bytes": 959,
+      "public_bytes": 959,
+      "transformation": {
+        "kind": "BAM-header-path-normalization-and-BGZF-reencoding",
+        "post_header_payload_sha256": "16b7e0e6389444a2a5c85672a587fe178fcdd87ec1d76ee3e336fd21083a3119",
+        "post_header_payload_unchanged": true,
+        "original_header_sha256": "f4e65f220f22c6a26c3e87b29e4101ae2feca1c6e061cb5145ce7343329eb19c",
+        "public_header_sha256": "f4e65f220f22c6a26c3e87b29e4101ae2feca1c6e061cb5145ce7343329eb19c"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/baseline/outputs/chromap/merged_library/SAMPLE_A_REP1.mLb.sorted.bam": {
+      "source_locator": "chromap/runs/baseline/outputs/chromap/merged_library/SAMPLE_A_REP1.mLb.sorted.bam",
+      "original_sha256": "23bef7118b467f9e7e9549d4e6d1c0da1ddef050fcd12681acdd47195f12fb74",
+      "public_sha256": "23bef7118b467f9e7e9549d4e6d1c0da1ddef050fcd12681acdd47195f12fb74",
+      "original_bytes": 279,
+      "public_bytes": 279,
+      "transformation": {
+        "kind": "BAM-header-path-normalization-and-BGZF-reencoding",
+        "post_header_payload_sha256": "fcaa5973a86e992f2c9309c12b6904c49a12e06fe6216bcece78a05c801d02d2",
+        "post_header_payload_unchanged": true,
+        "original_header_sha256": "af7c92df1d4a287f742d5b4ca2e109c1eedf388a7f6bd90e82e5e6e15fb0fc73",
+        "public_header_sha256": "af7c92df1d4a287f742d5b4ca2e109c1eedf388a7f6bd90e82e5e6e15fb0fc73"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/baseline/outputs/chromap/merged_library/SAMPLE_A_REP2.mLb.mkD.sorted.bam": {
+      "source_locator": "chromap/runs/baseline/outputs/chromap/merged_library/SAMPLE_A_REP2.mLb.mkD.sorted.bam",
+      "original_sha256": "fa8fee0c5e4a0d7377ca67ab67cd38eb061093383d3b321431f571d3b6b32eee",
+      "public_sha256": "fa8fee0c5e4a0d7377ca67ab67cd38eb061093383d3b321431f571d3b6b32eee",
+      "original_bytes": 959,
+      "public_bytes": 959,
+      "transformation": {
+        "kind": "BAM-header-path-normalization-and-BGZF-reencoding",
+        "post_header_payload_sha256": "b950395ca1b451e10427a8b0e028e2885d5de224bc8a9bf2494c270073a872af",
+        "post_header_payload_unchanged": true,
+        "original_header_sha256": "4df47149a4804eaec0aed4108e68f37915ed85312a61935aa81d459438d35447",
+        "public_header_sha256": "4df47149a4804eaec0aed4108e68f37915ed85312a61935aa81d459438d35447"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/baseline/outputs/chromap/merged_library/SAMPLE_A_REP2.mLb.sorted.bam": {
+      "source_locator": "chromap/runs/baseline/outputs/chromap/merged_library/SAMPLE_A_REP2.mLb.sorted.bam",
+      "original_sha256": "6ac5a2e5faa133222deb14d18a8557d1b3025a1a6ce36a0d0a3394733c5a924c",
+      "public_sha256": "6ac5a2e5faa133222deb14d18a8557d1b3025a1a6ce36a0d0a3394733c5a924c",
+      "original_bytes": 279,
+      "public_bytes": 279,
+      "transformation": {
+        "kind": "BAM-header-path-normalization-and-BGZF-reencoding",
+        "post_header_payload_sha256": "c801a6d0f8ff71ad8ade542bce924f7c0159aca629a6dc59c5e045ecd8324769",
+        "post_header_payload_unchanged": true,
+        "original_header_sha256": "b94f1c2a23402a96322ce7fedc778fc1099818ce1f61c1ec692bb3e3fd1d4579",
+        "public_header_sha256": "b94f1c2a23402a96322ce7fedc778fc1099818ce1f61c1ec692bb3e3fd1d4579"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/baseline/outputs/chromap/merged_library/picard_metrics/SAMPLE_A_REP1.mLb.mkD.sorted.MarkDuplicates.metrics.txt": {
+      "source_locator": "chromap/runs/baseline/outputs/chromap/merged_library/picard_metrics/SAMPLE_A_REP1.mLb.mkD.sorted.MarkDuplicates.metrics.txt",
+      "original_sha256": "9c21f6678c8f1ab2fa94a7c7ab02d51d5b789e1aacd7631cd7fef2cb4833ca42",
+      "public_sha256": "9c21f6678c8f1ab2fa94a7c7ab02d51d5b789e1aacd7631cd7fef2cb4833ca42",
+      "original_bytes": 2939,
+      "public_bytes": 2939,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/baseline/outputs/chromap/merged_library/picard_metrics/SAMPLE_A_REP2.mLb.mkD.sorted.MarkDuplicates.metrics.txt": {
+      "source_locator": "chromap/runs/baseline/outputs/chromap/merged_library/picard_metrics/SAMPLE_A_REP2.mLb.mkD.sorted.MarkDuplicates.metrics.txt",
+      "original_sha256": "9fc39d249cff0bb8add6e677faa575ba01a489c1c4381c67588f80e4c27cf998",
+      "public_sha256": "9fc39d249cff0bb8add6e677faa575ba01a489c1c4381c67588f80e4c27cf998",
+      "original_bytes": 2939,
+      "public_bytes": 2939,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/baseline/result.json": {
+      "source_locator": "chromap/runs/baseline/result.json",
+      "original_sha256": "6f09a19df1793c9256cb2aa7b3d05344974f0ec44949a31192f500cbf7acef0b",
+      "public_sha256": "abddbe9808010046062fa1d052f48433b2c0cd92b1ffd90dcc28fc2cc7b4e471",
+      "original_bytes": 1781,
+      "public_bytes": 1565,
+      "transformation": {
+        "kind": "JSON-string-path-normalization-and-reserialization",
+        "all_nonstrings_preserved": true
+      },
+      "replacement_counts": {
+        "validation_root_legacy": 4
+      }
+    },
+    "chromap/runs/baseline/run.out": {
+      "source_locator": "chromap/runs/baseline/run.out",
+      "original_sha256": "7ac7c1bcfcd644cfa1853dcb582b7884117efcf5aea5afd2284565ccb1aab18b",
+      "public_sha256": "818e26de533d71fa9b079558e3c64f9d1125e511b85aa77452a8c629cdbbbd5e",
+      "original_bytes": 8579,
+      "public_bytes": 8363,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {
+        "validation_root_legacy": 4
+      }
+    },
+    "chromap/runs/baseline/source-used.json": {
+      "source_locator": "chromap/runs/baseline/source-used.json",
+      "original_sha256": "415b3e969871b7b050cf0929e14f79b61b0283dbb21df6836dc09c233e688183",
+      "public_sha256": "0673369663ab1c15e6e9ef66e787ed83cd745dea5f1bf24ee35badbbb21e4285",
+      "original_bytes": 998,
+      "public_bytes": 971,
+      "transformation": {
+        "kind": "JSON-string-path-normalization-and-reserialization",
+        "all_nonstrings_preserved": true
+      },
+      "replacement_counts": {
+        "worktree_root_legacy": 1
+      }
+    },
+    "chromap/runs/baseline/work/4b/aa9efeee77944f44e39ff575a8a737/.command.err": {
+      "source_locator": "chromap/runs/baseline/work/4b/aa9efeee77944f44e39ff575a8a737/.command.err",
+      "original_sha256": "486192175d57dc63082c51001ad8c007a04d2a5e44c054a3ff279eecdeaa580b",
+      "public_sha256": "486192175d57dc63082c51001ad8c007a04d2a5e44c054a3ff279eecdeaa580b",
+      "original_bytes": 4280,
+      "public_bytes": 4280,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/baseline/work/4b/aa9efeee77944f44e39ff575a8a737/.command.out": {
+      "source_locator": "chromap/runs/baseline/work/4b/aa9efeee77944f44e39ff575a8a737/.command.out",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/baseline/work/4b/aa9efeee77944f44e39ff575a8a737/.command.sh": {
+      "source_locator": "chromap/runs/baseline/work/4b/aa9efeee77944f44e39ff575a8a737/.command.sh",
+      "original_sha256": "a1cd2597485a8113e9330f398236cb9616f21efe581cace2a1e8af30c4a23625",
+      "public_sha256": "a1cd2597485a8113e9330f398236cb9616f21efe581cace2a1e8af30c4a23625",
+      "original_bytes": 565,
+      "public_bytes": 565,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/baseline/work/4b/aa9efeee77944f44e39ff575a8a737/.exitcode": {
+      "source_locator": "chromap/runs/baseline/work/4b/aa9efeee77944f44e39ff575a8a737/.exitcode",
+      "original_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "public_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "original_bytes": 1,
+      "public_bytes": 1,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/baseline/work/4b/aa9efeee77944f44e39ff575a8a737/versions.yml": {
+      "source_locator": "chromap/runs/baseline/work/4b/aa9efeee77944f44e39ff575a8a737/versions.yml",
+      "original_sha256": "f56a146400402e3019c4a96909a85a3f660c6e683fd8a3d22a0262a93489f21c",
+      "public_sha256": "f56a146400402e3019c4a96909a85a3f660c6e683fd8a3d22a0262a93489f21c",
+      "original_bytes": 103,
+      "public_bytes": 103,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/baseline/work/61/6fdd9c861259818a73109c0809c12d/.command.err": {
+      "source_locator": "chromap/runs/baseline/work/61/6fdd9c861259818a73109c0809c12d/.command.err",
+      "original_sha256": "ed9ec6355544278c668e71779569412f4f354e8ca693fc7d968259a276f6b9cb",
+      "public_sha256": "ed9ec6355544278c668e71779569412f4f354e8ca693fc7d968259a276f6b9cb",
+      "original_bytes": 4280,
+      "public_bytes": 4280,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/baseline/work/61/6fdd9c861259818a73109c0809c12d/.command.out": {
+      "source_locator": "chromap/runs/baseline/work/61/6fdd9c861259818a73109c0809c12d/.command.out",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/baseline/work/61/6fdd9c861259818a73109c0809c12d/.command.sh": {
+      "source_locator": "chromap/runs/baseline/work/61/6fdd9c861259818a73109c0809c12d/.command.sh",
+      "original_sha256": "3416a8afeb23fe5fbebf720e2b3c7b52da4fff4ebf7dcaa2bc21554bdc09c1d4",
+      "public_sha256": "3416a8afeb23fe5fbebf720e2b3c7b52da4fff4ebf7dcaa2bc21554bdc09c1d4",
+      "original_bytes": 565,
+      "public_bytes": 565,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/baseline/work/61/6fdd9c861259818a73109c0809c12d/.exitcode": {
+      "source_locator": "chromap/runs/baseline/work/61/6fdd9c861259818a73109c0809c12d/.exitcode",
+      "original_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "public_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "original_bytes": 1,
+      "public_bytes": 1,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/baseline/work/61/6fdd9c861259818a73109c0809c12d/versions.yml": {
+      "source_locator": "chromap/runs/baseline/work/61/6fdd9c861259818a73109c0809c12d/versions.yml",
+      "original_sha256": "f56a146400402e3019c4a96909a85a3f660c6e683fd8a3d22a0262a93489f21c",
+      "public_sha256": "f56a146400402e3019c4a96909a85a3f660c6e683fd8a3d22a0262a93489f21c",
+      "original_bytes": 103,
+      "public_bytes": 103,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/baseline/work/78/c4c57e7dba2f2aef18911d30260331/.command.err": {
+      "source_locator": "chromap/runs/baseline/work/78/c4c57e7dba2f2aef18911d30260331/.command.err",
+      "original_sha256": "85334f0a938972a6ad6c8f137ac5587841b731469856f7d896b2c1107d79a27b",
+      "public_sha256": "85334f0a938972a6ad6c8f137ac5587841b731469856f7d896b2c1107d79a27b",
+      "original_bytes": 1529,
+      "public_bytes": 1529,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/baseline/work/78/c4c57e7dba2f2aef18911d30260331/.command.out": {
+      "source_locator": "chromap/runs/baseline/work/78/c4c57e7dba2f2aef18911d30260331/.command.out",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/baseline/work/78/c4c57e7dba2f2aef18911d30260331/.command.sh": {
+      "source_locator": "chromap/runs/baseline/work/78/c4c57e7dba2f2aef18911d30260331/.command.sh",
+      "original_sha256": "b01dc9203d74a555811a0a04ade70da3000f2a1ab20ca1c897923085ac61ddf9",
+      "public_sha256": "b01dc9203d74a555811a0a04ade70da3000f2a1ab20ca1c897923085ac61ddf9",
+      "original_bytes": 431,
+      "public_bytes": 431,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/baseline/work/78/c4c57e7dba2f2aef18911d30260331/.exitcode": {
+      "source_locator": "chromap/runs/baseline/work/78/c4c57e7dba2f2aef18911d30260331/.exitcode",
+      "original_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "public_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "original_bytes": 1,
+      "public_bytes": 1,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/baseline/work/78/c4c57e7dba2f2aef18911d30260331/versions.yml": {
+      "source_locator": "chromap/runs/baseline/work/78/c4c57e7dba2f2aef18911d30260331/versions.yml",
+      "original_sha256": "174be7406d9a2b16136e7c66261886118213acdee0b85d44f635558e3fcf2681",
+      "public_sha256": "174be7406d9a2b16136e7c66261886118213acdee0b85d44f635558e3fcf2681",
+      "original_bytes": 73,
+      "public_bytes": 73,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/baseline/work/cd/884f240596fdf75e774044fca8679e/.command.err": {
+      "source_locator": "chromap/runs/baseline/work/cd/884f240596fdf75e774044fca8679e/.command.err",
+      "original_sha256": "2831b02a5628997bb37be8767af667614de50efa23b9e509785f4df70388d955",
+      "public_sha256": "2831b02a5628997bb37be8767af667614de50efa23b9e509785f4df70388d955",
+      "original_bytes": 1529,
+      "public_bytes": 1529,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/baseline/work/cd/884f240596fdf75e774044fca8679e/.command.out": {
+      "source_locator": "chromap/runs/baseline/work/cd/884f240596fdf75e774044fca8679e/.command.out",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/baseline/work/cd/884f240596fdf75e774044fca8679e/.command.sh": {
+      "source_locator": "chromap/runs/baseline/work/cd/884f240596fdf75e774044fca8679e/.command.sh",
+      "original_sha256": "9777e3530ac0d49d0322697c9e1ac3538f2291704ea2c4e51b9f1008884dc79a",
+      "public_sha256": "9777e3530ac0d49d0322697c9e1ac3538f2291704ea2c4e51b9f1008884dc79a",
+      "original_bytes": 431,
+      "public_bytes": 431,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/baseline/work/cd/884f240596fdf75e774044fca8679e/.exitcode": {
+      "source_locator": "chromap/runs/baseline/work/cd/884f240596fdf75e774044fca8679e/.exitcode",
+      "original_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "public_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "original_bytes": 1,
+      "public_bytes": 1,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/baseline/work/cd/884f240596fdf75e774044fca8679e/versions.yml": {
+      "source_locator": "chromap/runs/baseline/work/cd/884f240596fdf75e774044fca8679e/versions.yml",
+      "original_sha256": "174be7406d9a2b16136e7c66261886118213acdee0b85d44f635558e3fcf2681",
+      "public_sha256": "174be7406d9a2b16136e7c66261886118213acdee0b85d44f635558e3fcf2681",
+      "original_bytes": 73,
+      "public_bytes": 73,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/main.nf": {
+      "source_locator": "chromap/runs/proposed/main.nf",
+      "original_sha256": "39b4203664c712f3c02582dc210c6edf58a22ae014a2cbf62bcf8e1d14786b76",
+      "public_sha256": "0e94a6b5c7a8d949db255b7918347583eff479a1de96666335ab2cd78eaf817e",
+      "original_bytes": 2182,
+      "public_bytes": 2101,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {
+        "worktree_root_legacy": 3
+      }
+    },
+    "chromap/runs/proposed/nextflow.config": {
+      "source_locator": "chromap/runs/proposed/nextflow.config",
+      "original_sha256": "7448673731f49421ba726f597b8995e7d37b6268c2d5bc0e7168ceeca34d5d4e",
+      "public_sha256": "b34fcedc6c9132c17f56aa19e8bf420d97563662b995f25c572b8947c40d939b",
+      "original_bytes": 461,
+      "public_bytes": 434,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {
+        "worktree_root_legacy": 1
+      }
+    },
+    "chromap/runs/proposed/outputs/chromap/merged_library/SAMPLE_A_REP1.mLb.mkD.sorted.bam": {
+      "source_locator": "chromap/runs/proposed/outputs/chromap/merged_library/SAMPLE_A_REP1.mLb.mkD.sorted.bam",
+      "original_sha256": "bcce1b295f6b4a6cadcf3ba917b90da22c6edbed783a44309d93f1d321515a9d",
+      "public_sha256": "bcce1b295f6b4a6cadcf3ba917b90da22c6edbed783a44309d93f1d321515a9d",
+      "original_bytes": 1023,
+      "public_bytes": 1023,
+      "transformation": {
+        "kind": "BAM-header-path-normalization-and-BGZF-reencoding",
+        "post_header_payload_sha256": "6208665f072d081365e25fbdfbd5b080f84ce8c3247c8eaa085795c83ef5e846",
+        "post_header_payload_unchanged": true,
+        "original_header_sha256": "d7185a1d46eb9d7e063cc9557cce5297786ac8c5ae57ba9016da2393c7aedde2",
+        "public_header_sha256": "d7185a1d46eb9d7e063cc9557cce5297786ac8c5ae57ba9016da2393c7aedde2"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/outputs/chromap/merged_library/SAMPLE_A_REP1.mLb.sorted.bam": {
+      "source_locator": "chromap/runs/proposed/outputs/chromap/merged_library/SAMPLE_A_REP1.mLb.sorted.bam",
+      "original_sha256": "8ff9ca71fd0bb978139d644f8afcbfb11a2001e2d96f27f529b5b8a4c5968419",
+      "public_sha256": "8ff9ca71fd0bb978139d644f8afcbfb11a2001e2d96f27f529b5b8a4c5968419",
+      "original_bytes": 352,
+      "public_bytes": 352,
+      "transformation": {
+        "kind": "BAM-header-path-normalization-and-BGZF-reencoding",
+        "post_header_payload_sha256": "7c9bedba231c4116f7f077b596f632b77bf355aea4fdee1501fadbefcff99df5",
+        "post_header_payload_unchanged": true,
+        "original_header_sha256": "0331f4c19999c7a0786d5cfaef3af64190f587351d3f26eed4e54a8d57ec9a71",
+        "public_header_sha256": "0331f4c19999c7a0786d5cfaef3af64190f587351d3f26eed4e54a8d57ec9a71"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/outputs/chromap/merged_library/SAMPLE_A_REP2.mLb.mkD.sorted.bam": {
+      "source_locator": "chromap/runs/proposed/outputs/chromap/merged_library/SAMPLE_A_REP2.mLb.mkD.sorted.bam",
+      "original_sha256": "50fd05e965d96ead095fb27f9741211b9394c86579ed8e166777b9397099e13e",
+      "public_sha256": "50fd05e965d96ead095fb27f9741211b9394c86579ed8e166777b9397099e13e",
+      "original_bytes": 1023,
+      "public_bytes": 1023,
+      "transformation": {
+        "kind": "BAM-header-path-normalization-and-BGZF-reencoding",
+        "post_header_payload_sha256": "6ee16f362c65da943b2925a10670b74d30d9dedd96e30a45935f2676a99c2363",
+        "post_header_payload_unchanged": true,
+        "original_header_sha256": "699f0ffdcab9fcad3bdfc34bfcb5cd27b38151478650d9ca573b3fafe5fceb32",
+        "public_header_sha256": "699f0ffdcab9fcad3bdfc34bfcb5cd27b38151478650d9ca573b3fafe5fceb32"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/outputs/chromap/merged_library/SAMPLE_A_REP2.mLb.sorted.bam": {
+      "source_locator": "chromap/runs/proposed/outputs/chromap/merged_library/SAMPLE_A_REP2.mLb.sorted.bam",
+      "original_sha256": "3afe07d2fffbb60fcc94606af89e96a8deaa70cadf6cb34665762920ceea21de",
+      "public_sha256": "3afe07d2fffbb60fcc94606af89e96a8deaa70cadf6cb34665762920ceea21de",
+      "original_bytes": 352,
+      "public_bytes": 352,
+      "transformation": {
+        "kind": "BAM-header-path-normalization-and-BGZF-reencoding",
+        "post_header_payload_sha256": "e9529c55fd159b15052fa99d0622bbb06d0030473d2ef988e479275c443d299a",
+        "post_header_payload_unchanged": true,
+        "original_header_sha256": "f7b096a12a53b601a89028b6bcb347c3663c7f106099d5b1cfaffaa06c149e90",
+        "public_header_sha256": "f7b096a12a53b601a89028b6bcb347c3663c7f106099d5b1cfaffaa06c149e90"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/outputs/chromap/merged_library/picard_metrics/SAMPLE_A_REP1.mLb.mkD.sorted.metrics.txt": {
+      "source_locator": "chromap/runs/proposed/outputs/chromap/merged_library/picard_metrics/SAMPLE_A_REP1.mLb.mkD.sorted.metrics.txt",
+      "original_sha256": "76eb1895f6dc240eaa4be13295257391709d03bde1b5b18fcbe1bd42cdc5a967",
+      "public_sha256": "76eb1895f6dc240eaa4be13295257391709d03bde1b5b18fcbe1bd42cdc5a967",
+      "original_bytes": 2985,
+      "public_bytes": 2985,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/outputs/chromap/merged_library/picard_metrics/SAMPLE_A_REP2.mLb.mkD.sorted.metrics.txt": {
+      "source_locator": "chromap/runs/proposed/outputs/chromap/merged_library/picard_metrics/SAMPLE_A_REP2.mLb.mkD.sorted.metrics.txt",
+      "original_sha256": "e6e61d2a3ff8a81dd5e787a887e644ff40f38af514670fafe64f83f34f81dca6",
+      "public_sha256": "e6e61d2a3ff8a81dd5e787a887e644ff40f38af514670fafe64f83f34f81dca6",
+      "original_bytes": 2985,
+      "public_bytes": 2985,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/result.json": {
+      "source_locator": "chromap/runs/proposed/result.json",
+      "original_sha256": "fbb2ffb904de3d07d815bfa2d7ade8626db54e7d58de1a91fca140c3b08e17e9",
+      "public_sha256": "2ae79171ff2f9e0a84bb01553b219ddeef870e1fe178e6cff39ad805491e6e0f",
+      "original_bytes": 2695,
+      "public_bytes": 2479,
+      "transformation": {
+        "kind": "JSON-string-path-normalization-and-reserialization",
+        "all_nonstrings_preserved": true
+      },
+      "replacement_counts": {
+        "validation_root_legacy": 4
+      }
+    },
+    "chromap/runs/proposed/run.out": {
+      "source_locator": "chromap/runs/proposed/run.out",
+      "original_sha256": "ed472ea9a625ff876fdfbd2158d126dd41c180f0ae1b048dee0af7fc7a0075f1",
+      "public_sha256": "fe9be9af4bf9323b20396ac51b7a4bee4998382ce5126defc90e5330ead48ad0",
+      "original_bytes": 9388,
+      "public_bytes": 9172,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {
+        "validation_root_legacy": 4
+      }
+    },
+    "chromap/runs/proposed/source-used.json": {
+      "source_locator": "chromap/runs/proposed/source-used.json",
+      "original_sha256": "683111da65d8bac30bdbbeebf1a503cef734e83c28431be09edeb6792aea475a",
+      "public_sha256": "a27b11eadf825c36f22e962a9fafa0847134861fc282cc83608e297ae29160da",
+      "original_bytes": 1128,
+      "public_bytes": 1101,
+      "transformation": {
+        "kind": "JSON-string-path-normalization-and-reserialization",
+        "all_nonstrings_preserved": true
+      },
+      "replacement_counts": {
+        "worktree_root_legacy": 1
+      }
+    },
+    "chromap/runs/proposed/work/15/abe907745befe47bbe1fbb88a8c369/.command.err": {
+      "source_locator": "chromap/runs/proposed/work/15/abe907745befe47bbe1fbb88a8c369/.command.err",
+      "original_sha256": "a81a2976a1f731c1023451e09a194f5c8691ef3c82191e27689b26829df9a9e9",
+      "public_sha256": "a81a2976a1f731c1023451e09a194f5c8691ef3c82191e27689b26829df9a9e9",
+      "original_bytes": 1432,
+      "public_bytes": 1432,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/15/abe907745befe47bbe1fbb88a8c369/.command.out": {
+      "source_locator": "chromap/runs/proposed/work/15/abe907745befe47bbe1fbb88a8c369/.command.out",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/15/abe907745befe47bbe1fbb88a8c369/.command.sh": {
+      "source_locator": "chromap/runs/proposed/work/15/abe907745befe47bbe1fbb88a8c369/.command.sh",
+      "original_sha256": "2735de85cc96e8c2eea7dfdd6067a72c639b7ffec439d80e0bc5e5bcacedbb81",
+      "public_sha256": "2735de85cc96e8c2eea7dfdd6067a72c639b7ffec439d80e0bc5e5bcacedbb81",
+      "original_bytes": 1062,
+      "public_bytes": 1062,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/15/abe907745befe47bbe1fbb88a8c369/.exitcode": {
+      "source_locator": "chromap/runs/proposed/work/15/abe907745befe47bbe1fbb88a8c369/.exitcode",
+      "original_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "public_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "original_bytes": 1,
+      "public_bytes": 1,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/21/609f66b14ee3161100753fdb98b055/.command.err": {
+      "source_locator": "chromap/runs/proposed/work/21/609f66b14ee3161100753fdb98b055/.command.err",
+      "original_sha256": "ce02b755a76fe0b752ab28901f8c4e6934419febfd965b889ce55243d5c97e38",
+      "public_sha256": "ce02b755a76fe0b752ab28901f8c4e6934419febfd965b889ce55243d5c97e38",
+      "original_bytes": 1525,
+      "public_bytes": 1525,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/21/609f66b14ee3161100753fdb98b055/.command.out": {
+      "source_locator": "chromap/runs/proposed/work/21/609f66b14ee3161100753fdb98b055/.command.out",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/21/609f66b14ee3161100753fdb98b055/.command.sh": {
+      "source_locator": "chromap/runs/proposed/work/21/609f66b14ee3161100753fdb98b055/.command.sh",
+      "original_sha256": "bb9739592959fc1c374d6e53e83c15153ee00069d35a5daf259c9dc362a3e040",
+      "public_sha256": "bb9739592959fc1c374d6e53e83c15153ee00069d35a5daf259c9dc362a3e040",
+      "original_bytes": 1044,
+      "public_bytes": 1044,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/21/609f66b14ee3161100753fdb98b055/.exitcode": {
+      "source_locator": "chromap/runs/proposed/work/21/609f66b14ee3161100753fdb98b055/.exitcode",
+      "original_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "public_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "original_bytes": 1,
+      "public_bytes": 1,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/26/11b65a683da7ce77964e8b3b8cbf20/.command.err": {
+      "source_locator": "chromap/runs/proposed/work/26/11b65a683da7ce77964e8b3b8cbf20/.command.err",
+      "original_sha256": "879d1270ea631e9ee4e80effa2835e7ade4644bc853c06051670a5110f2e4169",
+      "public_sha256": "879d1270ea631e9ee4e80effa2835e7ade4644bc853c06051670a5110f2e4169",
+      "original_bytes": 1525,
+      "public_bytes": 1525,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/26/11b65a683da7ce77964e8b3b8cbf20/.command.out": {
+      "source_locator": "chromap/runs/proposed/work/26/11b65a683da7ce77964e8b3b8cbf20/.command.out",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/26/11b65a683da7ce77964e8b3b8cbf20/.command.sh": {
+      "source_locator": "chromap/runs/proposed/work/26/11b65a683da7ce77964e8b3b8cbf20/.command.sh",
+      "original_sha256": "f6e8dcd4528787b950c3c54fcad46ea1c0a12b56332c99211792c48ad91e5c8c",
+      "public_sha256": "f6e8dcd4528787b950c3c54fcad46ea1c0a12b56332c99211792c48ad91e5c8c",
+      "original_bytes": 1044,
+      "public_bytes": 1044,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/26/11b65a683da7ce77964e8b3b8cbf20/.exitcode": {
+      "source_locator": "chromap/runs/proposed/work/26/11b65a683da7ce77964e8b3b8cbf20/.exitcode",
+      "original_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "public_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "original_bytes": 1,
+      "public_bytes": 1,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/45/140b90afa5b84e89544612b833520f/.command.err": {
+      "source_locator": "chromap/runs/proposed/work/45/140b90afa5b84e89544612b833520f/.command.err",
+      "original_sha256": "e91d37916608ff673d91b4066d95b7d4ade68b3bb36c0a6dcd786a246832babc",
+      "public_sha256": "e91d37916608ff673d91b4066d95b7d4ade68b3bb36c0a6dcd786a246832babc",
+      "original_bytes": 1432,
+      "public_bytes": 1432,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/45/140b90afa5b84e89544612b833520f/.command.out": {
+      "source_locator": "chromap/runs/proposed/work/45/140b90afa5b84e89544612b833520f/.command.out",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/45/140b90afa5b84e89544612b833520f/.command.sh": {
+      "source_locator": "chromap/runs/proposed/work/45/140b90afa5b84e89544612b833520f/.command.sh",
+      "original_sha256": "4640f9bb9e2fdb189228c8c237e70054af9916d76baba0efa4794493e02c6ceb",
+      "public_sha256": "4640f9bb9e2fdb189228c8c237e70054af9916d76baba0efa4794493e02c6ceb",
+      "original_bytes": 1062,
+      "public_bytes": 1062,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/45/140b90afa5b84e89544612b833520f/.exitcode": {
+      "source_locator": "chromap/runs/proposed/work/45/140b90afa5b84e89544612b833520f/.exitcode",
+      "original_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "public_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "original_bytes": 1,
+      "public_bytes": 1,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/5d/d9ec20360f3baf417e647cb2dcab10/.command.err": {
+      "source_locator": "chromap/runs/proposed/work/5d/d9ec20360f3baf417e647cb2dcab10/.command.err",
+      "original_sha256": "d56fbb70526902e2d5d5cd24bfd3eab06836dc2b6008943dcf9cbfa968730500",
+      "public_sha256": "d56fbb70526902e2d5d5cd24bfd3eab06836dc2b6008943dcf9cbfa968730500",
+      "original_bytes": 1432,
+      "public_bytes": 1432,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/5d/d9ec20360f3baf417e647cb2dcab10/.command.out": {
+      "source_locator": "chromap/runs/proposed/work/5d/d9ec20360f3baf417e647cb2dcab10/.command.out",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/5d/d9ec20360f3baf417e647cb2dcab10/.command.sh": {
+      "source_locator": "chromap/runs/proposed/work/5d/d9ec20360f3baf417e647cb2dcab10/.command.sh",
+      "original_sha256": "b74fb4f140a7021807446bc5fb918aa842342abf46a0f1ed75e27194393791d6",
+      "public_sha256": "b74fb4f140a7021807446bc5fb918aa842342abf46a0f1ed75e27194393791d6",
+      "original_bytes": 1062,
+      "public_bytes": 1062,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/5d/d9ec20360f3baf417e647cb2dcab10/.exitcode": {
+      "source_locator": "chromap/runs/proposed/work/5d/d9ec20360f3baf417e647cb2dcab10/.exitcode",
+      "original_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "public_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "original_bytes": 1,
+      "public_bytes": 1,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/67/17c286a29e1c7ad517d85ecbf80115/.command.err": {
+      "source_locator": "chromap/runs/proposed/work/67/17c286a29e1c7ad517d85ecbf80115/.command.err",
+      "original_sha256": "7dbf1bc64f2ca0d5693cd038fa5fab6ed0b8a0c60344cb5a6185a34734876e61",
+      "public_sha256": "7dbf1bc64f2ca0d5693cd038fa5fab6ed0b8a0c60344cb5a6185a34734876e61",
+      "original_bytes": 4300,
+      "public_bytes": 4300,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/67/17c286a29e1c7ad517d85ecbf80115/.command.out": {
+      "source_locator": "chromap/runs/proposed/work/67/17c286a29e1c7ad517d85ecbf80115/.command.out",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/67/17c286a29e1c7ad517d85ecbf80115/.command.sh": {
+      "source_locator": "chromap/runs/proposed/work/67/17c286a29e1c7ad517d85ecbf80115/.command.sh",
+      "original_sha256": "b049842dffd1813e8a8509481ff4490845b718fb323daca30ca1c72a5aadc310",
+      "public_sha256": "b049842dffd1813e8a8509481ff4490845b718fb323daca30ca1c72a5aadc310",
+      "original_bytes": 1109,
+      "public_bytes": 1109,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/67/17c286a29e1c7ad517d85ecbf80115/.exitcode": {
+      "source_locator": "chromap/runs/proposed/work/67/17c286a29e1c7ad517d85ecbf80115/.exitcode",
+      "original_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "public_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "original_bytes": 1,
+      "public_bytes": 1,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/b1/6773d132b70f767418b79f169e8b36/.command.err": {
+      "source_locator": "chromap/runs/proposed/work/b1/6773d132b70f767418b79f169e8b36/.command.err",
+      "original_sha256": "e678dfc10f0b3664e3f43243bfa18a99f1e29104cbbd435f8940c689bea6aec4",
+      "public_sha256": "e678dfc10f0b3664e3f43243bfa18a99f1e29104cbbd435f8940c689bea6aec4",
+      "original_bytes": 1432,
+      "public_bytes": 1432,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/b1/6773d132b70f767418b79f169e8b36/.command.out": {
+      "source_locator": "chromap/runs/proposed/work/b1/6773d132b70f767418b79f169e8b36/.command.out",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/b1/6773d132b70f767418b79f169e8b36/.command.sh": {
+      "source_locator": "chromap/runs/proposed/work/b1/6773d132b70f767418b79f169e8b36/.command.sh",
+      "original_sha256": "cf2568ec6e3a38dbb7a758d2fbb263f8c5d98b88968609cde29ebd5dfa4abfeb",
+      "public_sha256": "cf2568ec6e3a38dbb7a758d2fbb263f8c5d98b88968609cde29ebd5dfa4abfeb",
+      "original_bytes": 1062,
+      "public_bytes": 1062,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/b1/6773d132b70f767418b79f169e8b36/.exitcode": {
+      "source_locator": "chromap/runs/proposed/work/b1/6773d132b70f767418b79f169e8b36/.exitcode",
+      "original_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "public_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "original_bytes": 1,
+      "public_bytes": 1,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/e9/caa78f1ec6a7500df59fb8b040aa8c/.command.err": {
+      "source_locator": "chromap/runs/proposed/work/e9/caa78f1ec6a7500df59fb8b040aa8c/.command.err",
+      "original_sha256": "561d4527c31eb2d836c2423eda425315ddf66334b6a649239647386dced3d4ce",
+      "public_sha256": "561d4527c31eb2d836c2423eda425315ddf66334b6a649239647386dced3d4ce",
+      "original_bytes": 4300,
+      "public_bytes": 4300,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/e9/caa78f1ec6a7500df59fb8b040aa8c/.command.out": {
+      "source_locator": "chromap/runs/proposed/work/e9/caa78f1ec6a7500df59fb8b040aa8c/.command.out",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "public_bytes": 0,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/e9/caa78f1ec6a7500df59fb8b040aa8c/.command.sh": {
+      "source_locator": "chromap/runs/proposed/work/e9/caa78f1ec6a7500df59fb8b040aa8c/.command.sh",
+      "original_sha256": "8235fe831a96e622d41694ce46a36b0c08940e0633261ce78960a4cc40976805",
+      "public_sha256": "8235fe831a96e622d41694ce46a36b0c08940e0633261ce78960a4cc40976805",
+      "original_bytes": 1109,
+      "public_bytes": 1109,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/runs/proposed/work/e9/caa78f1ec6a7500df59fb8b040aa8c/.exitcode": {
+      "source_locator": "chromap/runs/proposed/work/e9/caa78f1ec6a7500df59fb8b040aa8c/.exitcode",
+      "original_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "public_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "original_bytes": 1,
+      "public_bytes": 1,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "chromap/workflow.nf.in": {
+      "source_locator": "chromap/workflow.nf.in",
+      "original_sha256": "69ac5d7462c0be5d3e33b7243ae87cc95f3c7e036a3fbcd04fe5c65cd872affb",
+      "public_sha256": "69ac5d7462c0be5d3e33b7243ae87cc95f3c7e036a3fbcd04fe5c65cd872affb",
+      "original_bytes": 1190,
+      "public_bytes": 1190,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {}
+    },
+    "source-capture/trimming-baseline/conf/modules.config": {
+      "source_locator": "git:4177ea95c56e15fdbdc52f6e210c3329ff69167b:conf/modules.config",
+      "original_sha256": "f713696e799c5087f57d699305b02550c3305c3e97fc6a888961515fc571c1b1",
+      "public_sha256": "f713696e799c5087f57d699305b02550c3305c3e97fc6a888961515fc571c1b1",
+      "original_bytes": 39819,
+      "public_bytes": 39819,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {},
+      "captured_from_revision": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+      "matches_execution_receipt_sha256": "f713696e799c5087f57d699305b02550c3305c3e97fc6a888961515fc571c1b1"
+    },
+    "source-capture/trimming-baseline/nextflow.config": {
+      "source_locator": "git:4177ea95c56e15fdbdc52f6e210c3329ff69167b:nextflow.config",
+      "original_sha256": "06dbbd447576cbcd0079c29b527571eeef07823142c7f0303fe112b9a5bf35b2",
+      "public_sha256": "4fe3cba0f39b1312b6975bb9cff7bf1eaa75946eff218736af5f2e377f33c959",
+      "original_bytes": 13283,
+      "public_bytes": 13280,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {
+        "bucket_prefix": 1
+      },
+      "captured_from_revision": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+      "matches_execution_receipt_sha256": "06dbbd447576cbcd0079c29b527571eeef07823142c7f0303fe112b9a5bf35b2"
+    },
+    "source-capture/trimming-baseline/modules/nf-core/trimgalore/main.nf": {
+      "source_locator": "git:4177ea95c56e15fdbdc52f6e210c3329ff69167b:modules/nf-core/trimgalore/main.nf",
+      "original_sha256": "88022abcf3f2eaaf171d84c04b998593a0f6baa3b8737731aafe2f253c5841d3",
+      "public_sha256": "88022abcf3f2eaaf171d84c04b998593a0f6baa3b8737731aafe2f253c5841d3",
+      "original_bytes": 3230,
+      "public_bytes": 3230,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {},
+      "captured_from_revision": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+      "matches_execution_receipt_sha256": "88022abcf3f2eaaf171d84c04b998593a0f6baa3b8737731aafe2f253c5841d3"
+    },
+    "source-capture/trimming-baseline/modules/nf-core/trimgalore/environment.yml": {
+      "source_locator": "git:4177ea95c56e15fdbdc52f6e210c3329ff69167b:modules/nf-core/trimgalore/environment.yml",
+      "original_sha256": "d2c80280ba011800dd5e02f9c0980f98678d319a863162d73849dceb29681769",
+      "public_sha256": "d2c80280ba011800dd5e02f9c0980f98678d319a863162d73849dceb29681769",
+      "original_bytes": 211,
+      "public_bytes": 211,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {},
+      "captured_from_revision": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+      "matches_execution_receipt_sha256": "d2c80280ba011800dd5e02f9c0980f98678d319a863162d73849dceb29681769"
+    },
+    "source-capture/trimming-negative-2.1/conf/modules.config": {
+      "source_locator": "git:73155d2b59d37f521e3f00228d559031d2e7847f:conf/modules.config",
+      "original_sha256": "81b15aee7dab0fae26fc028c04f32b73ef3cc2b6ec38c63fdaaf56383a22273e",
+      "public_sha256": "81b15aee7dab0fae26fc028c04f32b73ef3cc2b6ec38c63fdaaf56383a22273e",
+      "original_bytes": 40628,
+      "public_bytes": 40628,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {},
+      "captured_from_revision": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "matches_execution_receipt_sha256": "81b15aee7dab0fae26fc028c04f32b73ef3cc2b6ec38c63fdaaf56383a22273e"
+    },
+    "source-capture/trimming-negative-2.1/nextflow.config": {
+      "source_locator": "git:73155d2b59d37f521e3f00228d559031d2e7847f:nextflow.config",
+      "original_sha256": "e47935daa6dba8eb3fd284bcabe44099d3755fc104b26f525a03ce5a45ed8e55",
+      "public_sha256": "530593ecbcc20887f9af21728d851fd9cea85a4aa21a9c0e145d0c463bd06474",
+      "original_bytes": 13354,
+      "public_bytes": 13351,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {
+        "bucket_prefix": 1
+      },
+      "captured_from_revision": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "matches_execution_receipt_sha256": "e47935daa6dba8eb3fd284bcabe44099d3755fc104b26f525a03ce5a45ed8e55"
+    },
+    "source-capture/trimming-negative-2.1/modules/nf-core/trimgalore/main.nf": {
+      "source_locator": "git:73155d2b59d37f521e3f00228d559031d2e7847f:modules/nf-core/trimgalore/main.nf",
+      "original_sha256": "f3b551ea103f9fe669f1c1fafe87b635a6f42b238f1919d7bc9af3feac36f45a",
+      "public_sha256": "f3b551ea103f9fe669f1c1fafe87b635a6f42b238f1919d7bc9af3feac36f45a",
+      "original_bytes": 3368,
+      "public_bytes": 3368,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {},
+      "captured_from_revision": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "matches_execution_receipt_sha256": "f3b551ea103f9fe669f1c1fafe87b635a6f42b238f1919d7bc9af3feac36f45a"
+    },
+    "source-capture/trimming-negative-2.1/modules/nf-core/trimgalore/environment.yml": {
+      "source_locator": "git:73155d2b59d37f521e3f00228d559031d2e7847f:modules/nf-core/trimgalore/environment.yml",
+      "original_sha256": "19b1a0a231b3c7812c0423a5fea53f01883c19bd25fb2dd759a31435696599dc",
+      "public_sha256": "19b1a0a231b3c7812c0423a5fea53f01883c19bd25fb2dd759a31435696599dc",
+      "original_bytes": 210,
+      "public_bytes": 210,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {},
+      "captured_from_revision": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "matches_execution_receipt_sha256": "19b1a0a231b3c7812c0423a5fea53f01883c19bd25fb2dd759a31435696599dc"
+    },
+    "source-capture/trimming-proposed/conf/modules.config": {
+      "source_locator": "git:a9b588235e4a1ceb3c8838acad430628c5737c86:conf/modules.config",
+      "original_sha256": "3cc3a56fd6ed88b57c52fbfd9f4b9c5a3e79d57866f314ad408fbc4d7835e3a3",
+      "public_sha256": "3cc3a56fd6ed88b57c52fbfd9f4b9c5a3e79d57866f314ad408fbc4d7835e3a3",
+      "original_bytes": 40675,
+      "public_bytes": 40675,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {},
+      "captured_from_revision": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "matches_execution_receipt_sha256": "3cc3a56fd6ed88b57c52fbfd9f4b9c5a3e79d57866f314ad408fbc4d7835e3a3"
+    },
+    "source-capture/trimming-proposed/nextflow.config": {
+      "source_locator": "git:a9b588235e4a1ceb3c8838acad430628c5737c86:nextflow.config",
+      "original_sha256": "e47935daa6dba8eb3fd284bcabe44099d3755fc104b26f525a03ce5a45ed8e55",
+      "public_sha256": "530593ecbcc20887f9af21728d851fd9cea85a4aa21a9c0e145d0c463bd06474",
+      "original_bytes": 13354,
+      "public_bytes": 13351,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {
+        "bucket_prefix": 1
+      },
+      "captured_from_revision": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "matches_execution_receipt_sha256": "e47935daa6dba8eb3fd284bcabe44099d3755fc104b26f525a03ce5a45ed8e55"
+    },
+    "source-capture/trimming-proposed/modules/nf-core/trimgalore/main.nf": {
+      "source_locator": "git:a9b588235e4a1ceb3c8838acad430628c5737c86:modules/nf-core/trimgalore/main.nf",
+      "original_sha256": "75db2795106e69a93f7e31da0dca1cef608f82323d92894c88b621ba380e24d7",
+      "public_sha256": "75db2795106e69a93f7e31da0dca1cef608f82323d92894c88b621ba380e24d7",
+      "original_bytes": 3368,
+      "public_bytes": 3368,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {},
+      "captured_from_revision": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "matches_execution_receipt_sha256": "75db2795106e69a93f7e31da0dca1cef608f82323d92894c88b621ba380e24d7"
+    },
+    "source-capture/trimming-proposed/modules/nf-core/trimgalore/environment.yml": {
+      "source_locator": "git:a9b588235e4a1ceb3c8838acad430628c5737c86:modules/nf-core/trimgalore/environment.yml",
+      "original_sha256": "1878192a84a7b69ad32261f3f6239223cac83c81ddbef28f72ff976afd4b87b0",
+      "public_sha256": "1878192a84a7b69ad32261f3f6239223cac83c81ddbef28f72ff976afd4b87b0",
+      "original_bytes": 210,
+      "public_bytes": 210,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {},
+      "captured_from_revision": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "matches_execution_receipt_sha256": "1878192a84a7b69ad32261f3f6239223cac83c81ddbef28f72ff976afd4b87b0"
+    },
+    "source-capture/chromap-baseline/workflows/atacseq.nf": {
+      "source_locator": "git:4177ea95c56e15fdbdc52f6e210c3329ff69167b:workflows/atacseq.nf",
+      "original_sha256": "8588bafccd426b677ec3498eafc8e72ad447527321a9ac67ad623316fe9352ab",
+      "public_sha256": "8588bafccd426b677ec3498eafc8e72ad447527321a9ac67ad623316fe9352ab",
+      "original_bytes": 37898,
+      "public_bytes": 37898,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {},
+      "captured_from_revision": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+      "matches_execution_receipt_sha256": "8588bafccd426b677ec3498eafc8e72ad447527321a9ac67ad623316fe9352ab"
+    },
+    "source-capture/chromap-baseline/conf/modules.config": {
+      "source_locator": "git:4177ea95c56e15fdbdc52f6e210c3329ff69167b:conf/modules.config",
+      "original_sha256": "f713696e799c5087f57d699305b02550c3305c3e97fc6a888961515fc571c1b1",
+      "public_sha256": "f713696e799c5087f57d699305b02550c3305c3e97fc6a888961515fc571c1b1",
+      "original_bytes": 39819,
+      "public_bytes": 39819,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {},
+      "captured_from_revision": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+      "matches_execution_receipt_sha256": "f713696e799c5087f57d699305b02550c3305c3e97fc6a888961515fc571c1b1"
+    },
+    "source-capture/chromap-baseline/modules/nf-core/picard/mergesamfiles/main.nf": {
+      "source_locator": "git:4177ea95c56e15fdbdc52f6e210c3329ff69167b:modules/nf-core/picard/mergesamfiles/main.nf",
+      "original_sha256": "1a641dae1a340b9a7727ac8f1b91d944b990912f7aa881286f5f0421c65b9cac",
+      "public_sha256": "1a641dae1a340b9a7727ac8f1b91d944b990912f7aa881286f5f0421c65b9cac",
+      "original_bytes": 2078,
+      "public_bytes": 2078,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {},
+      "captured_from_revision": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+      "matches_execution_receipt_sha256": "1a641dae1a340b9a7727ac8f1b91d944b990912f7aa881286f5f0421c65b9cac"
+    },
+    "source-capture/chromap-baseline/modules/nf-core/picard/markduplicates/main.nf": {
+      "source_locator": "git:4177ea95c56e15fdbdc52f6e210c3329ff69167b:modules/nf-core/picard/markduplicates/main.nf",
+      "original_sha256": "5a81db4b74c50d891dce6c677df03842a76d4df8e4ed1637ae32dadaad18827e",
+      "public_sha256": "5a81db4b74c50d891dce6c677df03842a76d4df8e4ed1637ae32dadaad18827e",
+      "original_bytes": 2439,
+      "public_bytes": 2439,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {},
+      "captured_from_revision": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+      "matches_execution_receipt_sha256": "5a81db4b74c50d891dce6c677df03842a76d4df8e4ed1637ae32dadaad18827e"
+    },
+    "source-capture/chromap-proposed/workflows/atacseq.nf": {
+      "source_locator": "git:a9b588235e4a1ceb3c8838acad430628c5737c86:workflows/atacseq.nf",
+      "original_sha256": "f4885c36d4b28d11933ea72ec8445450e73061245aba4a32978eb830b1d7caee",
+      "public_sha256": "f4885c36d4b28d11933ea72ec8445450e73061245aba4a32978eb830b1d7caee",
+      "original_bytes": 33365,
+      "public_bytes": 33365,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {},
+      "captured_from_revision": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "matches_execution_receipt_sha256": "f4885c36d4b28d11933ea72ec8445450e73061245aba4a32978eb830b1d7caee"
+    },
+    "source-capture/chromap-proposed/conf/modules.config": {
+      "source_locator": "git:a9b588235e4a1ceb3c8838acad430628c5737c86:conf/modules.config",
+      "original_sha256": "3cc3a56fd6ed88b57c52fbfd9f4b9c5a3e79d57866f314ad408fbc4d7835e3a3",
+      "public_sha256": "3cc3a56fd6ed88b57c52fbfd9f4b9c5a3e79d57866f314ad408fbc4d7835e3a3",
+      "original_bytes": 40675,
+      "public_bytes": 40675,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {},
+      "captured_from_revision": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "matches_execution_receipt_sha256": "3cc3a56fd6ed88b57c52fbfd9f4b9c5a3e79d57866f314ad408fbc4d7835e3a3"
+    },
+    "source-capture/chromap-proposed/modules/nf-core/picard/mergesamfiles/main.nf": {
+      "source_locator": "git:a9b588235e4a1ceb3c8838acad430628c5737c86:modules/nf-core/picard/mergesamfiles/main.nf",
+      "original_sha256": "a270787eada61691082396aafc2ef136bf67fcada26d573fe94e5da506fd54d4",
+      "public_sha256": "a270787eada61691082396aafc2ef136bf67fcada26d573fe94e5da506fd54d4",
+      "original_bytes": 1636,
+      "public_bytes": 1636,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {},
+      "captured_from_revision": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "matches_execution_receipt_sha256": "a270787eada61691082396aafc2ef136bf67fcada26d573fe94e5da506fd54d4"
+    },
+    "source-capture/chromap-proposed/modules/nf-core/picard/markduplicates/main.nf": {
+      "source_locator": "git:a9b588235e4a1ceb3c8838acad430628c5737c86:modules/nf-core/picard/markduplicates/main.nf",
+      "original_sha256": "9758b5da19ac0d1a4c2929e1e813c004eaebf79431ae03c4e27c1115d68d69b4",
+      "public_sha256": "9758b5da19ac0d1a4c2929e1e813c004eaebf79431ae03c4e27c1115d68d69b4",
+      "original_bytes": 2308,
+      "public_bytes": 2308,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {},
+      "captured_from_revision": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "matches_execution_receipt_sha256": "9758b5da19ac0d1a4c2929e1e813c004eaebf79431ae03c4e27c1115d68d69b4"
+    },
+    "source-capture/chromap-proposed/modules/nf-core/picard/addorreplacereadgroups/main.nf": {
+      "source_locator": "git:a9b588235e4a1ceb3c8838acad430628c5737c86:modules/nf-core/picard/addorreplacereadgroups/main.nf",
+      "original_sha256": "0c92170c98cd135be85a8da50b18267858575b33bbb8a18232e816ae26e45466",
+      "public_sha256": "0c92170c98cd135be85a8da50b18267858575b33bbb8a18232e816ae26e45466",
+      "original_bytes": 2165,
+      "public_bytes": 2165,
+      "transformation": {
+        "kind": "text-path-normalization"
+      },
+      "replacement_counts": {},
+      "captured_from_revision": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "matches_execution_receipt_sha256": "0c92170c98cd135be85a8da50b18267858575b33bbb8a18232e816ae26e45466"
+    },
+    "README.md": {
+      "source_locator": "generated export documentation/check or mapping derived from recorded receipts",
+      "original_sha256": null,
+      "public_sha256": "f7006e2d46757f86e332eac3fd8e93fde5b5407a3fe6659fc1a429f2de9e15a2",
+      "original_bytes": null,
+      "public_bytes": 5270,
+      "transformation": {
+        "kind": "generated-export-file"
+      },
+      "replacement_counts": {}
+    },
+    "verify_public.py": {
+      "source_locator": "generated export documentation/check or mapping derived from recorded receipts",
+      "original_sha256": null,
+      "public_sha256": "c10d0375ec61a219849ef9ca509a19b498ba8d19da523263fdd0bae124a64c7b",
+      "original_bytes": null,
+      "public_bytes": 8322,
+      "transformation": {
+        "kind": "generated-export-file"
+      },
+      "replacement_counts": {}
+    },
+    "SOURCE-CAPTURE-MAP.json": {
+      "source_locator": "generated export documentation/check or mapping derived from recorded receipts",
+      "original_sha256": null,
+      "public_sha256": "824cd8b4250a0ce0a37ea24571b2621778346ee2e94f9e0824ef2dd81de650a0",
+      "original_bytes": null,
+      "public_bytes": 4273,
+      "transformation": {
+        "kind": "generated-export-file"
+      },
+      "replacement_counts": {}
+    },
+    "ARTIFACT-ALIASES.json": {
+      "source_locator": "generated export documentation/check or mapping derived from recorded receipts",
+      "original_sha256": null,
+      "public_sha256": "cfbac334a14ff81ec782454d34b4163a84c0d449f4539173b30ee48714b47fa1",
+      "original_bytes": null,
+      "public_bytes": 3483,
+      "transformation": {
+        "kind": "generated-export-file"
+      },
+      "replacement_counts": {}
+    }
+  },
+  "source_capture_map": "SOURCE-CAPTURE-MAP.json",
+  "transform_rules": [
+    {
+      "id": "validation_root",
+      "source_prefix_class": "validation_root",
+      "public_prefix": "${VALIDATION_ROOT}"
+    },
+    {
+      "id": "validation_root_legacy",
+      "source_prefix_class": "validation_root_legacy",
+      "public_prefix": "${VALIDATION_ROOT}"
+    },
+    {
+      "id": "worktree_root",
+      "source_prefix_class": "worktree_root",
+      "public_prefix": "${WORKTREE_ROOT}"
+    },
+    {
+      "id": "worktree_root_legacy",
+      "source_prefix_class": "worktree_root_legacy",
+      "public_prefix": "${WORKTREE_ROOT}"
+    },
+    {
+      "id": "agent_nextflow",
+      "source_prefix_class": "agent_nextflow",
+      "public_prefix": "${AGENT_NEXTFLOW}"
+    },
+    {
+      "id": "development_root",
+      "source_prefix_class": "development_root",
+      "public_prefix": "${DEV_ROOT}"
+    },
+    {
+      "id": "home_root",
+      "source_prefix_class": "home_root",
+      "public_prefix": "${HOME}"
+    },
+    {
+      "id": "private_temporary_root",
+      "source_prefix_class": "private_temporary_root",
+      "public_prefix": "${TMP}"
+    },
+    {
+      "id": "bucket_prefix",
+      "public_prefix": "s3://${BUCKET}/"
+    }
+  ],
+  "preservation": [
+    "FASTQ gzip bytes unchanged",
+    "SAM fixture bytes unchanged unless a local path is present",
+    "BAM bytes after the text header unchanged; headers normalized and BGZF reencoded",
+    "JSON nonstring values and object keys unchanged",
+    "Scientific numeric values and sequence/quality/alignment records unchanged"
+  ],
+  "excluded": [
+    "Nextflow/cache/tool binaries",
+    "execution environment files and .command.run wrappers",
+    "framework logs",
+    "FastQC HTML/ZIP companions",
+    "symlink copies and duplicate work inputs/outputs",
+    "private control-plane or model records"
+  ],
+  "scope": "Frozen inspection/export of existing synthetic targeted proofs, not new biological or scientific execution",
+  "author": "This is written by GPT-6 (Codex) on Nico DeVeaux's behalf.",
+  "total_public_file_bytes_excluding_manifest": 513991
+}

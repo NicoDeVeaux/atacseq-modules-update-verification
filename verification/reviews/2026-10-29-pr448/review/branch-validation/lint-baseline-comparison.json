@@ -1,0 +1,113 @@
+{
+  "baseline": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+  "same_failures": true,
+  "baseline_exit_code": 1,
+  "baseline_failed": [
+    [
+      "files_unchanged",
+      "`.github/PULL_REQUEST_TEMPLATE.md` does not match the template"
+    ],
+    [
+      "files_unchanged",
+      "`.github/workflows/branch.yml` does not match the template"
+    ],
+    [
+      "files_unchanged",
+      "`.github/workflows/linting.yml` does not match the template"
+    ],
+    [
+      "files_unchanged",
+      "`assets/nf-core-atacseq_logo_light.png` does not match the template"
+    ],
+    [
+      "files_unchanged",
+      "`docs/images/nf-core-atacseq_logo_light.png` does not match the template"
+    ],
+    [
+      "container_configs",
+      "`conf/containers_conda_lock_files_amd64.config` is out of date \u2013 please regenerate the container configuration files."
+    ],
+    [
+      "container_configs",
+      "`conf/containers_conda_lock_files_arm64.config` is out of date \u2013 please regenerate the container configuration files."
+    ],
+    [
+      "container_configs",
+      "`conf/containers_docker_amd64.config` is out of date \u2013 please regenerate the container configuration files."
+    ],
+    [
+      "container_configs",
+      "`conf/containers_docker_arm64.config` is out of date \u2013 please regenerate the container configuration files."
+    ],
+    [
+      "container_configs",
+      "`conf/containers_singularity_https_amd64.config` is out of date \u2013 please regenerate the container configuration files."
+    ],
+    [
+      "container_configs",
+      "`conf/containers_singularity_https_arm64.config` is out of date \u2013 please regenerate the container configuration files."
+    ],
+    [
+      "container_configs",
+      "`conf/containers_singularity_oras_amd64.config` is out of date \u2013 please regenerate the container configuration files."
+    ],
+    [
+      "container_configs",
+      "`conf/containers_singularity_oras_arm64.config` is out of date \u2013 please regenerate the container configuration files."
+    ]
+  ],
+  "current_failed": [
+    [
+      "files_unchanged",
+      "`.github/PULL_REQUEST_TEMPLATE.md` does not match the template"
+    ],
+    [
+      "files_unchanged",
+      "`.github/workflows/branch.yml` does not match the template"
+    ],
+    [
+      "files_unchanged",
+      "`.github/workflows/linting.yml` does not match the template"
+    ],
+    [
+      "files_unchanged",
+      "`assets/nf-core-atacseq_logo_light.png` does not match the template"
+    ],
+    [
+      "files_unchanged",
+      "`docs/images/nf-core-atacseq_logo_light.png` does not match the template"
+    ],
+    [
+      "container_configs",
+      "`conf/containers_conda_lock_files_amd64.config` is out of date \u2013 please regenerate the container configuration files."
+    ],
+    [
+      "container_configs",
+      "`conf/containers_conda_lock_files_arm64.config` is out of date \u2013 please regenerate the container configuration files."
+    ],
+    [
+      "container_configs",
+      "`conf/containers_docker_amd64.config` is out of date \u2013 please regenerate the container configuration files."
+    ],
+    [
+      "container_configs",
+      "`conf/containers_docker_arm64.config` is out of date \u2013 please regenerate the container configuration files."
+    ],
+    [
+      "container_configs",
+      "`conf/containers_singularity_https_amd64.config` is out of date \u2013 please regenerate the container configuration files."
+    ],
+    [
+      "container_configs",
+      "`conf/containers_singularity_https_arm64.config` is out of date \u2013 please regenerate the container configuration files."
+    ],
+    [
+      "container_configs",
+      "`conf/containers_singularity_oras_amd64.config` is out of date \u2013 please regenerate the container configuration files."
+    ],
+    [
+      "container_configs",
+      "`conf/containers_singularity_oras_arm64.config` is out of date \u2013 please regenerate the container configuration files."
+    ]
+  ]
+}

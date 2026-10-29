@@ -1,0 +1,201 @@
+{
+  "schema": "nf-verify/pr448-human-macs-same-input/v1",
+  "source": {
+    "case": "pr448-hiv-bwa-fixed-a9b588",
+    "source_workflow_id": "BVYqNpYNcUhEN",
+    "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+    "source_relative_path": "bwa/merged_library/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam",
+    "source_inventory_sha256": "a49545a98be0db7067d75a54ce7cbe8fc07c0acc82147448d820ac862ea2b778",
+    "bytes": 285036036,
+    "source_etag": "\"59c973d41fe8c9bdeb96614044c53193-34\"",
+    "sha256": "eade69e402e2510939dc047d4754dc4d1372d52e2f87d973df5ff9cca11797cc",
+    "all_ranges_content_range_content_length_etag_verified": true,
+    "range_requests": 34,
+    "finished_source_live_identity_status_verified": "SUCCEEDED",
+    "signed_url_persisted": false,
+    "elapsed_seconds": 51.025475958
+  },
+  "archived_source": {
+    "case": "pr448-hiv-bwa-fixed-a9b588",
+    "workflow_id": "BVYqNpYNcUhEN",
+    "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+    "source_task_id": 101,
+    "capture_manifest_sha256": "d7ca13163de03b2e35fcce9bb885d331b04fc5bc5dc325c548e8a169b5289291",
+    "task_command_sha256": "3cd9e523d4c49c974737d394f29b987a65dd8f20bcabfe2c39e02250cd1da9be",
+    "outputs": [
+      {
+        "source_path": "published/bwa/merged_library/macs3/broad_peak/HIV_CD86HI_48H_REP1.mLb.clN_peaks.broadPeak",
+        "sha256": "d724a83de39f24bc7997070143e6ee7375cc8b1cd18f13da4612aadb1d48156c",
+        "bytes": 2777840,
+        "archived_original_hash_verified": true
+      },
+      {
+        "source_path": "published/bwa/merged_library/macs3/broad_peak/HIV_CD86HI_48H_REP1.mLb.clN_peaks.gappedPeak",
+        "sha256": "6f7ad8006da79c4b5516a2947775543d8266b0100b335c26b4a87fa6da50bff4",
+        "bytes": 3297541,
+        "archived_original_hash_verified": true
+      },
+      {
+        "source_path": "published/bwa/merged_library/macs3/broad_peak/HIV_CD86HI_48H_REP1.mLb.clN_peaks.xls",
+        "sha256": "9c3d009b753eb8903bba285db454e262234fca287712dc982a8800c6e9548549",
+        "bytes": 2891072,
+        "archived_original_hash_verified": true
+      },
+      {
+        "source_path": "published/bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam.flagstat",
+        "sha256": "2ec80cf8b1aed5988f9c0d34587fe5647c87eeb3782f04f29f34048e902bb641",
+        "bytes": 510,
+        "archived_original_hash_verified": true
+      }
+    ]
+  },
+  "emitted_input_fragments": {
+    "3.0.1": 2569317,
+    "3.0.4": 2569317
+  },
+  "archived_clean_bam_flagstat_total_records": 5214522,
+  "archived_clean_bam_flagstat_properly_paired_records": 5138634,
+  "same_scientific_argv": true,
+  "comparisons": {
+    "old_vs_new": {
+      "broadPeak": {
+        "left_rows": 30438,
+        "right_rows": 30438,
+        "ordered_rows_exact": true,
+        "coordinate_sets_exact": true,
+        "shared_coordinate_rows": 30438,
+        "changed_shared_rows": 0,
+        "changed_cells_by_column": {},
+        "changed_shared_rows_excluding_selected_columns": 0,
+        "excluded_columns": [],
+        "all_fields_exact": true,
+        "all_nonexcluded_fields_exact": true,
+        "left_only_rows": 0,
+        "right_only_rows": 0,
+        "complete_differences_file": "differences/old_vs_new-broadPeak.json"
+      },
+      "gappedPeak": {
+        "left_rows": 30438,
+        "right_rows": 30438,
+        "ordered_rows_exact": false,
+        "coordinate_sets_exact": true,
+        "shared_coordinate_rows": 30438,
+        "changed_shared_rows": 30438,
+        "changed_cells_by_column": {
+          "7": 30438,
+          "8": 30438
+        },
+        "changed_shared_rows_excluding_selected_columns": 0,
+        "excluded_columns": [
+          7,
+          8
+        ],
+        "all_fields_exact": false,
+        "all_nonexcluded_fields_exact": true,
+        "left_only_rows": 0,
+        "right_only_rows": 0,
+        "complete_differences_file": "differences/old_vs_new-gappedPeak.json"
+      },
+      "xls": {
+        "left_rows": 30438,
+        "right_rows": 30438,
+        "ordered_rows_exact": true,
+        "coordinate_sets_exact": true,
+        "shared_coordinate_rows": 30438,
+        "changed_shared_rows": 0,
+        "changed_cells_by_column": {},
+        "changed_shared_rows_excluding_selected_columns": 0,
+        "excluded_columns": [],
+        "all_fields_exact": true,
+        "all_nonexcluded_fields_exact": true,
+        "header": [
+          "chr",
+          "start",
+          "end",
+          "length",
+          "pileup",
+          "-log10(pvalue)",
+          "fold_enrichment",
+          "-log10(qvalue)",
+          "name"
+        ],
+        "left_only_rows": 0,
+        "right_only_rows": 0,
+        "complete_differences_file": "differences/old_vs_new-xls.json",
+        "all_noncomment_rows_exact": true
+      }
+    },
+    "new_vs_archived_cloud": {
+      "broadPeak": {
+        "left_rows": 30438,
+        "right_rows": 30438,
+        "ordered_rows_exact": true,
+        "coordinate_sets_exact": true,
+        "shared_coordinate_rows": 30438,
+        "changed_shared_rows": 0,
+        "changed_cells_by_column": {},
+        "changed_shared_rows_excluding_selected_columns": 0,
+        "excluded_columns": [],
+        "all_fields_exact": true,
+        "all_nonexcluded_fields_exact": true,
+        "left_only_rows": 0,
+        "right_only_rows": 0,
+        "complete_differences_file": "differences/new_vs_archived_cloud-broadPeak.json"
+      },
+      "gappedPeak": {
+        "left_rows": 30438,
+        "right_rows": 30438,
+        "ordered_rows_exact": true,
+        "coordinate_sets_exact": true,
+        "shared_coordinate_rows": 30438,
+        "changed_shared_rows": 0,
+        "changed_cells_by_column": {},
+        "changed_shared_rows_excluding_selected_columns": 0,
+        "excluded_columns": [
+          7,
+          8
+        ],
+        "all_fields_exact": true,
+        "all_nonexcluded_fields_exact": true,
+        "left_only_rows": 0,
+        "right_only_rows": 0,
+        "complete_differences_file": "differences/new_vs_archived_cloud-gappedPeak.json"
+      },
+      "xls": {
+        "left_rows": 30438,
+        "right_rows": 30438,
+        "ordered_rows_exact": true,
+        "coordinate_sets_exact": true,
+        "shared_coordinate_rows": 30438,
+        "changed_shared_rows": 0,
+        "changed_cells_by_column": {},
+        "changed_shared_rows_excluding_selected_columns": 0,
+        "excluded_columns": [],
+        "all_fields_exact": true,
+        "all_nonexcluded_fields_exact": true,
+        "header": [
+          "chr",
+          "start",
+          "end",
+          "length",
+          "pileup",
+          "-log10(pvalue)",
+          "fold_enrichment",
+          "-log10(qvalue)",
+          "name"
+        ],
+        "left_only_rows": 0,
+        "right_only_rows": 0,
+        "complete_differences_file": "differences/new_vs_archived_cloud-xls.json",
+        "all_noncomment_rows_exact": true
+      }
+    }
+  },
+  "invalid_first_attempt_excluded": "attempt-64MiB/INVALID.json",
+  "scope_limits": [
+    "One full cleaned paired-end human library, default broad mode, no control.",
+    "Equality refers to emitted fields; internal floating-point values below output precision were not inspected.",
+    "No narrow, single-end, control, parameter sweep, biological equivalence or full-pipeline rerun claim.",
+    "Inputs are fixed-BWAa9b588 results, not a pre448 pipeline execution."
+  ]
+}

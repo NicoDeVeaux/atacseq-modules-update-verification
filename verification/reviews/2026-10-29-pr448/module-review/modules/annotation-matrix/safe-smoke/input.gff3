@@ -1,0 +1,4 @@
+##gff-version 3
+chr1	fixture	mRNA	101	300	0.125	+	.	ID=tx1;gene_id=gene1;Note=public_synthetic_control
+chr1	fixture	exon	101	150	.	+	.	Parent=tx1
+chr1	fixture	exon	201	300	.	+	.	Parent=tx1

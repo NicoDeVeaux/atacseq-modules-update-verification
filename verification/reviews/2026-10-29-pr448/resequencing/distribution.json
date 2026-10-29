@@ -1,0 +1,46 @@
+{
+  "archive": "pr448-resequencing-control.tar.gz",
+  "archive_bytes": 431843357,
+  "archive_sha256": "03a1b1268bbf3b499afe07f514e13e940afaa3694c9354b126846bd7147af53f",
+  "archive_is_staging_only": true,
+  "parts": 10,
+  "part_limit_bytes": 45088768,
+  "source_files": 4565,
+  "directories": 1140,
+  "total_members": 5705,
+  "source_unpacked_file_bytes": 617688616,
+  "source_ARTIFACTS_sha256": "65bbe55339efacb56e17ec110a950f7c471dac9d3426222459fe5600a65e391a",
+  "all_source_files_preserved": true,
+  "deterministic_second_encoding_sha256": "03a1b1268bbf3b499afe07f514e13e940afaa3694c9354b126846bd7147af53f",
+  "gzip": {
+    "level": 9,
+    "mtime": 0,
+    "filename": ""
+  },
+  "tar": {
+    "format": "PAX",
+    "mtime": 0,
+    "uid": 0,
+    "gid": 0,
+    "owner_names": "empty",
+    "safe_modes": [
+      "0644",
+      "0755"
+    ],
+    "symlinks": 0
+  },
+  "producer": {
+    "python": "3.9.6",
+    "zlib_compile": "1.2.12",
+    "zlib_runtime": "1.2.12"
+  },
+  "prior_public_content_checks": {
+    "source_snapshot_unchanged": true,
+    "raw_private_CoScientist_and_B1_material_excluded": true,
+    "private_home_and_staging_path_check": "passed in source package; no new payload files introduced",
+    "compressed_MultiQC_payloads_checked": 3,
+    "source_offline_validation_sha256": "a9aa7b8e2b06032b3ce8aa94f37f5770bdc3d0ddc70dc70dcdfa2b733f7d6383"
+  },
+  "remote_publication": "none",
+  "scientific_runs": 0
+}

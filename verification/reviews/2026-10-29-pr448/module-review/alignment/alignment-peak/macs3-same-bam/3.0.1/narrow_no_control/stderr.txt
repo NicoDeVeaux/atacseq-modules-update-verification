@@ -1,0 +1,34 @@
+INFO  @ 29 Oct 2026 09:29:17: [64 MB] 
+# Command line: callpeak --keep-dup all --nomodel --gsize 11777680 --format BAMPE --name controlled --treatment /input/D28P_REP1.mLb.clN.sorted.bam
+# ARGUMENTS LIST:
+# name = controlled
+# format = BAMPE
+# ChIP-seq file = ['/input/D28P_REP1.mLb.clN.sorted.bam']
+# control file = None
+# effective genome size = 1.18e+07
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ 29 Oct 2026 09:29:17: [64 MB] #1 read fragment files... 
+INFO  @ 29 Oct 2026 09:29:17: [64 MB] #1 read treatment fragments... 
+INFO  @ 29 Oct 2026 09:29:18: [94 MB] 283754 fragments have been read. 
+INFO  @ 29 Oct 2026 09:29:18: [94 MB] #1 mean fragment size is determined as 186.1 bp from treatment 
+INFO  @ 29 Oct 2026 09:29:18: [94 MB] #1 fragment size = 186.1 
+INFO  @ 29 Oct 2026 09:29:18: [94 MB] #1  total fragments in treatment: 283754 
+INFO  @ 29 Oct 2026 09:29:18: [94 MB] #1 finished! 
+INFO  @ 29 Oct 2026 09:29:18: [94 MB] #2 Build Peak Model... 
+INFO  @ 29 Oct 2026 09:29:18: [94 MB] #2 Skipped... 
+INFO  @ 29 Oct 2026 09:29:18: [94 MB] #3 Call peaks... 
+INFO  @ 29 Oct 2026 09:29:18: [94 MB] #3 Pre-compute pvalue-qvalue table... 
+INFO  @ 29 Oct 2026 09:29:18: [94 MB] #3 Call peaks for each chromosome... 
+INFO  @ 29 Oct 2026 09:29:19: [94 MB] #4 Write output xls file... controlled_peaks.xls 
+INFO  @ 29 Oct 2026 09:29:19: [94 MB] #4 Write peak in narrowPeak format file... controlled_peaks.narrowPeak 
+INFO  @ 29 Oct 2026 09:29:19: [94 MB] #4 Write summits bed file... controlled_summits.bed 
+INFO  @ 29 Oct 2026 09:29:19: [94 MB] Done! 

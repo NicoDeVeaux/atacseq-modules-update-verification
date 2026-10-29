@@ -1,0 +1,3691 @@
+{
+  "repository": "https://github.com/nf-core/modules",
+  "pinned_master": "a582d5633f7df32396681ef4458068e2b509ca91",
+  "pipeline_repository": "https://github.com/nf-core/atacseq",
+  "pipeline_pr": 448,
+  "pipeline_base": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+  "pipeline_merge": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+  "scope": "Every modules/nf-core path changed by PR448, bounded by the exact declared post-merge installed git_sha. Removed module recorded explicitly. No tests or module sync performed.",
+  "modules": [
+    {
+      "name": "ataqv/ataqv",
+      "path": "modules/nf-core/ataqv/ataqv",
+      "status": "retained",
+      "base_installed_sha": "11c7e5b3073845889060c793786bf3177275d62e",
+      "installed_sha": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/ataqv/ataqv/environment.yml",
+        "modules/nf-core/ataqv/ataqv/main.nf",
+        "modules/nf-core/ataqv/ataqv/meta.yml",
+        "modules/nf-core/ataqv/ataqv/tests/main.nf.test",
+        "modules/nf-core/ataqv/ataqv/tests/main.nf.test.snap",
+        "modules/nf-core/ataqv/ataqv/tests/nextflow.config"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "2dbb95ea16879134c023d4db6d1e57145345cc55",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "2dbb95ea16879134c023d4db6d1e57145345cc55",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "31a1d49df1f5aa070734ea55399bc82143a171d3",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 2,
+      "subsequent_runtime_commit_count": 2,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/ataqv/ataqv/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/ataqv/ataqv/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "5909fc046b4b2062e4b4173808aacd2424e0866a",
+          "date": "2026-06-23T14:06:41+02:00",
+          "subject": "Remove `echo` usage in topic evaluation (#12112)",
+          "commit_url": "https://github.com/nf-core/modules/commit/5909fc046b4b2062e4b4173808aacd2424e0866a",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12112"
+          ],
+          "files": [
+            "modules/nf-core/ataqv/ataqv/main.nf",
+            "modules/nf-core/ataqv/ataqv/meta.yml"
+          ],
+          "runtime_files": [
+            "modules/nf-core/ataqv/ataqv/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "module-provenance-fix",
+          "diff_review": "ATAQV and mkarv version queries now capture stderr and tolerate a non-zero version-query exit, removing echo/command substitution. Computational commands unchanged.",
+          "pipeline_applicability": "Software-version provenance only; no numerical effect established.",
+          "committer_date": "2026-06-23T12:06:41Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": true,
+          "postdates_pr448_merge": false,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": false
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "ataqv/mkarv",
+      "path": "modules/nf-core/ataqv/mkarv",
+      "status": "retained",
+      "base_installed_sha": "11c7e5b3073845889060c793786bf3177275d62e",
+      "installed_sha": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/ataqv/mkarv/environment.yml",
+        "modules/nf-core/ataqv/mkarv/main.nf",
+        "modules/nf-core/ataqv/mkarv/meta.yml",
+        "modules/nf-core/ataqv/mkarv/tests/main.nf.test",
+        "modules/nf-core/ataqv/mkarv/tests/main.nf.test.snap"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "a26c111e7b8210d4952fbbc805228458154e56d7",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "a26c111e7b8210d4952fbbc805228458154e56d7",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "6081319075c623583b800b22b86e79572cc74c01",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 2,
+      "subsequent_runtime_commit_count": 2,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/ataqv/mkarv/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/ataqv/mkarv/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "5909fc046b4b2062e4b4173808aacd2424e0866a",
+          "date": "2026-06-23T14:06:41+02:00",
+          "subject": "Remove `echo` usage in topic evaluation (#12112)",
+          "commit_url": "https://github.com/nf-core/modules/commit/5909fc046b4b2062e4b4173808aacd2424e0866a",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12112"
+          ],
+          "files": [
+            "modules/nf-core/ataqv/mkarv/main.nf",
+            "modules/nf-core/ataqv/mkarv/meta.yml"
+          ],
+          "runtime_files": [
+            "modules/nf-core/ataqv/mkarv/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "module-provenance-fix",
+          "diff_review": "ATAQV and mkarv version queries now capture stderr and tolerate a non-zero version-query exit, removing echo/command substitution. Computational commands unchanged.",
+          "pipeline_applicability": "Software-version provenance only; no numerical effect established.",
+          "committer_date": "2026-06-23T12:06:41Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": true,
+          "postdates_pr448_merge": false,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": false
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "bowtie2/align",
+      "path": "modules/nf-core/bowtie2/align",
+      "status": "retained",
+      "base_installed_sha": "0fe30831abbc2ed115e46e92330edf38f56edc3d",
+      "installed_sha": "a0961c41021561ac7cf139f86bd7812a2f99e994",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/bowtie2/align/environment.yml",
+        "modules/nf-core/bowtie2/align/main.nf",
+        "modules/nf-core/bowtie2/align/meta.yml",
+        "modules/nf-core/bowtie2/align/tests/large_index.config",
+        "modules/nf-core/bowtie2/align/tests/main.nf.test",
+        "modules/nf-core/bowtie2/align/tests/main.nf.test.snap",
+        "modules/nf-core/bowtie2/align/tests/sam.config",
+        "modules/nf-core/bowtie2/align/tests/sam2.config",
+        "modules/nf-core/bowtie2/align/tests/tags.yml"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "9be0dfeeef186d2535bbefa5b894ae78fa6dede1",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "9be0dfeeef186d2535bbefa5b894ae78fa6dede1",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "69090dd9199e524283ac693709426580f3752dfb",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 4,
+      "subsequent_runtime_commit_count": 2,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/bowtie2/align/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/bowtie2/align/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "8278e3c8a48427f7c26754128eba4907b8318878",
+          "date": "2026-10-20T06:49:17Z",
+          "subject": "Bump bowtie2 to 2.5.5 (#13417)",
+          "commit_url": "https://github.com/nf-core/modules/commit/8278e3c8a48427f7c26754128eba4907b8318878",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13417"
+          ],
+          "files": [
+            "modules/nf-core/bowtie2/align/.conda-lock/linux_amd64-bd-dbd18842ad7cb278_1.txt",
+            "modules/nf-core/bowtie2/align/.conda-lock/linux_arm64-bd-9f290da29567318c_1.txt",
+            "modules/nf-core/bowtie2/align/environment.yml",
+            "modules/nf-core/bowtie2/align/main.nf",
+            "modules/nf-core/bowtie2/align/meta.yml",
+            "modules/nf-core/bowtie2/align/tests/main.nf.test.snap"
+          ],
+          "runtime_files": [
+            "modules/nf-core/bowtie2/align/.conda-lock/linux_amd64-bd-dbd18842ad7cb278_1.txt",
+            "modules/nf-core/bowtie2/align/.conda-lock/linux_arm64-bd-9f290da29567318c_1.txt",
+            "modules/nf-core/bowtie2/align/environment.yml",
+            "modules/nf-core/bowtie2/align/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "tool-version-bump",
+          "diff_review": "Bowtie2 align/build move 2.5.4 to 2.5.5, also upgrading bundled htslib/samtools 1.21 to 1.24; commands unchanged.",
+          "pipeline_applicability": "Underlying tool fixes need separate release review.",
+          "committer_date": "2026-10-20T06:49:17Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        },
+        {
+          "sha": "2080397432fcb0d079121dbacf22ce42ef175cec",
+          "date": "2026-07-28T12:45:12+02:00",
+          "subject": "re-enable prek not just skipping over all files (#12403)",
+          "commit_url": "https://github.com/nf-core/modules/commit/2080397432fcb0d079121dbacf22ce42ef175cec",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12403"
+          ],
+          "files": [
+            "modules/nf-core/bowtie2/align/tests/main.nf.test"
+          ],
+          "runtime_files": [],
+          "explicit_fix_keyword": false,
+          "classification": "metadata-formatting-only",
+          "diff_review": "Bowtie2 align meta.yml formatting changes; runtime files do not.",
+          "pipeline_applicability": "Not a production module correction.",
+          "committer_date": "2026-07-28T12:45:12+02:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": false,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "0cd85f32cf1a1828205b16e4267277ba9457570b",
+          "date": "2026-07-15T10:16:26+02:00",
+          "subject": "updated test evaluation strategy - check for files and statistics, instead of getREADs using the nf-bam plugin to avoid linting conflicts. (#12348)",
+          "commit_url": "https://github.com/nf-core/modules/commit/0cd85f32cf1a1828205b16e4267277ba9457570b",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12348"
+          ],
+          "files": [
+            "modules/nf-core/bowtie2/align/tests/bam.config",
+            "modules/nf-core/bowtie2/align/tests/large_index.config",
+            "modules/nf-core/bowtie2/align/tests/main.nf.test",
+            "modules/nf-core/bowtie2/align/tests/main.nf.test.snap"
+          ],
+          "runtime_files": [],
+          "explicit_fix_keyword": false,
+          "classification": "tests-only",
+          "diff_review": "Bowtie2 align test assertions, fixtures and test configurations change; runtime files do not.",
+          "pipeline_applicability": "Not a production module correction.",
+          "committer_date": "2026-07-15T08:16:26Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": false,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": false
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "bowtie2/build",
+      "path": "modules/nf-core/bowtie2/build",
+      "status": "retained",
+      "base_installed_sha": "6a24fbe314bb2e6fe6306c29a63076ea87e8eb3c",
+      "installed_sha": "a0961c41021561ac7cf139f86bd7812a2f99e994",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/bowtie2/build/environment.yml",
+        "modules/nf-core/bowtie2/build/main.nf",
+        "modules/nf-core/bowtie2/build/meta.yml",
+        "modules/nf-core/bowtie2/build/tests/main.nf.test",
+        "modules/nf-core/bowtie2/build/tests/main.nf.test.snap"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "ee4b14f983e2f7b545b12673f51e294bd18cb5c8",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "ee4b14f983e2f7b545b12673f51e294bd18cb5c8",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "6cf389c9d9937b5c9137101290ecfe8c069b7a65",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 2,
+      "subsequent_runtime_commit_count": 2,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/bowtie2/build/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/bowtie2/build/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "8278e3c8a48427f7c26754128eba4907b8318878",
+          "date": "2026-10-20T06:49:17Z",
+          "subject": "Bump bowtie2 to 2.5.5 (#13417)",
+          "commit_url": "https://github.com/nf-core/modules/commit/8278e3c8a48427f7c26754128eba4907b8318878",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13417"
+          ],
+          "files": [
+            "modules/nf-core/bowtie2/build/.conda-lock/linux_amd64-bd-dbd18842ad7cb278_1.txt",
+            "modules/nf-core/bowtie2/build/.conda-lock/linux_arm64-bd-9f290da29567318c_1.txt",
+            "modules/nf-core/bowtie2/build/environment.yml",
+            "modules/nf-core/bowtie2/build/main.nf",
+            "modules/nf-core/bowtie2/build/meta.yml",
+            "modules/nf-core/bowtie2/build/tests/main.nf.test.snap"
+          ],
+          "runtime_files": [
+            "modules/nf-core/bowtie2/build/.conda-lock/linux_amd64-bd-dbd18842ad7cb278_1.txt",
+            "modules/nf-core/bowtie2/build/.conda-lock/linux_arm64-bd-9f290da29567318c_1.txt",
+            "modules/nf-core/bowtie2/build/environment.yml",
+            "modules/nf-core/bowtie2/build/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "tool-version-bump",
+          "diff_review": "Bowtie2 align/build move 2.5.4 to 2.5.5, also upgrading bundled htslib/samtools 1.21 to 1.24; commands unchanged.",
+          "pipeline_applicability": "Underlying tool fixes need separate release review.",
+          "committer_date": "2026-10-20T06:49:17Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "bwa/index",
+      "path": "modules/nf-core/bwa/index",
+      "status": "retained",
+      "base_installed_sha": "baa9ee31e48f115832c8eb91a980bf35c9ffc9b9",
+      "installed_sha": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+      "declared_local_patch": "modules/nf-core/bwa/index/bwa-index.diff",
+      "pr448_changed_files": [
+        "modules/nf-core/bwa/index/bwa-index.diff",
+        "modules/nf-core/bwa/index/main.nf"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "a1c98acee618e50d054c16ba52ad60a1b7c8ca90",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "215a6f93ac778153a1ff12a4e12d098e926b08cf",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "6b2bf88c5fb7e514adf57c03831087fca9d24503",
+      "pipeline_main_matches_declared_install": false,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 1,
+      "subsequent_runtime_commit_count": 1,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/bwa/index/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/bwa/index/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true,
+      "local_main_delta_summary": "Local BWA index memory formula has a 1 GB floor/proportional adjustment."
+    },
+    {
+      "name": "bwa/mem",
+      "path": "modules/nf-core/bwa/mem",
+      "status": "retained",
+      "base_installed_sha": "b97197968ac12dde2463fa54541f6350c46f2035",
+      "installed_sha": "2fb127c8fd13de0adaa676df7169131e45c0b114",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/bwa/mem/environment.yml",
+        "modules/nf-core/bwa/mem/main.nf",
+        "modules/nf-core/bwa/mem/meta.yml",
+        "modules/nf-core/bwa/mem/tests/main.nf.test",
+        "modules/nf-core/bwa/mem/tests/main.nf.test.snap",
+        "modules/nf-core/bwa/mem/tests/nextflow_sam.config",
+        "modules/nf-core/bwa/mem/tests/tags.yml"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "bde6a9a334e8e1ea33a00c2b9ca3b123152a9043",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "bde6a9a334e8e1ea33a00c2b9ca3b123152a9043",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "ab1ebeb14c1ace35da1e2f43dd53f5fa9beeacda",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 1,
+      "subsequent_runtime_commit_count": 1,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/bwa/mem/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/bwa/mem/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "chromap/chromap",
+      "path": "modules/nf-core/chromap/chromap",
+      "status": "retained",
+      "base_installed_sha": "603ecbd9f45300c9788f197d2a15a005685b4220",
+      "installed_sha": "f2f969a4ee32243c7fab75f341f9be1dd3ce1a23",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/chromap/chromap/environment.yml",
+        "modules/nf-core/chromap/chromap/main.nf",
+        "modules/nf-core/chromap/chromap/meta.yml",
+        "modules/nf-core/chromap/chromap/tests/main.nf.test",
+        "modules/nf-core/chromap/chromap/tests/main.nf.test.snap",
+        "modules/nf-core/chromap/chromap/tests/nextflow.config"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "ec3b8eecf2da9f136a6a3ae78598c98e5e38a4e6",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "ec3b8eecf2da9f136a6a3ae78598c98e5e38a4e6",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "fc97bf50fa30f7280cddb99a56c3e83e8f0787c1",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 1,
+      "subsequent_runtime_commit_count": 1,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/chromap/chromap/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/chromap/chromap/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "chromap/index",
+      "path": "modules/nf-core/chromap/index",
+      "status": "retained",
+      "base_installed_sha": "911696ea0b62df80e900ef244d7867d177971f73",
+      "installed_sha": "f2f969a4ee32243c7fab75f341f9be1dd3ce1a23",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/chromap/index/environment.yml",
+        "modules/nf-core/chromap/index/main.nf",
+        "modules/nf-core/chromap/index/meta.yml",
+        "modules/nf-core/chromap/index/tests/main.nf.test",
+        "modules/nf-core/chromap/index/tests/main.nf.test.snap"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "666f8f11e3cbb5ffb04c6b9a8684e90632fe0632",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "666f8f11e3cbb5ffb04c6b9a8684e90632fe0632",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "bc19db4360d61bedbbb2fdd301c21478981e5a0c",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 1,
+      "subsequent_runtime_commit_count": 1,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/chromap/index/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/chromap/index/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "custom/getchromsizes",
+      "path": "modules/nf-core/custom/getchromsizes",
+      "status": "removed-in-pr448",
+      "base_installed_sha": "911696ea0b62df80e900ef244d7867d177971f73",
+      "installed_sha": null,
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/custom/getchromsizes/main.nf",
+        "modules/nf-core/custom/getchromsizes/meta.yml"
+      ],
+      "audit_status": "not-installed-after-pr448",
+      "subsequent_commit_count": null,
+      "subsequent_commits": [],
+      "note": "Removed in PR448; replaced by samtools/faidx. Not exposed in the merged module set.",
+      "inventory_status": "removed"
+    },
+    {
+      "name": "deeptools/alignmentsieve",
+      "path": "modules/nf-core/deeptools/alignmentsieve",
+      "status": "retained",
+      "base_installed_sha": "5c2ab5de7e8de33ac7cab83a4cd28a4d29a84049",
+      "installed_sha": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/deeptools/alignmentsieve/environment.yml",
+        "modules/nf-core/deeptools/alignmentsieve/main.nf",
+        "modules/nf-core/deeptools/alignmentsieve/meta.yml",
+        "modules/nf-core/deeptools/alignmentsieve/tests/main.nf.test",
+        "modules/nf-core/deeptools/alignmentsieve/tests/main.nf.test.snap",
+        "modules/nf-core/deeptools/alignmentsieve/tests/tags.yml"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "e536f29d63c39c7527a3ff415cbafcad33b03593",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "e536f29d63c39c7527a3ff415cbafcad33b03593",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "5fccfc585794d525297692f50c403028eda6930c",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 3,
+      "subsequent_runtime_commit_count": 2,
+      "explicit_fix_keyword_count": 1,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/deeptools/alignmentsieve/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/deeptools/alignmentsieve/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "e848c6b4ae9cef4ac56d7221278185ebb31fe322",
+          "date": "2026-10-16T06:55:44Z",
+          "subject": "Update deeptools to use Seqera Containers (#13257)",
+          "commit_url": "https://github.com/nf-core/modules/commit/e848c6b4ae9cef4ac56d7221278185ebb31fe322",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13257"
+          ],
+          "files": [
+            "modules/nf-core/deeptools/alignmentsieve/.conda-lock/linux_amd64-bd-22ef5f45259c4336_1.txt",
+            "modules/nf-core/deeptools/alignmentsieve/.conda-lock/linux_arm64-bd-880d1e7812674fd9_1.txt",
+            "modules/nf-core/deeptools/alignmentsieve/main.nf",
+            "modules/nf-core/deeptools/alignmentsieve/meta.yml"
+          ],
+          "runtime_files": [
+            "modules/nf-core/deeptools/alignmentsieve/.conda-lock/linux_amd64-bd-22ef5f45259c4336_1.txt",
+            "modules/nf-core/deeptools/alignmentsieve/.conda-lock/linux_arm64-bd-880d1e7812674fd9_1.txt",
+            "modules/nf-core/deeptools/alignmentsieve/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "container-maintenance",
+          "diff_review": "Five DeepTools wrappers change only container references in main.nf, retaining declared tool versions. Issue13256 is a migration task.",
+          "pipeline_applicability": "No processing-command change; a Fix-issue reference is not evidence of a calculation defect.",
+          "committer_date": "2026-10-16T06:55:44Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": true,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        },
+        {
+          "sha": "6ef220fd9252b42fb3c50348bbdbcb6246730686",
+          "date": "2026-09-04T14:23:17Z",
+          "subject": "fix: align meta.yml input/output with main.nf across all modules and subworkflows (#12882)",
+          "commit_url": "https://github.com/nf-core/modules/commit/6ef220fd9252b42fb3c50348bbdbcb6246730686",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12882"
+          ],
+          "files": [
+            "modules/nf-core/deeptools/alignmentsieve/meta.yml"
+          ],
+          "runtime_files": [],
+          "explicit_fix_keyword": true,
+          "classification": "documentation-only",
+          "diff_review": "Alignmentsieve/MACS3 meta.yml output order is aligned with main.nf; runtime channels/commands are unchanged.",
+          "pipeline_applicability": "Fix-labelled documentation change, not an execution fix for these components.",
+          "committer_date": "2026-09-04T14:23:17Z",
+          "fix_keyword_in_subject": true,
+          "fix_keyword_in_body": true,
+          "postdates_pr448_merge": false,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": false
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "deeptools/computematrix",
+      "path": "modules/nf-core/deeptools/computematrix",
+      "status": "retained",
+      "base_installed_sha": "41dfa3f7c0ffabb96a6a813fe321c6d1cc5b6e46",
+      "installed_sha": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/deeptools/computematrix/environment.yml",
+        "modules/nf-core/deeptools/computematrix/main.nf",
+        "modules/nf-core/deeptools/computematrix/meta.yml",
+        "modules/nf-core/deeptools/computematrix/tests/main.nf.test",
+        "modules/nf-core/deeptools/computematrix/tests/main.nf.test.snap",
+        "modules/nf-core/deeptools/computematrix/tests/nextflow.config"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "6007c793fc27a3c6cb32f59b6050653f75d76aa9",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "6007c793fc27a3c6cb32f59b6050653f75d76aa9",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "1c3d507fe246774c3ea3f98d75a46b4a43ad5f50",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 3,
+      "subsequent_runtime_commit_count": 3,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/deeptools/computematrix/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/deeptools/computematrix/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "e848c6b4ae9cef4ac56d7221278185ebb31fe322",
+          "date": "2026-10-16T06:55:44Z",
+          "subject": "Update deeptools to use Seqera Containers (#13257)",
+          "commit_url": "https://github.com/nf-core/modules/commit/e848c6b4ae9cef4ac56d7221278185ebb31fe322",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13257"
+          ],
+          "files": [
+            "modules/nf-core/deeptools/computematrix/.conda-lock/linux_amd64-bd-511a2b05870b9ec3_1.txt",
+            "modules/nf-core/deeptools/computematrix/.conda-lock/linux_arm64-bd-da17162234746484_1.txt",
+            "modules/nf-core/deeptools/computematrix/main.nf",
+            "modules/nf-core/deeptools/computematrix/meta.yml"
+          ],
+          "runtime_files": [
+            "modules/nf-core/deeptools/computematrix/.conda-lock/linux_amd64-bd-511a2b05870b9ec3_1.txt",
+            "modules/nf-core/deeptools/computematrix/.conda-lock/linux_arm64-bd-da17162234746484_1.txt",
+            "modules/nf-core/deeptools/computematrix/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "container-maintenance",
+          "diff_review": "Five DeepTools wrappers change only container references in main.nf, retaining declared tool versions. Issue13256 is a migration task.",
+          "pipeline_applicability": "No processing-command change; a Fix-issue reference is not evidence of a calculation defect.",
+          "committer_date": "2026-10-16T06:55:44Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": true,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        },
+        {
+          "sha": "50023bebcce2b70e17a4759add65fac5781bfa4f",
+          "date": "2026-10-04T16:34:49Z",
+          "subject": "Added blacklist as input - allows to skip regions overlapping with blacklist (#13082)",
+          "commit_url": "https://github.com/nf-core/modules/commit/50023bebcce2b70e17a4759add65fac5781bfa4f",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13082"
+          ],
+          "files": [
+            "modules/nf-core/deeptools/computematrix/main.nf",
+            "modules/nf-core/deeptools/computematrix/meta.yml",
+            "modules/nf-core/deeptools/computematrix/tests/main.nf.test",
+            "modules/nf-core/deeptools/computematrix/tests/main.nf.test.snap"
+          ],
+          "runtime_files": [
+            "modules/nf-core/deeptools/computematrix/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "module-feature-and-input-api-change",
+          "diff_review": "computeMatrix gains a blacklist tuple input and changes BED to a meta/path tuple, conditionally passing --blackListFileName.",
+          "pipeline_applicability": "Feature/API change; a full sync needs local caller adaptation. Not proof of a present pipeline bug.",
+          "committer_date": "2026-10-04T16:34:49Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": false
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "deeptools/plotfingerprint",
+      "path": "modules/nf-core/deeptools/plotfingerprint",
+      "status": "retained",
+      "base_installed_sha": "41dfa3f7c0ffabb96a6a813fe321c6d1cc5b6e46",
+      "installed_sha": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/deeptools/plotfingerprint/environment.yml",
+        "modules/nf-core/deeptools/plotfingerprint/main.nf",
+        "modules/nf-core/deeptools/plotfingerprint/meta.yml",
+        "modules/nf-core/deeptools/plotfingerprint/tests/main.nf.test",
+        "modules/nf-core/deeptools/plotfingerprint/tests/main.nf.test.snap"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "b89bee1b1bb0452ddfc0ac5231d58cb4fb8e027c",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "b89bee1b1bb0452ddfc0ac5231d58cb4fb8e027c",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "78db5d1cb3ea886cc6ab0b75336a39a7174eb444",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 2,
+      "subsequent_runtime_commit_count": 2,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/deeptools/plotfingerprint/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/deeptools/plotfingerprint/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "e848c6b4ae9cef4ac56d7221278185ebb31fe322",
+          "date": "2026-10-16T06:55:44Z",
+          "subject": "Update deeptools to use Seqera Containers (#13257)",
+          "commit_url": "https://github.com/nf-core/modules/commit/e848c6b4ae9cef4ac56d7221278185ebb31fe322",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13257"
+          ],
+          "files": [
+            "modules/nf-core/deeptools/plotfingerprint/.conda-lock/linux_amd64-bd-511a2b05870b9ec3_1.txt",
+            "modules/nf-core/deeptools/plotfingerprint/.conda-lock/linux_arm64-bd-da17162234746484_1.txt",
+            "modules/nf-core/deeptools/plotfingerprint/main.nf",
+            "modules/nf-core/deeptools/plotfingerprint/meta.yml"
+          ],
+          "runtime_files": [
+            "modules/nf-core/deeptools/plotfingerprint/.conda-lock/linux_amd64-bd-511a2b05870b9ec3_1.txt",
+            "modules/nf-core/deeptools/plotfingerprint/.conda-lock/linux_arm64-bd-da17162234746484_1.txt",
+            "modules/nf-core/deeptools/plotfingerprint/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "container-maintenance",
+          "diff_review": "Five DeepTools wrappers change only container references in main.nf, retaining declared tool versions. Issue13256 is a migration task.",
+          "pipeline_applicability": "No processing-command change; a Fix-issue reference is not evidence of a calculation defect.",
+          "committer_date": "2026-10-16T06:55:44Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": true,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "deeptools/plotheatmap",
+      "path": "modules/nf-core/deeptools/plotheatmap",
+      "status": "retained",
+      "base_installed_sha": "41dfa3f7c0ffabb96a6a813fe321c6d1cc5b6e46",
+      "installed_sha": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/deeptools/plotheatmap/environment.yml",
+        "modules/nf-core/deeptools/plotheatmap/main.nf",
+        "modules/nf-core/deeptools/plotheatmap/meta.yml",
+        "modules/nf-core/deeptools/plotheatmap/tests/main.nf.test",
+        "modules/nf-core/deeptools/plotheatmap/tests/main.nf.test.snap"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "21b5352364864a106f9cc6b98844b016eda626c9",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "21b5352364864a106f9cc6b98844b016eda626c9",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "4bd91374f537eab5f2bd83332318a0bd91c2bd56",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 2,
+      "subsequent_runtime_commit_count": 2,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/deeptools/plotheatmap/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/deeptools/plotheatmap/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "e848c6b4ae9cef4ac56d7221278185ebb31fe322",
+          "date": "2026-10-16T06:55:44Z",
+          "subject": "Update deeptools to use Seqera Containers (#13257)",
+          "commit_url": "https://github.com/nf-core/modules/commit/e848c6b4ae9cef4ac56d7221278185ebb31fe322",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13257"
+          ],
+          "files": [
+            "modules/nf-core/deeptools/plotheatmap/.conda-lock/linux_amd64-bd-511a2b05870b9ec3_1.txt",
+            "modules/nf-core/deeptools/plotheatmap/.conda-lock/linux_arm64-bd-da17162234746484_1.txt",
+            "modules/nf-core/deeptools/plotheatmap/main.nf",
+            "modules/nf-core/deeptools/plotheatmap/meta.yml"
+          ],
+          "runtime_files": [
+            "modules/nf-core/deeptools/plotheatmap/.conda-lock/linux_amd64-bd-511a2b05870b9ec3_1.txt",
+            "modules/nf-core/deeptools/plotheatmap/.conda-lock/linux_arm64-bd-da17162234746484_1.txt",
+            "modules/nf-core/deeptools/plotheatmap/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "container-maintenance",
+          "diff_review": "Five DeepTools wrappers change only container references in main.nf, retaining declared tool versions. Issue13256 is a migration task.",
+          "pipeline_applicability": "No processing-command change; a Fix-issue reference is not evidence of a calculation defect.",
+          "committer_date": "2026-10-16T06:55:44Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": true,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "deeptools/plotprofile",
+      "path": "modules/nf-core/deeptools/plotprofile",
+      "status": "retained",
+      "base_installed_sha": "41dfa3f7c0ffabb96a6a813fe321c6d1cc5b6e46",
+      "installed_sha": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/deeptools/plotprofile/environment.yml",
+        "modules/nf-core/deeptools/plotprofile/main.nf",
+        "modules/nf-core/deeptools/plotprofile/meta.yml",
+        "modules/nf-core/deeptools/plotprofile/tests/main.nf.test",
+        "modules/nf-core/deeptools/plotprofile/tests/main.nf.test.snap"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "6bd0cbce7701a84e438678abf052e7d1b5a331f0",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "6bd0cbce7701a84e438678abf052e7d1b5a331f0",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "c0f722a7d1c661ba64b7b2dcaa512b9ead817bc9",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 2,
+      "subsequent_runtime_commit_count": 2,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/deeptools/plotprofile/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/deeptools/plotprofile/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "e848c6b4ae9cef4ac56d7221278185ebb31fe322",
+          "date": "2026-10-16T06:55:44Z",
+          "subject": "Update deeptools to use Seqera Containers (#13257)",
+          "commit_url": "https://github.com/nf-core/modules/commit/e848c6b4ae9cef4ac56d7221278185ebb31fe322",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13257"
+          ],
+          "files": [
+            "modules/nf-core/deeptools/plotprofile/.conda-lock/linux_amd64-bd-511a2b05870b9ec3_1.txt",
+            "modules/nf-core/deeptools/plotprofile/.conda-lock/linux_arm64-bd-da17162234746484_1.txt",
+            "modules/nf-core/deeptools/plotprofile/main.nf",
+            "modules/nf-core/deeptools/plotprofile/meta.yml"
+          ],
+          "runtime_files": [
+            "modules/nf-core/deeptools/plotprofile/.conda-lock/linux_amd64-bd-511a2b05870b9ec3_1.txt",
+            "modules/nf-core/deeptools/plotprofile/.conda-lock/linux_arm64-bd-da17162234746484_1.txt",
+            "modules/nf-core/deeptools/plotprofile/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "container-maintenance",
+          "diff_review": "Five DeepTools wrappers change only container references in main.nf, retaining declared tool versions. Issue13256 is a migration task.",
+          "pipeline_applicability": "No processing-command change; a Fix-issue reference is not evidence of a calculation defect.",
+          "committer_date": "2026-10-16T06:55:44Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": true,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "gffread",
+      "path": "modules/nf-core/gffread",
+      "status": "retained",
+      "base_installed_sha": "911696ea0b62df80e900ef244d7867d177971f73",
+      "installed_sha": "c9ad4d691aa339e478a77847e3ef854ccd21778b",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/gffread/environment.yml",
+        "modules/nf-core/gffread/main.nf",
+        "modules/nf-core/gffread/meta.yml",
+        "modules/nf-core/gffread/tests/main.nf.test",
+        "modules/nf-core/gffread/tests/main.nf.test.snap",
+        "modules/nf-core/gffread/tests/nextflow-bed.config",
+        "modules/nf-core/gffread/tests/nextflow-fasta.config",
+        "modules/nf-core/gffread/tests/nextflow-gff3.config",
+        "modules/nf-core/gffread/tests/nextflow.config"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "00e4ab929fad18cc6aa4700e29e9f4192a3e8f91",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "00e4ab929fad18cc6aa4700e29e9f4192a3e8f91",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "395f246df905ff869f12c2cb333d27ff89522dbe",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 2,
+      "subsequent_runtime_commit_count": 2,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/gffread/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/gffread/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "b3d1ca84b3f0051498abb91bd4333b701be4384d",
+          "date": "2026-09-24T11:58:47Z",
+          "subject": "gffread: accept gzipped gff and fasta input (#13024)",
+          "commit_url": "https://github.com/nf-core/modules/commit/b3d1ca84b3f0051498abb91bd4333b701be4384d",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13024"
+          ],
+          "files": [
+            "modules/nf-core/gffread/main.nf",
+            "modules/nf-core/gffread/meta.yml",
+            "modules/nf-core/gffread/tests/main.nf.test",
+            "modules/nf-core/gffread/tests/main.nf.test.snap"
+          ],
+          "runtime_files": [
+            "modules/nf-core/gffread/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "module-compressed-input-fix",
+          "diff_review": "GFFREAD decompresses gzip GFF/FASTA inputs, protects output/input name collisions, and tests compressed inputs; previous direct gzipped GFF could yield no features.",
+          "pipeline_applicability": "Atacseq PREPARE_GENOME already gunzips .gff.gz and supplies no FASTA to GFFREAD, bypassing this failure path.",
+          "committer_date": "2026-09-24T11:58:47Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": false,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": false
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "gunzip",
+      "path": "modules/nf-core/gunzip",
+      "status": "retained",
+      "base_installed_sha": "e06548bfa36ee31869b81041879dd6b3a83b1d57",
+      "installed_sha": "0902eac3012baaf4f9ab6513c8c55acc9353c96c",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/gunzip/environment.yml",
+        "modules/nf-core/gunzip/main.nf",
+        "modules/nf-core/gunzip/meta.yml",
+        "modules/nf-core/gunzip/tests/main.nf.test",
+        "modules/nf-core/gunzip/tests/main.nf.test.snap",
+        "modules/nf-core/gunzip/tests/nextflow.config"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "6edffc5930a42e4a191be194ec4d941aeb466557",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "6edffc5930a42e4a191be194ec4d941aeb466557",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "8f43a9872ad82e1d316dc30da146faf869a87c47",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 1,
+      "subsequent_runtime_commit_count": 1,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/gunzip/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/gunzip/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "homer/annotatepeaks",
+      "path": "modules/nf-core/homer/annotatepeaks",
+      "status": "retained",
+      "base_installed_sha": "ffc27c68870f5f67e541bb67d94e03c597f75257",
+      "installed_sha": "9ed7f157dd96f83b852da7ea4d3a217907f50f36",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/homer/annotatepeaks/environment.yml",
+        "modules/nf-core/homer/annotatepeaks/main.nf",
+        "modules/nf-core/homer/annotatepeaks/meta.yml",
+        "modules/nf-core/homer/annotatepeaks/tests/main.nf.test",
+        "modules/nf-core/homer/annotatepeaks/tests/main.nf.test.snap",
+        "modules/nf-core/homer/annotatepeaks/tests/nextflow.config"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "71f6c708a7c277c297d53c059d3dee8feb16d0c2",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "71f6c708a7c277c297d53c059d3dee8feb16d0c2",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "28f636ffc9b741d57b47a17c208ed6ff88b6e97e",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 1,
+      "subsequent_runtime_commit_count": 1,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/homer/annotatepeaks/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/homer/annotatepeaks/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "khmer/uniquekmers",
+      "path": "modules/nf-core/khmer/uniquekmers",
+      "status": "retained",
+      "base_installed_sha": "911696ea0b62df80e900ef244d7867d177971f73",
+      "installed_sha": "995d1b7d65d5a841220304d088161d8bff07378a",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/khmer/uniquekmers/environment.yml",
+        "modules/nf-core/khmer/uniquekmers/main.nf",
+        "modules/nf-core/khmer/uniquekmers/meta.yml",
+        "modules/nf-core/khmer/uniquekmers/tests/main.nf.test",
+        "modules/nf-core/khmer/uniquekmers/tests/main.nf.test.snap"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "fda91d408c5f0806c125c27513c8168c6986556a",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "fda91d408c5f0806c125c27513c8168c6986556a",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "646663e62a27b721725118ffd28672d0ce038d6d",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 1,
+      "subsequent_runtime_commit_count": 1,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/khmer/uniquekmers/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/khmer/uniquekmers/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "macs3/callpeak",
+      "path": "modules/nf-core/macs3/callpeak",
+      "status": "retained",
+      "base_installed_sha": "06c8865e36741e05ad32ef70ab3fac127486af48",
+      "installed_sha": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/macs3/callpeak/environment.yml",
+        "modules/nf-core/macs3/callpeak/main.nf",
+        "modules/nf-core/macs3/callpeak/meta.yml",
+        "modules/nf-core/macs3/callpeak/tests/bam.config",
+        "modules/nf-core/macs3/callpeak/tests/bed.config",
+        "modules/nf-core/macs3/callpeak/tests/main.nf.test.snap"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "7f70167cbe19468bb47d087df799e2b3e4072b26",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "7f70167cbe19468bb47d087df799e2b3e4072b26",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "b28b843cb1c684bcf181851694a357a3f199c5b2",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 2,
+      "subsequent_runtime_commit_count": 1,
+      "explicit_fix_keyword_count": 1,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/macs3/callpeak/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/macs3/callpeak/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "6ef220fd9252b42fb3c50348bbdbcb6246730686",
+          "date": "2026-09-04T14:23:17Z",
+          "subject": "fix: align meta.yml input/output with main.nf across all modules and subworkflows (#12882)",
+          "commit_url": "https://github.com/nf-core/modules/commit/6ef220fd9252b42fb3c50348bbdbcb6246730686",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12882"
+          ],
+          "files": [
+            "modules/nf-core/macs3/callpeak/meta.yml"
+          ],
+          "runtime_files": [],
+          "explicit_fix_keyword": true,
+          "classification": "documentation-only",
+          "diff_review": "Alignmentsieve/MACS3 meta.yml output order is aligned with main.nf; runtime channels/commands are unchanged.",
+          "pipeline_applicability": "Fix-labelled documentation change, not an execution fix for these components.",
+          "committer_date": "2026-09-04T14:23:17Z",
+          "fix_keyword_in_subject": true,
+          "fix_keyword_in_body": true,
+          "postdates_pr448_merge": false,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": false
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "multiqc",
+      "path": "modules/nf-core/multiqc",
+      "status": "retained",
+      "base_installed_sha": "008f9d3e61209bf995edac3ba531f54e269e1215",
+      "installed_sha": "98403d15b0e50edae1f3fec5eae5e24982f1fade",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/multiqc/.conda-lock/linux_amd64-bd-c17fb751507e9dfc_1.txt",
+        "modules/nf-core/multiqc/.conda-lock/linux_amd64-bd-c1f4a7982b743963_1.txt",
+        "modules/nf-core/multiqc/.conda-lock/linux_amd64-bd-db7c73dae76bc9e6_1.txt",
+        "modules/nf-core/multiqc/.conda-lock/linux_arm64-bd-40bf3b435e89dc22_1.txt",
+        "modules/nf-core/multiqc/.conda-lock/linux_arm64-bd-5c84a5000a226ab5_1.txt",
+        "modules/nf-core/multiqc/.conda-lock/linux_arm64-bd-d167b8012595a136_1.txt",
+        "modules/nf-core/multiqc/environment.yml",
+        "modules/nf-core/multiqc/main.nf",
+        "modules/nf-core/multiqc/meta.yml",
+        "modules/nf-core/multiqc/tests/main.nf.test.snap"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "c4bc715e22b2747820eb675b9d6b7e40756e61e3",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "c4bc715e22b2747820eb675b9d6b7e40756e61e3",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "6d72e8ee7a7548dcd8795ccc0d6a71e659b57ec9",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 1,
+      "subsequent_runtime_commit_count": 1,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/multiqc/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/multiqc/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": false
+    },
+    {
+      "name": "picard/addorreplacereadgroups",
+      "path": "modules/nf-core/picard/addorreplacereadgroups",
+      "status": "retained",
+      "base_installed_sha": null,
+      "installed_sha": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/picard/addorreplacereadgroups/environment.yml",
+        "modules/nf-core/picard/addorreplacereadgroups/main.nf",
+        "modules/nf-core/picard/addorreplacereadgroups/meta.yml",
+        "modules/nf-core/picard/addorreplacereadgroups/tests/bam.config",
+        "modules/nf-core/picard/addorreplacereadgroups/tests/cram.config",
+        "modules/nf-core/picard/addorreplacereadgroups/tests/main.nf.test",
+        "modules/nf-core/picard/addorreplacereadgroups/tests/main.nf.test.snap"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "0a323ed620e3f899d0d86f8dbe966417965d262c",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "0a323ed620e3f899d0d86f8dbe966417965d262c",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "f95152b0294ffc4b3d502ff0416bb86d4814be7d",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 3,
+      "subsequent_runtime_commit_count": 3,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/picard/addorreplacereadgroups/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/picard/addorreplacereadgroups/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "467c847035812fc17db844c6f37615b415b75eb3",
+          "date": "2026-10-20T04:28:18Z",
+          "subject": "picard: Add Seqera container metadata and conda lock files (#13410)",
+          "commit_url": "https://github.com/nf-core/modules/commit/467c847035812fc17db844c6f37615b415b75eb3",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13410"
+          ],
+          "files": [
+            "modules/nf-core/picard/addorreplacereadgroups/.conda-lock/linux_amd64-bd-be20f299a1924f0d_1.txt",
+            "modules/nf-core/picard/addorreplacereadgroups/.conda-lock/linux_arm64-bd-5516268008db5ab4_1.txt",
+            "modules/nf-core/picard/addorreplacereadgroups/main.nf",
+            "modules/nf-core/picard/addorreplacereadgroups/meta.yml"
+          ],
+          "runtime_files": [
+            "modules/nf-core/picard/addorreplacereadgroups/.conda-lock/linux_amd64-bd-be20f299a1924f0d_1.txt",
+            "modules/nf-core/picard/addorreplacereadgroups/.conda-lock/linux_arm64-bd-5516268008db5ab4_1.txt",
+            "modules/nf-core/picard/addorreplacereadgroups/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "container-and-lock-maintenance",
+          "diff_review": "Picard 3.5.0 image builds/container metadata/Conda lock files change; processing commands do not.",
+          "pipeline_applicability": "Image/dependency effects not tested.",
+          "committer_date": "2026-10-20T04:28:18Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        },
+        {
+          "sha": "fe08122c3dc2f2d7890daba06f6c90e570ef01de",
+          "date": "2026-08-20T15:40:27Z",
+          "subject": "Bump Picard to 3.5.0 (#12753)",
+          "commit_url": "https://github.com/nf-core/modules/commit/fe08122c3dc2f2d7890daba06f6c90e570ef01de",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12753"
+          ],
+          "files": [
+            "modules/nf-core/picard/addorreplacereadgroups/environment.yml",
+            "modules/nf-core/picard/addorreplacereadgroups/main.nf",
+            "modules/nf-core/picard/addorreplacereadgroups/tests/bam.config",
+            "modules/nf-core/picard/addorreplacereadgroups/tests/cram.config",
+            "modules/nf-core/picard/addorreplacereadgroups/tests/main.nf.test",
+            "modules/nf-core/picard/addorreplacereadgroups/tests/main.nf.test.snap"
+          ],
+          "runtime_files": [
+            "modules/nf-core/picard/addorreplacereadgroups/environment.yml",
+            "modules/nf-core/picard/addorreplacereadgroups/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "tool-version-bump-and-api-cleanup",
+          "diff_review": "Picard moves 3.4.0 to 3.5.0. AddOrReplaceReadGroups and MarkDuplicates also remove the ext.suffix override and use the input extension; other audited Picard commands stay unchanged.",
+          "pipeline_applicability": "No ext.suffix override exists in atacseq modules.config. Underlying Picard fixes need separate release review.",
+          "committer_date": "2026-08-20T15:40:27Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": true,
+          "postdates_pr448_merge": false,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": false
+        }
+      ],
+      "inventory_status": "added",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "picard/collectmultiplemetrics",
+      "path": "modules/nf-core/picard/collectmultiplemetrics",
+      "status": "retained",
+      "base_installed_sha": "911696ea0b62df80e900ef244d7867d177971f73",
+      "installed_sha": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/picard/collectmultiplemetrics/environment.yml",
+        "modules/nf-core/picard/collectmultiplemetrics/main.nf",
+        "modules/nf-core/picard/collectmultiplemetrics/meta.yml",
+        "modules/nf-core/picard/collectmultiplemetrics/tests/main.nf.test",
+        "modules/nf-core/picard/collectmultiplemetrics/tests/main.nf.test.snap"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "1aea64732e9bd1b0960d37ee01a805e8147e5400",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "1aea64732e9bd1b0960d37ee01a805e8147e5400",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "0c5b156d9f08cc4d75d9f631ed94e11ef985423b",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 3,
+      "subsequent_runtime_commit_count": 3,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/picard/collectmultiplemetrics/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/picard/collectmultiplemetrics/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "467c847035812fc17db844c6f37615b415b75eb3",
+          "date": "2026-10-20T04:28:18Z",
+          "subject": "picard: Add Seqera container metadata and conda lock files (#13410)",
+          "commit_url": "https://github.com/nf-core/modules/commit/467c847035812fc17db844c6f37615b415b75eb3",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13410"
+          ],
+          "files": [
+            "modules/nf-core/picard/collectmultiplemetrics/.conda-lock/linux_amd64-bd-be20f299a1924f0d_1.txt",
+            "modules/nf-core/picard/collectmultiplemetrics/.conda-lock/linux_arm64-bd-5516268008db5ab4_1.txt",
+            "modules/nf-core/picard/collectmultiplemetrics/main.nf",
+            "modules/nf-core/picard/collectmultiplemetrics/meta.yml"
+          ],
+          "runtime_files": [
+            "modules/nf-core/picard/collectmultiplemetrics/.conda-lock/linux_amd64-bd-be20f299a1924f0d_1.txt",
+            "modules/nf-core/picard/collectmultiplemetrics/.conda-lock/linux_arm64-bd-5516268008db5ab4_1.txt",
+            "modules/nf-core/picard/collectmultiplemetrics/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "container-and-lock-maintenance",
+          "diff_review": "Picard 3.5.0 image builds/container metadata/Conda lock files change; processing commands do not.",
+          "pipeline_applicability": "Image/dependency effects not tested.",
+          "committer_date": "2026-10-20T04:28:18Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        },
+        {
+          "sha": "fe08122c3dc2f2d7890daba06f6c90e570ef01de",
+          "date": "2026-08-20T15:40:27Z",
+          "subject": "Bump Picard to 3.5.0 (#12753)",
+          "commit_url": "https://github.com/nf-core/modules/commit/fe08122c3dc2f2d7890daba06f6c90e570ef01de",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12753"
+          ],
+          "files": [
+            "modules/nf-core/picard/collectmultiplemetrics/environment.yml",
+            "modules/nf-core/picard/collectmultiplemetrics/main.nf",
+            "modules/nf-core/picard/collectmultiplemetrics/tests/main.nf.test.snap"
+          ],
+          "runtime_files": [
+            "modules/nf-core/picard/collectmultiplemetrics/environment.yml",
+            "modules/nf-core/picard/collectmultiplemetrics/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "tool-version-bump-and-api-cleanup",
+          "diff_review": "Picard moves 3.4.0 to 3.5.0. AddOrReplaceReadGroups and MarkDuplicates also remove the ext.suffix override and use the input extension; other audited Picard commands stay unchanged.",
+          "pipeline_applicability": "No ext.suffix override exists in atacseq modules.config. Underlying Picard fixes need separate release review.",
+          "committer_date": "2026-08-20T15:40:27Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": true,
+          "postdates_pr448_merge": false,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": false
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "picard/markduplicates",
+      "path": "modules/nf-core/picard/markduplicates",
+      "status": "retained",
+      "base_installed_sha": "1943aa60f7490c3d6740e8872e6e69122ccc8087",
+      "installed_sha": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/picard/markduplicates/environment.yml",
+        "modules/nf-core/picard/markduplicates/main.nf",
+        "modules/nf-core/picard/markduplicates/meta.yml",
+        "modules/nf-core/picard/markduplicates/tests/main.nf.test",
+        "modules/nf-core/picard/markduplicates/tests/main.nf.test.snap",
+        "modules/nf-core/picard/markduplicates/tests/nextflow.config",
+        "modules/nf-core/picard/markduplicates/tests/tags.yml"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "36afba6fe2202ba13d4e02a32ce808d42d9fd0c4",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "36afba6fe2202ba13d4e02a32ce808d42d9fd0c4",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "66cd115a4374ba6e21d0af3a5687b8f68f278a0d",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 3,
+      "subsequent_runtime_commit_count": 3,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/picard/markduplicates/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/picard/markduplicates/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "467c847035812fc17db844c6f37615b415b75eb3",
+          "date": "2026-10-20T04:28:18Z",
+          "subject": "picard: Add Seqera container metadata and conda lock files (#13410)",
+          "commit_url": "https://github.com/nf-core/modules/commit/467c847035812fc17db844c6f37615b415b75eb3",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13410"
+          ],
+          "files": [
+            "modules/nf-core/picard/markduplicates/.conda-lock/linux_amd64-bd-be20f299a1924f0d_1.txt",
+            "modules/nf-core/picard/markduplicates/.conda-lock/linux_arm64-bd-5516268008db5ab4_1.txt",
+            "modules/nf-core/picard/markduplicates/main.nf",
+            "modules/nf-core/picard/markduplicates/meta.yml"
+          ],
+          "runtime_files": [
+            "modules/nf-core/picard/markduplicates/.conda-lock/linux_amd64-bd-be20f299a1924f0d_1.txt",
+            "modules/nf-core/picard/markduplicates/.conda-lock/linux_arm64-bd-5516268008db5ab4_1.txt",
+            "modules/nf-core/picard/markduplicates/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "container-and-lock-maintenance",
+          "diff_review": "Picard 3.5.0 image builds/container metadata/Conda lock files change; processing commands do not.",
+          "pipeline_applicability": "Image/dependency effects not tested.",
+          "committer_date": "2026-10-20T04:28:18Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        },
+        {
+          "sha": "fe08122c3dc2f2d7890daba06f6c90e570ef01de",
+          "date": "2026-08-20T15:40:27Z",
+          "subject": "Bump Picard to 3.5.0 (#12753)",
+          "commit_url": "https://github.com/nf-core/modules/commit/fe08122c3dc2f2d7890daba06f6c90e570ef01de",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12753"
+          ],
+          "files": [
+            "modules/nf-core/picard/markduplicates/environment.yml",
+            "modules/nf-core/picard/markduplicates/main.nf",
+            "modules/nf-core/picard/markduplicates/meta.yml",
+            "modules/nf-core/picard/markduplicates/tests/main.nf.test",
+            "modules/nf-core/picard/markduplicates/tests/main.nf.test.snap",
+            "modules/nf-core/picard/markduplicates/tests/nextflow.config"
+          ],
+          "runtime_files": [
+            "modules/nf-core/picard/markduplicates/environment.yml",
+            "modules/nf-core/picard/markduplicates/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "tool-version-bump-and-api-cleanup",
+          "diff_review": "Picard moves 3.4.0 to 3.5.0. AddOrReplaceReadGroups and MarkDuplicates also remove the ext.suffix override and use the input extension; other audited Picard commands stay unchanged.",
+          "pipeline_applicability": "No ext.suffix override exists in atacseq modules.config. Underlying Picard fixes need separate release review.",
+          "committer_date": "2026-08-20T15:40:27Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": true,
+          "postdates_pr448_merge": false,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": false
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "picard/mergesamfiles",
+      "path": "modules/nf-core/picard/mergesamfiles",
+      "status": "retained",
+      "base_installed_sha": "2d74c664aadaacfba29fc74840037dfc93129f82",
+      "installed_sha": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/picard/mergesamfiles/main.nf",
+        "modules/nf-core/picard/mergesamfiles/meta.yml",
+        "modules/nf-core/picard/mergesamfiles/tests/main.nf.test",
+        "modules/nf-core/picard/mergesamfiles/tests/main.nf.test.snap"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "7c20a8237f194d3253ea92c36b551ca0dfbcf3cd",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "7c20a8237f194d3253ea92c36b551ca0dfbcf3cd",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "9f2bab29f9652f443eae9a74729b4e369ad779a1",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 3,
+      "subsequent_runtime_commit_count": 3,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/picard/mergesamfiles/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/picard/mergesamfiles/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "467c847035812fc17db844c6f37615b415b75eb3",
+          "date": "2026-10-20T04:28:18Z",
+          "subject": "picard: Add Seqera container metadata and conda lock files (#13410)",
+          "commit_url": "https://github.com/nf-core/modules/commit/467c847035812fc17db844c6f37615b415b75eb3",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13410"
+          ],
+          "files": [
+            "modules/nf-core/picard/mergesamfiles/.conda-lock/linux_amd64-bd-be20f299a1924f0d_1.txt",
+            "modules/nf-core/picard/mergesamfiles/.conda-lock/linux_arm64-bd-5516268008db5ab4_1.txt",
+            "modules/nf-core/picard/mergesamfiles/main.nf",
+            "modules/nf-core/picard/mergesamfiles/meta.yml"
+          ],
+          "runtime_files": [
+            "modules/nf-core/picard/mergesamfiles/.conda-lock/linux_amd64-bd-be20f299a1924f0d_1.txt",
+            "modules/nf-core/picard/mergesamfiles/.conda-lock/linux_arm64-bd-5516268008db5ab4_1.txt",
+            "modules/nf-core/picard/mergesamfiles/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "container-and-lock-maintenance",
+          "diff_review": "Picard 3.5.0 image builds/container metadata/Conda lock files change; processing commands do not.",
+          "pipeline_applicability": "Image/dependency effects not tested.",
+          "committer_date": "2026-10-20T04:28:18Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        },
+        {
+          "sha": "fe08122c3dc2f2d7890daba06f6c90e570ef01de",
+          "date": "2026-08-20T15:40:27Z",
+          "subject": "Bump Picard to 3.5.0 (#12753)",
+          "commit_url": "https://github.com/nf-core/modules/commit/fe08122c3dc2f2d7890daba06f6c90e570ef01de",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12753"
+          ],
+          "files": [
+            "modules/nf-core/picard/mergesamfiles/environment.yml",
+            "modules/nf-core/picard/mergesamfiles/main.nf",
+            "modules/nf-core/picard/mergesamfiles/tests/main.nf.test",
+            "modules/nf-core/picard/mergesamfiles/tests/main.nf.test.snap"
+          ],
+          "runtime_files": [
+            "modules/nf-core/picard/mergesamfiles/environment.yml",
+            "modules/nf-core/picard/mergesamfiles/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "tool-version-bump-and-api-cleanup",
+          "diff_review": "Picard moves 3.4.0 to 3.5.0. AddOrReplaceReadGroups and MarkDuplicates also remove the ext.suffix override and use the input extension; other audited Picard commands stay unchanged.",
+          "pipeline_applicability": "No ext.suffix override exists in atacseq modules.config. Underlying Picard fixes need separate release review.",
+          "committer_date": "2026-08-20T15:40:27Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": true,
+          "postdates_pr448_merge": false,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": false
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "preseq/lcextrap",
+      "path": "modules/nf-core/preseq/lcextrap",
+      "status": "retained",
+      "base_installed_sha": "911696ea0b62df80e900ef244d7867d177971f73",
+      "installed_sha": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/preseq/lcextrap/environment.yml",
+        "modules/nf-core/preseq/lcextrap/main.nf",
+        "modules/nf-core/preseq/lcextrap/meta.yml",
+        "modules/nf-core/preseq/lcextrap/tests/main.nf.test",
+        "modules/nf-core/preseq/lcextrap/tests/main.nf.test.snap"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "ba4640fbf6fa6d67100195bce365464f78cfefe4",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "ba4640fbf6fa6d67100195bce365464f78cfefe4",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "ccf2bd0e33530787ae0895812ec211f96324589f",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 2,
+      "subsequent_runtime_commit_count": 2,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/preseq/lcextrap/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/preseq/lcextrap/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "85c1724990b626767f9ed59092430d2d145c4607",
+          "date": "2026-08-10T17:12:54+02:00",
+          "subject": "Update to topic `preseq` (#12612)",
+          "commit_url": "https://github.com/nf-core/modules/commit/85c1724990b626767f9ed59092430d2d145c4607",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12612"
+          ],
+          "files": [
+            "modules/nf-core/preseq/lcextrap/main.nf",
+            "modules/nf-core/preseq/lcextrap/meta.yml",
+            "modules/nf-core/preseq/lcextrap/tests/main.nf.test",
+            "modules/nf-core/preseq/lcextrap/tests/main.nf.test.snap"
+          ],
+          "runtime_files": [
+            "modules/nf-core/preseq/lcextrap/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "version-provenance-cleanup",
+          "diff_review": "PRESEQ version-extraction sed expression and equivalent Groovy interpolation change; lc_extrap options/algorithm do not.",
+          "pipeline_applicability": "No computational defect established from this diff.",
+          "committer_date": "2026-08-10T15:12:54Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": false,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": false
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "samtools/faidx",
+      "path": "modules/nf-core/samtools/faidx",
+      "status": "retained",
+      "base_installed_sha": null,
+      "installed_sha": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/samtools/faidx/environment.yml",
+        "modules/nf-core/samtools/faidx/main.nf",
+        "modules/nf-core/samtools/faidx/meta.yml",
+        "modules/nf-core/samtools/faidx/tests/main.nf.test",
+        "modules/nf-core/samtools/faidx/tests/main.nf.test.snap",
+        "modules/nf-core/samtools/faidx/tests/nextflow.config"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "175a53a8916432fb0346cb385346187733464cce",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "175a53a8916432fb0346cb385346187733464cce",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "2ce37748f6a3d7e451b0a0b54467c80d2bacadb3",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 4,
+      "subsequent_runtime_commit_count": 4,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "a582d5633f7df32396681ef4458068e2b509ca91",
+          "date": "2026-10-28T17:44:43Z",
+          "subject": "Bump samtools to 1.25 (#13473)",
+          "commit_url": "https://github.com/nf-core/modules/commit/a582d5633f7df32396681ef4458068e2b509ca91",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13473"
+          ],
+          "files": [
+            "modules/nf-core/samtools/faidx/.conda-lock/linux_amd64-bd-704fb80d75745bd4_7.txt",
+            "modules/nf-core/samtools/faidx/.conda-lock/linux_amd64-bd-8a3ddf262165ba23_1.txt",
+            "modules/nf-core/samtools/faidx/.conda-lock/linux_arm64-bd-4003425f22200067_1.txt",
+            "modules/nf-core/samtools/faidx/.conda-lock/linux_arm64-bd-944a4060c62320c2_8.txt",
+            "modules/nf-core/samtools/faidx/environment.yml",
+            "modules/nf-core/samtools/faidx/main.nf",
+            "modules/nf-core/samtools/faidx/meta.yml",
+            "modules/nf-core/samtools/faidx/tests/main.nf.test.snap"
+          ],
+          "runtime_files": [
+            "modules/nf-core/samtools/faidx/.conda-lock/linux_amd64-bd-704fb80d75745bd4_7.txt",
+            "modules/nf-core/samtools/faidx/.conda-lock/linux_amd64-bd-8a3ddf262165ba23_1.txt",
+            "modules/nf-core/samtools/faidx/.conda-lock/linux_arm64-bd-4003425f22200067_1.txt",
+            "modules/nf-core/samtools/faidx/.conda-lock/linux_arm64-bd-944a4060c62320c2_8.txt",
+            "modules/nf-core/samtools/faidx/environment.yml",
+            "modules/nf-core/samtools/faidx/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "tool-version-bump",
+          "diff_review": "Samtools faidx/flagstat/idxstats/index/sort/stats pins move 1.24 to 1.25; commands unchanged.",
+          "pipeline_applicability": "Underlying samtools/htslib fixes need the separate release audit.",
+          "committer_date": "2026-10-28T17:44:43Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": true,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        },
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/samtools/faidx/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/samtools/faidx/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "5f344f0e41fdfaf2506f89400e42a2689d6ab323",
+          "date": "2026-10-19T16:32:10+02:00",
+          "subject": "samtools: Add Seqera container metadata and conda lock files (#13382)",
+          "commit_url": "https://github.com/nf-core/modules/commit/5f344f0e41fdfaf2506f89400e42a2689d6ab323",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13382"
+          ],
+          "files": [
+            "modules/nf-core/samtools/faidx/.conda-lock/linux_amd64-bd-8a3ddf262165ba23_1.txt",
+            "modules/nf-core/samtools/faidx/.conda-lock/linux_arm64-bd-4003425f22200067_1.txt",
+            "modules/nf-core/samtools/faidx/main.nf",
+            "modules/nf-core/samtools/faidx/meta.yml"
+          ],
+          "runtime_files": [
+            "modules/nf-core/samtools/faidx/.conda-lock/linux_amd64-bd-8a3ddf262165ba23_1.txt",
+            "modules/nf-core/samtools/faidx/.conda-lock/linux_arm64-bd-4003425f22200067_1.txt",
+            "modules/nf-core/samtools/faidx/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "container-and-lock-maintenance",
+          "diff_review": "Samtools 1.24 image builds/container metadata/Conda lock files change; processing commands do not.",
+          "pipeline_applicability": "Image/dependency effects not tested.",
+          "committer_date": "2026-10-19T16:32:10+02:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        },
+        {
+          "sha": "9339809fcb90af8a8b7051e6cd914894d5c52002",
+          "date": "2026-07-13T15:56:42+02:00",
+          "subject": "Bump Samtools to v1.24 (#12340)",
+          "commit_url": "https://github.com/nf-core/modules/commit/9339809fcb90af8a8b7051e6cd914894d5c52002",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12340"
+          ],
+          "files": [
+            "modules/nf-core/samtools/faidx/environment.yml",
+            "modules/nf-core/samtools/faidx/main.nf",
+            "modules/nf-core/samtools/faidx/tests/main.nf.test",
+            "modules/nf-core/samtools/faidx/tests/main.nf.test.snap"
+          ],
+          "runtime_files": [
+            "modules/nf-core/samtools/faidx/environment.yml",
+            "modules/nf-core/samtools/faidx/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "tool-version-bump",
+          "diff_review": "For faidx, htslib/samtools pins move 1.23.1 to 1.24; command unchanged.",
+          "pipeline_applicability": "Other audited samtools modules already have this commit as installed, so it is excluded from their later-history ranges.",
+          "committer_date": "2026-07-13T13:56:42Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": true,
+          "postdates_pr448_merge": false,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        }
+      ],
+      "inventory_status": "added",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "samtools/flagstat",
+      "path": "modules/nf-core/samtools/flagstat",
+      "status": "retained",
+      "base_installed_sha": "f4596fe0bdc096cf53ec4497e83defdb3a94ff62",
+      "installed_sha": "9339809fcb90af8a8b7051e6cd914894d5c52002",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/samtools/flagstat/environment.yml",
+        "modules/nf-core/samtools/flagstat/main.nf",
+        "modules/nf-core/samtools/flagstat/meta.yml",
+        "modules/nf-core/samtools/flagstat/tests/main.nf.test",
+        "modules/nf-core/samtools/flagstat/tests/main.nf.test.snap",
+        "modules/nf-core/samtools/flagstat/tests/tags.yml"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "f4a0b3b307b8abcc321e7357dec454f0d158890e",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "f4a0b3b307b8abcc321e7357dec454f0d158890e",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "32f8a95c87473dda6ab99e9e9407a9016f6363f9",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 3,
+      "subsequent_runtime_commit_count": 3,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "a582d5633f7df32396681ef4458068e2b509ca91",
+          "date": "2026-10-28T17:44:43Z",
+          "subject": "Bump samtools to 1.25 (#13473)",
+          "commit_url": "https://github.com/nf-core/modules/commit/a582d5633f7df32396681ef4458068e2b509ca91",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13473"
+          ],
+          "files": [
+            "modules/nf-core/samtools/flagstat/.conda-lock/linux_amd64-bd-704fb80d75745bd4_7.txt",
+            "modules/nf-core/samtools/flagstat/.conda-lock/linux_amd64-bd-8a3ddf262165ba23_1.txt",
+            "modules/nf-core/samtools/flagstat/.conda-lock/linux_arm64-bd-4003425f22200067_1.txt",
+            "modules/nf-core/samtools/flagstat/.conda-lock/linux_arm64-bd-944a4060c62320c2_8.txt",
+            "modules/nf-core/samtools/flagstat/environment.yml",
+            "modules/nf-core/samtools/flagstat/main.nf",
+            "modules/nf-core/samtools/flagstat/meta.yml",
+            "modules/nf-core/samtools/flagstat/tests/main.nf.test.snap"
+          ],
+          "runtime_files": [
+            "modules/nf-core/samtools/flagstat/.conda-lock/linux_amd64-bd-704fb80d75745bd4_7.txt",
+            "modules/nf-core/samtools/flagstat/.conda-lock/linux_amd64-bd-8a3ddf262165ba23_1.txt",
+            "modules/nf-core/samtools/flagstat/.conda-lock/linux_arm64-bd-4003425f22200067_1.txt",
+            "modules/nf-core/samtools/flagstat/.conda-lock/linux_arm64-bd-944a4060c62320c2_8.txt",
+            "modules/nf-core/samtools/flagstat/environment.yml",
+            "modules/nf-core/samtools/flagstat/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "tool-version-bump",
+          "diff_review": "Samtools faidx/flagstat/idxstats/index/sort/stats pins move 1.24 to 1.25; commands unchanged.",
+          "pipeline_applicability": "Underlying samtools/htslib fixes need the separate release audit.",
+          "committer_date": "2026-10-28T17:44:43Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": true,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        },
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/samtools/flagstat/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/samtools/flagstat/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "5f344f0e41fdfaf2506f89400e42a2689d6ab323",
+          "date": "2026-10-19T16:32:10+02:00",
+          "subject": "samtools: Add Seqera container metadata and conda lock files (#13382)",
+          "commit_url": "https://github.com/nf-core/modules/commit/5f344f0e41fdfaf2506f89400e42a2689d6ab323",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13382"
+          ],
+          "files": [
+            "modules/nf-core/samtools/flagstat/.conda-lock/linux_amd64-bd-8a3ddf262165ba23_1.txt",
+            "modules/nf-core/samtools/flagstat/.conda-lock/linux_arm64-bd-4003425f22200067_1.txt",
+            "modules/nf-core/samtools/flagstat/main.nf",
+            "modules/nf-core/samtools/flagstat/meta.yml"
+          ],
+          "runtime_files": [
+            "modules/nf-core/samtools/flagstat/.conda-lock/linux_amd64-bd-8a3ddf262165ba23_1.txt",
+            "modules/nf-core/samtools/flagstat/.conda-lock/linux_arm64-bd-4003425f22200067_1.txt",
+            "modules/nf-core/samtools/flagstat/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "container-and-lock-maintenance",
+          "diff_review": "Samtools 1.24 image builds/container metadata/Conda lock files change; processing commands do not.",
+          "pipeline_applicability": "Image/dependency effects not tested.",
+          "committer_date": "2026-10-19T16:32:10+02:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "samtools/idxstats",
+      "path": "modules/nf-core/samtools/idxstats",
+      "status": "retained",
+      "base_installed_sha": "f4596fe0bdc096cf53ec4497e83defdb3a94ff62",
+      "installed_sha": "9339809fcb90af8a8b7051e6cd914894d5c52002",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/samtools/idxstats/environment.yml",
+        "modules/nf-core/samtools/idxstats/main.nf",
+        "modules/nf-core/samtools/idxstats/meta.yml",
+        "modules/nf-core/samtools/idxstats/tests/main.nf.test",
+        "modules/nf-core/samtools/idxstats/tests/main.nf.test.snap",
+        "modules/nf-core/samtools/idxstats/tests/tags.yml"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "58d310629279f3f9b104f85c0a8b88b23d244a7a",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "58d310629279f3f9b104f85c0a8b88b23d244a7a",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "95e5e059c602a1a4d545b017a6d54d1b550505e8",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 3,
+      "subsequent_runtime_commit_count": 3,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "a582d5633f7df32396681ef4458068e2b509ca91",
+          "date": "2026-10-28T17:44:43Z",
+          "subject": "Bump samtools to 1.25 (#13473)",
+          "commit_url": "https://github.com/nf-core/modules/commit/a582d5633f7df32396681ef4458068e2b509ca91",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13473"
+          ],
+          "files": [
+            "modules/nf-core/samtools/idxstats/.conda-lock/linux_amd64-bd-704fb80d75745bd4_7.txt",
+            "modules/nf-core/samtools/idxstats/.conda-lock/linux_amd64-bd-8a3ddf262165ba23_1.txt",
+            "modules/nf-core/samtools/idxstats/.conda-lock/linux_arm64-bd-4003425f22200067_1.txt",
+            "modules/nf-core/samtools/idxstats/.conda-lock/linux_arm64-bd-944a4060c62320c2_8.txt",
+            "modules/nf-core/samtools/idxstats/environment.yml",
+            "modules/nf-core/samtools/idxstats/main.nf",
+            "modules/nf-core/samtools/idxstats/meta.yml",
+            "modules/nf-core/samtools/idxstats/tests/main.nf.test.snap"
+          ],
+          "runtime_files": [
+            "modules/nf-core/samtools/idxstats/.conda-lock/linux_amd64-bd-704fb80d75745bd4_7.txt",
+            "modules/nf-core/samtools/idxstats/.conda-lock/linux_amd64-bd-8a3ddf262165ba23_1.txt",
+            "modules/nf-core/samtools/idxstats/.conda-lock/linux_arm64-bd-4003425f22200067_1.txt",
+            "modules/nf-core/samtools/idxstats/.conda-lock/linux_arm64-bd-944a4060c62320c2_8.txt",
+            "modules/nf-core/samtools/idxstats/environment.yml",
+            "modules/nf-core/samtools/idxstats/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "tool-version-bump",
+          "diff_review": "Samtools faidx/flagstat/idxstats/index/sort/stats pins move 1.24 to 1.25; commands unchanged.",
+          "pipeline_applicability": "Underlying samtools/htslib fixes need the separate release audit.",
+          "committer_date": "2026-10-28T17:44:43Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": true,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        },
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/samtools/idxstats/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/samtools/idxstats/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "5f344f0e41fdfaf2506f89400e42a2689d6ab323",
+          "date": "2026-10-19T16:32:10+02:00",
+          "subject": "samtools: Add Seqera container metadata and conda lock files (#13382)",
+          "commit_url": "https://github.com/nf-core/modules/commit/5f344f0e41fdfaf2506f89400e42a2689d6ab323",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13382"
+          ],
+          "files": [
+            "modules/nf-core/samtools/idxstats/.conda-lock/linux_amd64-bd-8a3ddf262165ba23_1.txt",
+            "modules/nf-core/samtools/idxstats/.conda-lock/linux_arm64-bd-4003425f22200067_1.txt",
+            "modules/nf-core/samtools/idxstats/main.nf",
+            "modules/nf-core/samtools/idxstats/meta.yml"
+          ],
+          "runtime_files": [
+            "modules/nf-core/samtools/idxstats/.conda-lock/linux_amd64-bd-8a3ddf262165ba23_1.txt",
+            "modules/nf-core/samtools/idxstats/.conda-lock/linux_arm64-bd-4003425f22200067_1.txt",
+            "modules/nf-core/samtools/idxstats/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "container-and-lock-maintenance",
+          "diff_review": "Samtools 1.24 image builds/container metadata/Conda lock files change; processing commands do not.",
+          "pipeline_applicability": "Image/dependency effects not tested.",
+          "committer_date": "2026-10-19T16:32:10+02:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "samtools/index",
+      "path": "modules/nf-core/samtools/index",
+      "status": "retained",
+      "base_installed_sha": "f4596fe0bdc096cf53ec4497e83defdb3a94ff62",
+      "installed_sha": "9339809fcb90af8a8b7051e6cd914894d5c52002",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/samtools/index/environment.yml",
+        "modules/nf-core/samtools/index/main.nf",
+        "modules/nf-core/samtools/index/meta.yml",
+        "modules/nf-core/samtools/index/tests/csi.nextflow.config",
+        "modules/nf-core/samtools/index/tests/main.nf.test",
+        "modules/nf-core/samtools/index/tests/main.nf.test.snap",
+        "modules/nf-core/samtools/index/tests/tags.yml"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "4dd9311a99fd12a2a2ea48cf56e3f26f76791d6b",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "4dd9311a99fd12a2a2ea48cf56e3f26f76791d6b",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "829d6663cbaf10be4d66a4b06e4bb08e4edf2170",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 3,
+      "subsequent_runtime_commit_count": 3,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "a582d5633f7df32396681ef4458068e2b509ca91",
+          "date": "2026-10-28T17:44:43Z",
+          "subject": "Bump samtools to 1.25 (#13473)",
+          "commit_url": "https://github.com/nf-core/modules/commit/a582d5633f7df32396681ef4458068e2b509ca91",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13473"
+          ],
+          "files": [
+            "modules/nf-core/samtools/index/.conda-lock/linux_amd64-bd-704fb80d75745bd4_7.txt",
+            "modules/nf-core/samtools/index/.conda-lock/linux_amd64-bd-8a3ddf262165ba23_1.txt",
+            "modules/nf-core/samtools/index/.conda-lock/linux_arm64-bd-4003425f22200067_1.txt",
+            "modules/nf-core/samtools/index/.conda-lock/linux_arm64-bd-944a4060c62320c2_8.txt",
+            "modules/nf-core/samtools/index/environment.yml",
+            "modules/nf-core/samtools/index/main.nf",
+            "modules/nf-core/samtools/index/meta.yml",
+            "modules/nf-core/samtools/index/tests/main.nf.test.snap"
+          ],
+          "runtime_files": [
+            "modules/nf-core/samtools/index/.conda-lock/linux_amd64-bd-704fb80d75745bd4_7.txt",
+            "modules/nf-core/samtools/index/.conda-lock/linux_amd64-bd-8a3ddf262165ba23_1.txt",
+            "modules/nf-core/samtools/index/.conda-lock/linux_arm64-bd-4003425f22200067_1.txt",
+            "modules/nf-core/samtools/index/.conda-lock/linux_arm64-bd-944a4060c62320c2_8.txt",
+            "modules/nf-core/samtools/index/environment.yml",
+            "modules/nf-core/samtools/index/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "tool-version-bump",
+          "diff_review": "Samtools faidx/flagstat/idxstats/index/sort/stats pins move 1.24 to 1.25; commands unchanged.",
+          "pipeline_applicability": "Underlying samtools/htslib fixes need the separate release audit.",
+          "committer_date": "2026-10-28T17:44:43Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": true,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        },
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/samtools/index/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/samtools/index/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "5f344f0e41fdfaf2506f89400e42a2689d6ab323",
+          "date": "2026-10-19T16:32:10+02:00",
+          "subject": "samtools: Add Seqera container metadata and conda lock files (#13382)",
+          "commit_url": "https://github.com/nf-core/modules/commit/5f344f0e41fdfaf2506f89400e42a2689d6ab323",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13382"
+          ],
+          "files": [
+            "modules/nf-core/samtools/index/.conda-lock/linux_amd64-bd-8a3ddf262165ba23_1.txt",
+            "modules/nf-core/samtools/index/.conda-lock/linux_arm64-bd-4003425f22200067_1.txt",
+            "modules/nf-core/samtools/index/main.nf",
+            "modules/nf-core/samtools/index/meta.yml"
+          ],
+          "runtime_files": [
+            "modules/nf-core/samtools/index/.conda-lock/linux_amd64-bd-8a3ddf262165ba23_1.txt",
+            "modules/nf-core/samtools/index/.conda-lock/linux_arm64-bd-4003425f22200067_1.txt",
+            "modules/nf-core/samtools/index/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "container-and-lock-maintenance",
+          "diff_review": "Samtools 1.24 image builds/container metadata/Conda lock files change; processing commands do not.",
+          "pipeline_applicability": "Image/dependency effects not tested.",
+          "committer_date": "2026-10-19T16:32:10+02:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "samtools/sort",
+      "path": "modules/nf-core/samtools/sort",
+      "status": "retained",
+      "base_installed_sha": "4352dbdb09ec40db71e9b172b97a01dcf5622c26",
+      "installed_sha": "9339809fcb90af8a8b7051e6cd914894d5c52002",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/samtools/sort/environment.yml",
+        "modules/nf-core/samtools/sort/main.nf",
+        "modules/nf-core/samtools/sort/meta.yml",
+        "modules/nf-core/samtools/sort/tests/main.nf.test",
+        "modules/nf-core/samtools/sort/tests/main.nf.test.snap",
+        "modules/nf-core/samtools/sort/tests/nextflow.config",
+        "modules/nf-core/samtools/sort/tests/nextflow_cram.config",
+        "modules/nf-core/samtools/sort/tests/nextflow_sam.config",
+        "modules/nf-core/samtools/sort/tests/tags.yml"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "01f4f8c6820f5bbd9c5758d4c788e84019d9df87",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "01f4f8c6820f5bbd9c5758d4c788e84019d9df87",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "f538c56a1c8575991d02be5c10bdf3ede7cc97ba",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 3,
+      "subsequent_runtime_commit_count": 3,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "a582d5633f7df32396681ef4458068e2b509ca91",
+          "date": "2026-10-28T17:44:43Z",
+          "subject": "Bump samtools to 1.25 (#13473)",
+          "commit_url": "https://github.com/nf-core/modules/commit/a582d5633f7df32396681ef4458068e2b509ca91",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13473"
+          ],
+          "files": [
+            "modules/nf-core/samtools/sort/.conda-lock/linux_amd64-bd-704fb80d75745bd4_7.txt",
+            "modules/nf-core/samtools/sort/.conda-lock/linux_amd64-bd-8a3ddf262165ba23_1.txt",
+            "modules/nf-core/samtools/sort/.conda-lock/linux_arm64-bd-4003425f22200067_1.txt",
+            "modules/nf-core/samtools/sort/.conda-lock/linux_arm64-bd-944a4060c62320c2_8.txt",
+            "modules/nf-core/samtools/sort/environment.yml",
+            "modules/nf-core/samtools/sort/main.nf",
+            "modules/nf-core/samtools/sort/meta.yml",
+            "modules/nf-core/samtools/sort/tests/main.nf.test.snap"
+          ],
+          "runtime_files": [
+            "modules/nf-core/samtools/sort/.conda-lock/linux_amd64-bd-704fb80d75745bd4_7.txt",
+            "modules/nf-core/samtools/sort/.conda-lock/linux_amd64-bd-8a3ddf262165ba23_1.txt",
+            "modules/nf-core/samtools/sort/.conda-lock/linux_arm64-bd-4003425f22200067_1.txt",
+            "modules/nf-core/samtools/sort/.conda-lock/linux_arm64-bd-944a4060c62320c2_8.txt",
+            "modules/nf-core/samtools/sort/environment.yml",
+            "modules/nf-core/samtools/sort/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "tool-version-bump",
+          "diff_review": "Samtools faidx/flagstat/idxstats/index/sort/stats pins move 1.24 to 1.25; commands unchanged.",
+          "pipeline_applicability": "Underlying samtools/htslib fixes need the separate release audit.",
+          "committer_date": "2026-10-28T17:44:43Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": true,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        },
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/samtools/sort/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/samtools/sort/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "5f344f0e41fdfaf2506f89400e42a2689d6ab323",
+          "date": "2026-10-19T16:32:10+02:00",
+          "subject": "samtools: Add Seqera container metadata and conda lock files (#13382)",
+          "commit_url": "https://github.com/nf-core/modules/commit/5f344f0e41fdfaf2506f89400e42a2689d6ab323",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13382"
+          ],
+          "files": [
+            "modules/nf-core/samtools/sort/.conda-lock/linux_amd64-bd-8a3ddf262165ba23_1.txt",
+            "modules/nf-core/samtools/sort/.conda-lock/linux_arm64-bd-4003425f22200067_1.txt",
+            "modules/nf-core/samtools/sort/main.nf",
+            "modules/nf-core/samtools/sort/meta.yml",
+            "modules/nf-core/samtools/sort/tests/main.nf.test.snap"
+          ],
+          "runtime_files": [
+            "modules/nf-core/samtools/sort/.conda-lock/linux_amd64-bd-8a3ddf262165ba23_1.txt",
+            "modules/nf-core/samtools/sort/.conda-lock/linux_arm64-bd-4003425f22200067_1.txt",
+            "modules/nf-core/samtools/sort/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "container-and-lock-maintenance",
+          "diff_review": "Samtools 1.24 image builds/container metadata/Conda lock files change; processing commands do not.",
+          "pipeline_applicability": "Image/dependency effects not tested.",
+          "committer_date": "2026-10-19T16:32:10+02:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "samtools/stats",
+      "path": "modules/nf-core/samtools/stats",
+      "status": "retained",
+      "base_installed_sha": "f4596fe0bdc096cf53ec4497e83defdb3a94ff62",
+      "installed_sha": "9339809fcb90af8a8b7051e6cd914894d5c52002",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/samtools/stats/environment.yml",
+        "modules/nf-core/samtools/stats/main.nf",
+        "modules/nf-core/samtools/stats/meta.yml",
+        "modules/nf-core/samtools/stats/tests/main.nf.test",
+        "modules/nf-core/samtools/stats/tests/main.nf.test.snap",
+        "modules/nf-core/samtools/stats/tests/tags.yml"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "525ae00f966b91f2660806570aa7a9c2ea36fc6e",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "525ae00f966b91f2660806570aa7a9c2ea36fc6e",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "cc7aa9da1a6fe501c383e38a4b924aaf205b7c88",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 3,
+      "subsequent_runtime_commit_count": 3,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "a582d5633f7df32396681ef4458068e2b509ca91",
+          "date": "2026-10-28T17:44:43Z",
+          "subject": "Bump samtools to 1.25 (#13473)",
+          "commit_url": "https://github.com/nf-core/modules/commit/a582d5633f7df32396681ef4458068e2b509ca91",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13473"
+          ],
+          "files": [
+            "modules/nf-core/samtools/stats/.conda-lock/linux_amd64-bd-704fb80d75745bd4_7.txt",
+            "modules/nf-core/samtools/stats/.conda-lock/linux_amd64-bd-8a3ddf262165ba23_1.txt",
+            "modules/nf-core/samtools/stats/.conda-lock/linux_arm64-bd-4003425f22200067_1.txt",
+            "modules/nf-core/samtools/stats/.conda-lock/linux_arm64-bd-944a4060c62320c2_8.txt",
+            "modules/nf-core/samtools/stats/environment.yml",
+            "modules/nf-core/samtools/stats/main.nf",
+            "modules/nf-core/samtools/stats/meta.yml",
+            "modules/nf-core/samtools/stats/tests/main.nf.test.snap"
+          ],
+          "runtime_files": [
+            "modules/nf-core/samtools/stats/.conda-lock/linux_amd64-bd-704fb80d75745bd4_7.txt",
+            "modules/nf-core/samtools/stats/.conda-lock/linux_amd64-bd-8a3ddf262165ba23_1.txt",
+            "modules/nf-core/samtools/stats/.conda-lock/linux_arm64-bd-4003425f22200067_1.txt",
+            "modules/nf-core/samtools/stats/.conda-lock/linux_arm64-bd-944a4060c62320c2_8.txt",
+            "modules/nf-core/samtools/stats/environment.yml",
+            "modules/nf-core/samtools/stats/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "tool-version-bump",
+          "diff_review": "Samtools faidx/flagstat/idxstats/index/sort/stats pins move 1.24 to 1.25; commands unchanged.",
+          "pipeline_applicability": "Underlying samtools/htslib fixes need the separate release audit.",
+          "committer_date": "2026-10-28T17:44:43Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": true,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        },
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/samtools/stats/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/samtools/stats/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "5f344f0e41fdfaf2506f89400e42a2689d6ab323",
+          "date": "2026-10-19T16:32:10+02:00",
+          "subject": "samtools: Add Seqera container metadata and conda lock files (#13382)",
+          "commit_url": "https://github.com/nf-core/modules/commit/5f344f0e41fdfaf2506f89400e42a2689d6ab323",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13382"
+          ],
+          "files": [
+            "modules/nf-core/samtools/stats/.conda-lock/linux_amd64-bd-8a3ddf262165ba23_1.txt",
+            "modules/nf-core/samtools/stats/.conda-lock/linux_arm64-bd-4003425f22200067_1.txt",
+            "modules/nf-core/samtools/stats/main.nf",
+            "modules/nf-core/samtools/stats/meta.yml",
+            "modules/nf-core/samtools/stats/tests/main.nf.test.snap"
+          ],
+          "runtime_files": [
+            "modules/nf-core/samtools/stats/.conda-lock/linux_amd64-bd-8a3ddf262165ba23_1.txt",
+            "modules/nf-core/samtools/stats/.conda-lock/linux_arm64-bd-4003425f22200067_1.txt",
+            "modules/nf-core/samtools/stats/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "container-and-lock-maintenance",
+          "diff_review": "Samtools 1.24 image builds/container metadata/Conda lock files change; processing commands do not.",
+          "pipeline_applicability": "Image/dependency effects not tested.",
+          "committer_date": "2026-10-19T16:32:10+02:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "subread/featurecounts",
+      "path": "modules/nf-core/subread/featurecounts",
+      "status": "retained",
+      "base_installed_sha": "911696ea0b62df80e900ef244d7867d177971f73",
+      "installed_sha": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+      "declared_local_patch": "modules/nf-core/subread/featurecounts/subread-featurecounts.diff",
+      "pr448_changed_files": [
+        "modules/nf-core/subread/featurecounts/environment.yml",
+        "modules/nf-core/subread/featurecounts/main.nf",
+        "modules/nf-core/subread/featurecounts/meta.yml",
+        "modules/nf-core/subread/featurecounts/subread-featurecounts.diff",
+        "modules/nf-core/subread/featurecounts/tests/main.nf.test",
+        "modules/nf-core/subread/featurecounts/tests/main.nf.test.snap",
+        "modules/nf-core/subread/featurecounts/tests/nextflow.config"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "7e99581bbd8a06d7bdc6db42f02097a8842e87aa",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "a8c5facf454852c30e8ae5c5a5ad985c056d0648",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "0cd82b52ce02ab4572a42fa230ffb2d9d41d6637",
+      "pipeline_main_matches_declared_install": false,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 2,
+      "subsequent_runtime_commit_count": 1,
+      "explicit_fix_keyword_count": 1,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/subread/featurecounts/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/subread/featurecounts/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "c565f1b27c06a1e8b726e2a646d4c822ae3b514a",
+          "date": "2026-08-15T17:35:31Z",
+          "subject": "Fix 103 dead documentation links in module meta.yml (#12581)",
+          "commit_url": "https://github.com/nf-core/modules/commit/c565f1b27c06a1e8b726e2a646d4c822ae3b514a",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12581"
+          ],
+          "files": [
+            "modules/nf-core/subread/featurecounts/meta.yml"
+          ],
+          "runtime_files": [],
+          "explicit_fix_keyword": true,
+          "classification": "documentation-only",
+          "diff_review": "FeatureCounts metadata homepage/documentation links are repaired; runtime files do not change.",
+          "pipeline_applicability": "Not a count-semantics fix.",
+          "committer_date": "2026-08-15T17:35:31Z",
+          "fix_keyword_in_subject": true,
+          "fix_keyword_in_body": true,
+          "postdates_pr448_merge": false,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": false
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true,
+      "local_main_delta_summary": "Local featureCounts pin is 2.0.1 rather than upstream source 2.1.1; preserve the local patch."
+    },
+    {
+      "name": "trimgalore",
+      "path": "modules/nf-core/trimgalore",
+      "status": "retained",
+      "base_installed_sha": "eed5d14302a6c9070dcc25feeab707a27a4b3254",
+      "installed_sha": "0991b1032cccfcd9245ef59c6e56d6092ac0b3e7",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/trimgalore/environment.yml",
+        "modules/nf-core/trimgalore/main.nf",
+        "modules/nf-core/trimgalore/tests/main.nf.test",
+        "modules/nf-core/trimgalore/tests/main.nf.test.snap"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "2a08be919202c94bc7a79698376140c4f134e575",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "2a08be919202c94bc7a79698376140c4f134e575",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "af43d7432036462a7ebab578f7af39efffc032fd",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 4,
+      "subsequent_runtime_commit_count": 4,
+      "explicit_fix_keyword_count": 1,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/trimgalore/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/trimgalore/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "f97696ae2ba28e94032adafea6777d7eb38d2c1d",
+          "date": "2026-09-17T10:01:08Z",
+          "subject": "trimgalore: emit the JSON trimming report (#12986)",
+          "commit_url": "https://github.com/nf-core/modules/commit/f97696ae2ba28e94032adafea6777d7eb38d2c1d",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12986"
+          ],
+          "files": [
+            "modules/nf-core/trimgalore/main.nf",
+            "modules/nf-core/trimgalore/meta.yml",
+            "modules/nf-core/trimgalore/tests/main.nf.test",
+            "modules/nf-core/trimgalore/tests/main.nf.test.snap"
+          ],
+          "runtime_files": [
+            "modules/nf-core/trimgalore/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "module-output-propagation-fix",
+          "diff_review": "Trim Galore emits optional JSON trimming reports and updates stubs/tests. Upstream documents their necessity for modern MultiQC TrimGalore-v2 support.",
+          "pipeline_applicability": "Atacseq imports its local MultiQC 1.13 wrapper, forwards text logs, and saved reports contain cutadapt plots. Treat as a modern-MultiQC integration requirement, not a proven current missing-report defect.",
+          "committer_date": "2026-09-17T10:01:08Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": true,
+          "postdates_pr448_merge": false,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "e0dce27411e04123f0fee60eb0f475262c165766",
+          "date": "2026-09-16T09:25:12Z",
+          "subject": "fix(trimgalore): drop process_low_memory label (#12978)",
+          "commit_url": "https://github.com/nf-core/modules/commit/e0dce27411e04123f0fee60eb0f475262c165766",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12978"
+          ],
+          "files": [
+            "modules/nf-core/trimgalore/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/trimgalore/main.nf"
+          ],
+          "explicit_fix_keyword": true,
+          "classification": "module-resource-compatibility-fix",
+          "diff_review": "Trim Galore removes process_low_memory after reported OOMs where a 1 GB label budget underestimated cgroup page-cache accounting.",
+          "pipeline_applicability": "Atacseq has no process_low_memory selector; its process_medium asks for 36 GB per attempt. This does not establish a reachable atacseq OOM defect.",
+          "committer_date": "2026-09-16T09:25:12Z",
+          "fix_keyword_in_subject": true,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": false,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "2a30bfb6a1b4667692d734e33e000a3bd1d74a0d",
+          "date": "2026-07-09T11:29:02+01:00",
+          "subject": "Bump trimgalore to 2.3.0 (#12331)",
+          "commit_url": "https://github.com/nf-core/modules/commit/2a30bfb6a1b4667692d734e33e000a3bd1d74a0d",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12331"
+          ],
+          "files": [
+            "modules/nf-core/trimgalore/environment.yml",
+            "modules/nf-core/trimgalore/main.nf",
+            "modules/nf-core/trimgalore/tests/main.nf.test.snap"
+          ],
+          "runtime_files": [
+            "modules/nf-core/trimgalore/environment.yml",
+            "modules/nf-core/trimgalore/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "tool-version-bump",
+          "diff_review": "Trim Galore pins move 2.1.0 to 2.3.0; module command/signature unchanged.",
+          "pipeline_applicability": "Underlying tool fixes belong to the separate release audit.",
+          "committer_date": "2026-07-09T10:29:02Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": false,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "ucsc/bedgraphtobigwig",
+      "path": "modules/nf-core/ucsc/bedgraphtobigwig",
+      "status": "retained",
+      "base_installed_sha": "66290981ab6038ea86177ade40b9449bc790b0ce",
+      "installed_sha": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/ucsc/bedgraphtobigwig/environment.yml",
+        "modules/nf-core/ucsc/bedgraphtobigwig/main.nf",
+        "modules/nf-core/ucsc/bedgraphtobigwig/meta.yml",
+        "modules/nf-core/ucsc/bedgraphtobigwig/tests/main.nf.test",
+        "modules/nf-core/ucsc/bedgraphtobigwig/tests/main.nf.test.snap"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "31c43aec2bae5d7bc6eca12d791fdb47c696e6e8",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "31c43aec2bae5d7bc6eca12d791fdb47c696e6e8",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "dd7374211889b3f63094cfe46bfce917337b02f7",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 2,
+      "subsequent_runtime_commit_count": 2,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/ucsc/bedgraphtobigwig/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/ucsc/bedgraphtobigwig/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "b034b63f3160144d052de6f38350339a32f91489",
+          "date": "2026-10-15T15:03:52Z",
+          "subject": "Update ucsc to use Seqera Containers (#13242)",
+          "commit_url": "https://github.com/nf-core/modules/commit/b034b63f3160144d052de6f38350339a32f91489",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13242"
+          ],
+          "files": [
+            "modules/nf-core/ucsc/bedgraphtobigwig/.conda-lock/linux_amd64-bd-2d280d39bedffa30_1.txt",
+            "modules/nf-core/ucsc/bedgraphtobigwig/.conda-lock/linux_arm64-bd-f331c1c158fc967b_1.txt",
+            "modules/nf-core/ucsc/bedgraphtobigwig/main.nf",
+            "modules/nf-core/ucsc/bedgraphtobigwig/meta.yml"
+          ],
+          "runtime_files": [
+            "modules/nf-core/ucsc/bedgraphtobigwig/.conda-lock/linux_amd64-bd-2d280d39bedffa30_1.txt",
+            "modules/nf-core/ucsc/bedgraphtobigwig/.conda-lock/linux_arm64-bd-f331c1c158fc967b_1.txt",
+            "modules/nf-core/ucsc/bedgraphtobigwig/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "container-maintenance",
+          "diff_review": "UCSC bedGraphToBigWig retains declared version 482 while changing container references. Issue13237 is a migration task.",
+          "pipeline_applicability": "No processing-command change; image/dependency effects not tested.",
+          "committer_date": "2026-10-15T15:03:52Z",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": true,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": true
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "umitools/extract",
+      "path": "modules/nf-core/umitools/extract",
+      "status": "retained",
+      "base_installed_sha": "bd6d730b3f32742f402189113ba9480006a3350f",
+      "installed_sha": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/umitools/extract/main.nf"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "0aafe59deb3a0faebd680410de6e7103458ab60e",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "0aafe59deb3a0faebd680410de6e7103458ab60e",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "294e2e8d6f9eb17f762b61164246cd5205e90973",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 2,
+      "subsequent_runtime_commit_count": 1,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/umitools/extract/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/umitools/extract/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        },
+        {
+          "sha": "4dd270e412e2a7e78761be38aafa5cfa1dcdf891",
+          "date": "2026-08-26T12:19:43+02:00",
+          "subject": "migrate nft-bam tests to nft-utils (#12790)",
+          "commit_url": "https://github.com/nf-core/modules/commit/4dd270e412e2a7e78761be38aafa5cfa1dcdf891",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/12790"
+          ],
+          "files": [
+            "modules/nf-core/umitools/extract/tests/main.nf.test",
+            "modules/nf-core/umitools/extract/tests/main.nf.test.snap",
+            "modules/nf-core/umitools/extract/tests/nextflow.config"
+          ],
+          "runtime_files": [],
+          "explicit_fix_keyword": false,
+          "classification": "tests-only",
+          "diff_review": "UMI-tools extract assertions migrate to nf-test utilities; runtime files do not change.",
+          "pipeline_applicability": "Not a production module correction.",
+          "committer_date": "2026-08-26T12:19:43+02:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": true,
+          "postdates_pr448_merge": false,
+          "license_prefix_only_verified": false,
+          "main_change_only_container_directive_verified": false
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    },
+    {
+      "name": "untar",
+      "path": "modules/nf-core/untar",
+      "status": "retained",
+      "base_installed_sha": "5c460c5a4736974abde2843294f35307ee2b0e5e",
+      "installed_sha": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+      "declared_local_patch": null,
+      "pr448_changed_files": [
+        "modules/nf-core/untar/environment.yml",
+        "modules/nf-core/untar/main.nf",
+        "modules/nf-core/untar/meta.yml",
+        "modules/nf-core/untar/tests/main.nf.test",
+        "modules/nf-core/untar/tests/main.nf.test.snap"
+      ],
+      "installed_is_ancestor_of_pinned_master": true,
+      "installed_main_exists": true,
+      "installed_main_blob": "bf2c056c6239da4341583e3330675e548699049e",
+      "pipeline_main_exists": true,
+      "pipeline_main_blob": "bf2c056c6239da4341583e3330675e548699049e",
+      "current_upstream_main_exists": true,
+      "current_upstream_main_blob": "67e0fba62ba2aeea20cc32d4117ef985cc597246",
+      "pipeline_main_matches_declared_install": true,
+      "audit_status": "history-and-diffs-reviewed",
+      "subsequent_commit_count": 1,
+      "subsequent_runtime_commit_count": 1,
+      "explicit_fix_keyword_count": 0,
+      "subsequent_commits": [
+        {
+          "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+          "date": "2026-10-27T21:05:49+01:00",
+          "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+          "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+          "pull_request_urls": [
+            "https://github.com/nf-core/modules/pull/13448"
+          ],
+          "files": [
+            "modules/nf-core/untar/main.nf"
+          ],
+          "runtime_files": [
+            "modules/nf-core/untar/main.nf"
+          ],
+          "explicit_fix_keyword": false,
+          "classification": "licensing-only",
+          "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+          "pipeline_applicability": "No computational/body change.",
+          "committer_date": "2026-10-27T21:05:49+01:00",
+          "fix_keyword_in_subject": false,
+          "fix_keyword_in_body": false,
+          "postdates_pr448_merge": true,
+          "license_prefix_only_verified": true,
+          "main_change_only_container_directive_verified": false
+        }
+      ],
+      "inventory_status": "updated",
+      "statically_reachable_at_merge": true
+    }
+  ],
+  "unique_subsequent_commits": [
+    {
+      "sha": "5909fc046b4b2062e4b4173808aacd2424e0866a",
+      "date": "2026-06-23T14:06:41+02:00",
+      "subject": "Remove `echo` usage in topic evaluation (#12112)",
+      "commit_url": "https://github.com/nf-core/modules/commit/5909fc046b4b2062e4b4173808aacd2424e0866a",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/12112"
+      ],
+      "explicit_fix_keyword": false,
+      "classification": "module-provenance-fix",
+      "diff_review": "ATAQV and mkarv version queries now capture stderr and tolerate a non-zero version-query exit, removing echo/command substitution. Computational commands unchanged.",
+      "pipeline_applicability": "Software-version provenance only; no numerical effect established.",
+      "committer_date": "2026-06-23T12:06:41Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": true,
+      "postdates_pr448_merge": false
+    },
+    {
+      "sha": "2a30bfb6a1b4667692d734e33e000a3bd1d74a0d",
+      "date": "2026-07-09T11:29:02+01:00",
+      "subject": "Bump trimgalore to 2.3.0 (#12331)",
+      "commit_url": "https://github.com/nf-core/modules/commit/2a30bfb6a1b4667692d734e33e000a3bd1d74a0d",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/12331"
+      ],
+      "explicit_fix_keyword": false,
+      "classification": "tool-version-bump",
+      "diff_review": "Trim Galore pins move 2.1.0 to 2.3.0; module command/signature unchanged.",
+      "pipeline_applicability": "Underlying tool fixes belong to the separate release audit.",
+      "committer_date": "2026-07-09T10:29:02Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": false,
+      "postdates_pr448_merge": false
+    },
+    {
+      "sha": "9339809fcb90af8a8b7051e6cd914894d5c52002",
+      "date": "2026-07-13T15:56:42+02:00",
+      "subject": "Bump Samtools to v1.24 (#12340)",
+      "commit_url": "https://github.com/nf-core/modules/commit/9339809fcb90af8a8b7051e6cd914894d5c52002",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/12340"
+      ],
+      "explicit_fix_keyword": false,
+      "classification": "tool-version-bump",
+      "diff_review": "For faidx, htslib/samtools pins move 1.23.1 to 1.24; command unchanged.",
+      "pipeline_applicability": "Other audited samtools modules already have this commit as installed, so it is excluded from their later-history ranges.",
+      "committer_date": "2026-07-13T13:56:42Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": true,
+      "postdates_pr448_merge": false
+    },
+    {
+      "sha": "0cd85f32cf1a1828205b16e4267277ba9457570b",
+      "date": "2026-07-15T10:16:26+02:00",
+      "subject": "updated test evaluation strategy - check for files and statistics, instead of getREADs using the nf-bam plugin to avoid linting conflicts. (#12348)",
+      "commit_url": "https://github.com/nf-core/modules/commit/0cd85f32cf1a1828205b16e4267277ba9457570b",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/12348"
+      ],
+      "explicit_fix_keyword": false,
+      "classification": "tests-only",
+      "diff_review": "Bowtie2 align test assertions, fixtures and test configurations change; runtime files do not.",
+      "pipeline_applicability": "Not a production module correction.",
+      "committer_date": "2026-07-15T08:16:26Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": false,
+      "postdates_pr448_merge": false
+    },
+    {
+      "sha": "2080397432fcb0d079121dbacf22ce42ef175cec",
+      "date": "2026-07-28T12:45:12+02:00",
+      "subject": "re-enable prek not just skipping over all files (#12403)",
+      "commit_url": "https://github.com/nf-core/modules/commit/2080397432fcb0d079121dbacf22ce42ef175cec",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/12403"
+      ],
+      "explicit_fix_keyword": false,
+      "classification": "metadata-formatting-only",
+      "diff_review": "Bowtie2 align meta.yml formatting changes; runtime files do not.",
+      "pipeline_applicability": "Not a production module correction.",
+      "committer_date": "2026-07-28T12:45:12+02:00",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": false,
+      "postdates_pr448_merge": false
+    },
+    {
+      "sha": "85c1724990b626767f9ed59092430d2d145c4607",
+      "date": "2026-08-10T17:12:54+02:00",
+      "subject": "Update to topic `preseq` (#12612)",
+      "commit_url": "https://github.com/nf-core/modules/commit/85c1724990b626767f9ed59092430d2d145c4607",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/12612"
+      ],
+      "explicit_fix_keyword": false,
+      "classification": "version-provenance-cleanup",
+      "diff_review": "PRESEQ version-extraction sed expression and equivalent Groovy interpolation change; lc_extrap options/algorithm do not.",
+      "pipeline_applicability": "No computational defect established from this diff.",
+      "committer_date": "2026-08-10T15:12:54Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": false,
+      "postdates_pr448_merge": false
+    },
+    {
+      "sha": "c565f1b27c06a1e8b726e2a646d4c822ae3b514a",
+      "date": "2026-08-15T17:35:31Z",
+      "subject": "Fix 103 dead documentation links in module meta.yml (#12581)",
+      "commit_url": "https://github.com/nf-core/modules/commit/c565f1b27c06a1e8b726e2a646d4c822ae3b514a",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/12581"
+      ],
+      "explicit_fix_keyword": true,
+      "classification": "documentation-only",
+      "diff_review": "FeatureCounts metadata homepage/documentation links are repaired; runtime files do not change.",
+      "pipeline_applicability": "Not a count-semantics fix.",
+      "committer_date": "2026-08-15T17:35:31Z",
+      "fix_keyword_in_subject": true,
+      "fix_keyword_in_body": true,
+      "postdates_pr448_merge": false
+    },
+    {
+      "sha": "fe08122c3dc2f2d7890daba06f6c90e570ef01de",
+      "date": "2026-08-20T15:40:27Z",
+      "subject": "Bump Picard to 3.5.0 (#12753)",
+      "commit_url": "https://github.com/nf-core/modules/commit/fe08122c3dc2f2d7890daba06f6c90e570ef01de",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/12753"
+      ],
+      "explicit_fix_keyword": false,
+      "classification": "tool-version-bump-and-api-cleanup",
+      "diff_review": "Picard moves 3.4.0 to 3.5.0. AddOrReplaceReadGroups and MarkDuplicates also remove the ext.suffix override and use the input extension; other audited Picard commands stay unchanged.",
+      "pipeline_applicability": "No ext.suffix override exists in atacseq modules.config. Underlying Picard fixes need separate release review.",
+      "committer_date": "2026-08-20T15:40:27Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": true,
+      "postdates_pr448_merge": false
+    },
+    {
+      "sha": "4dd270e412e2a7e78761be38aafa5cfa1dcdf891",
+      "date": "2026-08-26T12:19:43+02:00",
+      "subject": "migrate nft-bam tests to nft-utils (#12790)",
+      "commit_url": "https://github.com/nf-core/modules/commit/4dd270e412e2a7e78761be38aafa5cfa1dcdf891",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/12790"
+      ],
+      "explicit_fix_keyword": false,
+      "classification": "tests-only",
+      "diff_review": "UMI-tools extract assertions migrate to nf-test utilities; runtime files do not change.",
+      "pipeline_applicability": "Not a production module correction.",
+      "committer_date": "2026-08-26T12:19:43+02:00",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": true,
+      "postdates_pr448_merge": false
+    },
+    {
+      "sha": "6ef220fd9252b42fb3c50348bbdbcb6246730686",
+      "date": "2026-09-04T14:23:17Z",
+      "subject": "fix: align meta.yml input/output with main.nf across all modules and subworkflows (#12882)",
+      "commit_url": "https://github.com/nf-core/modules/commit/6ef220fd9252b42fb3c50348bbdbcb6246730686",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/12882"
+      ],
+      "explicit_fix_keyword": true,
+      "classification": "documentation-only",
+      "diff_review": "Alignmentsieve/MACS3 meta.yml output order is aligned with main.nf; runtime channels/commands are unchanged.",
+      "pipeline_applicability": "Fix-labelled documentation change, not an execution fix for these components.",
+      "committer_date": "2026-09-04T14:23:17Z",
+      "fix_keyword_in_subject": true,
+      "fix_keyword_in_body": true,
+      "postdates_pr448_merge": false
+    },
+    {
+      "sha": "e0dce27411e04123f0fee60eb0f475262c165766",
+      "date": "2026-09-16T09:25:12Z",
+      "subject": "fix(trimgalore): drop process_low_memory label (#12978)",
+      "commit_url": "https://github.com/nf-core/modules/commit/e0dce27411e04123f0fee60eb0f475262c165766",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/12978"
+      ],
+      "explicit_fix_keyword": true,
+      "classification": "module-resource-compatibility-fix",
+      "diff_review": "Trim Galore removes process_low_memory after reported OOMs where a 1 GB label budget underestimated cgroup page-cache accounting.",
+      "pipeline_applicability": "Atacseq has no process_low_memory selector; its process_medium asks for 36 GB per attempt. This does not establish a reachable atacseq OOM defect.",
+      "committer_date": "2026-09-16T09:25:12Z",
+      "fix_keyword_in_subject": true,
+      "fix_keyword_in_body": false,
+      "postdates_pr448_merge": false
+    },
+    {
+      "sha": "f97696ae2ba28e94032adafea6777d7eb38d2c1d",
+      "date": "2026-09-17T10:01:08Z",
+      "subject": "trimgalore: emit the JSON trimming report (#12986)",
+      "commit_url": "https://github.com/nf-core/modules/commit/f97696ae2ba28e94032adafea6777d7eb38d2c1d",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/12986"
+      ],
+      "explicit_fix_keyword": false,
+      "classification": "module-output-propagation-fix",
+      "diff_review": "Trim Galore emits optional JSON trimming reports and updates stubs/tests. Upstream documents their necessity for modern MultiQC TrimGalore-v2 support.",
+      "pipeline_applicability": "Atacseq imports its local MultiQC 1.13 wrapper, forwards text logs, and saved reports contain cutadapt plots. Treat as a modern-MultiQC integration requirement, not a proven current missing-report defect.",
+      "committer_date": "2026-09-17T10:01:08Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": true,
+      "postdates_pr448_merge": false
+    },
+    {
+      "sha": "b3d1ca84b3f0051498abb91bd4333b701be4384d",
+      "date": "2026-09-24T11:58:47Z",
+      "subject": "gffread: accept gzipped gff and fasta input (#13024)",
+      "commit_url": "https://github.com/nf-core/modules/commit/b3d1ca84b3f0051498abb91bd4333b701be4384d",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/13024"
+      ],
+      "explicit_fix_keyword": false,
+      "classification": "module-compressed-input-fix",
+      "diff_review": "GFFREAD decompresses gzip GFF/FASTA inputs, protects output/input name collisions, and tests compressed inputs; previous direct gzipped GFF could yield no features.",
+      "pipeline_applicability": "Atacseq PREPARE_GENOME already gunzips .gff.gz and supplies no FASTA to GFFREAD, bypassing this failure path.",
+      "committer_date": "2026-09-24T11:58:47Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": false,
+      "postdates_pr448_merge": false
+    },
+    {
+      "sha": "50023bebcce2b70e17a4759add65fac5781bfa4f",
+      "date": "2026-10-04T16:34:49Z",
+      "subject": "Added blacklist as input - allows to skip regions overlapping with blacklist (#13082)",
+      "commit_url": "https://github.com/nf-core/modules/commit/50023bebcce2b70e17a4759add65fac5781bfa4f",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/13082"
+      ],
+      "explicit_fix_keyword": false,
+      "classification": "module-feature-and-input-api-change",
+      "diff_review": "computeMatrix gains a blacklist tuple input and changes BED to a meta/path tuple, conditionally passing --blackListFileName.",
+      "pipeline_applicability": "Feature/API change; a full sync needs local caller adaptation. Not proof of a present pipeline bug.",
+      "committer_date": "2026-10-04T16:34:49Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": false,
+      "postdates_pr448_merge": true
+    },
+    {
+      "sha": "b034b63f3160144d052de6f38350339a32f91489",
+      "date": "2026-10-15T15:03:52Z",
+      "subject": "Update ucsc to use Seqera Containers (#13242)",
+      "commit_url": "https://github.com/nf-core/modules/commit/b034b63f3160144d052de6f38350339a32f91489",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/13242"
+      ],
+      "explicit_fix_keyword": false,
+      "classification": "container-maintenance",
+      "diff_review": "UCSC bedGraphToBigWig retains declared version 482 while changing container references. Issue13237 is a migration task.",
+      "pipeline_applicability": "No processing-command change; image/dependency effects not tested.",
+      "committer_date": "2026-10-15T15:03:52Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": true,
+      "postdates_pr448_merge": true
+    },
+    {
+      "sha": "e848c6b4ae9cef4ac56d7221278185ebb31fe322",
+      "date": "2026-10-16T06:55:44Z",
+      "subject": "Update deeptools to use Seqera Containers (#13257)",
+      "commit_url": "https://github.com/nf-core/modules/commit/e848c6b4ae9cef4ac56d7221278185ebb31fe322",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/13257"
+      ],
+      "explicit_fix_keyword": false,
+      "classification": "container-maintenance",
+      "diff_review": "Five DeepTools wrappers change only container references in main.nf, retaining declared tool versions. Issue13256 is a migration task.",
+      "pipeline_applicability": "No processing-command change; a Fix-issue reference is not evidence of a calculation defect.",
+      "committer_date": "2026-10-16T06:55:44Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": true,
+      "postdates_pr448_merge": true
+    },
+    {
+      "sha": "5f344f0e41fdfaf2506f89400e42a2689d6ab323",
+      "date": "2026-10-19T16:32:10+02:00",
+      "subject": "samtools: Add Seqera container metadata and conda lock files (#13382)",
+      "commit_url": "https://github.com/nf-core/modules/commit/5f344f0e41fdfaf2506f89400e42a2689d6ab323",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/13382"
+      ],
+      "explicit_fix_keyword": false,
+      "classification": "container-and-lock-maintenance",
+      "diff_review": "Samtools 1.24 image builds/container metadata/Conda lock files change; processing commands do not.",
+      "pipeline_applicability": "Image/dependency effects not tested.",
+      "committer_date": "2026-10-19T16:32:10+02:00",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": false,
+      "postdates_pr448_merge": true
+    },
+    {
+      "sha": "467c847035812fc17db844c6f37615b415b75eb3",
+      "date": "2026-10-20T04:28:18Z",
+      "subject": "picard: Add Seqera container metadata and conda lock files (#13410)",
+      "commit_url": "https://github.com/nf-core/modules/commit/467c847035812fc17db844c6f37615b415b75eb3",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/13410"
+      ],
+      "explicit_fix_keyword": false,
+      "classification": "container-and-lock-maintenance",
+      "diff_review": "Picard 3.5.0 image builds/container metadata/Conda lock files change; processing commands do not.",
+      "pipeline_applicability": "Image/dependency effects not tested.",
+      "committer_date": "2026-10-20T04:28:18Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": false,
+      "postdates_pr448_merge": true
+    },
+    {
+      "sha": "8278e3c8a48427f7c26754128eba4907b8318878",
+      "date": "2026-10-20T06:49:17Z",
+      "subject": "Bump bowtie2 to 2.5.5 (#13417)",
+      "commit_url": "https://github.com/nf-core/modules/commit/8278e3c8a48427f7c26754128eba4907b8318878",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/13417"
+      ],
+      "explicit_fix_keyword": false,
+      "classification": "tool-version-bump",
+      "diff_review": "Bowtie2 align/build move 2.5.4 to 2.5.5, also upgrading bundled htslib/samtools 1.21 to 1.24; commands unchanged.",
+      "pipeline_applicability": "Underlying tool fixes need separate release review.",
+      "committer_date": "2026-10-20T06:49:17Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": false,
+      "postdates_pr448_merge": true
+    },
+    {
+      "sha": "7b3452a23773f687ededb4befd037920e5a51341",
+      "date": "2026-10-27T21:05:49+01:00",
+      "subject": "Add license header text to all modules and subworkflow main.nf files (#13448)",
+      "commit_url": "https://github.com/nf-core/modules/commit/7b3452a23773f687ededb4befd037920e5a51341",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/13448"
+      ],
+      "explicit_fix_keyword": false,
+      "classification": "licensing-only",
+      "diff_review": "License text is prepended to all 35 retained main.nf files. Byte-for-byte suffix checks confirm no change to the prior module bodies.",
+      "pipeline_applicability": "No computational/body change.",
+      "committer_date": "2026-10-27T21:05:49+01:00",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": false,
+      "postdates_pr448_merge": true
+    },
+    {
+      "sha": "a582d5633f7df32396681ef4458068e2b509ca91",
+      "date": "2026-10-28T17:44:43Z",
+      "subject": "Bump samtools to 1.25 (#13473)",
+      "commit_url": "https://github.com/nf-core/modules/commit/a582d5633f7df32396681ef4458068e2b509ca91",
+      "pull_request_urls": [
+        "https://github.com/nf-core/modules/pull/13473"
+      ],
+      "explicit_fix_keyword": false,
+      "classification": "tool-version-bump",
+      "diff_review": "Samtools faidx/flagstat/idxstats/index/sort/stats pins move 1.24 to 1.25; commands unchanged.",
+      "pipeline_applicability": "Underlying samtools/htslib fixes need the separate release audit.",
+      "committer_date": "2026-10-28T17:44:43Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": true,
+      "postdates_pr448_merge": true
+    }
+  ],
+  "summary": {
+    "changed_module_paths": 36,
+    "retained_module_paths": 35,
+    "removed_module_paths": 1,
+    "module_commit_associations": 78,
+    "unique_subsequent_commits": 21,
+    "all_installed_revisions_are_ancestors": true,
+    "inventory_path_sets_and_installed_shas_match": true,
+    "license_only_main_changes_verified": 35,
+    "container_only_main_changes_verified": 26,
+    "local_main_deviations": [
+      "bwa/index",
+      "subread/featurecounts"
+    ],
+    "all_commits_classified": true
+  },
+  "limitations": [
+    "Later means after each installed module revision; several corrections predate the pipeline PR merge. Git committer dates and the relationship to the merge day are recorded.",
+    "Tool/container/dependency release fixes are separate; a version bump does not establish an atacseq defect.",
+    "This track did not synchronise modules, modify pipeline source, run tests, launch workflows or restart services.",
+    "Seven changed shared subworkflows are inventoried separately and excluded from these module-only history counts.",
+    "Upstream wrapper/output/resource corrections are classified independently from demonstrated pipeline reachability."
+  ],
+  "primary_issue_checks": [
+    {
+      "url": "https://github.com/nf-core/modules/issues/13256",
+      "state": "closed",
+      "finding": "Container migration task, not a documented numerical defect."
+    },
+    {
+      "url": "https://github.com/nf-core/modules/issues/13237",
+      "state": "closed",
+      "finding": "Container migration task, not a documented numerical defect."
+    }
+  ]
+}

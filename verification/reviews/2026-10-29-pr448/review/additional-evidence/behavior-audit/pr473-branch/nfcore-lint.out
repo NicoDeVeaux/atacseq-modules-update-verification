@@ -1,0 +1,991 @@
+
+
+                                          ,--./,-.
+          ___     __   __   __   ___     /,-._.--~\ 
+    |\ | |__  __ /  ` /  \ |__) |__         }  {
+    | \| |       \__, \__/ |  \ |___     \`-._,-`-,
+                                          `._,._,'
+
+    nf-core/tools version 4.1.0 - https://nf-co.re
+    There is a new version of nf-core/tools available! (4.2.1)
+
+
+
+WARNING  There was an error running the prettier pre-commit hook.               
+         STDOUT:                                                                
+         STDERR: error: Failed to install hook `prettier`                       
+           caused by: Failed to pack Node hook repository                       
+           caused by: Command `/opt/homebrew/bin/npm pack --global=false        
+         --pack-destination                                                     
+         /var/folders/b_/8cxf2t0x60x93tqwl_l3dktw0000gn/T/.tmpBaOr0i            
+         git+file://LOCAL_HOME/.cache/prek/repos/f2015ea017d06936` 
+         exited with an error:                                                  
+                                                                                
+                                                                                
+         exit status: 1                                                         
+                                                                                
+                                                                                
+         npm error code EALLOWGIT                                               
+         npm error Fetching non-root packages of type "git" have been disabled  
+         npm error Refusing to fetch                                            
+         "git+file://LOCAL_HOME/.cache/prek/repos/f2015ea017d06936#
+         ffb6a759a979008c0e6dff86e39f4745a2d9eac4"                              
+         npm error A complete log of this run can be found in:                  
+         LOCAL_HOME/.cache/prek/cache/npm/_logs/2026-10-29T09_35_46
+         _363Z-debug-0.log                                                      
+                                                                                
+                                                                                
+WARNING  There was an error running the prettier pre-commit hook.               
+         STDOUT:                                                                
+         STDERR: error: Failed to install hook `prettier`                       
+           caused by: Failed to pack Node hook repository                       
+           caused by: Command `/opt/homebrew/bin/npm pack --global=false        
+         --pack-destination                                                     
+         /var/folders/b_/8cxf2t0x60x93tqwl_l3dktw0000gn/T/.tmpi48tgD            
+         git+file://LOCAL_HOME/.cache/prek/repos/f2015ea017d06936` 
+         exited with an error:                                                  
+                                                                                
+                                                                                
+         exit status: 1                                                         
+                                                                                
+                                                                                
+         npm error code EALLOWGIT                                               
+         npm error Fetching non-root packages of type "git" have been disabled  
+         npm error Refusing to fetch                                            
+         "git+file://LOCAL_HOME/.cache/prek/repos/f2015ea017d06936#
+         ffb6a759a979008c0e6dff86e39f4745a2d9eac4"                              
+         npm error A complete log of this run can be found in:                  
+         LOCAL_HOME/.cache/prek/cache/npm/_logs/2026-10-29T09_35_48
+         _055Z-debug-0.log                                                      
+                                                                                
+                                                                                
+INFO     Testing pipeline:                                                      
+         WORKTREES/atacseq-pr448-proposed-fi
+         x                                                                      
+
+INFO     Saving metadata file to '/tmp/tmp8gawgk3p/nf-core-atacseq'             
+INFO     Generated container configs for the pipeline.                          
+WARNING  There was an error running the prettier pre-commit hook.               
+         STDOUT:                                                                
+         STDERR: error: Failed to install hook `prettier`                       
+           caused by: Failed to pack Node hook repository                       
+           caused by: Command `/opt/homebrew/bin/npm pack --global=false        
+         --pack-destination                                                     
+         /var/folders/b_/8cxf2t0x60x93tqwl_l3dktw0000gn/T/.tmpVyflGf            
+         git+file://LOCAL_HOME/.cache/prek/repos/f2015ea017d06936` 
+         exited with an error:                                                  
+                                                                                
+                                                                                
+         exit status: 1                                                         
+                                                                                
+                                                                                
+         npm error code EALLOWGIT                                               
+         npm error Fetching non-root packages of type "git" have been disabled  
+         npm error Refusing to fetch                                            
+         "git+file://LOCAL_HOME/.cache/prek/repos/f2015ea017d06936#
+         ffb6a759a979008c0e6dff86e39f4745a2d9eac4"                              
+         npm error A complete log of this run can be found in:                  
+         LOCAL_HOME/.cache/prek/cache/npm/_logs/2026-10-29T09_35_50
+         _840Z-debug-0.log                                                      
+                                                                                
+                                                                                
+INFO     Generated container configs for the pipeline.                          
+
+
+
+
+
+
+[?] 4 Pipeline Tests Ignored
+
+nextflow_config 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/next
+flow_config
+Config default ignored: params.bamtools_filter_pe_config
+
+nextflow_config 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/next
+flow_config
+Config default ignored: params.bamtools_filter_se_config
+
+files_unchanged 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/file
+s_unchanged
+File ignored due to lint config: `.gitignore` or `.prettierignore`
+
+merge_markers 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/merg
+e_markers
+Ignoring file 
+`WORKTREES/atacseq-pr448-proposed-fix/module
+s/nf-core/bowtie2/align/tests/main.nf.test.snap`
+
+[!] 38 Pipeline Tests Warning
+
+readme 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/read
+me
+README contains the placeholder `zenodo.XXXXXXX`. This should be replaced with 
+the zenodo doi (after the first release).
+
+pipeline_todos 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/pipe
+line_todos
+TODO string in `nextflow.config`: _Optionally, you can add a pipeline-specific 
+nf-core config at https://github.com/nf-core/configs_
+
+pipeline_todos 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/pipe
+line_todos
+TODO string in `nextflow.config`: _Update the field with the details of the 
+contributors to your pipeline. New with Nextflow version 24.10.0_
+
+pipeline_todos 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/pipe
+line_todos
+TODO string in `main.nf`: _Optionally add in-text citation tools to this list._
+
+pipeline_todos 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/pipe
+line_todos
+TODO string in `main.nf`: _Optionally add bibliographic entries to this list._
+
+pipeline_todos 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/pipe
+line_todos
+TODO string in `main.nf`: _Only uncomment below if logic in 
+toolCitationText/toolBibliographyText has been filled!_
+
+pipeline_todos 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/pipe
+line_todos
+TODO string in `nextflow.config`: _Specify any additional parameters here_
+
+pipeline_todos 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/pipe
+line_todos
+TODO string in `CONTRIBUTING.md`: _Add any pipeline specific contribution 
+guidelines here, such as coding styles, procedures, checklists etc._
+
+pipeline_todos 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/pipe
+line_todos
+TODO string in `methods_description_template.yml`: _#Update the HTML below to 
+your preferred methods description, e.g. add publication citation for this 
+pipeline_
+
+pipeline_todos 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/pipe
+line_todos
+TODO string in `base.config`: _Check the defaults for all processes_
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+frip_score.nf in modules/local should be moved to a TOOL/SUBTOOL/main.nf 
+structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+star_genomegenerate.nf in modules/local should be moved to a 
+TOOL/SUBTOOL/main.nf structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+star_align.nf in modules/local should be moved to a TOOL/SUBTOOL/main.nf 
+structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+bedtools_genomecov.nf in modules/local should be moved to a TOOL/SUBTOOL/main.nf
+structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+get_autosomes.nf in modules/local should be moved to a TOOL/SUBTOOL/main.nf 
+structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+tss_extract.nf in modules/local should be moved to a TOOL/SUBTOOL/main.nf 
+structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+multiqc.nf in modules/local should be moved to a TOOL/SUBTOOL/main.nf structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+genome_blacklist_regions.nf in modules/local should be moved to a 
+TOOL/SUBTOOL/main.nf structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+bamtools_filter.nf in modules/local should be moved to a TOOL/SUBTOOL/main.nf 
+structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+plot_homer_annotatepeaks.nf in modules/local should be moved to a 
+TOOL/SUBTOOL/main.nf structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+deseq2_qc.nf in modules/local should be moved to a TOOL/SUBTOOL/main.nf 
+structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+multiqc_custom_peaks.nf in modules/local should be moved to a 
+TOOL/SUBTOOL/main.nf structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+macs3_consensus.nf in modules/local should be moved to a TOOL/SUBTOOL/main.nf 
+structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+gtf2bed.nf in modules/local should be moved to a TOOL/SUBTOOL/main.nf structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+samplesheet_check.nf in modules/local should be moved to a TOOL/SUBTOOL/main.nf 
+structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+plot_macs3_qc.nf in modules/local should be moved to a TOOL/SUBTOOL/main.nf 
+structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+igv.nf in modules/local should be moved to a TOOL/SUBTOOL/main.nf structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+bam_remove_orphans.nf in modules/local should be moved to a TOOL/SUBTOOL/main.nf
+structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+bam_filter_bamtools.nf in subworkflows/local should be moved to a 
+SUBWORKFLOW_NAME/main.nf structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+align_star.nf in subworkflows/local should be moved to a 
+SUBWORKFLOW_NAME/main.nf structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+input_check.nf in subworkflows/local should be moved to a 
+SUBWORKFLOW_NAME/main.nf structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+bam_shift_reads.nf in subworkflows/local should be moved to a 
+SUBWORKFLOW_NAME/main.nf structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+bed_consensus_quantify_qc_bedtools_featurecounts_deseq2.nf in subworkflows/local
+should be moved to a SUBWORKFLOW_NAME/main.nf structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+prepare_genome.nf in subworkflows/local should be moved to a 
+SUBWORKFLOW_NAME/main.nf structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+bigwig_plot_deeptools.nf in subworkflows/local should be moved to a 
+SUBWORKFLOW_NAME/main.nf structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+bam_peaks_call_qc_annotate_macs3_homer.nf in subworkflows/local should be moved 
+to a SUBWORKFLOW_NAME/main.nf structure
+
+local_component_structure 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/loca
+l_component_structure
+bam_bedgraph_bigwig_bedtools_ucsc.nf in subworkflows/local should be moved to a 
+SUBWORKFLOW_NAME/main.nf structure
+
+nfcore_yml 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/nfco
+re_yml
+nf-core version in `.nf-core.yml` is not set to the latest version. Should be 
+`4.1.0` but was `4.0.3`
+
+[✗] 13 Pipeline Tests Failed
+
+files_unchanged 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/file
+s_unchanged
+`.github/PULL_REQUEST_TEMPLATE.md` does not match the template
+
+files_unchanged 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/file
+s_unchanged
+`.github/workflows/branch.yml` does not match the template
+
+files_unchanged 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/file
+s_unchanged
+`.github/workflows/linting.yml` does not match the template
+
+files_unchanged 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/file
+s_unchanged
+`assets/nf-core-atacseq_logo_light.png` does not match the template
+
+files_unchanged 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/file
+s_unchanged
+`docs/images/nf-core-atacseq_logo_light.png` does not match the template
+
+container_configs 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/cont
+ainer_configs
+`conf/containers_conda_lock_files_amd64.config` is out of date – please 
+regenerate the container configuration files.
+
+container_configs 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/cont
+ainer_configs
+`conf/containers_conda_lock_files_arm64.config` is out of date – please 
+regenerate the container configuration files.
+
+container_configs 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/cont
+ainer_configs
+`conf/containers_docker_amd64.config` is out of date – please regenerate the 
+container configuration files.
+
+container_configs 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/cont
+ainer_configs
+`conf/containers_docker_arm64.config` is out of date – please regenerate the 
+container configuration files.
+
+container_configs 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/cont
+ainer_configs
+`conf/containers_singularity_https_amd64.config` is out of date – please 
+regenerate the container configuration files.
+
+container_configs 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/cont
+ainer_configs
+`conf/containers_singularity_https_arm64.config` is out of date – please 
+regenerate the container configuration files.
+
+container_configs 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/cont
+ainer_configs
+`conf/containers_singularity_oras_amd64.config` is out of date – please 
+regenerate the container configuration files.
+
+container_configs 
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/pipeline_lint_tests/cont
+ainer_configs
+`conf/containers_singularity_oras_arm64.config` is out of date – please 
+regenerate the container configuration files.
+
+[!] 36 Module Tests Warning
+
+ataqv/ataqv module_version
+modules/nf-core/ataqv/ataqv
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+ataqv/mkarv module_version
+modules/nf-core/ataqv/mkarv
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+bowtie2/align module_version
+modules/nf-core/bowtie2/align
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+bowtie2/build module_version
+modules/nf-core/bowtie2/build
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+bwa/index module_version
+modules/nf-core/bwa/index
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+bwa/mem module_version
+modules/nf-core/bwa/mem
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+chromap/chromap module_version
+modules/nf-core/chromap/chromap
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+chromap/index module_version
+modules/nf-core/chromap/index
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+deeptools/alignmentsieve module_version
+modules/nf-core/deeptools/alignmentsieve
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+deeptools/computematrix module_version
+modules/nf-core/deeptools/computematrix
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+deeptools/plotfingerprint module_version
+modules/nf-core/deeptools/plotfingerprint
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+deeptools/plotheatmap module_version
+modules/nf-core/deeptools/plotheatmap
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+deeptools/plotprofile module_version
+modules/nf-core/deeptools/plotprofile
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+fastqc module_version
+modules/nf-core/fastqc
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+gffread module_version
+modules/nf-core/gffread
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+gunzip module_version
+modules/nf-core/gunzip
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+homer/annotatepeaks module_version
+modules/nf-core/homer/annotatepeaks
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+khmer/uniquekmers module_version
+modules/nf-core/khmer/uniquekmers
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+macs3/callpeak module_version
+modules/nf-core/macs3/callpeak
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+multiqc module_version
+modules/nf-core/multiqc
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+picard/addorreplacereadgroups module_version
+modules/nf-core/picard/addorreplacereadgroups
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+picard/collectmultiplemetrics module_version
+modules/nf-core/picard/collectmultiplemetrics
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+picard/markduplicates module_version
+modules/nf-core/picard/markduplicates
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+picard/mergesamfiles module_version
+modules/nf-core/picard/mergesamfiles
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+preseq/lcextrap module_version
+modules/nf-core/preseq/lcextrap
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+samtools/faidx module_version
+modules/nf-core/samtools/faidx
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+samtools/flagstat module_version
+modules/nf-core/samtools/flagstat
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+samtools/idxstats module_version
+modules/nf-core/samtools/idxstats
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+samtools/index module_version
+modules/nf-core/samtools/index
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+samtools/sort module_version
+modules/nf-core/samtools/sort
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+samtools/stats module_version
+modules/nf-core/samtools/stats
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+subread/featurecounts module_version
+modules/nf-core/subread/featurecounts
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+trimgalore module_version
+modules/nf-core/trimgalore
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+ucsc/bedgraphtobigwig module_version
+modules/nf-core/ucsc/bedgraphtobigwig
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+umitools/extract module_version
+modules/nf-core/umitools/extract
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+untar module_version
+modules/nf-core/untar
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/module_lint_tests/module
+_version
+New version available
+
+[!] 54 Subworkflow Tests Warning
+
+input_check.nf main_nf_include
+subworkflows/local/input_check.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/m
+ain_nf
+Subworkflow includes less than two modules
+
+utils_nfcore_atacseq_pipeline main_nf_include_used
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/m
+ain_nf
+Included component 'paramsHelp' not used in main.nf
+
+utils_nfcore_atacseq_pipeline main_nf_include_used
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/m
+ain_nf
+Included component 'samplesheetToList' not used in main.nf
+
+utils_nfcore_atacseq_pipeline main_nf_script_outputs
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/m
+ain_nf
+No workflow 'emit' block found
+
+align_star.nf meta_yml_exists
+subworkflows/local/meta.yml
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/m
+eta_yml
+Subworkflow `meta.yml` does not exist
+
+bam_bedgraph_bigwig_bedtools_ucsc.nf meta_yml_exists
+subworkflows/local/meta.yml
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/m
+eta_yml
+Subworkflow `meta.yml` does not exist
+
+bam_filter_bamtools.nf meta_yml_exists
+subworkflows/local/meta.yml
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/m
+eta_yml
+Subworkflow `meta.yml` does not exist
+
+bam_peaks_call_qc_annotate_macs3_homer.nf meta_yml_exists
+subworkflows/local/meta.yml
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/m
+eta_yml
+Subworkflow `meta.yml` does not exist
+
+bam_shift_reads.nf meta_yml_exists
+subworkflows/local/meta.yml
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/m
+eta_yml
+Subworkflow `meta.yml` does not exist
+
+bed_consensus_quantify_qc_bedtools_featurecounts_deseq2.nf meta_yml_exists
+subworkflows/local/meta.yml
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/m
+eta_yml
+Subworkflow `meta.yml` does not exist
+
+bigwig_plot_deeptools.nf meta_yml_exists
+subworkflows/local/meta.yml
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/m
+eta_yml
+Subworkflow `meta.yml` does not exist
+
+input_check.nf meta_yml_exists
+subworkflows/local/meta.yml
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/m
+eta_yml
+Subworkflow `meta.yml` does not exist
+
+prepare_genome.nf meta_yml_exists
+subworkflows/local/meta.yml
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/m
+eta_yml
+Subworkflow `meta.yml` does not exist
+
+utils_nfcore_atacseq_pipeline meta_yml_exists
+subworkflows/local/utils_nfcore_atacseq_pipeline/meta.yml
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/m
+eta_yml
+Subworkflow `meta.yml` does not exist
+
+align_star.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Only uncomment below if logic in 
+toolCitationText/toolBibliographyText has been filled!_
+
+align_star.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Optionally add bibliographic entries to this list._
+
+align_star.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Optionally add in-text citation tools to this list._
+
+bam_bedgraph_bigwig_bedtools_ucsc.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Only uncomment below if logic in 
+toolCitationText/toolBibliographyText has been filled!_
+
+bam_bedgraph_bigwig_bedtools_ucsc.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Optionally add bibliographic entries to this list._
+
+bam_bedgraph_bigwig_bedtools_ucsc.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Optionally add in-text citation tools to this list._
+
+bam_filter_bamtools.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Only uncomment below if logic in 
+toolCitationText/toolBibliographyText has been filled!_
+
+bam_filter_bamtools.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Optionally add bibliographic entries to this list._
+
+bam_filter_bamtools.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Optionally add in-text citation tools to this list._
+
+bam_peaks_call_qc_annotate_macs3_homer.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Only uncomment below if logic in 
+toolCitationText/toolBibliographyText has been filled!_
+
+bam_peaks_call_qc_annotate_macs3_homer.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Optionally add bibliographic entries to this list._
+
+bam_peaks_call_qc_annotate_macs3_homer.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Optionally add in-text citation tools to this list._
+
+bam_shift_reads.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Only uncomment below if logic in 
+toolCitationText/toolBibliographyText has been filled!_
+
+bam_shift_reads.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Optionally add bibliographic entries to this list._
+
+bam_shift_reads.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Optionally add in-text citation tools to this list._
+
+bed_consensus_quantify_qc_bedtools_featurecounts_deseq2.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Only uncomment below if logic in 
+toolCitationText/toolBibliographyText has been filled!_
+
+bed_consensus_quantify_qc_bedtools_featurecounts_deseq2.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Optionally add bibliographic entries to this list._
+
+bed_consensus_quantify_qc_bedtools_featurecounts_deseq2.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Optionally add in-text citation tools to this list._
+
+bigwig_plot_deeptools.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Only uncomment below if logic in 
+toolCitationText/toolBibliographyText has been filled!_
+
+bigwig_plot_deeptools.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Optionally add bibliographic entries to this list._
+
+bigwig_plot_deeptools.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Optionally add in-text citation tools to this list._
+
+input_check.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Only uncomment below if logic in 
+toolCitationText/toolBibliographyText has been filled!_
+
+input_check.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Optionally add bibliographic entries to this list._
+
+input_check.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Optionally add in-text citation tools to this list._
+
+prepare_genome.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Only uncomment below if logic in 
+toolCitationText/toolBibliographyText has been filled!_
+
+prepare_genome.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Optionally add bibliographic entries to this list._
+
+prepare_genome.nf subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Optionally add in-text citation tools to this list._
+
+utils_nfcore_atacseq_pipeline subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Only uncomment below if logic in 
+toolCitationText/toolBibliographyText has been filled!_
+
+utils_nfcore_atacseq_pipeline subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Optionally add bibliographic entries to this list._
+
+utils_nfcore_atacseq_pipeline subworkflow_todo
+subworkflows/local/utils_nfcore_atacseq_pipeline/main.nf
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_todos
+TODO string in `main.nf`: _Optionally add in-text citation tools to this list._
+
+bam_markduplicates_picard subworkflow_version
+subworkflows/nf-core/bam_markduplicates_picard
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_version
+New version available
+
+bam_sort_stats_samtools subworkflow_version
+subworkflows/nf-core/bam_sort_stats_samtools
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_version
+New version available
+
+bam_stats_samtools subworkflow_version
+subworkflows/nf-core/bam_stats_samtools
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_version
+New version available
+
+fastq_align_bowtie2 subworkflow_version
+subworkflows/nf-core/fastq_align_bowtie2
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_version
+New version available
+
+fastq_align_bwa subworkflow_version
+subworkflows/nf-core/fastq_align_bwa
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_version
+New version available
+
+fastq_align_chromap subworkflow_version
+subworkflows/nf-core/fastq_align_chromap
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_version
+New version available
+
+fastq_fastqc_umitools_trimgalore subworkflow_version
+subworkflows/nf-core/fastq_fastqc_umitools_trimgalore
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_version
+New version available
+
+utils_nextflow_pipeline subworkflow_version
+subworkflows/nf-core/utils_nextflow_pipeline
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_version
+New version available
+
+utils_nfcore_pipeline subworkflow_version
+subworkflows/nf-core/utils_nfcore_pipeline
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_version
+New version available
+
+utils_nfschema_plugin subworkflow_version
+subworkflows/nf-core/utils_nfschema_plugin
+https://nf-co.re/docs/nf-core-tools/api_reference/4.1.0/subworkflow_lint_tests/s
+ubworkflow_version
+New version available
+
+LINT RESULTS SUMMARY
+[✔] 501 Tests Passed
+[?]   4 Tests Ignored
+[!] 128 Test Warnings
+[✗]  13 Tests Failed
+
+Tip: Some of these linting errors can automatically be resolved with the 
+following command:
+
+    nf-core pipelines lint --dir 
+WORKTREES/atacseq-pr448-proposed-fix  --fix 
+files_unchanged --fix container_configs
+
+INFO     Writing lint results to                                                
+         WORKTREES/atacseq-pr448-fix-validat
+         ion/behavior-audit/pr473-branch/nfcore-lint.json                       

@@ -1,0 +1,266 @@
+[
+  {
+    "case": "base",
+    "commit": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "path": "bin/check_samplesheet.py",
+    "git_blob": "e85fefe981fe11ec720379a6b56fedffeb0e5163",
+    "sha256": "2832a945024a0a51f518cb3a5db85d09684eb1c0c5aed7c2764e5d1560223d72",
+    "bytes": 11314
+  },
+  {
+    "case": "base",
+    "commit": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "path": "subworkflows/local/input_check.nf",
+    "git_blob": "7800c55ee56601441e4a7f63572f260316c620bc",
+    "sha256": "ee2a8bd339a73a0b07167052f38ce7e4872dd38e89bfe6178740271045f56489",
+    "bytes": 1833
+  },
+  {
+    "case": "base",
+    "commit": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "path": "conf/modules.config",
+    "git_blob": "03b6bbdc28bb86f0f6b0e187f3fbb134545a54d8",
+    "sha256": "f713696e799c5087f57d699305b02550c3305c3e97fc6a888961515fc571c1b1",
+    "bytes": 39819
+  },
+  {
+    "case": "base",
+    "commit": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "path": "nextflow.config",
+    "git_blob": "77a7f60e7a8c5e42e78227f8d0dce1e73c6faab0",
+    "sha256": "06dbbd447576cbcd0079c29b527571eeef07823142c7f0303fe112b9a5bf35b2",
+    "bytes": 13283
+  },
+  {
+    "case": "base",
+    "commit": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "path": "workflows/atacseq.nf",
+    "git_blob": "9545fca559f3f4099096da80859f17d653c806e2",
+    "sha256": "8588bafccd426b677ec3498eafc8e72ad447527321a9ac67ad623316fe9352ab",
+    "bytes": 37898
+  },
+  {
+    "case": "base",
+    "commit": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "path": "modules/local/star_align.nf",
+    "git_blob": "bd39cd07199a77f67ee3396c7afaf14ab00e1961",
+    "sha256": "6221a9c8aa69d31c453e240eb39e9c62e1f3c54a18fc3713103340f70a853e7f",
+    "bytes": 2481
+  },
+  {
+    "case": "base",
+    "commit": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "path": "subworkflows/nf-core/fastq_align_bwa/main.nf",
+    "git_blob": "c7408d085fff62fa0e797bf56b16323cd7a16d46",
+    "sha256": "d89c4b0acc9dd3b5d709f9d422e41aa95678c7000cd87f87e08daf12f13d621b",
+    "bytes": 1667
+  },
+  {
+    "case": "base",
+    "commit": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "path": "subworkflows/nf-core/fastq_align_bowtie2/main.nf",
+    "git_blob": "cafaa9bf931b12b116fd76c67f9b012fbb1bfc77",
+    "sha256": "a37a5a5d719ab2c6a44da12a9541829f6971ee274afb57da709fd83c485be6fc",
+    "bytes": 1875
+  },
+  {
+    "case": "base",
+    "commit": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "path": "subworkflows/nf-core/fastq_align_chromap/main.nf",
+    "git_blob": "26b6a4be621852296072c048685a6094b3d6a44a",
+    "sha256": "c19145d0709e6a98ff1bdd9580f590a9ea513c028ac1a899ed395ac45878fae7",
+    "bytes": 1841
+  },
+  {
+    "case": "base",
+    "commit": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "path": "modules/nf-core/bwa/mem/main.nf",
+    "git_blob": "d8bd28151954201335853eb247b6915389515453",
+    "sha256": "df55fa6c56d4ff3f38cf404907dbfce21e47b25a95fda59a83b14eefb70148c1",
+    "bytes": 3015
+  },
+  {
+    "case": "base",
+    "commit": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "path": "modules/nf-core/bowtie2/align/main.nf",
+    "git_blob": "96a7027ddbe22c43341e38657ef040b37dad9f81",
+    "sha256": "912c762e648896dff4c989cec7a07c66424e6d6862cc11284250466856607373",
+    "bytes": 4683
+  },
+  {
+    "case": "merge",
+    "commit": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+    "path": "bin/check_samplesheet.py",
+    "git_blob": "e85fefe981fe11ec720379a6b56fedffeb0e5163",
+    "sha256": "2832a945024a0a51f518cb3a5db85d09684eb1c0c5aed7c2764e5d1560223d72",
+    "bytes": 11314
+  },
+  {
+    "case": "merge",
+    "commit": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+    "path": "subworkflows/local/input_check.nf",
+    "git_blob": "01867df71388da17fc432fdb43d359e9f55f1633",
+    "sha256": "f80791dbb0375e415c4abdac57e4c327f60e53aa9b5cbdd9359b0793898dcdcb",
+    "bytes": 1734
+  },
+  {
+    "case": "merge",
+    "commit": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+    "path": "conf/modules.config",
+    "git_blob": "ca0e5c47598a8e17f5b15b09e048f4ed9d5483b6",
+    "sha256": "81b15aee7dab0fae26fc028c04f32b73ef3cc2b6ec38c63fdaaf56383a22273e",
+    "bytes": 40628
+  },
+  {
+    "case": "merge",
+    "commit": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+    "path": "nextflow.config",
+    "git_blob": "77a7f60e7a8c5e42e78227f8d0dce1e73c6faab0",
+    "sha256": "06dbbd447576cbcd0079c29b527571eeef07823142c7f0303fe112b9a5bf35b2",
+    "bytes": 13283
+  },
+  {
+    "case": "merge",
+    "commit": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+    "path": "workflows/atacseq.nf",
+    "git_blob": "6613956735c014d8a57253502cbb3ca9f39bfe6a",
+    "sha256": "f4885c36d4b28d11933ea72ec8445450e73061245aba4a32978eb830b1d7caee",
+    "bytes": 33365
+  },
+  {
+    "case": "merge",
+    "commit": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+    "path": "modules/local/star_align.nf",
+    "git_blob": "f201ce3fe9c77c562049ac0184b10663d5049f75",
+    "sha256": "7060fcd6e578e8a20a18ce61d7d2e2200a6641f3971c7a006f6fe9162b76a989",
+    "bytes": 2394
+  },
+  {
+    "case": "merge",
+    "commit": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+    "path": "subworkflows/nf-core/fastq_align_bwa/main.nf",
+    "git_blob": "eb72bade033a0598c5978971604fb8492d7d6f42",
+    "sha256": "b226397db5813fe6716a604427cb1eda2c27e340717eefaa37bfd101d000240c",
+    "bytes": 1348
+  },
+  {
+    "case": "merge",
+    "commit": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+    "path": "subworkflows/nf-core/fastq_align_bowtie2/main.nf",
+    "git_blob": "8c1a19f5e414b18664891c51abb8b50d15091151",
+    "sha256": "4b3099f3ca8a6881d18df0586b10e886cf08056c098541ba3a2e6f3562e8a8e7",
+    "bytes": 1519
+  },
+  {
+    "case": "merge",
+    "commit": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+    "path": "subworkflows/nf-core/fastq_align_chromap/main.nf",
+    "git_blob": "c346adba0d3bd370ac69980a25badc51ee4b57a5",
+    "sha256": "f5e215f390829836fa21b35bc08075058d452d3b7f709ed364a35ff4a1690273",
+    "bytes": 2200
+  },
+  {
+    "case": "merge",
+    "commit": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+    "path": "modules/nf-core/bwa/mem/main.nf",
+    "git_blob": "bde6a9a334e8e1ea33a00c2b9ca3b123152a9043",
+    "sha256": "c3e0a79f96d165f04f9d7cbde36fcf0468dc8dcb2d10408580d45eef088c1f74",
+    "bytes": 2905
+  },
+  {
+    "case": "merge",
+    "commit": "a51bee0178045b29cd9f034e58f4de6b80bc91db",
+    "path": "modules/nf-core/bowtie2/align/main.nf",
+    "git_blob": "9be0dfeeef186d2535bbefa5b894ae78fa6dede1",
+    "sha256": "780c7cf832e810c2d3241d62a43fb820c42dfcb8bb35344579fbb0f30626a266",
+    "bytes": 4418
+  },
+  {
+    "case": "current",
+    "commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+    "path": "bin/check_samplesheet.py",
+    "git_blob": "e85fefe981fe11ec720379a6b56fedffeb0e5163",
+    "sha256": "2832a945024a0a51f518cb3a5db85d09684eb1c0c5aed7c2764e5d1560223d72",
+    "bytes": 11314
+  },
+  {
+    "case": "current",
+    "commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+    "path": "subworkflows/local/input_check.nf",
+    "git_blob": "01867df71388da17fc432fdb43d359e9f55f1633",
+    "sha256": "f80791dbb0375e415c4abdac57e4c327f60e53aa9b5cbdd9359b0793898dcdcb",
+    "bytes": 1734
+  },
+  {
+    "case": "current",
+    "commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+    "path": "conf/modules.config",
+    "git_blob": "ca0e5c47598a8e17f5b15b09e048f4ed9d5483b6",
+    "sha256": "81b15aee7dab0fae26fc028c04f32b73ef3cc2b6ec38c63fdaaf56383a22273e",
+    "bytes": 40628
+  },
+  {
+    "case": "current",
+    "commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+    "path": "nextflow.config",
+    "git_blob": "ea5186e72cf7bdeff393925ae28cd0af3244166e",
+    "sha256": "e47935daa6dba8eb3fd284bcabe44099d3755fc104b26f525a03ce5a45ed8e55",
+    "bytes": 13354
+  },
+  {
+    "case": "current",
+    "commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+    "path": "workflows/atacseq.nf",
+    "git_blob": "6613956735c014d8a57253502cbb3ca9f39bfe6a",
+    "sha256": "f4885c36d4b28d11933ea72ec8445450e73061245aba4a32978eb830b1d7caee",
+    "bytes": 33365
+  },
+  {
+    "case": "current",
+    "commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+    "path": "modules/local/star_align.nf",
+    "git_blob": "f201ce3fe9c77c562049ac0184b10663d5049f75",
+    "sha256": "7060fcd6e578e8a20a18ce61d7d2e2200a6641f3971c7a006f6fe9162b76a989",
+    "bytes": 2394
+  },
+  {
+    "case": "current",
+    "commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+    "path": "subworkflows/nf-core/fastq_align_bwa/main.nf",
+    "git_blob": "eb72bade033a0598c5978971604fb8492d7d6f42",
+    "sha256": "b226397db5813fe6716a604427cb1eda2c27e340717eefaa37bfd101d000240c",
+    "bytes": 1348
+  },
+  {
+    "case": "current",
+    "commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+    "path": "subworkflows/nf-core/fastq_align_bowtie2/main.nf",
+    "git_blob": "8c1a19f5e414b18664891c51abb8b50d15091151",
+    "sha256": "4b3099f3ca8a6881d18df0586b10e886cf08056c098541ba3a2e6f3562e8a8e7",
+    "bytes": 1519
+  },
+  {
+    "case": "current",
+    "commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+    "path": "subworkflows/nf-core/fastq_align_chromap/main.nf",
+    "git_blob": "c346adba0d3bd370ac69980a25badc51ee4b57a5",
+    "sha256": "f5e215f390829836fa21b35bc08075058d452d3b7f709ed364a35ff4a1690273",
+    "bytes": 2200
+  },
+  {
+    "case": "current",
+    "commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+    "path": "modules/nf-core/bwa/mem/main.nf",
+    "git_blob": "bde6a9a334e8e1ea33a00c2b9ca3b123152a9043",
+    "sha256": "c3e0a79f96d165f04f9d7cbde36fcf0468dc8dcb2d10408580d45eef088c1f74",
+    "bytes": 2905
+  },
+  {
+    "case": "current",
+    "commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+    "path": "modules/nf-core/bowtie2/align/main.nf",
+    "git_blob": "9be0dfeeef186d2535bbefa5b894ae78fa6dede1",
+    "sha256": "780c7cf832e810c2d3241d62a43fb820c42dfcb8bb35344579fbb0f30626a266",
+    "bytes": 4418
+  }
+]

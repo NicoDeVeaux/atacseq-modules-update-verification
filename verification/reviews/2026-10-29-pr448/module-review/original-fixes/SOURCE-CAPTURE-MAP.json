@@ -1,0 +1,58 @@
+{
+  "trimming/baseline/source-evidence.json": {
+    "files": {
+      "conf/modules.config": "source-capture/trimming-baseline/conf/modules.config",
+      "nextflow.config": "source-capture/trimming-baseline/nextflow.config",
+      "modules/nf-core/trimgalore/main.nf": "source-capture/trimming-baseline/modules/nf-core/trimgalore/main.nf",
+      "modules/nf-core/trimgalore/environment.yml": "source-capture/trimming-baseline/modules/nf-core/trimgalore/environment.yml"
+    },
+    "captured_from_revision": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "observed_execution_checkout_head": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "interpretation": "Captured bytes match the execution receipt. The proposed controls ran before the two-fix commit; their staging HEAD is not represented as containing the edits."
+  },
+  "trimming/negative-2.1/source-evidence.json": {
+    "files": {
+      "conf/modules.config": "source-capture/trimming-negative-2.1/conf/modules.config",
+      "nextflow.config": "source-capture/trimming-negative-2.1/nextflow.config",
+      "modules/nf-core/trimgalore/main.nf": "source-capture/trimming-negative-2.1/modules/nf-core/trimgalore/main.nf",
+      "modules/nf-core/trimgalore/environment.yml": "source-capture/trimming-negative-2.1/modules/nf-core/trimgalore/environment.yml"
+    },
+    "captured_from_revision": "73155d2b59d37f521e3f00228d559031d2e7847f",
+    "observed_execution_checkout_head": "73155d2b59d37f521e3f00228d559031d2e7847f",
+    "interpretation": "Captured bytes match the execution receipt. The proposed controls ran before the two-fix commit; their staging HEAD is not represented as containing the edits."
+  },
+  "trimming/proposed/source-evidence.json": {
+    "files": {
+      "conf/modules.config": "source-capture/trimming-proposed/conf/modules.config",
+      "nextflow.config": "source-capture/trimming-proposed/nextflow.config",
+      "modules/nf-core/trimgalore/main.nf": "source-capture/trimming-proposed/modules/nf-core/trimgalore/main.nf",
+      "modules/nf-core/trimgalore/environment.yml": "source-capture/trimming-proposed/modules/nf-core/trimgalore/environment.yml"
+    },
+    "captured_from_revision": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+    "observed_execution_checkout_head": "73155d2b59d37f521e3f00228d559031d2e7847f",
+    "interpretation": "Captured bytes match the execution receipt. The proposed controls ran before the two-fix commit; their staging HEAD is not represented as containing the edits."
+  },
+  "chromap/runs/baseline/source-used.json": {
+    "files": {
+      "workflows/atacseq.nf": "source-capture/chromap-baseline/workflows/atacseq.nf",
+      "conf/modules.config": "source-capture/chromap-baseline/conf/modules.config",
+      "modules/nf-core/picard/mergesamfiles/main.nf": "source-capture/chromap-baseline/modules/nf-core/picard/mergesamfiles/main.nf",
+      "modules/nf-core/picard/markduplicates/main.nf": "source-capture/chromap-baseline/modules/nf-core/picard/markduplicates/main.nf"
+    },
+    "captured_from_revision": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "observed_execution_checkout_head": null,
+    "interpretation": "Captured bytes match the execution receipt. The proposed controls ran before the two-fix commit; their staging HEAD is not represented as containing the edits."
+  },
+  "chromap/runs/proposed/source-used.json": {
+    "files": {
+      "workflows/atacseq.nf": "source-capture/chromap-proposed/workflows/atacseq.nf",
+      "conf/modules.config": "source-capture/chromap-proposed/conf/modules.config",
+      "modules/nf-core/picard/mergesamfiles/main.nf": "source-capture/chromap-proposed/modules/nf-core/picard/mergesamfiles/main.nf",
+      "modules/nf-core/picard/markduplicates/main.nf": "source-capture/chromap-proposed/modules/nf-core/picard/markduplicates/main.nf",
+      "modules/nf-core/picard/addorreplacereadgroups/main.nf": "source-capture/chromap-proposed/modules/nf-core/picard/addorreplacereadgroups/main.nf"
+    },
+    "captured_from_revision": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+    "observed_execution_checkout_head": null,
+    "interpretation": "Captured bytes match the execution receipt. The proposed controls ran before the two-fix commit; their staging HEAD is not represented as containing the edits."
+  }
+}

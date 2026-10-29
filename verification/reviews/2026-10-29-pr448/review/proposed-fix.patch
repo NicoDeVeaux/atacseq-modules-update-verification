@@ -1,0 +1,1370 @@
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 32b199a..b61f3e1 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
+ 
+ ### Enhancements & fixes
+ 
++- Update GFFREAD to 0.12.9 to fix annotation conversion failures introduced by the 0.12.7 selection in [[#448]](https://github.com/nf-core/atacseq/pull/448), found during the [[#473]](https://github.com/nf-core/atacseq/issues/473) module sweep.
++- Preserve PRESEQ BAM mode, verbosity and fixed seed on retry, and append `-defects` rather than dropping the original options (follow-up to [[#473]](https://github.com/nf-core/atacseq/issues/473)).
++- Update `trimgalore` module to Trim Galore 2.3.0 and pass `--no_poly_g` so the default preprocessing matches Trim Galore 0.6.x (no automatic poly-G trimming); fixes the 2.1.0 regression from [[#448]](https://github.com/nf-core/atacseq/pull/448) where legitimate 5′ poly-C heads on Read 2 could be removed.
++- Set the Chromap `PICARD_ADDORREPLACEREADGROUPS` read-group library (`RGLB`) to the sample/replicate name without the final `_T<n>` suffix, so `MarkDuplicates` marks duplicates across technical runs of the same library again (follow-up to [[#448]](https://github.com/nf-core/atacseq/pull/448)).
+ - [[#466]](https://github.com/nf-core/atacseq/pull/466) - Run the `test_controls` profile in `tests/controls.nf.test` and set `with_control = true` in it, so CI exercises `--with_control`.
+ - [[#448]](https://github.com/nf-core/atacseq/pull/448) - Update nf-core modules and subworkflows to their latest versions and reconcile the resulting call-signature changes.
+ - [[#448]](https://github.com/nf-core/atacseq/pull/448) - Add read groups to Chromap alignments, which Picard 3.4.0 `MarkDuplicates` now requires.
+@@ -56,13 +60,13 @@ Note, since the pipeline is now using Nextflow DSL2, each process will be run wi
+ | `bwa`                   | 0.7.17      | 0.7.19      |
+ | `chromap`               | 0.2.4       | 0.3.2       |
+ | `deeptools`             | 3.5.1       | 3.5.6       |
+-| `gffread`               | 0.12.1      | 0.12.7      |
++| `gffread`               | 0.12.1      | 0.12.9      |
+ | `macs2`                 | 2.2.7.1     |             |
+ | `macs3`                 |             | 3.0.4       |
+ | `picard`                | 3.0.0       | 3.4.0       |
+ | `preseq`                | 3.1.2       | 3.2.0       |
+ | `samtools`              | 1.17        | 1.24        |
+-| `trim-galore`           | 0.6.7       | 2.1.0       |
++| `trim-galore`           | 0.6.7       | 2.3.0       |
+ | `ucsc-bedgraphtobigwig` | 445         | 482         |
+ 
+ ## [[2.1.2](https://github.com/nf-core/atacseq/releases/tag/2.1.2)] - 2022-08-07
+diff --git a/PR-DRAFT.md b/PR-DRAFT.md
+new file mode 100644
+index 0000000..6a87f9a
+--- /dev/null
++++ b/PR-DRAFT.md
+@@ -0,0 +1,50 @@
++# Draft PR: fix module-update regressions after #448
++
++Target: `nf-core/atacseq:dev`  
++Related issue: [#473](https://github.com/nf-core/atacseq/issues/473)  
++Status: versioned proposal on the fork; bounded module review complete, archive and final PR review pending.
++
++## Problem and changes
++
++The module update in #448 changed scientific output and optional-QC failure behavior. This branch contains four corrections:
++
++- Update the complete Trim Galore module to **2.3.0**, which fixes the upstream wrong-end R2 clipping bug, and pass **`--no_poly_g`** to preserve the pipeline's earlier default. Updating the version alone does not preserve that default.
++- Give Chromap technical runs from the same biological library a shared **`RGLB`**, while retaining distinct **`RGID`** values. Picard can then mark duplicates across those runs. This is independent of trimming.
++- Preserve PRESEQ's original command options on retry and append **`-defects`**. The updated wrapper calls `String.join` with no elements, producing an empty string and dropping `-bam`, `-verbose` and `-seed 1`. Record the local module patch in `modules.json`.
++
++- Update GFFREAD to **0.12.9**, using the packaged Bioconda container and matching Conda declaration. This fixes an upstream annotation-conversion regression affecting valid GFF scores. The pipeline GFF-to-GTF command is preserved, and the local module patch is registered. The historical HIV runs use GTF input and do not exercise this branch.
++
++The PRESEQ correction preserves the module's new retry policy. The old ignore-to-new-retry policy, which can disable the estimate's defect check, is a separate documented behavior change; successful completion does not establish the validity of every estimate.
++
++## Validation
++
++- Four full-input HIV workflows succeeded: BWA and Chromap on reviewed dev `73155d` and the frozen two-fix proposal `a9b588`. Each processed **87,089,251 pairs** across four libraries.
++- The fixed BWA library-consensus matrix exactly matches the archived original dev matrix: **74,895 regions and all 299,580 count cells**. The unfixed matrix matches the archived PR448 matrix. This is an archived-matrix comparison, not a fresh run of the immediate pre-448 parent; historical FASTQ byte identity is unestablished.
++- With identical real alignments from two resequenced yeast libraries, pre-448 and fixed duplicate marking agrees exactly. Unfixed dev retains **2,553 and 1,865 additional duplicate pairs**.
++- Three yeast core workflow runs restore individual peak coordinates and all **1,934 consensus regions**. One count cell differs by one, traced to an alignment/duplicate-representative change. Optional QC exclusions were applied equally. The HIV cohort has one technical run per library and cannot isolate the library-ID defect.
++- On one full cleaned human HIV library BAM (285,036,036 bytes), MACS3 3.0.1 and 3.0.4 produce exactly the same **30,438 broad peaks**, every broadPeak field and every non-comment XLS row, using the archived default broad/BAMPE/no-control arguments. The 3.0.4 replay also matches archived cloud outputs. Only gappedPeak display fields 7–8 differ between versions. Four offline comparison tests pass; this covers the emitted precision and one library/configuration, not every mode or biological equivalence.
++- `python3 tests/regressions/preseq_retry.py` exercises the actual PRESEQ wrapper: normal success, retry recovery and an intentionally broken mutation. Its executable is an argument-checking stand-in, so it does not validate numerical estimates.
++- Changed-file pre-commit checks, including Nextflow lint, pass. Full nf-core/tools 4.1.0 lint reports 13 failures: five template differences and eight container-config differences. A separate run on immutable `a9b588` reproduces the same 13 failures. These remain documented baseline debt; full lint is not reported as passing. Its formatter setup also encountered a local npm/prek error, while the separately executed repository formatter hook passes.
++
++All nine existing GFFREAD module tests pass locally in `--ci` mode without snapshot updates, using nf-test 0.9.5, Nextflow 26.04.6 and the upstream module helper nft-utils 0.0.9. Reviewed snapshot changes are version values, GFF3 comment headers and run metadata; GTF, FASTA, BED and stub hashes are unchanged. The pipeline's separate test configuration still pins nft-utils 0.0.3. Docker amd64 was exercised; matching Conda declarations and SIF availability were checked, while Conda resolution and SIF execution were not.
++
++The historical full-data runs remain pinned to `a9b588`; they have not been rerun or relabeled as testing the later PRESEQ or GFFREAD corrections. [Reproducibility repository](https://github.com/NicoDeVeaux/atacseq-modules-update-verification). The full output-tree archive is being prepared in an unpublished draft release.
++
++## Broader review and opening gates
++
++The [module audit](docs/module-update-audit.md) accounts for all **267 changed module/subworkflow files**, **70 components**, **16 changed declared dependency versions**, and subsequent histories for **36 shared module paths and seven shared subworkflows**.
++
++- [x] Reproduce the two original regressions and validate their mitigations.
++- [x] Scan every declared version change and later merged module fix.
++- [x] Reproduce PRESEQ retry option loss and exercise its correction.
++- [x] Classify the tested SAMtools and Picard candidates as inherited defects using old/selected binary controls.
++- [x] Classify the tested deepTools boundary behavior as inherited.
++- [x] Identify the GFFREAD conversion regression and prepare its 0.12.9 mitigation.
++- [x] Validate the packaged GFFREAD conversion, all nine existing module tests and the reviewed snapshots.
++- [x] Finish the bounded alignment/peak review: real mappings, QC partitions, SAM metadata and display fields are compared separately. The human control below covers one broad/no-control library; SE/ALT/repetitive-data equivalence remains unestablished.
++- [ ] Finish and link the downloadable computation/output archive.
++- [ ] Record final branch validation and update this description before opening the nf-core PR.
++
++Chromap 0.3.2 includes a mapping-pair correction. Local tests on the real residual pair reproduce an alignment difference independently of trimming and read-group assignment. Complete alignment identity with 0.2.4 is therefore not promised. Later upstream fixes are leads to investigate, not proof that every affected version causes a new pipeline regression. This branch does not blanket-upgrade other tools or resolve the separate mixed SE/PE and MultiQC issues.
++
++This is written by GPT-6 (Codex) on Nico DeVeaux's behalf.
+diff --git a/conf/modules.config b/conf/modules.config
+index ca0e5c4..3a1ea07 100644
+--- a/conf/modules.config
++++ b/conf/modules.config
+@@ -156,6 +156,7 @@ process {
+             ext.args   = {
+                 [
+                     '--fastqc',
++                    '--no_poly_g',
+                     params.trim_nextseq > 0 ? "--nextseq ${params.trim_nextseq}" : '',
+                     params.clip_r1 > 0 ? "--clip_r1 ${params.clip_r1}" : '',
+                     params.clip_r2 > 0 ? "--clip_r2 ${params.clip_r2}" : '',
+@@ -300,7 +301,7 @@ process {
+                     "--RGID ${meta.id}",
+                     "--RGSM ${meta.id - ~/_T\d+$/}",
+                     "--RGPL ILLUMINA",
+-                    "--RGLB ${meta.id}",
++                    "--RGLB ${meta.id - ~/_T\d+$/}",
+                     "--RGPU 1",
+                     params.seq_center ? "--RGCN '${params.seq_center}'" : ''
+                 ].join(' ').trim()
+diff --git a/docs/module-update-audit.md b/docs/module-update-audit.md
+new file mode 100644
+index 0000000..3976e9b
+--- /dev/null
++++ b/docs/module-update-audit.md
+@@ -0,0 +1,32 @@
++# PR448 module behavior audit
++
++Related issue: [nf-core/atacseq#473](https://github.com/nf-core/atacseq/issues/473). The bounded version and wrapper review is complete. The upstream PR remains gated on the downloadable archive and final review; optional-mode and transitive-dependency limits remain explicit.
++
++The inventory compares the actual merge `a51bee` to its first parent `4177ea`: **267 changed module/subworkflow files**, **70 components**, **16 changed declared dependency versions**, with no unassigned component files. Later history was checked for **36 shared module paths and seven shared subworkflows**. Reviewed current dev is `73155d`. Declared pins and container references are separate; opaque image contents and full transitive dependency sets are not inferred.
++
++| Area                      | Current disposition                                                                                                                                                                                                                                                                                                                                                                                                                                               |
++| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
++| Trim Galore               | Confirmed trimming regression; 2.3.0 plus `--no_poly_g` is validated. [Upstream changelog](https://www.trimgalore.com/reference/changelog/).                                                                                                                                                                                                                                                                                                                      |
++| Chromap library IDs       | Confirmed regression; shared biological-library IDs restore controlled duplicate marking while preserving distinct read groups.                                                                                                                                                                                                                                                                                                                                   |
++| PRESEQ retry              | Confirmed actual-wrapper option loss: `args.join(' -defects')` empties the String. The local patch preserves original options and appends the flag. Normal success, retry recovery and a failing mutation are checked in Nextflow with a stand-in. Ignoring a failed estimate changed to retrying it; that separate policy change is retained and disclosed.                                                                                                      |
++| Chromap 0.2.4 to 0.3.2    | Upstream includes a best-mapping-pair correction. A local experiment with the real 58/99-base residual pair produces zero alignment records on 0.2.4 and two on 0.3.2. The mapper-stage difference is reproduced independently of trimming/library IDs; attribution to a particular upstream commit is not yet isolated. [Release](https://github.com/haowenz/chromap/releases/tag/v0.3.2).                                                                       |
++| MACS3 3.0.1 to 3.0.4      | Same-input yeast broad/narrow/control checks match. On one full cleaned human BAM with archived broad/BAMPE/no-control arguments, all 30,438 broadPeak rows/fields and non-comment XLS rows match exactly; the 3.0.4 replay matches cloud outputs. `gappedPeak` fields 7-8 become zero, confirmed in the upstream writer and outputs. This does not cover every optional call mode. [Release](https://github.com/macs3-project/MACS/releases/tag/v3.0.4).         |
++| BWA and Bowtie2           | On 5,000 real pairs, BWA alignment fields match; MQ mate tags and the HD header are added. Bowtie2 mapper/index cross-controls have identical alignments, while unique/multiple concordant QC counts change from 2,988/1,556 to 3,039/1,505. These are expected metadata/reporting changes in the tested controls. [BWA](https://github.com/lh3/bwa/releases/tag/v0.7.19), [Bowtie2](https://github.com/BenLangmead/bowtie2/releases/tag/v2.5.4).                 |
++| SAMtools statistics       | Actual 1.19.2 and 1.24 binaries produce identical summary fields on both upstream duplicate/supplementary and zero-insert fixtures, including the known incorrect values. These tested defects predate #448. The later 1.25 tagged source changes those calculations. No new flagstat-normalization, peak or count defect is established. [Fix](https://github.com/samtools/samtools/pull/2388).                                                                  |
++| Picard optical duplicates | Actual 3.1.1 and 3.4.0 both miss one optical duplicate pair when coordinates straddle 32767 at the default 100-pixel distance. Their primary duplicate flags agree. This tested optical-metrics defect predates #448; later 3.5.0 widens physical coordinates. [Fix](https://github.com/broadinstitute/picard/pull/2034).                                                                                                                                         |
++| deepTools matrices        | Actual 3.5.5 and 3.5.6 chromosome-boundary fixtures agree in both matrix modes with `--missingDataAsZero`; this tested behavior is inherited. Later 4.0.0 changes it alongside a major rewrite, so no blind upgrade is proposed. [Release](https://github.com/deeptools/deepTools/releases/tag/4.0.0).                                                                                                                                                            |
++| GFFREAD                   | The optional GFF conversion branch exposes an upstream regression selected by #448. The 0.12.9 packaged tool is the proposed mitigation; historical failure witnesses stay private. Benign conversion is checked using exact pipeline arguments. The HIV GTF inputs cannot cover this path. Genome preparation already decompresses gzip, excluding the separate direct-gzip wrapper trigger. [Release](https://github.com/gpertea/gffread/releases/tag/v0.12.9). |
++| Subread and MultiQC       | Existing debt: overlap precision in retained Subread 2.0.1 and actual local MultiQC 1.13 reporting. The updated nf-core MultiQC entry is unused. Preserve the deliberate fragment-counting/mixed-input pin. [Subread history](https://subread.sourceforge.net/), [MultiQC issue](https://github.com/nf-core/atacseq/issues/463).                                                                                                                                  |
++| Remaining components      | grep/sed, pigz, HTSlib, UCSC and unchanged tool bindings have source/history and wrapper-applicability records. No matching new ordinary-input trigger is established. Absence of a release-note hit is not proof of no defects.                                                                                                                                                                                                                                  |
++
++Later wrapper changes were classified as processing, resources, reporting, provenance or packaging. Existing BWA-index and Subread patches must survive module syncs. No subsequent queue/value or library-metadata correction was found in the seven reviewed shared-subworkflow histories.
++
++The full-human MACS control independently verifies the frozen 285,036,036-byte input and archived task arguments. Both versions report 2,569,317 input fragments. Four offline comparison tests pass, and all 47 sealed evidence files rehash without mismatch. An initial harness-only insufficient-temporary-space attempt is retained and excluded; both accepted runs use the same 512 MiB temporary filesystem. Equality covers emitted fields, not hidden numerical precision. No new cloud or Co-Scientist runs were launched.
++
++The GFFREAD mitigation passes the actual-module benign conversion oracle and all nine existing module tests in local `--ci` mode. The isolated suite uses the upstream nft-utils 0.0.9 helper because the pipeline's older 0.0.3 helper lacks the module test's `sanitizeOutput` function. Only version/comment metadata changes in the reviewed snapshots; Conda and SIF execution remain untested.
++
++Detailed inventories, primary-source references and experiments are being assembled in the [reproducibility repository](https://github.com/NicoDeVeaux/atacseq-modules-update-verification). The full-data BWA count match and controlled duplicate-marking recovery meet the two numerical acceptance checks in #473; they do not establish identity across all optional modes.
++
++Source-only scope clarification: BWA and Bowtie2 already assigned technical-run library IDs before #448. This branch restores Chromap's pre-448 behavior; harmonizing the inherited aligner semantics needs separate validation and is not a new finding here.
++
++This is written by GPT-6 (Codex) on Nico DeVeaux's behalf.
+diff --git a/modules.json b/modules.json
+index 717b50a..f47a492 100644
+--- a/modules.json
++++ b/modules.json
+@@ -79,7 +79,8 @@
+                     "gffread": {
+                         "branch": "master",
+                         "git_sha": "c9ad4d691aa339e478a77847e3ef854ccd21778b",
+-                        "installed_by": ["modules"]
++                        "installed_by": ["modules"],
++                        "patch": "modules/nf-core/gffread/gffread.diff"
+                     },
+                     "gunzip": {
+                         "branch": "master",
+@@ -129,7 +130,8 @@
+                     "preseq/lcextrap": {
+                         "branch": "master",
+                         "git_sha": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+-                        "installed_by": ["modules"]
++                        "installed_by": ["modules"],
++                        "patch": "modules/nf-core/preseq/lcextrap/preseq-lcextrap.diff"
+                     },
+                     "samtools/faidx": {
+                         "branch": "master",
+@@ -169,7 +171,7 @@
+                     },
+                     "trimgalore": {
+                         "branch": "master",
+-                        "git_sha": "0991b1032cccfcd9245ef59c6e56d6092ac0b3e7",
++                        "git_sha": "2a30bfb6a1b4667692d734e33e000a3bd1d74a0d",
+                         "installed_by": ["fastq_fastqc_umitools_trimgalore"]
+                     },
+                     "ucsc/bedgraphtobigwig": {
+diff --git a/modules/nf-core/gffread/environment.yml b/modules/nf-core/gffread/environment.yml
+index 46c5fae..97e616b 100644
+--- a/modules/nf-core/gffread/environment.yml
++++ b/modules/nf-core/gffread/environment.yml
+@@ -4,4 +4,4 @@ channels:
+   - conda-forge
+   - bioconda
+ dependencies:
+-  - bioconda::gffread=0.12.7
++  - bioconda::gffread=0.12.9
+diff --git a/modules/nf-core/gffread/gffread.diff b/modules/nf-core/gffread/gffread.diff
+new file mode 100644
+index 0000000..b78c3dd
+--- /dev/null
++++ b/modules/nf-core/gffread/gffread.diff
+@@ -0,0 +1,568 @@
++Changes in component 'nf-core/gffread'
++--- modules/nf-core/gffread/main.nf
+++++ modules/nf-core/gffread/main.nf
++@@ -4,8 +4,8 @@
++ 
++     conda "${moduleDir}/environment.yml"
++     container "${ workflow.containerEngine in ['singularity', 'apptainer'] && !task.ext.singularity_pull_docker_container ?
++-        'https://depot.galaxyproject.org/singularity/gffread:0.12.7--hdcf5f25_4' :
++-        'quay.io/biocontainers/gffread:0.12.7--hdcf5f25_4' }"
+++        'https://depot.galaxyproject.org/singularity/gffread:0.12.9--hf426362_0' :
+++        'quay.io/biocontainers/gffread:0.12.9--hf426362_0' }"
++ 
++     input:
++     tuple val(meta), path(gff)
++--- modules/nf-core/gffread/environment.yml
+++++ modules/nf-core/gffread/environment.yml
++@@ -4,4 +4,4 @@
++   - conda-forge
++   - bioconda
++ dependencies:
++-  - bioconda::gffread=0.12.7
+++  - bioconda::gffread=0.12.9
++--- modules/nf-core/gffread/tests/main.nf.test.snap
+++++ modules/nf-core/gffread/tests/main.nf.test.snap
++@@ -1,426 +1,426 @@
++ {
++     "sarscov2-gff3-gtf": {
++         "content": [
++             {
++                 "0": [
++                     [
++                         {
++                             "id": "test"
++                         },
++                         "test.gtf:md5,1ea0ae98d3388e0576407dc4a24ef428"
++                     ]
++                 ],
++                 "1": [
++ 
++                 ],
++                 "2": [
++ 
++                 ],
++                 "3": [
++ 
++                 ],
++                 "4": [
++                     [
++                         "GFFREAD",
++                         "gffread",
++-                        "0.12.7"
+++                        "0.12.9"
++                     ]
++                 ],
++                 "bed": [
++ 
++                 ],
++                 "gffread_fasta": [
++ 
++                 ],
++                 "gffread_gff": [
++ 
++                 ],
++                 "gtf": [
++                     [
++                         {
++                             "id": "test"
++                         },
++                         "test.gtf:md5,1ea0ae98d3388e0576407dc4a24ef428"
++                     ]
++                 ],
++                 "versions_gffread": [
++                     [
++                         "GFFREAD",
++                         "gffread",
++-                        "0.12.7"
++-                    ]
++-                ]
++-            }
++-        ],
++-        "timestamp": "2026-04-24T10:22:41.259965105",
++-        "meta": {
++-            "nf-test": "0.9.5",
++-            "nextflow": "25.10.4"
+++                        "0.12.9"
+++                    ]
+++                ]
+++            }
+++        ],
+++        "timestamp": "2026-10-29T11:11:54.030628",
+++        "meta": {
+++            "nf-test": "0.9.5",
+++            "nextflow": "26.04.6"
++         }
++     },
++     "sarscov2-gff3-gff3": {
++         "content": [
++             {
++                 "0": [
++ 
++                 ],
++                 "1": [
++                     [
++                         {
++                             "id": "test"
++                         },
++-                        "test.gff3:md5,c4e5da6267c6bee5899a2c204ae1ad91"
++-                    ]
++-                ],
++-                "2": [
++-
++-                ],
++-                "3": [
++-
++-                ],
++-                "4": [
++-                    [
++-                        "GFFREAD",
++-                        "gffread",
++-                        "0.12.7"
++-                    ]
++-                ],
++-                "bed": [
++-
++-                ],
++-                "gffread_fasta": [
++-
++-                ],
++-                "gffread_gff": [
++-                    [
++-                        {
++-                            "id": "test"
++-                        },
++-                        "test.gff3:md5,c4e5da6267c6bee5899a2c204ae1ad91"
++-                    ]
++-                ],
++-                "gtf": [
++-
++-                ],
++-                "versions_gffread": [
++-                    [
++-                        "GFFREAD",
++-                        "gffread",
++-                        "0.12.7"
++-                    ]
++-                ]
++-            }
++-        ],
++-        "timestamp": "2026-04-24T10:22:51.897172513",
++-        "meta": {
++-            "nf-test": "0.9.5",
++-            "nextflow": "25.10.4"
+++                        "test.gff3:md5,f964eb24e3beef677faf9bf209d28dd0"
+++                    ]
+++                ],
+++                "2": [
+++
+++                ],
+++                "3": [
+++
+++                ],
+++                "4": [
+++                    [
+++                        "GFFREAD",
+++                        "gffread",
+++                        "0.12.9"
+++                    ]
+++                ],
+++                "bed": [
+++
+++                ],
+++                "gffread_fasta": [
+++
+++                ],
+++                "gffread_gff": [
+++                    [
+++                        {
+++                            "id": "test"
+++                        },
+++                        "test.gff3:md5,f964eb24e3beef677faf9bf209d28dd0"
+++                    ]
+++                ],
+++                "gtf": [
+++
+++                ],
+++                "versions_gffread": [
+++                    [
+++                        "GFFREAD",
+++                        "gffread",
+++                        "0.12.9"
+++                    ]
+++                ]
+++            }
+++        ],
+++        "timestamp": "2026-10-29T11:12:00.486197",
+++        "meta": {
+++            "nf-test": "0.9.5",
+++            "nextflow": "26.04.6"
++         }
++     },
++     "sarscov2-gff3-gtf-stub": {
++         "content": [
++             {
++                 "0": [
++                     [
++                         {
++                             "id": "test"
++                         },
++                         "test.gtf:md5,d41d8cd98f00b204e9800998ecf8427e"
++                     ]
++                 ],
++                 "1": [
++ 
++                 ],
++                 "2": [
++ 
++                 ],
++                 "3": [
++ 
++                 ],
++                 "4": [
++                     [
++                         "GFFREAD",
++                         "gffread",
++-                        "0.12.7"
+++                        "0.12.9"
++                     ]
++                 ],
++                 "bed": [
++ 
++                 ],
++                 "gffread_fasta": [
++ 
++                 ],
++                 "gffread_gff": [
++ 
++                 ],
++                 "gtf": [
++                     [
++                         {
++                             "id": "test"
++                         },
++                         "test.gtf:md5,d41d8cd98f00b204e9800998ecf8427e"
++                     ]
++                 ],
++                 "versions_gffread": [
++                     [
++                         "GFFREAD",
++                         "gffread",
++-                        "0.12.7"
++-                    ]
++-                ]
++-            }
++-        ],
++-        "timestamp": "2026-04-24T10:22:46.582356403",
++-        "meta": {
++-            "nf-test": "0.9.5",
++-            "nextflow": "25.10.4"
+++                        "0.12.9"
+++                    ]
+++                ]
+++            }
+++        ],
+++        "timestamp": "2026-10-29T11:11:57.031501",
+++        "meta": {
+++            "nf-test": "0.9.5",
+++            "nextflow": "26.04.6"
++         }
++     },
++     "sarscov2-gff3-bed": {
++         "content": [
++             {
++                 "bed": [
++                     [
++                         {
++                             "id": "test"
++                         },
++                         "test.bed:md5,96fd7117a706e7c2ccbe062beb635172"
++                     ]
++                 ],
++                 "gffread_fasta": [
++ 
++                 ],
++                 "gffread_gff": [
++ 
++                 ],
++                 "gtf": [
++ 
++                 ],
++                 "versions_gffread": [
++                     [
++                         "GFFREAD",
++                         "gffread",
++-                        "0.12.7"
++-                    ]
++-                ]
++-            }
++-        ],
++-        "timestamp": "2026-04-24T10:23:13.476804733",
++-        "meta": {
++-            "nf-test": "0.9.5",
++-            "nextflow": "25.10.4"
+++                        "0.12.9"
+++                    ]
+++                ]
+++            }
+++        ],
+++        "timestamp": "2026-10-29T11:12:13.460494",
+++        "meta": {
+++            "nf-test": "0.9.5",
+++            "nextflow": "26.04.6"
++         }
++     },
++     "sarscov2-gff3-bed-stub": {
++         "content": [
++             {
++                 "bed": [
++                     [
++                         {
++                             "id": "test"
++                         },
++                         "test.bed:md5,d41d8cd98f00b204e9800998ecf8427e"
++                     ]
++                 ],
++                 "gffread_fasta": [
++ 
++                 ],
++                 "gffread_gff": [
++ 
++                 ],
++                 "gtf": [
++ 
++                 ],
++                 "versions_gffread": [
++                     [
++                         "GFFREAD",
++                         "gffread",
++-                        "0.12.7"
++-                    ]
++-                ]
++-            }
++-        ],
++-        "timestamp": "2026-04-24T10:23:18.831655873",
++-        "meta": {
++-            "nf-test": "0.9.5",
++-            "nextflow": "25.10.4"
+++                        "0.12.9"
+++                    ]
+++                ]
+++            }
+++        ],
+++        "timestamp": "2026-10-29T11:12:16.87129",
+++        "meta": {
+++            "nf-test": "0.9.5",
+++            "nextflow": "26.04.6"
++         }
++     },
++     "sarscov2-gff3-fasta-stub": {
++         "content": [
++             {
++                 "0": [
++ 
++                 ],
++                 "1": [
++ 
++                 ],
++                 "2": [
++                     [
++                         {
++                             "id": "test"
++                         },
++                         "test.fasta:md5,d41d8cd98f00b204e9800998ecf8427e"
++                     ]
++                 ],
++                 "3": [
++ 
++                 ],
++                 "4": [
++                     [
++                         "GFFREAD",
++                         "gffread",
++-                        "0.12.7"
+++                        "0.12.9"
++                     ]
++                 ],
++                 "bed": [
++ 
++                 ],
++                 "gffread_fasta": [
++                     [
++                         {
++                             "id": "test"
++                         },
++                         "test.fasta:md5,d41d8cd98f00b204e9800998ecf8427e"
++                     ]
++                 ],
++                 "gffread_gff": [
++ 
++                 ],
++                 "gtf": [
++ 
++                 ],
++                 "versions_gffread": [
++                     [
++                         "GFFREAD",
++                         "gffread",
++-                        "0.12.7"
++-                    ]
++-                ]
++-            }
++-        ],
++-        "timestamp": "2026-04-24T10:23:08.064865029",
++-        "meta": {
++-            "nf-test": "0.9.5",
++-            "nextflow": "25.10.4"
+++                        "0.12.9"
+++                    ]
+++                ]
+++            }
+++        ],
+++        "timestamp": "2026-10-29T11:12:10.341693",
+++        "meta": {
+++            "nf-test": "0.9.5",
+++            "nextflow": "26.04.6"
++         }
++     },
++     "sarscov2-gff3-gff3-stub": {
++         "content": [
++             {
++                 "0": [
++ 
++                 ],
++                 "1": [
++                     [
++                         {
++                             "id": "test"
++                         },
++                         "test.gff3:md5,d41d8cd98f00b204e9800998ecf8427e"
++                     ]
++                 ],
++                 "2": [
++ 
++                 ],
++                 "3": [
++ 
++                 ],
++                 "4": [
++                     [
++                         "GFFREAD",
++                         "gffread",
++-                        "0.12.7"
+++                        "0.12.9"
++                     ]
++                 ],
++                 "bed": [
++ 
++                 ],
++                 "gffread_fasta": [
++ 
++                 ],
++                 "gffread_gff": [
++                     [
++                         {
++                             "id": "test"
++                         },
++                         "test.gff3:md5,d41d8cd98f00b204e9800998ecf8427e"
++                     ]
++                 ],
++                 "gtf": [
++ 
++                 ],
++                 "versions_gffread": [
++                     [
++                         "GFFREAD",
++                         "gffread",
++-                        "0.12.7"
++-                    ]
++-                ]
++-            }
++-        ],
++-        "timestamp": "2026-04-24T10:22:57.33529754",
++-        "meta": {
++-            "nf-test": "0.9.5",
++-            "nextflow": "25.10.4"
+++                        "0.12.9"
+++                    ]
+++                ]
+++            }
+++        ],
+++        "timestamp": "2026-10-29T11:12:03.736135",
+++        "meta": {
+++            "nf-test": "0.9.5",
+++            "nextflow": "26.04.6"
++         }
++     },
++     "sarscov2-gff3-fasta": {
++         "content": [
++             {
++                 "0": [
++ 
++                 ],
++                 "1": [
++ 
++                 ],
++                 "2": [
++                     [
++                         {
++                             "id": "test"
++                         },
++                         "test.fasta:md5,5f8108fb51739a0588ccf0a251de919a"
++                     ]
++                 ],
++                 "3": [
++ 
++                 ],
++                 "4": [
++                     [
++                         "GFFREAD",
++                         "gffread",
++-                        "0.12.7"
+++                        "0.12.9"
++                     ]
++                 ],
++                 "bed": [
++ 
++                 ],
++                 "gffread_fasta": [
++                     [
++                         {
++                             "id": "test"
++                         },
++                         "test.fasta:md5,5f8108fb51739a0588ccf0a251de919a"
++                     ]
++                 ],
++                 "gffread_gff": [
++ 
++                 ],
++                 "gtf": [
++ 
++                 ],
++                 "versions_gffread": [
++                     [
++                         "GFFREAD",
++                         "gffread",
++-                        "0.12.7"
++-                    ]
++-                ]
++-            }
++-        ],
++-        "timestamp": "2026-04-24T10:23:02.723479313",
++-        "meta": {
++-            "nf-test": "0.9.5",
++-            "nextflow": "25.10.4"
+++                        "0.12.9"
+++                    ]
+++                ]
+++            }
+++        ],
+++        "timestamp": "2026-10-29T11:12:07.323388",
+++        "meta": {
+++            "nf-test": "0.9.5",
+++            "nextflow": "26.04.6"
++         }
++     }
++-}
++\ No newline at end of file
+++}
++************************************************************
+diff --git a/modules/nf-core/gffread/main.nf b/modules/nf-core/gffread/main.nf
+index 00e4ab9..3d3c732 100644
+--- a/modules/nf-core/gffread/main.nf
++++ b/modules/nf-core/gffread/main.nf
+@@ -4,8 +4,8 @@ process GFFREAD {
+ 
+     conda "${moduleDir}/environment.yml"
+     container "${ workflow.containerEngine in ['singularity', 'apptainer'] && !task.ext.singularity_pull_docker_container ?
+-        'https://depot.galaxyproject.org/singularity/gffread:0.12.7--hdcf5f25_4' :
+-        'quay.io/biocontainers/gffread:0.12.7--hdcf5f25_4' }"
++        'https://depot.galaxyproject.org/singularity/gffread:0.12.9--hf426362_0' :
++        'quay.io/biocontainers/gffread:0.12.9--hf426362_0' }"
+ 
+     input:
+     tuple val(meta), path(gff)
+diff --git a/modules/nf-core/gffread/tests/main.nf.test.snap b/modules/nf-core/gffread/tests/main.nf.test.snap
+index c8f7938..afe37c4 100644
+--- a/modules/nf-core/gffread/tests/main.nf.test.snap
++++ b/modules/nf-core/gffread/tests/main.nf.test.snap
+@@ -23,7 +23,7 @@
+                     [
+                         "GFFREAD",
+                         "gffread",
+-                        "0.12.7"
++                        "0.12.9"
+                     ]
+                 ],
+                 "bed": [
+@@ -47,15 +47,15 @@
+                     [
+                         "GFFREAD",
+                         "gffread",
+-                        "0.12.7"
++                        "0.12.9"
+                     ]
+                 ]
+             }
+         ],
+-        "timestamp": "2026-04-24T10:22:41.259965105",
++        "timestamp": "2026-10-29T11:11:54.030628",
+         "meta": {
+             "nf-test": "0.9.5",
+-            "nextflow": "25.10.4"
++            "nextflow": "26.04.6"
+         }
+     },
+     "sarscov2-gff3-gff3": {
+@@ -69,7 +69,7 @@
+                         {
+                             "id": "test"
+                         },
+-                        "test.gff3:md5,c4e5da6267c6bee5899a2c204ae1ad91"
++                        "test.gff3:md5,f964eb24e3beef677faf9bf209d28dd0"
+                     ]
+                 ],
+                 "2": [
+@@ -82,7 +82,7 @@
+                     [
+                         "GFFREAD",
+                         "gffread",
+-                        "0.12.7"
++                        "0.12.9"
+                     ]
+                 ],
+                 "bed": [
+@@ -96,7 +96,7 @@
+                         {
+                             "id": "test"
+                         },
+-                        "test.gff3:md5,c4e5da6267c6bee5899a2c204ae1ad91"
++                        "test.gff3:md5,f964eb24e3beef677faf9bf209d28dd0"
+                     ]
+                 ],
+                 "gtf": [
+@@ -106,15 +106,15 @@
+                     [
+                         "GFFREAD",
+                         "gffread",
+-                        "0.12.7"
++                        "0.12.9"
+                     ]
+                 ]
+             }
+         ],
+-        "timestamp": "2026-04-24T10:22:51.897172513",
++        "timestamp": "2026-10-29T11:12:00.486197",
+         "meta": {
+             "nf-test": "0.9.5",
+-            "nextflow": "25.10.4"
++            "nextflow": "26.04.6"
+         }
+     },
+     "sarscov2-gff3-gtf-stub": {
+@@ -141,7 +141,7 @@
+                     [
+                         "GFFREAD",
+                         "gffread",
+-                        "0.12.7"
++                        "0.12.9"
+                     ]
+                 ],
+                 "bed": [
+@@ -165,15 +165,15 @@
+                     [
+                         "GFFREAD",
+                         "gffread",
+-                        "0.12.7"
++                        "0.12.9"
+                     ]
+                 ]
+             }
+         ],
+-        "timestamp": "2026-04-24T10:22:46.582356403",
++        "timestamp": "2026-10-29T11:11:57.031501",
+         "meta": {
+             "nf-test": "0.9.5",
+-            "nextflow": "25.10.4"
++            "nextflow": "26.04.6"
+         }
+     },
+     "sarscov2-gff3-bed": {
+@@ -200,15 +200,15 @@
+                     [
+                         "GFFREAD",
+                         "gffread",
+-                        "0.12.7"
++                        "0.12.9"
+                     ]
+                 ]
+             }
+         ],
+-        "timestamp": "2026-04-24T10:23:13.476804733",
++        "timestamp": "2026-10-29T11:12:13.460494",
+         "meta": {
+             "nf-test": "0.9.5",
+-            "nextflow": "25.10.4"
++            "nextflow": "26.04.6"
+         }
+     },
+     "sarscov2-gff3-bed-stub": {
+@@ -235,15 +235,15 @@
+                     [
+                         "GFFREAD",
+                         "gffread",
+-                        "0.12.7"
++                        "0.12.9"
+                     ]
+                 ]
+             }
+         ],
+-        "timestamp": "2026-04-24T10:23:18.831655873",
++        "timestamp": "2026-10-29T11:12:16.87129",
+         "meta": {
+             "nf-test": "0.9.5",
+-            "nextflow": "25.10.4"
++            "nextflow": "26.04.6"
+         }
+     },
+     "sarscov2-gff3-fasta-stub": {
+@@ -270,7 +270,7 @@
+                     [
+                         "GFFREAD",
+                         "gffread",
+-                        "0.12.7"
++                        "0.12.9"
+                     ]
+                 ],
+                 "bed": [
+@@ -294,15 +294,15 @@
+                     [
+                         "GFFREAD",
+                         "gffread",
+-                        "0.12.7"
++                        "0.12.9"
+                     ]
+                 ]
+             }
+         ],
+-        "timestamp": "2026-04-24T10:23:08.064865029",
++        "timestamp": "2026-10-29T11:12:10.341693",
+         "meta": {
+             "nf-test": "0.9.5",
+-            "nextflow": "25.10.4"
++            "nextflow": "26.04.6"
+         }
+     },
+     "sarscov2-gff3-gff3-stub": {
+@@ -329,7 +329,7 @@
+                     [
+                         "GFFREAD",
+                         "gffread",
+-                        "0.12.7"
++                        "0.12.9"
+                     ]
+                 ],
+                 "bed": [
+@@ -353,15 +353,15 @@
+                     [
+                         "GFFREAD",
+                         "gffread",
+-                        "0.12.7"
++                        "0.12.9"
+                     ]
+                 ]
+             }
+         ],
+-        "timestamp": "2026-04-24T10:22:57.33529754",
++        "timestamp": "2026-10-29T11:12:03.736135",
+         "meta": {
+             "nf-test": "0.9.5",
+-            "nextflow": "25.10.4"
++            "nextflow": "26.04.6"
+         }
+     },
+     "sarscov2-gff3-fasta": {
+@@ -388,7 +388,7 @@
+                     [
+                         "GFFREAD",
+                         "gffread",
+-                        "0.12.7"
++                        "0.12.9"
+                     ]
+                 ],
+                 "bed": [
+@@ -412,15 +412,15 @@
+                     [
+                         "GFFREAD",
+                         "gffread",
+-                        "0.12.7"
++                        "0.12.9"
+                     ]
+                 ]
+             }
+         ],
+-        "timestamp": "2026-04-24T10:23:02.723479313",
++        "timestamp": "2026-10-29T11:12:07.323388",
+         "meta": {
+             "nf-test": "0.9.5",
+-            "nextflow": "25.10.4"
++            "nextflow": "26.04.6"
+         }
+     }
+-}
+\ No newline at end of file
++}
+diff --git a/modules/nf-core/preseq/lcextrap/main.nf b/modules/nf-core/preseq/lcextrap/main.nf
+index ba4640f..523d6e7 100644
+--- a/modules/nf-core/preseq/lcextrap/main.nf
++++ b/modules/nf-core/preseq/lcextrap/main.nf
+@@ -21,7 +21,7 @@ process PRESEQ_LCEXTRAP {
+ 
+     script:
+     def args = task.ext.args ?: ''
+-    args = task.attempt > 1 ? args.join(' -defects') : args  // Disable testing for defects
++    args = task.attempt > 1 ? "${args} -defects" : args  // Disable testing for defects
+     def prefix = task.ext.prefix ?: "${meta.id}"
+     def paired_end = meta.single_end ? '' : '-pe'
+     """
+diff --git a/modules/nf-core/preseq/lcextrap/preseq-lcextrap.diff b/modules/nf-core/preseq/lcextrap/preseq-lcextrap.diff
+new file mode 100644
+index 0000000..f3f5d88
+--- /dev/null
++++ b/modules/nf-core/preseq/lcextrap/preseq-lcextrap.diff
+@@ -0,0 +1,13 @@
++Changes in component 'nf-core/preseq/lcextrap'
++--- modules/nf-core/preseq/lcextrap/main.nf
+++++ modules/nf-core/preseq/lcextrap/main.nf
++@@ -21,7 +21,7 @@
++ 
++     script:
++     def args = task.ext.args ?: ''
++-    args = task.attempt > 1 ? args.join(' -defects') : args  // Disable testing for defects
+++    args = task.attempt > 1 ? "${args} -defects" : args  // Disable testing for defects
++     def prefix = task.ext.prefix ?: "${meta.id}"
++     def paired_end = meta.single_end ? '' : '-pe'
++     """
++************************************************************
+diff --git a/modules/nf-core/trimgalore/environment.yml b/modules/nf-core/trimgalore/environment.yml
+index ac5b9fa..6f07df0 100644
+--- a/modules/nf-core/trimgalore/environment.yml
++++ b/modules/nf-core/trimgalore/environment.yml
+@@ -4,4 +4,4 @@ channels:
+   - conda-forge
+   - bioconda
+ dependencies:
+-  - bioconda::trim-galore=2.1.0
++  - bioconda::trim-galore=2.3.0
+diff --git a/modules/nf-core/trimgalore/main.nf b/modules/nf-core/trimgalore/main.nf
+index 2a08be9..af819db 100644
+--- a/modules/nf-core/trimgalore/main.nf
++++ b/modules/nf-core/trimgalore/main.nf
+@@ -5,8 +5,8 @@ process TRIMGALORE {
+ 
+     conda "${moduleDir}/environment.yml"
+     container "${workflow.containerEngine in ['singularity', 'apptainer'] && !task.ext.singularity_pull_docker_container ?
+-        'https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/7e/7e44249e3fafe3d136ea726225551b51bca642387e16d9687b3e602207dedb20/data' :
+-        'community.wave.seqera.io/library/trim-galore:2.1.0--27e6376b8f6c1872'}"
++        'https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/e0/e00369598bd6b7b34a7c83d5496c381104bf8b885c31a4b65b92e6ea2059fbb3/data' :
++        'community.wave.seqera.io/library/trim-galore:2.3.0--6a38a479b4972363'}"
+ 
+     input:
+     tuple val(meta), path(reads)
+diff --git a/modules/nf-core/trimgalore/tests/main.nf.test.snap b/modules/nf-core/trimgalore/tests/main.nf.test.snap
+index 3a806d8..a909b56 100644
+--- a/modules/nf-core/trimgalore/tests/main.nf.test.snap
++++ b/modules/nf-core/trimgalore/tests/main.nf.test.snap
+@@ -30,7 +30,7 @@
+                     [
+                         "TRIMGALORE",
+                         "trimgalore",
+-                        "2.1.0"
++                        "2.3.0"
+                     ]
+                 ]
+             }
+@@ -74,7 +74,7 @@
+                     [
+                         "TRIMGALORE",
+                         "trimgalore",
+-                        "2.1.0"
++                        "2.3.0"
+                     ]
+                 ]
+             }
+@@ -110,7 +110,7 @@
+                     [
+                         "TRIMGALORE",
+                         "trimgalore",
+-                        "2.1.0"
++                        "2.3.0"
+                     ]
+                 ]
+             }
+@@ -142,7 +142,7 @@
+                     [
+                         "TRIMGALORE",
+                         "trimgalore",
+-                        "2.1.0"
++                        "2.3.0"
+                     ]
+                 ]
+             }
+@@ -170,7 +170,7 @@
+                     [
+                         "TRIMGALORE",
+                         "trimgalore",
+-                        "2.1.0"
++                        "2.3.0"
+                     ]
+                 ]
+             }
+diff --git a/tests/bowtie2.nf.test.snap b/tests/bowtie2.nf.test.snap
+index 1284698..80c941e 100644
+--- a/tests/bowtie2.nf.test.snap
++++ b/tests/bowtie2.nf.test.snap
+@@ -125,7 +125,7 @@
+                     "subread": "2.0.1"
+                 },
+                 "TRIMGALORE": {
+-                    "trimgalore": "2.1.0"
++                    "trimgalore": "2.3.0"
+                 },
+                 "TSS_EXTRACT": {
+                     "sed": 4.7
+diff --git a/tests/chromap.nf.test.snap b/tests/chromap.nf.test.snap
+index 8f1c903..225d08e 100644
+--- a/tests/chromap.nf.test.snap
++++ b/tests/chromap.nf.test.snap
+@@ -127,7 +127,7 @@
+                     "subread": "2.0.1"
+                 },
+                 "TRIMGALORE": {
+-                    "trimgalore": "2.1.0"
++                    "trimgalore": "2.3.0"
+                 },
+                 "TSS_EXTRACT": {
+                     "sed": 4.7
+diff --git a/tests/controls.nf.test.snap b/tests/controls.nf.test.snap
+index 6da9e13..47da07a 100644
+--- a/tests/controls.nf.test.snap
++++ b/tests/controls.nf.test.snap
+@@ -124,7 +124,7 @@
+                     "subread": "2.0.1"
+                 },
+                 "TRIMGALORE": {
+-                    "trimgalore": "2.1.0"
++                    "trimgalore": "2.3.0"
+                 },
+                 "TSS_EXTRACT": {
+                     "sed": 4.7
+diff --git a/tests/default.nf.test.snap b/tests/default.nf.test.snap
+index 2a4203e..0628874 100644
+--- a/tests/default.nf.test.snap
++++ b/tests/default.nf.test.snap
+@@ -124,7 +124,7 @@
+                     "subread": "2.0.1"
+                 },
+                 "TRIMGALORE": {
+-                    "trimgalore": "2.1.0"
++                    "trimgalore": "2.3.0"
+                 },
+                 "TSS_EXTRACT": {
+                     "sed": 4.7
+diff --git a/tests/regressions/README.md b/tests/regressions/README.md
+new file mode 100644
+index 0000000..294b12a
+--- /dev/null
++++ b/tests/regressions/README.md
+@@ -0,0 +1,9 @@
++# Focused module regression checks
++
++Run `python3 tests/regressions/preseq_retry.py` with Python 3 and Nextflow installed. The check uses offline mode, so its Nextflow distribution must already be cached. `--nextflow-jar /path/to/nextflow-one.jar` selects an explicit distribution; `--output /empty/directory` retains task commands, logs, traces and results in a chosen directory.
++
++The check executes the actual PRESEQ module on the local executor without containers or Conda. Its stand-in executable records arguments, simulates an initial complexity-model failure, and succeeds only when original options and the retry flag are present. It checks normal success, retry recovery and an intentionally broken mutation. It does not validate scientific estimates or the complete ATAC pipeline.
++
++The real-data comparisons and wider review are recorded in `PR-DRAFT.md` and `docs/module-update-audit.md`.
++
++Run `python3 tests/regressions/gffread_conversion.py` for the actual packaged GFFREAD conversion check. It requires Docker and tests feature coordinates, identifiers and the observed fixed runtime on a benign annotation. Use `--docker-context colima` on the local Mac. It does not reproduce historical failures or prove all annotation inputs equivalent.
+diff --git a/tests/regressions/gffread_conversion.py b/tests/regressions/gffread_conversion.py
+new file mode 100644
+index 0000000..b0aaa72
+--- /dev/null
++++ b/tests/regressions/gffread_conversion.py
+@@ -0,0 +1,66 @@
++#!/usr/bin/env python3
++"""Check the actual GFFREAD module's packaged GFF-to-GTF conversion."""
++import argparse
++import hashlib
++import json
++import os
++from pathlib import Path
++import re
++import shutil
++import subprocess
++import tempfile
++
++
++def main():
++    parser = argparse.ArgumentParser(description=__doc__)
++    parser.add_argument('--repo', type=Path, default=Path(__file__).resolve().parents[2])
++    parser.add_argument('--nextflow', default='nextflow')
++    parser.add_argument('--nextflow-jar', type=Path)
++    parser.add_argument('--docker-context')
++    parser.add_argument('--output', type=Path)
++    args = parser.parse_args()
++    root = (args.output or Path(tempfile.mkdtemp(prefix='atacseq-gffread-conversion-'))).resolve()
++    root.mkdir(parents=True, exist_ok=True)
++    if any(root.iterdir()):
++        raise ValueError('Use an empty output directory')
++    module = args.repo/'modules/nf-core/gffread/main.nf'
++    shutil.copyfile(module, root/'module.nf')
++    (root/'annotation.gff3').write_text('''##gff-version 3
++chr1\tfixture\tgene\t1\t100\t.\t+\t.\tID=gene1
++chr1\tfixture\tmRNA\t1\t100\t0.5\t+\t.\tID=tx1;Parent=gene1
++chr1\tfixture\texon\t1\t25\t.\t+\t.\tParent=tx1
++chr1\tfixture\texon\t50\t100\t.\t+\t.\tParent=tx1
++''')
++    (root/'main.nf').write_text("include { GFFREAD } from './module'\nworkflow {\n GFFREAD(Channel.of([[id:'annotation'], file('annotation.gff3')]), [])\n GFFREAD.out.versions_gffread.view { process_name, tool, version -> \"OBSERVED_GFFREAD_VERSION ${version}\" }\n}\n")
++    (root/'nextflow.config').write_text("process { executor='local'; cpus=1; memory='1 GB'; ext.args='--keep-exon-attrs -F -T'; ext.prefix='converted' }\ndocker.enabled=true\ndocker.runOptions='--network none --platform linux/amd64'\nconda.enabled=false\nnextflow.enable.telemetry=false\ntrace.fields='task_id,hash,name,status,exit,container'\n")
++    command = (['java', '-jar', str(args.nextflow_jar.resolve())] if args.nextflow_jar
++               else [shutil.which(args.nextflow) or args.nextflow])
++    env = {key: os.environ[key] for key in ('HOME', 'PATH', 'JAVA_HOME', 'LANG') if key in os.environ}
++    env.update(NXF_OFFLINE='true', NXF_ANSI_LOG='false', NXF_DISABLE_CHECK_LATEST='true')
++    if args.docker_context:
++        env['DOCKER_CONTEXT'] = args.docker_context
++    result = subprocess.run(command+['run', 'main.nf', '-ansi-log', 'false', '-with-trace', 'trace.tsv', '-work-dir', 'work'],
++                            cwd=root, env=env, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, timeout=180)
++    (root/'run.out').write_bytes(result.stdout)
++    result.check_returncode()
++    outputs = list((root/'work').rglob('converted.gtf'))
++    if len(outputs) != 1:
++        raise AssertionError('Expected exactly one converted GTF')
++    body = outputs[0].read_text()
++    rows = [line.split('\t') for line in body.splitlines() if line and not line.startswith('#')]
++    exons = {(row[0], int(row[3]), int(row[4]), row[6]) for row in rows if row[2] == 'exon'}
++    match = re.search(rb'OBSERVED_GFFREAD_VERSION\s+(\d+)\.(\d+)\.(\d+)', result.stdout)
++    gates = {'two_exon_coordinates_preserved': exons == {('chr1', 1, 25, '+'), ('chr1', 50, 100, '+')},
++             'gene_and_transcript_ids_preserved': all('transcript_id "tx1"' in row[8] and 'gene_id "gene1"' in row[8] for row in rows if row[2] == 'exon'),
++             'packaged_fixed_runtime_observed': bool(match and tuple(map(int, match.groups())) >= (0, 12, 9))}
++    record = {'gates': gates, 'source_sha256': hashlib.sha256(module.read_bytes()).hexdigest(),
++              'gtf_sha256': hashlib.sha256(body.encode()).hexdigest(),
++              'runtime': match.group(0).decode() if match else None,
++              'scope': 'Actual module and packaged tool, benign annotation conversion; not a full-pipeline or all-input equivalence test'}
++    (root/'result.json').write_text(json.dumps(record, indent=2)+'\n')
++    print(json.dumps(record))
++    return 0 if all(gates.values()) else 1
++
++
++if __name__ == '__main__':
++    raise SystemExit(main())
+diff --git a/tests/regressions/preseq_retry.py b/tests/regressions/preseq_retry.py
+new file mode 100644
+index 0000000..651e591
+--- /dev/null
++++ b/tests/regressions/preseq_retry.py
+@@ -0,0 +1,85 @@
++#!/usr/bin/env python3
++"""Check PRESEQ retry argv and recovery using the real module and a stand-in."""
++import argparse
++import hashlib
++import json
++import os
++from pathlib import Path
++import shutil
++import subprocess
++import sys
++import tempfile
++
++
++def main():
++    parser = argparse.ArgumentParser(description=__doc__)
++    parser.add_argument('--repo', type=Path, default=Path(__file__).resolve().parents[2])
++    parser.add_argument('--nextflow', default='nextflow')
++    parser.add_argument('--nextflow-jar', type=Path)
++    parser.add_argument('--output', type=Path)
++    args = parser.parse_args()
++    source = (args.repo/'modules/nf-core/preseq/lcextrap/main.nf').read_text()
++    root = (args.output or Path(tempfile.mkdtemp(prefix='atacseq-preseq-retry-'))).resolve()
++    root.mkdir(parents=True, exist_ok=True)
++    if any(root.iterdir()):
++        raise ValueError('Use an empty output directory')
++    command = (['java', '-jar', str(args.nextflow_jar.resolve())] if args.nextflow_jar
++               else [shutil.which(args.nextflow) or args.nextflow])
++    bins = root/'bin'
++    bins.mkdir()
++    executable = bins/'preseq'
++    executable.write_text('#!'+sys.executable+'\n'+'''import json, os, sys
++from pathlib import Path
++argv = sys.argv[1:]
++if not argv:
++    print('preseq Version: 3.2.0', file=sys.stderr)
++    raise SystemExit(0)
++with open(os.environ['PRESEQ_ARGV_RECORD'], 'a') as stream:
++    stream.write(json.dumps(argv)+'\\n')
++if not all(option in argv for option in ['-verbose', '-bam', '-seed', '1']):
++    raise SystemExit(43)
++if os.environ['PRESEQ_FAIL_FIRST'] == '1' and '-defects' not in argv:
++    print('Fixture: simulate an initial complexity-model failure', file=sys.stderr)
++    raise SystemExit(42)
++Path(argv[argv.index('-output')+1]).write_text('Fixture estimate; no scientific computation\\n')
++''')
++    executable.chmod(0o755)
++    env = {key: os.environ[key] for key in ('HOME', 'PATH', 'JAVA_HOME', 'LANG') if key in os.environ}
++    env.update(PATH=str(bins)+':'+env.get('PATH', '/usr/bin:/bin'), NXF_OFFLINE='true',
++               NXF_ANSI_LOG='false', NXF_DISABLE_CHECK_LATEST='true')
++    results = {}
++    replacement = '"${args} -defects"'
++    if replacement not in source:
++        raise ValueError('Mutation control needs the reviewed append expression')
++    cases = [('normal', source, '0'), ('retry', source, '1'),
++             ('lost_options_control', source.replace(replacement, "args.join(' -defects')"), '1')]
++    for name, body, fail_first in cases:
++        case = root/name
++        case.mkdir()
++        (case/'module.nf').write_text(body)
++        (case/'input.bam').write_text('Fixture: only the wrapper argv contract is tested\n')
++        (case/'main.nf').write_text("include { PRESEQ_LCEXTRAP } from './module'\nworkflow { PRESEQ_LCEXTRAP(Channel.of([[id:'library', single_end:false],file('input.bam')])) }\n")
++        (case/'nextflow.config').write_text("process { executor='local'; cpus=1; memory='1 GB'; maxRetries=1; maxErrors=-1; errorStrategy='finish'; ext.args='-verbose -bam -seed 1'; withLabel:error_ignore { errorStrategy='ignore' }; withLabel:error_retry { errorStrategy='retry'; maxRetries=2 } }\nconda.enabled=false\ndocker.enabled=false\nnextflow.enable.telemetry=false\n")
++        record = case/'argv.jsonl'
++        proc = subprocess.run(command+['run', 'main.nf', '-ansi-log', 'false', '-with-trace', 'trace.tsv', '-work-dir', 'work'],
++                              cwd=case, env={**env, 'PRESEQ_ARGV_RECORD': str(record), 'PRESEQ_FAIL_FIRST': fail_first},
++                              stdout=subprocess.PIPE, stderr=subprocess.STDOUT, timeout=120)
++        (case/'run.out').write_bytes(proc.stdout)
++        invocations = [json.loads(line) for line in record.read_text().splitlines()] if record.exists() else []
++        results[name] = {'exit_code': proc.returncode, 'argv': invocations}
++    normal, retry, control = [results[key] for key in ('normal', 'retry', 'lost_options_control')]
++    gates = {
++        'normal_succeeds_once_without_defects': normal['exit_code'] == 0 and len(normal['argv']) == 1 and '-defects' not in normal['argv'][0],
++        'retry_succeeds_with_original_options': retry['exit_code'] == 0 and len(retry['argv']) == 2 and all('-bam' in argv and '-seed' in argv for argv in retry['argv']),
++        'defects_only_added_on_retry': len(retry['argv']) == 2 and '-defects' not in retry['argv'][0] and '-defects' in retry['argv'][1],
++        'negative_control_detects_lost_options': control['exit_code'] != 0 and len(control['argv']) == 3 and all('-bam' not in argv for argv in control['argv'][1:]),
++    }
++    result = {'gates': gates, 'cases': results, 'module_sha256': hashlib.sha256(source.encode()).hexdigest(),
++              'scope': 'Real Nextflow module; fake PRESEQ executable; no estimate or full pipeline is validated'}
++    (root/'result.json').write_text(json.dumps(result, indent=2)+'\n')
++    print(json.dumps({'passed': all(gates.values()), 'gates': gates, 'evidence': str(root/'result.json')}))
++    return 0 if all(gates.values()) else 1
++
++
++if __name__ == '__main__':
++    raise SystemExit(main())
+diff --git a/tests/skip_consensus_peaks.nf.test.snap b/tests/skip_consensus_peaks.nf.test.snap
+index e48ef39..cbae783 100644
+--- a/tests/skip_consensus_peaks.nf.test.snap
++++ b/tests/skip_consensus_peaks.nf.test.snap
+@@ -123,7 +123,7 @@
+                     "samtools": 1.24
+                 },
+                 "TRIMGALORE": {
+-                    "trimgalore": "2.1.0"
++                    "trimgalore": "2.3.0"
+                 },
+                 "TSS_EXTRACT": {
+                     "sed": 4.7
+diff --git a/tests/star.nf.test.snap b/tests/star.nf.test.snap
+index 66c4dec..71b4a36 100644
+--- a/tests/star.nf.test.snap
++++ b/tests/star.nf.test.snap
+@@ -123,7 +123,7 @@
+                     "subread": "2.0.1"
+                 },
+                 "TRIMGALORE": {
+-                    "trimgalore": "2.1.0"
++                    "trimgalore": "2.3.0"
+                 },
+                 "TSS_EXTRACT": {
+                     "sed": 4.7

@@ -1,0 +1,56 @@
+{
+  "source_files": [
+    {
+      "file": "environment.yml",
+      "sha256": "2683dc682c82caf86fa8fd98032e9a350f8a45f4368dd8c6c5906ab5c2c4a7d3"
+    },
+    {
+      "file": "gffread-version.diff",
+      "sha256": "8fcdf8e13ed0a3dfdee7061ada9fca67f6598e612995d12e1aec4bc8b3b40169"
+    },
+    {
+      "file": "meta.yml",
+      "sha256": "e689e0260433a86e385eccd816cff7f84b926e64f00768125591d40e59d1574e"
+    },
+    {
+      "file": "main.nf",
+      "sha256": "8eba1f12171fa5d5bef67dc4d947630eb90a980823f11bbca9b7893eac35e9a8"
+    },
+    {
+      "file": "tests/main.nf.test.snap",
+      "sha256": "f4e233725a09a54f9736fce43eeed48465f93492a71984d87509fc918d0514a1"
+    },
+    {
+      "file": "tests/nextflow-gff3.config",
+      "sha256": "4345126fc3369011b7507a71aa04e3be010c9fe40076bcbc85feec4cedd96e40"
+    },
+    {
+      "file": "tests/nextflow.config",
+      "sha256": "da3bfd5230571b3b53b4a0604d98eb152b847fc4f26c3f68bf72cd48942fbdab"
+    },
+    {
+      "file": "tests/main.nf.test",
+      "sha256": "0f0fd8a1e9124c2b78251be17b5087502c45d8b41c3441c46fa18e4fe74a4bbe"
+    },
+    {
+      "file": "tests/nextflow-bed.config",
+      "sha256": "f99418a19aa3f6e0e5931932dbc6e21d38a74c4594568ee44ab503c396f17e2d"
+    },
+    {
+      "file": "tests/nextflow-fasta.config",
+      "sha256": "2a190d8c69917861dc75e5a5e4e72424ed6330918414b9c77e72d72e9f527afc"
+    }
+  ],
+  "test_inputs": [
+    {
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/modules/data/genomics/sarscov2/genome/genome.gff3",
+      "bytes": 2731,
+      "sha256": "20991e44efd8b173d9448b3e937cec12a891b80eba9fb7a6e655f931f0ae2f84"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/modules/data/genomics/sarscov2/genome/genome.fasta",
+      "bytes": 30322,
+      "sha256": "1833c8720be7a62a4f132beefb68d2cbc32c3e20bd85a8939dba178850ba1ba4"
+    }
+  ]
+}

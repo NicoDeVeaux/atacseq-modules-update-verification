@@ -1,0 +1,273 @@
+{
+  "commits": {
+    "7b3452a23773f687ededb4befd037920e5a51341": {
+      "committer_date": "2026-10-27T21:05:49+01:00",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": false,
+      "postdates_pr448_merge": true
+    },
+    "5909fc046b4b2062e4b4173808aacd2424e0866a": {
+      "committer_date": "2026-06-23T12:06:41Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": true,
+      "postdates_pr448_merge": false
+    },
+    "8278e3c8a48427f7c26754128eba4907b8318878": {
+      "committer_date": "2026-10-20T06:49:17Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": false,
+      "postdates_pr448_merge": true
+    },
+    "2080397432fcb0d079121dbacf22ce42ef175cec": {
+      "committer_date": "2026-07-28T12:45:12+02:00",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": false,
+      "postdates_pr448_merge": false
+    },
+    "0cd85f32cf1a1828205b16e4267277ba9457570b": {
+      "committer_date": "2026-07-15T08:16:26Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": false,
+      "postdates_pr448_merge": false
+    },
+    "e848c6b4ae9cef4ac56d7221278185ebb31fe322": {
+      "committer_date": "2026-10-16T06:55:44Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": true,
+      "postdates_pr448_merge": true
+    },
+    "6ef220fd9252b42fb3c50348bbdbcb6246730686": {
+      "committer_date": "2026-09-04T14:23:17Z",
+      "fix_keyword_in_subject": true,
+      "fix_keyword_in_body": true,
+      "postdates_pr448_merge": false
+    },
+    "50023bebcce2b70e17a4759add65fac5781bfa4f": {
+      "committer_date": "2026-10-04T16:34:49Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": false,
+      "postdates_pr448_merge": true
+    },
+    "b3d1ca84b3f0051498abb91bd4333b701be4384d": {
+      "committer_date": "2026-09-24T11:58:47Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": false,
+      "postdates_pr448_merge": false
+    },
+    "467c847035812fc17db844c6f37615b415b75eb3": {
+      "committer_date": "2026-10-20T04:28:18Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": false,
+      "postdates_pr448_merge": true
+    },
+    "fe08122c3dc2f2d7890daba06f6c90e570ef01de": {
+      "committer_date": "2026-08-20T15:40:27Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": true,
+      "postdates_pr448_merge": false
+    },
+    "85c1724990b626767f9ed59092430d2d145c4607": {
+      "committer_date": "2026-08-10T15:12:54Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": false,
+      "postdates_pr448_merge": false
+    },
+    "a582d5633f7df32396681ef4458068e2b509ca91": {
+      "committer_date": "2026-10-28T17:44:43Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": true,
+      "postdates_pr448_merge": true
+    },
+    "5f344f0e41fdfaf2506f89400e42a2689d6ab323": {
+      "committer_date": "2026-10-19T16:32:10+02:00",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": false,
+      "postdates_pr448_merge": true
+    },
+    "9339809fcb90af8a8b7051e6cd914894d5c52002": {
+      "committer_date": "2026-07-13T13:56:42Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": true,
+      "postdates_pr448_merge": false
+    },
+    "c565f1b27c06a1e8b726e2a646d4c822ae3b514a": {
+      "committer_date": "2026-08-15T17:35:31Z",
+      "fix_keyword_in_subject": true,
+      "fix_keyword_in_body": true,
+      "postdates_pr448_merge": false
+    },
+    "f97696ae2ba28e94032adafea6777d7eb38d2c1d": {
+      "committer_date": "2026-09-17T10:01:08Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": true,
+      "postdates_pr448_merge": false
+    },
+    "e0dce27411e04123f0fee60eb0f475262c165766": {
+      "committer_date": "2026-09-16T09:25:12Z",
+      "fix_keyword_in_subject": true,
+      "fix_keyword_in_body": false,
+      "postdates_pr448_merge": false
+    },
+    "2a30bfb6a1b4667692d734e33e000a3bd1d74a0d": {
+      "committer_date": "2026-07-09T10:29:02Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": false,
+      "postdates_pr448_merge": false
+    },
+    "b034b63f3160144d052de6f38350339a32f91489": {
+      "committer_date": "2026-10-15T15:03:52Z",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": true,
+      "postdates_pr448_merge": true
+    },
+    "4dd270e412e2a7e78761be38aafa5cfa1dcdf891": {
+      "committer_date": "2026-08-26T12:19:43+02:00",
+      "fix_keyword_in_subject": false,
+      "fix_keyword_in_body": true,
+      "postdates_pr448_merge": false
+    }
+  },
+  "license_prefix_only": [
+    "ataqv/ataqv",
+    "ataqv/mkarv",
+    "bowtie2/align",
+    "bowtie2/build",
+    "bwa/index",
+    "bwa/mem",
+    "chromap/chromap",
+    "chromap/index",
+    "deeptools/alignmentsieve",
+    "deeptools/computematrix",
+    "deeptools/plotfingerprint",
+    "deeptools/plotheatmap",
+    "deeptools/plotprofile",
+    "gffread",
+    "gunzip",
+    "homer/annotatepeaks",
+    "khmer/uniquekmers",
+    "macs3/callpeak",
+    "multiqc",
+    "picard/addorreplacereadgroups",
+    "picard/collectmultiplemetrics",
+    "picard/markduplicates",
+    "picard/mergesamfiles",
+    "preseq/lcextrap",
+    "samtools/faidx",
+    "samtools/flagstat",
+    "samtools/idxstats",
+    "samtools/index",
+    "samtools/sort",
+    "samtools/stats",
+    "subread/featurecounts",
+    "trimgalore",
+    "ucsc/bedgraphtobigwig",
+    "umitools/extract",
+    "untar"
+  ],
+  "container_directive_only": [
+    [
+      "bowtie2/align",
+      "8278e3c8a48427f7c26754128eba4907b8318878"
+    ],
+    [
+      "bowtie2/build",
+      "8278e3c8a48427f7c26754128eba4907b8318878"
+    ],
+    [
+      "deeptools/alignmentsieve",
+      "e848c6b4ae9cef4ac56d7221278185ebb31fe322"
+    ],
+    [
+      "deeptools/computematrix",
+      "e848c6b4ae9cef4ac56d7221278185ebb31fe322"
+    ],
+    [
+      "deeptools/plotfingerprint",
+      "e848c6b4ae9cef4ac56d7221278185ebb31fe322"
+    ],
+    [
+      "deeptools/plotheatmap",
+      "e848c6b4ae9cef4ac56d7221278185ebb31fe322"
+    ],
+    [
+      "deeptools/plotprofile",
+      "e848c6b4ae9cef4ac56d7221278185ebb31fe322"
+    ],
+    [
+      "picard/addorreplacereadgroups",
+      "467c847035812fc17db844c6f37615b415b75eb3"
+    ],
+    [
+      "picard/collectmultiplemetrics",
+      "467c847035812fc17db844c6f37615b415b75eb3"
+    ],
+    [
+      "picard/markduplicates",
+      "467c847035812fc17db844c6f37615b415b75eb3"
+    ],
+    [
+      "picard/mergesamfiles",
+      "467c847035812fc17db844c6f37615b415b75eb3"
+    ],
+    [
+      "samtools/faidx",
+      "a582d5633f7df32396681ef4458068e2b509ca91"
+    ],
+    [
+      "samtools/faidx",
+      "5f344f0e41fdfaf2506f89400e42a2689d6ab323"
+    ],
+    [
+      "samtools/faidx",
+      "9339809fcb90af8a8b7051e6cd914894d5c52002"
+    ],
+    [
+      "samtools/flagstat",
+      "a582d5633f7df32396681ef4458068e2b509ca91"
+    ],
+    [
+      "samtools/flagstat",
+      "5f344f0e41fdfaf2506f89400e42a2689d6ab323"
+    ],
+    [
+      "samtools/idxstats",
+      "a582d5633f7df32396681ef4458068e2b509ca91"
+    ],
+    [
+      "samtools/idxstats",
+      "5f344f0e41fdfaf2506f89400e42a2689d6ab323"
+    ],
+    [
+      "samtools/index",
+      "a582d5633f7df32396681ef4458068e2b509ca91"
+    ],
+    [
+      "samtools/index",
+      "5f344f0e41fdfaf2506f89400e42a2689d6ab323"
+    ],
+    [
+      "samtools/sort",
+      "a582d5633f7df32396681ef4458068e2b509ca91"
+    ],
+    [
+      "samtools/sort",
+      "5f344f0e41fdfaf2506f89400e42a2689d6ab323"
+    ],
+    [
+      "samtools/stats",
+      "a582d5633f7df32396681ef4458068e2b509ca91"
+    ],
+    [
+      "samtools/stats",
+      "5f344f0e41fdfaf2506f89400e42a2689d6ab323"
+    ],
+    [
+      "trimgalore",
+      "2a30bfb6a1b4667692d734e33e000a3bd1d74a0d"
+    ],
+    [
+      "ucsc/bedgraphtobigwig",
+      "b034b63f3160144d052de6f38350339a32f91489"
+    ]
+  ]
+}

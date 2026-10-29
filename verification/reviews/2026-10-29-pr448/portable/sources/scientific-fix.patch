@@ -1,0 +1,46 @@
+diff --git a/conf/modules.config b/conf/modules.config
+index ca0e5c4..3a1ea07 100644
+--- a/conf/modules.config
++++ b/conf/modules.config
+@@ -156,6 +156,7 @@ process {
+             ext.args   = {
+                 [
+                     '--fastqc',
++                    '--no_poly_g',
+                     params.trim_nextseq > 0 ? "--nextseq ${params.trim_nextseq}" : '',
+                     params.clip_r1 > 0 ? "--clip_r1 ${params.clip_r1}" : '',
+                     params.clip_r2 > 0 ? "--clip_r2 ${params.clip_r2}" : '',
+@@ -300,7 +301,7 @@ process {
+                     "--RGID ${meta.id}",
+                     "--RGSM ${meta.id - ~/_T\d+$/}",
+                     "--RGPL ILLUMINA",
+-                    "--RGLB ${meta.id}",
++                    "--RGLB ${meta.id - ~/_T\d+$/}",
+                     "--RGPU 1",
+                     params.seq_center ? "--RGCN '${params.seq_center}'" : ''
+                 ].join(' ').trim()
+diff --git a/modules/nf-core/trimgalore/environment.yml b/modules/nf-core/trimgalore/environment.yml
+index ac5b9fa..6f07df0 100644
+--- a/modules/nf-core/trimgalore/environment.yml
++++ b/modules/nf-core/trimgalore/environment.yml
+@@ -4,4 +4,4 @@ channels:
+   - conda-forge
+   - bioconda
+ dependencies:
+-  - bioconda::trim-galore=2.1.0
++  - bioconda::trim-galore=2.3.0
+diff --git a/modules/nf-core/trimgalore/main.nf b/modules/nf-core/trimgalore/main.nf
+index 2a08be9..af819db 100644
+--- a/modules/nf-core/trimgalore/main.nf
++++ b/modules/nf-core/trimgalore/main.nf
+@@ -5,8 +5,8 @@ process TRIMGALORE {
+ 
+     conda "${moduleDir}/environment.yml"
+     container "${workflow.containerEngine in ['singularity', 'apptainer'] && !task.ext.singularity_pull_docker_container ?
+-        'https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/7e/7e44249e3fafe3d136ea726225551b51bca642387e16d9687b3e602207dedb20/data' :
+-        'community.wave.seqera.io/library/trim-galore:2.1.0--27e6376b8f6c1872'}"
++        'https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/e0/e00369598bd6b7b34a7c83d5496c381104bf8b885c31a4b65b92e6ea2059fbb3/data' :
++        'community.wave.seqera.io/library/trim-galore:2.3.0--6a38a479b4972363'}"
+ 
+     input:
+     tuple val(meta), path(reads)

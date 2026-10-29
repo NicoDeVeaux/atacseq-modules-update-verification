@@ -1,0 +1,83 @@
+[
+  {
+    "reference": "community.wave.seqera.io/library/bowtie2_htslib_samtools_pigz:edeb13799090a2a6",
+    "Id": "sha256:26758d72855cd44c475c24360f2cdcc2120955e182c680427c5d099a06b1423e",
+    "RepoDigests": [
+      "community.wave.seqera.io/library/bowtie2_htslib_samtools_pigz@sha256:26758d72855cd44c475c24360f2cdcc2120955e182c680427c5d099a06b1423e"
+    ],
+    "Architecture": "amd64",
+    "Size": 212899353
+  },
+  {
+    "reference": "community.wave.seqera.io/library/bwa_htslib_samtools:83b50ff84ead50d0",
+    "Id": "sha256:48812e48a9462145c065d1b8e15d996c4a2c4c69469f1249fb601f25939cd48e",
+    "RepoDigests": [
+      "community.wave.seqera.io/library/bwa_htslib_samtools@sha256:48812e48a9462145c065d1b8e15d996c4a2c4c69469f1249fb601f25939cd48e"
+    ],
+    "Architecture": "amd64",
+    "Size": 93193742
+  },
+  {
+    "reference": "community.wave.seqera.io/library/chromap_samtools:b975c17adf0096ba",
+    "Id": "sha256:98e3031e59ec50f996e2fd7d8e0173bf4857a0c8f91db480fc7abd8a24ee9cff",
+    "RepoDigests": [
+      "community.wave.seqera.io/library/chromap_samtools@sha256:98e3031e59ec50f996e2fd7d8e0173bf4857a0c8f91db480fc7abd8a24ee9cff"
+    ],
+    "Architecture": "amd64",
+    "Size": 72305311
+  },
+  {
+    "reference": "community.wave.seqera.io/library/macs3:3.0.4--e0346d811b8b428e",
+    "Id": "sha256:905e06a7e79f43a5c25c7a77147bd7cda341e0dfee1ff988bb85453c5ba2f6f2",
+    "RepoDigests": [
+      "community.wave.seqera.io/library/macs3@sha256:905e06a7e79f43a5c25c7a77147bd7cda341e0dfee1ff988bb85453c5ba2f6f2"
+    ],
+    "Architecture": "amd64",
+    "Size": 242665702
+  },
+  {
+    "reference": "quay.io/biocontainers/bowtie2:2.4.4--py39hbb4e92a_0",
+    "Id": "sha256:8295d4e8d7e665e9309cb8311a6aac6d4cc721b30e7e13135c18cd4016baad36",
+    "RepoDigests": [
+      "quay.io/biocontainers/bowtie2@sha256:8295d4e8d7e665e9309cb8311a6aac6d4cc721b30e7e13135c18cd4016baad36"
+    ],
+    "Architecture": "amd64",
+    "Size": 109153201
+  },
+  {
+    "reference": "quay.io/biocontainers/macs3:3.0.1--py311h0152c62_3",
+    "Id": "sha256:38967cf3d3217209bcb8baa9f277c53910e1d48d1afd825008ea27848f83c8d7",
+    "RepoDigests": [
+      "quay.io/biocontainers/macs3@sha256:38967cf3d3217209bcb8baa9f277c53910e1d48d1afd825008ea27848f83c8d7"
+    ],
+    "Architecture": "amd64",
+    "Size": 142354181
+  },
+  {
+    "reference": "quay.io/biocontainers/mulled-v2-1f09f39f20b1c4ee36581dc81cc323c70e661633:5b2e433ab8b3d1ef098fc944b567fd98caa23f56-0",
+    "Id": "sha256:283b83ba4e113c11c09f4d28a66098de9f115031f7bdb3a18b02f2f50de2bfc6",
+    "RepoDigests": [
+      "quay.io/biocontainers/mulled-v2-1f09f39f20b1c4ee36581dc81cc323c70e661633@sha256:283b83ba4e113c11c09f4d28a66098de9f115031f7bdb3a18b02f2f50de2bfc6"
+    ],
+    "Architecture": "amd64",
+    "Size": 24360382
+  },
+  {
+    "reference": "quay.io/biocontainers/mulled-v2-ac74a7f02cebcfcc07d8e8d1d750af9c83b4d45a:f70b31a2db15c023d641c32f433fb02cd04df5a6-0",
+    "Id": "sha256:c2166205a475f1d633e8541d87ff07cccbfe88368dab2bc14dc94f68cfb4122b",
+    "RepoDigests": [
+      "quay.io/biocontainers/mulled-v2-ac74a7f02cebcfcc07d8e8d1d750af9c83b4d45a@sha256:c2166205a475f1d633e8541d87ff07cccbfe88368dab2bc14dc94f68cfb4122b"
+    ],
+    "Architecture": "amd64",
+    "Size": 126255941
+  },
+  {
+    "reference": "quay.io/biocontainers/mulled-v2-fe8faa35dbf6dc65a0f7f5d4ea12e31a79f73e40:a34558545ae1413d94bde4578787ebef08027945-0",
+    "Id": "sha256:4b112b5e5e309ced1aab818bf9a2f9eaaaf6c4a0931aad23564c3de60dac7465",
+    "RepoDigests": [
+      "quay.io/biocontainers/mulled-v2-fe8faa35dbf6dc65a0f7f5d4ea12e31a79f73e40@sha256:4b112b5e5e309ced1aab818bf9a2f9eaaaf6c4a0931aad23564c3de60dac7465"
+    ],
+    "Architecture": "amd64",
+    "Size": 45203723
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "mate": 1,
+    "pairs": 5000,
+    "selected_from": "fixed actual TrimGalore output, first5000paired records",
+    "sha256": "6a20f3b22a774357fb7261777b31f075192d82c74c3237057502dbdea0e7365f",
+    "bytes": 243453
+  },
+  {
+    "mate": 2,
+    "pairs": 5000,
+    "selected_from": "fixed actual TrimGalore output, first5000paired records",
+    "sha256": "1e2ce220f379af2596675c24a81d3207d832b31e15661aa707bc18a1a5f1891c",
+    "bytes": 211179
+  }
+]

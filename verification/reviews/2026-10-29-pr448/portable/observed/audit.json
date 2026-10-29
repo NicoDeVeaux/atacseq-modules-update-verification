@@ -1,0 +1,60 @@
+{
+  "scope": "Completed historical AWS Batch/Fusion campaign; metadata only, separate from new reproduction executions",
+  "state": "FINAL",
+  "full_comparison_complete": true,
+  "source_verified": true,
+  "artifacts_recorded": 324,
+  "input_pairs_every_arm": 87089251,
+  "sources": {
+    "unfixed": "73155d2b59d37f521e3f00228d559031d2e7847f",
+    "fixed": "a9b588235e4a1ceb3c8838acad430628c5737c86"
+  },
+  "runs": [
+    {
+      "aligner": "bwa",
+      "arm": "unfixed",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "workflow_id": "miH78tIWtzQMy",
+      "status": "SUCCEEDED",
+      "collection_complete": true,
+      "verified_artifacts": 81,
+      "raw_input_pairs": 87089251,
+      "initial_workflow_id": null
+    },
+    {
+      "aligner": "bwa",
+      "arm": "fixed",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "workflow_id": "BVYqNpYNcUhEN",
+      "status": "SUCCEEDED",
+      "collection_complete": true,
+      "verified_artifacts": 81,
+      "raw_input_pairs": 87089251,
+      "initial_workflow_id": null
+    },
+    {
+      "aligner": "chromap",
+      "arm": "unfixed",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "workflow_id": "6n2TeKZ3HxTua",
+      "status": "SUCCEEDED",
+      "collection_complete": true,
+      "verified_artifacts": 81,
+      "raw_input_pairs": 87089251,
+      "initial_workflow_id": "48WxHkBBQLwjxZ"
+    },
+    {
+      "aligner": "chromap",
+      "arm": "fixed",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "workflow_id": "2DOXAsX9V2FbkY",
+      "status": "SUCCEEDED",
+      "collection_complete": true,
+      "verified_artifacts": 81,
+      "raw_input_pairs": 87089251,
+      "initial_workflow_id": "52m3J1jROxpico"
+    }
+  ],
+  "limit": "Original private launch/storage audit cannot be repeated from sanitized public-only metadata; count agreement is not historical FASTQ byte-identity proof.",
+  "nextflow_version": "26.04.6"
+}

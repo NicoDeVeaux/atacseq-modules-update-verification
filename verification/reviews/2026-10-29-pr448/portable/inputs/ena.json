@@ -1,0 +1,79 @@
+{
+  "fetched_at": "2026-10-28T20:26:40.949010+00:00",
+  "total_pairs": 87089251,
+  "files": [
+    {
+      "accession": "SRR8508547",
+      "library": "HIV_CD86HI_48H_REP1",
+      "mate": 1,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/007/SRR8508547/SRR8508547_1.fastq.gz",
+      "md5": "3d531951625ff016c68f248695d8a72b",
+      "bytes": 852578892,
+      "pairs_per_library": 21260206
+    },
+    {
+      "accession": "SRR8508547",
+      "library": "HIV_CD86HI_48H_REP1",
+      "mate": 2,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/007/SRR8508547/SRR8508547_2.fastq.gz",
+      "md5": "557ada880c6482de43c2a9332df90fc4",
+      "bytes": 887627926,
+      "pairs_per_library": 21260206
+    },
+    {
+      "accession": "SRR8508548",
+      "library": "HIV_CD86HI_48H_REP2",
+      "mate": 1,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/008/SRR8508548/SRR8508548_1.fastq.gz",
+      "md5": "3f6bca5dfdcc62e32dfac193d4157bf2",
+      "bytes": 832893255,
+      "pairs_per_library": 20649365
+    },
+    {
+      "accession": "SRR8508548",
+      "library": "HIV_CD86HI_48H_REP2",
+      "mate": 2,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/008/SRR8508548/SRR8508548_2.fastq.gz",
+      "md5": "a452d5e612269dfff691474c4eea4edc",
+      "bytes": 884242636,
+      "pairs_per_library": 20649365
+    },
+    {
+      "accession": "SRR8508553",
+      "library": "MOCK_48H_REP1",
+      "mate": 1,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/003/SRR8508553/SRR8508553_1.fastq.gz",
+      "md5": "50e66fc3e3ea6ed9dae811966bf69a5e",
+      "bytes": 861485129,
+      "pairs_per_library": 21344854
+    },
+    {
+      "accession": "SRR8508553",
+      "library": "MOCK_48H_REP1",
+      "mate": 2,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/003/SRR8508553/SRR8508553_2.fastq.gz",
+      "md5": "62ad816e6b57eb01d48c702a33354dec",
+      "bytes": 894977169,
+      "pairs_per_library": 21344854
+    },
+    {
+      "accession": "SRR8508554",
+      "library": "MOCK_48H_REP2",
+      "mate": 1,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/004/SRR8508554/SRR8508554_1.fastq.gz",
+      "md5": "5e5c29bffc2b1b20ded301c16851cf18",
+      "bytes": 957024776,
+      "pairs_per_library": 23834826
+    },
+    {
+      "accession": "SRR8508554",
+      "library": "MOCK_48H_REP2",
+      "mate": 2,
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/004/SRR8508554/SRR8508554_2.fastq.gz",
+      "md5": "a15c9fe639a7d5539159a4f4dceeb8a7",
+      "bytes": 1027396123,
+      "pairs_per_library": 23834826
+    }
+  ],
+  "limit": "Archived per-mate counts agree with ENA; historical stored FASTQ byte identity was not independently verified."
+}

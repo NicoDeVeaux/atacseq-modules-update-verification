@@ -1,0 +1,71 @@
+{
+  "tests_executed": 9,
+  "functional_assertions_passed": true,
+  "expected_snapshot_mismatches": 8,
+  "review": [
+    {
+      "test": "sarscov2-gff3-gtf",
+      "file": "test.gtf",
+      "old_md5": "1ea0ae98d3388e0576407dc4a24ef428",
+      "actual_md5": "1ea0ae98d3388e0576407dc4a24ef428",
+      "all_generated_copies_agree": true,
+      "difference": "None"
+    },
+    {
+      "test": "sarscov2-gff3-gtf-stub",
+      "file": "test.gtf",
+      "old_md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "actual_md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "all_generated_copies_agree": true,
+      "difference": "None"
+    },
+    {
+      "test": "sarscov2-gff3-gff3",
+      "file": "test.gff3",
+      "old_md5": "c4e5da6267c6bee5899a2c204ae1ad91",
+      "actual_md5": "f964eb24e3beef677faf9bf209d28dd0",
+      "all_generated_copies_agree": true,
+      "difference": "Only version and command-path comment lines; restoring those reproduces original snapshot MD5 exactly"
+    },
+    {
+      "test": "sarscov2-gff3-gff3-stub",
+      "file": "test.gff3",
+      "old_md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "actual_md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "all_generated_copies_agree": true,
+      "difference": "None"
+    },
+    {
+      "test": "sarscov2-gff3-fasta",
+      "file": "test.fasta",
+      "old_md5": "5f8108fb51739a0588ccf0a251de919a",
+      "actual_md5": "5f8108fb51739a0588ccf0a251de919a",
+      "all_generated_copies_agree": true,
+      "difference": "None"
+    },
+    {
+      "test": "sarscov2-gff3-fasta-stub",
+      "file": "test.fasta",
+      "old_md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "actual_md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "all_generated_copies_agree": true,
+      "difference": "None"
+    },
+    {
+      "test": "sarscov2-gff3-bed",
+      "file": "test.bed",
+      "old_md5": "96fd7117a706e7c2ccbe062beb635172",
+      "actual_md5": "96fd7117a706e7c2ccbe062beb635172",
+      "all_generated_copies_agree": true,
+      "difference": "None"
+    },
+    {
+      "test": "sarscov2-gff3-bed-stub",
+      "file": "test.bed",
+      "old_md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "actual_md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "all_generated_copies_agree": true,
+      "difference": "None"
+    }
+  ]
+}

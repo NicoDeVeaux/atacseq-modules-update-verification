@@ -1,0 +1,11 @@
+The one-count difference is traced to a mapper-stage extra alignment followed by duplicate marking and orphan removal. It is not caused by a difference in the two affected pairs’ trimming outputs.
+
+- Base-only cleaned pair: `SRR19479021.220045`, both mates `chrIV:42598`, `58M`, MAPQ60. Base marked flags are99/147; fixed marked flags1123/1171 add0x400. Its alignment fields, sequence and qualities agree between runs (apart from expected RG metadata and duplicate flags).
+- Fixed raw Chromap additionally emits `SRR19479021.241454` at the same endpoints. One mate has `58M`, NM1; the other `63M4I9M10D13M1I9M`, NM36. Base raw Chromap emits neither mate of this QNAME. The two actual Chromap commands have the same alignment options.
+- All selected raw and trimmed FASTQ records for **both QNAMEs and both mates** are exactly equal, including headers, sequences and quality strings. Thus this specific extra alignment first appears at the mapper stage, rather than through different trimmed reads.
+- In the fixed marked BAM, the extra pair is retained as nonduplicate and the original pair is marked duplicate. The identical BAM filter removes0x400 records and applies `NM<=4`; the extra pair’s NM36 mate disappears, leaving one mate in `.flT.sorted.bam`. `bampe_rm_orphan.py --only_fr_pairs` then removes that orphan; neither QNAME remains in fixed cleaned BAM. Base retains the original pair.
+- The region contains152 base versus150 fixed cleaned alignment records, with exactly this one pair as the QNAME difference. This accounts for the parent-observed77→76 fragment count.
+
+This trace does **not** establish that either mapper behavior is biologically correct, attribute the change to a particular upstream fix, or isolate a Picard-version effect. No isolated mapper/duplicate-marker replay was performed. Evidence comes from existing completed run outputs; no full workflow was launched and canonical files were not modified.
+
+`trace.json` records the stage summary; `selected-fastq.json` contains exact selected FASTQ records; `*.qnames.sam` and `*.region.sam` contain extracted BAM evidence. Actual trimming, mapping, duplicate-marking and filtering commands plus the identical bamtools filter JSON are saved alongside them. All BAM reads used the cached samtools1.23.1 container with canonical inputs mounted read-only.

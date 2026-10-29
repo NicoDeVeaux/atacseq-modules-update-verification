@@ -1,0 +1,231 @@
+{
+  "all_saved_files_private": true,
+  "excluded_directories": [],
+  "files": {
+    "REPORT.md": {
+      "bytes": 5214,
+      "destination_mode": "0o600",
+      "sha256": "0cad946c467cbfe6cc6286c33247547d51c6ce1537d9dd9c748ffb061a01bb1f",
+      "source_mode": "0o644"
+    },
+    "base/bin/check_samplesheet.py": {
+      "bytes": 11314,
+      "destination_mode": "0o600",
+      "sha256": "2832a945024a0a51f518cb3a5db85d09684eb1c0c5aed7c2764e5d1560223d72",
+      "source_mode": "0o644"
+    },
+    "base/conf/modules.config": {
+      "bytes": 39819,
+      "destination_mode": "0o600",
+      "sha256": "f713696e799c5087f57d699305b02550c3305c3e97fc6a888961515fc571c1b1",
+      "source_mode": "0o644"
+    },
+    "base/modules/local/star_align.nf": {
+      "bytes": 2481,
+      "destination_mode": "0o600",
+      "sha256": "6221a9c8aa69d31c453e240eb39e9c62e1f3c54a18fc3713103340f70a853e7f",
+      "source_mode": "0o644"
+    },
+    "base/modules/nf-core/bowtie2/align/main.nf": {
+      "bytes": 4683,
+      "destination_mode": "0o600",
+      "sha256": "912c762e648896dff4c989cec7a07c66424e6d6862cc11284250466856607373",
+      "source_mode": "0o644"
+    },
+    "base/modules/nf-core/bwa/mem/main.nf": {
+      "bytes": 3015,
+      "destination_mode": "0o600",
+      "sha256": "df55fa6c56d4ff3f38cf404907dbfce21e47b25a95fda59a83b14eefb70148c1",
+      "source_mode": "0o644"
+    },
+    "base/nextflow.config": {
+      "bytes": 13283,
+      "destination_mode": "0o600",
+      "sha256": "06dbbd447576cbcd0079c29b527571eeef07823142c7f0303fe112b9a5bf35b2",
+      "source_mode": "0o644"
+    },
+    "base/subworkflows/local/input_check.nf": {
+      "bytes": 1833,
+      "destination_mode": "0o600",
+      "sha256": "ee2a8bd339a73a0b07167052f38ce7e4872dd38e89bfe6178740271045f56489",
+      "source_mode": "0o644"
+    },
+    "base/subworkflows/nf-core/fastq_align_bowtie2/main.nf": {
+      "bytes": 1875,
+      "destination_mode": "0o600",
+      "sha256": "a37a5a5d719ab2c6a44da12a9541829f6971ee274afb57da709fd83c485be6fc",
+      "source_mode": "0o644"
+    },
+    "base/subworkflows/nf-core/fastq_align_bwa/main.nf": {
+      "bytes": 1667,
+      "destination_mode": "0o600",
+      "sha256": "d89c4b0acc9dd3b5d709f9d422e41aa95678c7000cd87f87e08daf12f13d621b",
+      "source_mode": "0o644"
+    },
+    "base/subworkflows/nf-core/fastq_align_chromap/main.nf": {
+      "bytes": 1841,
+      "destination_mode": "0o600",
+      "sha256": "c19145d0709e6a98ff1bdd9580f590a9ea513c028ac1a899ed395ac45878fae7",
+      "source_mode": "0o644"
+    },
+    "base/workflows/atacseq.nf": {
+      "bytes": 37898,
+      "destination_mode": "0o600",
+      "sha256": "8588bafccd426b677ec3498eafc8e72ad447527321a9ac67ad623316fe9352ab",
+      "source_mode": "0o644"
+    },
+    "current/bin/check_samplesheet.py": {
+      "bytes": 11314,
+      "destination_mode": "0o600",
+      "sha256": "2832a945024a0a51f518cb3a5db85d09684eb1c0c5aed7c2764e5d1560223d72",
+      "source_mode": "0o644"
+    },
+    "current/conf/modules.config": {
+      "bytes": 40628,
+      "destination_mode": "0o600",
+      "sha256": "81b15aee7dab0fae26fc028c04f32b73ef3cc2b6ec38c63fdaaf56383a22273e",
+      "source_mode": "0o644"
+    },
+    "current/modules/local/star_align.nf": {
+      "bytes": 2394,
+      "destination_mode": "0o600",
+      "sha256": "7060fcd6e578e8a20a18ce61d7d2e2200a6641f3971c7a006f6fe9162b76a989",
+      "source_mode": "0o644"
+    },
+    "current/modules/nf-core/bowtie2/align/main.nf": {
+      "bytes": 4418,
+      "destination_mode": "0o600",
+      "sha256": "780c7cf832e810c2d3241d62a43fb820c42dfcb8bb35344579fbb0f30626a266",
+      "source_mode": "0o644"
+    },
+    "current/modules/nf-core/bwa/mem/main.nf": {
+      "bytes": 2905,
+      "destination_mode": "0o600",
+      "sha256": "c3e0a79f96d165f04f9d7cbde36fcf0468dc8dcb2d10408580d45eef088c1f74",
+      "source_mode": "0o644"
+    },
+    "current/nextflow.config": {
+      "bytes": 13354,
+      "destination_mode": "0o600",
+      "sha256": "e47935daa6dba8eb3fd284bcabe44099d3755fc104b26f525a03ce5a45ed8e55",
+      "source_mode": "0o644"
+    },
+    "current/subworkflows/local/input_check.nf": {
+      "bytes": 1734,
+      "destination_mode": "0o600",
+      "sha256": "f80791dbb0375e415c4abdac57e4c327f60e53aa9b5cbdd9359b0793898dcdcb",
+      "source_mode": "0o644"
+    },
+    "current/subworkflows/nf-core/fastq_align_bowtie2/main.nf": {
+      "bytes": 1519,
+      "destination_mode": "0o600",
+      "sha256": "4b3099f3ca8a6881d18df0586b10e886cf08056c098541ba3a2e6f3562e8a8e7",
+      "source_mode": "0o644"
+    },
+    "current/subworkflows/nf-core/fastq_align_bwa/main.nf": {
+      "bytes": 1348,
+      "destination_mode": "0o600",
+      "sha256": "b226397db5813fe6716a604427cb1eda2c27e340717eefaa37bfd101d000240c",
+      "source_mode": "0o644"
+    },
+    "current/subworkflows/nf-core/fastq_align_chromap/main.nf": {
+      "bytes": 2200,
+      "destination_mode": "0o600",
+      "sha256": "f5e215f390829836fa21b35bc08075058d452d3b7f709ed364a35ff4a1690273",
+      "source_mode": "0o644"
+    },
+    "current/workflows/atacseq.nf": {
+      "bytes": 33365,
+      "destination_mode": "0o600",
+      "sha256": "f4885c36d4b28d11933ea72ec8445450e73061245aba4a32978eb830b1d7caee",
+      "source_mode": "0o644"
+    },
+    "merge/bin/check_samplesheet.py": {
+      "bytes": 11314,
+      "destination_mode": "0o600",
+      "sha256": "2832a945024a0a51f518cb3a5db85d09684eb1c0c5aed7c2764e5d1560223d72",
+      "source_mode": "0o644"
+    },
+    "merge/conf/modules.config": {
+      "bytes": 40628,
+      "destination_mode": "0o600",
+      "sha256": "81b15aee7dab0fae26fc028c04f32b73ef3cc2b6ec38c63fdaaf56383a22273e",
+      "source_mode": "0o644"
+    },
+    "merge/modules/local/star_align.nf": {
+      "bytes": 2394,
+      "destination_mode": "0o600",
+      "sha256": "7060fcd6e578e8a20a18ce61d7d2e2200a6641f3971c7a006f6fe9162b76a989",
+      "source_mode": "0o644"
+    },
+    "merge/modules/nf-core/bowtie2/align/main.nf": {
+      "bytes": 4418,
+      "destination_mode": "0o600",
+      "sha256": "780c7cf832e810c2d3241d62a43fb820c42dfcb8bb35344579fbb0f30626a266",
+      "source_mode": "0o644"
+    },
+    "merge/modules/nf-core/bwa/mem/main.nf": {
+      "bytes": 2905,
+      "destination_mode": "0o600",
+      "sha256": "c3e0a79f96d165f04f9d7cbde36fcf0468dc8dcb2d10408580d45eef088c1f74",
+      "source_mode": "0o644"
+    },
+    "merge/nextflow.config": {
+      "bytes": 13283,
+      "destination_mode": "0o600",
+      "sha256": "06dbbd447576cbcd0079c29b527571eeef07823142c7f0303fe112b9a5bf35b2",
+      "source_mode": "0o644"
+    },
+    "merge/subworkflows/local/input_check.nf": {
+      "bytes": 1734,
+      "destination_mode": "0o600",
+      "sha256": "f80791dbb0375e415c4abdac57e4c327f60e53aa9b5cbdd9359b0793898dcdcb",
+      "source_mode": "0o644"
+    },
+    "merge/subworkflows/nf-core/fastq_align_bowtie2/main.nf": {
+      "bytes": 1519,
+      "destination_mode": "0o600",
+      "sha256": "4b3099f3ca8a6881d18df0586b10e886cf08056c098541ba3a2e6f3562e8a8e7",
+      "source_mode": "0o644"
+    },
+    "merge/subworkflows/nf-core/fastq_align_bwa/main.nf": {
+      "bytes": 1348,
+      "destination_mode": "0o600",
+      "sha256": "b226397db5813fe6716a604427cb1eda2c27e340717eefaa37bfd101d000240c",
+      "source_mode": "0o644"
+    },
+    "merge/subworkflows/nf-core/fastq_align_chromap/main.nf": {
+      "bytes": 2200,
+      "destination_mode": "0o600",
+      "sha256": "f5e215f390829836fa21b35bc08075058d452d3b7f709ed364a35ff4a1690273",
+      "source_mode": "0o644"
+    },
+    "merge/workflows/atacseq.nf": {
+      "bytes": 33365,
+      "destination_mode": "0o600",
+      "sha256": "f4885c36d4b28d11933ea72ec8445450e73061245aba4a32978eb830b1d7caee",
+      "source_mode": "0o644"
+    },
+    "pins.json": {
+      "bytes": 9776,
+      "destination_mode": "0o600",
+      "sha256": "05e65b5e9fd8f832170d9d847e7d0df40d4d2be9414766fc9c8e6bd90f60e366",
+      "source_mode": "0o644"
+    },
+    "verification.json": {
+      "bytes": 177,
+      "destination_mode": "0o600",
+      "sha256": "0a5dd45430adc677ac5e6118bfbda7671b8b09b5b9baf96a1941b98eeaa4d05b",
+      "source_mode": "0o644"
+    }
+  },
+  "lane": "read-group-scope",
+  "public_candidates_only_from_existing_allowlist": {
+    "all_other_files_private": true,
+    "files": [],
+    "present": false
+  },
+  "publication_authorized": false,
+  "schema": "nf-verify/private-saved-audit/v1",
+  "scope": "Completed local evidence only; no new scientific execution, source-fork changes or publication"
+}

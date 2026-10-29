@@ -1,0 +1,42 @@
+{
+  "scope": "Offline package/content checks only; no scientific reruns or cloud/model calls",
+  "scan_counts": {
+    "changed_files": 267,
+    "components": 70,
+    "changed_declared_dependencies": 16,
+    "module_histories": 36,
+    "subworkflow_histories": 7,
+    "union_later_commits": 22
+  },
+  "original_scan_evidence_hashes_verified": 30,
+  "gffread_suite": {
+    "tests": 9,
+    "failures": 0,
+    "skips": 0,
+    "strict_ci": true,
+    "nf_test": "0.9.5",
+    "nextflow": "26.04.6",
+    "helper": "nft-utils@0.0.9",
+    "pipeline_helper_remains": "nft-utils@0.0.3",
+    "source_fork_commit": "1d840c087bd72f227bad1bdf89deccc48a1f0206",
+    "tested_module_main_equals_source_fork": true,
+    "raw_snapshot_sha256": "a897dc0caf601a32b270222e5d2267fafadf6d717732abd1a95b3e12e6803604",
+    "source_fork_snapshot_sha256": "b95f843813e96044f37fac122305c23f4aa96d70a8aa410345e7c7894aff8e3c",
+    "raw_vs_normalized_snapshot_json_identical": true,
+    "format_only_snapshot_normalization": true
+  },
+  "annotation_allowed_files": 6,
+  "annotation_allowlist_original_sha256": "95140f0f1e04b04d7cb49e20ddda8dd7245e9f3f16b71fabd2f722599ed63ae9",
+  "privacy": {
+    "all_selected_public_bytes_scanned": true,
+    "personal_paths_and_terminal_styles_normalized": true,
+    "no_credential_or_S3_bucket_URL_patterns": true,
+    "no_private_CoScientist_material_selected": true
+  },
+  "limits": [
+    "Static scan results remain their dated frozen observations; the scan AUDIT.md contains then-current in-flight cohort status.",
+    "Only six explicitly allowlisted annotation files are included; historical GFF failure witnesses are excluded.",
+    "Original hashes refer to captured source bytes, not normalized public bytes.",
+    "No binary tool archives, tool caches, raw failed-stage caches or private CoScientist results are included."
+  ]
+}

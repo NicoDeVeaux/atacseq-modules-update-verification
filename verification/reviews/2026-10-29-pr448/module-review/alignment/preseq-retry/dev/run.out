@@ -1,0 +1,40 @@
+N E X T F L O W  ~  version 26.04.6
+Launching `main.nf` [awesome_rubens] - revision: aab3d7658a
+WARN: Unrecognized config option 'nextflow.enable.telemetry'
+WARN: Task runtime metrics are not reported when using macOS without a container engine
+[fc/e4ea6a] Submitted process > PRESEQ_LCEXTRAP (library)
+[fc/e4ea6a] NOTE: Process `PRESEQ_LCEXTRAP (library)` terminated with an error exit status (42) -- Execution is retried (1)
+[f8/5bd6be] Re-submitted process > PRESEQ_LCEXTRAP (library)
+[f8/5bd6be] NOTE: Process `PRESEQ_LCEXTRAP (library)` terminated with an error exit status (43) -- Execution is retried (2)
+[d3/273a79] Re-submitted process > PRESEQ_LCEXTRAP (library)
+ERROR ~ Error executing process > 'PRESEQ_LCEXTRAP (library)'
+
+Caused by:
+  Process `PRESEQ_LCEXTRAP (library)` terminated with an error exit status (43)
+
+
+Command executed:
+
+  preseq \
+      lc_extrap \
+       \
+      -pe \
+      -output library.lc_extrap.txt \
+      input.bam
+  cp .command.err library.command.log
+
+Command exit status:
+  43
+
+Command output:
+  (empty)
+
+Command error:
+  fixture: required original options lost
+
+Work dir:
+  LOCAL_TMP/preseq-retry/dev/work/d3/273a79015674b5b8e9662ef8a57d50
+
+Tip: when you have fixed the problem you can continue the execution adding the option `-resume` to the run command line
+
+ -- Check '.nextflow.log' file for details

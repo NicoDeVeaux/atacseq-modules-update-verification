@@ -1,0 +1,228 @@
+{
+  "schema": "nf-verify/ena-hiv-input-provenance/v1",
+  "fetched_at_utc": "2026-10-28T20:26:40.949010+00:00",
+  "downloaded_fastqs": false,
+  "runs": [
+    {
+      "accession": "SRR8508547",
+      "source_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR8508547&result=read_run&fields=run_accession%2Cscientific_name%2Ctax_id%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_md5%2Cfastq_bytes&format=json&download=false",
+      "fetched_at_utc": "2026-10-28T20:26:40.948838+00:00",
+      "response_sha256": "14eca5fa7e87c353a310964dd58ac726a313f08521d8115915bb457703a7a387",
+      "metadata": {
+        "run_accession": "SRR8508547",
+        "scientific_name": "Homo sapiens",
+        "tax_id": "9606",
+        "library_strategy": "ATAC-seq",
+        "library_source": "GENOMIC",
+        "library_selection": "other",
+        "library_layout": "PAIRED",
+        "read_count": "21260206",
+        "base_count": "3231551312",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/007/SRR8508547/SRR8508547_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/007/SRR8508547/SRR8508547_2.fastq.gz",
+        "fastq_md5": "3d531951625ff016c68f248695d8a72b;557ada880c6482de43c2a9332df90fc4",
+        "fastq_bytes": "852578892;887627926"
+      },
+      "fastq_files": [
+        {
+          "ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/007/SRR8508547/SRR8508547_1.fastq.gz",
+          "https_url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/007/SRR8508547/SRR8508547_1.fastq.gz",
+          "md5": "3d531951625ff016c68f248695d8a72b",
+          "bytes": 852578892
+        },
+        {
+          "ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/007/SRR8508547/SRR8508547_2.fastq.gz",
+          "https_url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/007/SRR8508547/SRR8508547_2.fastq.gz",
+          "md5": "557ada880c6482de43c2a9332df90fc4",
+          "bytes": 887627926
+        }
+      ],
+      "fastq_bytes_total": 1740206818,
+      "saved_raw_fastqc_sample_names": [
+        "HIV_CD86HI_48H_REP1_T1_1",
+        "HIV_CD86HI_48H_REP1_T1_2"
+      ],
+      "saved_raw_fastqc_sequences_per_mate": 21260206
+    },
+    {
+      "accession": "SRR8508548",
+      "source_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR8508548&result=read_run&fields=run_accession%2Cscientific_name%2Ctax_id%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_md5%2Cfastq_bytes&format=json&download=false",
+      "fetched_at_utc": "2026-10-28T20:26:40.942444+00:00",
+      "response_sha256": "c050e2f050d2a12c738c018f763d87d4c2be6663854811c37af3624487e1e39e",
+      "metadata": {
+        "run_accession": "SRR8508548",
+        "scientific_name": "Homo sapiens",
+        "tax_id": "9606",
+        "library_strategy": "ATAC-seq",
+        "library_source": "GENOMIC",
+        "library_selection": "other",
+        "library_layout": "PAIRED",
+        "read_count": "20649365",
+        "base_count": "3138703480",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/008/SRR8508548/SRR8508548_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/008/SRR8508548/SRR8508548_2.fastq.gz",
+        "fastq_md5": "3f6bca5dfdcc62e32dfac193d4157bf2;a452d5e612269dfff691474c4eea4edc",
+        "fastq_bytes": "832893255;884242636"
+      },
+      "fastq_files": [
+        {
+          "ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/008/SRR8508548/SRR8508548_1.fastq.gz",
+          "https_url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/008/SRR8508548/SRR8508548_1.fastq.gz",
+          "md5": "3f6bca5dfdcc62e32dfac193d4157bf2",
+          "bytes": 832893255
+        },
+        {
+          "ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/008/SRR8508548/SRR8508548_2.fastq.gz",
+          "https_url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/008/SRR8508548/SRR8508548_2.fastq.gz",
+          "md5": "a452d5e612269dfff691474c4eea4edc",
+          "bytes": 884242636
+        }
+      ],
+      "fastq_bytes_total": 1717135891,
+      "saved_raw_fastqc_sample_names": [
+        "HIV_CD86HI_48H_REP2_T1_1",
+        "HIV_CD86HI_48H_REP2_T1_2"
+      ],
+      "saved_raw_fastqc_sequences_per_mate": 20649365
+    },
+    {
+      "accession": "SRR8508553",
+      "source_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR8508553&result=read_run&fields=run_accession%2Cscientific_name%2Ctax_id%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_md5%2Cfastq_bytes&format=json&download=false",
+      "fetched_at_utc": "2026-10-28T20:26:40.943096+00:00",
+      "response_sha256": "612c7fa8debb05126f6d70440e809b87abbd5a4ce19cbc89dbc5ed11e80bb9f2",
+      "metadata": {
+        "run_accession": "SRR8508553",
+        "scientific_name": "Homo sapiens",
+        "tax_id": "9606",
+        "library_strategy": "ATAC-seq",
+        "library_source": "GENOMIC",
+        "library_selection": "other",
+        "library_layout": "PAIRED",
+        "read_count": "21344854",
+        "base_count": "3244417808",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/003/SRR8508553/SRR8508553_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/003/SRR8508553/SRR8508553_2.fastq.gz",
+        "fastq_md5": "50e66fc3e3ea6ed9dae811966bf69a5e;62ad816e6b57eb01d48c702a33354dec",
+        "fastq_bytes": "861485129;894977169"
+      },
+      "fastq_files": [
+        {
+          "ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/003/SRR8508553/SRR8508553_1.fastq.gz",
+          "https_url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/003/SRR8508553/SRR8508553_1.fastq.gz",
+          "md5": "50e66fc3e3ea6ed9dae811966bf69a5e",
+          "bytes": 861485129
+        },
+        {
+          "ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/003/SRR8508553/SRR8508553_2.fastq.gz",
+          "https_url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/003/SRR8508553/SRR8508553_2.fastq.gz",
+          "md5": "62ad816e6b57eb01d48c702a33354dec",
+          "bytes": 894977169
+        }
+      ],
+      "fastq_bytes_total": 1756462298,
+      "saved_raw_fastqc_sample_names": [
+        "MOCK_48H_REP1_T1_1",
+        "MOCK_48H_REP1_T1_2"
+      ],
+      "saved_raw_fastqc_sequences_per_mate": 21344854
+    },
+    {
+      "accession": "SRR8508554",
+      "source_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR8508554&result=read_run&fields=run_accession%2Cscientific_name%2Ctax_id%2Clibrary_strategy%2Clibrary_source%2Clibrary_selection%2Clibrary_layout%2Cread_count%2Cbase_count%2Cfastq_ftp%2Cfastq_md5%2Cfastq_bytes&format=json&download=false",
+      "fetched_at_utc": "2026-10-28T20:26:40.946840+00:00",
+      "response_sha256": "376cddae6b5cf571593d3e11e30c3fa86c659bcc8eefbc44a55935a6949a01b5",
+      "metadata": {
+        "run_accession": "SRR8508554",
+        "scientific_name": "Homo sapiens",
+        "tax_id": "9606",
+        "library_strategy": "ATAC-seq",
+        "library_source": "GENOMIC",
+        "library_selection": "other",
+        "library_layout": "PAIRED",
+        "read_count": "23834826",
+        "base_count": "3622893552",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/004/SRR8508554/SRR8508554_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/004/SRR8508554/SRR8508554_2.fastq.gz",
+        "fastq_md5": "5e5c29bffc2b1b20ded301c16851cf18;a15c9fe639a7d5539159a4f4dceeb8a7",
+        "fastq_bytes": "957024776;1027396123"
+      },
+      "fastq_files": [
+        {
+          "ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/004/SRR8508554/SRR8508554_1.fastq.gz",
+          "https_url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/004/SRR8508554/SRR8508554_1.fastq.gz",
+          "md5": "5e5c29bffc2b1b20ded301c16851cf18",
+          "bytes": 957024776
+        },
+        {
+          "ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/004/SRR8508554/SRR8508554_2.fastq.gz",
+          "https_url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/004/SRR8508554/SRR8508554_2.fastq.gz",
+          "md5": "a15c9fe639a7d5539159a4f4dceeb8a7",
+          "bytes": 1027396123
+        }
+      ],
+      "fastq_bytes_total": 1984420899,
+      "saved_raw_fastqc_sample_names": [
+        "MOCK_48H_REP2_T1_1",
+        "MOCK_48H_REP2_T1_2"
+      ],
+      "saved_raw_fastqc_sequences_per_mate": 23834826
+    }
+  ],
+  "total_compressed_fastq_bytes": 7198225906,
+  "original_multiqc_reports": {
+    "branch": {
+      "path": "@LOCAL_HOME@/Dev/tasks-worktrees/atacseq-modules-update-verification-evidence/verification/hiv-mddc/branch/multiqc_report.html",
+      "html_sha256": "e4a4a0d2d75a18c14af2fe8b7975acccbdb308255e83e1b65ad83bea351258a9",
+      "plot_id": "fastqc_sequence_counts_plot-1",
+      "method": "Decode existing LZString Base64 plot JSON as data; sum Unique Reads plus Duplicate Reads for each raw FastQC sample.",
+      "raw_fastqc_sequences_per_mate": {
+        "HIV_CD86HI_48H_REP1_T1_1": 21260206,
+        "HIV_CD86HI_48H_REP1_T1_2": 21260206,
+        "HIV_CD86HI_48H_REP2_T1_1": 20649365,
+        "HIV_CD86HI_48H_REP2_T1_2": 20649365,
+        "MOCK_48H_REP1_T1_1": 21344854,
+        "MOCK_48H_REP1_T1_2": 21344854,
+        "MOCK_48H_REP2_T1_1": 23834826,
+        "MOCK_48H_REP2_T1_2": 23834826
+      },
+      "independent_sequence_quality_histogram_counts_match": true
+    },
+    "dev": {
+      "path": "@LOCAL_HOME@/Dev/tasks-worktrees/atacseq-modules-update-verification-evidence/verification/hiv-mddc/dev/multiqc_report.html",
+      "html_sha256": "bbccc079e7c26ff972ebae0206b03667716809e5ac623e52eba7e1dcb27d0e3d",
+      "plot_id": "fastqc_sequence_counts_plot-1",
+      "method": "Decode existing LZString Base64 plot JSON as data; sum Unique Reads plus Duplicate Reads for each raw FastQC sample.",
+      "raw_fastqc_sequences_per_mate": {
+        "HIV_CD86HI_48H_REP1_T1_1": 21260206,
+        "HIV_CD86HI_48H_REP1_T1_2": 21260206,
+        "HIV_CD86HI_48H_REP2_T1_1": 20649365,
+        "HIV_CD86HI_48H_REP2_T1_2": 20649365,
+        "MOCK_48H_REP1_T1_1": 21344854,
+        "MOCK_48H_REP1_T1_2": 21344854,
+        "MOCK_48H_REP2_T1_1": 23834826,
+        "MOCK_48H_REP2_T1_2": 23834826
+      },
+      "independent_sequence_quality_histogram_counts_match": true
+    },
+    "pr448": {
+      "path": "@LOCAL_HOME@/Dev/tasks-worktrees/atacseq-modules-update-verification-evidence/verification/hiv-mddc/pr448/multiqc_report.html",
+      "html_sha256": "7181b5e6d37d5fba9f408b75ab79939a4458cf65586db50f881db7b6dfff7ef6",
+      "plot_id": "fastqc_sequence_counts_plot-1",
+      "method": "Decode existing LZString Base64 plot JSON as data; sum Unique Reads plus Duplicate Reads for each raw FastQC sample.",
+      "raw_fastqc_sequences_per_mate": {
+        "HIV_CD86HI_48H_REP1_T1_1": 21260206,
+        "HIV_CD86HI_48H_REP1_T1_2": 21260206,
+        "HIV_CD86HI_48H_REP2_T1_1": 20649365,
+        "HIV_CD86HI_48H_REP2_T1_2": 20649365,
+        "MOCK_48H_REP1_T1_1": 21344854,
+        "MOCK_48H_REP1_T1_2": 21344854,
+        "MOCK_48H_REP2_T1_1": 23834826,
+        "MOCK_48H_REP2_T1_2": 23834826
+      },
+      "independent_sequence_quality_histogram_counts_match": true
+    }
+  },
+  "comparison": {
+    "all_three_raw_count_tables_identical": true,
+    "all_eight_mates_match_ena_read_count": true,
+    "accession_to_sample_mapping_basis": "Unique exact ENA read_count match; no local FASTQ bytes or original samplesheet were fetched here.",
+    "total_paired_fragments_indicated_by_ena_and_saved_fastqc": 87089251,
+    "total_reads_across_both_mates": 174178502
+  }
+}

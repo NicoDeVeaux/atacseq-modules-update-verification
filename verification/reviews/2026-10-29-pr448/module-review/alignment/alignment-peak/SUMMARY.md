@@ -1,0 +1,9 @@
+# PR448 alignment/peak audit
+
+- **Chromap changes real mappings.** The actual 58/99-nt residual pair emits no records in 0.2.4 and two in 0.3.2 with unchanged FASTQ records and pipeline SAM arguments. A best-pair length-bound fix is explicitly included in 0.3.2. This supports an expected upstream correction; unique single-commit causation is not proven. Parent/fix complete equivalence is not a valid promise.
+- **Bowtie2 changes QC classification.** On 5,000 actual pairs, unique/multiple concordant counts change 2,988/1,556→3,039/1,505; every SAM field/tag remains identical across both mapper versions and both index versions. A reporting-counter correction explains the change.
+- **BWA changes metadata.** Same 5,000 pairs give identical alignment fields, including after the pipeline secondary filter. New BWA adds MQ mate tags and an HD header; byte-identical BAM expectations would be wrong.
+- **MACS3 bounded peak controls agree.** Same-BAM broad, narrow and broad+control comparisons produce identical peak coordinates/scores and non-comment XLS rows (1,431 / 1,150 / 1 peaks). GappedPeak fields 7/8 become zero, an explicit formatting change. The 3.0.4 ScoreTrack overflow fix should not be claimed to affect pipeline callpeak without a reachable trigger.
+- **Gaps remain.** These are yeast paired-end tool controls, not full human/SE/ALT/repeat/large-genome equivalence tests. The MACS rewrite/compiler change deserves a same-human-BAM comparison before a broad claim about preserved peak statistics. No additional PR448-specific defect was established here; no blanket “all upgrades preserve behavior” conclusion is warranted.
+
+Details, primary links, exact source/container/input pins, commands and saved outputs are in `REPORT.md` and the adjacent evidence directories. Run `python3 check.py` for offline witness verification.

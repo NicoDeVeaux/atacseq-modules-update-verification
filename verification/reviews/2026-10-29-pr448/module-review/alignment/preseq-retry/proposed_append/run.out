@@ -1,0 +1,7 @@
+N E X T F L O W  ~  version 26.04.6
+Launching `main.nf` [spontaneous_darwin] - revision: aab3d7658a
+WARN: Unrecognized config option 'nextflow.enable.telemetry'
+WARN: Task runtime metrics are not reported when using macOS without a container engine
+[9c/38ce92] Submitted process > PRESEQ_LCEXTRAP (library)
+[9c/38ce92] NOTE: Process `PRESEQ_LCEXTRAP (library)` terminated with an error exit status (42) -- Execution is retried (1)
+[3f/29948b] Re-submitted process > PRESEQ_LCEXTRAP (library)

@@ -1,0 +1,1076 @@
+{
+  "references": [
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/bam_remove_orphans.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/mulled-v2-57736af1eb98c01010848572c9fec9fff6ffaafd:402e865b8f6af2f3e58c6fc8d57127ff0144b2c7-0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/bam_remove_orphans.nf",
+      "declared_reference": "biocontainers/mulled-v2-57736af1eb98c01010848572c9fec9fff6ffaafd:402e865b8f6af2f3e58c6fc8d57127ff0144b2c7-0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/bamtools_filter.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/mulled-v2-0560a8046fc82aa4338588eca29ff18edab2c5aa:5687a7da26983502d0a8a9a6b05ed727c740ddc4-0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/bamtools_filter.nf",
+      "declared_reference": "biocontainers/mulled-v2-0560a8046fc82aa4338588eca29ff18edab2c5aa:5687a7da26983502d0a8a9a6b05ed727c740ddc4-0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/bedtools_genomecov.nf",
+      "declared_reference": "community.wave.seqera.io/library/bedtools_coreutils:a623c13f66d5262b"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/deseq2_qc.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/mulled-v2-8849acf39a43cdd6c839a369a74c0adc823e2f91:ab110436faf952a33575c64dd74615a84011450b-0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/deseq2_qc.nf",
+      "declared_reference": "biocontainers/mulled-v2-8849acf39a43cdd6c839a369a74c0adc823e2f91:ab110436faf952a33575c64dd74615a84011450b-0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/frip_score.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/mulled-v2-8186960447c5cb2faa697666dc1e6d919ad23f3e:3127fcae6b6bdaf8181e21a26ae61231030a9fcb-0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/frip_score.nf",
+      "declared_reference": "biocontainers/mulled-v2-8186960447c5cb2faa697666dc1e6d919ad23f3e:3127fcae6b6bdaf8181e21a26ae61231030a9fcb-0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/genome_blacklist_regions.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/bedtools:2.30.0--hc088bd4_0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/genome_blacklist_regions.nf",
+      "declared_reference": "biocontainers/bedtools:2.30.0--hc088bd4_0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/get_autosomes.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/python:3.8.3"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/get_autosomes.nf",
+      "declared_reference": "biocontainers/python:3.8.3"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/gtf2bed.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/perl:5.26.2"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/gtf2bed.nf",
+      "declared_reference": "biocontainers/perl:5.26.2"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/igv.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/python:3.8.3"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/igv.nf",
+      "declared_reference": "biocontainers/python:3.8.3"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/macs3_consensus.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/mulled-v2-2f48cc59b03027e31ead6d383fe1b8057785dd24:5d182f583f4696f4c4d9f3be93052811b383341f-0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/macs3_consensus.nf",
+      "declared_reference": "biocontainers/mulled-v2-2f48cc59b03027e31ead6d383fe1b8057785dd24:5d182f583f4696f4c4d9f3be93052811b383341f-0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/multiqc.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/multiqc:1.13--pyhdfd78af_0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/multiqc.nf",
+      "declared_reference": "biocontainers/multiqc:1.13--pyhdfd78af_0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/multiqc_custom_peaks.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/ubuntu:20.04"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/multiqc_custom_peaks.nf",
+      "declared_reference": "nf-core/ubuntu:20.04"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/plot_homer_annotatepeaks.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/mulled-v2-ad9dd5f398966bf899ae05f8e7c54d0fb10cdfa7:05678da05b8e5a7a5130e90a9f9a6c585b965afa-0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/plot_homer_annotatepeaks.nf",
+      "declared_reference": "biocontainers/mulled-v2-ad9dd5f398966bf899ae05f8e7c54d0fb10cdfa7:05678da05b8e5a7a5130e90a9f9a6c585b965afa-0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/plot_macs3_qc.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/mulled-v2-ad9dd5f398966bf899ae05f8e7c54d0fb10cdfa7:05678da05b8e5a7a5130e90a9f9a6c585b965afa-0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/plot_macs3_qc.nf",
+      "declared_reference": "biocontainers/mulled-v2-ad9dd5f398966bf899ae05f8e7c54d0fb10cdfa7:05678da05b8e5a7a5130e90a9f9a6c585b965afa-0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/samplesheet_check.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/python:3.8.3"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/samplesheet_check.nf",
+      "declared_reference": "biocontainers/python:3.8.3"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/star_align.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/star:2.6.1d--0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/star_align.nf",
+      "declared_reference": "biocontainers/star:2.6.1d--0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/star_genomegenerate.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/mulled-v2-1fa26d1ce03c295fe2fdcf85831a92fbcbd7e8c2:59cdd445419f14abac76b31dd0d71217994cbcc9-0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/star_genomegenerate.nf",
+      "declared_reference": "biocontainers/mulled-v2-1fa26d1ce03c295fe2fdcf85831a92fbcbd7e8c2:59cdd445419f14abac76b31dd0d71217994cbcc9-0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/tss_extract.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/ubuntu:20.04"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/local/tss_extract.nf",
+      "declared_reference": "nf-core/ubuntu:20.04"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/ataqv/ataqv/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/ataqv:1.3.1--py310ha155cf9_1"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/ataqv/ataqv/main.nf",
+      "declared_reference": "quay.io/biocontainers/ataqv:1.3.1--py310ha155cf9_1"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/ataqv/mkarv/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/ataqv:1.3.1--py310ha155cf9_1"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/ataqv/mkarv/main.nf",
+      "declared_reference": "quay.io/biocontainers/ataqv:1.3.1--py310ha155cf9_1"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/bowtie2/align/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/b4/b41b403e81883126c3227fc45840015538e8e2212f13abc9ae84e4b98891d51c/data"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/bowtie2/align/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/bowtie2_htslib_samtools_pigz:edeb13799090a2a6"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/bowtie2/build/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/b4/b41b403e81883126c3227fc45840015538e8e2212f13abc9ae84e4b98891d51c/data"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/bowtie2/build/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/bowtie2_htslib_samtools_pigz:edeb13799090a2a6"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/bwa/index/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/d7/d7e24dc1e4d93ca4d3a76a78d4c834a7be3985b0e1e56fddd61662e047863a8a/data"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/bwa/index/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/bwa_htslib_samtools:83b50ff84ead50d0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/bwa/mem/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/d7/d7e24dc1e4d93ca4d3a76a78d4c834a7be3985b0e1e56fddd61662e047863a8a/data"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/bwa/mem/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/bwa_htslib_samtools:83b50ff84ead50d0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/chromap/chromap/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/5d/5d39e0b3f00c5469ffc2ceef4bd76959fba6313064ed2408dd4ccac498022ad6/data"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/chromap/chromap/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/chromap_samtools:b975c17adf0096ba"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/chromap/index/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/80/809e5a0166357804ca10097100e96844100019a11a3aaebf14e2cceb2ee98c0a/data"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/chromap/index/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/chromap:0.3.2--4ec4bca51cd82195"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/deeptools/alignmentsieve/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/mulled-v2-eb9e7907c7a753917c1e4d7a64384c047429618a:28424fe3aec58d2b3e4e4390025d886207657d25-0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/deeptools/alignmentsieve/main.nf",
+      "declared_reference": "quay.io/biocontainers/mulled-v2-eb9e7907c7a753917c1e4d7a64384c047429618a:28424fe3aec58d2b3e4e4390025d886207657d25-0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/deeptools/computematrix/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/deeptools:3.5.6--pyhdfd78af_0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/deeptools/computematrix/main.nf",
+      "declared_reference": "quay.io/biocontainers/deeptools:3.5.6--pyhdfd78af_0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/deeptools/plotfingerprint/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/deeptools:3.5.6--pyhdfd78af_0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/deeptools/plotfingerprint/main.nf",
+      "declared_reference": "quay.io/biocontainers/deeptools:3.5.6--pyhdfd78af_0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/deeptools/plotheatmap/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/deeptools:3.5.6--pyhdfd78af_0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/deeptools/plotheatmap/main.nf",
+      "declared_reference": "quay.io/biocontainers/deeptools:3.5.6--pyhdfd78af_0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/deeptools/plotprofile/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/deeptools:3.5.6--pyhdfd78af_0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/deeptools/plotprofile/main.nf",
+      "declared_reference": "quay.io/biocontainers/deeptools:3.5.6--pyhdfd78af_0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/fastqc/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/fastqc:0.12.1--hdfd78af_0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/fastqc/main.nf",
+      "declared_reference": "quay.io/biocontainers/fastqc:0.12.1--hdfd78af_0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/gffread/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/gffread:0.12.7--hdcf5f25_4"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/gffread/main.nf",
+      "declared_reference": "quay.io/biocontainers/gffread:0.12.7--hdcf5f25_4"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/gunzip/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/52/52ccce28d2ab928ab862e25aae26314d69c8e38bd41ca9431c67ef05221348aa/data"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/gunzip/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/coreutils_grep_gzip_lbzip2_pruned:838ba80435a629f8"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/homer/annotatepeaks/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/0f/0fe4a3875b78dce3c66b43fb96489769cc32e55e329e2525d2af09096af2252a/data"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/homer/annotatepeaks/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/bioconductor-deseq2_bioconductor-edger_homer_samtools_pruned:a8f4c58755bb281b"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/khmer/uniquekmers/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/khmer:3.0.0a3--py37haa7609a_2"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/khmer/uniquekmers/main.nf",
+      "declared_reference": "quay.io/biocontainers/khmer:3.0.0a3--py37haa7609a_2"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/macs3/callpeak/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/2f/2fb492856efb63a7f824f0801b1386d08468cd4b7819ddc4c21e7f10e09b4fda/data"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/macs3/callpeak/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/macs3:3.0.4--e0346d811b8b428e"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/multiqc/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/c8/c8e346f4f6080eadf1253505e6ff09ef004454fc18e8d672006fd7b222cc412e/data"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/multiqc/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/multiqc:1.35--c17fb751507e9dfc"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/picard/addorreplacereadgroups/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/08/0861295baa7c01fc593a9da94e82b44a729dcaf8da92be8e565da109aa549b25/data"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/picard/addorreplacereadgroups/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/picard:3.4.0--e9963040df0a9bf6"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/picard/collectmultiplemetrics/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/08/0861295baa7c01fc593a9da94e82b44a729dcaf8da92be8e565da109aa549b25/data"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/picard/collectmultiplemetrics/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/picard:3.4.0--e9963040df0a9bf6"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/picard/markduplicates/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/08/0861295baa7c01fc593a9da94e82b44a729dcaf8da92be8e565da109aa549b25/data"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/picard/markduplicates/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/picard:3.4.0--e9963040df0a9bf6"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/picard/mergesamfiles/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/08/0861295baa7c01fc593a9da94e82b44a729dcaf8da92be8e565da109aa549b25/data"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/picard/mergesamfiles/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/picard:3.4.0--e9963040df0a9bf6"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/preseq/lcextrap/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/preseq:3.2.0--hdcf5f25_6"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/preseq/lcextrap/main.nf",
+      "declared_reference": "quay.io/biocontainers/preseq:3.2.0--hdcf5f25_6"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/samtools/faidx/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/8c/8c5d2818c8b9f58e1fba77ce219fdaf32087ae53e857c4a496402978af26e78c/data"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/samtools/faidx/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/htslib_samtools:1.23.1--5b6bb4ede7e612e5"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/samtools/flagstat/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/e9/e994bf4eb3731150511a14f5706b7bdfd64df1b6d40898fff334286c027e0859/data"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/samtools/flagstat/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/htslib_samtools:1.24--d697cfb9dce007cd"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/samtools/idxstats/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/e9/e994bf4eb3731150511a14f5706b7bdfd64df1b6d40898fff334286c027e0859/data"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/samtools/idxstats/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/htslib_samtools:1.24--d697cfb9dce007cd"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/samtools/index/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/e9/e994bf4eb3731150511a14f5706b7bdfd64df1b6d40898fff334286c027e0859/data"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/samtools/index/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/htslib_samtools:1.24--d697cfb9dce007cd"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/samtools/sort/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/e9/e994bf4eb3731150511a14f5706b7bdfd64df1b6d40898fff334286c027e0859/data"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/samtools/sort/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/htslib_samtools:1.24--d697cfb9dce007cd"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/samtools/stats/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/e9/e994bf4eb3731150511a14f5706b7bdfd64df1b6d40898fff334286c027e0859/data"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/samtools/stats/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/htslib_samtools:1.24--d697cfb9dce007cd"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/subread/featurecounts/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/subread:2.0.1--hed695b0_0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/subread/featurecounts/main.nf",
+      "declared_reference": "quay.io/biocontainers/subread:2.0.1--hed695b0_0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/trimgalore/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/7e/7e44249e3fafe3d136ea726225551b51bca642387e16d9687b3e602207dedb20/data"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/trimgalore/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/trim-galore:2.1.0--27e6376b8f6c1872"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/ucsc/bedgraphtobigwig/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/ucsc-bedgraphtobigwig:482--hdc0a859_0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/ucsc/bedgraphtobigwig/main.nf",
+      "declared_reference": "quay.io/biocontainers/ucsc-bedgraphtobigwig:482--hdc0a859_0"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/umitools/extract/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/32/32476f0107d72dbd2210a4e56b2873abde07300025cc11052680475509d2db81/data"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/umitools/extract/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/umi_tools_future_matplotlib_numpy_pruned:1ee668bafc8c9f81"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/untar/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/52/52ccce28d2ab928ab862e25aae26314d69c8e38bd41ca9431c67ef05221348aa/data"
+    },
+    {
+      "arm": "unfixed",
+      "source_file": "modules/nf-core/untar/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/coreutils_grep_gzip_lbzip2_pruned:838ba80435a629f8"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/bam_remove_orphans.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/mulled-v2-57736af1eb98c01010848572c9fec9fff6ffaafd:402e865b8f6af2f3e58c6fc8d57127ff0144b2c7-0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/bam_remove_orphans.nf",
+      "declared_reference": "biocontainers/mulled-v2-57736af1eb98c01010848572c9fec9fff6ffaafd:402e865b8f6af2f3e58c6fc8d57127ff0144b2c7-0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/bamtools_filter.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/mulled-v2-0560a8046fc82aa4338588eca29ff18edab2c5aa:5687a7da26983502d0a8a9a6b05ed727c740ddc4-0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/bamtools_filter.nf",
+      "declared_reference": "biocontainers/mulled-v2-0560a8046fc82aa4338588eca29ff18edab2c5aa:5687a7da26983502d0a8a9a6b05ed727c740ddc4-0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/bedtools_genomecov.nf",
+      "declared_reference": "community.wave.seqera.io/library/bedtools_coreutils:a623c13f66d5262b"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/deseq2_qc.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/mulled-v2-8849acf39a43cdd6c839a369a74c0adc823e2f91:ab110436faf952a33575c64dd74615a84011450b-0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/deseq2_qc.nf",
+      "declared_reference": "biocontainers/mulled-v2-8849acf39a43cdd6c839a369a74c0adc823e2f91:ab110436faf952a33575c64dd74615a84011450b-0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/frip_score.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/mulled-v2-8186960447c5cb2faa697666dc1e6d919ad23f3e:3127fcae6b6bdaf8181e21a26ae61231030a9fcb-0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/frip_score.nf",
+      "declared_reference": "biocontainers/mulled-v2-8186960447c5cb2faa697666dc1e6d919ad23f3e:3127fcae6b6bdaf8181e21a26ae61231030a9fcb-0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/genome_blacklist_regions.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/bedtools:2.30.0--hc088bd4_0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/genome_blacklist_regions.nf",
+      "declared_reference": "biocontainers/bedtools:2.30.0--hc088bd4_0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/get_autosomes.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/python:3.8.3"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/get_autosomes.nf",
+      "declared_reference": "biocontainers/python:3.8.3"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/gtf2bed.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/perl:5.26.2"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/gtf2bed.nf",
+      "declared_reference": "biocontainers/perl:5.26.2"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/igv.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/python:3.8.3"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/igv.nf",
+      "declared_reference": "biocontainers/python:3.8.3"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/macs3_consensus.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/mulled-v2-2f48cc59b03027e31ead6d383fe1b8057785dd24:5d182f583f4696f4c4d9f3be93052811b383341f-0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/macs3_consensus.nf",
+      "declared_reference": "biocontainers/mulled-v2-2f48cc59b03027e31ead6d383fe1b8057785dd24:5d182f583f4696f4c4d9f3be93052811b383341f-0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/multiqc.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/multiqc:1.13--pyhdfd78af_0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/multiqc.nf",
+      "declared_reference": "biocontainers/multiqc:1.13--pyhdfd78af_0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/multiqc_custom_peaks.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/ubuntu:20.04"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/multiqc_custom_peaks.nf",
+      "declared_reference": "nf-core/ubuntu:20.04"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/plot_homer_annotatepeaks.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/mulled-v2-ad9dd5f398966bf899ae05f8e7c54d0fb10cdfa7:05678da05b8e5a7a5130e90a9f9a6c585b965afa-0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/plot_homer_annotatepeaks.nf",
+      "declared_reference": "biocontainers/mulled-v2-ad9dd5f398966bf899ae05f8e7c54d0fb10cdfa7:05678da05b8e5a7a5130e90a9f9a6c585b965afa-0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/plot_macs3_qc.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/mulled-v2-ad9dd5f398966bf899ae05f8e7c54d0fb10cdfa7:05678da05b8e5a7a5130e90a9f9a6c585b965afa-0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/plot_macs3_qc.nf",
+      "declared_reference": "biocontainers/mulled-v2-ad9dd5f398966bf899ae05f8e7c54d0fb10cdfa7:05678da05b8e5a7a5130e90a9f9a6c585b965afa-0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/samplesheet_check.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/python:3.8.3"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/samplesheet_check.nf",
+      "declared_reference": "biocontainers/python:3.8.3"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/star_align.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/star:2.6.1d--0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/star_align.nf",
+      "declared_reference": "biocontainers/star:2.6.1d--0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/star_genomegenerate.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/mulled-v2-1fa26d1ce03c295fe2fdcf85831a92fbcbd7e8c2:59cdd445419f14abac76b31dd0d71217994cbcc9-0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/star_genomegenerate.nf",
+      "declared_reference": "biocontainers/mulled-v2-1fa26d1ce03c295fe2fdcf85831a92fbcbd7e8c2:59cdd445419f14abac76b31dd0d71217994cbcc9-0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/tss_extract.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/ubuntu:20.04"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/local/tss_extract.nf",
+      "declared_reference": "nf-core/ubuntu:20.04"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/ataqv/ataqv/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/ataqv:1.3.1--py310ha155cf9_1"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/ataqv/ataqv/main.nf",
+      "declared_reference": "quay.io/biocontainers/ataqv:1.3.1--py310ha155cf9_1"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/ataqv/mkarv/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/ataqv:1.3.1--py310ha155cf9_1"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/ataqv/mkarv/main.nf",
+      "declared_reference": "quay.io/biocontainers/ataqv:1.3.1--py310ha155cf9_1"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/bowtie2/align/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/b4/b41b403e81883126c3227fc45840015538e8e2212f13abc9ae84e4b98891d51c/data"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/bowtie2/align/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/bowtie2_htslib_samtools_pigz:edeb13799090a2a6"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/bowtie2/build/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/b4/b41b403e81883126c3227fc45840015538e8e2212f13abc9ae84e4b98891d51c/data"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/bowtie2/build/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/bowtie2_htslib_samtools_pigz:edeb13799090a2a6"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/bwa/index/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/d7/d7e24dc1e4d93ca4d3a76a78d4c834a7be3985b0e1e56fddd61662e047863a8a/data"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/bwa/index/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/bwa_htslib_samtools:83b50ff84ead50d0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/bwa/mem/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/d7/d7e24dc1e4d93ca4d3a76a78d4c834a7be3985b0e1e56fddd61662e047863a8a/data"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/bwa/mem/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/bwa_htslib_samtools:83b50ff84ead50d0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/chromap/chromap/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/5d/5d39e0b3f00c5469ffc2ceef4bd76959fba6313064ed2408dd4ccac498022ad6/data"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/chromap/chromap/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/chromap_samtools:b975c17adf0096ba"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/chromap/index/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/80/809e5a0166357804ca10097100e96844100019a11a3aaebf14e2cceb2ee98c0a/data"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/chromap/index/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/chromap:0.3.2--4ec4bca51cd82195"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/deeptools/alignmentsieve/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/mulled-v2-eb9e7907c7a753917c1e4d7a64384c047429618a:28424fe3aec58d2b3e4e4390025d886207657d25-0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/deeptools/alignmentsieve/main.nf",
+      "declared_reference": "quay.io/biocontainers/mulled-v2-eb9e7907c7a753917c1e4d7a64384c047429618a:28424fe3aec58d2b3e4e4390025d886207657d25-0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/deeptools/computematrix/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/deeptools:3.5.6--pyhdfd78af_0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/deeptools/computematrix/main.nf",
+      "declared_reference": "quay.io/biocontainers/deeptools:3.5.6--pyhdfd78af_0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/deeptools/plotfingerprint/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/deeptools:3.5.6--pyhdfd78af_0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/deeptools/plotfingerprint/main.nf",
+      "declared_reference": "quay.io/biocontainers/deeptools:3.5.6--pyhdfd78af_0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/deeptools/plotheatmap/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/deeptools:3.5.6--pyhdfd78af_0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/deeptools/plotheatmap/main.nf",
+      "declared_reference": "quay.io/biocontainers/deeptools:3.5.6--pyhdfd78af_0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/deeptools/plotprofile/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/deeptools:3.5.6--pyhdfd78af_0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/deeptools/plotprofile/main.nf",
+      "declared_reference": "quay.io/biocontainers/deeptools:3.5.6--pyhdfd78af_0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/fastqc/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/fastqc:0.12.1--hdfd78af_0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/fastqc/main.nf",
+      "declared_reference": "quay.io/biocontainers/fastqc:0.12.1--hdfd78af_0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/gffread/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/gffread:0.12.7--hdcf5f25_4"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/gffread/main.nf",
+      "declared_reference": "quay.io/biocontainers/gffread:0.12.7--hdcf5f25_4"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/gunzip/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/52/52ccce28d2ab928ab862e25aae26314d69c8e38bd41ca9431c67ef05221348aa/data"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/gunzip/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/coreutils_grep_gzip_lbzip2_pruned:838ba80435a629f8"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/homer/annotatepeaks/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/0f/0fe4a3875b78dce3c66b43fb96489769cc32e55e329e2525d2af09096af2252a/data"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/homer/annotatepeaks/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/bioconductor-deseq2_bioconductor-edger_homer_samtools_pruned:a8f4c58755bb281b"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/khmer/uniquekmers/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/khmer:3.0.0a3--py37haa7609a_2"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/khmer/uniquekmers/main.nf",
+      "declared_reference": "quay.io/biocontainers/khmer:3.0.0a3--py37haa7609a_2"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/macs3/callpeak/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/2f/2fb492856efb63a7f824f0801b1386d08468cd4b7819ddc4c21e7f10e09b4fda/data"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/macs3/callpeak/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/macs3:3.0.4--e0346d811b8b428e"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/multiqc/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/c8/c8e346f4f6080eadf1253505e6ff09ef004454fc18e8d672006fd7b222cc412e/data"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/multiqc/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/multiqc:1.35--c17fb751507e9dfc"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/picard/addorreplacereadgroups/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/08/0861295baa7c01fc593a9da94e82b44a729dcaf8da92be8e565da109aa549b25/data"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/picard/addorreplacereadgroups/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/picard:3.4.0--e9963040df0a9bf6"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/picard/collectmultiplemetrics/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/08/0861295baa7c01fc593a9da94e82b44a729dcaf8da92be8e565da109aa549b25/data"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/picard/collectmultiplemetrics/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/picard:3.4.0--e9963040df0a9bf6"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/picard/markduplicates/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/08/0861295baa7c01fc593a9da94e82b44a729dcaf8da92be8e565da109aa549b25/data"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/picard/markduplicates/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/picard:3.4.0--e9963040df0a9bf6"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/picard/mergesamfiles/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/08/0861295baa7c01fc593a9da94e82b44a729dcaf8da92be8e565da109aa549b25/data"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/picard/mergesamfiles/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/picard:3.4.0--e9963040df0a9bf6"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/preseq/lcextrap/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/preseq:3.2.0--hdcf5f25_6"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/preseq/lcextrap/main.nf",
+      "declared_reference": "quay.io/biocontainers/preseq:3.2.0--hdcf5f25_6"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/samtools/faidx/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/8c/8c5d2818c8b9f58e1fba77ce219fdaf32087ae53e857c4a496402978af26e78c/data"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/samtools/faidx/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/htslib_samtools:1.23.1--5b6bb4ede7e612e5"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/samtools/flagstat/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/e9/e994bf4eb3731150511a14f5706b7bdfd64df1b6d40898fff334286c027e0859/data"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/samtools/flagstat/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/htslib_samtools:1.24--d697cfb9dce007cd"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/samtools/idxstats/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/e9/e994bf4eb3731150511a14f5706b7bdfd64df1b6d40898fff334286c027e0859/data"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/samtools/idxstats/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/htslib_samtools:1.24--d697cfb9dce007cd"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/samtools/index/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/e9/e994bf4eb3731150511a14f5706b7bdfd64df1b6d40898fff334286c027e0859/data"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/samtools/index/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/htslib_samtools:1.24--d697cfb9dce007cd"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/samtools/sort/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/e9/e994bf4eb3731150511a14f5706b7bdfd64df1b6d40898fff334286c027e0859/data"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/samtools/sort/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/htslib_samtools:1.24--d697cfb9dce007cd"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/samtools/stats/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/e9/e994bf4eb3731150511a14f5706b7bdfd64df1b6d40898fff334286c027e0859/data"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/samtools/stats/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/htslib_samtools:1.24--d697cfb9dce007cd"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/subread/featurecounts/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/subread:2.0.1--hed695b0_0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/subread/featurecounts/main.nf",
+      "declared_reference": "quay.io/biocontainers/subread:2.0.1--hed695b0_0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/trimgalore/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/e0/e00369598bd6b7b34a7c83d5496c381104bf8b885c31a4b65b92e6ea2059fbb3/data"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/trimgalore/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/trim-galore:2.3.0--6a38a479b4972363"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/ucsc/bedgraphtobigwig/main.nf",
+      "declared_reference": "https://depot.galaxyproject.org/singularity/ucsc-bedgraphtobigwig:482--hdc0a859_0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/ucsc/bedgraphtobigwig/main.nf",
+      "declared_reference": "quay.io/biocontainers/ucsc-bedgraphtobigwig:482--hdc0a859_0"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/umitools/extract/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/32/32476f0107d72dbd2210a4e56b2873abde07300025cc11052680475509d2db81/data"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/umitools/extract/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/umi_tools_future_matplotlib_numpy_pruned:1ee668bafc8c9f81"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/untar/main.nf",
+      "declared_reference": "https://community-cr-prod.seqera.io/docker/registry/v2/blobs/sha256/52/52ccce28d2ab928ab862e25aae26314d69c8e38bd41ca9431c67ef05221348aa/data"
+    },
+    {
+      "arm": "fixed",
+      "source_file": "modules/nf-core/untar/main.nf",
+      "declared_reference": "community.wave.seqera.io/library/coreutils_grep_gzip_lbzip2_pruned:838ba80435a629f8"
+    }
+  ],
+  "observed_task_digests": [],
+  "limit": "Pinned source declarations, not resolved task-image digests. Collected scientific artifacts did not include task traces with digest fields. No digest invented from a tag."
+}

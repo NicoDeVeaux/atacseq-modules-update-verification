@@ -1,0 +1,108 @@
+{
+  "schema": "pr448/public-artifacts/v1",
+  "files": {
+    "observed/evidence-repository/verification/counts/dev/consensus_peaks.mLb.clN.featureCounts.txt": {
+      "origin_git_commit": "24f0ddd5c1f9ebb9554e2b69d868a9c1d7e78883",
+      "origin_git_path": "verification/counts/dev/consensus_peaks.mLb.clN.featureCounts.txt",
+      "sha256": "cbdf490e3112781bd0e31d561e14c00f03c3052991cc1a1e2f8870327725eb62",
+      "transformation": "none",
+      "original_sha256": "cbdf490e3112781bd0e31d561e14c00f03c3052991cc1a1e2f8870327725eb62",
+      "public_sha256": "cbdf490e3112781bd0e31d561e14c00f03c3052991cc1a1e2f8870327725eb62"
+    },
+    "observed/evidence-repository/verification/counts/pr448/consensus_peaks.mLb.clN.featureCounts.tsv": {
+      "origin_git_commit": "24f0ddd5c1f9ebb9554e2b69d868a9c1d7e78883",
+      "origin_git_path": "verification/counts/pr448/consensus_peaks.mLb.clN.featureCounts.tsv",
+      "sha256": "74a78c98e9529706d4031200cc16feb3f933307844152055e709b50a99d7a0eb",
+      "transformation": "none",
+      "original_sha256": "74a78c98e9529706d4031200cc16feb3f933307844152055e709b50a99d7a0eb",
+      "public_sha256": "74a78c98e9529706d4031200cc16feb3f933307844152055e709b50a99d7a0eb"
+    },
+    "observed/evidence-repository/verification/scripts/compare_featurecounts.py": {
+      "origin_git_commit": "24f0ddd5c1f9ebb9554e2b69d868a9c1d7e78883",
+      "origin_git_path": "verification/scripts/compare_featurecounts.py",
+      "sha256": "211c6b2f871fc5c2d9aa6c9a4f9b0a2c25fe2273a7dedb7ad9da2d689a6bdf93",
+      "transformation": "none",
+      "original_sha256": "211c6b2f871fc5c2d9aa6c9a4f9b0a2c25fe2273a7dedb7ad9da2d689a6bdf93",
+      "public_sha256": "211c6b2f871fc5c2d9aa6c9a4f9b0a2c25fe2273a7dedb7ad9da2d689a6bdf93"
+    },
+    "observed/campaign/outputs/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.featureCounts.tsv": {
+      "source_workflow_id": "miH78tIWtzQMy",
+      "sha256": "74a78c98e9529706d4031200cc16feb3f933307844152055e709b50a99d7a0eb",
+      "transformation": "none; header inspected for private paths",
+      "original_sha256": "74a78c98e9529706d4031200cc16feb3f933307844152055e709b50a99d7a0eb",
+      "public_sha256": "74a78c98e9529706d4031200cc16feb3f933307844152055e709b50a99d7a0eb"
+    },
+    "observed/campaign/outputs/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.featureCounts.tsv": {
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "sha256": "7623ea076dfe8aba9100e2b76c52735f9dba4e3f6852dc17cd36fb101b617bef",
+      "transformation": "none; header inspected for private paths",
+      "original_sha256": "7623ea076dfe8aba9100e2b76c52735f9dba4e3f6852dc17cd36fb101b617bef",
+      "public_sha256": "7623ea076dfe8aba9100e2b76c52735f9dba4e3f6852dc17cd36fb101b617bef"
+    },
+    "observed/final-report.json": {
+      "sha256": "0e25109b585e20cc818a90e47ed3633a2da201838f37d50f6e2788e11553540e",
+      "bytes": 87678,
+      "public_sha256": "0e25109b585e20cc818a90e47ed3633a2da201838f37d50f6e2788e11553540e",
+      "original_sha256": "4ac5f851bd26f8628037b54512840f6328c8e73e6d3c24075d213370fa927d4b",
+      "transformation": "Whitelisted scientific/audit fields; private URL/launch/storage envelopes omitted; no count/coordinate changes."
+    },
+    "observed/final-summary.md": {
+      "sha256": "1c23768e3b12c3da7e1dd2df65000bdcc5457d55dd8c6b00f27b77a3c0165186",
+      "bytes": 17637,
+      "public_sha256": "1c23768e3b12c3da7e1dd2df65000bdcc5457d55dd8c6b00f27b77a3c0165186",
+      "original_sha256": "5a69f08c11e7985d33f7b9cfa44ca4fbf0b9eb911026d6c910de63b55066adbd",
+      "transformation": "Whitelisted scientific/audit fields; private URL/launch/storage envelopes omitted; no count/coordinate changes."
+    },
+    "observed/final-comparison.json": {
+      "sha256": "751b06937a66a172241af4f01730b59ca7c8b305071a4fdc3aa9a3b10987ec54",
+      "bytes": 23257303,
+      "public_sha256": "751b06937a66a172241af4f01730b59ca7c8b305071a4fdc3aa9a3b10987ec54",
+      "original_sha256": "c072584dd791ced3704990aac1c5c747f0982091f97098928ab4cf2aa5584d6d",
+      "transformation": "Whitelisted scientific/audit fields; private URL/launch/storage envelopes omitted; no count/coordinate changes."
+    },
+    "observed/recorded-artifacts.json": {
+      "sha256": "3d534f48726cf0a0edeb56f028926ea4f31b4358d4072e2d67ab9296eff73ff2",
+      "bytes": 87388,
+      "public_sha256": "3d534f48726cf0a0edeb56f028926ea4f31b4358d4072e2d67ab9296eff73ff2",
+      "original_sha256": "720d7a497c67ce2aea601275864e3b7a893bba057f563efd8bbd2db7374f5a0e",
+      "transformation": "Whitelisted scientific/audit fields; private URL/launch/storage envelopes omitted; no count/coordinate changes."
+    },
+    "observed/audit.json": {
+      "sha256": "07d9eafde63e980a8b8f46602111489f9a9d75a04f5a5d9df04f80532aa4c831",
+      "bytes": 1977,
+      "public_sha256": "07d9eafde63e980a8b8f46602111489f9a9d75a04f5a5d9df04f80532aa4c831",
+      "original_sha256": "4ac5f851bd26f8628037b54512840f6328c8e73e6d3c24075d213370fa927d4b",
+      "transformation": "Whitelisted scientific/audit fields; private URL/launch/storage envelopes omitted; no count/coordinate changes."
+    },
+    "observed/bwa-unfixed-software-versions.yml": {
+      "sha256": "dbcfad35e5eb89d65f2d3748f1baffa06812690f9a6c8f3e5be163581559d4db",
+      "bytes": 1603,
+      "public_sha256": "dbcfad35e5eb89d65f2d3748f1baffa06812690f9a6c8f3e5be163581559d4db",
+      "original_sha256": "dbcfad35e5eb89d65f2d3748f1baffa06812690f9a6c8f3e5be163581559d4db",
+      "transformation": "none; exact observed software-version artifact"
+    },
+    "observed/bwa-fixed-software-versions.yml": {
+      "sha256": "8b71ad042ce3c0e51a5c7782aeba030827f0c088beab185d8fb4b668098445ba",
+      "bytes": 1603,
+      "public_sha256": "8b71ad042ce3c0e51a5c7782aeba030827f0c088beab185d8fb4b668098445ba",
+      "original_sha256": "8b71ad042ce3c0e51a5c7782aeba030827f0c088beab185d8fb4b668098445ba",
+      "transformation": "none; exact observed software-version artifact"
+    },
+    "observed/chromap-unfixed-software-versions.yml": {
+      "sha256": "77cde815f124d68d7d2866dab84b503967786b775cdb9efc67b49ce6402b0eaa",
+      "bytes": 1697,
+      "public_sha256": "77cde815f124d68d7d2866dab84b503967786b775cdb9efc67b49ce6402b0eaa",
+      "original_sha256": "77cde815f124d68d7d2866dab84b503967786b775cdb9efc67b49ce6402b0eaa",
+      "transformation": "none; exact observed software-version artifact"
+    },
+    "observed/chromap-fixed-software-versions.yml": {
+      "sha256": "f5608391b01dc33747761afc5e7e42616652c6094f370bb7dea4d0d4c910ef7c",
+      "bytes": 1697,
+      "public_sha256": "f5608391b01dc33747761afc5e7e42616652c6094f370bb7dea4d0d4c910ef7c",
+      "original_sha256": "f5608391b01dc33747761afc5e7e42616652c6094f370bb7dea4d0d4c910ef7c",
+      "transformation": "none; exact observed software-version artifact"
+    }
+  },
+  "limit": "Public artifact byte verification only; not a re-run of private launch/Platform provenance checks.",
+  "scope": "Distributed public bytes only. original_sha256 and public_sha256 remain distinct for transformed records; original private provenance is not claimed public-runnable."
+}

@@ -1,0 +1,169 @@
+{
+  "study": "PRJNA844120",
+  "discovered_by": "Co-Scientist turn 86de93c2-1d2f-4ef6-a2e1-6d587a9504c1; independently checked ENA metadata and physical run/flowcell headers",
+  "samples": [
+    {
+      "run_accession": "SRR19479022",
+      "experiment_accession": "SRX15531825",
+      "sample_accession": "SAMN28794664",
+      "library_name": "GSM6208857",
+      "library_layout": "PAIRED",
+      "submitted_ftp": "",
+      "submitted_format": "",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/022/SRR19479022/SRR19479022_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/022/SRR19479022/SRR19479022_2.fastq.gz",
+      "fastq_bytes": "251216057;218879638",
+      "read_count": "4683955",
+      "base_count": "946158910",
+      "id": "D28_REP1_T1",
+      "url1": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/022/SRR19479022/SRR19479022_1.fastq.gz",
+      "url2": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/022/SRR19479022/SRR19479022_2.fastq.gz",
+      "read1": "@BUNDLE@/real-samples/inputs/D28_REP1_T1_1.fastq.gz",
+      "read2": "@BUNDLE@/real-samples/inputs/D28_REP1_T1_2.fastq.gz",
+      "selected_pairs": 250000,
+      "files": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/022/SRR19479022/SRR19479022_1.fastq.gz",
+          "path": "@BUNDLE@/real-samples/inputs/D28_REP1_T1_1.fastq.gz",
+          "sha256": "eb035ab5fe4188e1f1ddd6466621d99397afcd859cfde9a43194bee5c6a81918",
+          "bytes": 12698785,
+          "source_content_length": "251216057",
+          "selection": "first 250000 complete records; re-gzipped with mtime=0",
+          "full_source_checksum_verified": false
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/022/SRR19479022/SRR19479022_2.fastq.gz",
+          "path": "@BUNDLE@/real-samples/inputs/D28_REP1_T1_2.fastq.gz",
+          "sha256": "aec8bc81a6797fd0c9666efdc60fd8346817b5bcb5c0129b4d7d2fe49c876337",
+          "bytes": 10979056,
+          "source_content_length": "218879638",
+          "selection": "first 250000 complete records; re-gzipped with mtime=0",
+          "full_source_checksum_verified": false
+        }
+      ]
+    },
+    {
+      "run_accession": "SRR19479023",
+      "experiment_accession": "SRX15531825",
+      "sample_accession": "SAMN28794664",
+      "library_name": "GSM6208857",
+      "library_layout": "PAIRED",
+      "submitted_ftp": "",
+      "submitted_format": "",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/023/SRR19479023/SRR19479023_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/023/SRR19479023/SRR19479023_2.fastq.gz",
+      "fastq_bytes": "335349348;299341013",
+      "read_count": "6387797",
+      "base_count": "1290334994",
+      "id": "D28_REP1_T2",
+      "url1": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/023/SRR19479023/SRR19479023_1.fastq.gz",
+      "url2": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/023/SRR19479023/SRR19479023_2.fastq.gz",
+      "read1": "@BUNDLE@/real-samples/inputs/D28_REP1_T2_1.fastq.gz",
+      "read2": "@BUNDLE@/real-samples/inputs/D28_REP1_T2_2.fastq.gz",
+      "selected_pairs": 250000,
+      "files": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/023/SRR19479023/SRR19479023_1.fastq.gz",
+          "path": "@BUNDLE@/real-samples/inputs/D28_REP1_T2_1.fastq.gz",
+          "sha256": "8e1d7cbf272a70ef0ee6c29c47a157e62196e1b3d128ff522f6d8447d9c59ab7",
+          "bytes": 12444927,
+          "source_content_length": "335349348",
+          "selection": "first 250000 complete records; re-gzipped with mtime=0",
+          "full_source_checksum_verified": false
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/023/SRR19479023/SRR19479023_2.fastq.gz",
+          "path": "@BUNDLE@/real-samples/inputs/D28_REP1_T2_2.fastq.gz",
+          "sha256": "377aa6be0a85c6e525dbaf5422f1ef72258b2e01018601cb78015ed6196cd393",
+          "bytes": 11020110,
+          "source_content_length": "299341013",
+          "selection": "first 250000 complete records; re-gzipped with mtime=0",
+          "full_source_checksum_verified": false
+        }
+      ]
+    },
+    {
+      "run_accession": "SRR19479020",
+      "experiment_accession": "SRX15531826",
+      "sample_accession": "SAMN28794663",
+      "library_name": "GSM6208858",
+      "library_layout": "PAIRED",
+      "scientific_name": "Saccharomyces cerevisiae",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/020/SRR19479020/SRR19479020_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/020/SRR19479020/SRR19479020_2.fastq.gz",
+      "fastq_bytes": "435413515;347190329",
+      "fastq_md5": "760c67a7018924475d666b1979b00cd4;5a64506d2b92d71409aaa1be654008e6",
+      "read_count": "7464689",
+      "base_count": "1507867178",
+      "id": "D28P_REP1_T1",
+      "url1": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/020/SRR19479020/SRR19479020_1.fastq.gz",
+      "url2": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/020/SRR19479020/SRR19479020_2.fastq.gz",
+      "read1": "@BUNDLE@/real-samples/inputs/D28P_REP1_T1_1.fastq.gz",
+      "read2": "@BUNDLE@/real-samples/inputs/D28P_REP1_T1_2.fastq.gz",
+      "selected_pairs": 250000,
+      "files": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/020/SRR19479020/SRR19479020_1.fastq.gz",
+          "path": "@BUNDLE@/real-samples/inputs/D28P_REP1_T1_1.fastq.gz",
+          "sha256": "026a64fa228ff6f5fb20840f626168b937ca6bf458f2b07c5b712e418b722094",
+          "bytes": 13815295,
+          "source_content_length": "435413515",
+          "selection": "first 250000 complete records; re-gzipped with mtime=0",
+          "full_source_checksum_verified": false
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/020/SRR19479020/SRR19479020_2.fastq.gz",
+          "path": "@BUNDLE@/real-samples/inputs/D28P_REP1_T1_2.fastq.gz",
+          "sha256": "63293a23cc591ec25367e02574c2ed99b24a48fc4040cf8ad8962a16e2cc7f9b",
+          "bytes": 10979383,
+          "source_content_length": "347190329",
+          "selection": "first 250000 complete records; re-gzipped with mtime=0",
+          "full_source_checksum_verified": false
+        }
+      ]
+    },
+    {
+      "run_accession": "SRR19479021",
+      "experiment_accession": "SRX15531826",
+      "sample_accession": "SAMN28794663",
+      "library_name": "GSM6208858",
+      "library_layout": "PAIRED",
+      "scientific_name": "Saccharomyces cerevisiae",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/021/SRR19479021/SRR19479021_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/021/SRR19479021/SRR19479021_2.fastq.gz",
+      "fastq_bytes": "1001079261;816883363",
+      "fastq_md5": "796438cfb90998c68d60d9b3d96b4da4;596b004958d594785189d86a23bede52",
+      "read_count": "17580003",
+      "base_count": "3551160606",
+      "id": "D28P_REP1_T2",
+      "url1": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/021/SRR19479021/SRR19479021_1.fastq.gz",
+      "url2": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/021/SRR19479021/SRR19479021_2.fastq.gz",
+      "read1": "@BUNDLE@/real-samples/inputs/D28P_REP1_T2_1.fastq.gz",
+      "read2": "@BUNDLE@/real-samples/inputs/D28P_REP1_T2_2.fastq.gz",
+      "selected_pairs": 250000,
+      "files": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/021/SRR19479021/SRR19479021_1.fastq.gz",
+          "path": "@BUNDLE@/real-samples/inputs/D28P_REP1_T2_1.fastq.gz",
+          "sha256": "6db1a75f9c4ca150ae08eba14591dcf7a4154f13a08796ef12e9a3c469c10383",
+          "bytes": 13460845,
+          "source_content_length": "1001079261",
+          "selection": "first 250000 complete records; re-gzipped with mtime=0",
+          "full_source_checksum_verified": false
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/021/SRR19479021/SRR19479021_2.fastq.gz",
+          "path": "@BUNDLE@/real-samples/inputs/D28P_REP1_T2_2.fastq.gz",
+          "sha256": "c2a3bb217f902ca97e6e6f1edc4d7a7396b770b27100215a2fa202156010e965",
+          "bytes": 10936707,
+          "source_content_length": "816883363",
+          "selection": "first 250000 complete records; re-gzipped with mtime=0",
+          "full_source_checksum_verified": false
+        }
+      ]
+    }
+  ],
+  "grouping_evidence": "GEO GSM6208857 and GSM6208858 both explicitly state: library was sequenced twice to obtain enough sequencing depth. Each pair of runs shares an experiment, BioSample and explicit LIBRARY_NAME; different experiments/libraries remain separate.",
+  "observed_at": "2026-10-28T22:04:46.117697+00:00",
+  "limitation": "Real instrument-read prefixes, not complete runs; no records duplicated or fabricated.",
+  "metadata_sources": [
+    "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6208857",
+    "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM6208858"
+  ]
+}

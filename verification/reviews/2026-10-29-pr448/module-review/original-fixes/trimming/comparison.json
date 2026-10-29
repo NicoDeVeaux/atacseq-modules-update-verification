@@ -1,0 +1,9 @@
+{
+  "pairs": 100,
+  "base_version": "0.6.10",
+  "proposed_version": "trimgalore=2.3.0",
+  "fastq_records_identical": true,
+  "r2_leading_c_preserved": 20,
+  "actual_task_no_poly_g": true,
+  "negative_control_reproduced": true
+}

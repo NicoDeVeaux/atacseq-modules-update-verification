@@ -1,0 +1,325 @@
+{
+  "observed_at": "2026-10-28T23:38:27.064907+00:00",
+  "complete": true,
+  "cases": {
+    "base": {
+      "complete": true,
+      "gates": {
+        "java_exit_zero": true,
+        "nextflow_history_OK": true,
+        "trace_all_completed_or_cached": true,
+        "real_full_pipeline_trace": true,
+        "D28_REP1:marked_bam": true,
+        "D28_REP1:filtered_bam": true,
+        "D28_REP1:markduplicates_metrics": true,
+        "D28_REP1:marked_flagstat": true,
+        "D28_REP1:filtered_flagstat": true,
+        "D28_REP1:scale_factor": true,
+        "D28_REP1:bigwig": true,
+        "D28_REP1:peaks": true,
+        "D28P_REP1:marked_bam": true,
+        "D28P_REP1:filtered_bam": true,
+        "D28P_REP1:markduplicates_metrics": true,
+        "D28P_REP1:marked_flagstat": true,
+        "D28P_REP1:filtered_flagstat": true,
+        "D28P_REP1:scale_factor": true,
+        "D28P_REP1:bigwig": true,
+        "D28P_REP1:peaks": true,
+        "nonempty_consensus_bed": true,
+        "consensus_saf_has_features": true,
+        "counts_have_exactly_two_expected_libraries": true,
+        "counts_have_feature_rows": true,
+        "multiqc": true,
+        "software_versions": true
+      },
+      "failed_gates": [],
+      "featurecounts_columns": {
+        "chromap/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.featureCounts.txt": [
+          "D28P_REP1.mLb.clN.sorted.bam",
+          "D28_REP1.mLb.clN.sorted.bam"
+        ]
+      },
+      "files": {
+        "D28_REP1:marked_bam": [
+          "chromap/merged_library/D28_REP1.mLb.mkD.sorted.bam"
+        ],
+        "D28_REP1:filtered_bam": [
+          "chromap/merged_library/D28_REP1.mLb.clN.sorted.bam"
+        ],
+        "D28_REP1:markduplicates_metrics": [
+          "chromap/merged_library/picard_metrics/D28_REP1.mLb.mkD.sorted.MarkDuplicates.metrics.txt"
+        ],
+        "D28_REP1:marked_flagstat": [
+          "chromap/merged_library/samtools_stats/D28_REP1.mLb.mkD.sorted.bam.flagstat"
+        ],
+        "D28_REP1:filtered_flagstat": [
+          "chromap/merged_library/samtools_stats/D28_REP1.mLb.clN.sorted.bam.flagstat"
+        ],
+        "D28_REP1:scale_factor": [
+          "chromap/merged_library/bigwig/scale/D28_REP1.mLb.clN.scale_factor.txt"
+        ],
+        "D28_REP1:bigwig": [
+          "chromap/merged_library/bigwig/D28_REP1.mLb.clN.bigWig"
+        ],
+        "D28_REP1:peaks": [
+          "chromap/merged_library/macs3/broad_peak/D28_REP1.mLb.clN_peaks.broadPeak"
+        ],
+        "D28P_REP1:marked_bam": [
+          "chromap/merged_library/D28P_REP1.mLb.mkD.sorted.bam"
+        ],
+        "D28P_REP1:filtered_bam": [
+          "chromap/merged_library/D28P_REP1.mLb.clN.sorted.bam"
+        ],
+        "D28P_REP1:markduplicates_metrics": [
+          "chromap/merged_library/picard_metrics/D28P_REP1.mLb.mkD.sorted.MarkDuplicates.metrics.txt"
+        ],
+        "D28P_REP1:marked_flagstat": [
+          "chromap/merged_library/samtools_stats/D28P_REP1.mLb.mkD.sorted.bam.flagstat"
+        ],
+        "D28P_REP1:filtered_flagstat": [
+          "chromap/merged_library/samtools_stats/D28P_REP1.mLb.clN.sorted.bam.flagstat"
+        ],
+        "D28P_REP1:scale_factor": [
+          "chromap/merged_library/bigwig/scale/D28P_REP1.mLb.clN.scale_factor.txt"
+        ],
+        "D28P_REP1:bigwig": [
+          "chromap/merged_library/bigwig/D28P_REP1.mLb.clN.bigWig"
+        ],
+        "D28P_REP1:peaks": [
+          "chromap/merged_library/macs3/broad_peak/D28P_REP1.mLb.clN_peaks.broadPeak"
+        ],
+        "consensus_bed": [
+          "chromap/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.bed"
+        ],
+        "consensus_saf": [
+          "chromap/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.saf"
+        ],
+        "featurecounts": [
+          "chromap/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.featureCounts.txt"
+        ],
+        "multiqc": [
+          "multiqc/broad_peak/multiqc_report.html"
+        ],
+        "software_versions": [
+          "pipeline_info/nf_core_atacseq_software_mqc_versions.yml"
+        ]
+      },
+      "task_count": 86,
+      "source_commit": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+      "scope": "Core workflow completion/coverage, not scientific equivalence or a biological conclusion."
+    },
+    "unfixed": {
+      "complete": true,
+      "gates": {
+        "java_exit_zero": true,
+        "nextflow_history_OK": true,
+        "trace_all_completed_or_cached": true,
+        "real_full_pipeline_trace": true,
+        "D28_REP1:marked_bam": true,
+        "D28_REP1:filtered_bam": true,
+        "D28_REP1:markduplicates_metrics": true,
+        "D28_REP1:marked_flagstat": true,
+        "D28_REP1:filtered_flagstat": true,
+        "D28_REP1:scale_factor": true,
+        "D28_REP1:bigwig": true,
+        "D28_REP1:peaks": true,
+        "D28P_REP1:marked_bam": true,
+        "D28P_REP1:filtered_bam": true,
+        "D28P_REP1:markduplicates_metrics": true,
+        "D28P_REP1:marked_flagstat": true,
+        "D28P_REP1:filtered_flagstat": true,
+        "D28P_REP1:scale_factor": true,
+        "D28P_REP1:bigwig": true,
+        "D28P_REP1:peaks": true,
+        "nonempty_consensus_bed": true,
+        "consensus_saf_has_features": true,
+        "counts_have_exactly_two_expected_libraries": true,
+        "counts_have_feature_rows": true,
+        "multiqc": true,
+        "software_versions": true
+      },
+      "failed_gates": [],
+      "featurecounts_columns": {
+        "chromap/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.featureCounts.tsv": [
+          "D28P_REP1.mLb.clN.sorted.bam",
+          "D28_REP1.mLb.clN.sorted.bam"
+        ]
+      },
+      "files": {
+        "D28_REP1:marked_bam": [
+          "chromap/merged_library/D28_REP1.mLb.mkD.sorted.bam"
+        ],
+        "D28_REP1:filtered_bam": [
+          "chromap/merged_library/D28_REP1.mLb.clN.sorted.bam"
+        ],
+        "D28_REP1:markduplicates_metrics": [
+          "chromap/merged_library/picard_metrics/D28_REP1.mLb.mkD.sorted.metrics.txt"
+        ],
+        "D28_REP1:marked_flagstat": [
+          "chromap/merged_library/samtools_stats/D28_REP1.mLb.mkD.sorted.bam.flagstat"
+        ],
+        "D28_REP1:filtered_flagstat": [
+          "chromap/merged_library/samtools_stats/D28_REP1.mLb.clN.sorted.bam.flagstat"
+        ],
+        "D28_REP1:scale_factor": [
+          "chromap/merged_library/bigwig/scale/D28_REP1.mLb.clN.scale_factor.txt"
+        ],
+        "D28_REP1:bigwig": [
+          "chromap/merged_library/bigwig/D28_REP1.mLb.clN.bigWig"
+        ],
+        "D28_REP1:peaks": [
+          "chromap/merged_library/macs3/broad_peak/D28_REP1.mLb.clN_peaks.broadPeak"
+        ],
+        "D28P_REP1:marked_bam": [
+          "chromap/merged_library/D28P_REP1.mLb.mkD.sorted.bam"
+        ],
+        "D28P_REP1:filtered_bam": [
+          "chromap/merged_library/D28P_REP1.mLb.clN.sorted.bam"
+        ],
+        "D28P_REP1:markduplicates_metrics": [
+          "chromap/merged_library/picard_metrics/D28P_REP1.mLb.mkD.sorted.metrics.txt"
+        ],
+        "D28P_REP1:marked_flagstat": [
+          "chromap/merged_library/samtools_stats/D28P_REP1.mLb.mkD.sorted.bam.flagstat"
+        ],
+        "D28P_REP1:filtered_flagstat": [
+          "chromap/merged_library/samtools_stats/D28P_REP1.mLb.clN.sorted.bam.flagstat"
+        ],
+        "D28P_REP1:scale_factor": [
+          "chromap/merged_library/bigwig/scale/D28P_REP1.mLb.clN.scale_factor.txt"
+        ],
+        "D28P_REP1:bigwig": [
+          "chromap/merged_library/bigwig/D28P_REP1.mLb.clN.bigWig"
+        ],
+        "D28P_REP1:peaks": [
+          "chromap/merged_library/macs3/broad_peak/D28P_REP1.mLb.clN_peaks.broadPeak"
+        ],
+        "consensus_bed": [
+          "chromap/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.bed"
+        ],
+        "consensus_saf": [
+          "chromap/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.saf"
+        ],
+        "featurecounts": [
+          "chromap/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.featureCounts.tsv"
+        ],
+        "multiqc": [
+          "multiqc/broad_peak/multiqc_report.html"
+        ],
+        "software_versions": [
+          "pipeline_info/nf_core_atacseq_software_mqc_versions.yml"
+        ]
+      },
+      "task_count": 90,
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "scope": "Core workflow completion/coverage, not scientific equivalence or a biological conclusion."
+    },
+    "fixed": {
+      "complete": true,
+      "gates": {
+        "java_exit_zero": true,
+        "nextflow_history_OK": true,
+        "trace_all_completed_or_cached": true,
+        "real_full_pipeline_trace": true,
+        "D28_REP1:marked_bam": true,
+        "D28_REP1:filtered_bam": true,
+        "D28_REP1:markduplicates_metrics": true,
+        "D28_REP1:marked_flagstat": true,
+        "D28_REP1:filtered_flagstat": true,
+        "D28_REP1:scale_factor": true,
+        "D28_REP1:bigwig": true,
+        "D28_REP1:peaks": true,
+        "D28P_REP1:marked_bam": true,
+        "D28P_REP1:filtered_bam": true,
+        "D28P_REP1:markduplicates_metrics": true,
+        "D28P_REP1:marked_flagstat": true,
+        "D28P_REP1:filtered_flagstat": true,
+        "D28P_REP1:scale_factor": true,
+        "D28P_REP1:bigwig": true,
+        "D28P_REP1:peaks": true,
+        "nonempty_consensus_bed": true,
+        "consensus_saf_has_features": true,
+        "counts_have_exactly_two_expected_libraries": true,
+        "counts_have_feature_rows": true,
+        "multiqc": true,
+        "software_versions": true
+      },
+      "failed_gates": [],
+      "featurecounts_columns": {
+        "chromap/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.featureCounts.tsv": [
+          "D28P_REP1.mLb.clN.sorted.bam",
+          "D28_REP1.mLb.clN.sorted.bam"
+        ]
+      },
+      "files": {
+        "D28_REP1:marked_bam": [
+          "chromap/merged_library/D28_REP1.mLb.mkD.sorted.bam"
+        ],
+        "D28_REP1:filtered_bam": [
+          "chromap/merged_library/D28_REP1.mLb.clN.sorted.bam"
+        ],
+        "D28_REP1:markduplicates_metrics": [
+          "chromap/merged_library/picard_metrics/D28_REP1.mLb.mkD.sorted.metrics.txt"
+        ],
+        "D28_REP1:marked_flagstat": [
+          "chromap/merged_library/samtools_stats/D28_REP1.mLb.mkD.sorted.bam.flagstat"
+        ],
+        "D28_REP1:filtered_flagstat": [
+          "chromap/merged_library/samtools_stats/D28_REP1.mLb.clN.sorted.bam.flagstat"
+        ],
+        "D28_REP1:scale_factor": [
+          "chromap/merged_library/bigwig/scale/D28_REP1.mLb.clN.scale_factor.txt"
+        ],
+        "D28_REP1:bigwig": [
+          "chromap/merged_library/bigwig/D28_REP1.mLb.clN.bigWig"
+        ],
+        "D28_REP1:peaks": [
+          "chromap/merged_library/macs3/broad_peak/D28_REP1.mLb.clN_peaks.broadPeak"
+        ],
+        "D28P_REP1:marked_bam": [
+          "chromap/merged_library/D28P_REP1.mLb.mkD.sorted.bam"
+        ],
+        "D28P_REP1:filtered_bam": [
+          "chromap/merged_library/D28P_REP1.mLb.clN.sorted.bam"
+        ],
+        "D28P_REP1:markduplicates_metrics": [
+          "chromap/merged_library/picard_metrics/D28P_REP1.mLb.mkD.sorted.metrics.txt"
+        ],
+        "D28P_REP1:marked_flagstat": [
+          "chromap/merged_library/samtools_stats/D28P_REP1.mLb.mkD.sorted.bam.flagstat"
+        ],
+        "D28P_REP1:filtered_flagstat": [
+          "chromap/merged_library/samtools_stats/D28P_REP1.mLb.clN.sorted.bam.flagstat"
+        ],
+        "D28P_REP1:scale_factor": [
+          "chromap/merged_library/bigwig/scale/D28P_REP1.mLb.clN.scale_factor.txt"
+        ],
+        "D28P_REP1:bigwig": [
+          "chromap/merged_library/bigwig/D28P_REP1.mLb.clN.bigWig"
+        ],
+        "D28P_REP1:peaks": [
+          "chromap/merged_library/macs3/broad_peak/D28P_REP1.mLb.clN_peaks.broadPeak"
+        ],
+        "consensus_bed": [
+          "chromap/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.bed"
+        ],
+        "consensus_saf": [
+          "chromap/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.saf"
+        ],
+        "featurecounts": [
+          "chromap/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.featureCounts.tsv"
+        ],
+        "multiqc": [
+          "multiqc/broad_peak/multiqc_report.html"
+        ],
+        "software_versions": [
+          "pipeline_info/nf_core_atacseq_software_mqc_versions.yml"
+        ]
+      },
+      "task_count": 90,
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "scope": "Core workflow completion/coverage, not scientific equivalence or a biological conclusion."
+    }
+  },
+  "limits": "No claim of equivalence; compare metrics/counts separately. Optional QC was disabled equally; prefix subsets are not full experiments."
+}

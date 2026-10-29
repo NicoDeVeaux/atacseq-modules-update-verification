@@ -1,0 +1,4813 @@
+{
+  "case": "pr448-hiv-bwa-fixed-a9b588",
+  "files": [
+    {
+      "available_hash": null,
+      "bytes": 576817,
+      "etag": null,
+      "last_modified": "2026-10-28T21:18:39Z",
+      "relative_path": "fastqc/HIV_CD86HI_48H_REP1_T1_1_fastqc.html"
+    },
+    {
+      "available_hash": null,
+      "bytes": 587470,
+      "etag": null,
+      "last_modified": "2026-10-28T21:18:39Z",
+      "relative_path": "fastqc/HIV_CD86HI_48H_REP1_T1_2_fastqc.html"
+    },
+    {
+      "available_hash": null,
+      "bytes": 575825,
+      "etag": null,
+      "last_modified": "2026-10-28T21:34:59Z",
+      "relative_path": "fastqc/HIV_CD86HI_48H_REP2_T1_1_fastqc.html"
+    },
+    {
+      "available_hash": null,
+      "bytes": 585006,
+      "etag": null,
+      "last_modified": "2026-10-28T21:34:59Z",
+      "relative_path": "fastqc/HIV_CD86HI_48H_REP2_T1_2_fastqc.html"
+    },
+    {
+      "available_hash": null,
+      "bytes": 572942,
+      "etag": null,
+      "last_modified": "2026-10-28T21:43:29Z",
+      "relative_path": "fastqc/MOCK_48H_REP1_T1_1_fastqc.html"
+    },
+    {
+      "available_hash": null,
+      "bytes": 588924,
+      "etag": null,
+      "last_modified": "2026-10-28T21:43:29Z",
+      "relative_path": "fastqc/MOCK_48H_REP1_T1_2_fastqc.html"
+    },
+    {
+      "available_hash": null,
+      "bytes": 576499,
+      "etag": null,
+      "last_modified": "2026-10-28T22:33:09Z",
+      "relative_path": "fastqc/MOCK_48H_REP2_T1_1_fastqc.html"
+    },
+    {
+      "available_hash": null,
+      "bytes": 586152,
+      "etag": null,
+      "last_modified": "2026-10-28T22:33:09Z",
+      "relative_path": "fastqc/MOCK_48H_REP2_T1_2_fastqc.html"
+    },
+    {
+      "available_hash": null,
+      "bytes": 93,
+      "etag": null,
+      "last_modified": "2026-10-29T04:19:19Z",
+      "relative_path": "genome/genome.fa"
+    },
+    {
+      "available_hash": null,
+      "bytes": 7804,
+      "etag": null,
+      "last_modified": "2026-10-29T04:19:19Z",
+      "relative_path": "genome/genome.fa.fai"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2119632,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:56Z",
+      "relative_path": "pipeline_info/execution_report_2026-10-28_20-41-23.html"
+    },
+    {
+      "available_hash": null,
+      "bytes": 43067,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:56Z",
+      "relative_path": "pipeline_info/execution_trace_2026-10-28_20-41-23.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 1603,
+      "etag": null,
+      "last_modified": "2026-10-29T04:19:19Z",
+      "relative_path": "pipeline_info/nf_core_atacseq_software_mqc_versions.yml"
+    },
+    {
+      "available_hash": null,
+      "bytes": 46945,
+      "etag": null,
+      "last_modified": "2026-10-28T20:42:01Z",
+      "relative_path": "pipeline_info/params_2026-10-28_20-42-00.json"
+    },
+    {
+      "available_hash": null,
+      "bytes": 25975,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:55Z",
+      "relative_path": "pipeline_info/pipeline_dag_2026-10-28_20-41-23.html"
+    },
+    {
+      "available_hash": null,
+      "bytes": 800,
+      "etag": null,
+      "last_modified": "2026-10-28T20:45:09Z",
+      "relative_path": "pipeline_info/samplesheet.valid.csv"
+    },
+    {
+      "available_hash": null,
+      "bytes": 285036036,
+      "etag": null,
+      "last_modified": "2026-10-29T00:34:09Z",
+      "relative_path": "bwa/merged_library/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam"
+    },
+    {
+      "available_hash": null,
+      "bytes": 4146400,
+      "etag": null,
+      "last_modified": "2026-10-29T00:41:39Z",
+      "relative_path": "bwa/merged_library/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam.bai"
+    },
+    {
+      "available_hash": null,
+      "bytes": 401126021,
+      "etag": null,
+      "last_modified": "2026-10-29T00:32:59Z",
+      "relative_path": "bwa/merged_library/HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3742296,
+      "etag": null,
+      "last_modified": "2026-10-29T00:36:09Z",
+      "relative_path": "bwa/merged_library/HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam.bai"
+    },
+    {
+      "available_hash": null,
+      "bytes": 304910830,
+      "etag": null,
+      "last_modified": "2026-10-29T00:31:49Z",
+      "relative_path": "bwa/merged_library/MOCK_48H_REP1.mLb.clN.sorted.bam"
+    },
+    {
+      "available_hash": null,
+      "bytes": 4082264,
+      "etag": null,
+      "last_modified": "2026-10-29T00:34:49Z",
+      "relative_path": "bwa/merged_library/MOCK_48H_REP1.mLb.clN.sorted.bam.bai"
+    },
+    {
+      "available_hash": null,
+      "bytes": 437456249,
+      "etag": null,
+      "last_modified": "2026-10-29T00:34:19Z",
+      "relative_path": "bwa/merged_library/MOCK_48H_REP2.mLb.clN.sorted.bam"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3706728,
+      "etag": null,
+      "last_modified": "2026-10-29T00:42:09Z",
+      "relative_path": "bwa/merged_library/MOCK_48H_REP2.mLb.clN.sorted.bam.bai"
+    },
+    {
+      "available_hash": null,
+      "bytes": 700869649,
+      "etag": null,
+      "last_modified": "2026-10-29T01:12:49Z",
+      "relative_path": "bwa/merged_replicate/HIV_CD86HI_48H.mRp.clN.sorted.bam"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3038704,
+      "etag": null,
+      "last_modified": "2026-10-29T01:32:39Z",
+      "relative_path": "bwa/merged_replicate/HIV_CD86HI_48H.mRp.clN.sorted.bam.bai"
+    },
+    {
+      "available_hash": null,
+      "bytes": 758315376,
+      "etag": null,
+      "last_modified": "2026-10-29T01:15:49Z",
+      "relative_path": "bwa/merged_replicate/MOCK_48H.mRp.clN.sorted.bam"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3000832,
+      "etag": null,
+      "last_modified": "2026-10-29T01:35:59Z",
+      "relative_path": "bwa/merged_replicate/MOCK_48H.mRp.clN.sorted.bam.bai"
+    },
+    {
+      "available_hash": null,
+      "bytes": 364747,
+      "etag": null,
+      "last_modified": "2026-10-28T21:18:39Z",
+      "relative_path": "fastqc/zips/HIV_CD86HI_48H_REP1_T1_1_fastqc.zip"
+    },
+    {
+      "available_hash": null,
+      "bytes": 363590,
+      "etag": null,
+      "last_modified": "2026-10-28T21:18:39Z",
+      "relative_path": "fastqc/zips/HIV_CD86HI_48H_REP1_T1_2_fastqc.zip"
+    },
+    {
+      "available_hash": null,
+      "bytes": 363269,
+      "etag": null,
+      "last_modified": "2026-10-28T21:34:59Z",
+      "relative_path": "fastqc/zips/HIV_CD86HI_48H_REP2_T1_1_fastqc.zip"
+    },
+    {
+      "available_hash": null,
+      "bytes": 365479,
+      "etag": null,
+      "last_modified": "2026-10-28T21:34:59Z",
+      "relative_path": "fastqc/zips/HIV_CD86HI_48H_REP2_T1_2_fastqc.zip"
+    },
+    {
+      "available_hash": null,
+      "bytes": 360816,
+      "etag": null,
+      "last_modified": "2026-10-28T21:43:29Z",
+      "relative_path": "fastqc/zips/MOCK_48H_REP1_T1_1_fastqc.zip"
+    },
+    {
+      "available_hash": null,
+      "bytes": 363930,
+      "etag": null,
+      "last_modified": "2026-10-28T21:43:29Z",
+      "relative_path": "fastqc/zips/MOCK_48H_REP1_T1_2_fastqc.zip"
+    },
+    {
+      "available_hash": null,
+      "bytes": 364790,
+      "etag": null,
+      "last_modified": "2026-10-28T22:33:09Z",
+      "relative_path": "fastqc/zips/MOCK_48H_REP2_T1_1_fastqc.zip"
+    },
+    {
+      "available_hash": null,
+      "bytes": 369596,
+      "etag": null,
+      "last_modified": "2026-10-28T22:33:09Z",
+      "relative_path": "fastqc/zips/MOCK_48H_REP2_T1_2_fastqc.zip"
+    },
+    {
+      "available_hash": null,
+      "bytes": 1056,
+      "etag": null,
+      "last_modified": "2026-10-29T04:19:19Z",
+      "relative_path": "igv/broad_peak/igv_files.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 7747,
+      "etag": null,
+      "last_modified": "2026-10-29T04:19:19Z",
+      "relative_path": "igv/broad_peak/igv_session.xml"
+    },
+    {
+      "available_hash": null,
+      "bytes": 1582885,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:30Z",
+      "relative_path": "multiqc/broad_peak/multiqc_report.html"
+    },
+    {
+      "available_hash": null,
+      "bytes": 302454,
+      "etag": null,
+      "last_modified": "2026-10-28T21:19:59Z",
+      "relative_path": "trimgalore/fastqc/HIV_CD86HI_48H_REP1_T1_1_val_1_fastqc.html"
+    },
+    {
+      "available_hash": null,
+      "bytes": 300906,
+      "etag": null,
+      "last_modified": "2026-10-28T21:19:59Z",
+      "relative_path": "trimgalore/fastqc/HIV_CD86HI_48H_REP1_T1_2_val_2_fastqc.html"
+    },
+    {
+      "available_hash": null,
+      "bytes": 300774,
+      "etag": null,
+      "last_modified": "2026-10-28T21:43:19Z",
+      "relative_path": "trimgalore/fastqc/HIV_CD86HI_48H_REP2_T1_1_val_1_fastqc.html"
+    },
+    {
+      "available_hash": null,
+      "bytes": 303286,
+      "etag": null,
+      "last_modified": "2026-10-28T21:43:19Z",
+      "relative_path": "trimgalore/fastqc/HIV_CD86HI_48H_REP2_T1_2_val_2_fastqc.html"
+    },
+    {
+      "available_hash": null,
+      "bytes": 302727,
+      "etag": null,
+      "last_modified": "2026-10-28T21:46:39Z",
+      "relative_path": "trimgalore/fastqc/MOCK_48H_REP1_T1_1_val_1_fastqc.html"
+    },
+    {
+      "available_hash": null,
+      "bytes": 300267,
+      "etag": null,
+      "last_modified": "2026-10-28T21:46:39Z",
+      "relative_path": "trimgalore/fastqc/MOCK_48H_REP1_T1_2_val_2_fastqc.html"
+    },
+    {
+      "available_hash": null,
+      "bytes": 304628,
+      "etag": null,
+      "last_modified": "2026-10-28T22:37:59Z",
+      "relative_path": "trimgalore/fastqc/MOCK_48H_REP2_T1_1_val_1_fastqc.html"
+    },
+    {
+      "available_hash": null,
+      "bytes": 302912,
+      "etag": null,
+      "last_modified": "2026-10-28T22:37:59Z",
+      "relative_path": "trimgalore/fastqc/MOCK_48H_REP2_T1_2_val_2_fastqc.html"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3282,
+      "etag": null,
+      "last_modified": "2026-10-28T21:19:59Z",
+      "relative_path": "trimgalore/logs/HIV_CD86HI_48H_REP1_T1_1.fastq.gz_trimming_report.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3675,
+      "etag": null,
+      "last_modified": "2026-10-28T21:19:59Z",
+      "relative_path": "trimgalore/logs/HIV_CD86HI_48H_REP1_T1_2.fastq.gz_trimming_report.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3278,
+      "etag": null,
+      "last_modified": "2026-10-28T21:43:19Z",
+      "relative_path": "trimgalore/logs/HIV_CD86HI_48H_REP2_T1_1.fastq.gz_trimming_report.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3673,
+      "etag": null,
+      "last_modified": "2026-10-28T21:43:19Z",
+      "relative_path": "trimgalore/logs/HIV_CD86HI_48H_REP2_T1_2.fastq.gz_trimming_report.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3262,
+      "etag": null,
+      "last_modified": "2026-10-28T21:46:39Z",
+      "relative_path": "trimgalore/logs/MOCK_48H_REP1_T1_1.fastq.gz_trimming_report.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3653,
+      "etag": null,
+      "last_modified": "2026-10-28T21:46:39Z",
+      "relative_path": "trimgalore/logs/MOCK_48H_REP1_T1_2.fastq.gz_trimming_report.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3272,
+      "etag": null,
+      "last_modified": "2026-10-28T22:37:59Z",
+      "relative_path": "trimgalore/logs/MOCK_48H_REP2_T1_1.fastq.gz_trimming_report.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3667,
+      "etag": null,
+      "last_modified": "2026-10-28T22:37:59Z",
+      "relative_path": "trimgalore/logs/MOCK_48H_REP2_T1_2.fastq.gz_trimming_report.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 29204097,
+      "etag": null,
+      "last_modified": "2026-10-29T02:11:29Z",
+      "relative_path": "bwa/merged_library/bigwig/HIV_CD86HI_48H_REP1.mLb.clN.bigWig"
+    },
+    {
+      "available_hash": null,
+      "bytes": 38214870,
+      "etag": null,
+      "last_modified": "2026-10-29T01:36:19Z",
+      "relative_path": "bwa/merged_library/bigwig/HIV_CD86HI_48H_REP2.mLb.clN.bigWig"
+    },
+    {
+      "available_hash": null,
+      "bytes": 31661385,
+      "etag": null,
+      "last_modified": "2026-10-29T01:33:39Z",
+      "relative_path": "bwa/merged_library/bigwig/MOCK_48H_REP1.mLb.clN.bigWig"
+    },
+    {
+      "available_hash": null,
+      "bytes": 43054594,
+      "etag": null,
+      "last_modified": "2026-10-29T02:19:39Z",
+      "relative_path": "bwa/merged_library/bigwig/MOCK_48H_REP2.mLb.clN.bigWig"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3013,
+      "etag": null,
+      "last_modified": "2026-10-29T00:43:09Z",
+      "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.alignment_summary_metrics"
+    },
+    {
+      "available_hash": null,
+      "bytes": 8512,
+      "etag": null,
+      "last_modified": "2026-10-29T00:43:09Z",
+      "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.base_distribution_by_cycle_metrics"
+    },
+    {
+      "available_hash": null,
+      "bytes": 7885,
+      "etag": null,
+      "last_modified": "2026-10-29T00:43:09Z",
+      "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.insert_size_metrics"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2894,
+      "etag": null,
+      "last_modified": "2026-10-29T00:43:09Z",
+      "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.quality_by_cycle_metrics"
+    },
+    {
+      "available_hash": null,
+      "bytes": 945,
+      "etag": null,
+      "last_modified": "2026-10-29T00:43:09Z",
+      "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.quality_distribution_metrics"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15166,
+      "etag": null,
+      "last_modified": "2026-10-28T23:57:29Z",
+      "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP1.mLb.mkD.sorted.metrics.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3015,
+      "etag": null,
+      "last_modified": "2026-10-29T00:37:19Z",
+      "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.alignment_summary_metrics"
+    },
+    {
+      "available_hash": null,
+      "bytes": 8554,
+      "etag": null,
+      "last_modified": "2026-10-29T00:37:19Z",
+      "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.base_distribution_by_cycle_metrics"
+    },
+    {
+      "available_hash": null,
+      "bytes": 7367,
+      "etag": null,
+      "last_modified": "2026-10-29T00:37:19Z",
+      "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.insert_size_metrics"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2898,
+      "etag": null,
+      "last_modified": "2026-10-29T00:37:19Z",
+      "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.quality_by_cycle_metrics"
+    },
+    {
+      "available_hash": null,
+      "bytes": 945,
+      "etag": null,
+      "last_modified": "2026-10-29T00:37:19Z",
+      "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.quality_distribution_metrics"
+    },
+    {
+      "available_hash": null,
+      "bytes": 14310,
+      "etag": null,
+      "last_modified": "2026-10-28T23:50:09Z",
+      "relative_path": "bwa/merged_library/picard_metrics/HIV_CD86HI_48H_REP2.mLb.mkD.sorted.metrics.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2997,
+      "etag": null,
+      "last_modified": "2026-10-29T00:35:49Z",
+      "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.alignment_summary_metrics"
+    },
+    {
+      "available_hash": null,
+      "bytes": 8505,
+      "etag": null,
+      "last_modified": "2026-10-29T00:35:49Z",
+      "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.base_distribution_by_cycle_metrics"
+    },
+    {
+      "available_hash": null,
+      "bytes": 6872,
+      "etag": null,
+      "last_modified": "2026-10-29T00:35:49Z",
+      "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.insert_size_metrics"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2884,
+      "etag": null,
+      "last_modified": "2026-10-29T00:35:49Z",
+      "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.quality_by_cycle_metrics"
+    },
+    {
+      "available_hash": null,
+      "bytes": 933,
+      "etag": null,
+      "last_modified": "2026-10-29T00:35:49Z",
+      "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.quality_distribution_metrics"
+    },
+    {
+      "available_hash": null,
+      "bytes": 13627,
+      "etag": null,
+      "last_modified": "2026-10-28T23:51:09Z",
+      "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP1.mLb.mkD.sorted.metrics.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3024,
+      "etag": null,
+      "last_modified": "2026-10-29T00:43:49Z",
+      "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.alignment_summary_metrics"
+    },
+    {
+      "available_hash": null,
+      "bytes": 8513,
+      "etag": null,
+      "last_modified": "2026-10-29T00:43:49Z",
+      "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.base_distribution_by_cycle_metrics"
+    },
+    {
+      "available_hash": null,
+      "bytes": 6389,
+      "etag": null,
+      "last_modified": "2026-10-29T00:43:49Z",
+      "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.insert_size_metrics"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2877,
+      "etag": null,
+      "last_modified": "2026-10-29T00:43:49Z",
+      "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.quality_by_cycle_metrics"
+    },
+    {
+      "available_hash": null,
+      "bytes": 933,
+      "etag": null,
+      "last_modified": "2026-10-29T00:43:49Z",
+      "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.quality_distribution_metrics"
+    },
+    {
+      "available_hash": null,
+      "bytes": 14399,
+      "etag": null,
+      "last_modified": "2026-10-28T23:59:39Z",
+      "relative_path": "bwa/merged_library/picard_metrics/MOCK_48H_REP2.mLb.mkD.sorted.metrics.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 510,
+      "etag": null,
+      "last_modified": "2026-10-29T01:01:39Z",
+      "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam.flagstat"
+    },
+    {
+      "available_hash": null,
+      "bytes": 5520,
+      "etag": null,
+      "last_modified": "2026-10-29T01:01:29Z",
+      "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam.idxstats"
+    },
+    {
+      "available_hash": null,
+      "bytes": 57706,
+      "etag": null,
+      "last_modified": "2026-10-29T01:02:29Z",
+      "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam.stats"
+    },
+    {
+      "available_hash": null,
+      "bytes": 543,
+      "etag": null,
+      "last_modified": "2026-10-29T00:05:59Z",
+      "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.mkD.sorted.bam.flagstat"
+    },
+    {
+      "available_hash": null,
+      "bytes": 5667,
+      "etag": null,
+      "last_modified": "2026-10-29T00:07:29Z",
+      "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.mkD.sorted.bam.idxstats"
+    },
+    {
+      "available_hash": null,
+      "bytes": 74151,
+      "etag": null,
+      "last_modified": "2026-10-29T00:08:19Z",
+      "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP1.mLb.mkD.sorted.bam.stats"
+    },
+    {
+      "available_hash": null,
+      "bytes": 510,
+      "etag": null,
+      "last_modified": "2026-10-29T00:46:59Z",
+      "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam.flagstat"
+    },
+    {
+      "available_hash": null,
+      "bytes": 5540,
+      "etag": null,
+      "last_modified": "2026-10-29T00:49:49Z",
+      "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam.idxstats"
+    },
+    {
+      "available_hash": null,
+      "bytes": 58625,
+      "etag": null,
+      "last_modified": "2026-10-29T00:50:19Z",
+      "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam.stats"
+    },
+    {
+      "available_hash": null,
+      "bytes": 543,
+      "etag": null,
+      "last_modified": "2026-10-29T00:05:19Z",
+      "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.mkD.sorted.bam.flagstat"
+    },
+    {
+      "available_hash": null,
+      "bytes": 5703,
+      "etag": null,
+      "last_modified": "2026-10-29T00:05:29Z",
+      "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.mkD.sorted.bam.idxstats"
+    },
+    {
+      "available_hash": null,
+      "bytes": 75096,
+      "etag": null,
+      "last_modified": "2026-10-29T00:05:49Z",
+      "relative_path": "bwa/merged_library/samtools_stats/HIV_CD86HI_48H_REP2.mLb.mkD.sorted.bam.stats"
+    },
+    {
+      "available_hash": null,
+      "bytes": 510,
+      "etag": null,
+      "last_modified": "2026-10-29T00:42:59Z",
+      "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP1.mLb.clN.sorted.bam.flagstat"
+    },
+    {
+      "available_hash": null,
+      "bytes": 5527,
+      "etag": null,
+      "last_modified": "2026-10-29T00:43:09Z",
+      "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP1.mLb.clN.sorted.bam.idxstats"
+    },
+    {
+      "available_hash": null,
+      "bytes": 57605,
+      "etag": null,
+      "last_modified": "2026-10-29T00:43:39Z",
+      "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP1.mLb.clN.sorted.bam.stats"
+    },
+    {
+      "available_hash": null,
+      "bytes": 543,
+      "etag": null,
+      "last_modified": "2026-10-29T00:05:49Z",
+      "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP1.mLb.mkD.sorted.bam.flagstat"
+    },
+    {
+      "available_hash": null,
+      "bytes": 5682,
+      "etag": null,
+      "last_modified": "2026-10-29T00:05:39Z",
+      "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP1.mLb.mkD.sorted.bam.idxstats"
+    },
+    {
+      "available_hash": null,
+      "bytes": 75004,
+      "etag": null,
+      "last_modified": "2026-10-29T00:08:19Z",
+      "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP1.mLb.mkD.sorted.bam.stats"
+    },
+    {
+      "available_hash": null,
+      "bytes": 510,
+      "etag": null,
+      "last_modified": "2026-10-29T01:05:29Z",
+      "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP2.mLb.clN.sorted.bam.flagstat"
+    },
+    {
+      "available_hash": null,
+      "bytes": 5547,
+      "etag": null,
+      "last_modified": "2026-10-29T01:06:19Z",
+      "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP2.mLb.clN.sorted.bam.idxstats"
+    },
+    {
+      "available_hash": null,
+      "bytes": 59018,
+      "etag": null,
+      "last_modified": "2026-10-29T01:06:59Z",
+      "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP2.mLb.clN.sorted.bam.stats"
+    },
+    {
+      "available_hash": null,
+      "bytes": 544,
+      "etag": null,
+      "last_modified": "2026-10-29T00:10:49Z",
+      "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP2.mLb.mkD.sorted.bam.flagstat"
+    },
+    {
+      "available_hash": null,
+      "bytes": 5725,
+      "etag": null,
+      "last_modified": "2026-10-29T00:09:59Z",
+      "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP2.mLb.mkD.sorted.bam.idxstats"
+    },
+    {
+      "available_hash": null,
+      "bytes": 75406,
+      "etag": null,
+      "last_modified": "2026-10-29T00:11:39Z",
+      "relative_path": "bwa/merged_library/samtools_stats/MOCK_48H_REP2.mLb.mkD.sorted.bam.stats"
+    },
+    {
+      "available_hash": null,
+      "bytes": 57996443,
+      "etag": null,
+      "last_modified": "2026-10-29T04:05:39Z",
+      "relative_path": "bwa/merged_replicate/bigwig/HIV_CD86HI_48H.mRp.clN.bigWig"
+    },
+    {
+      "available_hash": null,
+      "bytes": 64878647,
+      "etag": null,
+      "last_modified": "2026-10-29T04:06:59Z",
+      "relative_path": "bwa/merged_replicate/bigwig/MOCK_48H.mRp.clN.bigWig"
+    },
+    {
+      "available_hash": null,
+      "bytes": 1947,
+      "etag": null,
+      "last_modified": "2026-10-29T01:12:49Z",
+      "relative_path": "bwa/merged_replicate/picard_metrics/HIV_CD86HI_48H.mRp.clN.sorted.metrics.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 1917,
+      "etag": null,
+      "last_modified": "2026-10-29T01:15:49Z",
+      "relative_path": "bwa/merged_replicate/picard_metrics/MOCK_48H.mRp.clN.sorted.metrics.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 517,
+      "etag": null,
+      "last_modified": "2026-10-29T02:19:29Z",
+      "relative_path": "bwa/merged_replicate/samtools_stats/HIV_CD86HI_48H.mRp.clN.sorted.bam.flagstat"
+    },
+    {
+      "available_hash": null,
+      "bytes": 5568,
+      "etag": null,
+      "last_modified": "2026-10-29T02:19:29Z",
+      "relative_path": "bwa/merged_replicate/samtools_stats/HIV_CD86HI_48H.mRp.clN.sorted.bam.idxstats"
+    },
+    {
+      "available_hash": null,
+      "bytes": 61180,
+      "etag": null,
+      "last_modified": "2026-10-29T02:19:29Z",
+      "relative_path": "bwa/merged_replicate/samtools_stats/HIV_CD86HI_48H.mRp.clN.sorted.bam.stats"
+    },
+    {
+      "available_hash": null,
+      "bytes": 517,
+      "etag": null,
+      "last_modified": "2026-10-29T02:22:09Z",
+      "relative_path": "bwa/merged_replicate/samtools_stats/MOCK_48H.mRp.clN.sorted.bam.flagstat"
+    },
+    {
+      "available_hash": null,
+      "bytes": 5567,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:19Z",
+      "relative_path": "bwa/merged_replicate/samtools_stats/MOCK_48H.mRp.clN.sorted.bam.idxstats"
+    },
+    {
+      "available_hash": null,
+      "bytes": 62522,
+      "etag": null,
+      "last_modified": "2026-10-29T02:22:29Z",
+      "relative_path": "bwa/merged_replicate/samtools_stats/MOCK_48H.mRp.clN.sorted.bam.stats"
+    },
+    {
+      "available_hash": null,
+      "bytes": 9316,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:30Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/deeptools_plot_fingerprint_counts_mlib_deeptools.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 25595,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:30Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/deeptools_plot_profile_mlib_deeptools.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 293,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:30Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_cutadapt_filtered_reads_plot_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 4009,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:30Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_cutadapt_trimmed_sequences_plot_3_Counts.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 6143,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:30Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_cutadapt_trimmed_sequences_plot_3_Obs_Exp.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15563,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:30Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_deeptools_fingerprint_plot_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 12238,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:30Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_fastqc_adapter_content_plot-2_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 24367,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:30Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_fastqc_adapter_content_plot_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 5925,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:30Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_fastqc_per_base_n_content_plot-2_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 7275,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:31Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_fastqc_per_base_n_content_plot_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 6611,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:31Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_fastqc_per_base_sequence_quality_plot-2_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 6571,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:31Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_fastqc_per_base_sequence_quality_plot_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 7081,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:31Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_fastqc_per_sequence_gc_content_plot-2_Counts.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 16799,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:31Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_fastqc_per_sequence_gc_content_plot-2_Percentages.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 7018,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:31Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_fastqc_per_sequence_gc_content_plot_Counts.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 16604,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:31Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_fastqc_per_sequence_gc_content_plot_Percentages.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2591,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:31Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_fastqc_per_sequence_quality_scores_plot-2_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2943,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:31Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_fastqc_per_sequence_quality_scores_plot_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 380,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:32Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_fastqc_sequence_counts_plot-2_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 380,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:32Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_fastqc_sequence_counts_plot_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2128,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:32Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_fastqc_sequence_duplication_levels_plot-2_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2130,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:32Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_fastqc_sequence_duplication_levels_plot_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2284,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:32Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_fastqc_sequence_length_distribution_plot_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 249,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:32Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_featureCounts_assignment_plot-2_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 249,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:32Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_featureCounts_assignment_plot_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 132,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:32Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_picard_alignment_readlength_plot_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 137,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:32Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_picard_alignment_summary__name_Aligned_Bases_ylab_Bases_cpswitch_counts_label_Number_of_Bases_.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 129,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:32Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_picard_alignment_summary__name_Aligned_Reads_ylab_Reads_cpswitch_counts_label_Number_of_Reads_.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 6402,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:32Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_picard_base_distribution_by_cycle__Adenine.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 6399,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:33Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_picard_base_distribution_by_cycle__Cytosine.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 6396,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:33Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_picard_base_distribution_by_cycle__Guanine.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 6383,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:33Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_picard_base_distribution_by_cycle__Thymine.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 4053,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:33Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_picard_base_distribution_by_cycle__Undetermined.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 66,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:33Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_picard_deduplication-2_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 345,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:33Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_picard_deduplication_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 22814,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:33Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_picard_insert_size_Counts.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 66773,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:33Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_picard_insert_size_Percentages.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 6596,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:34Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_picard_quality_by_cycle_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 266,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:34Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_picard_quality_score_distribution_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 8712,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:34Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_read_distribution_profile_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2299,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:34Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_samtools-idxstats-mapped-reads-plot-2_Normalised_Counts.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2165,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:34Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_samtools-idxstats-mapped-reads-plot-2_Observed_over_Expected_Counts.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 919,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:34Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_samtools-idxstats-mapped-reads-plot-2_Raw_Counts.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2157,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:34Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_samtools-idxstats-mapped-reads-plot-3_Normalised_Counts.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2017,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:34Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_samtools-idxstats-mapped-reads-plot-3_Observed_over_Expected_Counts.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 868,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:34Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_samtools-idxstats-mapped-reads-plot-3_Raw_Counts.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 1133,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:34Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_samtools-idxstats-mapped-reads-plot-4_Normalised_Counts.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 1071,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:35Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_samtools-idxstats-mapped-reads-plot-4_Observed_over_Expected_Counts.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 502,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:35Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_samtools-idxstats-mapped-reads-plot-4_Raw_Counts.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2311,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:35Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_samtools-idxstats-mapped-reads-plot_Normalised_Counts.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2177,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:35Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_samtools-idxstats-mapped-reads-plot_Observed_over_Expected_Counts.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 931,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:35Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_samtools-idxstats-mapped-reads-plot_Raw_Counts.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 169,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:35Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_samtools-idxstats-xy-plot-2_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 169,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:35Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_samtools-idxstats-xy-plot-3_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 91,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:35Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_samtools-idxstats-xy-plot-4_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 181,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:35Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_samtools-idxstats-xy-plot_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 171,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:35Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_samtools_alignment_plot-2_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 122,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:36Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_samtools_alignment_plot-3_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 60,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:36Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_samtools_alignment_plot-4_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 183,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:36Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/mqc_samtools_alignment_plot_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 209674,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:36Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc.log"
+    },
+    {
+      "available_hash": null,
+      "bytes": 590,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:36Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_citations.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 934,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:36Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_cutadapt.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3712591,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:36Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_data.json"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2003,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:36Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_fastqc.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2187,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:37Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_fastqc_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 679,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:37Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_featureCounts_mlib_featurecounts.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 679,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:37Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_featureCounts_mrep_featurecounts.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 280,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:37Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_mlib_deseq2_clustering_1-plot.yaml"
+    },
+    {
+      "available_hash": null,
+      "bytes": 218,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:37Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_mlib_deseq2_pca_1-plot.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 190,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:37Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_mlib_frip_score-plot.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 288,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:37Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_mlib_peak_annotation-plot.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 243,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:37Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_mlib_peak_count-plot.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 284,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:37Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_mrep_deseq2_clustering_1-plot.yaml"
+    },
+    {
+      "available_hash": null,
+      "bytes": 219,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:37Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_mrep_deseq2_pca_1-plot.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 75,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:38Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_mrep_frip_score-plot.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 168,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:38Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_mrep_peak_annotation-plot.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 101,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:38Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_mrep_peak_count-plot.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 1622,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:38Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_picard_AlignmentSummaryMetrics.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 1565,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:38Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_picard_baseContent.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 668,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:38Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_picard_dups.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 417,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:38Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_picard_dups_mrep_picard.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 1079,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:38Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_picard_insertSize.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 4507,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:38Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_picard_quality_by_cycle.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 215,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:38Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_picard_quality_score_distribution.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 1461,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:39Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_samtools_flagstat.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 1477,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:39Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_samtools_flagstat_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 1366,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:39Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_samtools_flagstat_2.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 1073,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:39Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_samtools_flagstat_3.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 13464,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:39Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_samtools_idxstats.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 13452,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:39Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_samtools_idxstats_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 13108,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:39Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_samtools_idxstats_2.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 8263,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:39Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_samtools_idxstats_3.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2732,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:39Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_samtools_stats.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2840,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:39Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_samtools_stats_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2357,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:39Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_samtools_stats_2.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 1670,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:40Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_samtools_stats_3.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 31414,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:40Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/multiqc_sources.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 7,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:40Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/picard_histogram.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 7,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:40Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/picard_histogram_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 7,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:40Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/picard_histogram_2.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 4507,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:40Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/picard_histogram_3.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 215,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:40Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/picard_histogram_4.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 7,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:40Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/picard_histogram_5.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 7,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:40Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/picard_histogram_mrep_picard.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 7,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:41Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/picard_histogram_mrep_picard_1.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 7,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:41Z",
+      "relative_path": "multiqc/broad_peak/multiqc_data/picard_histogram_mrep_picard_2.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 375576,
+      "etag": null,
+      "last_modified": "2026-10-28T21:19:59Z",
+      "relative_path": "trimgalore/fastqc/zips/HIV_CD86HI_48H_REP1_T1_1_val_1_fastqc.zip"
+    },
+    {
+      "available_hash": null,
+      "bytes": 373426,
+      "etag": null,
+      "last_modified": "2026-10-28T21:19:59Z",
+      "relative_path": "trimgalore/fastqc/zips/HIV_CD86HI_48H_REP1_T1_2_val_2_fastqc.zip"
+    },
+    {
+      "available_hash": null,
+      "bytes": 372300,
+      "etag": null,
+      "last_modified": "2026-10-28T21:43:19Z",
+      "relative_path": "trimgalore/fastqc/zips/HIV_CD86HI_48H_REP2_T1_1_val_1_fastqc.zip"
+    },
+    {
+      "available_hash": null,
+      "bytes": 376911,
+      "etag": null,
+      "last_modified": "2026-10-28T21:43:19Z",
+      "relative_path": "trimgalore/fastqc/zips/HIV_CD86HI_48H_REP2_T1_2_val_2_fastqc.zip"
+    },
+    {
+      "available_hash": null,
+      "bytes": 374653,
+      "etag": null,
+      "last_modified": "2026-10-28T21:46:39Z",
+      "relative_path": "trimgalore/fastqc/zips/MOCK_48H_REP1_T1_1_val_1_fastqc.zip"
+    },
+    {
+      "available_hash": null,
+      "bytes": 370754,
+      "etag": null,
+      "last_modified": "2026-10-28T21:46:39Z",
+      "relative_path": "trimgalore/fastqc/zips/MOCK_48H_REP1_T1_2_val_2_fastqc.zip"
+    },
+    {
+      "available_hash": null,
+      "bytes": 378504,
+      "etag": null,
+      "last_modified": "2026-10-28T22:37:59Z",
+      "relative_path": "trimgalore/fastqc/zips/MOCK_48H_REP2_T1_1_val_1_fastqc.zip"
+    },
+    {
+      "available_hash": null,
+      "bytes": 376097,
+      "etag": null,
+      "last_modified": "2026-10-28T22:37:59Z",
+      "relative_path": "trimgalore/fastqc/zips/MOCK_48H_REP2_T1_2_val_2_fastqc.zip"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3186185,
+      "etag": null,
+      "last_modified": "2026-10-29T01:29:19Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/HIV_CD86HI_48H_REP1.ataqv.json"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3725727,
+      "etag": null,
+      "last_modified": "2026-10-29T01:23:49Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/HIV_CD86HI_48H_REP2.ataqv.json"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3550497,
+      "etag": null,
+      "last_modified": "2026-10-29T01:16:39Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/MOCK_48H_REP1.ataqv.json"
+    },
+    {
+      "available_hash": null,
+      "bytes": 4955100,
+      "etag": null,
+      "last_modified": "2026-10-29T01:33:19Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/MOCK_48H_REP2.ataqv.json"
+    },
+    {
+      "available_hash": null,
+      "bytes": 9,
+      "etag": null,
+      "last_modified": "2026-10-29T01:30:29Z",
+      "relative_path": "bwa/merged_library/bigwig/scale/HIV_CD86HI_48H_REP1.mLb.clN.scale_factor.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 9,
+      "etag": null,
+      "last_modified": "2026-10-29T01:20:29Z",
+      "relative_path": "bwa/merged_library/bigwig/scale/HIV_CD86HI_48H_REP2.mLb.clN.scale_factor.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 9,
+      "etag": null,
+      "last_modified": "2026-10-29T01:12:59Z",
+      "relative_path": "bwa/merged_library/bigwig/scale/MOCK_48H_REP1.mLb.clN.scale_factor.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 9,
+      "etag": null,
+      "last_modified": "2026-10-29T01:35:39Z",
+      "relative_path": "bwa/merged_library/bigwig/scale/MOCK_48H_REP2.mLb.clN.scale_factor.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 12887,
+      "etag": null,
+      "last_modified": "2026-10-29T01:05:59Z",
+      "relative_path": "bwa/merged_library/deeptools/plotfingerprint/HIV_CD86HI_48H_REP1.mLb.clN.plotFingerprint.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 283,
+      "etag": null,
+      "last_modified": "2026-10-29T01:05:59Z",
+      "relative_path": "bwa/merged_library/deeptools/plotfingerprint/HIV_CD86HI_48H_REP1.mLb.clN.plotFingerprint.qcmetrics.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 546256,
+      "etag": null,
+      "last_modified": "2026-10-29T01:05:59Z",
+      "relative_path": "bwa/merged_library/deeptools/plotfingerprint/HIV_CD86HI_48H_REP1.mLb.clN.plotFingerprint.raw.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 12898,
+      "etag": null,
+      "last_modified": "2026-10-29T00:51:19Z",
+      "relative_path": "bwa/merged_library/deeptools/plotfingerprint/HIV_CD86HI_48H_REP2.mLb.clN.plotFingerprint.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 283,
+      "etag": null,
+      "last_modified": "2026-10-29T00:51:19Z",
+      "relative_path": "bwa/merged_library/deeptools/plotfingerprint/HIV_CD86HI_48H_REP2.mLb.clN.plotFingerprint.qcmetrics.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 719188,
+      "etag": null,
+      "last_modified": "2026-10-29T00:51:19Z",
+      "relative_path": "bwa/merged_library/deeptools/plotfingerprint/HIV_CD86HI_48H_REP2.mLb.clN.plotFingerprint.raw.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 13011,
+      "etag": null,
+      "last_modified": "2026-10-29T00:45:59Z",
+      "relative_path": "bwa/merged_library/deeptools/plotfingerprint/MOCK_48H_REP1.mLb.clN.plotFingerprint.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 275,
+      "etag": null,
+      "last_modified": "2026-10-29T00:45:59Z",
+      "relative_path": "bwa/merged_library/deeptools/plotfingerprint/MOCK_48H_REP1.mLb.clN.plotFingerprint.qcmetrics.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 597141,
+      "etag": null,
+      "last_modified": "2026-10-29T00:45:59Z",
+      "relative_path": "bwa/merged_library/deeptools/plotfingerprint/MOCK_48H_REP1.mLb.clN.plotFingerprint.raw.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 13030,
+      "etag": null,
+      "last_modified": "2026-10-29T01:09:19Z",
+      "relative_path": "bwa/merged_library/deeptools/plotfingerprint/MOCK_48H_REP2.mLb.clN.plotFingerprint.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 276,
+      "etag": null,
+      "last_modified": "2026-10-29T01:09:19Z",
+      "relative_path": "bwa/merged_library/deeptools/plotfingerprint/MOCK_48H_REP2.mLb.clN.plotFingerprint.qcmetrics.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 757568,
+      "etag": null,
+      "last_modified": "2026-10-29T01:09:19Z",
+      "relative_path": "bwa/merged_library/deeptools/plotfingerprint/MOCK_48H_REP2.mLb.clN.plotFingerprint.raw.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 8879095,
+      "etag": null,
+      "last_modified": "2026-10-29T03:25:19Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/HIV_CD86HI_48H_REP1.mLb.clN.reference_point.computeMatrix.mat.gz"
+    },
+    {
+      "available_hash": null,
+      "bytes": 154270311,
+      "etag": null,
+      "last_modified": "2026-10-29T03:25:19Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/HIV_CD86HI_48H_REP1.mLb.clN.reference_point.computeMatrix.vals.mat.tab"
+    },
+    {
+      "available_hash": null,
+      "bytes": 11900,
+      "etag": null,
+      "last_modified": "2026-10-29T04:03:19Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/HIV_CD86HI_48H_REP1.mLb.clN.reference_point.plotProfile.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 18999,
+      "etag": null,
+      "last_modified": "2026-10-29T04:03:19Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/HIV_CD86HI_48H_REP1.mLb.clN.reference_point.plotProfile.tab"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15054668,
+      "etag": null,
+      "last_modified": "2026-10-29T03:21:29Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/HIV_CD86HI_48H_REP1.mLb.clN.scale_regions.computeMatrix.mat.gz"
+    },
+    {
+      "available_hash": null,
+      "bytes": 175593896,
+      "etag": null,
+      "last_modified": "2026-10-29T03:21:29Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/HIV_CD86HI_48H_REP1.mLb.clN.scale_regions.computeMatrix.vals.mat.tab"
+    },
+    {
+      "available_hash": null,
+      "bytes": 8856366,
+      "etag": null,
+      "last_modified": "2026-10-29T04:04:59Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/HIV_CD86HI_48H_REP1.mLb.clN.scale_regions.plotHeatmap.mat.tab"
+    },
+    {
+      "available_hash": null,
+      "bytes": 458167,
+      "etag": null,
+      "last_modified": "2026-10-29T04:04:59Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/HIV_CD86HI_48H_REP1.mLb.clN.scale_regions.plotHeatmap.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 11025461,
+      "etag": null,
+      "last_modified": "2026-10-29T02:42:29Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/HIV_CD86HI_48H_REP2.mLb.clN.reference_point.computeMatrix.mat.gz"
+    },
+    {
+      "available_hash": null,
+      "bytes": 169743577,
+      "etag": null,
+      "last_modified": "2026-10-29T02:42:29Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/HIV_CD86HI_48H_REP2.mLb.clN.reference_point.computeMatrix.vals.mat.tab"
+    },
+    {
+      "available_hash": null,
+      "bytes": 11697,
+      "etag": null,
+      "last_modified": "2026-10-29T03:47:39Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/HIV_CD86HI_48H_REP2.mLb.clN.reference_point.plotProfile.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 18972,
+      "etag": null,
+      "last_modified": "2026-10-29T03:47:39Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/HIV_CD86HI_48H_REP2.mLb.clN.reference_point.plotProfile.tab"
+    },
+    {
+      "available_hash": null,
+      "bytes": 18776275,
+      "etag": null,
+      "last_modified": "2026-10-29T02:38:29Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/HIV_CD86HI_48H_REP2.mLb.clN.scale_regions.computeMatrix.mat.gz"
+    },
+    {
+      "available_hash": null,
+      "bytes": 194775653,
+      "etag": null,
+      "last_modified": "2026-10-29T02:38:29Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/HIV_CD86HI_48H_REP2.mLb.clN.scale_regions.computeMatrix.vals.mat.tab"
+    },
+    {
+      "available_hash": null,
+      "bytes": 11075480,
+      "etag": null,
+      "last_modified": "2026-10-29T03:52:59Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/HIV_CD86HI_48H_REP2.mLb.clN.scale_regions.plotHeatmap.mat.tab"
+    },
+    {
+      "available_hash": null,
+      "bytes": 429948,
+      "etag": null,
+      "last_modified": "2026-10-29T03:52:59Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/HIV_CD86HI_48H_REP2.mLb.clN.scale_regions.plotHeatmap.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 7605668,
+      "etag": null,
+      "last_modified": "2026-10-29T02:25:39Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/MOCK_48H_REP1.mLb.clN.reference_point.computeMatrix.mat.gz"
+    },
+    {
+      "available_hash": null,
+      "bytes": 148251445,
+      "etag": null,
+      "last_modified": "2026-10-29T02:25:39Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/MOCK_48H_REP1.mLb.clN.reference_point.computeMatrix.vals.mat.tab"
+    },
+    {
+      "available_hash": null,
+      "bytes": 12011,
+      "etag": null,
+      "last_modified": "2026-10-29T03:42:49Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/MOCK_48H_REP1.mLb.clN.reference_point.plotProfile.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 19139,
+      "etag": null,
+      "last_modified": "2026-10-29T03:42:49Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/MOCK_48H_REP1.mLb.clN.reference_point.plotProfile.tab"
+    },
+    {
+      "available_hash": null,
+      "bytes": 14306000,
+      "etag": null,
+      "last_modified": "2026-10-29T02:31:09Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/MOCK_48H_REP1.mLb.clN.scale_regions.computeMatrix.mat.gz"
+    },
+    {
+      "available_hash": null,
+      "bytes": 173252453,
+      "etag": null,
+      "last_modified": "2026-10-29T02:31:09Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/MOCK_48H_REP1.mLb.clN.scale_regions.computeMatrix.vals.mat.tab"
+    },
+    {
+      "available_hash": null,
+      "bytes": 7679466,
+      "etag": null,
+      "last_modified": "2026-10-29T03:38:29Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/MOCK_48H_REP1.mLb.clN.scale_regions.plotHeatmap.mat.tab"
+    },
+    {
+      "available_hash": null,
+      "bytes": 473255,
+      "etag": null,
+      "last_modified": "2026-10-29T03:38:29Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/MOCK_48H_REP1.mLb.clN.scale_regions.plotHeatmap.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 10727021,
+      "etag": null,
+      "last_modified": "2026-10-29T03:46:19Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/MOCK_48H_REP2.mLb.clN.reference_point.computeMatrix.mat.gz"
+    },
+    {
+      "available_hash": null,
+      "bytes": 165542643,
+      "etag": null,
+      "last_modified": "2026-10-29T03:46:19Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/MOCK_48H_REP2.mLb.clN.reference_point.computeMatrix.vals.mat.tab"
+    },
+    {
+      "available_hash": null,
+      "bytes": 11695,
+      "etag": null,
+      "last_modified": "2026-10-29T04:06:29Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/MOCK_48H_REP2.mLb.clN.reference_point.plotProfile.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 19108,
+      "etag": null,
+      "last_modified": "2026-10-29T04:06:29Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/MOCK_48H_REP2.mLb.clN.reference_point.plotProfile.tab"
+    },
+    {
+      "available_hash": null,
+      "bytes": 18424840,
+      "etag": null,
+      "last_modified": "2026-10-29T03:42:19Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/MOCK_48H_REP2.mLb.clN.scale_regions.computeMatrix.mat.gz"
+    },
+    {
+      "available_hash": null,
+      "bytes": 191529229,
+      "etag": null,
+      "last_modified": "2026-10-29T03:42:19Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/MOCK_48H_REP2.mLb.clN.scale_regions.computeMatrix.vals.mat.tab"
+    },
+    {
+      "available_hash": null,
+      "bytes": 10790110,
+      "etag": null,
+      "last_modified": "2026-10-29T04:07:39Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/MOCK_48H_REP2.mLb.clN.scale_regions.plotHeatmap.mat.tab"
+    },
+    {
+      "available_hash": null,
+      "bytes": 444089,
+      "etag": null,
+      "last_modified": "2026-10-29T04:07:39Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/MOCK_48H_REP2.mLb.clN.scale_regions.plotHeatmap.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 4909780,
+      "etag": null,
+      "last_modified": "2026-10-29T01:31:39Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/HIV_CD86HI_48H_REP1.mLb.clN_peaks.annotatePeaks.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2777840,
+      "etag": null,
+      "last_modified": "2026-10-29T01:03:49Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/HIV_CD86HI_48H_REP1.mLb.clN_peaks.broadPeak"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3297541,
+      "etag": null,
+      "last_modified": "2026-10-29T01:03:49Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/HIV_CD86HI_48H_REP1.mLb.clN_peaks.gappedPeak"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2891072,
+      "etag": null,
+      "last_modified": "2026-10-29T01:03:49Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/HIV_CD86HI_48H_REP1.mLb.clN_peaks.xls"
+    },
+    {
+      "available_hash": null,
+      "bytes": 5790739,
+      "etag": null,
+      "last_modified": "2026-10-29T01:26:09Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/HIV_CD86HI_48H_REP2.mLb.clN_peaks.annotatePeaks.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3274297,
+      "etag": null,
+      "last_modified": "2026-10-29T00:50:49Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/HIV_CD86HI_48H_REP2.mLb.clN_peaks.broadPeak"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3894597,
+      "etag": null,
+      "last_modified": "2026-10-29T00:50:49Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/HIV_CD86HI_48H_REP2.mLb.clN_peaks.gappedPeak"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3407005,
+      "etag": null,
+      "last_modified": "2026-10-29T00:50:49Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/HIV_CD86HI_48H_REP2.mLb.clN_peaks.xls"
+    },
+    {
+      "available_hash": null,
+      "bytes": 5698281,
+      "etag": null,
+      "last_modified": "2026-10-29T01:15:49Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/MOCK_48H_REP1.mLb.clN_peaks.annotatePeaks.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3120361,
+      "etag": null,
+      "last_modified": "2026-10-29T00:45:29Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/MOCK_48H_REP1.mLb.clN_peaks.broadPeak"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3733176,
+      "etag": null,
+      "last_modified": "2026-10-29T00:45:29Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/MOCK_48H_REP1.mLb.clN_peaks.gappedPeak"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3255920,
+      "etag": null,
+      "last_modified": "2026-10-29T00:45:29Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/MOCK_48H_REP1.mLb.clN_peaks.xls"
+    },
+    {
+      "available_hash": null,
+      "bytes": 8050438,
+      "etag": null,
+      "last_modified": "2026-10-29T01:35:39Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/MOCK_48H_REP2.mLb.clN_peaks.annotatePeaks.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 4413606,
+      "etag": null,
+      "last_modified": "2026-10-29T01:08:09Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/MOCK_48H_REP2.mLb.clN_peaks.broadPeak"
+    },
+    {
+      "available_hash": null,
+      "bytes": 5302074,
+      "etag": null,
+      "last_modified": "2026-10-29T01:08:09Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/MOCK_48H_REP2.mLb.clN_peaks.gappedPeak"
+    },
+    {
+      "available_hash": null,
+      "bytes": 4605398,
+      "etag": null,
+      "last_modified": "2026-10-29T01:08:09Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/MOCK_48H_REP2.mLb.clN_peaks.xls"
+    },
+    {
+      "available_hash": null,
+      "bytes": 8580,
+      "etag": null,
+      "last_modified": "2026-10-29T00:43:09Z",
+      "relative_path": "bwa/merged_library/picard_metrics/pdf/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.base_distribution_by_cycle.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15372,
+      "etag": null,
+      "last_modified": "2026-10-29T00:43:09Z",
+      "relative_path": "bwa/merged_library/picard_metrics/pdf/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.insert_size_histogram.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 6343,
+      "etag": null,
+      "last_modified": "2026-10-29T00:43:09Z",
+      "relative_path": "bwa/merged_library/picard_metrics/pdf/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.quality_by_cycle.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 4843,
+      "etag": null,
+      "last_modified": "2026-10-29T00:43:09Z",
+      "relative_path": "bwa/merged_library/picard_metrics/pdf/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.quality_distribution.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 5184,
+      "etag": null,
+      "last_modified": "2026-10-29T00:43:09Z",
+      "relative_path": "bwa/merged_library/picard_metrics/pdf/HIV_CD86HI_48H_REP1.mLb.clN.CollectMultipleMetrics.read_length_histogram.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 8577,
+      "etag": null,
+      "last_modified": "2026-10-29T00:37:19Z",
+      "relative_path": "bwa/merged_library/picard_metrics/pdf/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.base_distribution_by_cycle.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 14337,
+      "etag": null,
+      "last_modified": "2026-10-29T00:37:19Z",
+      "relative_path": "bwa/merged_library/picard_metrics/pdf/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.insert_size_histogram.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 6357,
+      "etag": null,
+      "last_modified": "2026-10-29T00:37:19Z",
+      "relative_path": "bwa/merged_library/picard_metrics/pdf/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.quality_by_cycle.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 4805,
+      "etag": null,
+      "last_modified": "2026-10-29T00:37:19Z",
+      "relative_path": "bwa/merged_library/picard_metrics/pdf/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.quality_distribution.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 5190,
+      "etag": null,
+      "last_modified": "2026-10-29T00:37:19Z",
+      "relative_path": "bwa/merged_library/picard_metrics/pdf/HIV_CD86HI_48H_REP2.mLb.clN.CollectMultipleMetrics.read_length_histogram.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 8592,
+      "etag": null,
+      "last_modified": "2026-10-29T00:35:49Z",
+      "relative_path": "bwa/merged_library/picard_metrics/pdf/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.base_distribution_by_cycle.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 13750,
+      "etag": null,
+      "last_modified": "2026-10-29T00:35:49Z",
+      "relative_path": "bwa/merged_library/picard_metrics/pdf/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.insert_size_histogram.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 6334,
+      "etag": null,
+      "last_modified": "2026-10-29T00:35:49Z",
+      "relative_path": "bwa/merged_library/picard_metrics/pdf/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.quality_by_cycle.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 4835,
+      "etag": null,
+      "last_modified": "2026-10-29T00:35:49Z",
+      "relative_path": "bwa/merged_library/picard_metrics/pdf/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.quality_distribution.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 5163,
+      "etag": null,
+      "last_modified": "2026-10-29T00:35:49Z",
+      "relative_path": "bwa/merged_library/picard_metrics/pdf/MOCK_48H_REP1.mLb.clN.CollectMultipleMetrics.read_length_histogram.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 8545,
+      "etag": null,
+      "last_modified": "2026-10-29T00:43:49Z",
+      "relative_path": "bwa/merged_library/picard_metrics/pdf/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.base_distribution_by_cycle.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 12929,
+      "etag": null,
+      "last_modified": "2026-10-29T00:43:49Z",
+      "relative_path": "bwa/merged_library/picard_metrics/pdf/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.insert_size_histogram.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 6327,
+      "etag": null,
+      "last_modified": "2026-10-29T00:43:49Z",
+      "relative_path": "bwa/merged_library/picard_metrics/pdf/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.quality_by_cycle.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 4798,
+      "etag": null,
+      "last_modified": "2026-10-29T00:43:49Z",
+      "relative_path": "bwa/merged_library/picard_metrics/pdf/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.quality_distribution.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 5201,
+      "etag": null,
+      "last_modified": "2026-10-29T00:43:49Z",
+      "relative_path": "bwa/merged_library/picard_metrics/pdf/MOCK_48H_REP2.mLb.clN.CollectMultipleMetrics.read_length_histogram.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 9,
+      "etag": null,
+      "last_modified": "2026-10-29T03:36:29Z",
+      "relative_path": "bwa/merged_replicate/bigwig/scale/HIV_CD86HI_48H.mRp.clN.scale_factor.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 10,
+      "etag": null,
+      "last_modified": "2026-10-29T03:56:09Z",
+      "relative_path": "bwa/merged_replicate/bigwig/scale/MOCK_48H.mRp.clN.scale_factor.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 10942383,
+      "etag": null,
+      "last_modified": "2026-10-29T02:47:59Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/HIV_CD86HI_48H.mRp.clN_peaks.annotatePeaks.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 6041237,
+      "etag": null,
+      "last_modified": "2026-10-29T01:37:19Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/HIV_CD86HI_48H.mRp.clN_peaks.broadPeak"
+    },
+    {
+      "available_hash": null,
+      "bytes": 7400483,
+      "etag": null,
+      "last_modified": "2026-10-29T01:37:19Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/HIV_CD86HI_48H.mRp.clN_peaks.gappedPeak"
+    },
+    {
+      "available_hash": null,
+      "bytes": 6287792,
+      "etag": null,
+      "last_modified": "2026-10-29T01:37:19Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/HIV_CD86HI_48H.mRp.clN_peaks.xls"
+    },
+    {
+      "available_hash": null,
+      "bytes": 13389857,
+      "etag": null,
+      "last_modified": "2026-10-29T02:45:29Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/MOCK_48H.mRp.clN_peaks.annotatePeaks.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 7148256,
+      "etag": null,
+      "last_modified": "2026-10-29T01:37:09Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/MOCK_48H.mRp.clN_peaks.broadPeak"
+    },
+    {
+      "available_hash": null,
+      "bytes": 8877060,
+      "etag": null,
+      "last_modified": "2026-10-29T01:37:09Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/MOCK_48H.mRp.clN_peaks.gappedPeak"
+    },
+    {
+      "available_hash": null,
+      "bytes": 7465841,
+      "etag": null,
+      "last_modified": "2026-10-29T01:37:09Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/MOCK_48H.mRp.clN_peaks.xls"
+    },
+    {
+      "available_hash": null,
+      "bytes": 14302,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:30Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_cutadapt_filtered_reads_plot_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 14055,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:30Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_cutadapt_filtered_reads_plot_1_pc.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 22325,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:30Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_cutadapt_trimmed_sequences_plot_3_Counts.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 22616,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:30Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_cutadapt_trimmed_sequences_plot_3_Obs_Exp.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 19094,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:30Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_deeptools_fingerprint_plot_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 22360,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:30Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_fastqc_adapter_content_plot-2_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 21784,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:30Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_fastqc_adapter_content_plot_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 18119,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:30Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_fastqc_per_base_n_content_plot-2_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 18729,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:30Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_fastqc_per_base_n_content_plot_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 19292,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:31Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_fastqc_per_base_sequence_quality_plot-2_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 19292,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:31Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_fastqc_per_base_sequence_quality_plot_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 20860,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:31Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_fastqc_per_sequence_gc_content_plot-2_Counts.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 21336,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:31Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_fastqc_per_sequence_gc_content_plot-2_Percentages.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 20346,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:31Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_fastqc_per_sequence_gc_content_plot_Counts.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 21368,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:31Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_fastqc_per_sequence_gc_content_plot_Percentages.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 17800,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:31Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_fastqc_per_sequence_quality_scores_plot-2_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 18048,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:31Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_fastqc_per_sequence_quality_scores_plot_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 16705,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:31Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_fastqc_sequence_counts_plot-2_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 16489,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:31Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_fastqc_sequence_counts_plot-2_1_pc.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 16736,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:32Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_fastqc_sequence_counts_plot_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 16489,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:32Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_fastqc_sequence_counts_plot_1_pc.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 18993,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:32Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_fastqc_sequence_duplication_levels_plot-2_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 18980,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:32Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_fastqc_sequence_duplication_levels_plot_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 18584,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:32Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_fastqc_sequence_length_distribution_plot_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 16579,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:32Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_featureCounts_assignment_plot-2_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15988,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:32Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_featureCounts_assignment_plot-2_1_pc.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 16580,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:32Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_featureCounts_assignment_plot_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15984,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:32Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_featureCounts_assignment_plot_1_pc.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 11086,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:32Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_mlib_frip_score-plot_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 16504,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:32Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_mlib_peak_annotation-plot_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 16162,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:33Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_mlib_peak_annotation-plot_1_pc.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 14455,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:33Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_mlib_peak_count-plot_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 10620,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:33Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_mrep_frip_score-plot_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 14679,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:33Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_mrep_peak_annotation-plot_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15369,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:33Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_mrep_peak_annotation-plot_1_pc.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 12438,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:33Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_mrep_peak_count-plot_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 14287,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:33Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_picard_alignment_readlength_plot_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15262,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:33Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_picard_alignment_summary__name_Aligned_Bases_ylab_Bases_cpswitch_counts_label_Number_of_Bases_.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 14918,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:33Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_picard_alignment_summary__name_Aligned_Bases_ylab_Bases_cpswitch_counts_label_Number_of_Bases__pc.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15147,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:33Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_picard_alignment_summary__name_Aligned_Reads_ylab_Reads_cpswitch_counts_label_Number_of_Reads_.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 14554,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:33Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_picard_alignment_summary__name_Aligned_Reads_ylab_Reads_cpswitch_counts_label_Number_of_Reads__pc.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 20150,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:34Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_picard_base_distribution_by_cycle__Adenine.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 19898,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:34Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_picard_base_distribution_by_cycle__Cytosine.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 20249,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:34Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_picard_base_distribution_by_cycle__Guanine.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 20754,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:34Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_picard_base_distribution_by_cycle__Thymine.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 18026,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:34Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_picard_base_distribution_by_cycle__Undetermined.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 14248,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:34Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_picard_deduplication-2_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 14320,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:34Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_picard_deduplication-2_1_pc.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15880,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:34Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_picard_deduplication_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15739,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:34Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_picard_deduplication_1_pc.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 30186,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:34Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_picard_insert_size_Counts.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 32169,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:35Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_picard_insert_size_Percentages.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 18154,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:35Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_picard_quality_by_cycle_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 16067,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:35Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_picard_quality_score_distribution_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 18716,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:35Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_read_distribution_profile_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 18335,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:35Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools-idxstats-mapped-reads-plot-2_Normalised_Counts.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 18617,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:35Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools-idxstats-mapped-reads-plot-2_Observed_over_Expected_Counts.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 17906,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:35Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools-idxstats-mapped-reads-plot-2_Raw_Counts.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 18284,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:35Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools-idxstats-mapped-reads-plot-3_Normalised_Counts.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 19083,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:35Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools-idxstats-mapped-reads-plot-3_Observed_over_Expected_Counts.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 17796,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:35Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools-idxstats-mapped-reads-plot-3_Raw_Counts.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 17002,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:36Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools-idxstats-mapped-reads-plot-4_Normalised_Counts.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 17765,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:36Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools-idxstats-mapped-reads-plot-4_Observed_over_Expected_Counts.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 16665,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:36Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools-idxstats-mapped-reads-plot-4_Raw_Counts.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 18494,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:36Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools-idxstats-mapped-reads-plot_Normalised_Counts.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 18778,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:36Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools-idxstats-mapped-reads-plot_Observed_over_Expected_Counts.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 18062,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:36Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools-idxstats-mapped-reads-plot_Raw_Counts.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15633,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:36Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools-idxstats-xy-plot-2_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15213,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:36Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools-idxstats-xy-plot-2_1_pc.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15072,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:36Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools-idxstats-xy-plot-3_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15214,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:36Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools-idxstats-xy-plot-3_1_pc.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15323,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:37Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools-idxstats-xy-plot-4_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 14919,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:37Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools-idxstats-xy-plot-4_1_pc.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15807,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:37Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools-idxstats-xy-plot_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15387,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:37Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools-idxstats-xy-plot_1_pc.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15233,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:37Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools_alignment_plot-2_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15097,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:37Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools_alignment_plot-2_1_pc.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15277,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:37Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools_alignment_plot-3_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 14679,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:37Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools_alignment_plot-3_1_pc.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 14078,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:37Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools_alignment_plot-4_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 14150,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:37Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools_alignment_plot-4_1_pc.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15413,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:38Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools_alignment_plot_1.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15266,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:38Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/pdf/mqc_samtools_alignment_plot_1_pc.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 18847,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:38Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_cutadapt_filtered_reads_plot_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 18701,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:38Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_cutadapt_filtered_reads_plot_1_pc.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 46035,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:38Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_cutadapt_trimmed_sequences_plot_3_Counts.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 52885,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:38Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_cutadapt_trimmed_sequences_plot_3_Obs_Exp.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 48830,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:38Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_deeptools_fingerprint_plot_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 26203,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:38Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_fastqc_adapter_content_plot-2_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 65277,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:39Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_fastqc_adapter_content_plot_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 20158,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:39Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_fastqc_per_base_n_content_plot-2_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 22612,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:39Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_fastqc_per_base_n_content_plot_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 28261,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:39Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_fastqc_per_base_sequence_quality_plot-2_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 29428,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:39Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_fastqc_per_base_sequence_quality_plot_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 62319,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:39Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_fastqc_per_sequence_gc_content_plot-2_Counts.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 54298,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:39Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_fastqc_per_sequence_gc_content_plot-2_Percentages.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 64802,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:39Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_fastqc_per_sequence_gc_content_plot_Counts.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 55918,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:39Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_fastqc_per_sequence_gc_content_plot_Percentages.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 37340,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:39Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_fastqc_per_sequence_quality_scores_plot-2_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 37804,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:39Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_fastqc_per_sequence_quality_scores_plot_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 19796,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:40Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_fastqc_sequence_counts_plot-2_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 20078,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:40Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_fastqc_sequence_counts_plot-2_1_pc.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 20040,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:40Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_fastqc_sequence_counts_plot_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 20078,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:40Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_fastqc_sequence_counts_plot_1_pc.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 44973,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:40Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_fastqc_sequence_duplication_levels_plot-2_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 45347,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:40Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_fastqc_sequence_duplication_levels_plot_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 37748,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:40Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_fastqc_sequence_length_distribution_plot_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15202,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:40Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_featureCounts_assignment_plot-2_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15181,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:40Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_featureCounts_assignment_plot-2_1_pc.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15205,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:40Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_featureCounts_assignment_plot_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15181,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:41Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_featureCounts_assignment_plot_1_pc.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 13983,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:41Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_mlib_frip_score-plot_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 14770,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:41Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_mlib_peak_annotation-plot_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15179,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:41Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_mlib_peak_annotation-plot_1_pc.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15691,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:41Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_mlib_peak_count-plot_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 9952,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:41Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_mrep_frip_score-plot_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 11421,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:41Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_mrep_peak_annotation-plot_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 11855,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:41Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_mrep_peak_annotation-plot_1_pc.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 11755,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:41Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_mrep_peak_count-plot_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 12879,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:41Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_picard_alignment_readlength_plot_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 12563,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:41Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_picard_alignment_summary__name_Aligned_Bases_ylab_Bases_cpswitch_counts_label_Number_of_Bases_.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 12977,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:42Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_picard_alignment_summary__name_Aligned_Bases_ylab_Bases_cpswitch_counts_label_Number_of_Bases__pc.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 13002,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:42Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_picard_alignment_summary__name_Aligned_Reads_ylab_Reads_cpswitch_counts_label_Number_of_Reads_.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 12984,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:42Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_picard_alignment_summary__name_Aligned_Reads_ylab_Reads_cpswitch_counts_label_Number_of_Reads__pc.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 38735,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:42Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_picard_base_distribution_by_cycle__Adenine.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 38703,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:42Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_picard_base_distribution_by_cycle__Cytosine.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 38565,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:42Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_picard_base_distribution_by_cycle__Guanine.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 38665,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:42Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_picard_base_distribution_by_cycle__Thymine.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 19163,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:42Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_picard_base_distribution_by_cycle__Undetermined.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 9502,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:42Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_picard_deduplication-2_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 9571,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:43Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_picard_deduplication-2_1_pc.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 14822,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:43Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_picard_deduplication_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15423,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:43Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_picard_deduplication_1_pc.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 59013,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:43Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_picard_insert_size_Counts.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 58110,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:43Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_picard_insert_size_Percentages.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 30500,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:43Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_picard_quality_by_cycle_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 42618,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:43Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_picard_quality_score_distribution_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 47570,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:43Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_read_distribution_profile_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 34999,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:43Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools-idxstats-mapped-reads-plot-2_Normalised_Counts.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 32040,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:43Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools-idxstats-mapped-reads-plot-2_Observed_over_Expected_Counts.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 35043,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:44Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools-idxstats-mapped-reads-plot-2_Raw_Counts.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 64780,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:44Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools-idxstats-mapped-reads-plot-3_Normalised_Counts.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 76772,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:44Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools-idxstats-mapped-reads-plot-3_Observed_over_Expected_Counts.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 68691,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:44Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools-idxstats-mapped-reads-plot-3_Raw_Counts.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 46486,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:44Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools-idxstats-mapped-reads-plot-4_Normalised_Counts.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 51765,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:44Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools-idxstats-mapped-reads-plot-4_Observed_over_Expected_Counts.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 48203,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:44Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools-idxstats-mapped-reads-plot-4_Raw_Counts.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 35176,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:44Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools-idxstats-mapped-reads-plot_Normalised_Counts.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 32215,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:44Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools-idxstats-mapped-reads-plot_Observed_over_Expected_Counts.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 35218,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:44Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools-idxstats-mapped-reads-plot_Raw_Counts.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 14035,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:45Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools-idxstats-xy-plot-2_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 14110,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:45Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools-idxstats-xy-plot-2_1_pc.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 13635,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:45Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools-idxstats-xy-plot-3_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 14108,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:45Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools-idxstats-xy-plot-3_1_pc.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 10829,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:45Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools-idxstats-xy-plot-4_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 10939,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:45Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools-idxstats-xy-plot-4_1_pc.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 14500,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:45Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools-idxstats-xy-plot_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 14503,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:45Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools-idxstats-xy-plot_1_pc.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 12473,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:45Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools_alignment_plot-2_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 13128,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:45Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools_alignment_plot-2_1_pc.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 12580,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:46Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools_alignment_plot-3_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 12522,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:46Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools_alignment_plot-3_1_pc.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 9306,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:46Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools_alignment_plot-4_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 9383,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:46Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools_alignment_plot-4_1_pc.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 12949,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:46Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools_alignment_plot_1.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 13524,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:46Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/png/mqc_samtools_alignment_plot_1_pc.png"
+    },
+    {
+      "available_hash": null,
+      "bytes": 34347,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:46Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_cutadapt_filtered_reads_plot_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 34200,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:46Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_cutadapt_filtered_reads_plot_1_pc.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 64654,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:47Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_cutadapt_trimmed_sequences_plot_3_Counts.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 64441,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:47Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_cutadapt_trimmed_sequences_plot_3_Obs_Exp.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 40743,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:47Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_deeptools_fingerprint_plot_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 61614,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:47Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_fastqc_adapter_content_plot-2_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 55255,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:47Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_fastqc_adapter_content_plot_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 49157,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:47Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_fastqc_per_base_n_content_plot-2_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 49246,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:47Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_fastqc_per_base_n_content_plot_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 49115,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:47Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_fastqc_per_base_sequence_quality_plot-2_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 49108,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:47Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_fastqc_per_base_sequence_quality_plot_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 58932,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:48Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_fastqc_per_sequence_gc_content_plot-2_Counts.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 57753,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:48Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_fastqc_per_sequence_gc_content_plot-2_Percentages.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 58232,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:48Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_fastqc_per_sequence_gc_content_plot_Counts.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 57760,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:48Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_fastqc_per_sequence_gc_content_plot_Percentages.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 47491,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:48Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_fastqc_per_sequence_quality_scores_plot-2_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 48072,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:48Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_fastqc_per_sequence_quality_scores_plot_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 39485,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:48Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_fastqc_sequence_counts_plot-2_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 39855,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:48Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_fastqc_sequence_counts_plot-2_1_pc.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 39997,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:48Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_fastqc_sequence_counts_plot_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 39847,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:49Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_fastqc_sequence_counts_plot_1_pc.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 49419,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:49Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_fastqc_sequence_duplication_levels_plot-2_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 49415,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:49Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_fastqc_sequence_duplication_levels_plot_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 46153,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:49Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_fastqc_sequence_length_distribution_plot_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 35843,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:49Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_featureCounts_assignment_plot-2_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 33615,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:49Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_featureCounts_assignment_plot-2_1_pc.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 35847,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:49Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_featureCounts_assignment_plot_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 33619,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:49Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_featureCounts_assignment_plot_1_pc.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 27064,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:49Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_mlib_frip_score-plot_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 36516,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:49Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_mlib_peak_annotation-plot_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 35732,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:50Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_mlib_peak_annotation-plot_1_pc.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 35756,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:50Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_mlib_peak_count-plot_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 19019,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:50Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_mrep_frip_score-plot_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 28819,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:50Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_mrep_peak_annotation-plot_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 30093,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:50Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_mrep_peak_annotation-plot_1_pc.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 23411,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:50Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_mrep_peak_count-plot_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 27581,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:50Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_picard_alignment_readlength_plot_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 27958,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:50Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_picard_alignment_summary__name_Aligned_Bases_ylab_Bases_cpswitch_counts_label_Number_of_Bases_.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 28033,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:50Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_picard_alignment_summary__name_Aligned_Bases_ylab_Bases_cpswitch_counts_label_Number_of_Bases__pc.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 29661,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:50Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_picard_alignment_summary__name_Aligned_Reads_ylab_Reads_cpswitch_counts_label_Number_of_Reads_.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 27433,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:51Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_picard_alignment_summary__name_Aligned_Reads_ylab_Reads_cpswitch_counts_label_Number_of_Reads__pc.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 52289,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:51Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_picard_base_distribution_by_cycle__Adenine.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 52130,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:51Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_picard_base_distribution_by_cycle__Cytosine.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 52577,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:51Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_picard_base_distribution_by_cycle__Guanine.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 53169,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:51Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_picard_base_distribution_by_cycle__Thymine.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 52949,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:51Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_picard_base_distribution_by_cycle__Undetermined.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 24948,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:51Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_picard_deduplication-2_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 24251,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:51Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_picard_deduplication-2_1_pc.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 35408,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:51Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_picard_deduplication_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 36235,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:51Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_picard_deduplication_1_pc.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 73039,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:52Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_picard_insert_size_Counts.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 77964,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:52Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_picard_insert_size_Percentages.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 40565,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:52Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_picard_quality_by_cycle_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 31657,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:52Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_picard_quality_score_distribution_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 43840,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:52Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_read_distribution_profile_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 46792,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:52Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools-idxstats-mapped-reads-plot-2_Normalised_Counts.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 49150,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:52Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools-idxstats-mapped-reads-plot-2_Observed_over_Expected_Counts.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 45630,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:52Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools-idxstats-mapped-reads-plot-2_Raw_Counts.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 45050,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:52Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools-idxstats-mapped-reads-plot-3_Normalised_Counts.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 47909,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:52Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools-idxstats-mapped-reads-plot-3_Observed_over_Expected_Counts.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 46333,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:52Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools-idxstats-mapped-reads-plot-3_Raw_Counts.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 39503,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:53Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools-idxstats-mapped-reads-plot-4_Normalised_Counts.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 41838,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:53Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools-idxstats-mapped-reads-plot-4_Observed_over_Expected_Counts.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 39561,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:53Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools-idxstats-mapped-reads-plot-4_Raw_Counts.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 47659,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:53Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools-idxstats-mapped-reads-plot_Normalised_Counts.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 50017,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:53Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools-idxstats-mapped-reads-plot_Observed_over_Expected_Counts.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 46497,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:53Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools-idxstats-mapped-reads-plot_Raw_Counts.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 33970,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:53Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools-idxstats-xy-plot-2_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 30938,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:53Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools-idxstats-xy-plot-2_1_pc.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 30542,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:53Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools-idxstats-xy-plot-3_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 30938,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:53Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools-idxstats-xy-plot-3_1_pc.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 30302,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:53Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools-idxstats-xy-plot-4_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 27297,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:54Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools-idxstats-xy-plot-4_1_pc.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 34895,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:54Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools-idxstats-xy-plot_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 31888,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:54Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools-idxstats-xy-plot_1_pc.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 28749,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:54Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools_alignment_plot-2_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 29572,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:54Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools_alignment_plot-2_1_pc.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 29055,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:54Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools_alignment_plot-3_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 27753,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:54Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools_alignment_plot-3_1_pc.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 24800,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:54Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools_alignment_plot-4_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 24103,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:54Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools_alignment_plot-4_1_pc.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 29672,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:54Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools_alignment_plot_1.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 30520,
+      "etag": null,
+      "last_modified": "2026-10-29T05:02:55Z",
+      "relative_path": "multiqc/broad_peak/multiqc_plots/svg/mqc_samtools_alignment_plot_1_pc.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 50783,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:29Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/index.html"
+    },
+    {
+      "available_hash": null,
+      "bytes": 10266676,
+      "etag": null,
+      "last_modified": "2026-10-29T02:21:39Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.annotatePeaks.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3206594,
+      "etag": null,
+      "last_modified": "2026-10-29T01:31:59Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.bed"
+    },
+    {
+      "available_hash": null,
+      "bytes": 8540,
+      "etag": null,
+      "last_modified": "2026-10-29T01:31:59Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.boolean.intersect.plot.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 874,
+      "etag": null,
+      "last_modified": "2026-10-29T01:31:59Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.boolean.intersect.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 13554767,
+      "etag": null,
+      "last_modified": "2026-10-29T01:31:59Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.boolean.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 4063680,
+      "etag": null,
+      "last_modified": "2026-10-29T02:19:59Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.featureCounts.tsv"
+    },
+    {
+      "available_hash": null,
+      "bytes": 626,
+      "etag": null,
+      "last_modified": "2026-10-29T02:19:59Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.featureCounts.tsv.summary"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3056832,
+      "etag": null,
+      "last_modified": "2026-10-29T01:31:59Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/consensus_peaks.mLb.clN.saf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 588,
+      "etag": null,
+      "last_modified": "2026-10-29T02:11:29Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/qc/HIV_CD86HI_48H_REP1.mLb.clN_peaks.FRiP_mqc.tsv"
+    },
+    {
+      "available_hash": null,
+      "bytes": 388,
+      "etag": null,
+      "last_modified": "2026-10-29T02:11:29Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/qc/HIV_CD86HI_48H_REP1.mLb.clN_peaks.count_mqc.tsv"
+    },
+    {
+      "available_hash": null,
+      "bytes": 587,
+      "etag": null,
+      "last_modified": "2026-10-29T01:48:09Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/qc/HIV_CD86HI_48H_REP2.mLb.clN_peaks.FRiP_mqc.tsv"
+    },
+    {
+      "available_hash": null,
+      "bytes": 388,
+      "etag": null,
+      "last_modified": "2026-10-29T01:48:09Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/qc/HIV_CD86HI_48H_REP2.mLb.clN_peaks.count_mqc.tsv"
+    },
+    {
+      "available_hash": null,
+      "bytes": 582,
+      "etag": null,
+      "last_modified": "2026-10-29T01:33:39Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/qc/MOCK_48H_REP1.mLb.clN_peaks.FRiP_mqc.tsv"
+    },
+    {
+      "available_hash": null,
+      "bytes": 382,
+      "etag": null,
+      "last_modified": "2026-10-29T01:33:39Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/qc/MOCK_48H_REP1.mLb.clN_peaks.count_mqc.tsv"
+    },
+    {
+      "available_hash": null,
+      "bytes": 582,
+      "etag": null,
+      "last_modified": "2026-10-29T02:16:49Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/qc/MOCK_48H_REP2.mLb.clN_peaks.FRiP_mqc.tsv"
+    },
+    {
+      "available_hash": null,
+      "bytes": 382,
+      "etag": null,
+      "last_modified": "2026-10-29T02:16:49Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/qc/MOCK_48H_REP2.mLb.clN_peaks.count_mqc.tsv"
+    },
+    {
+      "available_hash": null,
+      "bytes": 42577,
+      "etag": null,
+      "last_modified": "2026-10-29T02:31:59Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/qc/macs3_annotatePeaks.mLb.clN.plots.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 240,
+      "etag": null,
+      "last_modified": "2026-10-29T02:31:59Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/qc/macs3_annotatePeaks.mLb.clN.summary.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 666,
+      "etag": null,
+      "last_modified": "2026-10-29T02:31:59Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/qc/macs3_annotatePeaks.mLb.clN.summary_mqc.tsv"
+    },
+    {
+      "available_hash": null,
+      "bytes": 1038066,
+      "etag": null,
+      "last_modified": "2026-10-29T01:35:59Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/qc/macs3_peak.mLb.clN.plots.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 1565,
+      "etag": null,
+      "last_modified": "2026-10-29T01:35:59Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/qc/macs3_peak.mLb.clN.summary.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 15875508,
+      "etag": null,
+      "last_modified": "2026-10-29T03:58:29Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.annotatePeaks.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 4983076,
+      "etag": null,
+      "last_modified": "2026-10-29T02:43:39Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.bed"
+    },
+    {
+      "available_hash": null,
+      "bytes": 5643,
+      "etag": null,
+      "last_modified": "2026-10-29T02:43:39Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.boolean.intersect.plot.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 98,
+      "etag": null,
+      "last_modified": "2026-10-29T02:43:39Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.boolean.intersect.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 14016438,
+      "etag": null,
+      "last_modified": "2026-10-29T02:43:39Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.boolean.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 6255181,
+      "etag": null,
+      "last_modified": "2026-10-29T03:57:09Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.featureCounts.tsv"
+    },
+    {
+      "available_hash": null,
+      "bytes": 626,
+      "etag": null,
+      "last_modified": "2026-10-29T03:57:09Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.featureCounts.tsv.summary"
+    },
+    {
+      "available_hash": null,
+      "bytes": 4751344,
+      "etag": null,
+      "last_modified": "2026-10-29T02:43:39Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/consensus_peaks.mRp.clN.saf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 583,
+      "etag": null,
+      "last_modified": "2026-10-29T03:54:09Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/qc/HIV_CD86HI_48H.mRp.clN_peaks.FRiP_mqc.tsv"
+    },
+    {
+      "available_hash": null,
+      "bytes": 383,
+      "etag": null,
+      "last_modified": "2026-10-29T03:54:09Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/qc/HIV_CD86HI_48H.mRp.clN_peaks.count_mqc.tsv"
+    },
+    {
+      "available_hash": null,
+      "bytes": 577,
+      "etag": null,
+      "last_modified": "2026-10-29T03:56:19Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/qc/MOCK_48H.mRp.clN_peaks.FRiP_mqc.tsv"
+    },
+    {
+      "available_hash": null,
+      "bytes": 377,
+      "etag": null,
+      "last_modified": "2026-10-29T03:56:19Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/qc/MOCK_48H.mRp.clN_peaks.count_mqc.tsv"
+    },
+    {
+      "available_hash": null,
+      "bytes": 279130,
+      "etag": null,
+      "last_modified": "2026-10-29T04:01:19Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/qc/macs3_annotatePeaks.mRp.clN.plots.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 144,
+      "etag": null,
+      "last_modified": "2026-10-29T04:01:19Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/qc/macs3_annotatePeaks.mRp.clN.summary.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 570,
+      "etag": null,
+      "last_modified": "2026-10-29T04:01:19Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/qc/macs3_annotatePeaks.mRp.clN.summary_mqc.tsv"
+    },
+    {
+      "available_hash": null,
+      "bytes": 1177540,
+      "etag": null,
+      "last_modified": "2026-10-29T02:45:39Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/qc/macs3_peak.mRp.clN.plots.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 781,
+      "etag": null,
+      "last_modified": "2026-10-29T02:45:39Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/qc/macs3_peak.mRp.clN.summary.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 18865,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:29Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/css/ataqv.css"
+    },
+    {
+      "available_hash": null,
+      "bytes": 9160,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:29Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/css/datatables.buttons.min.css"
+    },
+    {
+      "available_hash": null,
+      "bytes": 3362,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:29Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/css/datatables.fontawesome.css"
+    },
+    {
+      "available_hash": null,
+      "bytes": 26145,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:29Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/css/datatables.min.css"
+    },
+    {
+      "available_hash": null,
+      "bytes": 28759,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:29Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/css/font-awesome.min.css"
+    },
+    {
+      "available_hash": null,
+      "bytes": 6946,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:30Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/css/normalize.css"
+    },
+    {
+      "available_hash": null,
+      "bytes": 219538,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:30Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/data/HIV_CD86HI_48H_REP1.json.gz"
+    },
+    {
+      "available_hash": null,
+      "bytes": 256665,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:30Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/data/HIV_CD86HI_48H_REP2.json.gz"
+    },
+    {
+      "available_hash": null,
+      "bytes": 246425,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:30Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/data/MOCK_48H_REP1.json.gz"
+    },
+    {
+      "available_hash": null,
+      "bytes": 340763,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:30Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/data/MOCK_48H_REP2.json.gz"
+    },
+    {
+      "available_hash": null,
+      "bytes": 123112,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:31Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/fonts/FontAwesome.otf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 75220,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:31Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/fonts/fontawesome-webfont.eot"
+    },
+    {
+      "available_hash": null,
+      "bytes": 386421,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:31Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/fonts/fontawesome-webfont.svg"
+    },
+    {
+      "available_hash": null,
+      "bytes": 150920,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:31Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/fonts/fontawesome-webfont.ttf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 89076,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:31Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/fonts/fontawesome-webfont.woff"
+    },
+    {
+      "available_hash": null,
+      "bytes": 70728,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:32Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/fonts/fontawesome-webfont.woff2"
+    },
+    {
+      "available_hash": null,
+      "bytes": 34052,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:32Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/fonts/sourcesanspro-regular.woff"
+    },
+    {
+      "available_hash": null,
+      "bytes": 28724,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:32Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/fonts/sourcesanspro-regularit.woff"
+    },
+    {
+      "available_hash": null,
+      "bytes": 33848,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:32Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/fonts/sourcesanspro-semibold.woff"
+    },
+    {
+      "available_hash": null,
+      "bytes": 28624,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:32Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/fonts/sourcesanspro-semiboldit.woff"
+    },
+    {
+      "available_hash": null,
+      "bytes": 69250,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:32Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/js/ataqv.js"
+    },
+    {
+      "available_hash": null,
+      "bytes": 349026,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:32Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/js/configuration.js"
+    },
+    {
+      "available_hash": null,
+      "bytes": 212671,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:33Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/js/d3.min.js"
+    },
+    {
+      "available_hash": null,
+      "bytes": 1209333,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:33Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/js/datatables.min.js"
+    },
+    {
+      "available_hash": null,
+      "bytes": 102173,
+      "etag": null,
+      "last_modified": "2026-10-29T02:20:33Z",
+      "relative_path": "bwa/merged_library/ataqv/broad_peak/html/js/jszip.min.js"
+    },
+    {
+      "available_hash": null,
+      "bytes": 1978,
+      "etag": null,
+      "last_modified": "2026-10-29T03:47:10Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/deseq2/R_sessionInfo.log"
+    },
+    {
+      "available_hash": null,
+      "bytes": 1472159,
+      "etag": null,
+      "last_modified": "2026-10-29T03:47:10Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/deseq2/consensus_peaks.mLb.clN.dds.RData"
+    },
+    {
+      "available_hash": null,
+      "bytes": 264,
+      "etag": null,
+      "last_modified": "2026-10-29T03:47:09Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/deseq2/consensus_peaks.mLb.clN.pca.vals.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 813,
+      "etag": null,
+      "last_modified": "2026-10-29T03:47:10Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/deseq2/consensus_peaks.mLb.clN.pca.vals_mqc.tsv"
+    },
+    {
+      "available_hash": null,
+      "bytes": 9133,
+      "etag": null,
+      "last_modified": "2026-10-29T03:47:09Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/deseq2/consensus_peaks.mLb.clN.plots.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 1472144,
+      "etag": null,
+      "last_modified": "2026-10-29T03:47:10Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/deseq2/consensus_peaks.mLb.clN.rds"
+    },
+    {
+      "available_hash": null,
+      "bytes": 351,
+      "etag": null,
+      "last_modified": "2026-10-29T03:47:10Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/deseq2/consensus_peaks.mLb.clN.sample.dists.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 996,
+      "etag": null,
+      "last_modified": "2026-10-29T03:47:09Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/deseq2/consensus_peaks.mLb.clN.sample.dists_mqc.tsv"
+    },
+    {
+      "available_hash": null,
+      "bytes": 1978,
+      "etag": null,
+      "last_modified": "2026-10-29T04:07:30Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/deseq2/R_sessionInfo.log"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2163130,
+      "etag": null,
+      "last_modified": "2026-10-29T04:07:30Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/deseq2/consensus_peaks.mRp.clN.dds.RData"
+    },
+    {
+      "available_hash": null,
+      "bytes": 265,
+      "etag": null,
+      "last_modified": "2026-10-29T04:07:30Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/deseq2/consensus_peaks.mRp.clN.pca.vals.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 814,
+      "etag": null,
+      "last_modified": "2026-10-29T04:07:30Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/deseq2/consensus_peaks.mRp.clN.pca.vals_mqc.tsv"
+    },
+    {
+      "available_hash": null,
+      "bytes": 9210,
+      "etag": null,
+      "last_modified": "2026-10-29T04:07:30Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/deseq2/consensus_peaks.mRp.clN.plots.pdf"
+    },
+    {
+      "available_hash": null,
+      "bytes": 2163120,
+      "etag": null,
+      "last_modified": "2026-10-29T04:07:30Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/deseq2/consensus_peaks.mRp.clN.rds"
+    },
+    {
+      "available_hash": null,
+      "bytes": 355,
+      "etag": null,
+      "last_modified": "2026-10-29T04:07:30Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/deseq2/consensus_peaks.mRp.clN.sample.dists.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 1000,
+      "etag": null,
+      "last_modified": "2026-10-29T04:07:30Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/deseq2/consensus_peaks.mRp.clN.sample.dists_mqc.tsv"
+    },
+    {
+      "available_hash": null,
+      "bytes": 10,
+      "etag": null,
+      "last_modified": "2026-10-29T03:47:10Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/deseq2/size_factors/HIV_CD86HI_48H_REP1.size_factors.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 10,
+      "etag": null,
+      "last_modified": "2026-10-29T03:47:10Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/deseq2/size_factors/HIV_CD86HI_48H_REP2.size_factors.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 10,
+      "etag": null,
+      "last_modified": "2026-10-29T03:47:10Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/deseq2/size_factors/MOCK_48H_REP1.size_factors.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 9,
+      "etag": null,
+      "last_modified": "2026-10-29T03:47:10Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/deseq2/size_factors/MOCK_48H_REP2.size_factors.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 173,
+      "etag": null,
+      "last_modified": "2026-10-29T03:47:10Z",
+      "relative_path": "bwa/merged_library/macs3/broad_peak/consensus/deseq2/size_factors/consensus_peaks.mLb.clN.size_factors.RData"
+    },
+    {
+      "available_hash": null,
+      "bytes": 10,
+      "etag": null,
+      "last_modified": "2026-10-29T04:07:30Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/deseq2/size_factors/HIV_CD86HI_48H_REP1.size_factors.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 10,
+      "etag": null,
+      "last_modified": "2026-10-29T04:07:30Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/deseq2/size_factors/HIV_CD86HI_48H_REP2.size_factors.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 10,
+      "etag": null,
+      "last_modified": "2026-10-29T04:07:30Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/deseq2/size_factors/MOCK_48H_REP1.size_factors.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 9,
+      "etag": null,
+      "last_modified": "2026-10-29T04:07:30Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/deseq2/size_factors/MOCK_48H_REP2.size_factors.txt"
+    },
+    {
+      "available_hash": null,
+      "bytes": 173,
+      "etag": null,
+      "last_modified": "2026-10-29T04:07:30Z",
+      "relative_path": "bwa/merged_replicate/macs3/broad_peak/consensus/deseq2/size_factors/consensus_peaks.mRp.clN.size_factors.RData"
+    }
+  ],
+  "inventory_complete": true,
+  "observed_at": "2026-10-29T08:32:42.102044+00:00",
+  "over_50MB_bytes": 4383548458,
+  "over_50MB_files": [
+    {
+      "available_hash": null,
+      "bytes": 285036036,
+      "etag": null,
+      "last_modified": "2026-10-29T00:34:09Z",
+      "relative_path": "bwa/merged_library/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam"
+    },
+    {
+      "available_hash": null,
+      "bytes": 401126021,
+      "etag": null,
+      "last_modified": "2026-10-29T00:32:59Z",
+      "relative_path": "bwa/merged_library/HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam"
+    },
+    {
+      "available_hash": null,
+      "bytes": 304910830,
+      "etag": null,
+      "last_modified": "2026-10-29T00:31:49Z",
+      "relative_path": "bwa/merged_library/MOCK_48H_REP1.mLb.clN.sorted.bam"
+    },
+    {
+      "available_hash": null,
+      "bytes": 437456249,
+      "etag": null,
+      "last_modified": "2026-10-29T00:34:19Z",
+      "relative_path": "bwa/merged_library/MOCK_48H_REP2.mLb.clN.sorted.bam"
+    },
+    {
+      "available_hash": null,
+      "bytes": 700869649,
+      "etag": null,
+      "last_modified": "2026-10-29T01:12:49Z",
+      "relative_path": "bwa/merged_replicate/HIV_CD86HI_48H.mRp.clN.sorted.bam"
+    },
+    {
+      "available_hash": null,
+      "bytes": 758315376,
+      "etag": null,
+      "last_modified": "2026-10-29T01:15:49Z",
+      "relative_path": "bwa/merged_replicate/MOCK_48H.mRp.clN.sorted.bam"
+    },
+    {
+      "available_hash": null,
+      "bytes": 57996443,
+      "etag": null,
+      "last_modified": "2026-10-29T04:05:39Z",
+      "relative_path": "bwa/merged_replicate/bigwig/HIV_CD86HI_48H.mRp.clN.bigWig"
+    },
+    {
+      "available_hash": null,
+      "bytes": 64878647,
+      "etag": null,
+      "last_modified": "2026-10-29T04:06:59Z",
+      "relative_path": "bwa/merged_replicate/bigwig/MOCK_48H.mRp.clN.bigWig"
+    },
+    {
+      "available_hash": null,
+      "bytes": 154270311,
+      "etag": null,
+      "last_modified": "2026-10-29T03:25:19Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/HIV_CD86HI_48H_REP1.mLb.clN.reference_point.computeMatrix.vals.mat.tab"
+    },
+    {
+      "available_hash": null,
+      "bytes": 175593896,
+      "etag": null,
+      "last_modified": "2026-10-29T03:21:29Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/HIV_CD86HI_48H_REP1.mLb.clN.scale_regions.computeMatrix.vals.mat.tab"
+    },
+    {
+      "available_hash": null,
+      "bytes": 169743577,
+      "etag": null,
+      "last_modified": "2026-10-29T02:42:29Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/HIV_CD86HI_48H_REP2.mLb.clN.reference_point.computeMatrix.vals.mat.tab"
+    },
+    {
+      "available_hash": null,
+      "bytes": 194775653,
+      "etag": null,
+      "last_modified": "2026-10-29T02:38:29Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/HIV_CD86HI_48H_REP2.mLb.clN.scale_regions.computeMatrix.vals.mat.tab"
+    },
+    {
+      "available_hash": null,
+      "bytes": 148251445,
+      "etag": null,
+      "last_modified": "2026-10-29T02:25:39Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/MOCK_48H_REP1.mLb.clN.reference_point.computeMatrix.vals.mat.tab"
+    },
+    {
+      "available_hash": null,
+      "bytes": 173252453,
+      "etag": null,
+      "last_modified": "2026-10-29T02:31:09Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/MOCK_48H_REP1.mLb.clN.scale_regions.computeMatrix.vals.mat.tab"
+    },
+    {
+      "available_hash": null,
+      "bytes": 165542643,
+      "etag": null,
+      "last_modified": "2026-10-29T03:46:19Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/MOCK_48H_REP2.mLb.clN.reference_point.computeMatrix.vals.mat.tab"
+    },
+    {
+      "available_hash": null,
+      "bytes": 191529229,
+      "etag": null,
+      "last_modified": "2026-10-29T03:42:19Z",
+      "relative_path": "bwa/merged_library/deeptools/plotprofile/MOCK_48H_REP2.mLb.clN.scale_regions.computeMatrix.vals.mat.tab"
+    }
+  ],
+  "payload_sha256": "a2cdc859d6045b2c93f487e9ab770b6a46353f18e2bef2f1d90084d3367206b3",
+  "physical_run_name": "pr448-hiv-bwa-fixed-a9b588",
+  "prefix": "s3://REDACTED-BUCKET/nf-verify/pr448-original-cohorts-20261028-a9b588/pr448-hiv-bwa-fixed-a9b588/results",
+  "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+  "status": "SUCCEEDED",
+  "total_published_bytes": 4970074499,
+  "unknown_size_files": 0,
+  "workflow_id": "BVYqNpYNcUhEN"
+}

@@ -1,0 +1,11 @@
+{
+  "case": "baseline",
+  "source": "${WORKTREE_ROOT}/atacseq-pr448-review/base",
+  "files": {
+    "workflows/atacseq.nf": "8588bafccd426b677ec3498eafc8e72ad447527321a9ac67ad623316fe9352ab",
+    "conf/modules.config": "f713696e799c5087f57d699305b02550c3305c3e97fc6a888961515fc571c1b1",
+    "modules/nf-core/picard/mergesamfiles/main.nf": "1a641dae1a340b9a7727ac8f1b91d944b990912f7aa881286f5f0421c65b9cac",
+    "modules/nf-core/picard/markduplicates/main.nf": "5a81db4b74c50d891dce6c677df03842a76d4df8e4ed1637ae32dadaad18827e"
+  },
+  "merge_wiring": "    ch_genome_bam\n        .map {\n            meta, bam ->\n                def meta_clone = meta.clone()\n                meta_clone.remove('read_group')\n                meta_clone.id = meta_clone.id - ~/_T\\d+$/\n                [ meta_clone, bam ]\n        }\n        .groupTuple(by: [0])\n        .map {\n            meta, bam ->\n                [ meta, bam.flatten() ]\n        }\n        .set { ch_sort_bam }"
+}

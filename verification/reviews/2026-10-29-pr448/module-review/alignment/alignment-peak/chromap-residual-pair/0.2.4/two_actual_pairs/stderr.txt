@@ -1,0 +1,34 @@
+Start to map reads.
+Parameters: error threshold: 8, min-num-seeds: 2, max-seed-frequency: 500,1000, max-num-best-mappings: 1, max-insert-size: 2000, MAPQ-threshold: 30, min-read-length: 30, bc-error-threshold: 1, bc-probability-threshold: 0.90
+Number of threads: 2
+Analyze bulk data.
+Won't try to remove adapters on 3'.
+Won't remove PCR duplicates after mapping.
+Will remove PCR duplicates at bulk level.
+Won't allocate multi-mappings after mapping.
+Only output unique mappings after mapping.
+Only output mappings of which barcodes are in whitelist.
+Output mappings in SAM format.
+Reference file: /reference/sacCer3.fa
+Index file: /index/sacCer3.index
+1th read 1 file: /fixture/R1.fq
+1th read 2 file: /fixture/R2.fq
+Output file: /out/mappings.sam
+Loaded all sequences successfully in 0.01s, number of sequences: 17, number of bases: 12157105.
+Kmer size: 17, window size: 7.
+Lookup table size: 2857826, occurrence table size: 243803.
+Loaded index successfully in 0.09s.
+Mapped 2 read pairs in 0.01s.
+Mapped all reads in 0.01s.
+Number of reads: 4.
+Number of mapped reads: 2.
+Number of uniquely mapped reads: 2.
+Number of reads have multi-mappings: 0.
+Number of candidates: 4.
+Number of mappings: 2.
+Number of uni-mappings: 2.
+Number of multi-mappings: 0.
+Sorted and outputed mappings in 0.30s.
+# uni-mappings: 2, # multi-mappings: 0, total: 2.
+Number of output mappings (passed filters): 2
+Total time: 5.03s.

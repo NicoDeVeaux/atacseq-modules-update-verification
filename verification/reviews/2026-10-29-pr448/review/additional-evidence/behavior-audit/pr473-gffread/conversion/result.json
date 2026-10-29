@@ -1,0 +1,11 @@
+{
+  "gates": {
+    "two_exon_coordinates_preserved": true,
+    "gene_and_transcript_ids_preserved": true,
+    "packaged_fixed_runtime_observed": true
+  },
+  "source_sha256": "8eba1f12171fa5d5bef67dc4d947630eb90a980823f11bbca9b7893eac35e9a8",
+  "gtf_sha256": "205ce6f5ade82c002a595c74e614106ed33e0375644407710fd8b4995fea0b13",
+  "runtime": "OBSERVED_GFFREAD_VERSION 0.12.9",
+  "scope": "Actual module and packaged tool, benign annotation conversion; not a full-pipeline or all-input equivalence test"
+}

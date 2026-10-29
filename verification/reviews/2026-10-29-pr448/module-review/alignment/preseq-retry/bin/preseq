@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+import json,os,sys
+from pathlib import Path
+args=sys.argv[1:]
+if not args:
+ print('preseq Version: 3.2.0',file=sys.stderr);raise SystemExit(0)
+with open(os.environ['PRESEQ_ARGV_RECORD'],'a') as f:f.write(json.dumps({'argv':args})+'\n')
+if not all(x in args for x in ['-verbose','-bam','-seed','1']):
+ print('fixture: required original options lost',file=sys.stderr);raise SystemExit(43)
+if '-defects' not in args:
+ print('fixture: simulate initial defect failure',file=sys.stderr);raise SystemExit(42)
+Path(args[args.index('-output')+1]).write_text('fixture complexity estimate\n')

@@ -1,0 +1,418 @@
+{
+  "schema": "nf-verify/pr448-upstream-software-fix-scan/v1",
+  "checked_on": "2026-10-28",
+  "frozen_pipeline_fix_revision": "a9b588",
+  "installed_version_interpretation": "Source-declared pins from inventory.json, not verified image/package manifests or observed runtime versions.",
+  "scope": "Eight upstream tools. Stable GitHub releases newer than declared pins; default-branch commits since installed tag when no newer release exists. Primary project sources only.",
+  "coverage_limit": "Release notes and bounded source comparisons can establish known fixes but cannot establish that software or the pipeline is bug-free. No modules were updated; no cloud action or pipeline run performed by this audit.",
+  "tools": [
+    {
+      "tool": "Bowtie2",
+      "upstream_repository": "https://github.com/BenLangmead/bowtie2",
+      "installed_declared_version": "2.5.4",
+      "latest_checked_release": {
+        "tag": "v2.5.5",
+        "published": "2026-02-17T03:48:37Z",
+        "url": "https://github.com/BenLangmead/bowtie2/releases/tag/v2.5.5"
+      },
+      "post_installed_releases": [
+        {
+          "tag": "v2.5.5",
+          "published_at": "2026-02-17T03:48:37Z",
+          "url": "https://github.com/BenLangmead/bowtie2/releases/tag/v2.5.5"
+        }
+      ],
+      "commands_used": [
+        "bowtie2-build",
+        "bowtie2"
+      ],
+      "pipeline_source_urls": [
+        "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/bowtie2/build/main.nf",
+        "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/bowtie2/align/main.nf",
+        "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/conf/modules.config#L245"
+      ],
+      "assessment": "Newer release found, but its release notes describe deterministic -d reporting and runtime AVX selection, not a concrete post-2.5.4 correctness fix. The pipeline does not pass -d, -a or -k in its normal configuration.",
+      "known_post_version_fixes": [],
+      "limit": "Source/release/commit scan only; no binary/image resolved, upgrade executed, biological impact reproduced or exhaustive absence of bugs established."
+    },
+    {
+      "tool": "BWA",
+      "upstream_repository": "https://github.com/lh3/bwa",
+      "installed_declared_version": "0.7.19",
+      "latest_checked_release": {
+        "tag": "v0.7.19",
+        "published": "2025-03-22T19:05:09Z",
+        "url": "https://github.com/lh3/bwa/releases/tag/v0.7.19"
+      },
+      "post_installed_releases": [],
+      "commands_used": [
+        "bwa index",
+        "bwa mem"
+      ],
+      "pipeline_source_urls": [
+        "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/bwa/index/main.nf",
+        "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/bwa/mem/main.nf"
+      ],
+      "assessment": "No newer release. The complete four-commit post-v0.7.19 default-branch comparison changes README.md and CI configuration only; no post-version executable alignment fix identified in that range.",
+      "known_post_version_fixes": [],
+      "limit": "Source/release/commit scan only; no binary/image resolved, upgrade executed, biological impact reproduced or exhaustive absence of bugs established.",
+      "unreleased_scan": {
+        "base_tag": "v0.7.19",
+        "head_commit": "d82444c17edc2384420409f85557c6ae84019732",
+        "total_commits": 4,
+        "commit_subjects_scanned": 4,
+        "source_urls": [
+          "https://github.com/lh3/bwa/compare/v0.7.19...HEAD"
+        ],
+        "selected_patch_urls": []
+      }
+    },
+    {
+      "tool": "Chromap",
+      "upstream_repository": "https://github.com/haowenz/chromap",
+      "installed_declared_version": "0.3.2",
+      "latest_checked_release": {
+        "tag": "v0.3.2",
+        "published": "2025-08-30T03:37:19Z",
+        "url": "https://github.com/haowenz/chromap/releases/tag/v0.3.2"
+      },
+      "post_installed_releases": [],
+      "commands_used": [
+        "chromap -i",
+        "chromap --SAM --low-mem [--Tn5-shift]"
+      ],
+      "pipeline_source_urls": [
+        "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/chromap/chromap/main.nf",
+        "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/conf/modules.config#L279"
+      ],
+      "assessment": "No newer release. Default branch labels itself 0.3.3 but no release/tag replacing v0.3.2 was found in the release scan. One merged barcode-summary correctness fix is outside the bulk SAM pipeline's normal branch.",
+      "known_post_version_fixes": [
+        {
+          "summary": "Include uncorrected/non-whitelist barcode reads in single-cell summary totals",
+          "status": "unreleased",
+          "source_urls": [
+            "https://github.com/haowenz/chromap/commit/c9d8ae058bfdf04d45bc5f99a164a460f759a6a7"
+          ],
+          "relevance": "not_triggered_in_normal_bulk_path",
+          "detail": "Patch is in the !is_bulk_data branch and requires summary metadata. This pipeline supplies no barcodes/whitelist and emits SAM. Changes to pairs-format MAPQ fields are also not its output path.",
+          "atacseq_impact_reproduced": false
+        }
+      ],
+      "limit": "Source/release/commit scan only; no binary/image resolved, upgrade executed, biological impact reproduced or exhaustive absence of bugs established.",
+      "unreleased_scan": {
+        "base_tag": "v0.3.2",
+        "head_commit": "949043c782e6e7be5be12371722c7ad430db94d7",
+        "total_commits": 4,
+        "commit_subjects_scanned": 4,
+        "source_urls": [
+          "https://github.com/haowenz/chromap/compare/v0.3.2...HEAD"
+        ],
+        "selected_patch_urls": [
+          "https://github.com/haowenz/chromap/commit/c9d8ae058bfdf04d45bc5f99a164a460f759a6a7"
+        ],
+        "tag_list_checked_url": "https://api.github.com/repos/haowenz/chromap/tags"
+      }
+    },
+    {
+      "tool": "deepTools",
+      "upstream_repository": "https://github.com/deeptools/deepTools",
+      "installed_declared_version": "3.5.6",
+      "latest_checked_release": {
+        "tag": "4.0.0",
+        "published": "2026-09-05T18:34:09Z",
+        "url": "https://github.com/deeptools/deepTools/releases/tag/4.0.0"
+      },
+      "post_installed_releases": [
+        {
+          "tag": "4.0.0",
+          "published_at": "2026-09-05T18:34:09Z",
+          "url": "https://github.com/deeptools/deepTools/releases/tag/4.0.0"
+        }
+      ],
+      "commands_used": [
+        "alignmentSieve --ATACshift",
+        "computeMatrix scale-regions --missingDataAsZero",
+        "computeMatrix reference-point --missingDataAsZero",
+        "plotFingerprint",
+        "plotHeatmap",
+        "plotProfile"
+      ],
+      "pipeline_source_urls": [
+        "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/deeptools/alignmentsieve/main.nf",
+        "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/deeptools/computematrix/main.nf",
+        "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/conf/modules.config#L571",
+        "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/subworkflows/local/bam_shift_reads.nf"
+      ],
+      "assessment": "4.0.0 is a major backend rewrite, not a small patch update. Several reported fixes/change boundaries are relevant to used commands; no affected dataset was executed here.",
+      "known_post_version_fixes": [
+        {
+          "summary": "Correct computeMatrix BED blockstart output and chromosome-boundary handling with --missingDataAsZero",
+          "status": "released_in_4.0.0",
+          "source_urls": [
+            "https://github.com/deeptools/deepTools/releases/tag/4.0.0"
+          ],
+          "relevance": "direct_command_conditional_input",
+          "detail": "Both computeMatrix modes explicitly use --missingDataAsZero. Regions exceeding chromosome bounds may therefore produce different bins; exact ATAC impact unmeasured.",
+          "atacseq_impact_reproduced": false
+        },
+        {
+          "summary": "AlignmentSieve preserves input order; rewritten tools apply blacklist filtering at base-pair resolution",
+          "status": "released_in_4.0.0",
+          "source_urls": [
+            "https://github.com/deeptools/deepTools/releases/tag/4.0.0"
+          ],
+          "relevance": "conditional_or_mitigated",
+          "detail": "alignmentSieve is used for ATAC shifting, but this workflow sorts its output afterward. Blacklist semantics matter only for applicable options/input; new matrix numerical precision also differs (f32/f64), so equality is not promised.",
+          "atacseq_impact_reproduced": false
+        },
+        {
+          "summary": "Correct --nanAfterEnd reference-point scaling and plotPCA option handling",
+          "status": "released_in_4.0.0",
+          "source_urls": [
+            "https://github.com/deeptools/deepTools/releases/tag/4.0.0"
+          ],
+          "relevance": "not_enabled_by_normal_pipeline",
+          "detail": "The current configuration does not pass --nanAfterEnd and does not call plotPCA. Other tools' removed bamCoverage/bamCompare options are not automatically relevant to the used modules.",
+          "atacseq_impact_reproduced": false
+        }
+      ],
+      "limit": "Source/release/commit scan only; no binary/image resolved, upgrade executed, biological impact reproduced or exhaustive absence of bugs established."
+    },
+    {
+      "tool": "Picard",
+      "upstream_repository": "https://github.com/broadinstitute/picard",
+      "installed_declared_version": "3.4.0",
+      "latest_checked_release": {
+        "tag": "3.5.0",
+        "published": "2026-07-31T18:56:06Z",
+        "url": "https://github.com/broadinstitute/picard/releases/tag/3.5.0"
+      },
+      "post_installed_releases": [
+        {
+          "tag": "3.5.0",
+          "published_at": "2026-07-31T18:56:06Z",
+          "url": "https://github.com/broadinstitute/picard/releases/tag/3.5.0"
+        }
+      ],
+      "commands_used": [
+        "MarkDuplicates",
+        "MergeSamFiles",
+        "AddOrReplaceReadGroups",
+        "CollectMultipleMetrics"
+      ],
+      "pipeline_source_urls": [
+        "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/picard/markduplicates/main.nf",
+        "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/conf/modules.config#L364"
+      ],
+      "assessment": "3.5.0 contains a relevant optical-duplicate coordinate-width fix and a flow-specific fix that the standard Illumina pipeline does not enable. It also changes the HTSJDK dependency/CRAM defaults.",
+      "known_post_version_fixes": [
+        {
+          "summary": "Use int instead of short for physical locations, preventing overflow and inaccurate duplicate handling on larger flowcells",
+          "status": "released_in_3.5.0",
+          "source_urls": [
+            "https://github.com/broadinstitute/picard/releases/tag/3.5.0",
+            "https://github.com/broadinstitute/picard/pull/2034"
+          ],
+          "relevance": "direct_command_conditional_read_names",
+          "detail": "MarkDuplicates is used and normal config does not disable optical-duplicate parsing. Candidate effect is optical-duplicate classification/metrics for sufficiently large read-name coordinates; no BAM/peak/count effect has been reproduced.",
+          "atacseq_impact_reproduced": false
+        },
+        {
+          "summary": "Correct spill-to-disk handling of significant read ends in flow-base duplicate marking",
+          "status": "released_in_3.5.0",
+          "source_urls": [
+            "https://github.com/broadinstitute/picard/releases/tag/3.5.0",
+            "https://github.com/broadinstitute/picard/pull/2006"
+          ],
+          "relevance": "not_enabled_by_normal_pipeline",
+          "detail": "The pipeline does not enable flow-specific MarkDuplicates options. Do not conflate this with the general optical-coordinate overflow fix.",
+          "atacseq_impact_reproduced": false
+        }
+      ],
+      "limit": "Source/release/commit scan only; no binary/image resolved, upgrade executed, biological impact reproduced or exhaustive absence of bugs established."
+    },
+    {
+      "tool": "MACS3",
+      "upstream_repository": "https://github.com/macs3-project/MACS",
+      "installed_declared_version": "3.0.4",
+      "latest_checked_release": {
+        "tag": "v3.1.0",
+        "published": "2026-10-21T04:54:49Z",
+        "url": "https://github.com/macs3-project/MACS/releases/tag/v3.1.0"
+      },
+      "post_installed_releases": [
+        {
+          "tag": "v3.1.0",
+          "published_at": "2026-10-21T04:54:49Z",
+          "url": "https://github.com/macs3-project/MACS/releases/tag/v3.1.0"
+        },
+        {
+          "tag": "v3.0.5",
+          "published_at": "2026-09-25T21:25:22Z",
+          "url": "https://github.com/macs3-project/MACS/releases/tag/v3.0.5"
+        }
+      ],
+      "commands_used": [
+        "macs3 callpeak --keep-dup all --nomodel --format BAM/BAMPE"
+      ],
+      "pipeline_source_urls": [
+        "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/macs3/callpeak/main.nf",
+        "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/conf/modules.config#L627",
+        "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/conf/modules.config#L871"
+      ],
+      "assessment": "3.0.5 and 3.1.0 are newer. Most prominently documented numerical fixes are gated off by normal ATAC options or unreachable today; robustness fixes and a large performance/backend change remain relevant. No default scientific-output regression is established by this scan.",
+      "known_post_version_fixes": [
+        {
+          "summary": "Fix multi-summit gap-score attribution, boundary candidate loss and shape clipping",
+          "status": "released_in_3.0.5",
+          "source_urls": [
+            "https://github.com/macs3-project/MACS/releases/tag/v3.0.5",
+            "https://github.com/macs3-project/MACS/issues/741",
+            "https://github.com/macs3-project/MACS/issues/747",
+            "https://github.com/macs3-project/MACS/issues/748"
+          ],
+          "relevance": "not_enabled_by_normal_pipeline",
+          "detail": "All three upstream reports require call_summits=True/--call-summits. This pipeline does not normally pass --call-summits; a user override could make them relevant.",
+          "atacseq_impact_reproduced": false
+        },
+        {
+          "summary": "Filter a control with its own automatically calculated duplicate threshold",
+          "status": "released_in_3.1.0",
+          "source_urls": [
+            "https://github.com/macs3-project/MACS/releases/tag/v3.1.0",
+            "https://github.com/macs3-project/MACS/pull/753"
+          ],
+          "relevance": "not_triggered_by_pipeline_keep_dup_all",
+          "detail": "Upstream explicitly states behavior is unchanged for --keep-dup all, which both ATAC callpeak configurations set.",
+          "atacseq_impact_reproduced": false
+        },
+        {
+          "summary": "Restore k=0 in large-lambda lower-tail Poisson CDF",
+          "status": "released_in_3.1.0",
+          "source_urls": [
+            "https://github.com/macs3-project/MACS/releases/tag/v3.1.0",
+            "https://github.com/macs3-project/MACS/pull/777"
+          ],
+          "relevance": "upstream_says_no_current_command_reaches_it",
+          "detail": "The merged PR says no reported number changes today and no current command reaches that function. Do not claim this repairs this pipeline's p-values.",
+          "atacseq_impact_reproduced": false
+        },
+        {
+          "summary": "Reject truncated BAM alignment records and improve worker failure/concurrency cleanup",
+          "status": "released_in_3.1.0",
+          "source_urls": [
+            "https://github.com/macs3-project/MACS/releases/tag/v3.1.0"
+          ],
+          "relevance": "direct_command_robustness",
+          "detail": "BAM/BAMPE peak calling is used. This concerns malformed inputs or worker failures; no effect on valid current HIV data is demonstrated. Both new releases require Python >=3.12 and 3.1.0 adds CPU/backend controls.",
+          "atacseq_impact_reproduced": false
+        }
+      ],
+      "limit": "Source/release/commit scan only; no binary/image resolved, upgrade executed, biological impact reproduced or exhaustive absence of bugs established."
+    },
+    {
+      "tool": "preseq",
+      "upstream_repository": "https://github.com/smithlabcode/preseq",
+      "installed_declared_version": "3.2.0",
+      "latest_checked_release": {
+        "tag": "v3.2.0",
+        "published": "2022-09-05T02:38:19Z",
+        "url": "https://github.com/smithlabcode/preseq/releases/tag/v3.2.0"
+      },
+      "post_installed_releases": [],
+      "commands_used": [
+        "preseq lc_extrap -verbose -bam -seed 1 [-pe]"
+      ],
+      "pipeline_source_urls": [
+        "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/preseq/lcextrap/main.nf",
+        "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/conf/modules.config#L557"
+      ],
+      "assessment": "Latest release/tag remains 3.2.0. All 192 post-tag default-branch commit subjects were scanned across two compare pages; selected fix patches and old-tag code were inspected. Most findings are in an unreleased substantial reader/dispatcher rewrite; applicability to installed 3.2.0 is not established.",
+      "known_post_version_fixes": [
+        {
+          "summary": "Repair mapped-read checks, BAM interval/queue handling, mate comparisons and subcommand argument dispatch in the development rewrite",
+          "status": "unreleased",
+          "source_urls": [
+            "https://github.com/smithlabcode/preseq/commit/251d39f057bc0a03892a0f39d7f6d89aef91070a",
+            "https://github.com/smithlabcode/preseq/commit/094584aef999a0d4cd538051e6fa7b31c9361f1e",
+            "https://github.com/smithlabcode/preseq/commit/0f896afc755d2f955a9ab15898defd598041807f",
+            "https://github.com/smithlabcode/preseq/commit/bf88983bd67ffa47df47d79609b52c1e6e47d064"
+          ],
+          "relevance": "same_command_family_but_not_proven_in_3.2.0",
+          "detail": "v3.2.0 uses SAMReader_deprecated with explicit is_primary && is_mapped checks; the inspected mapped-read fix touches the later bamxx reader. The dispatcher also changed in the rewrite. A post-tag bugfix title alone does not show the tagged binary contains that bug.",
+          "atacseq_impact_reproduced": false
+        },
+        {
+          "summary": "Update Jinja2 requirements to address a vulnerability",
+          "status": "unreleased",
+          "source_urls": [
+            "https://github.com/smithlabcode/preseq/commit/3a0d6ca18770cc9578b3c8baf43f971616c090fe",
+            "https://github.com/smithlabcode/preseq/commit/dc285a2e82e6d0f0285f624e46102aa0a9a3906b"
+          ],
+          "relevance": "documentation_build_only",
+          "detail": "Both patches modify documentation/docs/requirements.txt, not the preseq runtime used for lc_extrap.",
+          "atacseq_impact_reproduced": false
+        }
+      ],
+      "limit": "Source/release/commit scan only; no binary/image resolved, upgrade executed, biological impact reproduced or exhaustive absence of bugs established.",
+      "unreleased_scan": {
+        "base_tag": "v3.2.0",
+        "head_commit": "da535c7735b180bfbdb025f64b6c73d21589284d",
+        "total_commits": 192,
+        "commit_subjects_scanned": 192,
+        "source_urls": [
+          "https://github.com/smithlabcode/preseq/compare/v3.2.0...HEAD",
+          "https://api.github.com/repos/smithlabcode/preseq/compare/v3.2.0...HEAD?per_page=100&page=2",
+          "https://api.github.com/repos/smithlabcode/preseq/tags"
+        ],
+        "selected_patch_urls": [
+          "https://github.com/smithlabcode/preseq/commit/251d39f057bc0a03892a0f39d7f6d89aef91070a",
+          "https://github.com/smithlabcode/preseq/commit/094584aef999a0d4cd538051e6fa7b31c9361f1e",
+          "https://github.com/smithlabcode/preseq/commit/0f896afc755d2f955a9ab15898defd598041807f",
+          "https://github.com/smithlabcode/preseq/commit/bf88983bd67ffa47df47d79609b52c1e6e47d064",
+          "https://github.com/smithlabcode/preseq/commit/3a0d6ca18770cc9578b3c8baf43f971616c090fe",
+          "https://github.com/smithlabcode/preseq/commit/dc285a2e82e6d0f0285f624e46102aa0a9a3906b"
+        ]
+      }
+    },
+    {
+      "tool": "gffread",
+      "upstream_repository": "https://github.com/gpertea/gffread",
+      "installed_declared_version": "0.12.7",
+      "latest_checked_release": {
+        "tag": "v0.12.9",
+        "published": "2026-04-10T19:46:47Z",
+        "url": "https://github.com/gpertea/gffread/releases/tag/v0.12.9"
+      },
+      "post_installed_releases": [
+        {
+          "tag": "v0.12.9",
+          "published_at": "2026-04-10T19:46:47Z",
+          "url": "https://github.com/gpertea/gffread/releases/tag/v0.12.9"
+        }
+      ],
+      "commands_used": [
+        "gffread --keep-exon-attrs -F -T"
+      ],
+      "pipeline_source_urls": [
+        "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/modules/nf-core/gffread/main.nf",
+        "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/conf/modules.config#L72",
+        "https://github.com/nf-core/atacseq/blob/a51bee0178045b29cd9f034e58f4de6b80bc91db/subworkflows/local/prepare_genome.nf#L73"
+      ],
+      "assessment": "0.12.9 is newer and explicitly repairs small-buffer overflow while parsing large GFF fields. This is a relevant optional annotation-input branch, not evidence that the current run's annotation triggers it.",
+      "known_post_version_fixes": [
+        {
+          "summary": "Fix small-buffer overflow parsing large GFF fields",
+          "status": "released_in_0.12.9",
+          "source_urls": [
+            "https://github.com/gpertea/gffread/releases/tag/v0.12.9"
+          ],
+          "relevance": "direct_command_conditional_gff_input",
+          "detail": "PREPARE_GENOME invokes gffread when a GFF is supplied instead of a ready GTF. Field-size trigger and impact need a separate reproduction; current full-HIV runs were not altered.",
+          "atacseq_impact_reproduced": false
+        }
+      ],
+      "limit": "Source/release/commit scan only; no binary/image resolved, upgrade executed, biological impact reproduced or exhaustive absence of bugs established."
+    }
+  ]
+}

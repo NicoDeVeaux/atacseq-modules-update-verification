@@ -1,0 +1,42 @@
+{
+  "${VALIDATION_ROOT}/chromap/runs/baseline/work/61/6fdd9c861259818a73109c0809c12d/SAMPLE_A_REP1.mLb.mkD.sorted.bam": {
+    "public_path": "chromap/runs/baseline/outputs/chromap/merged_library/SAMPLE_A_REP1.mLb.mkD.sorted.bam",
+    "original_sha256": "2bcbd46b6395c9c7f20fd02b0f5820f9e6aa2baa13f659cb488f7fe9b58f2231",
+    "public_sha256": "2bcbd46b6395c9c7f20fd02b0f5820f9e6aa2baa13f659cb488f7fe9b58f2231"
+  },
+  "${VALIDATION_ROOT}/chromap/runs/baseline/work/61/6fdd9c861259818a73109c0809c12d/SAMPLE_A_REP1.mLb.mkD.sorted.MarkDuplicates.metrics.txt": {
+    "public_path": "chromap/runs/baseline/outputs/chromap/merged_library/picard_metrics/SAMPLE_A_REP1.mLb.mkD.sorted.MarkDuplicates.metrics.txt",
+    "original_sha256": "9c21f6678c8f1ab2fa94a7c7ab02d51d5b789e1aacd7631cd7fef2cb4833ca42",
+    "public_sha256": "9c21f6678c8f1ab2fa94a7c7ab02d51d5b789e1aacd7631cd7fef2cb4833ca42"
+  },
+  "${VALIDATION_ROOT}/chromap/runs/baseline/work/4b/aa9efeee77944f44e39ff575a8a737/SAMPLE_A_REP2.mLb.mkD.sorted.bam": {
+    "public_path": "chromap/runs/baseline/outputs/chromap/merged_library/SAMPLE_A_REP2.mLb.mkD.sorted.bam",
+    "original_sha256": "fa8fee0c5e4a0d7377ca67ab67cd38eb061093383d3b321431f571d3b6b32eee",
+    "public_sha256": "fa8fee0c5e4a0d7377ca67ab67cd38eb061093383d3b321431f571d3b6b32eee"
+  },
+  "${VALIDATION_ROOT}/chromap/runs/baseline/work/4b/aa9efeee77944f44e39ff575a8a737/SAMPLE_A_REP2.mLb.mkD.sorted.MarkDuplicates.metrics.txt": {
+    "public_path": "chromap/runs/baseline/outputs/chromap/merged_library/picard_metrics/SAMPLE_A_REP2.mLb.mkD.sorted.MarkDuplicates.metrics.txt",
+    "original_sha256": "9fc39d249cff0bb8add6e677faa575ba01a489c1c4381c67588f80e4c27cf998",
+    "public_sha256": "9fc39d249cff0bb8add6e677faa575ba01a489c1c4381c67588f80e4c27cf998"
+  },
+  "${VALIDATION_ROOT}/chromap/runs/proposed/work/67/17c286a29e1c7ad517d85ecbf80115/SAMPLE_A_REP1.mLb.mkD.sorted.bam": {
+    "public_path": "chromap/runs/proposed/outputs/chromap/merged_library/SAMPLE_A_REP1.mLb.mkD.sorted.bam",
+    "original_sha256": "bcce1b295f6b4a6cadcf3ba917b90da22c6edbed783a44309d93f1d321515a9d",
+    "public_sha256": "bcce1b295f6b4a6cadcf3ba917b90da22c6edbed783a44309d93f1d321515a9d"
+  },
+  "${VALIDATION_ROOT}/chromap/runs/proposed/work/67/17c286a29e1c7ad517d85ecbf80115/SAMPLE_A_REP1.mLb.mkD.sorted.metrics.txt": {
+    "public_path": "chromap/runs/proposed/outputs/chromap/merged_library/picard_metrics/SAMPLE_A_REP1.mLb.mkD.sorted.metrics.txt",
+    "original_sha256": "76eb1895f6dc240eaa4be13295257391709d03bde1b5b18fcbe1bd42cdc5a967",
+    "public_sha256": "76eb1895f6dc240eaa4be13295257391709d03bde1b5b18fcbe1bd42cdc5a967"
+  },
+  "${VALIDATION_ROOT}/chromap/runs/proposed/work/e9/caa78f1ec6a7500df59fb8b040aa8c/SAMPLE_A_REP2.mLb.mkD.sorted.bam": {
+    "public_path": "chromap/runs/proposed/outputs/chromap/merged_library/SAMPLE_A_REP2.mLb.mkD.sorted.bam",
+    "original_sha256": "50fd05e965d96ead095fb27f9741211b9394c86579ed8e166777b9397099e13e",
+    "public_sha256": "50fd05e965d96ead095fb27f9741211b9394c86579ed8e166777b9397099e13e"
+  },
+  "${VALIDATION_ROOT}/chromap/runs/proposed/work/e9/caa78f1ec6a7500df59fb8b040aa8c/SAMPLE_A_REP2.mLb.mkD.sorted.metrics.txt": {
+    "public_path": "chromap/runs/proposed/outputs/chromap/merged_library/picard_metrics/SAMPLE_A_REP2.mLb.mkD.sorted.metrics.txt",
+    "original_sha256": "e6e61d2a3ff8a81dd5e787a887e644ff40f38af514670fafe64f83f34f81dca6",
+    "public_sha256": "e6e61d2a3ff8a81dd5e787a887e644ff40f38af514670fafe64f83f34f81dca6"
+  }
+}

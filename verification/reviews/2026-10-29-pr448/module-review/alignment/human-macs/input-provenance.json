@@ -1,0 +1,15 @@
+{
+  "case": "pr448-hiv-bwa-fixed-a9b588",
+  "source_workflow_id": "BVYqNpYNcUhEN",
+  "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+  "source_relative_path": "bwa/merged_library/HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam",
+  "source_inventory_sha256": "a49545a98be0db7067d75a54ce7cbe8fc07c0acc82147448d820ac862ea2b778",
+  "bytes": 285036036,
+  "source_etag": "\"59c973d41fe8c9bdeb96614044c53193-34\"",
+  "sha256": "eade69e402e2510939dc047d4754dc4d1372d52e2f87d973df5ff9cca11797cc",
+  "all_ranges_content_range_content_length_etag_verified": true,
+  "range_requests": 34,
+  "finished_source_live_identity_status_verified": "SUCCEEDED",
+  "signed_url_persisted": false,
+  "elapsed_seconds": 51.025475958
+}

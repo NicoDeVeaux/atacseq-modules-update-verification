@@ -1,0 +1,42 @@
+{
+  "bwa_0.7.17": {
+    "Id": "sha256:4b112b5e5e309ced1aab818bf9a2f9eaaaf6c4a0931aad23564c3de60dac7465",
+    "RepoDigests": [
+      "quay.io/biocontainers/mulled-v2-fe8faa35dbf6dc65a0f7f5d4ea12e31a79f73e40@sha256:4b112b5e5e309ced1aab818bf9a2f9eaaaf6c4a0931aad23564c3de60dac7465"
+    ],
+    "Architecture": "amd64",
+    "Size": 45203723
+  },
+  "bwa_0.7.19": {
+    "Id": "sha256:48812e48a9462145c065d1b8e15d996c4a2c4c69469f1249fb601f25939cd48e",
+    "RepoDigests": [
+      "community.wave.seqera.io/library/bwa_htslib_samtools@sha256:48812e48a9462145c065d1b8e15d996c4a2c4c69469f1249fb601f25939cd48e"
+    ],
+    "Architecture": "amd64",
+    "Size": 93193742
+  },
+  "bowtie_2.5.2": {
+    "Id": "sha256:c2166205a475f1d633e8541d87ff07cccbfe88368dab2bc14dc94f68cfb4122b",
+    "RepoDigests": [
+      "quay.io/biocontainers/mulled-v2-ac74a7f02cebcfcc07d8e8d1d750af9c83b4d45a@sha256:c2166205a475f1d633e8541d87ff07cccbfe88368dab2bc14dc94f68cfb4122b"
+    ],
+    "Architecture": "amd64",
+    "Size": 126255941
+  },
+  "bowtie_2.5.4": {
+    "Id": "sha256:26758d72855cd44c475c24360f2cdcc2120955e182c680427c5d099a06b1423e",
+    "RepoDigests": [
+      "community.wave.seqera.io/library/bowtie2_htslib_samtools_pigz@sha256:26758d72855cd44c475c24360f2cdcc2120955e182c680427c5d099a06b1423e"
+    ],
+    "Architecture": "amd64",
+    "Size": 212899353
+  },
+  "bowtie_build_2.4.4": {
+    "Id": "sha256:8295d4e8d7e665e9309cb8311a6aac6d4cc721b30e7e13135c18cd4016baad36",
+    "RepoDigests": [
+      "quay.io/biocontainers/bowtie2@sha256:8295d4e8d7e665e9309cb8311a6aac6d4cc721b30e7e13135c18cd4016baad36"
+    ],
+    "Architecture": "amd64",
+    "Size": 109153201
+  }
+}
