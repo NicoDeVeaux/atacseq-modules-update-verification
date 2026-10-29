@@ -1,2 +1,5 @@
-*.part-* -text -diff
-*.tar.gz -text -diff
+* -text
+*.part-* -diff
+*.tar.gz -diff
+*.csv -diff
+*.tsv -diff

@@ -693,10 +693,8 @@
       "sha256": "8fcab2399880d56487f519944d01b8bbf345a863327e4a8e7f7f75838f9de53f"
     },
     ".gitattributes": {
-      "bytes": 42,
-      "sha256": "79da10f3498f4dd7e6724e5582492c495b3d928b97aa9aa14bdc0cf31e2bd5ca",
-      "original_sha256": null,
-      "transformed": false
+      "bytes": 62,
+      "sha256": "f4407c1ffdd1e3aa2ea2c000edb359d1d80300ce4878048b909aa7afe65a36d3"
     },
     "module-review/alignment/EXTERNAL-INPUTS.json": {
       "bytes": 1140,
@@ -6525,8 +6523,8 @@
       "transformed": false
     },
     "test_bundle_integrity.py": {
-      "bytes": 2039,
-      "sha256": "96e3ef2c86efe5b0851566959429d2d2ac02b16addec0d4b7fc589d3466b458b"
+      "bytes": 2847,
+      "sha256": "006dcc5bbbbb3b77eda737f8e53cc4951eccea159b6d41c1f611b5e6ce611b27"
     },
     "review/CLAIMS.json": {
       "bytes": 83632,
@@ -8964,5 +8962,5 @@
       "sha256": "e278fe2cf8aa0d746d741778b5fcc92668675ae6abdaf6d8e8e7b407e12f5ff4"
     }
   },
-  "scope": "Distributed bytes and inventory, not semantic correctness. Frozen full-data runs a9b588; review source1d840c."
+  "scope": "Captured byte identity is preserved through Git; semantic correctness and scientific limits remain separate."
 }
