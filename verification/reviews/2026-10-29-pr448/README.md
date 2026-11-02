@@ -21,6 +21,10 @@ The [original trimming/read-group controls](module-review/original-fixes/README.
 
 ## Computation and files
 
+The [anonymous stream verifier](full-output-archive/verify_public_archive.py) checks the complete public release, every part and every TAR member without retaining payloads. It refuses the current incomplete archive; it is used after publication before local archive cleanup. Its [22 local HTTP/TAR fixtures](full-output-archive/test_verify_public_archive.py) run with Python standard-library unittest. These are integrity checks, not scientific reruns.
+
+This verification-tool addition is written by an AI agent (model name unavailable) on Nico DeVeaux's behalf.
+
 - [Full HIV results](hiv/results/FINAL-REPORT.md), [independent audit](hiv/results/AUDIT.md), [historical agreement](hiv/results/HISTORICAL-AGREEMENT.md).
 - [Portable HIV reproduction](portable/README.md): complete pinned sources/licenses, exact scientific settings, public inputs/checksums, isolated execution and comparison code. Seven behavior tests and four configuration parses passed.
 - [Complete resequencing control](resequencing/README.md): ten ordered archive parts preserve all 4,565 files, including actual FASTQ subsets, common-alignment and cleaned BAMs, matched yeast reference/annotation, all 469 task evidence sets, reports and replay scripts. All members and a deterministic rebuild were verified; 18 existing tests pass.
