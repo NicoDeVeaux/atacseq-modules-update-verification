@@ -1,0 +1,1399 @@
+{
+  "archive": {
+    "bytes": 9981936,
+    "file": "ataqv-viewer-resources.tar.gz",
+    "format": "Deterministic USTAR regular files in gzip; sorted names, uid/gid/mtime0, mode0644",
+    "sha256": "189cfabde41b907a5f61b47efcff9e12a4ed835b93a3275dded6a2d0fd857e02"
+  },
+  "capture_manifest_sha256": "f5fd00a056956359463d856017152a3af228474eaae0d588a623d2ea0fd81c5b",
+  "license_files": [
+    {
+      "bytes": 35149,
+      "license": "GPL-3.0 text accompanying GPL-3.0-or-later ataqv JS notices",
+      "path": "ATAQV-LICENSE.txt",
+      "scope": "License document outside the unchanged 104-member resource archive",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "source_url": "https://www.gnu.org/licenses/gpl-3.0.txt"
+    }
+  ],
+  "license_observations": [
+    "ataqv.js retains Stephen Parker copyright and GPLv3-or-later notice.",
+    "Font Awesome CSS retains Font SIL OFL1.1 and CSS MIT notice.",
+    "DataTables Font Awesome styling and normalize.css retain MIT notices.",
+    "The DataTables combined JavaScript retains jQuery/library notices; JSZip retains its MIT-or-GPLv3 and pako notices; D3 retains its copyright.",
+    "Original viewer asset bytes/notices are preserved; no blanket pipeline-MIT relicensing is asserted."
+  ],
+  "member_count": 104,
+  "members": [
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 18865,
+      "original_sha256": "0cc6fe865d5d3d620262ce60fee26e1dd08c695c85debcfa9f133236c2db1e0d",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/ataqv.css",
+      "published_bytes": 18865,
+      "published_sha256": "0cc6fe865d5d3d620262ce60fee26e1dd08c695c85debcfa9f133236c2db1e0d",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 9160,
+      "original_sha256": "d5086a5a45fefdad773ef7071aed5e7fa729cc1d9f4c2d4041228ed7f08d97ba",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/datatables.buttons.min.css",
+      "published_bytes": 9160,
+      "published_sha256": "d5086a5a45fefdad773ef7071aed5e7fa729cc1d9f4c2d4041228ed7f08d97ba",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 3362,
+      "original_sha256": "1312655859bfabbe6015291300f89771b4e6bc339d537e6dee471c78d92367e8",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/datatables.fontawesome.css",
+      "published_bytes": 3362,
+      "published_sha256": "1312655859bfabbe6015291300f89771b4e6bc339d537e6dee471c78d92367e8",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 26145,
+      "original_sha256": "3d31f4eb703cd50d4233653dfc34d66b845e452bf9f2ad2f998fb87b4a4432e6",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/datatables.min.css",
+      "published_bytes": 26145,
+      "published_sha256": "3d31f4eb703cd50d4233653dfc34d66b845e452bf9f2ad2f998fb87b4a4432e6",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 28759,
+      "original_sha256": "b5d7707ea8fc00aae40bf500ac7498d7f32f6b1bbff7b4fde976a40345eb5f9d",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/font-awesome.min.css",
+      "published_bytes": 28759,
+      "published_sha256": "b5d7707ea8fc00aae40bf500ac7498d7f32f6b1bbff7b4fde976a40345eb5f9d",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 6946,
+      "original_sha256": "4d3938fc65148e3b1d23351e9ab5bc58d86d669326d303b85ee539a5a0e7b810",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/normalize.css",
+      "published_bytes": 6946,
+      "published_sha256": "4d3938fc65148e3b1d23351e9ab5bc58d86d669326d303b85ee539a5a0e7b810",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Streaming raw private-bucket/credential scan; BAM decompressed header or gzip decompressed payload additionally checked when applicable",
+      "original_bytes": 219538,
+      "original_sha256": "a0ad478c6081bd033e2b68ca929e6d65ab24ba05907b7009a4d1a57572add276",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/data/HIV_CD86HI_48H_REP1.json.gz",
+      "published_bytes": 219538,
+      "published_sha256": "a0ad478c6081bd033e2b68ca929e6d65ab24ba05907b7009a4d1a57572add276",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Streaming raw private-bucket/credential scan; BAM decompressed header or gzip decompressed payload additionally checked when applicable",
+      "original_bytes": 256665,
+      "original_sha256": "958492f4c0a266708210175d87337880ac53ba398e86af9bb421ef58304eaa04",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/data/HIV_CD86HI_48H_REP2.json.gz",
+      "published_bytes": 256665,
+      "published_sha256": "958492f4c0a266708210175d87337880ac53ba398e86af9bb421ef58304eaa04",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Streaming raw private-bucket/credential scan; BAM decompressed header or gzip decompressed payload additionally checked when applicable",
+      "original_bytes": 246425,
+      "original_sha256": "5ca40c85a152606d2be355b5e7dca21dbaeabb5a275d33d7c39a326ba276a83a",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/data/MOCK_48H_REP1.json.gz",
+      "published_bytes": 246425,
+      "published_sha256": "5ca40c85a152606d2be355b5e7dca21dbaeabb5a275d33d7c39a326ba276a83a",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Streaming raw private-bucket/credential scan; BAM decompressed header or gzip decompressed payload additionally checked when applicable",
+      "original_bytes": 340763,
+      "original_sha256": "d8f818f76aef721e8ac382b35562a1c37d4dfa432074c5c2a737d7ee0724cb6a",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/data/MOCK_48H_REP2.json.gz",
+      "published_bytes": 340763,
+      "published_sha256": "d8f818f76aef721e8ac382b35562a1c37d4dfa432074c5c2a737d7ee0724cb6a",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 123112,
+      "original_sha256": "bcf2323752da19b8cc2695e88722807a803c0a2a9f20d8a7d7cb55846b55b3fa",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/fonts/FontAwesome.otf",
+      "published_bytes": 123112,
+      "published_sha256": "bcf2323752da19b8cc2695e88722807a803c0a2a9f20d8a7d7cb55846b55b3fa",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 75220,
+      "original_sha256": "23f40876f4009dc2b74ad97674c979cd435ff888990d14900f38a1cb36f10bdf",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/fonts/fontawesome-webfont.eot",
+      "published_bytes": 75220,
+      "published_sha256": "23f40876f4009dc2b74ad97674c979cd435ff888990d14900f38a1cb36f10bdf",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 386421,
+      "original_sha256": "b0387cc7b1ca00f2f04bde2cd508be6e1a17caf0ee713a19627c1f02c638e280",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/fonts/fontawesome-webfont.svg",
+      "published_bytes": 386421,
+      "published_sha256": "b0387cc7b1ca00f2f04bde2cd508be6e1a17caf0ee713a19627c1f02c638e280",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 150920,
+      "original_sha256": "3e8c3cc94dc6261132948b99958b852ff8504c64686bedd6b1505563ed72e4d8",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/fonts/fontawesome-webfont.ttf",
+      "published_bytes": 150920,
+      "published_sha256": "3e8c3cc94dc6261132948b99958b852ff8504c64686bedd6b1505563ed72e4d8",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 89076,
+      "original_sha256": "a4d2c0c031f66c57ec2815079e49e41cad9dc58f0986ba072fb88fff888dca0e",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/fonts/fontawesome-webfont.woff",
+      "published_bytes": 89076,
+      "published_sha256": "a4d2c0c031f66c57ec2815079e49e41cad9dc58f0986ba072fb88fff888dca0e",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 70728,
+      "original_sha256": "d3ebb498192527b985939ae62cc4e5eb5c108efc1896184126b45d866868e73d",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/fonts/fontawesome-webfont.woff2",
+      "published_bytes": 70728,
+      "published_sha256": "d3ebb498192527b985939ae62cc4e5eb5c108efc1896184126b45d866868e73d",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 34052,
+      "original_sha256": "21519c6b09f77cf565045f76a0422429dacdb73aae7d9dcc75bab92b0adfd4f1",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/fonts/sourcesanspro-regular.woff",
+      "published_bytes": 34052,
+      "published_sha256": "21519c6b09f77cf565045f76a0422429dacdb73aae7d9dcc75bab92b0adfd4f1",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 28724,
+      "original_sha256": "e6a7c509c6af36020db20aaa5237b183f99631473c5e1db1595f2d6ffbbde0ae",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/fonts/sourcesanspro-regularit.woff",
+      "published_bytes": 28724,
+      "published_sha256": "e6a7c509c6af36020db20aaa5237b183f99631473c5e1db1595f2d6ffbbde0ae",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 33848,
+      "original_sha256": "6e044369b224e98102f43714e2f42b375f1a1354ab19a45e884cf416444a9483",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/fonts/sourcesanspro-semibold.woff",
+      "published_bytes": 33848,
+      "published_sha256": "6e044369b224e98102f43714e2f42b375f1a1354ab19a45e884cf416444a9483",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 28624,
+      "original_sha256": "a3f22c4fd0d7d752f04075e9b303988265712dc09695d56fd5b41c6c682022c2",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/fonts/sourcesanspro-semiboldit.woff",
+      "published_bytes": 28624,
+      "published_sha256": "a3f22c4fd0d7d752f04075e9b303988265712dc09695d56fd5b41c6c682022c2",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_method": "Static HTML with actual LZString/gzip/base64/JSON/image/font decoders; no artifact JavaScript executed",
+      "audit_report_sha256": "e10caa7b9798f9071bc765e1804268957afaaf2448518bbf20a7553fd18b0cd6",
+      "audit_scope": "Approved decoded payload, original/source ETag and published SHA verified",
+      "limits": {
+        "artifact_code_executed": false,
+        "image_pixel_decode_no_OCR": true,
+        "max_decoded_payload_bytes": 200000000,
+        "max_nesting": 5
+      },
+      "numeric_preservation": {
+        "all_decoded_json_non_string_tokens_identical": true,
+        "text_changes_limited_to_recorded_metadata_patterns": true
+      },
+      "original_bytes": 50783,
+      "original_sha256": "b93ec0be4d701df473c8e109128b4a3d856bfe13bc285943333ca75f41c7fbff",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/index.html",
+      "published_bytes": 50783,
+      "published_sha256": "b93ec0be4d701df473c8e109128b4a3d856bfe13bc285943333ca75f41c7fbff",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 69250,
+      "original_sha256": "f28bba2778412d4cdd956ce99ef0d000fafa37992b87554ab9d773d7ae999911",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/js/ataqv.js",
+      "published_bytes": 69250,
+      "published_sha256": "f28bba2778412d4cdd956ce99ef0d000fafa37992b87554ab9d773d7ae999911",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 349026,
+      "original_sha256": "f67e07d3a662b1935c57939017f06b63d26b21cca5311c018998f0a6a3406cec",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/js/configuration.js",
+      "published_bytes": 349026,
+      "published_sha256": "f67e07d3a662b1935c57939017f06b63d26b21cca5311c018998f0a6a3406cec",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 212671,
+      "original_sha256": "f6340e6cdabed224aa5c6ebaf88978674ca57520977c5d92cdb6cc3800443b25",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/js/d3.min.js",
+      "published_bytes": 212671,
+      "published_sha256": "f6340e6cdabed224aa5c6ebaf88978674ca57520977c5d92cdb6cc3800443b25",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 1209333,
+      "original_sha256": "b9b33884ed76995fba02666d68f3fa602049ba4c866219ba2c3548b8ba009dfe",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/js/datatables.min.js",
+      "published_bytes": 1209333,
+      "published_sha256": "b9b33884ed76995fba02666d68f3fa602049ba4c866219ba2c3548b8ba009dfe",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 102173,
+      "original_sha256": "ff586350217113fd488afcc5087a12fc4b76210df3efd88d9e4e363e465e5e10",
+      "path": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/js/jszip.min.js",
+      "published_bytes": 102173,
+      "published_sha256": "ff586350217113fd488afcc5087a12fc4b76210df3efd88d9e4e363e465e5e10",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 18865,
+      "original_sha256": "0cc6fe865d5d3d620262ce60fee26e1dd08c695c85debcfa9f133236c2db1e0d",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/ataqv.css",
+      "published_bytes": 18865,
+      "published_sha256": "0cc6fe865d5d3d620262ce60fee26e1dd08c695c85debcfa9f133236c2db1e0d",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 9160,
+      "original_sha256": "d5086a5a45fefdad773ef7071aed5e7fa729cc1d9f4c2d4041228ed7f08d97ba",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/datatables.buttons.min.css",
+      "published_bytes": 9160,
+      "published_sha256": "d5086a5a45fefdad773ef7071aed5e7fa729cc1d9f4c2d4041228ed7f08d97ba",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 3362,
+      "original_sha256": "1312655859bfabbe6015291300f89771b4e6bc339d537e6dee471c78d92367e8",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/datatables.fontawesome.css",
+      "published_bytes": 3362,
+      "published_sha256": "1312655859bfabbe6015291300f89771b4e6bc339d537e6dee471c78d92367e8",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 26145,
+      "original_sha256": "3d31f4eb703cd50d4233653dfc34d66b845e452bf9f2ad2f998fb87b4a4432e6",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/datatables.min.css",
+      "published_bytes": 26145,
+      "published_sha256": "3d31f4eb703cd50d4233653dfc34d66b845e452bf9f2ad2f998fb87b4a4432e6",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 28759,
+      "original_sha256": "b5d7707ea8fc00aae40bf500ac7498d7f32f6b1bbff7b4fde976a40345eb5f9d",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/font-awesome.min.css",
+      "published_bytes": 28759,
+      "published_sha256": "b5d7707ea8fc00aae40bf500ac7498d7f32f6b1bbff7b4fde976a40345eb5f9d",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 6946,
+      "original_sha256": "4d3938fc65148e3b1d23351e9ab5bc58d86d669326d303b85ee539a5a0e7b810",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/normalize.css",
+      "published_bytes": 6946,
+      "published_sha256": "4d3938fc65148e3b1d23351e9ab5bc58d86d669326d303b85ee539a5a0e7b810",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Streaming raw private-bucket/credential scan; BAM decompressed header or gzip decompressed payload additionally checked when applicable",
+      "original_bytes": 219395,
+      "original_sha256": "0371d913b62f77bf2edf4a0d29f8c920dfc79c7c94c26f94e52f15412707b6e0",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/data/HIV_CD86HI_48H_REP1.json.gz",
+      "published_bytes": 219395,
+      "published_sha256": "0371d913b62f77bf2edf4a0d29f8c920dfc79c7c94c26f94e52f15412707b6e0",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Streaming raw private-bucket/credential scan; BAM decompressed header or gzip decompressed payload additionally checked when applicable",
+      "original_bytes": 256581,
+      "original_sha256": "2093192341780b9123bd1a44c5941058744e17fdd494da1ad99be44481b99a25",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/data/HIV_CD86HI_48H_REP2.json.gz",
+      "published_bytes": 256581,
+      "published_sha256": "2093192341780b9123bd1a44c5941058744e17fdd494da1ad99be44481b99a25",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Streaming raw private-bucket/credential scan; BAM decompressed header or gzip decompressed payload additionally checked when applicable",
+      "original_bytes": 246257,
+      "original_sha256": "c3d1d5e525be25c9c7205e33c3142f9204db3fd7d100f050cb30777cbc703780",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/data/MOCK_48H_REP1.json.gz",
+      "published_bytes": 246257,
+      "published_sha256": "c3d1d5e525be25c9c7205e33c3142f9204db3fd7d100f050cb30777cbc703780",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Streaming raw private-bucket/credential scan; BAM decompressed header or gzip decompressed payload additionally checked when applicable",
+      "original_bytes": 340908,
+      "original_sha256": "263ccab83f5a87b351605db9843961ff547d076e81debecfa55c44a09f8294ed",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/data/MOCK_48H_REP2.json.gz",
+      "published_bytes": 340908,
+      "published_sha256": "263ccab83f5a87b351605db9843961ff547d076e81debecfa55c44a09f8294ed",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 123112,
+      "original_sha256": "bcf2323752da19b8cc2695e88722807a803c0a2a9f20d8a7d7cb55846b55b3fa",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/fonts/FontAwesome.otf",
+      "published_bytes": 123112,
+      "published_sha256": "bcf2323752da19b8cc2695e88722807a803c0a2a9f20d8a7d7cb55846b55b3fa",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 75220,
+      "original_sha256": "23f40876f4009dc2b74ad97674c979cd435ff888990d14900f38a1cb36f10bdf",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/fonts/fontawesome-webfont.eot",
+      "published_bytes": 75220,
+      "published_sha256": "23f40876f4009dc2b74ad97674c979cd435ff888990d14900f38a1cb36f10bdf",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 386421,
+      "original_sha256": "b0387cc7b1ca00f2f04bde2cd508be6e1a17caf0ee713a19627c1f02c638e280",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/fonts/fontawesome-webfont.svg",
+      "published_bytes": 386421,
+      "published_sha256": "b0387cc7b1ca00f2f04bde2cd508be6e1a17caf0ee713a19627c1f02c638e280",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 150920,
+      "original_sha256": "3e8c3cc94dc6261132948b99958b852ff8504c64686bedd6b1505563ed72e4d8",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/fonts/fontawesome-webfont.ttf",
+      "published_bytes": 150920,
+      "published_sha256": "3e8c3cc94dc6261132948b99958b852ff8504c64686bedd6b1505563ed72e4d8",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 89076,
+      "original_sha256": "a4d2c0c031f66c57ec2815079e49e41cad9dc58f0986ba072fb88fff888dca0e",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/fonts/fontawesome-webfont.woff",
+      "published_bytes": 89076,
+      "published_sha256": "a4d2c0c031f66c57ec2815079e49e41cad9dc58f0986ba072fb88fff888dca0e",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 70728,
+      "original_sha256": "d3ebb498192527b985939ae62cc4e5eb5c108efc1896184126b45d866868e73d",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/fonts/fontawesome-webfont.woff2",
+      "published_bytes": 70728,
+      "published_sha256": "d3ebb498192527b985939ae62cc4e5eb5c108efc1896184126b45d866868e73d",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 34052,
+      "original_sha256": "21519c6b09f77cf565045f76a0422429dacdb73aae7d9dcc75bab92b0adfd4f1",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/fonts/sourcesanspro-regular.woff",
+      "published_bytes": 34052,
+      "published_sha256": "21519c6b09f77cf565045f76a0422429dacdb73aae7d9dcc75bab92b0adfd4f1",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 28724,
+      "original_sha256": "e6a7c509c6af36020db20aaa5237b183f99631473c5e1db1595f2d6ffbbde0ae",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/fonts/sourcesanspro-regularit.woff",
+      "published_bytes": 28724,
+      "published_sha256": "e6a7c509c6af36020db20aaa5237b183f99631473c5e1db1595f2d6ffbbde0ae",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 33848,
+      "original_sha256": "6e044369b224e98102f43714e2f42b375f1a1354ab19a45e884cf416444a9483",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/fonts/sourcesanspro-semibold.woff",
+      "published_bytes": 33848,
+      "published_sha256": "6e044369b224e98102f43714e2f42b375f1a1354ab19a45e884cf416444a9483",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 28624,
+      "original_sha256": "a3f22c4fd0d7d752f04075e9b303988265712dc09695d56fd5b41c6c682022c2",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/fonts/sourcesanspro-semiboldit.woff",
+      "published_bytes": 28624,
+      "published_sha256": "a3f22c4fd0d7d752f04075e9b303988265712dc09695d56fd5b41c6c682022c2",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_method": "Static HTML with actual LZString/gzip/base64/JSON/image/font decoders; no artifact JavaScript executed",
+      "audit_report_sha256": "178e0a025681c5a734371f3a9e69cc73ad5ed12cbf7f90634cd4b614e4a7d94e",
+      "audit_scope": "Approved decoded payload, original/source ETag and published SHA verified",
+      "limits": {
+        "artifact_code_executed": false,
+        "image_pixel_decode_no_OCR": true,
+        "max_decoded_payload_bytes": 200000000,
+        "max_nesting": 5
+      },
+      "numeric_preservation": {
+        "all_decoded_json_non_string_tokens_identical": true,
+        "text_changes_limited_to_recorded_metadata_patterns": true
+      },
+      "original_bytes": 50783,
+      "original_sha256": "b93ec0be4d701df473c8e109128b4a3d856bfe13bc285943333ca75f41c7fbff",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/index.html",
+      "published_bytes": 50783,
+      "published_sha256": "b93ec0be4d701df473c8e109128b4a3d856bfe13bc285943333ca75f41c7fbff",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 69250,
+      "original_sha256": "f28bba2778412d4cdd956ce99ef0d000fafa37992b87554ab9d773d7ae999911",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/js/ataqv.js",
+      "published_bytes": 69250,
+      "published_sha256": "f28bba2778412d4cdd956ce99ef0d000fafa37992b87554ab9d773d7ae999911",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 348904,
+      "original_sha256": "346da1b998bbfa4e9778a7e5caa3d7587c5f32c54e4e361f8a53f4aaa9238a72",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/js/configuration.js",
+      "published_bytes": 348904,
+      "published_sha256": "346da1b998bbfa4e9778a7e5caa3d7587c5f32c54e4e361f8a53f4aaa9238a72",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 212671,
+      "original_sha256": "f6340e6cdabed224aa5c6ebaf88978674ca57520977c5d92cdb6cc3800443b25",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/js/d3.min.js",
+      "published_bytes": 212671,
+      "published_sha256": "f6340e6cdabed224aa5c6ebaf88978674ca57520977c5d92cdb6cc3800443b25",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 1209333,
+      "original_sha256": "b9b33884ed76995fba02666d68f3fa602049ba4c866219ba2c3548b8ba009dfe",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/js/datatables.min.js",
+      "published_bytes": 1209333,
+      "published_sha256": "b9b33884ed76995fba02666d68f3fa602049ba4c866219ba2c3548b8ba009dfe",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 102173,
+      "original_sha256": "ff586350217113fd488afcc5087a12fc4b76210df3efd88d9e4e363e465e5e10",
+      "path": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/js/jszip.min.js",
+      "published_bytes": 102173,
+      "published_sha256": "ff586350217113fd488afcc5087a12fc4b76210df3efd88d9e4e363e465e5e10",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 18865,
+      "original_sha256": "0cc6fe865d5d3d620262ce60fee26e1dd08c695c85debcfa9f133236c2db1e0d",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/ataqv.css",
+      "published_bytes": 18865,
+      "published_sha256": "0cc6fe865d5d3d620262ce60fee26e1dd08c695c85debcfa9f133236c2db1e0d",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 9160,
+      "original_sha256": "d5086a5a45fefdad773ef7071aed5e7fa729cc1d9f4c2d4041228ed7f08d97ba",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/datatables.buttons.min.css",
+      "published_bytes": 9160,
+      "published_sha256": "d5086a5a45fefdad773ef7071aed5e7fa729cc1d9f4c2d4041228ed7f08d97ba",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 3362,
+      "original_sha256": "1312655859bfabbe6015291300f89771b4e6bc339d537e6dee471c78d92367e8",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/datatables.fontawesome.css",
+      "published_bytes": 3362,
+      "published_sha256": "1312655859bfabbe6015291300f89771b4e6bc339d537e6dee471c78d92367e8",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 26145,
+      "original_sha256": "3d31f4eb703cd50d4233653dfc34d66b845e452bf9f2ad2f998fb87b4a4432e6",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/datatables.min.css",
+      "published_bytes": 26145,
+      "published_sha256": "3d31f4eb703cd50d4233653dfc34d66b845e452bf9f2ad2f998fb87b4a4432e6",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 28759,
+      "original_sha256": "b5d7707ea8fc00aae40bf500ac7498d7f32f6b1bbff7b4fde976a40345eb5f9d",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/font-awesome.min.css",
+      "published_bytes": 28759,
+      "published_sha256": "b5d7707ea8fc00aae40bf500ac7498d7f32f6b1bbff7b4fde976a40345eb5f9d",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 6946,
+      "original_sha256": "4d3938fc65148e3b1d23351e9ab5bc58d86d669326d303b85ee539a5a0e7b810",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/normalize.css",
+      "published_bytes": 6946,
+      "published_sha256": "4d3938fc65148e3b1d23351e9ab5bc58d86d669326d303b85ee539a5a0e7b810",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Streaming raw private-bucket/credential scan; BAM decompressed header or gzip decompressed payload additionally checked when applicable",
+      "original_bytes": 223168,
+      "original_sha256": "4e223fdcff0bcc26925ba6b0fe77934d608b6d811d0aa562ef701c1b3ec8a542",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/data/HIV_CD86HI_48H_REP1.json.gz",
+      "published_bytes": 223168,
+      "published_sha256": "4e223fdcff0bcc26925ba6b0fe77934d608b6d811d0aa562ef701c1b3ec8a542",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Streaming raw private-bucket/credential scan; BAM decompressed header or gzip decompressed payload additionally checked when applicable",
+      "original_bytes": 258243,
+      "original_sha256": "d8fa71fe472527e57d61ba0cc89a33fc227a29e1e8f2aae291954fa0cf48aa87",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/data/HIV_CD86HI_48H_REP2.json.gz",
+      "published_bytes": 258243,
+      "published_sha256": "d8fa71fe472527e57d61ba0cc89a33fc227a29e1e8f2aae291954fa0cf48aa87",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Streaming raw private-bucket/credential scan; BAM decompressed header or gzip decompressed payload additionally checked when applicable",
+      "original_bytes": 247745,
+      "original_sha256": "e8cbc01d85a51d702bc4ad5a3d5da6c36cd31460655c7979c10931021340fcc1",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/data/MOCK_48H_REP1.json.gz",
+      "published_bytes": 247745,
+      "published_sha256": "e8cbc01d85a51d702bc4ad5a3d5da6c36cd31460655c7979c10931021340fcc1",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Streaming raw private-bucket/credential scan; BAM decompressed header or gzip decompressed payload additionally checked when applicable",
+      "original_bytes": 339009,
+      "original_sha256": "082f53a608a19d3e88e448ded5dec2f54a858854bd48ee948da06c5280120e87",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/data/MOCK_48H_REP2.json.gz",
+      "published_bytes": 339009,
+      "published_sha256": "082f53a608a19d3e88e448ded5dec2f54a858854bd48ee948da06c5280120e87",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 123112,
+      "original_sha256": "bcf2323752da19b8cc2695e88722807a803c0a2a9f20d8a7d7cb55846b55b3fa",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/fonts/FontAwesome.otf",
+      "published_bytes": 123112,
+      "published_sha256": "bcf2323752da19b8cc2695e88722807a803c0a2a9f20d8a7d7cb55846b55b3fa",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 75220,
+      "original_sha256": "23f40876f4009dc2b74ad97674c979cd435ff888990d14900f38a1cb36f10bdf",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/fonts/fontawesome-webfont.eot",
+      "published_bytes": 75220,
+      "published_sha256": "23f40876f4009dc2b74ad97674c979cd435ff888990d14900f38a1cb36f10bdf",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 386421,
+      "original_sha256": "b0387cc7b1ca00f2f04bde2cd508be6e1a17caf0ee713a19627c1f02c638e280",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/fonts/fontawesome-webfont.svg",
+      "published_bytes": 386421,
+      "published_sha256": "b0387cc7b1ca00f2f04bde2cd508be6e1a17caf0ee713a19627c1f02c638e280",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 150920,
+      "original_sha256": "3e8c3cc94dc6261132948b99958b852ff8504c64686bedd6b1505563ed72e4d8",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/fonts/fontawesome-webfont.ttf",
+      "published_bytes": 150920,
+      "published_sha256": "3e8c3cc94dc6261132948b99958b852ff8504c64686bedd6b1505563ed72e4d8",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 89076,
+      "original_sha256": "a4d2c0c031f66c57ec2815079e49e41cad9dc58f0986ba072fb88fff888dca0e",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/fonts/fontawesome-webfont.woff",
+      "published_bytes": 89076,
+      "published_sha256": "a4d2c0c031f66c57ec2815079e49e41cad9dc58f0986ba072fb88fff888dca0e",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 70728,
+      "original_sha256": "d3ebb498192527b985939ae62cc4e5eb5c108efc1896184126b45d866868e73d",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/fonts/fontawesome-webfont.woff2",
+      "published_bytes": 70728,
+      "published_sha256": "d3ebb498192527b985939ae62cc4e5eb5c108efc1896184126b45d866868e73d",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 34052,
+      "original_sha256": "21519c6b09f77cf565045f76a0422429dacdb73aae7d9dcc75bab92b0adfd4f1",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/fonts/sourcesanspro-regular.woff",
+      "published_bytes": 34052,
+      "published_sha256": "21519c6b09f77cf565045f76a0422429dacdb73aae7d9dcc75bab92b0adfd4f1",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 28724,
+      "original_sha256": "e6a7c509c6af36020db20aaa5237b183f99631473c5e1db1595f2d6ffbbde0ae",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/fonts/sourcesanspro-regularit.woff",
+      "published_bytes": 28724,
+      "published_sha256": "e6a7c509c6af36020db20aaa5237b183f99631473c5e1db1595f2d6ffbbde0ae",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 33848,
+      "original_sha256": "6e044369b224e98102f43714e2f42b375f1a1354ab19a45e884cf416444a9483",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/fonts/sourcesanspro-semibold.woff",
+      "published_bytes": 33848,
+      "published_sha256": "6e044369b224e98102f43714e2f42b375f1a1354ab19a45e884cf416444a9483",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 28624,
+      "original_sha256": "a3f22c4fd0d7d752f04075e9b303988265712dc09695d56fd5b41c6c682022c2",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/fonts/sourcesanspro-semiboldit.woff",
+      "published_bytes": 28624,
+      "published_sha256": "a3f22c4fd0d7d752f04075e9b303988265712dc09695d56fd5b41c6c682022c2",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_method": "Static HTML with actual LZString/gzip/base64/JSON/image/font decoders; no artifact JavaScript executed",
+      "audit_report_sha256": "43b81db80cf26eaddc9d5128261ad7a40179703c613f326ad5d8f9acb845eb82",
+      "audit_scope": "Approved decoded payload, original/source ETag and published SHA verified",
+      "limits": {
+        "artifact_code_executed": false,
+        "image_pixel_decode_no_OCR": true,
+        "max_decoded_payload_bytes": 200000000,
+        "max_nesting": 5
+      },
+      "numeric_preservation": {
+        "all_decoded_json_non_string_tokens_identical": true,
+        "text_changes_limited_to_recorded_metadata_patterns": true
+      },
+      "original_bytes": 50783,
+      "original_sha256": "b93ec0be4d701df473c8e109128b4a3d856bfe13bc285943333ca75f41c7fbff",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/index.html",
+      "published_bytes": 50783,
+      "published_sha256": "b93ec0be4d701df473c8e109128b4a3d856bfe13bc285943333ca75f41c7fbff",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 69250,
+      "original_sha256": "f28bba2778412d4cdd956ce99ef0d000fafa37992b87554ab9d773d7ae999911",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/js/ataqv.js",
+      "published_bytes": 69250,
+      "published_sha256": "f28bba2778412d4cdd956ce99ef0d000fafa37992b87554ab9d773d7ae999911",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 381869,
+      "original_sha256": "4f7f439fee348d3bbf2c2f2ad2bd5445837a927d4a900a8a5743c20ab1d27058",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/js/configuration.js",
+      "published_bytes": 381869,
+      "published_sha256": "4f7f439fee348d3bbf2c2f2ad2bd5445837a927d4a900a8a5743c20ab1d27058",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 212671,
+      "original_sha256": "f6340e6cdabed224aa5c6ebaf88978674ca57520977c5d92cdb6cc3800443b25",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/js/d3.min.js",
+      "published_bytes": 212671,
+      "published_sha256": "f6340e6cdabed224aa5c6ebaf88978674ca57520977c5d92cdb6cc3800443b25",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 1209333,
+      "original_sha256": "b9b33884ed76995fba02666d68f3fa602049ba4c866219ba2c3548b8ba009dfe",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/js/datatables.min.js",
+      "published_bytes": 1209333,
+      "published_sha256": "b9b33884ed76995fba02666d68f3fa602049ba4c866219ba2c3548b8ba009dfe",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 102173,
+      "original_sha256": "ff586350217113fd488afcc5087a12fc4b76210df3efd88d9e4e363e465e5e10",
+      "path": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/js/jszip.min.js",
+      "published_bytes": 102173,
+      "published_sha256": "ff586350217113fd488afcc5087a12fc4b76210df3efd88d9e4e363e465e5e10",
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 18865,
+      "original_sha256": "0cc6fe865d5d3d620262ce60fee26e1dd08c695c85debcfa9f133236c2db1e0d",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/ataqv.css",
+      "published_bytes": 18865,
+      "published_sha256": "0cc6fe865d5d3d620262ce60fee26e1dd08c695c85debcfa9f133236c2db1e0d",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 9160,
+      "original_sha256": "d5086a5a45fefdad773ef7071aed5e7fa729cc1d9f4c2d4041228ed7f08d97ba",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/datatables.buttons.min.css",
+      "published_bytes": 9160,
+      "published_sha256": "d5086a5a45fefdad773ef7071aed5e7fa729cc1d9f4c2d4041228ed7f08d97ba",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 3362,
+      "original_sha256": "1312655859bfabbe6015291300f89771b4e6bc339d537e6dee471c78d92367e8",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/datatables.fontawesome.css",
+      "published_bytes": 3362,
+      "published_sha256": "1312655859bfabbe6015291300f89771b4e6bc339d537e6dee471c78d92367e8",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 26145,
+      "original_sha256": "3d31f4eb703cd50d4233653dfc34d66b845e452bf9f2ad2f998fb87b4a4432e6",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/datatables.min.css",
+      "published_bytes": 26145,
+      "published_sha256": "3d31f4eb703cd50d4233653dfc34d66b845e452bf9f2ad2f998fb87b4a4432e6",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 28759,
+      "original_sha256": "b5d7707ea8fc00aae40bf500ac7498d7f32f6b1bbff7b4fde976a40345eb5f9d",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/font-awesome.min.css",
+      "published_bytes": 28759,
+      "published_sha256": "b5d7707ea8fc00aae40bf500ac7498d7f32f6b1bbff7b4fde976a40345eb5f9d",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 6946,
+      "original_sha256": "4d3938fc65148e3b1d23351e9ab5bc58d86d669326d303b85ee539a5a0e7b810",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/normalize.css",
+      "published_bytes": 6946,
+      "published_sha256": "4d3938fc65148e3b1d23351e9ab5bc58d86d669326d303b85ee539a5a0e7b810",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Streaming raw private-bucket/credential scan; BAM decompressed header or gzip decompressed payload additionally checked when applicable",
+      "original_bytes": 223184,
+      "original_sha256": "888b4e19c47af90d634e82f2c93fffa86a5394e2f6f5c58401c51be927464ba1",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/data/HIV_CD86HI_48H_REP1.json.gz",
+      "published_bytes": 223184,
+      "published_sha256": "888b4e19c47af90d634e82f2c93fffa86a5394e2f6f5c58401c51be927464ba1",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Streaming raw private-bucket/credential scan; BAM decompressed header or gzip decompressed payload additionally checked when applicable",
+      "original_bytes": 258377,
+      "original_sha256": "0d11cbb74375203bc4aaa5f7778887b5ebccd4ace2e629fd44c93a268e1afc2a",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/data/HIV_CD86HI_48H_REP2.json.gz",
+      "published_bytes": 258377,
+      "published_sha256": "0d11cbb74375203bc4aaa5f7778887b5ebccd4ace2e629fd44c93a268e1afc2a",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Streaming raw private-bucket/credential scan; BAM decompressed header or gzip decompressed payload additionally checked when applicable",
+      "original_bytes": 248471,
+      "original_sha256": "9329550df95c498321d50676bebaa9eda4161a28a72d8349eb2bbbd54bcb4418",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/data/MOCK_48H_REP1.json.gz",
+      "published_bytes": 248471,
+      "published_sha256": "9329550df95c498321d50676bebaa9eda4161a28a72d8349eb2bbbd54bcb4418",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Streaming raw private-bucket/credential scan; BAM decompressed header or gzip decompressed payload additionally checked when applicable",
+      "original_bytes": 338653,
+      "original_sha256": "dd64b259907072de8cf4a528b0fc54a60f3d644d83e2dc77c10e3271df5e2dc9",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/data/MOCK_48H_REP2.json.gz",
+      "published_bytes": 338653,
+      "published_sha256": "dd64b259907072de8cf4a528b0fc54a60f3d644d83e2dc77c10e3271df5e2dc9",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 123112,
+      "original_sha256": "bcf2323752da19b8cc2695e88722807a803c0a2a9f20d8a7d7cb55846b55b3fa",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/fonts/FontAwesome.otf",
+      "published_bytes": 123112,
+      "published_sha256": "bcf2323752da19b8cc2695e88722807a803c0a2a9f20d8a7d7cb55846b55b3fa",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 75220,
+      "original_sha256": "23f40876f4009dc2b74ad97674c979cd435ff888990d14900f38a1cb36f10bdf",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/fonts/fontawesome-webfont.eot",
+      "published_bytes": 75220,
+      "published_sha256": "23f40876f4009dc2b74ad97674c979cd435ff888990d14900f38a1cb36f10bdf",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 386421,
+      "original_sha256": "b0387cc7b1ca00f2f04bde2cd508be6e1a17caf0ee713a19627c1f02c638e280",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/fonts/fontawesome-webfont.svg",
+      "published_bytes": 386421,
+      "published_sha256": "b0387cc7b1ca00f2f04bde2cd508be6e1a17caf0ee713a19627c1f02c638e280",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 150920,
+      "original_sha256": "3e8c3cc94dc6261132948b99958b852ff8504c64686bedd6b1505563ed72e4d8",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/fonts/fontawesome-webfont.ttf",
+      "published_bytes": 150920,
+      "published_sha256": "3e8c3cc94dc6261132948b99958b852ff8504c64686bedd6b1505563ed72e4d8",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 89076,
+      "original_sha256": "a4d2c0c031f66c57ec2815079e49e41cad9dc58f0986ba072fb88fff888dca0e",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/fonts/fontawesome-webfont.woff",
+      "published_bytes": 89076,
+      "published_sha256": "a4d2c0c031f66c57ec2815079e49e41cad9dc58f0986ba072fb88fff888dca0e",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 70728,
+      "original_sha256": "d3ebb498192527b985939ae62cc4e5eb5c108efc1896184126b45d866868e73d",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/fonts/fontawesome-webfont.woff2",
+      "published_bytes": 70728,
+      "published_sha256": "d3ebb498192527b985939ae62cc4e5eb5c108efc1896184126b45d866868e73d",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 34052,
+      "original_sha256": "21519c6b09f77cf565045f76a0422429dacdb73aae7d9dcc75bab92b0adfd4f1",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/fonts/sourcesanspro-regular.woff",
+      "published_bytes": 34052,
+      "published_sha256": "21519c6b09f77cf565045f76a0422429dacdb73aae7d9dcc75bab92b0adfd4f1",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 28724,
+      "original_sha256": "e6a7c509c6af36020db20aaa5237b183f99631473c5e1db1595f2d6ffbbde0ae",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/fonts/sourcesanspro-regularit.woff",
+      "published_bytes": 28724,
+      "published_sha256": "e6a7c509c6af36020db20aaa5237b183f99631473c5e1db1595f2d6ffbbde0ae",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 33848,
+      "original_sha256": "6e044369b224e98102f43714e2f42b375f1a1354ab19a45e884cf416444a9483",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/fonts/sourcesanspro-semibold.woff",
+      "published_bytes": 33848,
+      "published_sha256": "6e044369b224e98102f43714e2f42b375f1a1354ab19a45e884cf416444a9483",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 28624,
+      "original_sha256": "a3f22c4fd0d7d752f04075e9b303988265712dc09695d56fd5b41c6c682022c2",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/fonts/sourcesanspro-semiboldit.woff",
+      "published_bytes": 28624,
+      "published_sha256": "a3f22c4fd0d7d752f04075e9b303988265712dc09695d56fd5b41c6c682022c2",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    },
+    {
+      "audit_method": "Static HTML with actual LZString/gzip/base64/JSON/image/font decoders; no artifact JavaScript executed",
+      "audit_report_sha256": "0bd070950884ebb9ac5a92a392dda56d314b6ada16ee1e29882cf4af094a381e",
+      "audit_scope": "Approved decoded payload, original/source ETag and published SHA verified",
+      "limits": {
+        "artifact_code_executed": false,
+        "image_pixel_decode_no_OCR": true,
+        "max_decoded_payload_bytes": 200000000,
+        "max_nesting": 5
+      },
+      "numeric_preservation": {
+        "all_decoded_json_non_string_tokens_identical": true,
+        "text_changes_limited_to_recorded_metadata_patterns": true
+      },
+      "original_bytes": 50783,
+      "original_sha256": "b93ec0be4d701df473c8e109128b4a3d856bfe13bc285943333ca75f41c7fbff",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/index.html",
+      "published_bytes": 50783,
+      "published_sha256": "b93ec0be4d701df473c8e109128b4a3d856bfe13bc285943333ca75f41c7fbff",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 69250,
+      "original_sha256": "f28bba2778412d4cdd956ce99ef0d000fafa37992b87554ab9d773d7ae999911",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/js/ataqv.js",
+      "published_bytes": 69250,
+      "published_sha256": "f28bba2778412d4cdd956ce99ef0d000fafa37992b87554ab9d773d7ae999911",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 381899,
+      "original_sha256": "a01db1ccd3bf691247fb03c3cf0d732312ebed1fec13e069af0a5471c2fa6175",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/js/configuration.js",
+      "published_bytes": 381899,
+      "published_sha256": "a01db1ccd3bf691247fb03c3cf0d732312ebed1fec13e069af0a5471c2fa6175",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 212671,
+      "original_sha256": "f6340e6cdabed224aa5c6ebaf88978674ca57520977c5d92cdb6cc3800443b25",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/js/d3.min.js",
+      "published_bytes": 212671,
+      "published_sha256": "f6340e6cdabed224aa5c6ebaf88978674ca57520977c5d92cdb6cc3800443b25",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 1209333,
+      "original_sha256": "b9b33884ed76995fba02666d68f3fa602049ba4c866219ba2c3548b8ba009dfe",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/js/datatables.min.js",
+      "published_bytes": 1209333,
+      "published_sha256": "b9b33884ed76995fba02666d68f3fa602049ba4c866219ba2c3548b8ba009dfe",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    },
+    {
+      "audit_scope": "Small text sanitized or binary raw-pattern scanned",
+      "original_bytes": 102173,
+      "original_sha256": "ff586350217113fd488afcc5087a12fc4b76210df3efd88d9e4e363e465e5e10",
+      "path": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/js/jszip.min.js",
+      "published_bytes": 102173,
+      "published_sha256": "ff586350217113fd488afcc5087a12fc4b76210df3efd88d9e4e363e465e5e10",
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua",
+      "transformations": []
+    }
+  ],
+  "observed_at_utc": "2026-11-02T01:21:27.448896+00:00",
+  "published_bytes": 16757768,
+  "schema": "pr448/ataqv-viewer-resources/v1",
+  "scope": "All 26 originally published ataqv HTML-tree files from each of four historical HIV cases. This is an additive subset of the full output trees, not a full-output archive or fresh scientific qualification.",
+  "source_cases": {
+    "pr448-hiv-bwa-fixed-a9b588": {
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "BVYqNpYNcUhEN"
+    },
+    "pr448-hiv-bwa-unfixed-a9b588": {
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "miH78tIWtzQMy"
+    },
+    "pr448-hiv-chromap-fixed-a9b588": {
+      "source_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+      "source_workflow_id": "2DOXAsX9V2FbkY"
+    },
+    "pr448-hiv-chromap-unfixed-a9b588": {
+      "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+      "source_workflow_id": "6n2TeKZ3HxTua"
+    }
+  },
+  "static_dependencies": {
+    "bundled_buttons_observations": [
+      {
+        "DataTable.Buttons_marker": true,
+        "bundled_buttons_header": "1.2.2",
+        "member": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/js/datatables.min.js"
+      },
+      {
+        "DataTable.Buttons_marker": true,
+        "bundled_buttons_header": "1.2.2",
+        "member": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/js/datatables.min.js"
+      },
+      {
+        "DataTable.Buttons_marker": true,
+        "bundled_buttons_header": "1.2.2",
+        "member": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/js/datatables.min.js"
+      },
+      {
+        "DataTable.Buttons_marker": true,
+        "bundled_buttons_header": "1.2.2",
+        "member": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/js/datatables.min.js"
+      }
+    ],
+    "local_references_checked": 120,
+    "missing_in_original_published_tree": [
+      {
+        "member": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/datatables.min.css",
+        "reference": "DataTables-1.10.12/images/sort_both.png",
+        "resolved": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/DataTables-1.10.12/images/sort_both.png"
+      },
+      {
+        "member": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/datatables.min.css",
+        "reference": "DataTables-1.10.12/images/sort_asc.png",
+        "resolved": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/DataTables-1.10.12/images/sort_asc.png"
+      },
+      {
+        "member": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/datatables.min.css",
+        "reference": "DataTables-1.10.12/images/sort_desc.png",
+        "resolved": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/DataTables-1.10.12/images/sort_desc.png"
+      },
+      {
+        "member": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/datatables.min.css",
+        "reference": "DataTables-1.10.12/images/sort_asc_disabled.png",
+        "resolved": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/DataTables-1.10.12/images/sort_asc_disabled.png"
+      },
+      {
+        "member": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/datatables.min.css",
+        "reference": "DataTables-1.10.12/images/sort_desc_disabled.png",
+        "resolved": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/DataTables-1.10.12/images/sort_desc_disabled.png"
+      },
+      {
+        "member": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/index.html",
+        "reference": "js/datatables.buttons.min.js",
+        "resolved": "files/pr448-hiv-bwa-fixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/js/datatables.buttons.min.js"
+      },
+      {
+        "member": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/datatables.min.css",
+        "reference": "DataTables-1.10.12/images/sort_both.png",
+        "resolved": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/DataTables-1.10.12/images/sort_both.png"
+      },
+      {
+        "member": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/datatables.min.css",
+        "reference": "DataTables-1.10.12/images/sort_asc.png",
+        "resolved": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/DataTables-1.10.12/images/sort_asc.png"
+      },
+      {
+        "member": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/datatables.min.css",
+        "reference": "DataTables-1.10.12/images/sort_desc.png",
+        "resolved": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/DataTables-1.10.12/images/sort_desc.png"
+      },
+      {
+        "member": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/datatables.min.css",
+        "reference": "DataTables-1.10.12/images/sort_asc_disabled.png",
+        "resolved": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/DataTables-1.10.12/images/sort_asc_disabled.png"
+      },
+      {
+        "member": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/datatables.min.css",
+        "reference": "DataTables-1.10.12/images/sort_desc_disabled.png",
+        "resolved": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/css/DataTables-1.10.12/images/sort_desc_disabled.png"
+      },
+      {
+        "member": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/index.html",
+        "reference": "js/datatables.buttons.min.js",
+        "resolved": "files/pr448-hiv-bwa-unfixed-a9b588/bwa/merged_library/ataqv/broad_peak/html/js/datatables.buttons.min.js"
+      },
+      {
+        "member": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/datatables.min.css",
+        "reference": "DataTables-1.10.12/images/sort_both.png",
+        "resolved": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/DataTables-1.10.12/images/sort_both.png"
+      },
+      {
+        "member": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/datatables.min.css",
+        "reference": "DataTables-1.10.12/images/sort_asc.png",
+        "resolved": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/DataTables-1.10.12/images/sort_asc.png"
+      },
+      {
+        "member": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/datatables.min.css",
+        "reference": "DataTables-1.10.12/images/sort_desc.png",
+        "resolved": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/DataTables-1.10.12/images/sort_desc.png"
+      },
+      {
+        "member": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/datatables.min.css",
+        "reference": "DataTables-1.10.12/images/sort_asc_disabled.png",
+        "resolved": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/DataTables-1.10.12/images/sort_asc_disabled.png"
+      },
+      {
+        "member": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/datatables.min.css",
+        "reference": "DataTables-1.10.12/images/sort_desc_disabled.png",
+        "resolved": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/DataTables-1.10.12/images/sort_desc_disabled.png"
+      },
+      {
+        "member": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/index.html",
+        "reference": "js/datatables.buttons.min.js",
+        "resolved": "files/pr448-hiv-chromap-fixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/js/datatables.buttons.min.js"
+      },
+      {
+        "member": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/datatables.min.css",
+        "reference": "DataTables-1.10.12/images/sort_both.png",
+        "resolved": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/DataTables-1.10.12/images/sort_both.png"
+      },
+      {
+        "member": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/datatables.min.css",
+        "reference": "DataTables-1.10.12/images/sort_asc.png",
+        "resolved": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/DataTables-1.10.12/images/sort_asc.png"
+      },
+      {
+        "member": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/datatables.min.css",
+        "reference": "DataTables-1.10.12/images/sort_desc.png",
+        "resolved": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/DataTables-1.10.12/images/sort_desc.png"
+      },
+      {
+        "member": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/datatables.min.css",
+        "reference": "DataTables-1.10.12/images/sort_asc_disabled.png",
+        "resolved": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/DataTables-1.10.12/images/sort_asc_disabled.png"
+      },
+      {
+        "member": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/datatables.min.css",
+        "reference": "DataTables-1.10.12/images/sort_desc_disabled.png",
+        "resolved": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/css/DataTables-1.10.12/images/sort_desc_disabled.png"
+      },
+      {
+        "member": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/index.html",
+        "reference": "js/datatables.buttons.min.js",
+        "resolved": "files/pr448-hiv-chromap-unfixed-a9b588/chromap/merged_library/ataqv/broad_peak/html/js/datatables.buttons.min.js"
+      }
+    ],
+    "scope": "Static HTML href/src, CSS url() and configuration JSON gzip literals; document-relative data paths. No JavaScript/browser execution or exhaustive runtime-request analysis."
+  },
+  "validation": {
+    "browser_or_artifact_javascript_executed": false,
+    "deterministic_rebuild_identical": true,
+    "identical_four_index_payloads_in_report_supplement": true,
+    "independent_member_hashes_and_source_pins": "PASS",
+    "original_public_inventory_exact_match": "PASS",
+    "scientific_workflows_rerun": false
+  }
+}

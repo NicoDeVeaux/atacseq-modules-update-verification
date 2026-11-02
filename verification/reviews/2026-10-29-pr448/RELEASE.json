@@ -4,7 +4,7 @@
   "repository": "NicoDeVeaux/atacseq-modules-update-verification",
   "target_branch": "main",
   "release_tag": "pr448-full-repro-2026-10-29",
-  "release_state": "DRAFT_TRANSFERRING",
+  "release_state": "DRAFT_INCOMPLETE_CHECKPOINTED",
   "original_published_bytes": 43838229376,
   "published_files": 2686,
   "cases": [
@@ -50,13 +50,15 @@
   "integrity": "Record original and archived content hashes, deterministic TAR member manifests, ordered part hashes and remote asset digests. Keep release draft until verification completes.",
   "publication": "User authorized trying the full archive; public release and repository push remain for final review.",
   "transfer_snapshot": {
-    "archive_observed_at": "2026-10-29T11:58:19.844697+00:00",
-    "state": "STOPPED",
+    "archive_observed_at": "2026-11-02T01:24:22.622555+00:00",
+    "state": "CHECKPOINTED_AT_USER_REQUEST",
     "verified_tar_parts": 7,
     "verified_tar_bytes": 9802477568,
     "members_hashed": 1268,
     "cases_complete": 1,
-    "scope": "Point-in-time transfer observation; not scientific validation."
+    "partial_spool_bytes": 135299072,
+    "active_transfer": false,
+    "scope": "Point-in-time transfer observation; retained verified assets and recovery state, not scientific validation coverage."
   },
   "public_report_supplement": {
     "path": "report-objects/README.md",
@@ -68,6 +70,15 @@
     "scope": "Audited report/analysis-object subset; separate from the full 2686-object output-tree release.",
     "publication_state": "PUBLISHED_ANONYMOUS_DOWNLOAD_VERIFIED",
     "release_id": 430974765,
-    "publication_receipt": "report-objects-publication.json"
+    "publication_receipt": "report-objects-publication.json",
+    "ataqv_resources": {
+      "path": "ataqv-viewers/ATAQV-VIEWERS.md",
+      "members": 104,
+      "additional_companions": 100,
+      "published_bytes": 16757768,
+      "compressed_archive_bytes": 9981936,
+      "publication_state": "PREPARED",
+      "browser_executed": false
+    }
   }
 }

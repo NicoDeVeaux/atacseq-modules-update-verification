@@ -681,12 +681,12 @@
       "transformed": false
     },
     "RELEASE.json": {
-      "bytes": 2906,
-      "sha256": "0e1ec992b354ab866ee0d265dd8bcdcf5c8370c13a1ea46e09e8f560a12fb086"
+      "bytes": 3347,
+      "sha256": "716baf6d71377c605e7b9f3077a59f262a75fa70baba3490503fe21784dc39df"
     },
     "README.md": {
-      "bytes": 5107,
-      "sha256": "d4ea25360f457880ede9ed1a21183321d3415777ed65d1676720b987aa093243"
+      "bytes": 5544,
+      "sha256": "1dd1ad17853228b6bf05c362e3415aa256a5c2ba8d078377b2ba1859f1714ca5"
     },
     "verify.py": {
       "bytes": 3917,
@@ -8996,6 +8996,26 @@
     "report-objects-publication.json": {
       "bytes": 1907,
       "sha256": "5583a90b2a8e67d64d40ed77e89a649f11efafac0e7e56382d6bd7f2a71237ca"
+    },
+    "ataqv-viewers/ATAQV-VIEWERS.md": {
+      "bytes": 3371,
+      "sha256": "1dd31142d5c61e25f54ed0353a805d3941fd3617a86debf0b5d3b80b803f04d2"
+    },
+    "ataqv-viewers/ataqv-viewer-resources.tar.gz": {
+      "bytes": 9981936,
+      "sha256": "189cfabde41b907a5f61b47efcff9e12a4ed835b93a3275dded6a2d0fd857e02"
+    },
+    "ataqv-viewers/ATAQV-LICENSE.txt": {
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    "ataqv-viewers/ataqv-viewer-manifest.json": {
+      "bytes": 78491,
+      "sha256": "a42f1d45eabb008c1b8809adffbcc7f109045bd935f8a2c5d93f75791c5cceeb"
+    },
+    "ataqv-viewers/verify-ataqv.py": {
+      "bytes": 8459,
+      "sha256": "51e247c0df43b2ec0b00142413f8ffdb8045ccde3fab4528bd7ea09195ba8846"
     }
   },
   "scope": "Captured byte identity is preserved through Git; semantic correctness and scientific limits remain separate."
