@@ -1,0 +1,20 @@
+{
+  "archive_bytes": 53909954,
+  "archive_sha256": "149554cbd8aebc26343438cb99967701010277d88940ea4d0c9338f6953a7c88",
+  "format": "Deterministic USTAR regular files in gzip; ordered split compressed stream",
+  "maximum_part_bytes": 45088768,
+  "member_manifest_sha256": "2480a974375098ff4ae8179c655c2de0e4ea27d3efd601db2106b5a9942eb2ac",
+  "parts": [
+    {
+      "bytes": 45088768,
+      "path": "parts/hiv-decoded-report-supplement.tar.gz.part-0001",
+      "sha256": "eefbb729700b0c7d827212255d312b6706505dc5ce5205758f9959a1aaf2ebba"
+    },
+    {
+      "bytes": 8821186,
+      "path": "parts/hiv-decoded-report-supplement.tar.gz.part-0002",
+      "sha256": "5aaba3b10c98375d9f31c65cea2413d1e5fbf247c1d0e5bd58b89b9cf3f9cb8a"
+    }
+  ],
+  "schema": "pr448/public-decoded-report-archive/v1"
+}

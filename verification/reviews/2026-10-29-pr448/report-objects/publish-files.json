@@ -1,0 +1,46 @@
+{
+  "also_publish_this_manifest": true,
+  "excluded_staging": [
+    "files/",
+    "supplement.tar.gz",
+    "build-validation.json",
+    "release-files.json"
+  ],
+  "files": [
+    {
+      "bytes": 4902,
+      "path": "README.md",
+      "sha256": "46b6318d995ce843a91345506a1b214840307aafc8cacf682415c20759ac5ce1"
+    },
+    {
+      "bytes": 213555,
+      "path": "manifest.json",
+      "sha256": "2480a974375098ff4ae8179c655c2de0e4ea27d3efd601db2106b5a9942eb2ac"
+    },
+    {
+      "bytes": 792,
+      "path": "archive.json",
+      "sha256": "db1d3b6723a1143465b84f2e8d14953bcac18c7c4cb9f2796d633f426930de0f"
+    },
+    {
+      "bytes": 11334,
+      "path": "verify.py",
+      "sha256": "5392cc36443fd74495e75b690f33bd44fb68e0d1b802a7fcd434d94a47eb44b4"
+    },
+    {
+      "bytes": 1487,
+      "path": "VALIDATION.json",
+      "sha256": "f1cfd731a8bb9b58558005770a8137c97c709c9e65d712201000dab55737d78a"
+    },
+    {
+      "bytes": 45088768,
+      "path": "parts/hiv-decoded-report-supplement.tar.gz.part-0001",
+      "sha256": "eefbb729700b0c7d827212255d312b6706505dc5ce5205758f9959a1aaf2ebba"
+    },
+    {
+      "bytes": 8821186,
+      "path": "parts/hiv-decoded-report-supplement.tar.gz.part-0002",
+      "sha256": "5aaba3b10c98375d9f31c65cea2413d1e5fbf247c1d0e5bd58b89b9cf3f9cb8a"
+    }
+  ]
+}

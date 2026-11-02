@@ -14,6 +14,10 @@ This review-index update is written by GPT-6 (Codex) on Nico DeVeaux’s behalf.
 
 **Full-data follow-up (2026-10-29):** [Complete computation and verified results](verification/reviews/2026-10-29-pr448/README.md), including all four successful HIV workflows, the historical count agreement, and the real resequencing control.
 
+**Public output supplement (2026-11-02):** [Download and verify the audited HIV reports and R analysis objects](verification/reviews/2026-10-29-pr448/report-objects/README.md). This supplement preserves 172 outputs from the four recorded workflows; the separate full output-tree release has its own completion status.
+
+This archive addition is written by an AI agent (model name unavailable) on Nico DeVeaux's behalf.
+
 **Historical correction:** the osmotic inputs contain 24,045,604 yeast pairs mapped to human GRCh38. The earlier “heavily subsampled/toy” description is unsupported; these are execution checks, not biological concordance evidence. Unqualified equivalence conclusions below are superseded by the actual count-matrix comparisons and later review.
 
 This follow-up is written by GPT-6 (Codex) on Nico DeVeaux’s behalf.

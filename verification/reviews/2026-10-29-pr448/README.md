@@ -25,6 +25,7 @@ The [original trimming/read-group controls](module-review/original-fixes/README.
 - [Portable HIV reproduction](portable/README.md): complete pinned sources/licenses, exact scientific settings, public inputs/checksums, isolated execution and comparison code. Seven behavior tests and four configuration parses passed.
 - [Complete resequencing control](resequencing/README.md): ten ordered archive parts preserve all 4,565 files, including actual FASTQ subsets, common-alignment and cleaned BAMs, matched yeast reference/annotation, all 469 task evidence sets, reports and replay scripts. All members and a deterministic rebuild were verified; 18 existing tests pass.
 - [Cloud execution archives](hiv/CLOUD-ARCHIVES.json): split archives of sanitized commands, stdout/stderr/exit codes, scientific text and provenance, with per-member original/public hashes.
+- [Audited report and analysis objects](report-objects/README.md): downloadable archives preserve all 172 reviewed HTML, FastQC ZIP, RData and RDS outputs from the four HIV workflows, with original/distributed hashes, recorded sanitization and an offline member verifier. These files supplement the scientific-text captures; they are a subset of the full output tree.
 - [All published cloud files](hiv/inventory/published-file-inventory.tsv): 2,686 objects totaling 43.84 GB. Full output-tree archiving is being prepared in an **unpublished draft release**; `RELEASE.json` records the plan. Completion requires verified part/member manifests and actual release assets.
 
 Verify the distributed bytes and archive members without downloading or launching workflows:
@@ -33,6 +34,7 @@ Verify the distributed bytes and archive members without downloading or launchin
 python3 -B verify.py --deep
 python3 -B portable/tools/verify_public.py --bundle portable --manifest BUNDLE-MANIFEST.json
 python3 -B resequencing/verify_parts.py
+python3 -B report-objects/verify.py
 ```
 
 The HIV cohort has one technical run per library, so the separate resequencing experiment supplies the direct Chromap library-ID control. That experiment uses two real libraries sequenced twice and 1,000,000 genuine pairs against sacCer3. Raw 101-base reads are unchanged; the supported 100-base bin selects effective genome size. Historical FASTQ byte identity is not established.
@@ -40,3 +42,5 @@ The HIV cohort has one technical run per library, so the separate resequencing e
 Private paths are normalized, with original and distributed hashes separated. Nested packages preserve their staging-time records; this index and `RELEASE.json` describe integration status. Reference-byte and resolved-container-digest gaps are documented in the portable manifest. The private Co-Scientist billing investigation is retained separately.
 
 This is written by GPT-6 (Codex) on Nico DeVeaux’s behalf.
+
+The 2026-11-02 report-object supplement is written by an AI agent (model name unavailable) on Nico DeVeaux's behalf. It adds downloadable evidence from the recorded workflows and does not rerun or expand their scientific scope.

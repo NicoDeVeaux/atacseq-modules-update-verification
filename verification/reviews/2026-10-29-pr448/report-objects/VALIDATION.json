@@ -1,0 +1,39 @@
+{
+  "archive_verification": {
+    "archive_bytes": 53909954,
+    "archive_input": "split_parts",
+    "archive_manifest_sha256": "db1d3b6723a1143465b84f2e8d14953bcac18c7c4cb9f2796d633f426930de0f",
+    "member_manifest_sha256": "2480a974375098ff4ae8179c655c2de0e4ea27d3efd601db2106b5a9942eb2ac",
+    "members": 172,
+    "published_bytes": 98820013
+  },
+  "deterministic_rebuild_identical": true,
+  "deterministic_rebuild_sha256": "149554cbd8aebc26343438cb99967701010277d88940ea4d0c9338f6953a7c88",
+  "fresh_decoded_audit_performed": false,
+  "fresh_scientific_run_performed": false,
+  "sealed_audit_report_sha256_rechecked": 172,
+  "sealed_payload_sha256_rechecked": 172,
+  "single_file_archive_verification": {
+    "archive_bytes": 53909954,
+    "archive_input": "single_file",
+    "archive_manifest_sha256": "db1d3b6723a1143465b84f2e8d14953bcac18c7c4cb9f2796d633f426930de0f",
+    "member_manifest_sha256": "2480a974375098ff4ae8179c655c2de0e4ea27d3efd601db2106b5a9942eb2ac",
+    "members": 172,
+    "published_bytes": 98820013
+  },
+  "verifier_controls": {
+    "negative_controls_rejected": [
+      "complete archive same-size corruption",
+      "compressed same-size corruption",
+      "member same-size corruption",
+      "missing archive member",
+      "unexpected archive member",
+      "duplicate archive member",
+      "TAR symlink",
+      "unexpected part",
+      "wrong archive-manifest pin"
+    ],
+    "positive_fixture": "PASS",
+    "single_file_positive_fixture": "PASS"
+  }
+}

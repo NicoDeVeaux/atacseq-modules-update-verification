@@ -681,12 +681,12 @@
       "transformed": false
     },
     "RELEASE.json": {
-      "bytes": 2271,
-      "sha256": "dda3d323a0dbeec99393746b21d599f8aa505f841fb47ba6d5d3a0abe7a0d3b8"
+      "bytes": 2786,
+      "sha256": "758a9660d7e7a36a30bd0ed124d7e4dcfbb47b9b7d05b227f0d77530cb770e4e"
     },
     "README.md": {
-      "bytes": 4352,
-      "sha256": "c9f7c5632fea55626e7656563095a3111bbda249b296e0fe455721d6c095e5e8"
+      "bytes": 4985,
+      "sha256": "baaea618be17e0287f3fdff66858a9b9d8ae49fafe1d4fd3f8776cbaf62a2856"
     },
     "verify.py": {
       "bytes": 3917,
@@ -8960,6 +8960,38 @@
     "review/resequencing-comparison-normalization.json": {
       "bytes": 663,
       "sha256": "e278fe2cf8aa0d746d741778b5fcc92668675ae6abdaf6d8e8e7b407e12f5ff4"
+    },
+    "report-objects/README.md": {
+      "bytes": 4902,
+      "sha256": "46b6318d995ce843a91345506a1b214840307aafc8cacf682415c20759ac5ce1"
+    },
+    "report-objects/VALIDATION.json": {
+      "bytes": 1487,
+      "sha256": "f1cfd731a8bb9b58558005770a8137c97c709c9e65d712201000dab55737d78a"
+    },
+    "report-objects/archive.json": {
+      "bytes": 792,
+      "sha256": "db1d3b6723a1143465b84f2e8d14953bcac18c7c4cb9f2796d633f426930de0f"
+    },
+    "report-objects/manifest.json": {
+      "bytes": 213555,
+      "sha256": "2480a974375098ff4ae8179c655c2de0e4ea27d3efd601db2106b5a9942eb2ac"
+    },
+    "report-objects/parts/hiv-decoded-report-supplement.tar.gz.part-0001": {
+      "bytes": 45088768,
+      "sha256": "eefbb729700b0c7d827212255d312b6706505dc5ce5205758f9959a1aaf2ebba"
+    },
+    "report-objects/parts/hiv-decoded-report-supplement.tar.gz.part-0002": {
+      "bytes": 8821186,
+      "sha256": "5aaba3b10c98375d9f31c65cea2413d1e5fbf247c1d0e5bd58b89b9cf3f9cb8a"
+    },
+    "report-objects/publish-files.json": {
+      "bytes": 1296,
+      "sha256": "d2db3d9878fe7f097ee9d2f23403e007b3aedb64f75a954831c824728c4eb812"
+    },
+    "report-objects/verify.py": {
+      "bytes": 11334,
+      "sha256": "5392cc36443fd74495e75b690f33bd44fb68e0d1b802a7fcd434d94a47eb44b4"
     }
   },
   "scope": "Captured byte identity is preserved through Git; semantic correctness and scientific limits remain separate."

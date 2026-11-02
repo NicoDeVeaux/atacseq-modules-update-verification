@@ -57,5 +57,15 @@
     "members_hashed": 1268,
     "cases_complete": 1,
     "scope": "Point-in-time transfer observation; not scientific validation."
+  },
+  "public_report_supplement": {
+    "path": "report-objects/README.md",
+    "release_tag": "pr448-hiv-report-objects-2026-11-02",
+    "release_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/releases/tag/pr448-hiv-report-objects-2026-11-02",
+    "members": 172,
+    "published_bytes": 98820013,
+    "compressed_archive_bytes": 53909954,
+    "scope": "Audited report/analysis-object subset; separate from the full 2686-object output-tree release.",
+    "publication_state": "PREPARED"
   }
 }
