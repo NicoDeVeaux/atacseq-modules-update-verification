@@ -1,0 +1,49 @@
+{
+  "schema": "atacseq-review-docs-relocation/v1",
+  "source_repository": "NicoDeVeaux/atacseq-nfcore",
+  "source_commit": "9567252846e9d25f306d76953348663d6438dc75",
+  "source_runtime_commit": "4def83f6c0d095c7c3ad315b3167916e9710b173",
+  "upstream_pr": "https://github.com/nf-core/atacseq/pull/474",
+  "files": [
+    {
+      "path": "PR-DRAFT.md",
+      "original_sha256": "61661ba9acce116a7f2bb0335b34cb2d6c2c7ff2a7dc5b0e6960dbb13c533074",
+      "original_bytes": 9056,
+      "published_sha256": "8c2a61713a84a1df727ba692defad778507da61f2621d28c5422353c1e8e8ebc",
+      "published_bytes": 9080,
+      "change": "Heading, PR status reference and Markdown paragraph separation only"
+    },
+    {
+      "path": "docs/module-update-audit.md",
+      "original_sha256": "7ac2dcb662e85d07c8b1518c8601711252f55e9b2a7a1c1ca7f3ea5aded72662",
+      "original_bytes": 10996,
+      "published_sha256": "7ac2dcb662e85d07c8b1518c8601711252f55e9b2a7a1c1ca7f3ea5aded72662",
+      "published_bytes": 10996,
+      "change": "Exact original bytes"
+    },
+    {
+      "path": "docs/pr473-qualification.md",
+      "original_sha256": "61eff8eb80061ce5dcfb55b74f6719084324e0005da30b8472bcfd7959463c99",
+      "original_bytes": 6854,
+      "published_sha256": "3acc8d4c85c5787ab67f853259b36fadc049618026ab84e5768b7e510f0a55f5",
+      "published_bytes": 6928,
+      "change": "PR status references only"
+    },
+    {
+      "path": "docs/pr473-yeast-results.md",
+      "original_sha256": "75bd34f93f905cbfed639204138f210014c14d256d8e5ebf55a803144b5c90dd",
+      "original_bytes": 4056,
+      "published_sha256": "a8d9191ec3350f7062accfbc2ba7d6987abc215d466acd29f56d13610adedc9a",
+      "published_bytes": 4148,
+      "change": "PR status references only"
+    },
+    {
+      "path": "README.md",
+      "published_sha256": "8d32bbc12c076445f3e97b8af11528992f1e296bebf0786660a1ca656bad1254",
+      "published_bytes": 1124,
+      "change": "New supporting-document index"
+    }
+  ],
+  "scientific_archive_changed": false,
+  "original_local_copies_retained": true
+}
