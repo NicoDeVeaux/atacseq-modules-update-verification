@@ -77,8 +77,9 @@
       "additional_companions": 100,
       "published_bytes": 16757768,
       "compressed_archive_bytes": 9981936,
-      "publication_state": "PREPARED",
-      "browser_executed": false
+      "publication_state": "PUBLISHED_ANONYMOUS_DOWNLOAD_VERIFIED",
+      "browser_executed": false,
+      "publication_receipt": "ataqv-viewers-publication.json"
     }
   }
 }
