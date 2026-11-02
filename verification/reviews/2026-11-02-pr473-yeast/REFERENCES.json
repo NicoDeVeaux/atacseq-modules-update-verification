@@ -1,0 +1,48 @@
+{
+  "assembly": "SGD R64-1-1 / GCA_000146045.2",
+  "capture_status": "OFFICIAL_REFERENCES_DOWNLOADED_AND_STAGED_VERIFIED",
+  "files": [
+    {
+      "bytes": 3784201,
+      "official_checksums_url": "https://ftp.ensembl.org/pub/release-115/fasta/saccharomyces_cerevisiae/dna/CHECKSUMS",
+      "role": "fasta",
+      "sha256": "a9953096d6a041a01a4cb5352b0232ee9373bf4c050fb23cb7ae673b2e1bb528",
+      "uncompressed_bytes": 12360704,
+      "uncompressed_sha256": "35cc97fccb91762c7a1f0f71b4adb1037b143d48b63fbd3b3f8bad45e5afa44c",
+      "url": "https://ftp.ensembl.org/pub/release-115/fasta/saccharomyces_cerevisiae/dna/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa.gz"
+    },
+    {
+      "bytes": 595453,
+      "official_checksums_url": "https://ftp.ensembl.org/pub/release-115/gtf/saccharomyces_cerevisiae/CHECKSUMS",
+      "role": "gtf",
+      "sha256": "5b20bb9a1ab7068fee9148f646ca1c12e68d656faddd5fde4ec8537dd26b9e89",
+      "uncompressed_bytes": 10463408,
+      "uncompressed_sha256": "8c43c98a3a0db24c9e53fd9d460f096c48de0eabefd955fd25d044c948692623",
+      "url": "https://ftp.ensembl.org/pub/release-115/gtf/saccharomyces_cerevisiae/Saccharomyces_cerevisiae.R64-1-1.115.gtf.gz"
+    },
+    {
+      "bytes": 1091237,
+      "official_checksums_url": "https://ftp.ensembl.org/pub/release-115/gff3/saccharomyces_cerevisiae/CHECKSUMS",
+      "role": "gff3",
+      "sha256": "717194a9522ae6d4ad97fc499f1ee56120f03877ef23ac8ee153fc51d5d5fbe5",
+      "uncompressed_bytes": 5856942,
+      "uncompressed_sha256": "3d70320fd69c941aa7b500f6265aef41920794b192c3c980d6460a6b43204792",
+      "url": "https://ftp.ensembl.org/pub/release-115/gff3/saccharomyces_cerevisiae/Saccharomyces_cerevisiae.R64-1-1.115.gff3.gz"
+    }
+  ],
+  "gff_basename_alias": {
+    "accepted_basename": "Saccharomyces_cerevisiae.R64-1-1.115.gff.gz",
+    "alias_bytes": 1091237,
+    "alias_member": "extras/references/Saccharomyces_cerevisiae.R64-1-1.115.gff.gz",
+    "alias_sha256": "717194a9522ae6d4ad97fc499f1ee56120f03877ef23ac8ee153fc51d5d5fbe5",
+    "annotation_bytes_changed": false,
+    "original_basename": "Saccharomyces_cerevisiae.R64-1-1.115.gff3.gz",
+    "original_member": "extras/references/Saccharomyces_cerevisiae.R64-1-1.115.gff3.gz",
+    "reason": "Pipeline filename schema rejects official .gff3.gz basename; byte-identical .gff.gz alias accepted",
+    "source_code_changed": false,
+    "validation_disabled": false
+  },
+  "mitochondrial_contig": "Mito",
+  "release": 115,
+  "schema": "pr473-references/v1"
+}

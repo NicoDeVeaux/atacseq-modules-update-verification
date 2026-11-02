@@ -1,0 +1,185 @@
+{
+  "files": [
+    {
+      "bytes": 8,
+      "path": ".gitattributes",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "bytes": 19,
+      "path": ".gitignore",
+      "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793"
+    },
+    {
+      "bytes": 3404,
+      "path": "COMPARISON.json",
+      "sha256": "c8de64d3299603a6f4fe4fae8f6571a85ddc1bc212ded0dad3fa142b80238b39"
+    },
+    {
+      "bytes": 3547,
+      "path": "CONFIG.json",
+      "sha256": "bdc0e2a0bf87d660b44a964a8d051bc577a08579204b1548b4453745ce54023a"
+    },
+    {
+      "bytes": 2411,
+      "path": "INPUTS.json",
+      "sha256": "f6e35287c318e5da68ac4ad7f2e4ae835c5ea99623c31aaeb718f6250d907a27"
+    },
+    {
+      "bytes": 1931,
+      "path": "README.md",
+      "sha256": "9e3e42b9fa888430bbc75627db51a6c53db61355ecd587861e34f6a0f68e5b76"
+    },
+    {
+      "bytes": 2497,
+      "path": "REFERENCES.json",
+      "sha256": "2849db9dc91854959b612930059229dcf97d523812b08356e3542d44afa837e0"
+    },
+    {
+      "bytes": 4651,
+      "path": "REPORT.md",
+      "sha256": "b33f843b3b9a14a28d05f50db94209179aa7871603517a81ffee8e946964da8e"
+    },
+    {
+      "bytes": 748,
+      "path": "SOURCE.json",
+      "sha256": "cfc150f016a4869b0e1311fa99fd776358879c4d91cc6f0300dba0d98c5baad3"
+    },
+    {
+      "bytes": 1230,
+      "path": "WORKFLOWS.json",
+      "sha256": "933c2e190c069944fd9315a95bcde24f9d859d9a929956a5f880b4c234913b36"
+    },
+    {
+      "bytes": 743585,
+      "path": "archive-members.jsonl",
+      "sha256": "9004384c3b9b444948f18ae30a71eabb90812f711dcf60a684543b48f182c589"
+    },
+    {
+      "bytes": 45088768,
+      "path": "parts/pr473-yeast-qualification-20261102.tar.gz.part-0001",
+      "sha256": "339209490667289fae48203ef06ba33fccfe3ad2da53525571622ce1f5d9d2a1"
+    },
+    {
+      "bytes": 45088768,
+      "path": "parts/pr473-yeast-qualification-20261102.tar.gz.part-0002",
+      "sha256": "ca186c4474dcdfa42995f732a060b1ae626a7082971efcf9d58e38a1c3bf54ba"
+    },
+    {
+      "bytes": 45088768,
+      "path": "parts/pr473-yeast-qualification-20261102.tar.gz.part-0003",
+      "sha256": "537fc94f7b640ed02decc0e829790ff6301a57a8fe1e4e9b2aa235be01c04bb9"
+    },
+    {
+      "bytes": 45088768,
+      "path": "parts/pr473-yeast-qualification-20261102.tar.gz.part-0004",
+      "sha256": "c2da86a7e3a832ccb8e231089d39793394d7cd573ab2cd9024dff893ae5dc4f3"
+    },
+    {
+      "bytes": 45088768,
+      "path": "parts/pr473-yeast-qualification-20261102.tar.gz.part-0005",
+      "sha256": "e2044f4afe587457c6c9d1d76fdc29b8a0c7e1cc986339bac648cb9323f55bbe"
+    },
+    {
+      "bytes": 45088768,
+      "path": "parts/pr473-yeast-qualification-20261102.tar.gz.part-0006",
+      "sha256": "127dc82efb50d38a378f079e8c4256397b19b76fe0fe4392e73b0cfb07906878"
+    },
+    {
+      "bytes": 45088768,
+      "path": "parts/pr473-yeast-qualification-20261102.tar.gz.part-0007",
+      "sha256": "4fd833661f47c6be3eef3eb9cbe50b264fe2b8c047f380ad71299e113f25ed30"
+    },
+    {
+      "bytes": 45088768,
+      "path": "parts/pr473-yeast-qualification-20261102.tar.gz.part-0008",
+      "sha256": "eecdaa0ad86bd702de77dace55d2c1227b2966b06923a912339695cee9ca2f4c"
+    },
+    {
+      "bytes": 45088768,
+      "path": "parts/pr473-yeast-qualification-20261102.tar.gz.part-0009",
+      "sha256": "aeb28009fee86fc2965a6bf586f5b76ae420b4da567c2f949937ae891b510c87"
+    },
+    {
+      "bytes": 45088768,
+      "path": "parts/pr473-yeast-qualification-20261102.tar.gz.part-0010",
+      "sha256": "9d797f7b9154479872dd124b469a8f8d5c67059bff8c0dac287997a84ee97fe1"
+    },
+    {
+      "bytes": 45088768,
+      "path": "parts/pr473-yeast-qualification-20261102.tar.gz.part-0011",
+      "sha256": "df600b7e207bbc8b294e2409ce041642734574939c1de05f891e41baa2f0cd00"
+    },
+    {
+      "bytes": 45088768,
+      "path": "parts/pr473-yeast-qualification-20261102.tar.gz.part-0012",
+      "sha256": "ab2b15a5b7dab689befdd34993dbc045e7d2652845fa4be9f52af60dd684147d"
+    },
+    {
+      "bytes": 45088768,
+      "path": "parts/pr473-yeast-qualification-20261102.tar.gz.part-0013",
+      "sha256": "b7c1da31b1d052a079fd67e8f3a314ab2bc82f25052373477b2e96dba1891fcc"
+    },
+    {
+      "bytes": 45088768,
+      "path": "parts/pr473-yeast-qualification-20261102.tar.gz.part-0014",
+      "sha256": "c0d9ca01b358635fc039ba21c751d944f2a43d899763b43ad5db1c528f84215b"
+    },
+    {
+      "bytes": 45088768,
+      "path": "parts/pr473-yeast-qualification-20261102.tar.gz.part-0015",
+      "sha256": "3c28a2e748ed821d89cef91661456284c9e71cbb54d14d9df6325d44f4aaa5c3"
+    },
+    {
+      "bytes": 45088768,
+      "path": "parts/pr473-yeast-qualification-20261102.tar.gz.part-0016",
+      "sha256": "141f0730e1c810074ef111f4f8dbfc26b4ba885a40260ddae505ecb5d10eac03"
+    },
+    {
+      "bytes": 45088768,
+      "path": "parts/pr473-yeast-qualification-20261102.tar.gz.part-0017",
+      "sha256": "72f814e5ff7e0e3074a2e88c9e14c5d562584b597cad8ed5659a7a2bcc903fa4"
+    },
+    {
+      "bytes": 45088768,
+      "path": "parts/pr473-yeast-qualification-20261102.tar.gz.part-0018",
+      "sha256": "de75f252b9963e22c91bc696a8439e96e0878a4750a5c6a84a40c7ed31abea25"
+    },
+    {
+      "bytes": 45088768,
+      "path": "parts/pr473-yeast-qualification-20261102.tar.gz.part-0019",
+      "sha256": "a105d3e83fb28c8e320db3c75440d17909eba480e6591fcf968e649d5b3783ff"
+    },
+    {
+      "bytes": 45088768,
+      "path": "parts/pr473-yeast-qualification-20261102.tar.gz.part-0020",
+      "sha256": "e966c942b2c604a635581312bdbc1a73e95d48a530b75d1647fd3016dddae112"
+    },
+    {
+      "bytes": 45088768,
+      "path": "parts/pr473-yeast-qualification-20261102.tar.gz.part-0021",
+      "sha256": "c6c1ba8311f0ccb889e791f24ed21c6eab0df14528adbb568ea22818bf9bb10b"
+    },
+    {
+      "bytes": 45088768,
+      "path": "parts/pr473-yeast-qualification-20261102.tar.gz.part-0022",
+      "sha256": "9a83c738992da3d75c1aff19964a166a28be714de55cf798fa45f9592d976713"
+    },
+    {
+      "bytes": 8804444,
+      "path": "parts/pr473-yeast-qualification-20261102.tar.gz.part-0023",
+      "sha256": "0caef3aed32ba45bd9824732be118137da819a4f30aa4be558293d0fa8b2c530"
+    },
+    {
+      "bytes": 5475,
+      "path": "parts-manifest.json",
+      "sha256": "05bbaa921293e8229c8779613e63d52cb1e18da5033fd00c925e44a16efe3cee"
+    },
+    {
+      "bytes": 9900,
+      "path": "verify_parts.py",
+      "sha256": "a58bd19abb2da716794dc60587f1d13889f48266e21d44456f5cd58f722a0df2"
+    }
+  ],
+  "schema": "pr473-public-files/v1"
+}

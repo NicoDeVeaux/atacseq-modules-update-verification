@@ -1,0 +1,60 @@
+{
+  "capture_status": "STAGED_FULL_READBACK_VERIFIED",
+  "design": "Two physical libraries, two genuine technical sequencing runs per library; no differential biological inference",
+  "organism": "Saccharomyces cerevisiae",
+  "runs": [
+    {
+      "accession": "SRR19479022",
+      "read1_bytes": 12698785,
+      "read1_member": "extras/inputs/D28_REP1_T1_1.fastq.gz",
+      "read1_sha256": "eb035ab5fe4188e1f1ddd6466621d99397afcd859cfde9a43194bee5c6a81918",
+      "read2_bytes": 10979056,
+      "read2_member": "extras/inputs/D28_REP1_T1_2.fastq.gz",
+      "read2_sha256": "aec8bc81a6797fd0c9666efdc60fd8346817b5bcb5c0129b4d7d2fe49c876337",
+      "replicate": 1,
+      "sample": "D28",
+      "technical_run": 1
+    },
+    {
+      "accession": "SRR19479023",
+      "read1_bytes": 12444927,
+      "read1_member": "extras/inputs/D28_REP1_T2_1.fastq.gz",
+      "read1_sha256": "8e1d7cbf272a70ef0ee6c29c47a157e62196e1b3d128ff522f6d8447d9c59ab7",
+      "read2_bytes": 11020110,
+      "read2_member": "extras/inputs/D28_REP1_T2_2.fastq.gz",
+      "read2_sha256": "377aa6be0a85c6e525dbaf5422f1ef72258b2e01018601cb78015ed6196cd393",
+      "replicate": 1,
+      "sample": "D28",
+      "technical_run": 2
+    },
+    {
+      "accession": "SRR19479020",
+      "read1_bytes": 13815295,
+      "read1_member": "extras/inputs/D28P_REP1_T1_1.fastq.gz",
+      "read1_sha256": "026a64fa228ff6f5fb20840f626168b937ca6bf458f2b07c5b712e418b722094",
+      "read2_bytes": 10979383,
+      "read2_member": "extras/inputs/D28P_REP1_T1_2.fastq.gz",
+      "read2_sha256": "63293a23cc591ec25367e02574c2ed99b24a48fc4040cf8ad8962a16e2cc7f9b",
+      "replicate": 1,
+      "sample": "D28P",
+      "technical_run": 1
+    },
+    {
+      "accession": "SRR19479021",
+      "read1_bytes": 13460845,
+      "read1_member": "extras/inputs/D28P_REP1_T2_1.fastq.gz",
+      "read1_sha256": "6db1a75f9c4ca150ae08eba14591dcf7a4154f13a08796ef12e9a3c469c10383",
+      "read2_bytes": 10936707,
+      "read2_member": "extras/inputs/D28P_REP1_T2_2.fastq.gz",
+      "read2_sha256": "c2a3bb217f902ca97e6e6f1edc4d7a7396b770b27100215a2fa202156010e965",
+      "replicate": 1,
+      "sample": "D28P",
+      "technical_run": 2
+    }
+  ],
+  "schema": "pr473-inputs/v1",
+  "selected_pairs_per_run": 250000,
+  "selection": "First 250000 complete genuine paired records per accession; no record duplication",
+  "study": "PRJNA844120",
+  "total_pairs_per_workflow": 1000000
+}

@@ -1,0 +1,100 @@
+{
+  "actual_checker_differences": [],
+  "actual_checker_passed": true,
+  "actual_checker_result_sha256": "f4f78de781196f7f210d49b38f673bfc4b332ab7ad4016ebafa27885babee412",
+  "common_task_container_digest_equal": true,
+  "comparison_code_sha256": "587df4f6d939d4004c76146965672f36d23fa8a16df474250654b2781604a0a2",
+  "comparison_receipt_sha256": "f4f78de781196f7f210d49b38f673bfc4b332ab7ad4016ebafa27885babee412",
+  "final_nextflow_lint": {
+    "errors": 0,
+    "existing_warnings": 3,
+    "files": 131
+  },
+  "gate_interpretation": "No retry occurred; retry flag is an observation, not a failed qualification gate. Native annotation feature omissions remain explicitly declared.",
+  "gates": {
+    "annotation_semantics": true,
+    "input_identity": true,
+    "peaks_consensus_counts": true,
+    "preseq_execution": true,
+    "preseq_numerical_diagnostics": true,
+    "preseq_retry_observed": false,
+    "public_content_review": true,
+    "real_technical_run_grouping": true,
+    "retained_fragments": true,
+    "scientific_output_completeness": true,
+    "source_and_versions": true
+  },
+  "native_reference_limits": {
+    "annotation_representation": "Native Ensembl GTF/GFF3 feature semantics must be compared explicitly",
+    "new_observed_consensus_count": 1934,
+    "new_observed_count_note": "Independently measured on these matched Ensembl captures; not inherited from the old UCSC oracle",
+    "old_ucsc_1934_interval_result": "Different reference/annotation oracle; inapplicable to this campaign",
+    "transposable_element_omission": {
+      "assessment": "91 transposable_element transcripts absent from default fixed GFFREAD conversion; explicit limitation, not complete annotation equality",
+      "candidate_count": 91,
+      "converted_transcripts": 7036,
+      "observed_count": 91,
+      "observed_feature_identity_sha256": "5a65387c0fddeaf1d1be731f71ce79fef7be44257a971798a6c037b03cca6b70",
+      "source_transcripts": 7127
+    }
+  },
+  "old_ucsc_oracle_applicable": false,
+  "preliminary_independent_numeric_crosscheck": {
+    "consensus": {
+      "coordinates_equal": true,
+      "rows": {
+        "gff3": 1934,
+        "gtf": 1934
+      }
+    },
+    "counts": {
+      "changed_coordinate_rows": 0,
+      "examples": [],
+      "rows": {
+        "gff3": 1934,
+        "gtf": 1934
+      }
+    },
+    "peaks": {
+      "D28P_REP1": {
+        "coordinates_equal": true,
+        "counts": {
+          "gff3": 1431,
+          "gtf": 1431
+        }
+      },
+      "D28_REP1": {
+        "coordinates_equal": true,
+        "counts": {
+          "gff3": 1635,
+          "gtf": 1635
+        }
+      }
+    },
+    "preseq": {
+      "D28P_REP1": {
+        "curve_files_byte_equal": true,
+        "rows": {
+          "gff3": 10000,
+          "gtf": 10000
+        }
+      },
+      "D28_REP1": {
+        "curve_files_byte_equal": true,
+        "rows": {
+          "gff3": 10000,
+          "gtf": 10000
+        }
+      }
+    },
+    "scope": "Independent observed numeric cross-check; full command/digest/BAM gates remain separate"
+  },
+  "preliminary_independent_numeric_crosscheck_sha256": "a82363e83a5d9ebc05ec75cfbab71ad782759b1ced8132c17a112aa224938820",
+  "real_preseq_retry_observed": false,
+  "retained_fragments_per_library": {
+    "D28P_REP1": 283754,
+    "D28_REP1": 282467
+  },
+  "schema": "pr473-qualification-comparison/v1",
+  "status": "PASS_WITH_DECLARED_ANNOTATION_AND_SCOPE_LIMITS"
+}

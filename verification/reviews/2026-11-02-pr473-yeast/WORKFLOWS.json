@@ -1,0 +1,39 @@
+{
+  "identifier_policy": "Stable public arm aliases; original immutable-ID mapping private, bound to original collection receipts",
+  "runs": [
+    {
+      "capture_bytes": 514667815,
+      "capture_complete": true,
+      "capture_files": 336,
+      "case": "gtf",
+      "nextflow_version": "26.04.6",
+      "observed_end_utc": "2026-11-02T20:51:08Z",
+      "observed_start_utc": "2026-11-02T20:24:08Z",
+      "source_commit": "4def83f6c0d095c7c3ad315b3167916e9710b173",
+      "status": "SUCCEEDED",
+      "workflow_id": "gtf"
+    },
+    {
+      "capture_bytes": 516130154,
+      "capture_complete": true,
+      "capture_files": 337,
+      "case": "gff3",
+      "nextflow_version": "26.04.6",
+      "observed_end_utc": "2026-11-02T20:56:38Z",
+      "source_commit": "4def83f6c0d095c7c3ad315b3167916e9710b173",
+      "status": "SUCCEEDED",
+      "workflow_id": "gff3"
+    }
+  ],
+  "schema": "pr473-workflows/v1",
+  "startup_attempts": [
+    {
+      "captured_bytes": 1604861,
+      "captured_result_files": 4,
+      "cause": "Filename schema rejected .gff3.gz basename",
+      "included_as_successful_scientific_arm": false,
+      "status": "FAILED_BEFORE_SCIENTIFIC_TASKS",
+      "workflow_id": "gff-startup-rejected"
+    }
+  ]
+}

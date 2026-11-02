@@ -1,0 +1,17 @@
+{
+  "capture_status": "EXACT_CLEAN_GIT_ARCHIVE_AT_IMMUTABLE_COMMIT",
+  "commit": "4def83f6c0d095c7c3ad315b3167916e9710b173",
+  "licenses": [
+    {
+      "member": "extras/source/PIPELINE-LICENSE.txt",
+      "sha256": "06fc5ce52d47e5d9996cb36575e30a147fddcf78fafe1166974f2a3dbae37427"
+    }
+  ],
+  "repository": "https://github.com/NicoDeVeaux/atacseq-nfcore",
+  "schema": "pr473-source/v1",
+  "source_preflight_receipt_sha256": "d9ebb830ccbed2d5958cd7d923b89893c74ebf29a7d531dcfa4f719d96706950",
+  "source_snapshot_bytes": 1614244,
+  "source_snapshot_member": "extras/source/atacseq-4def83.git-archive.tar.gz",
+  "source_snapshot_sha256": "3b283d7f34f3d64ba8cbc827e9fcaee6f1b4b168b9a6378a8e356341f0c59721",
+  "source_snapshot_status": "Included"
+}
