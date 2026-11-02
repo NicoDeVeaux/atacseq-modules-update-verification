@@ -1,0 +1,57 @@
+{
+  "state": "PUBLIC_DOWNLOADS_VERIFIED",
+  "repository": "NicoDeVeaux/atacseq-modules-update-verification",
+  "tag": "pr448-hiv-report-objects-2026-11-02",
+  "release_id": 430974765,
+  "target_commit": "bbf9d1c1fdc004d4be2566f90bee4adc2de1b6d0",
+  "observed_at_utc": "2026-11-02T01:13:03.581061+00:00",
+  "assets": [
+    {
+      "name": "hiv-decoded-report-supplement.tar.gz",
+      "asset_id": 700051446,
+      "bytes": 53909954,
+      "sha256": "149554cbd8aebc26343438cb99967701010277d88940ea4d0c9338f6953a7c88"
+    },
+    {
+      "name": "README.md",
+      "asset_id": 700051445,
+      "bytes": 4902,
+      "sha256": "46b6318d995ce843a91345506a1b214840307aafc8cacf682415c20759ac5ce1"
+    },
+    {
+      "name": "archive.json",
+      "asset_id": 700051441,
+      "bytes": 792,
+      "sha256": "db1d3b6723a1143465b84f2e8d14953bcac18c7c4cb9f2796d633f426930de0f"
+    },
+    {
+      "name": "manifest.json",
+      "asset_id": 700051444,
+      "bytes": 213555,
+      "sha256": "2480a974375098ff4ae8179c655c2de0e4ea27d3efd601db2106b5a9942eb2ac"
+    },
+    {
+      "name": "verify.py",
+      "asset_id": 700051443,
+      "bytes": 11334,
+      "sha256": "5392cc36443fd74495e75b690f33bd44fb68e0d1b802a7fcd434d94a47eb44b4"
+    },
+    {
+      "name": "VALIDATION.json",
+      "asset_id": 700051495,
+      "bytes": 1487,
+      "sha256": "f1cfd731a8bb9b58558005770a8137c97c709c9e65d712201000dab55737d78a"
+    }
+  ],
+  "scientific_workflows_rerun": false,
+  "anonymous_downloads": true,
+  "downloaded_member_verification": {
+    "archive_bytes": 53909954,
+    "archive_input": "single_file",
+    "archive_manifest_sha256": "db1d3b6723a1143465b84f2e8d14953bcac18c7c4cb9f2796d633f426930de0f",
+    "member_manifest_sha256": "2480a974375098ff4ae8179c655c2de0e4ea27d3efd601db2106b5a9942eb2ac",
+    "members": 172,
+    "published_bytes": 98820013
+  },
+  "verification_completed_at_utc": "2026-11-02T01:14:41.378562+00:00"
+}

@@ -681,12 +681,12 @@
       "transformed": false
     },
     "RELEASE.json": {
-      "bytes": 2786,
-      "sha256": "758a9660d7e7a36a30bd0ed124d7e4dcfbb47b9b7d05b227f0d77530cb770e4e"
+      "bytes": 2906,
+      "sha256": "0e1ec992b354ab866ee0d265dd8bcdcf5c8370c13a1ea46e09e8f560a12fb086"
     },
     "README.md": {
-      "bytes": 4985,
-      "sha256": "baaea618be17e0287f3fdff66858a9b9d8ae49fafe1d4fd3f8776cbaf62a2856"
+      "bytes": 5107,
+      "sha256": "d4ea25360f457880ede9ed1a21183321d3415777ed65d1676720b987aa093243"
     },
     "verify.py": {
       "bytes": 3917,
@@ -8992,6 +8992,10 @@
     "report-objects/verify.py": {
       "bytes": 11334,
       "sha256": "5392cc36443fd74495e75b690f33bd44fb68e0d1b802a7fcd434d94a47eb44b4"
+    },
+    "report-objects-publication.json": {
+      "bytes": 1907,
+      "sha256": "5583a90b2a8e67d64d40ed77e89a649f11efafac0e7e56382d6bd7f2a71237ca"
     }
   },
   "scope": "Captured byte identity is preserved through Git; semantic correctness and scientific limits remain separate."

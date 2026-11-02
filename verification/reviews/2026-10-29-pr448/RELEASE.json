@@ -66,6 +66,8 @@
     "published_bytes": 98820013,
     "compressed_archive_bytes": 53909954,
     "scope": "Audited report/analysis-object subset; separate from the full 2686-object output-tree release.",
-    "publication_state": "PREPARED"
+    "publication_state": "PUBLISHED_ANONYMOUS_DOWNLOAD_VERIFIED",
+    "release_id": 430974765,
+    "publication_receipt": "report-objects-publication.json"
   }
 }
