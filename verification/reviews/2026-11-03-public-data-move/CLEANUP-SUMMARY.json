@@ -1,6 +1,6 @@
 {
-  "schema": "atacseq/public-custody-actions/v1",
-  "verification_basis": "Actual anonymous public bytes checked; every removed scientific file rehashed immediately before unlink",
+  "schema": "atacseq/public-custody-actions/v2",
+  "completed_utc": "2026-11-03T23:31:02.715817+00:00",
   "verified_public_copy_cleanup": {
     "schema": "atacseq/verified-public-copy-removal/v1",
     "removed_files": 9843,
@@ -37,6 +37,28 @@
       "2": 2
     }
   },
+  "documented_generated_cache_cleanup": {
+    "schema": "atacseq/documented-generated-cache-removal/v1",
+    "removed_files": 1310,
+    "removed_logical_bytes": 46990132322,
+    "observed_free_space_change_bytes": 45507850240,
+    "private_plan_sha256": "1e9a1dd5235dc86786b4179a9c995079b5274919d70d7ca1a52fd2be376c0ef0",
+    "public_provenance_commit": "2355611822f3ca9c508b78824a1ce5ca43b633ce",
+    "run_ledger_commit": "b84c5cc1d9819876d4aab858a1172feda8b932c4",
+    "retained_evidence_files": 2422,
+    "all_required_small_evidence_still_present": true,
+    "source_git_credentials_or_private_witnesses_removed": false,
+    "full_payload_upload_or_public_download_claim": false,
+    "categories": {
+      "opaque_backup_archive": 6,
+      "opaque_spool_part": 191,
+      "input_bam_cache": 1,
+      "generated_alignment_bam": 606,
+      "input_read_cache": 338,
+      "reference_or_generated_index": 36,
+      "generated_dense_numeric_matrix": 132
+    }
+  },
   "separately_authorized_crash_dump_cleanup": {
     "removed_files": 31,
     "logical_bytes": 32500449280,
@@ -45,6 +67,10 @@
     "dump_bodies_read_or_published": false,
     "source_or_git_files_removed": false
   },
-  "latest_user_intent": "Keep a compact record of runs, exact hashes and verified results; complete intermediate upload is not required",
-  "additional_generated_cache_cleanup": "PENDING_PUBLISHED_RUN_LEDGER"
+  "removed_files_total": 11184,
+  "all_removed_paths_confirmed_absent": true,
+  "observed_free_space_increase_bytes_sum": 51352686592,
+  "retained_small_evidence_files": 2422,
+  "source_git_credentials_and_small_evidence_preserved": true,
+  "full_payload_upload_claim": false
 }

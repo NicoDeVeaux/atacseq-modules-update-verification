@@ -10,7 +10,7 @@
   "retained_small_evidence_files": 2422,
   "private_retained_evidence_inventory_sha256": "c428add2f734b042d6b2399b73ae3d8fed7488a57e7e1c27b2e56835c41348ed",
   "all_required_evidence_present": true,
-  "deletion_status": "NOT_STARTED",
+  "deletion_status": "COMPLETED",
   "payload_availability": "Run/hash/result provenance and selected witnesses are preserved. These generated payloads need not be uploaded and are not claimed publicly downloadable.",
   "legacy_scope": "Provisional legacy-local-nftest labels refer to the explicit UNKNOWN umbrella and captured task-source records, not inferred historical Git HEADs.",
   "backup_scope": "legacy-validation-private-snapshot-20261102 is a derived backup/spool grouping, not a new scientific execution. Its member manifests and receipts remain private locally.",
@@ -22,5 +22,6 @@
     "input_read_cache": 2553094569,
     "reference_or_generated_index": 443129481,
     "generated_dense_numeric_matrix": 2351080713
-  }
+  },
+  "actual_removal_receipt": "CLEANUP-SUMMARY.json"
 }
