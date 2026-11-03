@@ -1,0 +1,19 @@
+{
+  "application_source": "4b26f7e58fc374b13184548a2d375e49f34dc5fa",
+  "files": [
+    {
+      "name": "gffread_conversion.py",
+      "original_path": "tests/regressions/gffread_conversion.py",
+      "original_sha256": "c0de488032c09a25e776be35798c6dd139dac83ad73998767b3b68cdcd421bf9",
+      "moved_sha256": "093694228ed423e3e2317c368307e4b8ed45fa1b22f2f5d2ce40eab0b2dbd388",
+      "change": "Require explicit --repo for the external pipeline checkout; test behavior otherwise unchanged"
+    },
+    {
+      "name": "module_patch_roundtrip.py",
+      "original_path": "tests/regressions/module_patch_roundtrip.py",
+      "original_sha256": "d3632688a00df064937e052837a8beb4a77ecb882284418b6b788431867afc80",
+      "moved_sha256": "54bb90f461020416989fd7e313cfa8af067347198fc3c2ed444045bd3fd07372",
+      "change": "Require explicit --repo for the external pipeline checkout; test behavior otherwise unchanged"
+    }
+  ]
+}
