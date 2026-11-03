@@ -20,3 +20,9 @@ Ten bounded replays of the actual MultiQC 1.13 implementation establish that a d
 [Fresh CI recheck](https://github.com/nf-core/atacseq/actions/runs/41656579437) confirms all 104 updated SAF expectations match: **11/12 tests pass on each engine**. The sole failed test per engine is controls, differing only in the two retained deepTools report expectations. Overall CI remains red; neither report hash was waived or rebaselined. The previous green latest-version jobs contained raw test failures under the existing nonblocking policy; only original test summaries establish their result.
 
 This is written by an AI agent (model name unavailable) on Nico DeVeaux’s behalf.
+
+## Subsequent report-baseline refresh
+
+Following review, [9a255c](https://github.com/NicoDeVeaux/atacseq-nfcore/commit/9a255c667bed26eec6759c94a1f8a01e281f623d) refreshes the two controls-report expectations to the pair reproduced in both CI runs on both engines. This pair also existed in the repository before [dfe474](https://github.com/nf-core/atacseq/commit/dfe47404770e320441421ae0e78f92469510465a), which changed exactly these two hashes in the opposite direction. This is a baseline update, not a reporting repair or a claim that the exact CI cause was reproduced. The proven MultiQC defects and their limits above remain open.
+
+All six previously failing cases now have expected content exactly equal to both engines’ original complete observed arrays. Code, coordinate assertions, all other assertions and CI gates remain unchanged. [New native recheck](https://github.com/nf-core/atacseq/actions/runs/41666190365) is running.
