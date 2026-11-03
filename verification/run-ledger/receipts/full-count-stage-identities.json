@@ -1,0 +1,23 @@
+{
+  "corrected": {
+    "annotation_generator_script_sha256": "bf44ae3802d6e28f2409b7436b5a912a704c65b55478d381993a3c22ed7ecb42",
+    "annotation_sha256": "4cc5847e164257f4f60f373f061102eb4784239981af2d6cb1e1a7759500780b",
+    "image": "quay.io/biocontainers/subread@sha256:ccee1f6ebb924fd0b3b6db646a51dabc905697aa25be132386dd490c2318286c",
+    "original_execution_receipt_sha256": "2da799b57a867c1d46b549e9e53ac0e014d4e7ecf84519c3a3a86001f3512e31",
+    "script_bytes": 359,
+    "script_sha256": "fd7bcef9b139b9bc3e5d01fe2416c1bbd56dedd8a9988e43d53b51e0094c66df"
+  },
+  "legacy": {
+    "annotation_sha256": "387a661c3cd88d347a5ef4d41ca9cc38eb49cc9ba723916689ac2c45aaa6943c",
+    "image": "quay.io/biocontainers/subread@sha256:ccee1f6ebb924fd0b3b6db646a51dabc905697aa25be132386dd490c2318286c",
+    "original_execution_receipt_sha256": "3c4d3aa78bd1641b4296845dd2bdd31b4ec3fa6ed30f857df4e1ad6fb3387a58",
+    "script_bytes": 359,
+    "script_sha256": "fd7bcef9b139b9bc3e5d01fe2416c1bbd56dedd8a9988e43d53b51e0094c66df"
+  },
+  "post-split": {
+    "image": "quay.io/biocontainers/subread@sha256:ccee1f6ebb924fd0b3b6db646a51dabc905697aa25be132386dd490c2318286c",
+    "original_execution_receipt_sha256": "badd0aea23eeddea01f405dd88d81b96fa08937d6aa896537693c6287cfd38ca",
+    "production_converter_sha256": "846dc83250d67288465f498a9e269e5bb2b4bce1f99993358d5b9d29c5fa629c",
+    "script_sha256": "889adae9545db44116c8c14d1e293b744f89860ee6167c8a39eefb75351ae14f"
+  }
+}

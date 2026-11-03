@@ -1,0 +1,1308 @@
+{
+  "campaigns": [
+    {
+      "campaign_id": "hiv-20261029-a9b588",
+      "evidence": [
+        {
+          "git_blob_sha1": "e0515bc07688192744098310f619a68af4ba3f67",
+          "sha256": "4ac5f851bd26f8628037b54512840f6328c8e73e6d3c24075d213370fa927d4b",
+          "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/hiv/results/report.json"
+        },
+        {
+          "git_blob_sha1": "3c90e77a0a6dc7aa41d9a2db3d61608729bce47f",
+          "sha256": "e4a4b89a719d3eb5ed23a05de5ba695af5986d012044333493105ae5c215bdf4",
+          "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/portable/sources/manifest.json"
+        }
+      ],
+      "input_set": "hiv",
+      "limits": [
+        "Chromap transport-failed attempts were recovered without changing scientific source/settings; successful IDs above are the comparison arms.",
+        "Historical reference and original image byte identities remain explicitly unknown."
+      ],
+      "public_archive_scope": "Selected outputs, counts, reports and provenance are public; no complete full-workflow BAM/work-cache archive claim.",
+      "runs": [
+        {
+          "aligner": "bwa",
+          "arm": "unfixed",
+          "execution": {
+            "evidence": [],
+            "statement": "Recorded successful execution",
+            "status": "PASS"
+          },
+          "execution_kind": "full matched scientific workflow",
+          "literal_execution_source": {
+            "git_commit": "73155d2b59d37f521e3f00228d559031d2e7847f"
+          },
+          "native_CI": {
+            "evidence": [],
+            "statement": "Not a native CI execution",
+            "status": "NOT_RUN"
+          },
+          "nextflow": "26.04.6",
+          "nf_test": {
+            "evidence": [],
+            "statement": "Not an nf-test execution",
+            "status": "NOT_RUN"
+          },
+          "run_id": "bwa-unfixed",
+          "total_input_pairs": 87089251,
+          "verified_artifacts": 81,
+          "workflow_id": "miH78tIWtzQMy"
+        },
+        {
+          "aligner": "bwa",
+          "arm": "fixed",
+          "execution": {
+            "evidence": [],
+            "statement": "Recorded successful execution",
+            "status": "PASS"
+          },
+          "execution_kind": "full matched scientific workflow",
+          "literal_execution_source": {
+            "git_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86"
+          },
+          "native_CI": {
+            "evidence": [],
+            "statement": "Not a native CI execution",
+            "status": "NOT_RUN"
+          },
+          "nextflow": "26.04.6",
+          "nf_test": {
+            "evidence": [],
+            "statement": "Not an nf-test execution",
+            "status": "NOT_RUN"
+          },
+          "run_id": "bwa-fixed",
+          "total_input_pairs": 87089251,
+          "verified_artifacts": 81,
+          "workflow_id": "BVYqNpYNcUhEN"
+        },
+        {
+          "aligner": "chromap",
+          "arm": "unfixed",
+          "execution": {
+            "evidence": [],
+            "statement": "Recorded successful execution",
+            "status": "PASS"
+          },
+          "execution_kind": "full matched scientific workflow",
+          "literal_execution_source": {
+            "git_commit": "73155d2b59d37f521e3f00228d559031d2e7847f"
+          },
+          "native_CI": {
+            "evidence": [],
+            "statement": "Not a native CI execution",
+            "status": "NOT_RUN"
+          },
+          "nextflow": "26.04.6",
+          "nf_test": {
+            "evidence": [],
+            "statement": "Not an nf-test execution",
+            "status": "NOT_RUN"
+          },
+          "run_id": "chromap-unfixed",
+          "total_input_pairs": 87089251,
+          "verified_artifacts": 81,
+          "workflow_id": "6n2TeKZ3HxTua"
+        },
+        {
+          "aligner": "chromap",
+          "arm": "fixed",
+          "execution": {
+            "evidence": [],
+            "statement": "Recorded successful execution",
+            "status": "PASS"
+          },
+          "execution_kind": "full matched scientific workflow",
+          "literal_execution_source": {
+            "git_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86"
+          },
+          "native_CI": {
+            "evidence": [],
+            "statement": "Not a native CI execution",
+            "status": "NOT_RUN"
+          },
+          "nextflow": "26.04.6",
+          "nf_test": {
+            "evidence": [],
+            "statement": "Not an nf-test execution",
+            "status": "NOT_RUN"
+          },
+          "run_id": "chromap-fixed",
+          "total_input_pairs": 87089251,
+          "verified_artifacts": 81,
+          "workflow_id": "2DOXAsX9V2FbkY"
+        }
+      ],
+      "scientific_assertions": [
+        {
+          "evidence": [
+            {
+              "git_blob_sha1": "e144f7ccbd77aca73f585c8c5f8d0967c40c8e5b",
+              "sha256": "a603f331f77f38c3229d2f7d33aa57963f43462421165ed64c955e3a9b52ab91",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/hiv/results/FINAL-REPORT.md"
+            }
+          ],
+          "input_pairs": 87089251,
+          "statement": "All four workflows completed; all eight per-mate read totals per workflow match public ENA totals.",
+          "status": "PASS"
+        },
+        {
+          "cells": 299580,
+          "evidence": [
+            {
+              "git_blob_sha1": "e0515bc07688192744098310f619a68af4ba3f67",
+              "sha256": "4ac5f851bd26f8628037b54512840f6328c8e73e6d3c24075d213370fa927d4b",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/hiv/results/report.json"
+            }
+          ],
+          "regions": 74895,
+          "statement": "Fixed BWA library-consensus counts restore the archived dev matrix exactly.",
+          "status": "PASS"
+        },
+        {
+          "bwa_changed_shared_cells": 6982,
+          "chromap_changed_shared_cells": 8065,
+          "evidence": [
+            {
+              "git_blob_sha1": "e144f7ccbd77aca73f585c8c5f8d0967c40c8e5b",
+              "sha256": "a603f331f77f38c3229d2f7d33aa57963f43462421165ed64c955e3a9b52ab91",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/hiv/results/FINAL-REPORT.md"
+            }
+          ],
+          "statement": "Fixed and unfixed results are numerically identical.",
+          "status": "FAIL"
+        },
+        {
+          "evidence": [
+            {
+              "git_blob_sha1": "e144f7ccbd77aca73f585c8c5f8d0967c40c8e5b",
+              "sha256": "a603f331f77f38c3229d2f7d33aa57963f43462421165ed64c955e3a9b52ab91",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/hiv/results/FINAL-REPORT.md"
+            }
+          ],
+          "statement": "These four single-technical-run libraries isolate the cross-run duplicate/library-ID correction.",
+          "status": "NOT_RUN"
+        }
+      ],
+      "source_map": "hiv-source-archives",
+      "title": "Four full HIV ATAC-seq workflows"
+    },
+    {
+      "campaign_id": "resequencing-20261029-a9b588",
+      "evidence": [
+        {
+          "git_blob_sha1": "aabdb7f65206e880e4b7e79e71dc2385d0fec3c6",
+          "sha256": "d7b04be65334ef76726286a34742cb56ba4d0d73a3f9ee2b63d4fd58fe90fef0",
+          "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/resequencing/review/source-pins.json"
+        },
+        {
+          "git_blob_sha1": "7c1be6c7d86e6ef2882873a2612c9d862d81fb61",
+          "sha256": "94c80f38bb06015d794642909f81458d54912e7e6bc142a51899fd7d35e47cf3",
+          "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/resequencing/parts-manifest.json"
+        }
+      ],
+      "input_set": "resequencing-prefixes",
+      "limits": [
+        "UCSC sacCer3 reference oracle, separate from the later Ensembl native-reference campaign.",
+        "Current source carryforward is a code-identity argument, not a new workflow execution."
+      ],
+      "public_archive_scope": "Split archive 03a1b1 preserves the documented resequencing control bundle; see its exact member manifest.",
+      "runs": [
+        {
+          "execution": {
+            "evidence": [],
+            "statement": "Recorded successful execution",
+            "status": "PASS"
+          },
+          "execution_kind": "local full core workflow with matched optional-QC skips",
+          "literal_execution_source": {
+            "git_commit": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+            "source_archive_sha256": "f15d0bd24a2389a5bfd370a2913ea2fb6d095ef7b697f898d9f8b883a3621a02"
+          },
+          "native_CI": {
+            "evidence": [],
+            "statement": "Not a native CI execution",
+            "status": "NOT_RUN"
+          },
+          "nf_test": {
+            "evidence": [],
+            "statement": "Not an nf-test execution",
+            "status": "NOT_RUN"
+          },
+          "run_id": "base"
+        },
+        {
+          "execution": {
+            "evidence": [],
+            "statement": "Recorded successful execution",
+            "status": "PASS"
+          },
+          "execution_kind": "local full core workflow with matched optional-QC skips",
+          "literal_execution_source": {
+            "git_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+            "source_archive_sha256": "25c40fec6cc420f0013cb3063dfb670f470adcf2785b1b6c44181b0a93b51ab7"
+          },
+          "native_CI": {
+            "evidence": [],
+            "statement": "Not a native CI execution",
+            "status": "NOT_RUN"
+          },
+          "nf_test": {
+            "evidence": [],
+            "statement": "Not an nf-test execution",
+            "status": "NOT_RUN"
+          },
+          "run_id": "unfixed"
+        },
+        {
+          "execution": {
+            "evidence": [],
+            "statement": "Recorded successful execution",
+            "status": "PASS"
+          },
+          "execution_kind": "local full core workflow with matched optional-QC skips",
+          "literal_execution_source": {
+            "git_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+            "source_archive_sha256": "266bfb7af2f3df2f56ba540695b46e77fb1518ee02b26c36811f3204111d3a62"
+          },
+          "native_CI": {
+            "evidence": [],
+            "statement": "Not a native CI execution",
+            "status": "NOT_RUN"
+          },
+          "nf_test": {
+            "evidence": [],
+            "statement": "Not an nf-test execution",
+            "status": "NOT_RUN"
+          },
+          "run_id": "fixed"
+        }
+      ],
+      "scientific_assertions": [
+        {
+          "evidence": [
+            {
+              "git_blob_sha1": "0081aaf4af99303b833261690a4c27fb054f35a9",
+              "sha256": "ab2013f33dfc995d14f4979fba49c0102983f377270f22dd02039dcdcdc26f4c",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/resequencing/reports/RESEQUENCING-REPORT.md"
+            }
+          ],
+          "receipt": "receipts/resequencing-duplicate-recheck.json",
+          "statement": "On identical alignments, fixed and pre-448 duplicate behavior agrees; unfixed retains extra duplicate pairs.",
+          "status": "PASS",
+          "unfixed_extra_pairs": {
+            "D28P_REP1": 1865,
+            "D28_REP1": 2553
+          }
+        },
+        {
+          "consensus_intervals": 1934,
+          "evidence": [
+            {
+              "git_blob_sha1": "0081aaf4af99303b833261690a4c27fb054f35a9",
+              "sha256": "ab2013f33dfc995d14f4979fba49c0102983f377270f22dd02039dcdcdc26f4c",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/resequencing/reports/RESEQUENCING-REPORT.md"
+            }
+          ],
+          "library_peaks": [
+            1635,
+            1431
+          ],
+          "statement": "Fixed peak coordinates and consensus intervals restore pre-448 coordinates.",
+          "status": "PASS"
+        },
+        {
+          "equal_cells": 3867,
+          "evidence": [
+            {
+              "git_blob_sha1": "0081aaf4af99303b833261690a4c27fb054f35a9",
+              "sha256": "ab2013f33dfc995d14f4979fba49c0102983f377270f22dd02039dcdcdc26f4c",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/resequencing/reports/RESEQUENCING-REPORT.md"
+            }
+          ],
+          "residual": "D28P chrIV:42072-43938:77->76",
+          "statement": "All fixed count cells equal pre-448.",
+          "status": "FAIL",
+          "total_cells": 3868
+        },
+        {
+          "evidence": [
+            {
+              "git_blob_sha1": "909d32bb71366c6add7510ece81b76f144d5163c",
+              "sha256": "da33612cacec9b9d69375793bac0855d1ef99ec11f64a6272fe7ef2224fbfe48",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/resequencing/reports/RESIDUAL-ONE-COUNT.md"
+            }
+          ],
+          "statement": "The residual alignment difference has a proven upstream biological cause.",
+          "status": "UNKNOWN"
+        }
+      ],
+      "source_map": "resequencing-source-archives",
+      "title": "Two real yeast libraries sequenced twice"
+    },
+    {
+      "campaign_id": "yeast-native-20261102-4def83",
+      "evidence": [
+        {
+          "git_blob_sha1": "29ea69010d6837165886fec5549159875b4f8ac7",
+          "sha256": "cfc150f016a4869b0e1311fa99fd776358879c4d91cc6f0300dba0d98c5baad3",
+          "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-02-pr473-yeast/SOURCE.json"
+        },
+        {
+          "git_blob_sha1": "28846f632bf083bf126567bfb3602afe0974606b",
+          "sha256": "c8de64d3299603a6f4fe4fae8f6571a85ddc1bc212ded0dad3fa142b80238b39",
+          "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-02-pr473-yeast/COMPARISON.json"
+        },
+        {
+          "git_blob_sha1": "8f97628887c1c43292817fe43c738b31eedabaed",
+          "sha256": "05bbaa921293e8229c8779613e63d52cb1e18da5033fd00c925e44a16efe3cee",
+          "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-02-pr473-yeast/parts-manifest.json"
+        }
+      ],
+      "input_set": "yeast-native",
+      "limits": [
+        "Byte-identical .gff.gz alias corrected filename preflight only; no annotation content change or disabled validation.",
+        "1934 intervals were independently measured here; the older UCSC oracle is not applied."
+      ],
+      "public_archive_scope": "The split public archive preserves the curated scientific output capture and portable checker/source/input/reference evidence; original private execution metadata excluded.",
+      "runs": [
+        {
+          "capture_bytes": 514667815,
+          "capture_files": 336,
+          "execution": {
+            "evidence": [],
+            "statement": "Recorded successful execution",
+            "status": "PASS"
+          },
+          "execution_kind": "full native-annotation scientific workflow",
+          "literal_execution_source": {
+            "git_commit": "4def83f6c0d095c7c3ad315b3167916e9710b173",
+            "source_archive_sha256": "3b283d7f34f3d64ba8cbc827e9fcaee6f1b4b168b9a6378a8e356341f0c59721"
+          },
+          "native_CI": {
+            "evidence": [],
+            "statement": "Not a native CI execution",
+            "status": "NOT_RUN"
+          },
+          "nextflow": "26.04.6",
+          "nf_test": {
+            "evidence": [],
+            "statement": "Not an nf-test execution",
+            "status": "NOT_RUN"
+          },
+          "run_id": "gtf"
+        },
+        {
+          "capture_bytes": 516130154,
+          "capture_files": 337,
+          "execution": {
+            "evidence": [],
+            "statement": "Recorded successful execution",
+            "status": "PASS"
+          },
+          "execution_kind": "full native-annotation scientific workflow",
+          "literal_execution_source": {
+            "git_commit": "4def83f6c0d095c7c3ad315b3167916e9710b173",
+            "source_archive_sha256": "3b283d7f34f3d64ba8cbc827e9fcaee6f1b4b168b9a6378a8e356341f0c59721"
+          },
+          "native_CI": {
+            "evidence": [],
+            "statement": "Not a native CI execution",
+            "status": "NOT_RUN"
+          },
+          "nextflow": "26.04.6",
+          "nf_test": {
+            "evidence": [],
+            "statement": "Not an nf-test execution",
+            "status": "NOT_RUN"
+          },
+          "run_id": "gff3"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "git_blob_sha1": "d0962b1cadd727bd62f28a637626ccf44cad528c",
+                "sha256": "933c2e190c069944fd9315a95bcde24f9d859d9a929956a5f880b4c234913b36",
+                "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-02-pr473-yeast/WORKFLOWS.json"
+              }
+            ],
+            "statement": "Official .gff3.gz basename rejected before scientific tasks.",
+            "status": "FAIL"
+          },
+          "execution_kind": "filename preflight",
+          "literal_execution_source": {
+            "git_commit": "4def83f6c0d095c7c3ad315b3167916e9710b173"
+          },
+          "native_CI": {
+            "evidence": [],
+            "statement": "Not run",
+            "status": "NOT_RUN"
+          },
+          "nf_test": {
+            "evidence": [],
+            "statement": "Not run",
+            "status": "NOT_RUN"
+          },
+          "run_id": "gff-startup-rejected",
+          "scientific_verification": {
+            "evidence": [],
+            "statement": "No scientific arm executed.",
+            "status": "UNKNOWN"
+          }
+        }
+      ],
+      "scientific_assertions": [
+        {
+          "checker_sha256": "f4f78de781196f7f210d49b38f673bfc4b332ab7ad4016ebafa27885babee412",
+          "evidence": [
+            {
+              "git_blob_sha1": "28846f632bf083bf126567bfb3602afe0974606b",
+              "sha256": "c8de64d3299603a6f4fe4fae8f6571a85ddc1bc212ded0dad3fa142b80238b39",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-02-pr473-yeast/COMPARISON.json"
+            }
+          ],
+          "statement": "Actual full checker has no differences; common-task image digests agree.",
+          "status": "PASS"
+        },
+        {
+          "cells": 3868,
+          "evidence": [
+            {
+              "git_blob_sha1": "28846f632bf083bf126567bfb3602afe0974606b",
+              "sha256": "c8de64d3299603a6f4fe4fae8f6571a85ddc1bc212ded0dad3fa142b80238b39",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-02-pr473-yeast/COMPARISON.json"
+            }
+          ],
+          "intervals": 1934,
+          "peaks": [
+            1635,
+            1431
+          ],
+          "preseq_rows_per_library": 10000,
+          "retained_fragments": {
+            "D28P_REP1": 283754,
+            "D28_REP1": 282467
+          },
+          "statement": "GTF/GFF3 peaks, consensus, all counts and PRESEQ curves agree.",
+          "status": "PASS"
+        },
+        {
+          "converted": 7036,
+          "evidence": [
+            {
+              "git_blob_sha1": "28846f632bf083bf126567bfb3602afe0974606b",
+              "sha256": "c8de64d3299603a6f4fe4fae8f6571a85ddc1bc212ded0dad3fa142b80238b39",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-02-pr473-yeast/COMPARISON.json"
+            }
+          ],
+          "omitted_transposable_element_transcripts": 91,
+          "source_transcripts": 7127,
+          "statement": "Default GFFREAD conversion preserves every native annotation transcript.",
+          "status": "FAIL"
+        },
+        {
+          "evidence": [
+            {
+              "git_blob_sha1": "28846f632bf083bf126567bfb3602afe0974606b",
+              "sha256": "c8de64d3299603a6f4fe4fae8f6571a85ddc1bc212ded0dad3fa142b80238b39",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-02-pr473-yeast/COMPARISON.json"
+            }
+          ],
+          "real_retry_observed": false,
+          "statement": "PRESEQ retry path was exercised by a real scientific retry.",
+          "status": "NOT_RUN"
+        }
+      ],
+      "title": "Matched Ensembl GTF/GFF3 and PRESEQ"
+    },
+    {
+      "campaign_id": "bwa-count-saf-20261103",
+      "evidence": [
+        {
+          "git_blob_sha1": "4206551add367562b6d818d3062303c89b4497a7",
+          "sha256": "14c6e49b286a9c0a0a1025dc3c8f3f2af98584ee9998977280869005bac4fb93",
+          "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-count-acceptance/INPUT-IDENTITIES.json"
+        },
+        {
+          "git_blob_sha1": "1c4fee2358405747db36a1ead6ad5ffb882f1df1",
+          "sha256": "6676d5f1dea401f21ccc6db542df2f0d34f473e4382aa99ddff595d62a528218",
+          "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-count-saf-data/MANIFEST.json"
+        }
+      ],
+      "limits": [
+        "No new alignment, peak calling or full workflow in these counting arms.",
+        "Immutable local Subread2.0.1 image plus exact legacy positive control forms a stage bridge; historical cloud digest unavailable."
+      ],
+      "public_archive_scope": "Full count matrices, delta witnesses, SAF/BED and boundary fixture are public in the 14.8MB count/SAF archive. The four BAMs are identified but not bundled.",
+      "runs": [
+        {
+          "annotation_origin": {
+            "meaning": "Annotation/source origin, not a pipeline Git commit executed by this local stage.",
+            "pipeline_git_commit": "a9b588235e4a1ceb3c8838acad430628c5737c86"
+          },
+          "execution": {
+            "evidence": [],
+            "statement": "Recorded successful execution",
+            "status": "PASS"
+          },
+          "execution_kind": "same-four-BAM count-only stage",
+          "literal_execution_source": {
+            "image": "quay.io/biocontainers/subread@sha256:ccee1f6ebb924fd0b3b6db646a51dabc905697aa25be132386dd490c2318286c",
+            "kind": "local counting-stage script",
+            "receipt": "receipts/full-count-stage-identities.json",
+            "script_sha256": "fd7bcef9b139b9bc3e5d01fe2416c1bbd56dedd8a9988e43d53b51e0094c66df"
+          },
+          "native_CI": {
+            "evidence": [],
+            "statement": "Not a native CI execution",
+            "status": "NOT_RUN"
+          },
+          "nf_test": {
+            "evidence": [],
+            "statement": "Not an nf-test execution",
+            "status": "NOT_RUN"
+          },
+          "run_id": "legacy-positive-control"
+        },
+        {
+          "annotation_generator_origin_commit": "ef206a60f88b4c754eaf4d0a8c0b9ee0c9268180",
+          "annotation_origin": {
+            "meaning": "Annotation/source origin, not a pipeline Git commit executed by this local stage.",
+            "pipeline_git_commit": "ef206a60f88b4c754eaf4d0a8c0b9ee0c9268180"
+          },
+          "execution": {
+            "evidence": [],
+            "statement": "Recorded successful execution",
+            "status": "PASS"
+          },
+          "execution_kind": "same-four-BAM count-only intervention",
+          "literal_execution_source": {
+            "image": "quay.io/biocontainers/subread@sha256:ccee1f6ebb924fd0b3b6db646a51dabc905697aa25be132386dd490c2318286c",
+            "kind": "local counting-stage script",
+            "receipt": "receipts/full-count-stage-identities.json",
+            "script_sha256": "fd7bcef9b139b9bc3e5d01fe2416c1bbd56dedd8a9988e43d53b51e0094c66df"
+          },
+          "native_CI": {
+            "evidence": [],
+            "statement": "Not a native CI execution",
+            "status": "NOT_RUN"
+          },
+          "nf_test": {
+            "evidence": [],
+            "statement": "Not an nf-test execution",
+            "status": "NOT_RUN"
+          },
+          "run_id": "SAF-start-plus-one"
+        },
+        {
+          "annotation_generator_origin_commit": "f2873418faf719756d89022a6e9d2e4315c56a89",
+          "annotation_origin": {
+            "meaning": "Annotation/source origin, not a pipeline Git commit executed by this local stage.",
+            "pipeline_git_commit": "f2873418faf719756d89022a6e9d2e4315c56a89"
+          },
+          "execution": {
+            "evidence": [],
+            "statement": "Recorded successful execution",
+            "status": "PASS"
+          },
+          "execution_kind": "same-four-BAM count-only stage",
+          "literal_execution_source": {
+            "image": "quay.io/biocontainers/subread@sha256:ccee1f6ebb924fd0b3b6db646a51dabc905697aa25be132386dd490c2318286c",
+            "kind": "local counting-stage script",
+            "receipt": "receipts/full-count-stage-identities.json",
+            "script_sha256": "889adae9545db44116c8c14d1e293b744f89860ee6167c8a39eefb75351ae14f"
+          },
+          "native_CI": {
+            "evidence": [],
+            "statement": "Not a native CI execution",
+            "status": "NOT_RUN"
+          },
+          "nf_test": {
+            "evidence": [],
+            "statement": "Not an nf-test execution",
+            "status": "NOT_RUN"
+          },
+          "run_id": "post-split-legacy"
+        }
+      ],
+      "scientific_assertions": [
+        {
+          "cells": 299580,
+          "evidence": [
+            {
+              "git_blob_sha1": "724b3ca5526e947d3067939b6b1e300d3abaaae8",
+              "sha256": "a947b982e1abd680e5250eb272549d3e79350dd2aa1fb40c8e2fec5b71dfeda8",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-count-acceptance/README.md"
+            },
+            {
+              "git_blob_sha1": "262cc32d1f18c80e8a265e3967ee14da506608a0",
+              "sha256": "29b5e512774e68d6ea95a03b61711760da1ba11907705d71a75dc567ce881e97",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-saf-split/README.md"
+            }
+          ],
+          "regions": 74895,
+          "statement": "Legacy positive control and post-split #474 reproduce all archived values and metadata.",
+          "status": "PASS"
+        },
+        {
+          "changed_cells": 2280,
+          "changed_regions": 2223,
+          "delta_distribution": {
+            "-1": 2267,
+            "-2": 13
+          },
+          "evidence": [
+            {
+              "git_blob_sha1": "bba8c238f26f24f820517be73fa34eccbdbb83ec",
+              "sha256": "6dd619c5007c050a4f240080e0eddc694acd178d116290613fdf83b97529f1e0",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-count-acceptance/RESULT.json"
+            }
+          ],
+          "statement": "SAF Start+1 preserves the literal old-count acceptance criterion.",
+          "status": "FAIL",
+          "total_delta": -2293,
+          "unchanged_cells": 297300
+        },
+        {
+          "boundary_count": [
+            1,
+            0
+          ],
+          "evidence": [
+            {
+              "git_blob_sha1": "262cc32d1f18c80e8a265e3967ee14da506608a0",
+              "sha256": "29b5e512774e68d6ea95a03b61711760da1ba11907705d71a75dc567ce881e97",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-saf-split/README.md"
+            }
+          ],
+          "expected_outcomes": 30,
+          "regression_scenarios": 15,
+          "statement": "The actual-source SAF coordinate/boundary contract is corrected.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "git_blob_sha1": "724b3ca5526e947d3067939b6b1e300d3abaaae8",
+              "sha256": "a947b982e1abd680e5250eb272549d3e79350dd2aa1fb40c8e2fec5b71dfeda8",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-count-acceptance/README.md"
+            }
+          ],
+          "statement": "Every corrected biological count is independently proved by a per-read oracle.",
+          "status": "NOT_RUN"
+        }
+      ],
+      "title": "Full 299580-cell acceptance and SAF split"
+    },
+    {
+      "campaign_id": "pr474-ci-20261103",
+      "evidence": [
+        {
+          "git_blob_sha1": "2e6c2cac7cdb9592fcc0c87dabe72edd03315282",
+          "sha256": "3138d7a64274c1cfc6c8fcd70e688abd04d170ab94c211b3bb61fb7441aca689",
+          "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-ci/README.md"
+        },
+        {
+          "git_blob_sha1": "72113d45f1042b6d07ca3c8e7edddc27e2f52a4b",
+          "sha256": "67722d29a1418a020df92a06a8dfa1d3073e70e41380f08f54bdb3bed786d853",
+          "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-ci/receipt-index.json"
+        }
+      ],
+      "limits": [
+        "STAR plotFingerprint and Chromap HOMER timeouts ended exit143 and are not successful diagnostic workflows.",
+        "The original SAF-invalid legacy contract remains a recorded failure."
+      ],
+      "public_archive_scope": "Compact CI/stage receipts and selected count/SAF tables public; no blanket complete-workflow output archive claim.",
+      "runs": [
+        {
+          "execution": {
+            "evidence": [
+              {
+                "git_blob_sha1": "b94c20e8944c22d0c9b6582885efa56ace0eaffa",
+                "sha256": "15d7c583475c0d4aedf989771bdebd492aeb23b14037bc5d188536a77adfd648",
+                "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-ci/final-ci-verification.json"
+              }
+            ],
+            "statement": "Completed native CI.",
+            "status": "PASS"
+          },
+          "execution_kind": "GitHub native nf-test matrix",
+          "historical_combined_candidate": true,
+          "literal_execution_source": {
+            "checkout_commit": "17f155a15e371d215a268f8878e533d82b99cc4e",
+            "tree_matches_reviewed_head": true,
+            "tree_sha1": "a8b6baf1f321d80cdcf7445a958b8c5d4c7651c8"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "git_blob_sha1": "b94c20e8944c22d0c9b6582885efa56ace0eaffa",
+                "sha256": "15d7c583475c0d4aedf989771bdebd492aeb23b14037bc5d188536a77adfd648",
+                "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-ci/final-ci-verification.json"
+              }
+            ],
+            "statement": "Underlying test summaries verified, including nonblocking lane.",
+            "status": "PASS"
+          },
+          "nf_test": {
+            "cases_per_engine": {
+              "25.10.4": 12,
+              "26.10.5": 12
+            },
+            "evidence": [
+              {
+                "git_blob_sha1": "b94c20e8944c22d0c9b6582885efa56ace0eaffa",
+                "sha256": "15d7c583475c0d4aedf989771bdebd492aeb23b14037bc5d188536a77adfd648",
+                "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-ci/final-ci-verification.json"
+              }
+            ],
+            "statement": "All actual tests passed on both engines.",
+            "status": "PASS"
+          },
+          "published_code_commit": "4b26f7e58fc374b13184548a2d375e49f34dc5fa",
+          "run_id": "native-41613670857"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "receipt": "receipts/pr474-post-split-run.json",
+                "url": "https://github.com/nf-core/atacseq/actions/runs/41644797269"
+              }
+            ],
+            "statement": "Public run metadata says completed/success.",
+            "status": "PASS"
+          },
+          "execution_kind": "GitHub CI at post-split #474 source",
+          "literal_execution_source": {
+            "actual_checkout_commit": null,
+            "checkout_identity_status": "UNKNOWN",
+            "reviewed_head_git_commit": "f2873418faf719756d89022a6e9d2e4315c56a89"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "url": "https://github.com/nf-core/atacseq/actions/runs/41644797269"
+              }
+            ],
+            "statement": "GitHub run conclusion success; underlying raw tests are separately unverified here.",
+            "status": "PASS"
+          },
+          "nf_test": {
+            "evidence": [
+              {
+                "receipt": "receipts/pr474-post-split-run.json"
+              }
+            ],
+            "statement": "This bounded ledger does not reverify raw per-engine summaries for the later split run.",
+            "status": "UNKNOWN"
+          },
+          "published_code_commit": "f2873418faf719756d89022a6e9d2e4315c56a89",
+          "run_id": "post-split-native-41644797269"
+        }
+      ],
+      "scientific_assertions": [
+        {
+          "action_run": "https://github.com/nf-core/atacseq/actions/runs/41613670857",
+          "evidence": [
+            {
+              "git_blob_sha1": "2e6c2cac7cdb9592fcc0c87dabe72edd03315282",
+              "sha256": "3138d7a64274c1cfc6c8fcd70e688abd04d170ab94c211b3bb61fb7441aca689",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-ci/README.md"
+            }
+          ],
+          "source_commit": "4b26f7e58fc374b13184548a2d375e49f34dc5fa",
+          "statement": "Historical combined-head native CI has12/12 actual tests on each engine; separate from the later split head.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "git_blob_sha1": "2e6c2cac7cdb9592fcc0c87dabe72edd03315282",
+              "sha256": "3138d7a64274c1cfc6c8fcd70e688abd04d170ab94c211b3bb61fb7441aca689",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-ci/README.md"
+            }
+          ],
+          "passes": 5,
+          "snapshot_only_failures": 7,
+          "statement": "Runtime ff886e passed nf-test before the reviewed snapshot update.",
+          "status": "FAIL",
+          "tests_per_lane": 12
+        },
+        {
+          "bwa_cells_changed": 165,
+          "bwa_total_cells": 16880,
+          "chromap_cells_changed": 46,
+          "chromap_total_cells": 5440,
+          "evidence": [
+            {
+              "git_blob_sha1": "2e6c2cac7cdb9592fcc0c87dabe72edd03315282",
+              "sha256": "3138d7a64274c1cfc6c8fcd70e688abd04d170ab94c211b3bb61fb7441aca689",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-ci/README.md"
+            }
+          ],
+          "statement": "BWA and Chromap same-BAM SAF interventions explain the recorded count/factor changes.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "git_blob_sha1": "2e6c2cac7cdb9592fcc0c87dabe72edd03315282",
+              "sha256": "3138d7a64274c1cfc6c8fcd70e688abd04d170ab94c211b3bb61fb7441aca689",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-ci/README.md"
+            }
+          ],
+          "macs_controls": 8,
+          "macs_peak_rows": 8608,
+          "statement": "Matched MACS/trimming bounded controls satisfy their recorded producer contracts.",
+          "status": "PASS",
+          "trimming_controls": 8
+        },
+        {
+          "evidence": [
+            {
+              "git_blob_sha1": "2e6c2cac7cdb9592fcc0c87dabe72edd03315282",
+              "sha256": "3138d7a64274c1cfc6c8fcd70e688abd04d170ab94c211b3bb61fb7441aca689",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-ci/README.md"
+            }
+          ],
+          "statement": "All six pre-448 STAR/Chromap historical scaling-factor causes are established.",
+          "status": "UNKNOWN",
+          "unexplained_historical_factors": 6
+        },
+        {
+          "evidence": [
+            {
+              "git_blob_sha1": "2e6c2cac7cdb9592fcc0c87dabe72edd03315282",
+              "sha256": "3138d7a64274c1cfc6c8fcd70e688abd04d170ab94c211b3bb61fb7441aca689",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-ci/README.md"
+            }
+          ],
+          "statement": "Strict same-source fixed-repeat qualifies despite an actual Picard argv input-order difference.",
+          "status": "FAIL"
+        },
+        {
+          "actual_task_commands_retained": 6,
+          "evidence": [
+            {
+              "receipt": "receipts/preseq-focused-native-ci.json",
+              "url": "https://github.com/nf-core/atacseq/actions/runs/41624848771"
+            }
+          ],
+          "fixture_cases": 3,
+          "module_sha256": "f552974269d70b3cebf86c780be00529a89baeec55bb22c2cd8a65e3846dcb38",
+          "statement": "Focused native PRESEQ retry controls preserve options and detect option loss.",
+          "status": "PASS"
+        }
+      ],
+      "title": "Combined module/SAF CI campaign and bounded stage proofs"
+    },
+    {
+      "campaign_id": "pr476-native-ci-20261103",
+      "evidence": [
+        {
+          "git_blob_sha1": "4a37f76113bf9e68ed9cb60d74e1d0358b767f86",
+          "sha256": "de642649de5e172aba883a0d71481fa4329183d23ef9a4183307bbdf6a8257f8",
+          "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr476-snapshots/README.md"
+        },
+        {
+          "receipt": "receipts/pr476-final-native-ci.json",
+          "url": "https://github.com/nf-core/atacseq/actions/runs/41666190365"
+        }
+      ],
+      "limits": [
+        "The fixed baseline pair is a reviewed baseline refresh, not a MultiQC repair.",
+        "Raw log archive SHA is preserved; a hash is not a downloadable archive."
+      ],
+      "public_archive_scope": "Durable compact final raw-CI verification receipt and raw-log hashes included here; native scientific output caches/log ZIP are not bundled.",
+      "runs": [
+        {
+          "execution": {
+            "evidence": [
+              {
+                "url": "https://github.com/nf-core/atacseq/actions/runs/41666190365"
+              }
+            ],
+            "statement": "GitHub run completed successfully.",
+            "status": "PASS"
+          },
+          "execution_kind": "GitHub native nf-test matrix",
+          "literal_execution_source": {
+            "checkout_commit": "69a3ddc7d488e97aeeec61b8149ee7c4fe621c20",
+            "tree_matches_reviewed_head": true,
+            "tree_sha1": "979d190ee79ce9e4c199cf389b57dce7a51af0e2"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "url": "https://github.com/nf-core/atacseq/actions/runs/41666190365"
+              }
+            ],
+            "statement": "Verified actual NF25.10.4 and26.10.5, including nonblocking-lane raw tests.",
+            "status": "PASS"
+          },
+          "nf_test": {
+            "cases_per_engine": {
+              "25.10.4": 12,
+              "26.10.5": 12
+            },
+            "evidence": [
+              {
+                "receipt": "receipts/pr476-final-native-ci.json"
+              }
+            ],
+            "statement": "All actual underlying test summaries pass.",
+            "status": "PASS"
+          },
+          "published_code_commit": "9a255c667bed26eec6759c94a1f8a01e281f623d",
+          "run_id": "native-41666190365"
+        }
+      ],
+      "scientific_assertions": [
+        {
+          "evidence": [
+            {
+              "git_blob_sha1": "4a37f76113bf9e68ed9cb60d74e1d0358b767f86",
+              "sha256": "de642649de5e172aba883a0d71481fa4329183d23ef9a4183307bbdf6a8257f8",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr476-snapshots/README.md"
+            }
+          ],
+          "statement": "104 SAF-dependent MD5 values across6files were updated with all other bytes/assertions preserved.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "git_blob_sha1": "4d3947f44d98ae857ca6cfa23b527a466b1f4e2d",
+              "sha256": "7902bf2f0bc0820b269f90fddf3dc545a09e62b0e7e3fd39a1f79330e761d4f6",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr476-snapshots/REPORT-BASELINE-UPDATE.json"
+            }
+          ],
+          "source_commit": "9a255c667bed26eec6759c94a1f8a01e281f623d",
+          "statement": "A separate two-MD5 controls report baseline refresh leaves the reporting defect open.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "git_blob_sha1": "4a37f76113bf9e68ed9cb60d74e1d0358b767f86",
+              "sha256": "de642649de5e172aba883a0d71481fa4329183d23ef9a4183307bbdf6a8257f8",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr476-snapshots/README.md"
+            }
+          ],
+          "statement": "Green standalone CI establishes exact historical scientific-image identity or repairs MultiQC reporting.",
+          "status": "UNKNOWN"
+        }
+      ],
+      "title": "Standalone SAF fix and final native CI"
+    },
+    {
+      "campaign_id": "fingerprint-reporting-20261103",
+      "evidence": [
+        {
+          "git_blob_sha1": "3d945e80d58091e81cefb88f9be055b58b3d3f0a",
+          "sha256": "e5836bda74c93b38fe8169c057db0daa306e919ab7b5014ebd862179587a7099",
+          "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/README.md"
+        },
+        {
+          "git_blob_sha1": "a29a27e15c09aaf3b990cad1c52e1b4330a4e559",
+          "sha256": "5fa7e4e24cf36440d18cab53ef6ef183a807e7c72f34c4a3c71c11b7a7b484d7",
+          "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/RECEIPT-INDEX.json"
+        },
+        {
+          "git_blob_sha1": "3d44f1ef8f9086318527b76bba587a16e22eeb63",
+          "sha256": "3ce63bec485bf73208a69a02dae22f07efe9f7e9ee6a34eb193eb70c472a5a2c",
+          "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/SNAPSHOT-ADMISSION.json"
+        }
+      ],
+      "input_set": "reporting-and-CI-test-datasets",
+      "limits": [
+        "Published826e7e is not silently substituted for literal frozen execution treesa22dc3/55a642.",
+        "Literal full NF26 used532bfb; final723bf5 is qualified there through an actual report-only bridge.",
+        "Quality tables were produced but are not routed into MultiQC by the existing workflow.",
+        "Historical CI raw vectors/order were not recovered by the counterfactual."
+      ],
+      "public_archive_scope": "Compact public fingerprint data and checker, source maps and receipts; no full runtime/work-cache archive claim.",
+      "runs": [
+        {
+          "execution": {
+            "evidence": [],
+            "statement": "Recorded successful execution",
+            "status": "PASS"
+          },
+          "execution_kind": "local full-workflow resume",
+          "literal_execution_source": {
+            "base_git_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+            "helper_sha256": "723bf55bd129a1af051f95c164f6fefab015a32b54195dcccefdc945aa3c469a",
+            "source_map": "fingerprint-literal25",
+            "tree_sha256": "a22dc398da54a6fcbfef5a4d7cb7838f6ce470b81ed0c8da2fee94c5a672b4e3"
+          },
+          "native_CI": {
+            "evidence": [],
+            "statement": "Not a native CI execution",
+            "status": "NOT_RUN"
+          },
+          "nextflow": "25.10.4",
+          "nf_test": {
+            "evidence": [],
+            "statement": "Not an nf-test execution",
+            "status": "NOT_RUN"
+          },
+          "published_code_commit": "826e7e8409b5891fee0f0f3bf0854a6df26e81ca",
+          "run_id": "literal25-F723",
+          "successful_logical_tasks": 253,
+          "trace_status_counts": {
+            "CACHED": 88,
+            "COMPLETED": 165,
+            "FAILED": 1
+          }
+        },
+        {
+          "execution": {
+            "evidence": [],
+            "statement": "Recorded successful execution",
+            "status": "PASS"
+          },
+          "execution_kind": "local full-workflow resume",
+          "literal_execution_source": {
+            "base_git_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+            "helper_sha256": "532bfb17161d0cfdf4743b259fc684b4bfaf2dee9d3e15aedcfba75c998a8e6c",
+            "source_map": "fingerprint-literal26",
+            "tree_sha256": "55a642205206986d753c6da60d09b50e70b37591b4b41c879b4e19853f51d120"
+          },
+          "native_CI": {
+            "evidence": [],
+            "statement": "Not a native CI execution",
+            "status": "NOT_RUN"
+          },
+          "nextflow": "26.10.5",
+          "nf_test": {
+            "evidence": [],
+            "statement": "Not an nf-test execution",
+            "status": "NOT_RUN"
+          },
+          "published_code_commit": "826e7e8409b5891fee0f0f3bf0854a6df26e81ca",
+          "run_id": "literal26-F532",
+          "successful_logical_tasks": 253,
+          "trace_status_counts": {
+            "CACHED": 88,
+            "COMPLETED": 165
+          }
+        },
+        {
+          "execution": {
+            "evidence": [],
+            "statement": "Recorded successful execution",
+            "status": "PASS"
+          },
+          "execution_kind": "actual full-context report-only bridge",
+          "literal_execution_source": {
+            "helper_sha256": "723bf55bd129a1af051f95c164f6fefab015a32b54195dcccefdc945aa3c469a"
+          },
+          "native_CI": {
+            "evidence": [],
+            "statement": "Not a native CI execution",
+            "status": "NOT_RUN"
+          },
+          "nextflow": "26.10.5",
+          "nf_test": {
+            "evidence": [],
+            "statement": "Not an nf-test execution",
+            "status": "NOT_RUN"
+          },
+          "run_id": "NF26-F723-forward-reverse"
+        },
+        {
+          "completed_trace_tasks": 26,
+          "execution": {
+            "evidence": [
+              {
+                "git_blob_sha1": "3d945e80d58091e81cefb88f9be055b58b3d3f0a",
+                "sha256": "e5836bda74c93b38fe8169c057db0daa306e919ab7b5014ebd862179587a7099",
+                "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/README.md"
+              }
+            ],
+            "statement": "Stopped before reporting after orchestration stall.",
+            "status": "FAIL"
+          },
+          "execution_kind": "stalled local driver",
+          "literal_execution_source": {
+            "base_git_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+            "capture_receipt_sha256": "43e3027c8c330f3f27c6308fa5e2dcd2dbce908c1fed875599e0135113fd8173",
+            "captured_manifest_sha256": "6eff952a4f1e42b7acabc0040f7131df06658f941aa1250063fef7857a98ad6f",
+            "production_file_bindings": [
+              {
+                "bytes": 1456,
+                "mode": "0o755",
+                "path": "bin/multiqc_fingerprint.py",
+                "sha256": "bf3f1fa32c7b4be30a5cb9ea9817800e416b16a1880915a55eda203a73f85880"
+              },
+              {
+                "bytes": 40659,
+                "mode": "0o644",
+                "path": "conf/modules.config",
+                "sha256": "dfd6233d4a6907659cde68f09f1a86314fdc76af6c0ebfcd492bbb977a8ce1dd"
+              },
+              {
+                "bytes": 2710,
+                "mode": "0o644",
+                "path": "modules/local/multiqc.nf",
+                "sha256": "18ac247159c509377d200342057e02bf11188b79692d1a36550c88b190f387e7"
+              }
+            ],
+            "tree_sha256": "7cc5c396100b8ed1dc52539552faa31e9ca2b65e5fd4caf0d687d28a7ecb0360"
+          },
+          "native_CI": {
+            "evidence": [],
+            "statement": "Not native CI",
+            "status": "NOT_RUN"
+          },
+          "nf_test": {
+            "evidence": [],
+            "statement": "No terminal test verdict",
+            "status": "UNKNOWN"
+          },
+          "reporting_tasks_exercised": 0,
+          "run_id": "emulated-Linux26-incomplete"
+        }
+      ],
+      "scientific_assertions": [
+        {
+          "counts_sha256": "d89fe75b74919a9a4cb2789907a430db4d35e558bdd849b083410acb6e114ac1",
+          "evidence": [
+            {
+              "git_blob_sha1": "830317bf83c1e457f94eed0e1bccedf53dc701e9",
+              "sha256": "a8e1a2d17a10c8683698599fb8e23b64c0d48ca45c932580bcb11d65394524b9",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/TWO-ENGINE-QUALIFICATION.json"
+            }
+          ],
+          "plot_sha256": "7a85704f6076f4c7ab8d8610280a4439b274221b0e7709b6f114f987168b6ab6",
+          "statement": "All eight series and 782 values agree exactly across five contexts, including forward and reversed inputs.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "git_blob_sha1": "406c81c9c4a54d924f10809a1867623295ccc96a",
+              "sha256": "fec79e575943972401247a2fc7fa36385a3532d9ee450f8aa472c1e55a158257",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/FOCUSED-REVIEW.json"
+            },
+            {
+              "git_blob_sha1": "7091bb10601e44320669fc456844c08f15226aa9",
+              "sha256": "545a7ae5a89dd07f545fdabe93dc040aedb5c0067886c839685bf38e56b18c32",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/INDEPENDENT-NAMING-CHECKS.json"
+            }
+          ],
+          "statement": "Both engines pass 11 focused negative controls; 18 independent library naming/parser checks pass.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "git_blob_sha1": "c5951ebed4ad3b1659791d7567d123e17420b28e",
+              "sha256": "c8a242121460bf8c1cd5c4f4624a399f65645feb957147ac5f07e54b3d845231",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/LEGACY-HASH-REPRODUCTION.json"
+            }
+          ],
+          "historical_actual_order_recovered": false,
+          "statement": "Header-only last-writer counterfactual reproduces both old CI report hash pairs.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "git_blob_sha1": "48a8c7cd5cd4ac3d771f168b9ad67376420f935e",
+              "sha256": "8ce26689d08ada488a8985b67acece04c33c0d4939517c43a10e2a67e8897357",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/DEFAULT-REPLAY-AUDIT.json"
+            }
+          ],
+          "statement": "The default replay preserves six curves and 473 values while populating 473 blank cells and removing 74 duplicate headers.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "git_blob_sha1": "fc905cf387021165b556ba9a66aabb2f5b857014",
+              "sha256": "a5d37ab3ffada145b273fae189d78b7f94c7f060f376535dc1fe753cb7bbc396",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/DEFAULT-FINAL-HELPER-COMPATIBILITY.json"
+            }
+          ],
+          "scope": "Source-derived candidate only",
+          "statement": "Skip-consensus independently executed with repaired numeric output.",
+          "status": "NOT_RUN"
+        },
+        {
+          "evidence": [
+            {
+              "git_blob_sha1": "d48e6189ff084a3fd42ed2f7bf93f405fdc57b54",
+              "sha256": "1c91f88ebdd84ec357d4a6b32c13f9390ed226960b4427d9476c919e25a29ce1",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/PRE-ADMISSION-PROFILE-DISPOSITIONS.json"
+            }
+          ],
+          "profiles": [
+            "bowtie2",
+            "chromap",
+            "star",
+            "skip_trimming"
+          ],
+          "statement": "Bowtie2/Chromap/STAR/skip-trimming final numeric candidates qualified.",
+          "status": "NOT_RUN"
+        },
+        {
+          "evidence": [
+            {
+              "git_blob_sha1": "3d945e80d58091e81cefb88f9be055b58b3d3f0a",
+              "sha256": "e5836bda74c93b38fe8169c057db0daa306e919ab7b5014ebd862179587a7099",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/README.md"
+            }
+          ],
+          "statement": "The proposal has a successful full native CI/nf-test matrix.",
+          "status": "NOT_RUN"
+        },
+        {
+          "evidence": [
+            {
+              "git_blob_sha1": "830317bf83c1e457f94eed0e1bccedf53dc701e9",
+              "sha256": "a8e1a2d17a10c8683698599fb8e23b64c0d48ca45c932580bcb11d65394524b9",
+              "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/TWO-ENGINE-QUALIFICATION.json"
+            }
+          ],
+          "recovered_by_unchanged_retry_policy": true,
+          "statement": "The recovered NF25 plotHeatmap exit 139 has a proven cause.",
+          "status": "UNKNOWN"
+        }
+      ],
+      "title": "Reproducible numeric fingerprint reporting proposal"
+    },
+    {
+      "campaign_id": "legacy-local-nftest",
+      "evidence": [],
+      "limits": [
+        "Current worktree HEAD cannot establish the source that produced an older cache.",
+        "Cleanup inventory may use legacy-local-nftest/<worktree> until retained execution receipts establish a canonical mapping."
+      ],
+      "public_archive_scope": "No public payload or complete provenance mapping claimed.",
+      "runs": [],
+      "scientific_assertions": [
+        {
+          "evidence": [],
+          "statement": "Executed historical commits/inputs/images for unmatched legacy caches are established.",
+          "status": "UNKNOWN"
+        }
+      ],
+      "title": "Legacy local execution-record-only material"
+    }
+  ],
+  "schema": "atacseq-compact-public-run-ledger/v1",
+  "status_semantics": {
+    "FAIL": "The precise assertion failed; not necessarily a failed whole workflow.",
+    "NOT_RUN": "The check or execution type was not exercised; no result inferred.",
+    "PASS": "The precise recorded assertion was verified.",
+    "UNKNOWN": "Attempted but unresolved result, missing identity/provenance, or unresolved cause."
+  },
+  "storage_semantics": "Identity and verdict preservation is separate from output-byte availability. This ledger does not authorize deletion or claim every intermediate has a public copy.",
+  "supporting_commit": "0b9140075f35a8ab042ada1b45985a1613cf4f16",
+  "supporting_repository": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification"
+}

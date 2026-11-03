@@ -1,0 +1,1893 @@
+{
+  "bwa-count-saf-20261103": {
+    "historical_cloud_image_digest": null,
+    "historical_digest_status": "UNKNOWN",
+    "observed_stage_image": "quay.io/biocontainers/subread@sha256:ccee1f6ebb924fd0b3b6db646a51dabc905697aa25be132386dd490c2318286c"
+  },
+  "fingerprint-reporting-20261103": {
+    "actual_MultiQC_image": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+    "actual_deeptools_stage_image": "quay.io/biocontainers/deeptools@sha256:db11ae232d88820ac1942e7f3fe2a6bc9eade7d199a5d45a9e23a13cccd134dc",
+    "focused_driver_image": "nfcore/tools@sha256:9bd12320da8b5c85798d356814c7598ec79a9d2da75ff6911c5f225e59dd142b",
+    "scope": "Cached local scientific/report and focused-check images; no claim these are historical GitHub CI digests."
+  },
+  "hiv-20261029-a9b588": {
+    "actual_runtime_digest_status": "UNKNOWN",
+    "source_declarations_evidence": {
+      "git_blob_sha1": "d444bfabb15e59f4489885c1fbf4eba20b1ab616",
+      "sha256": "402699875138fe20803058523a2395321aec80b0cd2622637d3d3078603d4c64",
+      "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/portable/sources/container-declarations.json"
+    }
+  },
+  "pr476-native-ci-20261103": {
+    "actual_runtime_digest_status": "UNKNOWN",
+    "reason": "Selected final native-CI receipt preserves actual tests, checkout identity and logs, not independent per-task image digests."
+  },
+  "resequencing-20261029-a9b588": {
+    "actual_runtime_digest_status": "UNKNOWN",
+    "reason": "This ledger binds source archives and results; it does not promote source image declarations to observed image digests."
+  },
+  "yeast-native-20261102-4def83": {
+    "actual_task_bindings": {
+      "gff3": [
+        {
+          "attempt": 1,
+          "command_sha256": "2fd47b7282f106d22891dda816be0a8f86acdbafb5bc490c98bd118f86f1d290",
+          "container_digest": "sha256:fc0637e1196ad4ee60fdd53981de2daf064fa7cb44b504f1df478f50c15a2a7e",
+          "logical_task": "NFCORE_ATACSEQ:PREPARE_GENOME:GUNZIP_FASTA (Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa.gz)",
+          "original_command_sha256": "2fd47b7282f106d22891dda816be0a8f86acdbafb5bc490c98bd118f86f1d290",
+          "process": "NFCORE_ATACSEQ:PREPARE_GENOME:GUNZIP_FASTA",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "664abd72dd7bbefa7a5fa89f8f110e7b574f78405e938f588a10787ca673eb0f",
+          "container_digest": "sha256:c38b50aa32405f04f6bc971bfcf688aeb43803f58b127c5a783020f6202b1f10",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE (D28_REP1_T2)",
+          "original_command_sha256": "664abd72dd7bbefa7a5fa89f8f110e7b574f78405e938f588a10787ca673eb0f",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "c947a0a2387b059f83755dab6020e8e9fdf6ed7a2c63528316dabba74a974277",
+          "container_digest": "sha256:c38b50aa32405f04f6bc971bfcf688aeb43803f58b127c5a783020f6202b1f10",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE (D28P_REP1_T1)",
+          "original_command_sha256": "c947a0a2387b059f83755dab6020e8e9fdf6ed7a2c63528316dabba74a974277",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "7da5fa3913501d22fb29f4f8b7a42990469f8bf589347c2a2c5470f62f0fba1c",
+          "container_digest": "sha256:e39c70981a1c5057723a5d64dfba555178a418cdc494528c024285c7d94e3296",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (D28P_REP1_T1)",
+          "original_command_sha256": "7da5fa3913501d22fb29f4f8b7a42990469f8bf589347c2a2c5470f62f0fba1c",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "cd34c684e3149ae3d4c7f75cfe999d03f3c7fcb208643a67dff1ca9b62476a9b",
+          "container_digest": "sha256:191bc23ae648fb350244274061186d311c142f6c1736b9bc01067cb283db03cc",
+          "logical_task": "NFCORE_ATACSEQ:PREPARE_GENOME:GET_AUTOSOMES (Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa.fai)",
+          "original_command_sha256": "cd34c684e3149ae3d4c7f75cfe999d03f3c7fcb208643a67dff1ca9b62476a9b",
+          "process": "NFCORE_ATACSEQ:PREPARE_GENOME:GET_AUTOSOMES",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "a3c04f7744ac6350c14667a2b4ecb10c8a51f07b3f4c34ce540a2978007b5ae0",
+          "container_digest": "sha256:709dddcc6f9f0b7d5c78f5ef8848fb7dcfd565f97f190342954435a6f60b56aa",
+          "logical_task": "NFCORE_ATACSEQ:PREPARE_GENOME:GENOME_BLACKLIST_REGIONS (Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa.sizes)",
+          "original_command_sha256": "a3c04f7744ac6350c14667a2b4ecb10c8a51f07b3f4c34ce540a2978007b5ae0",
+          "process": "NFCORE_ATACSEQ:PREPARE_GENOME:GENOME_BLACKLIST_REGIONS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "6f0da3989655d0f65fef68e62427c11cfd19035a6e1a965cce250e70c052f4af",
+          "container_digest": "sha256:c38b50aa32405f04f6bc971bfcf688aeb43803f58b127c5a783020f6202b1f10",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE (D28P_REP1_T2)",
+          "original_command_sha256": "6f0da3989655d0f65fef68e62427c11cfd19035a6e1a965cce250e70c052f4af",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "84f84c9dc2a033c61f397e67f1bd2d63a25bd246061baa7b6caecac864049d53",
+          "container_digest": "sha256:e39c70981a1c5057723a5d64dfba555178a418cdc494528c024285c7d94e3296",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (D28P_REP1_T2)",
+          "original_command_sha256": "84f84c9dc2a033c61f397e67f1bd2d63a25bd246061baa7b6caecac864049d53",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "ab54dbcf577c1caf6fcc2e118da85a874b93d09ba4570eb65d6f284c1f7b0b7d",
+          "container_digest": "sha256:6e4ba8a92652470c63f32116873c6396a8d91bdcb387023576ced3d21b15c665",
+          "logical_task": "NFCORE_ATACSEQ:PREPARE_GENOME:GTF2BED (null.gtf)",
+          "original_command_sha256": "ab54dbcf577c1caf6fcc2e118da85a874b93d09ba4570eb65d6f284c1f7b0b7d",
+          "process": "NFCORE_ATACSEQ:PREPARE_GENOME:GTF2BED",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "1f650601cfe86073fdeef1df97c73c86fa98900be8856aa6e3308318e76627b7",
+          "container_digest": "sha256:4de1af9228a0ab5a86e7465973a9b2cd40faf0373976442b7a10fdaf8fc5da6f",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:CHROMAP_CHROMAP (D28_REP1_T1)",
+          "original_command_sha256": "1f650601cfe86073fdeef1df97c73c86fa98900be8856aa6e3308318e76627b7",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:CHROMAP_CHROMAP",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "81a6d0774b67c715f4e20e7267ab34d33bac6a315eca9c65696376309948cef0",
+          "container_digest": "sha256:4de1af9228a0ab5a86e7465973a9b2cd40faf0373976442b7a10fdaf8fc5da6f",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:CHROMAP_CHROMAP (D28P_REP1_T1)",
+          "original_command_sha256": "81a6d0774b67c715f4e20e7267ab34d33bac6a315eca9c65696376309948cef0",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:CHROMAP_CHROMAP",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "4d3e569d382300ffcb5534ef4fd379d8ceb43b5191a5ae3de9461919e9e61d8e",
+          "container_digest": "sha256:fc0637e1196ad4ee60fdd53981de2daf064fa7cb44b504f1df478f50c15a2a7e",
+          "logical_task": "NFCORE_ATACSEQ:PREPARE_GENOME:GUNZIP_GFF (Saccharomyces_cerevisiae.R64-1-1.115.gff.gz)",
+          "original_command_sha256": "4d3e569d382300ffcb5534ef4fd379d8ceb43b5191a5ae3de9461919e9e61d8e",
+          "process": "NFCORE_ATACSEQ:PREPARE_GENOME:GUNZIP_GFF",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "e47514791ba649608c3e83412d8c015408b935c45ccebdd4f9f35f165f484565",
+          "container_digest": "sha256:4de1af9228a0ab5a86e7465973a9b2cd40faf0373976442b7a10fdaf8fc5da6f",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:CHROMAP_CHROMAP (D28_REP1_T2)",
+          "original_command_sha256": "e47514791ba649608c3e83412d8c015408b935c45ccebdd4f9f35f165f484565",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:CHROMAP_CHROMAP",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "9be8d0f6a30ded75f49eedca8e8a27e79c50c4a9955200f392f14a273196502a",
+          "container_digest": "sha256:4de1af9228a0ab5a86e7465973a9b2cd40faf0373976442b7a10fdaf8fc5da6f",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:CHROMAP_CHROMAP (D28P_REP1_T2)",
+          "original_command_sha256": "9be8d0f6a30ded75f49eedca8e8a27e79c50c4a9955200f392f14a273196502a",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:CHROMAP_CHROMAP",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "53b8e007ffa380c0e4e2a97160680f4288d7a002dbd9505e49e7c43a9f45c08a",
+          "container_digest": "sha256:4d4dd14a6d78cc12bbe5e69b32e3491034a5f28fbf8d72e2776a6f1136602fd8",
+          "logical_task": "NFCORE_ATACSEQ:PREPARE_GENOME:TSS_EXTRACT",
+          "original_command_sha256": "53b8e007ffa380c0e4e2a97160680f4288d7a002dbd9505e49e7c43a9f45c08a",
+          "process": "NFCORE_ATACSEQ:PREPARE_GENOME:TSS_EXTRACT",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "db481536829b13181e2dd22b8ad32940112a6e36e7fe9d5735a96ce0246239f6",
+          "container_digest": "sha256:777205e39fcea0d2166e2da83f0e7c97acae84633fde9aa28e1e80938b18e613",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:PICARD_ADDORREPLACEREADGROUPS (D28_REP1_T1)",
+          "original_command_sha256": "db481536829b13181e2dd22b8ad32940112a6e36e7fe9d5735a96ce0246239f6",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:PICARD_ADDORREPLACEREADGROUPS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "f716fbd465082f734824392cf59b65446372273808c27cd541ccaf9368ffd8c8",
+          "container_digest": "sha256:777205e39fcea0d2166e2da83f0e7c97acae84633fde9aa28e1e80938b18e613",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:PICARD_ADDORREPLACEREADGROUPS (D28P_REP1_T1)",
+          "original_command_sha256": "f716fbd465082f734824392cf59b65446372273808c27cd541ccaf9368ffd8c8",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:PICARD_ADDORREPLACEREADGROUPS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "d1d9ced19905597dee59851144d232863185ee997ae65b9c5b65aaf5f6ec8d78",
+          "container_digest": "sha256:777205e39fcea0d2166e2da83f0e7c97acae84633fde9aa28e1e80938b18e613",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:PICARD_ADDORREPLACEREADGROUPS (D28_REP1_T2)",
+          "original_command_sha256": "d1d9ced19905597dee59851144d232863185ee997ae65b9c5b65aaf5f6ec8d78",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:PICARD_ADDORREPLACEREADGROUPS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "f4a154f7baac1e6e9eb7b8d69c52693931e53d68cb704a7ab0ea1d90c875510a",
+          "container_digest": "sha256:777205e39fcea0d2166e2da83f0e7c97acae84633fde9aa28e1e80938b18e613",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:PICARD_ADDORREPLACEREADGROUPS (D28P_REP1_T2)",
+          "original_command_sha256": "f4a154f7baac1e6e9eb7b8d69c52693931e53d68cb704a7ab0ea1d90c875510a",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:PICARD_ADDORREPLACEREADGROUPS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "8816dd4f260e5644bd31e6c3567f0c0fecae5e563fa1c8d7d2143a169d2e5b7f",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT (D28_REP1_T1)",
+          "original_command_sha256": "8816dd4f260e5644bd31e6c3567f0c0fecae5e563fa1c8d7d2143a169d2e5b7f",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "fab6b5d5dcf9ec490c27e3de52dd4ac8ec7ede28989a9975ac76141b41bd90ce",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT (D28_REP1_T2)",
+          "original_command_sha256": "fab6b5d5dcf9ec490c27e3de52dd4ac8ec7ede28989a9975ac76141b41bd90ce",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "a3ad0ecfa0a5eb63399461afa31f71c9f8b217f7b95817f2dfd1badb2f1fe38e",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT (D28P_REP1_T1)",
+          "original_command_sha256": "a3ad0ecfa0a5eb63399461afa31f71c9f8b217f7b95817f2dfd1badb2f1fe38e",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "9ca94c8c2beec94e6658cbdaff52eff08e04b7abab6bbc0d229365f894421ae1",
+          "container_digest": "sha256:191bc23ae648fb350244274061186d311c142f6c1736b9bc01067cb283db03cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:INPUT_CHECK:SAMPLESHEET_CHECK (samplesheet.csv)",
+          "original_command_sha256": "9ca94c8c2beec94e6658cbdaff52eff08e04b7abab6bbc0d229365f894421ae1",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:INPUT_CHECK:SAMPLESHEET_CHECK",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "916e5f1ef293ddc0dd248e4589e8eab0a79986c598c16240da85554762b6561f",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT (D28P_REP1_T2)",
+          "original_command_sha256": "916e5f1ef293ddc0dd248e4589e8eab0a79986c598c16240da85554762b6561f",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "a8fb9e8668fb6487f653c02dd4cacd37cd65772942681140374d251b69250bbb",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX (D28_REP1_T1)",
+          "original_command_sha256": "a8fb9e8668fb6487f653c02dd4cacd37cd65772942681140374d251b69250bbb",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "8e9bd6dde5e692fb77d1ee0f0f343ec5221fc92602f920ebe87c716514884885",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX (D28_REP1_T2)",
+          "original_command_sha256": "8e9bd6dde5e692fb77d1ee0f0f343ec5221fc92602f920ebe87c716514884885",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "4c12c8cdcfe63c7062f0f58f8c477a4c5d127b7b6c814ecbc2de013638c49dbd",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX (D28P_REP1_T1)",
+          "original_command_sha256": "4c12c8cdcfe63c7062f0f58f8c477a4c5d127b7b6c814ecbc2de013638c49dbd",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "b75a51cfcde940c998e0c009e94e16b6e8e1fd61ba6f99c014f01cd221fd0359",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (D28_REP1_T1)",
+          "original_command_sha256": "b75a51cfcde940c998e0c009e94e16b6e8e1fd61ba6f99c014f01cd221fd0359",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "b4f0e12f28b6677d10c83b6f8e9d4eb5f10ff1c9f8babc94fadb91f35c3ff0b6",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (D28_REP1_T1)",
+          "original_command_sha256": "b4f0e12f28b6677d10c83b6f8e9d4eb5f10ff1c9f8babc94fadb91f35c3ff0b6",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "ebaac9eac93d90e66a4d36ed99caa25d052c210eb4c406776c6c879ec910338d",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (D28_REP1_T1)",
+          "original_command_sha256": "ebaac9eac93d90e66a4d36ed99caa25d052c210eb4c406776c6c879ec910338d",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "e9e8a3598502e3d8fed22c8ba36525628355cc7b475cf72899a8978504010753",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX (D28P_REP1_T2)",
+          "original_command_sha256": "e9e8a3598502e3d8fed22c8ba36525628355cc7b475cf72899a8978504010753",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "1c1822bc6d763ea82ae608936abb3cc4d34cbae796031230a7114ed8b284b444",
+          "container_digest": "sha256:777205e39fcea0d2166e2da83f0e7c97acae84633fde9aa28e1e80938b18e613",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:PICARD_MERGESAMFILES_LIBRARY (D28_REP1)",
+          "original_command_sha256": "1c1822bc6d763ea82ae608936abb3cc4d34cbae796031230a7114ed8b284b444",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:PICARD_MERGESAMFILES_LIBRARY",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "456dfc6b8a76208596dcbc2129dce1fab1af3c3bd491d7e67a60c509e0c8a138",
+          "container_digest": "sha256:777205e39fcea0d2166e2da83f0e7c97acae84633fde9aa28e1e80938b18e613",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:PICARD_MERGESAMFILES_LIBRARY (D28P_REP1)",
+          "original_command_sha256": "456dfc6b8a76208596dcbc2129dce1fab1af3c3bd491d7e67a60c509e0c8a138",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:PICARD_MERGESAMFILES_LIBRARY",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "985ddc902a531f8da88a7d655e48f30cd9e249f46f16d89b3c81623fb22cb6a7",
+          "container_digest": "sha256:ade209e526f5c6f85018b12caf5a97cae2936af3286f0b07e1502624ada3cc34",
+          "logical_task": "NFCORE_ATACSEQ:PREPARE_GENOME:GFFREAD (null)",
+          "original_command_sha256": "985ddc902a531f8da88a7d655e48f30cd9e249f46f16d89b3c81623fb22cb6a7",
+          "process": "NFCORE_ATACSEQ:PREPARE_GENOME:GFFREAD",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "7ff9c66765f6fc3895af32c8102d045c90028839b6979eee3b924ca558b888fb",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (D28_REP1_T2)",
+          "original_command_sha256": "7ff9c66765f6fc3895af32c8102d045c90028839b6979eee3b924ca558b888fb",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "2599a03d1c82849ce755c31c96c20befe7584ffa056ed5c9319fbe6148ffbe1e",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (D28_REP1_T2)",
+          "original_command_sha256": "2599a03d1c82849ce755c31c96c20befe7584ffa056ed5c9319fbe6148ffbe1e",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "4198b53513c7c816ab4f026e763ab1c9488c494efa6383219ba57c79804a09ed",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (D28_REP1_T2)",
+          "original_command_sha256": "4198b53513c7c816ab4f026e763ab1c9488c494efa6383219ba57c79804a09ed",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "4a69aed27015afa09bf58e176af544f66c9677a6e907ac8fd5f1829da271cb20",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (D28P_REP1_T1)",
+          "original_command_sha256": "4a69aed27015afa09bf58e176af544f66c9677a6e907ac8fd5f1829da271cb20",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "7135b3bddf1dd3481dd987f89499273cba065e9d1c4278178c7d511332b7b2b8",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (D28P_REP1_T1)",
+          "original_command_sha256": "7135b3bddf1dd3481dd987f89499273cba065e9d1c4278178c7d511332b7b2b8",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "6df2d87851262b7169c50e082069f5c99268a158fbccc1af6084b9e69c1b543a",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (D28P_REP1_T1)",
+          "original_command_sha256": "6df2d87851262b7169c50e082069f5c99268a158fbccc1af6084b9e69c1b543a",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "e59c4dafbce8456e238b7cd75c1f2e4bc7bf4189d0e92b5be0ca15bb19beb475",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (D28P_REP1_T2)",
+          "original_command_sha256": "e59c4dafbce8456e238b7cd75c1f2e4bc7bf4189d0e92b5be0ca15bb19beb475",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "cb4996068cc024ca3aa7f45106f4d78b4c396d5f7530f217482ad2ef6dc0ffcf",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (D28P_REP1_T2)",
+          "original_command_sha256": "cb4996068cc024ca3aa7f45106f4d78b4c396d5f7530f217482ad2ef6dc0ffcf",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "f8e495e91279ee4c7365e1a84e9c63910026f2fbf5f2b02b24f5ac4a1e189744",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (D28P_REP1_T2)",
+          "original_command_sha256": "f8e495e91279ee4c7365e1a84e9c63910026f2fbf5f2b02b24f5ac4a1e189744",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "199cb15e094d76cb723ca4eedf91ba83bd22634ea72a9233f75f379bfd3eaffe",
+          "container_digest": "sha256:777205e39fcea0d2166e2da83f0e7c97acae84633fde9aa28e1e80938b18e613",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:PICARD_MARKDUPLICATES (D28P_REP1)",
+          "original_command_sha256": "199cb15e094d76cb723ca4eedf91ba83bd22634ea72a9233f75f379bfd3eaffe",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:PICARD_MARKDUPLICATES",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "7ece9e1c3d0241eacea0c2c88efb428acef7861b1f25a0252e5a69ba8e40941f",
+          "container_digest": "sha256:ce9570b10362dd79c2f31e5d5c2f239216ec8adf806e37bc512b9377e359aea3",
+          "logical_task": "NFCORE_ATACSEQ:PREPARE_GENOME:SAMTOOLS_FAIDX (Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa)",
+          "original_command_sha256": "7ece9e1c3d0241eacea0c2c88efb428acef7861b1f25a0252e5a69ba8e40941f",
+          "process": "NFCORE_ATACSEQ:PREPARE_GENOME:SAMTOOLS_FAIDX",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "9b304c05789d1a6693b64ebd8ce0f96c43e27753dfc361251c8d2ddfa255b0aa",
+          "container_digest": "sha256:777205e39fcea0d2166e2da83f0e7c97acae84633fde9aa28e1e80938b18e613",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:PICARD_MARKDUPLICATES (D28_REP1)",
+          "original_command_sha256": "9b304c05789d1a6693b64ebd8ce0f96c43e27753dfc361251c8d2ddfa255b0aa",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:PICARD_MARKDUPLICATES",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "04e3d802ac511656da2e73d710729905e5ffc71ec9c3966b852f84d6b837be2d",
+          "container_digest": "sha256:707e3ddbbaffccf590b0f0d3a58cbf1d3a1c3c4e7054885771b84c755347abdd",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_PRESEQ_LCEXTRAP (D28P_REP1)",
+          "original_command_sha256": "04e3d802ac511656da2e73d710729905e5ffc71ec9c3966b852f84d6b837be2d",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_PRESEQ_LCEXTRAP",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "a97acdd9fee7fb3c729b9e7d51e48c55c76d60bf87ca274c849e5419ee8a260f",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:SAMTOOLS_INDEX (D28P_REP1)",
+          "original_command_sha256": "a97acdd9fee7fb3c729b9e7d51e48c55c76d60bf87ca274c849e5419ee8a260f",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:SAMTOOLS_INDEX",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "1534896fc6eb93fb6b25e93094abe24fe56c950a2c4aa2e12757457e03b669b5",
+          "container_digest": "sha256:707e3ddbbaffccf590b0f0d3a58cbf1d3a1c3c4e7054885771b84c755347abdd",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_PRESEQ_LCEXTRAP (D28_REP1)",
+          "original_command_sha256": "1534896fc6eb93fb6b25e93094abe24fe56c950a2c4aa2e12757457e03b669b5",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_PRESEQ_LCEXTRAP",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "f2c1cc74750e9fbb16f61a11665db2ab4855557bae74fa7807eba0c32656707f",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:SAMTOOLS_INDEX (D28_REP1)",
+          "original_command_sha256": "f2c1cc74750e9fbb16f61a11665db2ab4855557bae74fa7807eba0c32656707f",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:SAMTOOLS_INDEX",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "3b54137fafdf576a076d58c03dd64744678fd67d48acf03d75dabe1976bf8840",
+          "container_digest": "sha256:3b2927b3561d9912ea401c98851035b494679ad012e7828de5bf8985b80fce69",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAMTOOLS_FILTER (D28P_REP1)",
+          "original_command_sha256": "3b54137fafdf576a076d58c03dd64744678fd67d48acf03d75dabe1976bf8840",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAMTOOLS_FILTER",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "a619c612f0804fb094cc63ea9ee551b2b130ee8eb439b0142c26c75781428e7b",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (D28P_REP1)",
+          "original_command_sha256": "a619c612f0804fb094cc63ea9ee551b2b130ee8eb439b0142c26c75781428e7b",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "715eab44c286f493226c65844e75c45c1e7189871ae8c6162d6c47ab0d4b429f",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (D28P_REP1)",
+          "original_command_sha256": "715eab44c286f493226c65844e75c45c1e7189871ae8c6162d6c47ab0d4b429f",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "ead7a6a1b46d5b6303bfe199b79ac242484821930290665c310335e4a64173d3",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (D28P_REP1)",
+          "original_command_sha256": "ead7a6a1b46d5b6303bfe199b79ac242484821930290665c310335e4a64173d3",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "5fc213ae160e470a894d421b93d67f18d1bff206d39eef3e4b8258b62a12492f",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (D28_REP1)",
+          "original_command_sha256": "5fc213ae160e470a894d421b93d67f18d1bff206d39eef3e4b8258b62a12492f",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "f93e2f579d88344c2059660f0741458fe3ee158c64b9b60e90c58afbe35e7945",
+          "container_digest": "sha256:25028f12d760bb705e9e76b2cded31dc3f5842420a1549c92ba42d241a1177d8",
+          "logical_task": "NFCORE_ATACSEQ:PREPARE_GENOME:CHROMAP_INDEX (Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa)",
+          "original_command_sha256": "f93e2f579d88344c2059660f0741458fe3ee158c64b9b60e90c58afbe35e7945",
+          "process": "NFCORE_ATACSEQ:PREPARE_GENOME:CHROMAP_INDEX",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "c3f94b5c906353b95439afc1942dcc8bc87a1d0c3c3397ecc74c24848c96fe5b",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (D28_REP1)",
+          "original_command_sha256": "c3f94b5c906353b95439afc1942dcc8bc87a1d0c3c3397ecc74c24848c96fe5b",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "802911a8c78cdf88c765b2dbd54c1b822f19e313dd2579eb07651251349d2679",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (D28_REP1)",
+          "original_command_sha256": "802911a8c78cdf88c765b2dbd54c1b822f19e313dd2579eb07651251349d2679",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "5eaf15289c4bc4e6f206bf7ef50683daf5bce5fe289b4bc65e39f05f57954979",
+          "container_digest": "sha256:3b2927b3561d9912ea401c98851035b494679ad012e7828de5bf8985b80fce69",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAMTOOLS_FILTER (D28_REP1)",
+          "original_command_sha256": "5eaf15289c4bc4e6f206bf7ef50683daf5bce5fe289b4bc65e39f05f57954979",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAMTOOLS_FILTER",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "fa33bfae4aa01fdf51be2133ec4d279c2c6071b4fc21e563ff9505ddcedffcf3",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:SAMTOOLS_SORT (D28P_REP1)",
+          "original_command_sha256": "fa33bfae4aa01fdf51be2133ec4d279c2c6071b4fc21e563ff9505ddcedffcf3",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:SAMTOOLS_SORT",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "a004e51f5902334c0b399ade4f25d06c677e614f682fea46e0554a7c8fb50b08",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:SAMTOOLS_SORT (D28_REP1)",
+          "original_command_sha256": "a004e51f5902334c0b399ade4f25d06c677e614f682fea46e0554a7c8fb50b08",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:SAMTOOLS_SORT",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "1a5ff60d7fde7a211351e3d5c4c320196c5d7620c0a3c4c5ca4d5b9b1ff8f524",
+          "container_digest": "sha256:4015de5d332a17e0b95941da2eb591d9cdd388f5284049eccc93eb406c3ca3b8",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_REMOVE_ORPHANS (D28P_REP1)",
+          "original_command_sha256": "1a5ff60d7fde7a211351e3d5c4c320196c5d7620c0a3c4c5ca4d5b9b1ff8f524",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_REMOVE_ORPHANS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "86ab520f5cd2dffb3e6623aac574faad7c3dad86d48200dea7b19babf813a739",
+          "container_digest": "sha256:4015de5d332a17e0b95941da2eb591d9cdd388f5284049eccc93eb406c3ca3b8",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_REMOVE_ORPHANS (D28_REP1)",
+          "original_command_sha256": "86ab520f5cd2dffb3e6623aac574faad7c3dad86d48200dea7b19babf813a739",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_REMOVE_ORPHANS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "01aa106ef727f8ead401fdd49b8741a8a4cd797164c0066a4beec5214158c895",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT (D28P_REP1)",
+          "original_command_sha256": "01aa106ef727f8ead401fdd49b8741a8a4cd797164c0066a4beec5214158c895",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "90810e22c788f594ab443bc60d7381000a2610883ef26d318cb13a6d7d9a726a",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT (D28_REP1)",
+          "original_command_sha256": "90810e22c788f594ab443bc60d7381000a2610883ef26d318cb13a6d7d9a726a",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "73138fb1c8d1d8270b6f8a65eaf237d5b708ef2d2a778ad6dc4392b94c4f5f75",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX (D28P_REP1)",
+          "original_command_sha256": "73138fb1c8d1d8270b6f8a65eaf237d5b708ef2d2a778ad6dc4392b94c4f5f75",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "0e8000daa0d0ab421267995b348e1b3edcfcf5a961a432c5bc6e8c14ef33b10d",
+          "container_digest": "sha256:c38b50aa32405f04f6bc971bfcf688aeb43803f58b127c5a783020f6202b1f10",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE (D28_REP1_T1)",
+          "original_command_sha256": "0e8000daa0d0ab421267995b348e1b3edcfcf5a961a432c5bc6e8c14ef33b10d",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "745e13992c2df57c786911daa4faf6f779c01b0f01b01671565e96f0ca3df3e0",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX (D28_REP1)",
+          "original_command_sha256": "745e13992c2df57c786911daa4faf6f779c01b0f01b01671565e96f0ca3df3e0",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "bf5e4a62ce213d092f6f63ceb66139d00ed3f71be34348f09d35eaf5ec0600f4",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (D28P_REP1)",
+          "original_command_sha256": "bf5e4a62ce213d092f6f63ceb66139d00ed3f71be34348f09d35eaf5ec0600f4",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "de8f5334b3f3c36a77276f1d3a5e4c76ebff43f93d7412e6d2ca2271b1aa324d",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (D28P_REP1)",
+          "original_command_sha256": "de8f5334b3f3c36a77276f1d3a5e4c76ebff43f93d7412e6d2ca2271b1aa324d",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "a578523dad90e80413d09ca5dadf29a306c9ec08eb1830a81ed23563532a5d4d",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (D28P_REP1)",
+          "original_command_sha256": "a578523dad90e80413d09ca5dadf29a306c9ec08eb1830a81ed23563532a5d4d",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "82893ea6bcc120f2be6372e350226312d9af8183f35f7a3052280c4bb2a89a48",
+          "container_digest": "sha256:b0d2384f7bafc79da8c8a00264b8a93b17b0bffa4ac7bb9e63dcbaa8c80786d0",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:MACS3_CALLPEAK (D28P_REP1)",
+          "original_command_sha256": "82893ea6bcc120f2be6372e350226312d9af8183f35f7a3052280c4bb2a89a48",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:MACS3_CALLPEAK",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "ba7981f665bebcdb9814aa230cc09eb6cc091c541ed02c179b01546c81257228",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (D28_REP1)",
+          "original_command_sha256": "ba7981f665bebcdb9814aa230cc09eb6cc091c541ed02c179b01546c81257228",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "80307c978c009dd0c5c4b344aca8f25e8ea67885ad1204440c82f8acd1848697",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (D28_REP1)",
+          "original_command_sha256": "80307c978c009dd0c5c4b344aca8f25e8ea67885ad1204440c82f8acd1848697",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "2955c1786e9c8fac80b569e37f9256e063002fce2fdbf458c37d0d23ce1495df",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (D28_REP1)",
+          "original_command_sha256": "2955c1786e9c8fac80b569e37f9256e063002fce2fdbf458c37d0d23ce1495df",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "e592109572f4d60f6e3439cbec6129ff7c5a613c5dc79661e819eaf7701d107c",
+          "container_digest": "sha256:b0d2384f7bafc79da8c8a00264b8a93b17b0bffa4ac7bb9e63dcbaa8c80786d0",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:MACS3_CALLPEAK (D28_REP1)",
+          "original_command_sha256": "e592109572f4d60f6e3439cbec6129ff7c5a613c5dc79661e819eaf7701d107c",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:MACS3_CALLPEAK",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "9f78814c67f7bb5c0028fc8f7ba3967d477950e240d2a405e2f3a5972d70e37a",
+          "container_digest": "sha256:16fbee17d8a24c4a0cfa8f7ae9340f0391945930b0b421a1ba558c5823cc0b54",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_BAM_TO_BIGWIG:BEDTOOLS_GENOMECOV (D28_REP1)",
+          "original_command_sha256": "9f78814c67f7bb5c0028fc8f7ba3967d477950e240d2a405e2f3a5972d70e37a",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_BAM_TO_BIGWIG:BEDTOOLS_GENOMECOV",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "6aa034d1b359029e34019c3eb1cf0a55456407f0cd2961c1996f849f85cee3f8",
+          "container_digest": "sha256:e39c70981a1c5057723a5d64dfba555178a418cdc494528c024285c7d94e3296",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (D28_REP1_T1)",
+          "original_command_sha256": "6aa034d1b359029e34019c3eb1cf0a55456407f0cd2961c1996f849f85cee3f8",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "99ae19ba9ca690d4d60c1354da60fbd214c23dd713937dc5ce3a7fd393fc987a",
+          "container_digest": "sha256:16fbee17d8a24c4a0cfa8f7ae9340f0391945930b0b421a1ba558c5823cc0b54",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_BAM_TO_BIGWIG:BEDTOOLS_GENOMECOV (D28P_REP1)",
+          "original_command_sha256": "99ae19ba9ca690d4d60c1354da60fbd214c23dd713937dc5ce3a7fd393fc987a",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_BAM_TO_BIGWIG:BEDTOOLS_GENOMECOV",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "db5a0173a535a5919c0a207bbe70e8b1b17df13f3fd2cb3baf2b18494008374e",
+          "container_digest": "sha256:2d7659b5336ce503f9e857c97d85404107ce8683127c891a69c7c537dbab3756",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:FRIP_SCORE (D28P_REP1)",
+          "original_command_sha256": "db5a0173a535a5919c0a207bbe70e8b1b17df13f3fd2cb3baf2b18494008374e",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:FRIP_SCORE",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "73c0bc487c3e28c9cba27220e6f39db0d6032689ea48d10301e68888a604ec0b",
+          "container_digest": "sha256:faa6f3bf875a0a361c7e422c0eef33e206a2922df425e914eb1995aa05f1f27c",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:HOMER_ANNOTATEPEAKS (D28P_REP1)",
+          "original_command_sha256": "73c0bc487c3e28c9cba27220e6f39db0d6032689ea48d10301e68888a604ec0b",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:HOMER_ANNOTATEPEAKS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "a3d2449b7aa731cb3adf44bbe3b5d2b5178601ec8bef11a41039bb7b59a10d94",
+          "container_digest": "sha256:faa6f3bf875a0a361c7e422c0eef33e206a2922df425e914eb1995aa05f1f27c",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:HOMER_ANNOTATEPEAKS (D28_REP1)",
+          "original_command_sha256": "a3d2449b7aa731cb3adf44bbe3b5d2b5178601ec8bef11a41039bb7b59a10d94",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:HOMER_ANNOTATEPEAKS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "e742dc58cd05d367f5f719be61979303de67a0758d5a8f20483193151d1b5dd8",
+          "container_digest": "sha256:2d7659b5336ce503f9e857c97d85404107ce8683127c891a69c7c537dbab3756",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:FRIP_SCORE (D28_REP1)",
+          "original_command_sha256": "e742dc58cd05d367f5f719be61979303de67a0758d5a8f20483193151d1b5dd8",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:FRIP_SCORE",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "e947fa2cef836c443991585c3e5f3dc057df188984e33e4a8af194fa7ffff943",
+          "container_digest": "sha256:b12ac1f2b05652900e00ff605b6709dc722c85662ad3003f97d12f5e74e9a51b",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CONSENSUS_PEAKS:MACS3_CONSENSUS (consensus_peaks)",
+          "original_command_sha256": "e947fa2cef836c443991585c3e5f3dc057df188984e33e4a8af194fa7ffff943",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CONSENSUS_PEAKS:MACS3_CONSENSUS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "11c7b615403a6b6901e81dbbd6bfaa424326a092f2bd855b9da0aae9ef1b27c0",
+          "container_digest": "sha256:adee1516b2701bba330fc18e9b65ea243285af7408dbf10d20c31a1840c47634",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_BAM_TO_BIGWIG:UCSC_BEDGRAPHTOBIGWIG (D28_REP1)",
+          "original_command_sha256": "11c7b615403a6b6901e81dbbd6bfaa424326a092f2bd855b9da0aae9ef1b27c0",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_BAM_TO_BIGWIG:UCSC_BEDGRAPHTOBIGWIG",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "455d2d110977df8a2b3d43b4759250c5902a5f62a62fa828119ad71ae39b3a6f",
+          "container_digest": "sha256:adee1516b2701bba330fc18e9b65ea243285af7408dbf10d20c31a1840c47634",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_BAM_TO_BIGWIG:UCSC_BEDGRAPHTOBIGWIG (D28P_REP1)",
+          "original_command_sha256": "455d2d110977df8a2b3d43b4759250c5902a5f62a62fa828119ad71ae39b3a6f",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_BAM_TO_BIGWIG:UCSC_BEDGRAPHTOBIGWIG",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "f17468bd9af4a1054428a2f4f51053de9a4e95fb5ab0599f872e04f6c27b9426",
+          "container_digest": "sha256:4d4dd14a6d78cc12bbe5e69b32e3491034a5f28fbf8d72e2776a6f1136602fd8",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:MULTIQC_CUSTOM_PEAKS (D28P_REP1)",
+          "original_command_sha256": "f17468bd9af4a1054428a2f4f51053de9a4e95fb5ab0599f872e04f6c27b9426",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:MULTIQC_CUSTOM_PEAKS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "f5de31ae5a61c4bec03b795cda749065a842085ebc9cf5d186777e260efe7979",
+          "container_digest": "sha256:4d4dd14a6d78cc12bbe5e69b32e3491034a5f28fbf8d72e2776a6f1136602fd8",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:MULTIQC_CUSTOM_PEAKS (D28_REP1)",
+          "original_command_sha256": "f5de31ae5a61c4bec03b795cda749065a842085ebc9cf5d186777e260efe7979",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:MULTIQC_CUSTOM_PEAKS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "4ab25c6fa2592205ee79620ebeee9ce394a2ffe33b0a1b80f480beb9e874731e",
+          "container_digest": "sha256:e39c70981a1c5057723a5d64dfba555178a418cdc494528c024285c7d94e3296",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (D28_REP1_T2)",
+          "original_command_sha256": "4ab25c6fa2592205ee79620ebeee9ce394a2ffe33b0a1b80f480beb9e874731e",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "b8f702171aa4225b310ed96ffac8306c24470bbf8026847c4366c5666e364ae9",
+          "container_digest": "sha256:faa6f3bf875a0a361c7e422c0eef33e206a2922df425e914eb1995aa05f1f27c",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CONSENSUS_PEAKS:HOMER_ANNOTATEPEAKS (consensus_peaks)",
+          "original_command_sha256": "b8f702171aa4225b310ed96ffac8306c24470bbf8026847c4366c5666e364ae9",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CONSENSUS_PEAKS:HOMER_ANNOTATEPEAKS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "09747f9228f7137985da1b7e36fd260afe0a1ba9ee0d87c3e62f16b01c1dd55e",
+          "container_digest": "sha256:7adfe26a6e54c020684c0a26100e160449ec0382c3d7470ba4f861af09d1c0a5",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CONSENSUS_PEAKS:SUBREAD_FEATURECOUNTS (consensus_peaks)",
+          "original_command_sha256": "09747f9228f7137985da1b7e36fd260afe0a1ba9ee0d87c3e62f16b01c1dd55e",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CONSENSUS_PEAKS:SUBREAD_FEATURECOUNTS",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "e393e41a537f4a9ecb2197f4d2cfdf155867a7985d974e6cb2fcf060feaf6263",
+          "container_digest": "sha256:191bc23ae648fb350244274061186d311c142f6c1736b9bc01067cb283db03cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:IGV",
+          "original_command_sha256": "e393e41a537f4a9ecb2197f4d2cfdf155867a7985d974e6cb2fcf060feaf6263",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:IGV",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "666df3a6e5c608117d3832bbd9f1c788d835e0684ee849a23ff4eae085bfd194",
+          "container_digest": "sha256:4864d0df063080768ef45fc278be5a5bcfc395209147736039884fee1ce5c64a",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "original_command_sha256": "666df3a6e5c608117d3832bbd9f1c788d835e0684ee849a23ff4eae085bfd194",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "runtime_digest_receipt_sha256": "1cf5f7aacdeaa2ca6a2804605dfe542695005c7c46f8ea263f3886e1b1e78ace",
+          "status": "COMPLETED"
+        }
+      ],
+      "gtf": [
+        {
+          "attempt": 1,
+          "command_sha256": "2fd47b7282f106d22891dda816be0a8f86acdbafb5bc490c98bd118f86f1d290",
+          "container_digest": "sha256:fc0637e1196ad4ee60fdd53981de2daf064fa7cb44b504f1df478f50c15a2a7e",
+          "logical_task": "NFCORE_ATACSEQ:PREPARE_GENOME:GUNZIP_FASTA (Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa.gz)",
+          "original_command_sha256": "2fd47b7282f106d22891dda816be0a8f86acdbafb5bc490c98bd118f86f1d290",
+          "process": "NFCORE_ATACSEQ:PREPARE_GENOME:GUNZIP_FASTA",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "4ab25c6fa2592205ee79620ebeee9ce394a2ffe33b0a1b80f480beb9e874731e",
+          "container_digest": "sha256:e39c70981a1c5057723a5d64dfba555178a418cdc494528c024285c7d94e3296",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (D28_REP1_T2)",
+          "original_command_sha256": "4ab25c6fa2592205ee79620ebeee9ce394a2ffe33b0a1b80f480beb9e874731e",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "c947a0a2387b059f83755dab6020e8e9fdf6ed7a2c63528316dabba74a974277",
+          "container_digest": "sha256:c38b50aa32405f04f6bc971bfcf688aeb43803f58b127c5a783020f6202b1f10",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE (D28P_REP1_T1)",
+          "original_command_sha256": "c947a0a2387b059f83755dab6020e8e9fdf6ed7a2c63528316dabba74a974277",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "7da5fa3913501d22fb29f4f8b7a42990469f8bf589347c2a2c5470f62f0fba1c",
+          "container_digest": "sha256:e39c70981a1c5057723a5d64dfba555178a418cdc494528c024285c7d94e3296",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (D28P_REP1_T1)",
+          "original_command_sha256": "7da5fa3913501d22fb29f4f8b7a42990469f8bf589347c2a2c5470f62f0fba1c",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "a3c04f7744ac6350c14667a2b4ecb10c8a51f07b3f4c34ce540a2978007b5ae0",
+          "container_digest": "sha256:709dddcc6f9f0b7d5c78f5ef8848fb7dcfd565f97f190342954435a6f60b56aa",
+          "logical_task": "NFCORE_ATACSEQ:PREPARE_GENOME:GENOME_BLACKLIST_REGIONS (Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa.sizes)",
+          "original_command_sha256": "a3c04f7744ac6350c14667a2b4ecb10c8a51f07b3f4c34ce540a2978007b5ae0",
+          "process": "NFCORE_ATACSEQ:PREPARE_GENOME:GENOME_BLACKLIST_REGIONS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "cd34c684e3149ae3d4c7f75cfe999d03f3c7fcb208643a67dff1ca9b62476a9b",
+          "container_digest": "sha256:191bc23ae648fb350244274061186d311c142f6c1736b9bc01067cb283db03cc",
+          "logical_task": "NFCORE_ATACSEQ:PREPARE_GENOME:GET_AUTOSOMES (Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa.fai)",
+          "original_command_sha256": "cd34c684e3149ae3d4c7f75cfe999d03f3c7fcb208643a67dff1ca9b62476a9b",
+          "process": "NFCORE_ATACSEQ:PREPARE_GENOME:GET_AUTOSOMES",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "6f0da3989655d0f65fef68e62427c11cfd19035a6e1a965cce250e70c052f4af",
+          "container_digest": "sha256:c38b50aa32405f04f6bc971bfcf688aeb43803f58b127c5a783020f6202b1f10",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE (D28P_REP1_T2)",
+          "original_command_sha256": "6f0da3989655d0f65fef68e62427c11cfd19035a6e1a965cce250e70c052f4af",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "84f84c9dc2a033c61f397e67f1bd2d63a25bd246061baa7b6caecac864049d53",
+          "container_digest": "sha256:e39c70981a1c5057723a5d64dfba555178a418cdc494528c024285c7d94e3296",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (D28P_REP1_T2)",
+          "original_command_sha256": "84f84c9dc2a033c61f397e67f1bd2d63a25bd246061baa7b6caecac864049d53",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "08e1978dda3cfa8ff188d40a6a210f4fd52efc91ed1ad69772ddfafe242f6b8a",
+          "container_digest": "sha256:4d4dd14a6d78cc12bbe5e69b32e3491034a5f28fbf8d72e2776a6f1136602fd8",
+          "logical_task": "NFCORE_ATACSEQ:PREPARE_GENOME:TSS_EXTRACT",
+          "original_command_sha256": "08e1978dda3cfa8ff188d40a6a210f4fd52efc91ed1ad69772ddfafe242f6b8a",
+          "process": "NFCORE_ATACSEQ:PREPARE_GENOME:TSS_EXTRACT",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "1f650601cfe86073fdeef1df97c73c86fa98900be8856aa6e3308318e76627b7",
+          "container_digest": "sha256:4de1af9228a0ab5a86e7465973a9b2cd40faf0373976442b7a10fdaf8fc5da6f",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:CHROMAP_CHROMAP (D28_REP1_T1)",
+          "original_command_sha256": "1f650601cfe86073fdeef1df97c73c86fa98900be8856aa6e3308318e76627b7",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:CHROMAP_CHROMAP",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "e47514791ba649608c3e83412d8c015408b935c45ccebdd4f9f35f165f484565",
+          "container_digest": "sha256:4de1af9228a0ab5a86e7465973a9b2cd40faf0373976442b7a10fdaf8fc5da6f",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:CHROMAP_CHROMAP (D28_REP1_T2)",
+          "original_command_sha256": "e47514791ba649608c3e83412d8c015408b935c45ccebdd4f9f35f165f484565",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:CHROMAP_CHROMAP",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "9ca94c8c2beec94e6658cbdaff52eff08e04b7abab6bbc0d229365f894421ae1",
+          "container_digest": "sha256:191bc23ae648fb350244274061186d311c142f6c1736b9bc01067cb283db03cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:INPUT_CHECK:SAMPLESHEET_CHECK (samplesheet.csv)",
+          "original_command_sha256": "9ca94c8c2beec94e6658cbdaff52eff08e04b7abab6bbc0d229365f894421ae1",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:INPUT_CHECK:SAMPLESHEET_CHECK",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "81a6d0774b67c715f4e20e7267ab34d33bac6a315eca9c65696376309948cef0",
+          "container_digest": "sha256:4de1af9228a0ab5a86e7465973a9b2cd40faf0373976442b7a10fdaf8fc5da6f",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:CHROMAP_CHROMAP (D28P_REP1_T1)",
+          "original_command_sha256": "81a6d0774b67c715f4e20e7267ab34d33bac6a315eca9c65696376309948cef0",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:CHROMAP_CHROMAP",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "9be8d0f6a30ded75f49eedca8e8a27e79c50c4a9955200f392f14a273196502a",
+          "container_digest": "sha256:4de1af9228a0ab5a86e7465973a9b2cd40faf0373976442b7a10fdaf8fc5da6f",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:CHROMAP_CHROMAP (D28P_REP1_T2)",
+          "original_command_sha256": "9be8d0f6a30ded75f49eedca8e8a27e79c50c4a9955200f392f14a273196502a",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:CHROMAP_CHROMAP",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "f716fbd465082f734824392cf59b65446372273808c27cd541ccaf9368ffd8c8",
+          "container_digest": "sha256:777205e39fcea0d2166e2da83f0e7c97acae84633fde9aa28e1e80938b18e613",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:PICARD_ADDORREPLACEREADGROUPS (D28P_REP1_T1)",
+          "original_command_sha256": "f716fbd465082f734824392cf59b65446372273808c27cd541ccaf9368ffd8c8",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:PICARD_ADDORREPLACEREADGROUPS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "db481536829b13181e2dd22b8ad32940112a6e36e7fe9d5735a96ce0246239f6",
+          "container_digest": "sha256:777205e39fcea0d2166e2da83f0e7c97acae84633fde9aa28e1e80938b18e613",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:PICARD_ADDORREPLACEREADGROUPS (D28_REP1_T1)",
+          "original_command_sha256": "db481536829b13181e2dd22b8ad32940112a6e36e7fe9d5735a96ce0246239f6",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:PICARD_ADDORREPLACEREADGROUPS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "d1d9ced19905597dee59851144d232863185ee997ae65b9c5b65aaf5f6ec8d78",
+          "container_digest": "sha256:777205e39fcea0d2166e2da83f0e7c97acae84633fde9aa28e1e80938b18e613",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:PICARD_ADDORREPLACEREADGROUPS (D28_REP1_T2)",
+          "original_command_sha256": "d1d9ced19905597dee59851144d232863185ee997ae65b9c5b65aaf5f6ec8d78",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:PICARD_ADDORREPLACEREADGROUPS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "f4a154f7baac1e6e9eb7b8d69c52693931e53d68cb704a7ab0ea1d90c875510a",
+          "container_digest": "sha256:777205e39fcea0d2166e2da83f0e7c97acae84633fde9aa28e1e80938b18e613",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:PICARD_ADDORREPLACEREADGROUPS (D28P_REP1_T2)",
+          "original_command_sha256": "f4a154f7baac1e6e9eb7b8d69c52693931e53d68cb704a7ab0ea1d90c875510a",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:PICARD_ADDORREPLACEREADGROUPS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "a3ad0ecfa0a5eb63399461afa31f71c9f8b217f7b95817f2dfd1badb2f1fe38e",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT (D28P_REP1_T1)",
+          "original_command_sha256": "a3ad0ecfa0a5eb63399461afa31f71c9f8b217f7b95817f2dfd1badb2f1fe38e",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "8816dd4f260e5644bd31e6c3567f0c0fecae5e563fa1c8d7d2143a169d2e5b7f",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT (D28_REP1_T1)",
+          "original_command_sha256": "8816dd4f260e5644bd31e6c3567f0c0fecae5e563fa1c8d7d2143a169d2e5b7f",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "fab6b5d5dcf9ec490c27e3de52dd4ac8ec7ede28989a9975ac76141b41bd90ce",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT (D28_REP1_T2)",
+          "original_command_sha256": "fab6b5d5dcf9ec490c27e3de52dd4ac8ec7ede28989a9975ac76141b41bd90ce",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "916e5f1ef293ddc0dd248e4589e8eab0a79986c598c16240da85554762b6561f",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT (D28P_REP1_T2)",
+          "original_command_sha256": "916e5f1ef293ddc0dd248e4589e8eab0a79986c598c16240da85554762b6561f",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "fb116e67b22861cf258bc1cfa6a6d52a1dae517ee8bce21ac607bfdfe5b10f35",
+          "container_digest": "sha256:fc0637e1196ad4ee60fdd53981de2daf064fa7cb44b504f1df478f50c15a2a7e",
+          "logical_task": "NFCORE_ATACSEQ:PREPARE_GENOME:GUNZIP_GTF (Saccharomyces_cerevisiae.R64-1-1.115.gtf.gz)",
+          "original_command_sha256": "fb116e67b22861cf258bc1cfa6a6d52a1dae517ee8bce21ac607bfdfe5b10f35",
+          "process": "NFCORE_ATACSEQ:PREPARE_GENOME:GUNZIP_GTF",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "4c12c8cdcfe63c7062f0f58f8c477a4c5d127b7b6c814ecbc2de013638c49dbd",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX (D28P_REP1_T1)",
+          "original_command_sha256": "4c12c8cdcfe63c7062f0f58f8c477a4c5d127b7b6c814ecbc2de013638c49dbd",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "a8fb9e8668fb6487f653c02dd4cacd37cd65772942681140374d251b69250bbb",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX (D28_REP1_T1)",
+          "original_command_sha256": "a8fb9e8668fb6487f653c02dd4cacd37cd65772942681140374d251b69250bbb",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "8e9bd6dde5e692fb77d1ee0f0f343ec5221fc92602f920ebe87c716514884885",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX (D28_REP1_T2)",
+          "original_command_sha256": "8e9bd6dde5e692fb77d1ee0f0f343ec5221fc92602f920ebe87c716514884885",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "e9e8a3598502e3d8fed22c8ba36525628355cc7b475cf72899a8978504010753",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX (D28P_REP1_T2)",
+          "original_command_sha256": "e9e8a3598502e3d8fed22c8ba36525628355cc7b475cf72899a8978504010753",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "456dfc6b8a76208596dcbc2129dce1fab1af3c3bd491d7e67a60c509e0c8a138",
+          "container_digest": "sha256:777205e39fcea0d2166e2da83f0e7c97acae84633fde9aa28e1e80938b18e613",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:PICARD_MERGESAMFILES_LIBRARY (D28P_REP1)",
+          "original_command_sha256": "456dfc6b8a76208596dcbc2129dce1fab1af3c3bd491d7e67a60c509e0c8a138",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:PICARD_MERGESAMFILES_LIBRARY",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "1c1822bc6d763ea82ae608936abb3cc4d34cbae796031230a7114ed8b284b444",
+          "container_digest": "sha256:777205e39fcea0d2166e2da83f0e7c97acae84633fde9aa28e1e80938b18e613",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:PICARD_MERGESAMFILES_LIBRARY (D28_REP1)",
+          "original_command_sha256": "1c1822bc6d763ea82ae608936abb3cc4d34cbae796031230a7114ed8b284b444",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:PICARD_MERGESAMFILES_LIBRARY",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "4a69aed27015afa09bf58e176af544f66c9677a6e907ac8fd5f1829da271cb20",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (D28P_REP1_T1)",
+          "original_command_sha256": "4a69aed27015afa09bf58e176af544f66c9677a6e907ac8fd5f1829da271cb20",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "7135b3bddf1dd3481dd987f89499273cba065e9d1c4278178c7d511332b7b2b8",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (D28P_REP1_T1)",
+          "original_command_sha256": "7135b3bddf1dd3481dd987f89499273cba065e9d1c4278178c7d511332b7b2b8",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "6df2d87851262b7169c50e082069f5c99268a158fbccc1af6084b9e69c1b543a",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (D28P_REP1_T1)",
+          "original_command_sha256": "6df2d87851262b7169c50e082069f5c99268a158fbccc1af6084b9e69c1b543a",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "b4f0e12f28b6677d10c83b6f8e9d4eb5f10ff1c9f8babc94fadb91f35c3ff0b6",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (D28_REP1_T1)",
+          "original_command_sha256": "b4f0e12f28b6677d10c83b6f8e9d4eb5f10ff1c9f8babc94fadb91f35c3ff0b6",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "f93e2f579d88344c2059660f0741458fe3ee158c64b9b60e90c58afbe35e7945",
+          "container_digest": "sha256:25028f12d760bb705e9e76b2cded31dc3f5842420a1549c92ba42d241a1177d8",
+          "logical_task": "NFCORE_ATACSEQ:PREPARE_GENOME:CHROMAP_INDEX (Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa)",
+          "original_command_sha256": "f93e2f579d88344c2059660f0741458fe3ee158c64b9b60e90c58afbe35e7945",
+          "process": "NFCORE_ATACSEQ:PREPARE_GENOME:CHROMAP_INDEX",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "ebaac9eac93d90e66a4d36ed99caa25d052c210eb4c406776c6c879ec910338d",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (D28_REP1_T1)",
+          "original_command_sha256": "ebaac9eac93d90e66a4d36ed99caa25d052c210eb4c406776c6c879ec910338d",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "b75a51cfcde940c998e0c009e94e16b6e8e1fd61ba6f99c014f01cd221fd0359",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (D28_REP1_T1)",
+          "original_command_sha256": "b75a51cfcde940c998e0c009e94e16b6e8e1fd61ba6f99c014f01cd221fd0359",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "2599a03d1c82849ce755c31c96c20befe7584ffa056ed5c9319fbe6148ffbe1e",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (D28_REP1_T2)",
+          "original_command_sha256": "2599a03d1c82849ce755c31c96c20befe7584ffa056ed5c9319fbe6148ffbe1e",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "4198b53513c7c816ab4f026e763ab1c9488c494efa6383219ba57c79804a09ed",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (D28_REP1_T2)",
+          "original_command_sha256": "4198b53513c7c816ab4f026e763ab1c9488c494efa6383219ba57c79804a09ed",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "7ff9c66765f6fc3895af32c8102d045c90028839b6979eee3b924ca558b888fb",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (D28_REP1_T2)",
+          "original_command_sha256": "7ff9c66765f6fc3895af32c8102d045c90028839b6979eee3b924ca558b888fb",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "f8e495e91279ee4c7365e1a84e9c63910026f2fbf5f2b02b24f5ac4a1e189744",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (D28P_REP1_T2)",
+          "original_command_sha256": "f8e495e91279ee4c7365e1a84e9c63910026f2fbf5f2b02b24f5ac4a1e189744",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "e59c4dafbce8456e238b7cd75c1f2e4bc7bf4189d0e92b5be0ca15bb19beb475",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (D28P_REP1_T2)",
+          "original_command_sha256": "e59c4dafbce8456e238b7cd75c1f2e4bc7bf4189d0e92b5be0ca15bb19beb475",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "cb4996068cc024ca3aa7f45106f4d78b4c396d5f7530f217482ad2ef6dc0ffcf",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (D28P_REP1_T2)",
+          "original_command_sha256": "cb4996068cc024ca3aa7f45106f4d78b4c396d5f7530f217482ad2ef6dc0ffcf",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_ALIGN_CHROMAP:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "199cb15e094d76cb723ca4eedf91ba83bd22634ea72a9233f75f379bfd3eaffe",
+          "container_digest": "sha256:777205e39fcea0d2166e2da83f0e7c97acae84633fde9aa28e1e80938b18e613",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:PICARD_MARKDUPLICATES (D28P_REP1)",
+          "original_command_sha256": "199cb15e094d76cb723ca4eedf91ba83bd22634ea72a9233f75f379bfd3eaffe",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:PICARD_MARKDUPLICATES",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "9b304c05789d1a6693b64ebd8ce0f96c43e27753dfc361251c8d2ddfa255b0aa",
+          "container_digest": "sha256:777205e39fcea0d2166e2da83f0e7c97acae84633fde9aa28e1e80938b18e613",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:PICARD_MARKDUPLICATES (D28_REP1)",
+          "original_command_sha256": "9b304c05789d1a6693b64ebd8ce0f96c43e27753dfc361251c8d2ddfa255b0aa",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:PICARD_MARKDUPLICATES",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "7ece9e1c3d0241eacea0c2c88efb428acef7861b1f25a0252e5a69ba8e40941f",
+          "container_digest": "sha256:ce9570b10362dd79c2f31e5d5c2f239216ec8adf806e37bc512b9377e359aea3",
+          "logical_task": "NFCORE_ATACSEQ:PREPARE_GENOME:SAMTOOLS_FAIDX (Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa)",
+          "original_command_sha256": "7ece9e1c3d0241eacea0c2c88efb428acef7861b1f25a0252e5a69ba8e40941f",
+          "process": "NFCORE_ATACSEQ:PREPARE_GENOME:SAMTOOLS_FAIDX",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "f2c1cc74750e9fbb16f61a11665db2ab4855557bae74fa7807eba0c32656707f",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:SAMTOOLS_INDEX (D28_REP1)",
+          "original_command_sha256": "f2c1cc74750e9fbb16f61a11665db2ab4855557bae74fa7807eba0c32656707f",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:SAMTOOLS_INDEX",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "1534896fc6eb93fb6b25e93094abe24fe56c950a2c4aa2e12757457e03b669b5",
+          "container_digest": "sha256:707e3ddbbaffccf590b0f0d3a58cbf1d3a1c3c4e7054885771b84c755347abdd",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_PRESEQ_LCEXTRAP (D28_REP1)",
+          "original_command_sha256": "1534896fc6eb93fb6b25e93094abe24fe56c950a2c4aa2e12757457e03b669b5",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_PRESEQ_LCEXTRAP",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "04e3d802ac511656da2e73d710729905e5ffc71ec9c3966b852f84d6b837be2d",
+          "container_digest": "sha256:707e3ddbbaffccf590b0f0d3a58cbf1d3a1c3c4e7054885771b84c755347abdd",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_PRESEQ_LCEXTRAP (D28P_REP1)",
+          "original_command_sha256": "04e3d802ac511656da2e73d710729905e5ffc71ec9c3966b852f84d6b837be2d",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_PRESEQ_LCEXTRAP",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "a97acdd9fee7fb3c729b9e7d51e48c55c76d60bf87ca274c849e5419ee8a260f",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:SAMTOOLS_INDEX (D28P_REP1)",
+          "original_command_sha256": "a97acdd9fee7fb3c729b9e7d51e48c55c76d60bf87ca274c849e5419ee8a260f",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:SAMTOOLS_INDEX",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "802911a8c78cdf88c765b2dbd54c1b822f19e313dd2579eb07651251349d2679",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (D28_REP1)",
+          "original_command_sha256": "802911a8c78cdf88c765b2dbd54c1b822f19e313dd2579eb07651251349d2679",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "c3f94b5c906353b95439afc1942dcc8bc87a1d0c3c3397ecc74c24848c96fe5b",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (D28_REP1)",
+          "original_command_sha256": "c3f94b5c906353b95439afc1942dcc8bc87a1d0c3c3397ecc74c24848c96fe5b",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "5fc213ae160e470a894d421b93d67f18d1bff206d39eef3e4b8258b62a12492f",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (D28_REP1)",
+          "original_command_sha256": "5fc213ae160e470a894d421b93d67f18d1bff206d39eef3e4b8258b62a12492f",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "5eaf15289c4bc4e6f206bf7ef50683daf5bce5fe289b4bc65e39f05f57954979",
+          "container_digest": "sha256:3b2927b3561d9912ea401c98851035b494679ad012e7828de5bf8985b80fce69",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAMTOOLS_FILTER (D28_REP1)",
+          "original_command_sha256": "5eaf15289c4bc4e6f206bf7ef50683daf5bce5fe289b4bc65e39f05f57954979",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAMTOOLS_FILTER",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "ead7a6a1b46d5b6303bfe199b79ac242484821930290665c310335e4a64173d3",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (D28P_REP1)",
+          "original_command_sha256": "ead7a6a1b46d5b6303bfe199b79ac242484821930290665c310335e4a64173d3",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "715eab44c286f493226c65844e75c45c1e7189871ae8c6162d6c47ab0d4b429f",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (D28P_REP1)",
+          "original_command_sha256": "715eab44c286f493226c65844e75c45c1e7189871ae8c6162d6c47ab0d4b429f",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "b72e911aba7e59e686a2c550de0d291f9a943320a7facc3226bc0d7fa561ef14",
+          "container_digest": "sha256:6e4ba8a92652470c63f32116873c6396a8d91bdcb387023576ced3d21b15c665",
+          "logical_task": "NFCORE_ATACSEQ:PREPARE_GENOME:GTF2BED (Saccharomyces_cerevisiae.R64-1-1.115.gtf)",
+          "original_command_sha256": "b72e911aba7e59e686a2c550de0d291f9a943320a7facc3226bc0d7fa561ef14",
+          "process": "NFCORE_ATACSEQ:PREPARE_GENOME:GTF2BED",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "a619c612f0804fb094cc63ea9ee551b2b130ee8eb439b0142c26c75781428e7b",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (D28P_REP1)",
+          "original_command_sha256": "a619c612f0804fb094cc63ea9ee551b2b130ee8eb439b0142c26c75781428e7b",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "3b54137fafdf576a076d58c03dd64744678fd67d48acf03d75dabe1976bf8840",
+          "container_digest": "sha256:3b2927b3561d9912ea401c98851035b494679ad012e7828de5bf8985b80fce69",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAMTOOLS_FILTER (D28P_REP1)",
+          "original_command_sha256": "3b54137fafdf576a076d58c03dd64744678fd67d48acf03d75dabe1976bf8840",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAMTOOLS_FILTER",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "a004e51f5902334c0b399ade4f25d06c677e614f682fea46e0554a7c8fb50b08",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:SAMTOOLS_SORT (D28_REP1)",
+          "original_command_sha256": "a004e51f5902334c0b399ade4f25d06c677e614f682fea46e0554a7c8fb50b08",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:SAMTOOLS_SORT",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "fa33bfae4aa01fdf51be2133ec4d279c2c6071b4fc21e563ff9505ddcedffcf3",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:SAMTOOLS_SORT (D28P_REP1)",
+          "original_command_sha256": "fa33bfae4aa01fdf51be2133ec4d279c2c6071b4fc21e563ff9505ddcedffcf3",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:SAMTOOLS_SORT",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "86ab520f5cd2dffb3e6623aac574faad7c3dad86d48200dea7b19babf813a739",
+          "container_digest": "sha256:4015de5d332a17e0b95941da2eb591d9cdd388f5284049eccc93eb406c3ca3b8",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_REMOVE_ORPHANS (D28_REP1)",
+          "original_command_sha256": "86ab520f5cd2dffb3e6623aac574faad7c3dad86d48200dea7b19babf813a739",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_REMOVE_ORPHANS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "1a5ff60d7fde7a211351e3d5c4c320196c5d7620c0a3c4c5ca4d5b9b1ff8f524",
+          "container_digest": "sha256:4015de5d332a17e0b95941da2eb591d9cdd388f5284049eccc93eb406c3ca3b8",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_REMOVE_ORPHANS (D28P_REP1)",
+          "original_command_sha256": "1a5ff60d7fde7a211351e3d5c4c320196c5d7620c0a3c4c5ca4d5b9b1ff8f524",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_REMOVE_ORPHANS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "90810e22c788f594ab443bc60d7381000a2610883ef26d318cb13a6d7d9a726a",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT (D28_REP1)",
+          "original_command_sha256": "90810e22c788f594ab443bc60d7381000a2610883ef26d318cb13a6d7d9a726a",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "01aa106ef727f8ead401fdd49b8741a8a4cd797164c0066a4beec5214158c895",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT (D28P_REP1)",
+          "original_command_sha256": "01aa106ef727f8ead401fdd49b8741a8a4cd797164c0066a4beec5214158c895",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "745e13992c2df57c786911daa4faf6f779c01b0f01b01671565e96f0ca3df3e0",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX (D28_REP1)",
+          "original_command_sha256": "745e13992c2df57c786911daa4faf6f779c01b0f01b01671565e96f0ca3df3e0",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "73138fb1c8d1d8270b6f8a65eaf237d5b708ef2d2a778ad6dc4392b94c4f5f75",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX (D28P_REP1)",
+          "original_command_sha256": "73138fb1c8d1d8270b6f8a65eaf237d5b708ef2d2a778ad6dc4392b94c4f5f75",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "6aa034d1b359029e34019c3eb1cf0a55456407f0cd2961c1996f849f85cee3f8",
+          "container_digest": "sha256:e39c70981a1c5057723a5d64dfba555178a418cdc494528c024285c7d94e3296",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (D28_REP1_T1)",
+          "original_command_sha256": "6aa034d1b359029e34019c3eb1cf0a55456407f0cd2961c1996f849f85cee3f8",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "e592109572f4d60f6e3439cbec6129ff7c5a613c5dc79661e819eaf7701d107c",
+          "container_digest": "sha256:b0d2384f7bafc79da8c8a00264b8a93b17b0bffa4ac7bb9e63dcbaa8c80786d0",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:MACS3_CALLPEAK (D28_REP1)",
+          "original_command_sha256": "e592109572f4d60f6e3439cbec6129ff7c5a613c5dc79661e819eaf7701d107c",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:MACS3_CALLPEAK",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "ba7981f665bebcdb9814aa230cc09eb6cc091c541ed02c179b01546c81257228",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (D28_REP1)",
+          "original_command_sha256": "ba7981f665bebcdb9814aa230cc09eb6cc091c541ed02c179b01546c81257228",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "80307c978c009dd0c5c4b344aca8f25e8ea67885ad1204440c82f8acd1848697",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (D28_REP1)",
+          "original_command_sha256": "80307c978c009dd0c5c4b344aca8f25e8ea67885ad1204440c82f8acd1848697",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "2955c1786e9c8fac80b569e37f9256e063002fce2fdbf458c37d0d23ce1495df",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (D28_REP1)",
+          "original_command_sha256": "2955c1786e9c8fac80b569e37f9256e063002fce2fdbf458c37d0d23ce1495df",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "bf5e4a62ce213d092f6f63ceb66139d00ed3f71be34348f09d35eaf5ec0600f4",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT (D28P_REP1)",
+          "original_command_sha256": "bf5e4a62ce213d092f6f63ceb66139d00ed3f71be34348f09d35eaf5ec0600f4",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "de8f5334b3f3c36a77276f1d3a5e4c76ebff43f93d7412e6d2ca2271b1aa324d",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS (D28P_REP1)",
+          "original_command_sha256": "de8f5334b3f3c36a77276f1d3a5e4c76ebff43f93d7412e6d2ca2271b1aa324d",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "a578523dad90e80413d09ca5dadf29a306c9ec08eb1830a81ed23563532a5d4d",
+          "container_digest": "sha256:e6967a3b9abfa79ef5725ed88859124ee325c5c9f417d55957433427752f94cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS (D28P_REP1)",
+          "original_command_sha256": "a578523dad90e80413d09ca5dadf29a306c9ec08eb1830a81ed23563532a5d4d",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_FILTER_BAM:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "82893ea6bcc120f2be6372e350226312d9af8183f35f7a3052280c4bb2a89a48",
+          "container_digest": "sha256:b0d2384f7bafc79da8c8a00264b8a93b17b0bffa4ac7bb9e63dcbaa8c80786d0",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:MACS3_CALLPEAK (D28P_REP1)",
+          "original_command_sha256": "82893ea6bcc120f2be6372e350226312d9af8183f35f7a3052280c4bb2a89a48",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:MACS3_CALLPEAK",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "9f78814c67f7bb5c0028fc8f7ba3967d477950e240d2a405e2f3a5972d70e37a",
+          "container_digest": "sha256:16fbee17d8a24c4a0cfa8f7ae9340f0391945930b0b421a1ba558c5823cc0b54",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_BAM_TO_BIGWIG:BEDTOOLS_GENOMECOV (D28_REP1)",
+          "original_command_sha256": "9f78814c67f7bb5c0028fc8f7ba3967d477950e240d2a405e2f3a5972d70e37a",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_BAM_TO_BIGWIG:BEDTOOLS_GENOMECOV",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "99ae19ba9ca690d4d60c1354da60fbd214c23dd713937dc5ce3a7fd393fc987a",
+          "container_digest": "sha256:16fbee17d8a24c4a0cfa8f7ae9340f0391945930b0b421a1ba558c5823cc0b54",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_BAM_TO_BIGWIG:BEDTOOLS_GENOMECOV (D28P_REP1)",
+          "original_command_sha256": "99ae19ba9ca690d4d60c1354da60fbd214c23dd713937dc5ce3a7fd393fc987a",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_BAM_TO_BIGWIG:BEDTOOLS_GENOMECOV",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "0e8000daa0d0ab421267995b348e1b3edcfcf5a961a432c5bc6e8c14ef33b10d",
+          "container_digest": "sha256:c38b50aa32405f04f6bc971bfcf688aeb43803f58b127c5a783020f6202b1f10",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE (D28_REP1_T1)",
+          "original_command_sha256": "0e8000daa0d0ab421267995b348e1b3edcfcf5a961a432c5bc6e8c14ef33b10d",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "e3379dd66f20e0dc630723482dec6d5dcd5e9fb03d9bdf80618388f0172cc05a",
+          "container_digest": "sha256:faa6f3bf875a0a361c7e422c0eef33e206a2922df425e914eb1995aa05f1f27c",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:HOMER_ANNOTATEPEAKS (D28_REP1)",
+          "original_command_sha256": "e3379dd66f20e0dc630723482dec6d5dcd5e9fb03d9bdf80618388f0172cc05a",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:HOMER_ANNOTATEPEAKS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "e742dc58cd05d367f5f719be61979303de67a0758d5a8f20483193151d1b5dd8",
+          "container_digest": "sha256:2d7659b5336ce503f9e857c97d85404107ce8683127c891a69c7c537dbab3756",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:FRIP_SCORE (D28_REP1)",
+          "original_command_sha256": "e742dc58cd05d367f5f719be61979303de67a0758d5a8f20483193151d1b5dd8",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:FRIP_SCORE",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "9a123ef7917c25e8bcfa9b98d0896ff92694fdc69445d12ff28ac170add62558",
+          "container_digest": "sha256:faa6f3bf875a0a361c7e422c0eef33e206a2922df425e914eb1995aa05f1f27c",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:HOMER_ANNOTATEPEAKS (D28P_REP1)",
+          "original_command_sha256": "9a123ef7917c25e8bcfa9b98d0896ff92694fdc69445d12ff28ac170add62558",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:HOMER_ANNOTATEPEAKS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "db5a0173a535a5919c0a207bbe70e8b1b17df13f3fd2cb3baf2b18494008374e",
+          "container_digest": "sha256:2d7659b5336ce503f9e857c97d85404107ce8683127c891a69c7c537dbab3756",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:FRIP_SCORE (D28P_REP1)",
+          "original_command_sha256": "db5a0173a535a5919c0a207bbe70e8b1b17df13f3fd2cb3baf2b18494008374e",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:FRIP_SCORE",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "e947fa2cef836c443991585c3e5f3dc057df188984e33e4a8af194fa7ffff943",
+          "container_digest": "sha256:b12ac1f2b05652900e00ff605b6709dc722c85662ad3003f97d12f5e74e9a51b",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CONSENSUS_PEAKS:MACS3_CONSENSUS (consensus_peaks)",
+          "original_command_sha256": "e947fa2cef836c443991585c3e5f3dc057df188984e33e4a8af194fa7ffff943",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CONSENSUS_PEAKS:MACS3_CONSENSUS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "11c7b615403a6b6901e81dbbd6bfaa424326a092f2bd855b9da0aae9ef1b27c0",
+          "container_digest": "sha256:adee1516b2701bba330fc18e9b65ea243285af7408dbf10d20c31a1840c47634",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_BAM_TO_BIGWIG:UCSC_BEDGRAPHTOBIGWIG (D28_REP1)",
+          "original_command_sha256": "11c7b615403a6b6901e81dbbd6bfaa424326a092f2bd855b9da0aae9ef1b27c0",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_BAM_TO_BIGWIG:UCSC_BEDGRAPHTOBIGWIG",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "455d2d110977df8a2b3d43b4759250c5902a5f62a62fa828119ad71ae39b3a6f",
+          "container_digest": "sha256:adee1516b2701bba330fc18e9b65ea243285af7408dbf10d20c31a1840c47634",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_BAM_TO_BIGWIG:UCSC_BEDGRAPHTOBIGWIG (D28P_REP1)",
+          "original_command_sha256": "455d2d110977df8a2b3d43b4759250c5902a5f62a62fa828119ad71ae39b3a6f",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_BAM_TO_BIGWIG:UCSC_BEDGRAPHTOBIGWIG",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "f5de31ae5a61c4bec03b795cda749065a842085ebc9cf5d186777e260efe7979",
+          "container_digest": "sha256:4d4dd14a6d78cc12bbe5e69b32e3491034a5f28fbf8d72e2776a6f1136602fd8",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:MULTIQC_CUSTOM_PEAKS (D28_REP1)",
+          "original_command_sha256": "f5de31ae5a61c4bec03b795cda749065a842085ebc9cf5d186777e260efe7979",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:MULTIQC_CUSTOM_PEAKS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "f17468bd9af4a1054428a2f4f51053de9a4e95fb5ab0599f872e04f6c27b9426",
+          "container_digest": "sha256:4d4dd14a6d78cc12bbe5e69b32e3491034a5f28fbf8d72e2776a6f1136602fd8",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:MULTIQC_CUSTOM_PEAKS (D28P_REP1)",
+          "original_command_sha256": "f17468bd9af4a1054428a2f4f51053de9a4e95fb5ab0599f872e04f6c27b9426",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CALL_ANNOTATE_PEAKS:MULTIQC_CUSTOM_PEAKS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "85493e9466e1824e1923d58f843bb90fbe8835ca0e72d289f65807fd345b7d37",
+          "container_digest": "sha256:faa6f3bf875a0a361c7e422c0eef33e206a2922df425e914eb1995aa05f1f27c",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CONSENSUS_PEAKS:HOMER_ANNOTATEPEAKS (consensus_peaks)",
+          "original_command_sha256": "85493e9466e1824e1923d58f843bb90fbe8835ca0e72d289f65807fd345b7d37",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CONSENSUS_PEAKS:HOMER_ANNOTATEPEAKS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "664abd72dd7bbefa7a5fa89f8f110e7b574f78405e938f588a10787ca673eb0f",
+          "container_digest": "sha256:c38b50aa32405f04f6bc971bfcf688aeb43803f58b127c5a783020f6202b1f10",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE (D28_REP1_T2)",
+          "original_command_sha256": "664abd72dd7bbefa7a5fa89f8f110e7b574f78405e938f588a10787ca673eb0f",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "09747f9228f7137985da1b7e36fd260afe0a1ba9ee0d87c3e62f16b01c1dd55e",
+          "container_digest": "sha256:7adfe26a6e54c020684c0a26100e160449ec0382c3d7470ba4f861af09d1c0a5",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CONSENSUS_PEAKS:SUBREAD_FEATURECOUNTS (consensus_peaks)",
+          "original_command_sha256": "09747f9228f7137985da1b7e36fd260afe0a1ba9ee0d87c3e62f16b01c1dd55e",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_CONSENSUS_PEAKS:SUBREAD_FEATURECOUNTS",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "e393e41a537f4a9ecb2197f4d2cfdf155867a7985d974e6cb2fcf060feaf6263",
+          "container_digest": "sha256:191bc23ae648fb350244274061186d311c142f6c1736b9bc01067cb283db03cc",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:IGV",
+          "original_command_sha256": "e393e41a537f4a9ecb2197f4d2cfdf155867a7985d974e6cb2fcf060feaf6263",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:IGV",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        },
+        {
+          "attempt": 1,
+          "command_sha256": "666df3a6e5c608117d3832bbd9f1c788d835e0684ee849a23ff4eae085bfd194",
+          "container_digest": "sha256:4864d0df063080768ef45fc278be5a5bcfc395209147736039884fee1ce5c64a",
+          "logical_task": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "original_command_sha256": "666df3a6e5c608117d3832bbd9f1c788d835e0684ee849a23ff4eae085bfd194",
+          "process": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "runtime_digest_receipt_sha256": "8c836201d0cede72dfb542c406aa7abe6010e353c0e292d6cbde3cb5cb35abc0",
+          "status": "COMPLETED"
+        }
+      ]
+    },
+    "original_collector_manifest_sha256": "46b4dd8c540b06be24bb3195ef54b11fe881b41fd161fb885a96c8a88ac34a1c",
+    "public_bundle_evidence": {
+      "git_blob_sha1": "8f97628887c1c43292817fe43c738b31eedabaed",
+      "sha256": "05bbaa921293e8229c8779613e63d52cb1e18da5033fd00c925e44a16efe3cee",
+      "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-02-pr473-yeast/parts-manifest.json"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "schema": "atacseq-compact-run-ledger-files/v1",
+  "files": [
+    {
+      "path": "ARCHIVES.json",
+      "bytes": 2158,
+      "sha256": "71072afb89b04025627f943c67f45f984a9f9db61d94d3fcfc8d53bdbf0e959f"
+    },
+    {
+      "path": "CONTAINERS.json",
+      "bytes": 134495,
+      "sha256": "fad20e1207f5ce52ac0794d9d9d53ca221bf53cb7d91ee3674455f275b13e4d6"
+    },
+    {
+      "path": "EVIDENCE.json",
+      "bytes": 31969,
+      "sha256": "edc4c3a0b421025ab419b897746b8cab11937daa4bc7170a43c976a36e68e13e"
+    },
+    {
+      "path": "HASH-INDEX.json",
+      "bytes": 1323755,
+      "sha256": "7ccf0e0a9ea526892766fa6b780633450540b50147f286a2fbfabefe3cf67ec2"
+    },
+    {
+      "path": "INPUTS.json",
+      "bytes": 35084,
+      "sha256": "e6fcea9d8daf8aadec416e50412910bca418390e79f5a733a111f68f4397abdf"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5961,
+      "sha256": "eb19a2a077623b6e9070c31df52a49000580dc93771e074c7f6f9ab96b019f0d"
+    },
+    {
+      "path": "RUNS.json",
+      "bytes": 59340,
+      "sha256": "3456921b5722a9b40cc4f8aea8e487575f2835f34d4bbaaf5abf3ab3a7f25507"
+    },
+    {
+      "path": "SOURCE-MAPS.json",
+      "bytes": 126968,
+      "sha256": "b8e8dc29fc39846fd52cbcc4c041c78cee4f3ab5eeac4497c0dd8483723147e9"
+    },
+    {
+      "path": "legacy-cache/CHECKSUMS.txt",
+      "bytes": 94,
+      "sha256": "b4148df47824da130202a9b72db0ec4eafcf5c97771e50c44d46e6e21775c454"
+    },
+    {
+      "path": "legacy-cache/README.md",
+      "bytes": 1999,
+      "sha256": "df2f9a7de59e87a736b196b5556b09fb5650279f40acf28498ab50912f9e3cde"
+    },
+    {
+      "path": "legacy-cache/TASK-SOURCE-CAPSULE.json.gz",
+      "bytes": 441008,
+      "sha256": "9a644184e9449a6a46e95168dcbfbb4eb67101ffaf79352ae0f5092a4e96510c"
+    },
+    {
+      "path": "legacy-cache/TASK-SOURCE-CAPSULE.sha256",
+      "bytes": 91,
+      "sha256": "1e20b51558c551fc2c1d49331b51d2c4b5956bbc79cecd3118e416539950a6a0"
+    },
+    {
+      "path": "lookup.py",
+      "bytes": 2669,
+      "sha256": "46685b2eceffda80db9047700d08d1d1a2de5693fdcc4b8cad740138d2de8ada"
+    },
+    {
+      "path": "receipts/full-count-stage-identities.json",
+      "bytes": 1461,
+      "sha256": "949dc03057a3c4544aec917ee9306abac998abf8ef02511b17be38f72d840854"
+    },
+    {
+      "path": "receipts/pr474-post-split-run.json",
+      "bytes": 527,
+      "sha256": "14e9552362e5c02e534842edc006ae31f30c800c7c29dcfbd5b8720f36b423c5"
+    },
+    {
+      "path": "receipts/pr476-final-native-ci.json",
+      "bytes": 5772,
+      "sha256": "34e5988a6d9fb5115c8b6074275543be01da30c83a171b84b21d5e4856a613cd"
+    },
+    {
+      "path": "receipts/preseq-focused-native-ci.json",
+      "bytes": 898,
+      "sha256": "6993144cfcde13c0f27c244d45c8e752dcbebeca9bcf8326b3aaf8839d92eddb"
+    },
+    {
+      "path": "receipts/resequencing-duplicate-recheck.json",
+      "bytes": 11672,
+      "sha256": "55ec4728c3871b44ea09cdb11ec87b9dd81ba2edd85f85f5e1cf64c465b7d8c3"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 2095,
+      "sha256": "0e9ca8b9b379e90a2e30c3b6aedfe3b0bdfbc37ddb8ab71260d77bb7e0de06c2"
+    }
+  ],
+  "scope": "Compact identity/result/source/input/container ledger; no generated science payload archive"
+}

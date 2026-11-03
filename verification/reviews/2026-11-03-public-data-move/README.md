@@ -1,9 +1,13 @@
-# Public data migration
+# Public data and local cleanup
 
-The supporting repository is the canonical public location for ATACseq validation evidence. The user authorized deleting local data once its public copy was verified. This supersedes the earlier local hold only for data actually preserved publicly; private and unmatched files remain outside that cleanup.
+The [run/hash/results ledger](../../run-ledger/README.md) is the starting point for what ran and what was verified. It keeps full source/input/container identities when known, observed results, precise verification scopes, evidence links and explicit unknowns. Hash lookup and result search work offline.
 
-The [remote content index](remote-content-index.json.gz) records actual anonymous downloads, including every Git blob and published release asset, reconstructed archives and regular archive members. It pins the commit and exact SHA256/size identities with retrieval locations; manifest-only or draft-release hashes are excluded. Decompress it and check [the uncompressed SHA256](remote-content-index.sha256) before using it as a lookup catalog. Existing package READMEs describe ordered-part reconstruction.
+The user clarified that the goal is this compact track record, with useful scientific witnesses; every intermediate does not need a public payload copy. Documented generated caches and redundant backup/spool files may be cleared after preserving that evidence. Earlier hold statements describe the prior policy. Source/Git, credentials, unique small results and private witnesses remain protected.
 
-Newly published evidence includes the [complete count and SAF witnesses](../2026-11-03-count-saf-data/README.md) and [fingerprint report data](../2026-11-03-fingerprint-reporting/data/README.md). Local deletion is performed file by file after a fresh identity, Git-boundary and SHA256 check; code, credentials, unknown files and unpublished bulk assets are retained. A final receipt will record actual removals separately from the candidate inventory.
+The [complete count/SAF witnesses](../2026-11-03-count-saf-data/README.md) and [fingerprint report data](../2026-11-03-fingerprint-reporting/data/README.md) remain public. The optional full HIV bulk archive remains incomplete/unpublished; completion is outside this compact-provenance cleanup.
+
+[Removal receipts](CLEANUP-SUMMARY.json) distinguish exact-public duplicate removal from separately authorized crash-dump removal and subsequent provenance-based generated-cache removal. [Removed content identities](removed-public-content-identities.json.gz) map the first cleanup to exact public SHA256/size records. Later cache removal does not imply full payloads are downloadable.
+
+The [anonymous remote content index](remote-content-index.json.gz) pins the actual downloaded Git/release/archive-member bytes. Check its [uncompressed SHA256](remote-content-index.sha256) before using it as a lookup catalog. Ordered-part reconstruction is documented beside each archive. Metadata-only or draft-release references do not count as public payload coverage.
 
 This is written by an AI agent (model name unavailable) on Nico DeVeaux’s behalf.

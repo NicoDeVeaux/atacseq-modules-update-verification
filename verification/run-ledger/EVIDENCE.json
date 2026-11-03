@@ -1,0 +1,472 @@
+{
+  "availability_note": "GitHub blob links are durable immutable evidence links. CI URLs identify executions; uploaded log/artifact retention is distinct. Full result archives are identified in campaign evidence rather than duplicated here.",
+  "immutable_public_documents": [
+    {
+      "bytes": 12514,
+      "git_blob_sha1": "ba851077dc6483120cfd73bff3dcb77175e8dc51",
+      "path": "README.md",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/README.md",
+      "sha256": "4f10d76342086f57dbcc42ef9fb9a9a6dbb3234c5e4a1339572e9bb1d46326f9"
+    },
+    {
+      "bytes": 6109,
+      "git_blob_sha1": "5262c52e3e5bf88a86a5cde924a80d0496f8c515",
+      "path": "verification/reviews/2026-10-29-pr448/README.md",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/README.md",
+      "sha256": "c7596129bf3d89c18567c5eeda5be68d7fba21c9fb369794a524cd1179c62695"
+    },
+    {
+      "bytes": 20330,
+      "git_blob_sha1": "295cede42f6a29ad20f9a15a665d4e138a77bf13",
+      "path": "verification/reviews/2026-10-29-pr448/hiv/results/COMPARISON.md",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/hiv/results/COMPARISON.md",
+      "sha256": "29d902e3e150c68b8bb011b5989b3ee333afc421e3991de0adfbe9190962b068"
+    },
+    {
+      "bytes": 18570,
+      "git_blob_sha1": "e144f7ccbd77aca73f585c8c5f8d0967c40c8e5b",
+      "path": "verification/reviews/2026-10-29-pr448/hiv/results/FINAL-REPORT.md",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/hiv/results/FINAL-REPORT.md",
+      "sha256": "a603f331f77f38c3229d2f7d33aa57963f43462421165ed64c955e3a9b52ab91"
+    },
+    {
+      "bytes": 11432,
+      "git_blob_sha1": "e94d3422abef45aed04c8f9ba1cb78c14f2b9ee4",
+      "path": "verification/reviews/2026-10-29-pr448/hiv/results/hiv-input-provenance.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/hiv/results/hiv-input-provenance.json",
+      "sha256": "ace82a655a22bb0903d6007fe47c806bd3c61a3c9f9905c741844f0e5b0eddf0"
+    },
+    {
+      "bytes": 88268,
+      "git_blob_sha1": "e0515bc07688192744098310f619a68af4ba3f67",
+      "path": "verification/reviews/2026-10-29-pr448/hiv/results/report.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/hiv/results/report.json",
+      "sha256": "4ac5f851bd26f8628037b54512840f6328c8e73e6d3c24075d213370fa927d4b"
+    },
+    {
+      "bytes": 2689,
+      "git_blob_sha1": "535d10fa6c5bce96a35fdd1eba0c5dc72cdb4fec",
+      "path": "verification/reviews/2026-10-29-pr448/portable/inputs/ena.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/portable/inputs/ena.json",
+      "sha256": "e93789370d2fa162875e4dc48d7a7a6e5b731b22ab900ebcfd5b2404039484f5"
+    },
+    {
+      "bytes": 23257303,
+      "git_blob_sha1": "21ee41bd44124e5f0fbab0c851760fd732f2367d",
+      "path": "verification/reviews/2026-10-29-pr448/portable/observed/final-comparison.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/portable/observed/final-comparison.json",
+      "sha256": "751b06937a66a172241af4f01730b59ca7c8b305071a4fdc3aa9a3b10987ec54"
+    },
+    {
+      "bytes": 87678,
+      "git_blob_sha1": "e7cb5c2eebf05290b0e37198d533482eeb24a31f",
+      "path": "verification/reviews/2026-10-29-pr448/portable/observed/final-report.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/portable/observed/final-report.json",
+      "sha256": "0e25109b585e20cc818a90e47ed3633a2da201838f37d50f6e2788e11553540e"
+    },
+    {
+      "bytes": 923,
+      "git_blob_sha1": "a8d30f436b0370228d03cdedfd97ba9c6ff6ea54",
+      "path": "verification/reviews/2026-10-29-pr448/portable/references/manifest.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/portable/references/manifest.json",
+      "sha256": "f03bcb7416f736625d719a73645f1bd7a76d3e9057cb05f827eba8e725ac0648"
+    },
+    {
+      "bytes": 46601,
+      "git_blob_sha1": "d444bfabb15e59f4489885c1fbf4eba20b1ab616",
+      "path": "verification/reviews/2026-10-29-pr448/portable/sources/container-declarations.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/portable/sources/container-declarations.json",
+      "sha256": "402699875138fe20803058523a2395321aec80b0cd2622637d3d3078603d4c64"
+    },
+    {
+      "bytes": 918,
+      "git_blob_sha1": "3c90e77a0a6dc7aa41d9a2db3d61608729bce47f",
+      "path": "verification/reviews/2026-10-29-pr448/portable/sources/manifest.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/portable/sources/manifest.json",
+      "sha256": "e4a4b89a719d3eb5ed23a05de5ba695af5986d012044333493105ae5c215bdf4"
+    },
+    {
+      "bytes": 2523,
+      "git_blob_sha1": "7c1be6c7d86e6ef2882873a2612c9d862d81fb61",
+      "path": "verification/reviews/2026-10-29-pr448/resequencing/parts-manifest.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/resequencing/parts-manifest.json",
+      "sha256": "94c80f38bb06015d794642909f81458d54912e7e6bc142a51899fd7d35e47cf3"
+    },
+    {
+      "bytes": 11701,
+      "git_blob_sha1": "47bb0d0a8d08625f6a3e29157bc4103647ed3a7c",
+      "path": "verification/reviews/2026-10-29-pr448/resequencing/reports/CORE-COMPARISON.md",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/resequencing/reports/CORE-COMPARISON.md",
+      "sha256": "33cd29cf1f32f8f713a9887d20a756e8bdf4799a088b858a9e3723438f733d91"
+    },
+    {
+      "bytes": 4909,
+      "git_blob_sha1": "0081aaf4af99303b833261690a4c27fb054f35a9",
+      "path": "verification/reviews/2026-10-29-pr448/resequencing/reports/RESEQUENCING-REPORT.md",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/resequencing/reports/RESEQUENCING-REPORT.md",
+      "sha256": "ab2013f33dfc995d14f4979fba49c0102983f377270f22dd02039dcdcdc26f4c"
+    },
+    {
+      "bytes": 2336,
+      "git_blob_sha1": "909d32bb71366c6add7510ece81b76f144d5163c",
+      "path": "verification/reviews/2026-10-29-pr448/resequencing/reports/RESIDUAL-ONE-COUNT.md",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/resequencing/reports/RESIDUAL-ONE-COUNT.md",
+      "sha256": "da33612cacec9b9d69375793bac0855d1ef99ec11f64a6272fe7ef2224fbfe48"
+    },
+    {
+      "bytes": 8780,
+      "git_blob_sha1": "fa6d1387fd7b9e6193968997268deae425fe023e",
+      "path": "verification/reviews/2026-10-29-pr448/resequencing/review/selected-inputs.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/resequencing/review/selected-inputs.json",
+      "sha256": "18a896e47e42e151312d6393457c0191d71cce3aed7220df644aa044aa013bd8"
+    },
+    {
+      "bytes": 1118,
+      "git_blob_sha1": "aabdb7f65206e880e4b7e79e71dc2385d0fec3c6",
+      "path": "verification/reviews/2026-10-29-pr448/resequencing/review/source-pins.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/resequencing/review/source-pins.json",
+      "sha256": "d7b04be65334ef76726286a34742cb56ba4d0d73a3f9ee2b63d4fd58fe90fef0"
+    },
+    {
+      "bytes": 3404,
+      "git_blob_sha1": "28846f632bf083bf126567bfb3602afe0974606b",
+      "path": "verification/reviews/2026-11-02-pr473-yeast/COMPARISON.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-02-pr473-yeast/COMPARISON.json",
+      "sha256": "c8de64d3299603a6f4fe4fae8f6571a85ddc1bc212ded0dad3fa142b80238b39"
+    },
+    {
+      "bytes": 3547,
+      "git_blob_sha1": "b58ecd36b885ab05b2f6b6a3022a75a9754aa9b6",
+      "path": "verification/reviews/2026-11-02-pr473-yeast/CONFIG.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-02-pr473-yeast/CONFIG.json",
+      "sha256": "bdc0e2a0bf87d660b44a964a8d051bc577a08579204b1548b4453745ce54023a"
+    },
+    {
+      "bytes": 2411,
+      "git_blob_sha1": "3c936209d07d0b26b5421cc7c818d1d5cf1744d6",
+      "path": "verification/reviews/2026-11-02-pr473-yeast/INPUTS.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-02-pr473-yeast/INPUTS.json",
+      "sha256": "f6e35287c318e5da68ac4ad7f2e4ae835c5ea99623c31aaeb718f6250d907a27"
+    },
+    {
+      "bytes": 6489,
+      "git_blob_sha1": "c33b7aecafb4f892c714a264f48e957f3d20048e",
+      "path": "verification/reviews/2026-11-02-pr473-yeast/PUBLIC-MANIFEST.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-02-pr473-yeast/PUBLIC-MANIFEST.json",
+      "sha256": "8e237bf53f0330fb2e35e86a6351634429934f4e2378d6148c8d5e23b947ffc0"
+    },
+    {
+      "bytes": 1931,
+      "git_blob_sha1": "f6255382b5352fd7eee42990a1fb7d1bab6449a6",
+      "path": "verification/reviews/2026-11-02-pr473-yeast/README.md",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-02-pr473-yeast/README.md",
+      "sha256": "9e3e42b9fa888430bbc75627db51a6c53db61355ecd587861e34f6a0f68e5b76"
+    },
+    {
+      "bytes": 2497,
+      "git_blob_sha1": "f6315952b4dd6dedb52916a042f9cae4e1762cc1",
+      "path": "verification/reviews/2026-11-02-pr473-yeast/REFERENCES.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-02-pr473-yeast/REFERENCES.json",
+      "sha256": "2849db9dc91854959b612930059229dcf97d523812b08356e3542d44afa837e0"
+    },
+    {
+      "bytes": 4651,
+      "git_blob_sha1": "8ec767d25b18486fc92a4f1c65c41d44077753c3",
+      "path": "verification/reviews/2026-11-02-pr473-yeast/REPORT.md",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-02-pr473-yeast/REPORT.md",
+      "sha256": "b33f843b3b9a14a28d05f50db94209179aa7871603517a81ffee8e946964da8e"
+    },
+    {
+      "bytes": 748,
+      "git_blob_sha1": "29ea69010d6837165886fec5549159875b4f8ac7",
+      "path": "verification/reviews/2026-11-02-pr473-yeast/SOURCE.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-02-pr473-yeast/SOURCE.json",
+      "sha256": "cfc150f016a4869b0e1311fa99fd776358879c4d91cc6f0300dba0d98c5baad3"
+    },
+    {
+      "bytes": 1230,
+      "git_blob_sha1": "d0962b1cadd727bd62f28a637626ccf44cad528c",
+      "path": "verification/reviews/2026-11-02-pr473-yeast/WORKFLOWS.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-02-pr473-yeast/WORKFLOWS.json",
+      "sha256": "933c2e190c069944fd9315a95bcde24f9d859d9a929956a5f880b4c234913b36"
+    },
+    {
+      "bytes": 5475,
+      "git_blob_sha1": "8f97628887c1c43292817fe43c738b31eedabaed",
+      "path": "verification/reviews/2026-11-02-pr473-yeast/parts-manifest.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-02-pr473-yeast/parts-manifest.json",
+      "sha256": "05bbaa921293e8229c8779613e63d52cb1e18da5033fd00c925e44a16efe3cee"
+    },
+    {
+      "bytes": 240,
+      "git_blob_sha1": "a6bfdbd61e5c212496ea59e46854821baf89ee13",
+      "path": "verification/reviews/2026-11-03-count-saf-data/ARCHIVE.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-count-saf-data/ARCHIVE.json",
+      "sha256": "5b51b9a72f61163b5b57b0a0ac79bf49b0a3f0d6ba60900da716de7cda97231c"
+    },
+    {
+      "bytes": 21988,
+      "git_blob_sha1": "1c4fee2358405747db36a1ead6ad5ffb882f1df1",
+      "path": "verification/reviews/2026-11-03-count-saf-data/MANIFEST.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-count-saf-data/MANIFEST.json",
+      "sha256": "6676d5f1dea401f21ccc6db542df2f0d34f473e4382aa99ddff595d62a528218"
+    },
+    {
+      "bytes": 2826,
+      "git_blob_sha1": "6659d0960502d0f7ca8a96fa45cb33556cb4e6f6",
+      "path": "verification/reviews/2026-11-03-count-saf-data/README.md",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-count-saf-data/README.md",
+      "sha256": "4f012a8b14ef61fb200c6ef3392ef4bc0f318a5ed78a63e10665949d01f0cdfa"
+    },
+    {
+      "bytes": 632,
+      "git_blob_sha1": "6d800dc4cf3253d5c6f59bedb7471dc317268d68",
+      "path": "verification/reviews/2026-11-03-count-saf-data/VALIDATION.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-count-saf-data/VALIDATION.json",
+      "sha256": "660629beb53fe49f069120ebe7a25c4e501ab52332954f281b9cb29d55f02591"
+    },
+    {
+      "bytes": 2296,
+      "git_blob_sha1": "fc905cf387021165b556ba9a66aabb2f5b857014",
+      "path": "verification/reviews/2026-11-03-fingerprint-reporting/DEFAULT-FINAL-HELPER-COMPATIBILITY.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/DEFAULT-FINAL-HELPER-COMPATIBILITY.json",
+      "sha256": "a5d37ab3ffada145b273fae189d78b7f94c7f060f376535dc1fe753cb7bbc396"
+    },
+    {
+      "bytes": 2559,
+      "git_blob_sha1": "48a8c7cd5cd4ac3d771f168b9ad67376420f935e",
+      "path": "verification/reviews/2026-11-03-fingerprint-reporting/DEFAULT-REPLAY-AUDIT.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/DEFAULT-REPLAY-AUDIT.json",
+      "sha256": "8ce26689d08ada488a8985b67acece04c33c0d4939517c43a10e2a67e8897357"
+    },
+    {
+      "bytes": 2274,
+      "git_blob_sha1": "e16742f760a5401790aa6c27f5f7a00b967c6f4e",
+      "path": "verification/reviews/2026-11-03-fingerprint-reporting/FINGERPRINT-CONTROLS-CANDIDATES.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/FINGERPRINT-CONTROLS-CANDIDATES.json",
+      "sha256": "ed1cfd03876818c6f9f4c15fba3324468ece41377eb8770c38f225d6b6ae3abe"
+    },
+    {
+      "bytes": 6205,
+      "git_blob_sha1": "406c81c9c4a54d924f10809a1867623295ccc96a",
+      "path": "verification/reviews/2026-11-03-fingerprint-reporting/FOCUSED-REVIEW.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/FOCUSED-REVIEW.json",
+      "sha256": "fec79e575943972401247a2fc7fa36385a3532d9ee450f8aa472c1e55a158257"
+    },
+    {
+      "bytes": 7671,
+      "git_blob_sha1": "7091bb10601e44320669fc456844c08f15226aa9",
+      "path": "verification/reviews/2026-11-03-fingerprint-reporting/INDEPENDENT-NAMING-CHECKS.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/INDEPENDENT-NAMING-CHECKS.json",
+      "sha256": "545a7ae5a89dd07f545fdabe93dc040aedb5c0067886c839685bf38e56b18c32"
+    },
+    {
+      "bytes": 4529,
+      "git_blob_sha1": "c5951ebed4ad3b1659791d7567d123e17420b28e",
+      "path": "verification/reviews/2026-11-03-fingerprint-reporting/LEGACY-HASH-REPRODUCTION.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/LEGACY-HASH-REPRODUCTION.json",
+      "sha256": "c8a242121460bf8c1cd5c4f4624a399f65645feb957147ac5f07e54b3d845231"
+    },
+    {
+      "bytes": 2934,
+      "git_blob_sha1": "9e30cc5269b88c5b18ba63e21fb1d81ba3bee861",
+      "path": "verification/reviews/2026-11-03-fingerprint-reporting/LEGACY-HASH-REPRODUCTION.md",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/LEGACY-HASH-REPRODUCTION.md",
+      "sha256": "b453834c6f12bd3b879d7a50226a4b1ba01024c3b8ceaf21c249a4709790deb0"
+    },
+    {
+      "bytes": 5077,
+      "git_blob_sha1": "d48e6189ff084a3fd42ed2f7bf93f405fdc57b54",
+      "path": "verification/reviews/2026-11-03-fingerprint-reporting/PRE-ADMISSION-PROFILE-DISPOSITIONS.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/PRE-ADMISSION-PROFILE-DISPOSITIONS.json",
+      "sha256": "1c91f88ebdd84ec357d4a6b32c13f9390ed226960b4427d9476c919e25a29ce1"
+    },
+    {
+      "bytes": 767,
+      "git_blob_sha1": "62797e1eab37f5e21ef6750dd708c6866e8c08d4",
+      "path": "verification/reviews/2026-11-03-fingerprint-reporting/PUBLIC-DATA-PRIVACY-REVIEW.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/PUBLIC-DATA-PRIVACY-REVIEW.json",
+      "sha256": "d9e4f63d5bc04299943126460d8a721c822efedb80a97a479cc4997eb577a1cd"
+    },
+    {
+      "bytes": 17273,
+      "git_blob_sha1": "b1f88ee4fe3da4450506efbcfc042d98e15c7faa",
+      "path": "verification/reviews/2026-11-03-fingerprint-reporting/PUBLIC-DATA-SCIENTIFIC-REVIEW.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/PUBLIC-DATA-SCIENTIFIC-REVIEW.json",
+      "sha256": "ea615289a27f53e33f97dde3cae4675cf93e147f1e79091cfbe9f0fdf45ecd5d"
+    },
+    {
+      "bytes": 7114,
+      "git_blob_sha1": "3d945e80d58091e81cefb88f9be055b58b3d3f0a",
+      "path": "verification/reviews/2026-11-03-fingerprint-reporting/README.md",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/README.md",
+      "sha256": "e5836bda74c93b38fe8169c057db0daa306e919ab7b5014ebd862179587a7099"
+    },
+    {
+      "bytes": 6376,
+      "git_blob_sha1": "a29a27e15c09aaf3b990cad1c52e1b4330a4e559",
+      "path": "verification/reviews/2026-11-03-fingerprint-reporting/RECEIPT-INDEX.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/RECEIPT-INDEX.json",
+      "sha256": "5fa7e4e24cf36440d18cab53ef6ef183a807e7c72f34c4a3c71c11b7a7b484d7"
+    },
+    {
+      "bytes": 16612,
+      "git_blob_sha1": "3d44f1ef8f9086318527b76bba587a16e22eeb63",
+      "path": "verification/reviews/2026-11-03-fingerprint-reporting/SNAPSHOT-ADMISSION.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/SNAPSHOT-ADMISSION.json",
+      "sha256": "3ce63bec485bf73208a69a02dae22f07efe9f7e9ee6a34eb193eb70c472a5a2c"
+    },
+    {
+      "bytes": 12529,
+      "git_blob_sha1": "830317bf83c1e457f94eed0e1bccedf53dc701e9",
+      "path": "verification/reviews/2026-11-03-fingerprint-reporting/TWO-ENGINE-QUALIFICATION.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/TWO-ENGINE-QUALIFICATION.json",
+      "sha256": "a8e1a2d17a10c8683698599fb8e23b64c0d48ca45c932580bcb11d65394524b9"
+    },
+    {
+      "bytes": 2073,
+      "git_blob_sha1": "2e19c04fb0ff4756a6272e1c29b6bb4c84d1ecbb",
+      "path": "verification/reviews/2026-11-03-fingerprint-reporting/TWO-ENGINE-QUALIFICATION.md",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/TWO-ENGINE-QUALIFICATION.md",
+      "sha256": "2102c0da8060da4554f2604d25c7761c8599c36bf69b4beb1d23fefe3d4e183f"
+    },
+    {
+      "bytes": 618,
+      "git_blob_sha1": "54c166c34971c271dc6075e901930c8862acdd44",
+      "path": "verification/reviews/2026-11-03-fingerprint-reporting/TWO-ENGINE-RECEIPT.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/TWO-ENGINE-RECEIPT.json",
+      "sha256": "ebae8148599010e521739f99e4f7c3267505ddcf14af7241325f6ba17a1d82b3"
+    },
+    {
+      "bytes": 2468,
+      "git_blob_sha1": "4f3a7666cf20ed49d4152b5edf2ce36fa956194d",
+      "path": "verification/reviews/2026-11-03-pr474-ci/PR-DRAFT.md",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-ci/PR-DRAFT.md",
+      "sha256": "8f5d841894ff49b5c45c490686999b97fc382ffad9fc76cbe4772a4228c2acd9"
+    },
+    {
+      "bytes": 8248,
+      "git_blob_sha1": "2e6c2cac7cdb9592fcc0c87dabe72edd03315282",
+      "path": "verification/reviews/2026-11-03-pr474-ci/README.md",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-ci/README.md",
+      "sha256": "3138d7a64274c1cfc6c8fcd70e688abd04d170ab94c211b3bb61fb7441aca689"
+    },
+    {
+      "bytes": 1389,
+      "git_blob_sha1": "aa93bd7fdd7557dfb187fd3b3548e2fc3bf604f6",
+      "path": "verification/reviews/2026-11-03-pr474-ci/backup-verification-summary.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-ci/backup-verification-summary.json",
+      "sha256": "eed9799c2d379ee50a7edc5ddbb078679cce8e8acae590db1512b83151cd35a2"
+    },
+    {
+      "bytes": 1548,
+      "git_blob_sha1": "b94c20e8944c22d0c9b6582885efa56ace0eaffa",
+      "path": "verification/reviews/2026-11-03-pr474-ci/final-ci-verification.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-ci/final-ci-verification.json",
+      "sha256": "15d7c583475c0d4aedf989771bdebd492aeb23b14037bc5d188536a77adfd648"
+    },
+    {
+      "bytes": 5346,
+      "git_blob_sha1": "72113d45f1042b6d07ca3c8e7edddc27e2f52a4b",
+      "path": "verification/reviews/2026-11-03-pr474-ci/receipt-index.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-ci/receipt-index.json",
+      "sha256": "67722d29a1418a020df92a06a8dfa1d3073e70e41380f08f54bdb3bed786d853"
+    },
+    {
+      "bytes": 2922,
+      "git_blob_sha1": "45055bfba3b52fe48fb69644156c176910398675",
+      "path": "verification/reviews/2026-11-03-pr474-ci/snapshot-update-summary.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-ci/snapshot-update-summary.json",
+      "sha256": "b422f8cf957b69955e7d8c85b949db63d74c49bac63b5633f95564ac39b4294a"
+    },
+    {
+      "bytes": 1862,
+      "git_blob_sha1": "4206551add367562b6d818d3062303c89b4497a7",
+      "path": "verification/reviews/2026-11-03-pr474-count-acceptance/INPUT-IDENTITIES.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-count-acceptance/INPUT-IDENTITIES.json",
+      "sha256": "14c6e49b286a9c0a0a1025dc3c8f3f2af98584ee9998977280869005bac4fb93"
+    },
+    {
+      "bytes": 5297,
+      "git_blob_sha1": "724b3ca5526e947d3067939b6b1e300d3abaaae8",
+      "path": "verification/reviews/2026-11-03-pr474-count-acceptance/README.md",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-count-acceptance/README.md",
+      "sha256": "a947b982e1abd680e5250eb272549d3e79350dd2aa1fb40c8e2fec5b71dfeda8"
+    },
+    {
+      "bytes": 2864,
+      "git_blob_sha1": "bba8c238f26f24f820517be73fa34eccbdbb83ec",
+      "path": "verification/reviews/2026-11-03-pr474-count-acceptance/RESULT.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-count-acceptance/RESULT.json",
+      "sha256": "6dd619c5007c050a4f240080e0eddc694acd178d116290613fdf83b97529f1e0"
+    },
+    {
+      "bytes": 3200,
+      "git_blob_sha1": "262cc32d1f18c80e8a265e3967ee14da506608a0",
+      "path": "verification/reviews/2026-11-03-pr474-saf-split/README.md",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-saf-split/README.md",
+      "sha256": "29b5e512774e68d6ea95a03b61711760da1ba11907705d71a75dc567ce881e97"
+    },
+    {
+      "bytes": 950,
+      "git_blob_sha1": "d3db9271e345b00d89f9d8cd4d5a009f947f5f5d",
+      "path": "verification/reviews/2026-11-03-pr474-saf-split/RESULT.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr474-saf-split/RESULT.json",
+      "sha256": "aa00389890b67f5187b77313977a8d4901f426e84624bc3062b32d205404554c"
+    },
+    {
+      "bytes": 2007,
+      "git_blob_sha1": "a41d8cc5c526aaae01ac563eaaa95e13a5afd7f9",
+      "path": "verification/reviews/2026-11-03-pr476-snapshots/CI-RECHECK.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr476-snapshots/CI-RECHECK.json",
+      "sha256": "3c5f89547b0f80bf007d68e6f48c1932f30aa841e2868dc54cf4cee47560fcac"
+    },
+    {
+      "bytes": 4104,
+      "git_blob_sha1": "4a37f76113bf9e68ed9cb60d74e1d0358b767f86",
+      "path": "verification/reviews/2026-11-03-pr476-snapshots/README.md",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr476-snapshots/README.md",
+      "sha256": "de642649de5e172aba883a0d71481fa4329183d23ef9a4183307bbdf6a8257f8"
+    },
+    {
+      "bytes": 1384,
+      "git_blob_sha1": "4d3947f44d98ae857ca6cfa23b527a466b1f4e2d",
+      "path": "verification/reviews/2026-11-03-pr476-snapshots/REPORT-BASELINE-UPDATE.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr476-snapshots/REPORT-BASELINE-UPDATE.json",
+      "sha256": "7902bf2f0bc0820b269f90fddf3dc545a09e62b0e7e3fd39a1f79330e761d4f6"
+    },
+    {
+      "bytes": 39193,
+      "git_blob_sha1": "4dbcd90f6401694a437598de1e0806b6e5fc7420",
+      "path": "verification/reviews/2026-11-03-pr476-snapshots/SNAPSHOT-CHANGES.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-pr476-snapshots/SNAPSHOT-CHANGES.json",
+      "sha256": "fde807524a8ae3442563465363c537efb31cc66b123674ab8fe0e1fdefa45ecc"
+    },
+    {
+      "bytes": 3745,
+      "git_blob_sha1": "c714c93f29ef4dbbcb9ab79584ef345c9195d6c0",
+      "path": "verification/reviews/2026-10-29-pr448/resequencing/README.md",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/resequencing/README.md",
+      "sha256": "9d4fb308b36b4ee9c97d77f725df7ab8017bb6d0ee3c5642a33b605ad818ebda"
+    },
+    {
+      "bytes": 32949,
+      "git_blob_sha1": "6a243aa2cb1edcbbff85297099d3ec3f1ba6ff50",
+      "path": "verification/reviews/2026-10-29-pr448/module-review/modules/SOURCE-MAP.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/module-review/modules/SOURCE-MAP.json",
+      "sha256": "25832f302f46b3d08573db9a03cf4bc1908da1a1807002cef9b37c661fe844f0"
+    },
+    {
+      "bytes": 79794,
+      "git_blob_sha1": "b4635bc88b4502f523b13aa4e2afa611be05ccb1",
+      "path": "verification/reviews/2026-10-29-pr448/review/PIPELINE-SOURCE.json",
+      "public_url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/review/PIPELINE-SOURCE.json",
+      "sha256": "864edb077fc6a820529e7096dac1c0388d8be5e8c0ea8d6d7c12382ad12f3b0c"
+    }
+  ],
+  "local_receipts_curated_here": {
+    "receipts/pr476-final-native-ci.json": "4d19a4efc157861e55bac15a1e4712a89e51cab85c7b1ceb8b27aaa510c073d1",
+    "receipts/resequencing-duplicate-recheck.json": "e52f0e3e6113925f72407564ce328b60ec9197c47c55ed6933bf41998a5e3d84"
+  },
+  "supporting_commit": "0b9140075f35a8ab042ada1b45985a1613cf4f16"
+}

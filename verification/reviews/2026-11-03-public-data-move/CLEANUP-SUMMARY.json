@@ -1,0 +1,50 @@
+{
+  "schema": "atacseq/public-custody-actions/v1",
+  "verification_basis": "Actual anonymous public bytes checked; every removed scientific file rehashed immediately before unlink",
+  "verified_public_copy_cleanup": {
+    "schema": "atacseq/verified-public-copy-removal/v1",
+    "removed_files": 9843,
+    "removed_logical_bytes": 5598040060,
+    "prior_allocated_bytes_estimate": 5624061952,
+    "observed_free_space_change_bytes": 5159841792,
+    "remote_index_sha256": "02e32c6f9ddc8759702084129d5832003c16ce8897fc77f3e38bc1292e921985",
+    "candidate_plan_sha256": "ea5caa6b1df59315693ddcfbf5bd2de74aa8768d2b1bf0b270ee9c63b0b2b95f",
+    "immutable_public_commit": "875153306e617f90720d33fa994aa7d3e6e368dd",
+    "file_SHA256_rechecked_immediately_before_every_unlink": true,
+    "code_or_git_or_private_or_unknown_bytes_removed": false,
+    "root_counts": {
+      "16": 2770,
+      "61": 5260,
+      "5": 4,
+      "65": 13,
+      "14": 1,
+      "9": 2,
+      "104": 24,
+      "105": 24,
+      "101": 24,
+      "1": 96,
+      "53": 798,
+      "62": 181,
+      "48": 1,
+      "7": 6,
+      "46": 52,
+      "49": 52,
+      "68": 70,
+      "83": 170,
+      "93": 4,
+      "98": 6,
+      "103": 283,
+      "2": 2
+    }
+  },
+  "separately_authorized_crash_dump_cleanup": {
+    "removed_files": 31,
+    "logical_bytes": 32500449280,
+    "prior_allocated_bytes": 13706100736,
+    "observed_free_space_change_bytes": 684994560,
+    "dump_bodies_read_or_published": false,
+    "source_or_git_files_removed": false
+  },
+  "latest_user_intent": "Keep a compact record of runs, exact hashes and verified results; complete intermediate upload is not required",
+  "additional_generated_cache_cleanup": "PENDING_PUBLISHED_RUN_LEDGER"
+}

@@ -1,0 +1,20 @@
+{
+  "actual_task_commands_retained": 6,
+  "artifact_id": 13225172440,
+  "artifact_sha256": "66b4f74c22ba585364f4523c34c88ef618b5e9a4388f2b09ceb27a991f7d9329",
+  "fixture_cases": 3,
+  "gates": {
+    "defects_only_added_on_retry": true,
+    "negative_control_detects_lost_options": true,
+    "normal_succeeds_once_without_defects": true,
+    "retry_succeeds_with_original_options": true
+  },
+  "job_id": 125879500702,
+  "job_result": "SUCCESS",
+  "module_sha256": "f552974269d70b3cebf86c780be00529a89baeec55bb22c2cd8a65e3846dcb38",
+  "nextflow_version": "25.10.4",
+  "original_receipt_sha256": "3a2ccff4f568d69d83002a50ab40a6aa9d6c87e542c6bbbaaf9b20145359a07d",
+  "public_run_url": "https://github.com/nf-core/atacseq/actions/runs/41624848771",
+  "scope": "Three focused retry-control cases; not a naturally occurring retry in the native yeast scientific workflows.",
+  "workflow_run": 41624848771
+}

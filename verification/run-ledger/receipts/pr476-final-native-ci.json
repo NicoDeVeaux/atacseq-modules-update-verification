@@ -1,0 +1,176 @@
+{
+  "PASS": true,
+  "archive_sha256": "371179d6463734e84015b27767824fef60baec1709487a71cc3dbe04b55f9333",
+  "cases": [
+    {
+      "member": "1_docker  latest-everything  7_7.txt",
+      "merge": "69a3ddc7d488e97aeeec61b8149ee7c4fe621c20",
+      "raw_log_sha256": "0f8f9e41764b6a909a669f3f6e8ba359087586dc3333880b18927ec33f313c69",
+      "tests": [
+        "skip_consensus_peaks"
+      ],
+      "version": "26.10.5"
+    },
+    {
+      "member": "2_docker  latest-everything  6_7.txt",
+      "merge": "69a3ddc7d488e97aeeec61b8149ee7c4fe621c20",
+      "raw_log_sha256": "d8b5e05a998cd66f194056a4ec6faf88d130ae0493e4f9c70c725a638fffb141",
+      "tests": [
+        "-profile test"
+      ],
+      "version": "26.10.5"
+    },
+    {
+      "member": "3_docker  latest-everything  1_7.txt",
+      "merge": "69a3ddc7d488e97aeeec61b8149ee7c4fe621c20",
+      "raw_log_sha256": "8b4cc0f169f57c944e487bb6992a3b90446ee3f19918781c8035e7e21a97d2d1",
+      "tests": [
+        "bowtie2",
+        "skip_consensus_peaks with stub"
+      ],
+      "version": "26.10.5"
+    },
+    {
+      "member": "4_docker  25.10.4  7_7.txt",
+      "merge": "69a3ddc7d488e97aeeec61b8149ee7c4fe621c20",
+      "raw_log_sha256": "0d2fc6e3ce0cf6e22dabd20b6a9a056dea0e4154bd0032201e2bf550fa9c89f7",
+      "tests": [
+        "skip_consensus_peaks"
+      ],
+      "version": "25.10.4"
+    },
+    {
+      "member": "5_docker  latest-everything  3_7.txt",
+      "merge": "69a3ddc7d488e97aeeec61b8149ee7c4fe621c20",
+      "raw_log_sha256": "57ad48a42d5502c69bd38b53b833e62527314a26612b49dcd96abef88620f389",
+      "tests": [
+        "chromap",
+        "skip_trimming with stub"
+      ],
+      "version": "26.10.5"
+    },
+    {
+      "member": "6_docker  25.10.4  3_7.txt",
+      "merge": "69a3ddc7d488e97aeeec61b8149ee7c4fe621c20",
+      "raw_log_sha256": "f4f029393d89760df45b780f25593f69fab112c60b48d791d672ff52d3f69ded",
+      "tests": [
+        "chromap",
+        "skip_trimming with stub"
+      ],
+      "version": "25.10.4"
+    },
+    {
+      "member": "7_docker  25.10.4  1_7.txt",
+      "merge": "69a3ddc7d488e97aeeec61b8149ee7c4fe621c20",
+      "raw_log_sha256": "d776339bcff51965ed3970e6162394987c4895301514bfb55b0a9169c47b6417",
+      "tests": [
+        "bowtie2",
+        "skip_consensus_peaks with stub"
+      ],
+      "version": "25.10.4"
+    },
+    {
+      "member": "8_docker  25.10.4  6_7.txt",
+      "merge": "69a3ddc7d488e97aeeec61b8149ee7c4fe621c20",
+      "raw_log_sha256": "fc199516f010e0225a0c37d328dc86880298a4e8bfffdf715325ef794dd68737",
+      "tests": [
+        "-profile test"
+      ],
+      "version": "25.10.4"
+    },
+    {
+      "member": "9_docker  latest-everything  5_7.txt",
+      "merge": "69a3ddc7d488e97aeeec61b8149ee7c4fe621c20",
+      "raw_log_sha256": "e43b78b0fdca757988bca5b459d72eb339d1421e3c7c8340e2da0a8dd31386fc",
+      "tests": [
+        "-profile test_controls",
+        "star with stub"
+      ],
+      "version": "26.10.5"
+    },
+    {
+      "member": "10_docker  25.10.4  2_7.txt",
+      "merge": "69a3ddc7d488e97aeeec61b8149ee7c4fe621c20",
+      "raw_log_sha256": "d47a642e1c28ad3862c74ef3059448c8b7118a13d5436576a042764cfbaed218",
+      "tests": [
+        "bowtie2 with stub",
+        "skip_trimming"
+      ],
+      "version": "25.10.4"
+    },
+    {
+      "member": "11_docker  latest-everything  2_7.txt",
+      "merge": "69a3ddc7d488e97aeeec61b8149ee7c4fe621c20",
+      "raw_log_sha256": "8ac11d019bb43712577b21350534ec91c09d09e5368ab0eb3146b31ec20a826a",
+      "tests": [
+        "bowtie2 with stub",
+        "skip_trimming"
+      ],
+      "version": "26.10.5"
+    },
+    {
+      "member": "12_docker  latest-everything  4_7.txt",
+      "merge": "69a3ddc7d488e97aeeec61b8149ee7c4fe621c20",
+      "raw_log_sha256": "bb752e149fdc411f812d40b05f380820acd5bcb25fb8b859c6f9aff4cfc6028e",
+      "tests": [
+        "chromap with stub",
+        "star"
+      ],
+      "version": "26.10.5"
+    },
+    {
+      "member": "13_docker  25.10.4  4_7.txt",
+      "merge": "69a3ddc7d488e97aeeec61b8149ee7c4fe621c20",
+      "raw_log_sha256": "dd65684e1f6897434bc70e6e387b7b74c7c87922e700ee2505819410ab6a342e",
+      "tests": [
+        "chromap with stub",
+        "star"
+      ],
+      "version": "25.10.4"
+    },
+    {
+      "member": "14_docker  25.10.4  5_7.txt",
+      "merge": "69a3ddc7d488e97aeeec61b8149ee7c4fe621c20",
+      "raw_log_sha256": "dd9736d56a7884f045fbd8e551e6baec0f05a2c510e555a53c646c99fb27317f",
+      "tests": [
+        "-profile test_controls",
+        "star with stub"
+      ],
+      "version": "25.10.4"
+    }
+  ],
+  "cases_per_engine": {
+    "25.10.4": 12,
+    "26.10.5": 12
+  },
+  "live_run_metadata": {
+    "conclusion": "success",
+    "created_at": "2026-11-03T15:39:44Z",
+    "event": "pull_request",
+    "head_branch": "fix/consensus-saf-coordinates",
+    "head_sha": "9a255c667bed26eec6759c94a1f8a01e281f623d",
+    "html_url": "https://github.com/nf-core/atacseq/actions/runs/41666190365",
+    "id": 41666190365,
+    "run_attempt": 1,
+    "run_started_at": "2026-11-03T15:39:44Z",
+    "status": "completed",
+    "updated_at": "2026-11-03T15:57:21Z"
+  },
+  "merge_tree_matches_source": true,
+  "original_verification_receipt_sha256": "4d19a4efc157861e55bac15a1e4712a89e51cab85c7b1ceb8b27aaa510c073d1",
+  "raw_log_archive_included": false,
+  "raw_underlying_tests_all_pass": true,
+  "real_tests_per_engine": {
+    "25.10.4": 7,
+    "26.10.5": 7
+  },
+  "run": "41666190365",
+  "scope": "Native raw test summaries and source/merge-tree identity; raw log bytes are hash-bound but not bundled here.",
+  "source_head": "9a255c667bed26eec6759c94a1f8a01e281f623d",
+  "stub_tests_per_engine": {
+    "25.10.4": 5,
+    "26.10.5": 5
+  },
+  "tree": "979d190ee79ce9e4c199cf389b57dce7a51af0e2",
+  "url": "https://github.com/nf-core/atacseq/actions/runs/41666190365"
+}

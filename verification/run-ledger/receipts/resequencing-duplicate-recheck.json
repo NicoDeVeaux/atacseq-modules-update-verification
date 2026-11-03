@@ -1,0 +1,269 @@
+{
+  "carryforward": {
+    "files": [
+      {
+        "byte_equal": true,
+        "new_sha256": "3cc3a56fd6ed88b57c52fbfd9f4b9c5a3e79d57866f314ad408fbc4d7835e3a3",
+        "old_sha256": "3cc3a56fd6ed88b57c52fbfd9f4b9c5a3e79d57866f314ad408fbc4d7835e3a3",
+        "path": "conf/modules.config"
+      },
+      {
+        "byte_equal": true,
+        "new_sha256": "75db2795106e69a93f7e31da0dca1cef608f82323d92894c88b621ba380e24d7",
+        "old_sha256": "75db2795106e69a93f7e31da0dca1cef608f82323d92894c88b621ba380e24d7",
+        "path": "modules/nf-core/trimgalore/main.nf"
+      },
+      {
+        "byte_equal": true,
+        "new_sha256": "1878192a84a7b69ad32261f3f6239223cac83c81ddbef28f72ff976afd4b87b0",
+        "old_sha256": "1878192a84a7b69ad32261f3f6239223cac83c81ddbef28f72ff976afd4b87b0",
+        "path": "modules/nf-core/trimgalore/environment.yml"
+      },
+      {
+        "byte_equal": true,
+        "new_sha256": "ea950cd99cd4146d01d7c274eb28279d615eaf61d9a04c456c962ebe54b4857d",
+        "old_sha256": "ea950cd99cd4146d01d7c274eb28279d615eaf61d9a04c456c962ebe54b4857d",
+        "path": "subworkflows/nf-core/fastq_fastqc_umitools_trimgalore/main.nf"
+      },
+      {
+        "byte_equal": true,
+        "new_sha256": "f5e215f390829836fa21b35bc08075058d452d3b7f709ed364a35ff4a1690273",
+        "old_sha256": "f5e215f390829836fa21b35bc08075058d452d3b7f709ed364a35ff4a1690273",
+        "path": "subworkflows/nf-core/fastq_align_chromap/main.nf"
+      },
+      {
+        "byte_equal": true,
+        "new_sha256": "f717291103be6b81c23deca338663840b2e217e50f21e56bf9ec281c4c5979d9",
+        "old_sha256": "f717291103be6b81c23deca338663840b2e217e50f21e56bf9ec281c4c5979d9",
+        "path": "modules/nf-core/chromap/chromap/main.nf"
+      },
+      {
+        "byte_equal": true,
+        "new_sha256": "095aaaa09a175e7dc1a78783223447bfac321c1ebe89287d88faa51fc76dc105",
+        "old_sha256": "095aaaa09a175e7dc1a78783223447bfac321c1ebe89287d88faa51fc76dc105",
+        "path": "modules/nf-core/chromap/chromap/environment.yml"
+      },
+      {
+        "byte_equal": true,
+        "new_sha256": "4d2f4d685994cd735a50b19d483f9b8745be372cbcbd764601c029c127bbfddd",
+        "old_sha256": "4d2f4d685994cd735a50b19d483f9b8745be372cbcbd764601c029c127bbfddd",
+        "path": "modules/nf-core/chromap/index/main.nf"
+      },
+      {
+        "byte_equal": true,
+        "new_sha256": "c91319c1abd0ad95ed99e4d636b0f3855a67ac8d5f3ed39dd52ad55465839c34",
+        "old_sha256": "c91319c1abd0ad95ed99e4d636b0f3855a67ac8d5f3ed39dd52ad55465839c34",
+        "path": "modules/nf-core/chromap/index/environment.yml"
+      },
+      {
+        "byte_equal": true,
+        "new_sha256": "0c92170c98cd135be85a8da50b18267858575b33bbb8a18232e816ae26e45466",
+        "old_sha256": "0c92170c98cd135be85a8da50b18267858575b33bbb8a18232e816ae26e45466",
+        "path": "modules/nf-core/picard/addorreplacereadgroups/main.nf"
+      },
+      {
+        "byte_equal": true,
+        "new_sha256": "08c1056314db8cbc1a8b5763ed50b2a977e23a017e1c8d2be8557042f9d03e66",
+        "old_sha256": "08c1056314db8cbc1a8b5763ed50b2a977e23a017e1c8d2be8557042f9d03e66",
+        "path": "modules/nf-core/picard/addorreplacereadgroups/environment.yml"
+      },
+      {
+        "byte_equal": true,
+        "new_sha256": "9758b5da19ac0d1a4c2929e1e813c004eaebf79431ae03c4e27c1115d68d69b4",
+        "old_sha256": "9758b5da19ac0d1a4c2929e1e813c004eaebf79431ae03c4e27c1115d68d69b4",
+        "path": "modules/nf-core/picard/markduplicates/main.nf"
+      },
+      {
+        "byte_equal": true,
+        "new_sha256": "08c1056314db8cbc1a8b5763ed50b2a977e23a017e1c8d2be8557042f9d03e66",
+        "old_sha256": "08c1056314db8cbc1a8b5763ed50b2a977e23a017e1c8d2be8557042f9d03e66",
+        "path": "modules/nf-core/picard/markduplicates/environment.yml"
+      },
+      {
+        "byte_equal": true,
+        "new_sha256": "a270787eada61691082396aafc2ef136bf67fcada26d573fe94e5da506fd54d4",
+        "old_sha256": "a270787eada61691082396aafc2ef136bf67fcada26d573fe94e5da506fd54d4",
+        "path": "modules/nf-core/picard/mergesamfiles/main.nf"
+      },
+      {
+        "byte_equal": true,
+        "new_sha256": "08c1056314db8cbc1a8b5763ed50b2a977e23a017e1c8d2be8557042f9d03e66",
+        "old_sha256": "08c1056314db8cbc1a8b5763ed50b2a977e23a017e1c8d2be8557042f9d03e66",
+        "path": "modules/nf-core/picard/mergesamfiles/environment.yml"
+      },
+      {
+        "byte_equal": true,
+        "new_sha256": "470499ce52023442e4199606886c301ccd945f74e7d5c5268c83dc2f37b52515",
+        "old_sha256": "470499ce52023442e4199606886c301ccd945f74e7d5c5268c83dc2f37b52515",
+        "path": "subworkflows/nf-core/bam_markduplicates_picard/main.nf"
+      },
+      {
+        "byte_equal": true,
+        "new_sha256": "90286209e8281d398a6b760d567e695705d83c5cbefa379abf98f2a342558055",
+        "old_sha256": "90286209e8281d398a6b760d567e695705d83c5cbefa379abf98f2a342558055",
+        "path": "modules/local/bamtools_filter.nf"
+      },
+      {
+        "byte_equal": true,
+        "new_sha256": "906c65c34aa8215404d87fd53e9c221f5525edde1c07c4dbf8e52ef90bbeb7f2",
+        "old_sha256": "906c65c34aa8215404d87fd53e9c221f5525edde1c07c4dbf8e52ef90bbeb7f2",
+        "path": "modules/local/bam_remove_orphans.nf"
+      },
+      {
+        "byte_equal": true,
+        "new_sha256": "0dd8709a4bdb8533f81a652276668d6c9ff930612bf7b3467a393174ba5c5b9b",
+        "old_sha256": "0dd8709a4bdb8533f81a652276668d6c9ff930612bf7b3467a393174ba5c5b9b",
+        "path": "subworkflows/local/bam_filter_bamtools.nf"
+      },
+      {
+        "byte_equal": true,
+        "new_sha256": "f4885c36d4b28d11933ea72ec8445450e73061245aba4a32978eb830b1d7caee",
+        "old_sha256": "f4885c36d4b28d11933ea72ec8445450e73061245aba4a32978eb830b1d7caee",
+        "path": "workflows/atacseq.nf"
+      },
+      {
+        "byte_equal": false,
+        "new_sha256": "33b326d86b90f82e93d4fc2fae8ff48b5a4747583a9f670f38bbb02ad4a746c5",
+        "old_sha256": "846dc83250d67288465f498a9e269e5bb2b4bce1f99993358d5b9d29c5fa629c",
+        "path": "modules/local/macs3_consensus.nf"
+      }
+    ],
+    "original_receipt_sha256": "6e1268f257399d6fa18a3faa3bc868b7ae3bfd1644ab6372e5e7a6e91907b183",
+    "source_current": "ef206a60f88b4c754eaf4d0a8c0b9ee0c9268180",
+    "source_fixed": "a9b588235e4a1ceb3c8838acad430628c5737c86"
+  },
+  "full_core_cleaned_pairs": {
+    "D28P_REP1": {
+      "base": 283755,
+      "fixed": 283754,
+      "unfixed": 285498
+    },
+    "D28_REP1": {
+      "base": 282467,
+      "fixed": 282467,
+      "unfixed": 284743
+    }
+  },
+  "full_core_cleaned_reads": {
+    "D28P_REP1": {
+      "base": 567510,
+      "fixed": 567508,
+      "unfixed": 570996
+    },
+    "D28_REP1": {
+      "base": 564934,
+      "fixed": 564934,
+      "unfixed": 569486
+    }
+  },
+  "full_core_residual_count_difference": [
+    {
+      "coordinate": [
+        "chrIV",
+        "42072",
+        "43938"
+      ],
+      "left": 77,
+      "right": 76,
+      "sample": "D28P_REP1"
+    }
+  ],
+  "new_workflow_executed_for_this_recheck": false,
+  "original_receipt_sha256": "e52f0e3e6113925f72407564ce328b60ec9197c47c55ed6933bf41998a5e3d84",
+  "scope": "Read-only recheck of retained real resequencing qualification; independent from archived issue473 BWA299580 acceptance count.",
+  "shared_alignment_duplicate_stage": {
+    "D28P_REP1": {
+      "arms": {
+        "base": {
+          "RG_ID_to_LB": {},
+          "discordant_duplicate_flag_pairs": 0,
+          "duplicate_pairs_both_reads": 19662,
+          "paired_primary_mapped_templates": 318227,
+          "paired_record_core_multiset_sha256_duplicate_bit_cleared": "507ef8c140421a5fd306d0ceb2ef6d4db09e14225dfa9b50e92d7811de0bcd5c",
+          "picard_READ_PAIR_DUPLICATES": 19662,
+          "primary_duplicate_reads_flag_0x400": 39324,
+          "retained_pairs_both_reads": 298565,
+          "retained_qname_multiset_sha256": "5d7ec1ef4e580f48e7e945d358727f1328e707637fd50646b97e0bb5031effdf"
+        },
+        "fixed": {
+          "RG_ID_to_LB": {
+            "D28P_REP1_T1": "D28P_REP1",
+            "D28P_REP1_T2": "D28P_REP1"
+          },
+          "discordant_duplicate_flag_pairs": 0,
+          "duplicate_pairs_both_reads": 19662,
+          "paired_primary_mapped_templates": 318227,
+          "paired_record_core_multiset_sha256_duplicate_bit_cleared": "507ef8c140421a5fd306d0ceb2ef6d4db09e14225dfa9b50e92d7811de0bcd5c",
+          "picard_READ_PAIR_DUPLICATES": 19662,
+          "primary_duplicate_reads_flag_0x400": 39324,
+          "retained_pairs_both_reads": 298565,
+          "retained_qname_multiset_sha256": "5d7ec1ef4e580f48e7e945d358727f1328e707637fd50646b97e0bb5031effdf"
+        },
+        "unfixed": {
+          "RG_ID_to_LB": {
+            "D28P_REP1_T1": "D28P_REP1_T1",
+            "D28P_REP1_T2": "D28P_REP1_T2"
+          },
+          "discordant_duplicate_flag_pairs": 0,
+          "duplicate_pairs_both_reads": 17797,
+          "paired_primary_mapped_templates": 318227,
+          "paired_record_core_multiset_sha256_duplicate_bit_cleared": "507ef8c140421a5fd306d0ceb2ef6d4db09e14225dfa9b50e92d7811de0bcd5c",
+          "picard_READ_PAIR_DUPLICATES": 17797,
+          "primary_duplicate_reads_flag_0x400": 35594,
+          "retained_pairs_both_reads": 300430,
+          "retained_qname_multiset_sha256": "a9a6bd53a0de43fd013ff168e890660110903363d8066d2affd7d23ababe0ccd"
+        }
+      },
+      "unfixed_extra_retained_pairs": 1865
+    },
+    "D28_REP1": {
+      "arms": {
+        "base": {
+          "RG_ID_to_LB": {},
+          "discordant_duplicate_flag_pairs": 0,
+          "duplicate_pairs_both_reads": 24053,
+          "paired_primary_mapped_templates": 322865,
+          "paired_record_core_multiset_sha256_duplicate_bit_cleared": "9b94a24781f0e157773ae20d589f5226eadec9be3f60f5514ec2d5e40b3139ae",
+          "picard_READ_PAIR_DUPLICATES": 24053,
+          "primary_duplicate_reads_flag_0x400": 48106,
+          "retained_pairs_both_reads": 298812,
+          "retained_qname_multiset_sha256": "dc3d341a9f7f0ee1bd5a8c0df7660e46fef2be819640a88bd8f52c6cd5b12fde"
+        },
+        "fixed": {
+          "RG_ID_to_LB": {
+            "D28_REP1_T1": "D28_REP1",
+            "D28_REP1_T2": "D28_REP1"
+          },
+          "discordant_duplicate_flag_pairs": 0,
+          "duplicate_pairs_both_reads": 24053,
+          "paired_primary_mapped_templates": 322865,
+          "paired_record_core_multiset_sha256_duplicate_bit_cleared": "9b94a24781f0e157773ae20d589f5226eadec9be3f60f5514ec2d5e40b3139ae",
+          "picard_READ_PAIR_DUPLICATES": 24053,
+          "primary_duplicate_reads_flag_0x400": 48106,
+          "retained_pairs_both_reads": 298812,
+          "retained_qname_multiset_sha256": "dc3d341a9f7f0ee1bd5a8c0df7660e46fef2be819640a88bd8f52c6cd5b12fde"
+        },
+        "unfixed": {
+          "RG_ID_to_LB": {
+            "D28_REP1_T1": "D28_REP1_T1",
+            "D28_REP1_T2": "D28_REP1_T2"
+          },
+          "discordant_duplicate_flag_pairs": 0,
+          "duplicate_pairs_both_reads": 21500,
+          "paired_primary_mapped_templates": 322865,
+          "paired_record_core_multiset_sha256_duplicate_bit_cleared": "9b94a24781f0e157773ae20d589f5226eadec9be3f60f5514ec2d5e40b3139ae",
+          "picard_READ_PAIR_DUPLICATES": 21500,
+          "primary_duplicate_reads_flag_0x400": 43000,
+          "retained_pairs_both_reads": 301365,
+          "retained_qname_multiset_sha256": "817954f0a180fb76060fcf548465c580182bd8aa89b76ef2fbf4cf2b8e49e41a"
+        }
+      },
+      "unfixed_extra_retained_pairs": 2553
+    }
+  },
+  "source_pins": {
+    "base": "4177ea95c56e15fdbdc52f6e210c3329ff69167b",
+    "fixed": "a9b588235e4a1ceb3c8838acad430628c5737c86",
+    "unfixed": "73155d2b59d37f521e3f00228d559031d2e7847f"
+  }
+}

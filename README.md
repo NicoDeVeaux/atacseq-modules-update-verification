@@ -1,5 +1,7 @@
 # atacseq modules-update — verification bundle
 
+Start with the [run and verification ledger](verification/run-ledger/README.md) to look up exact source, input and container identities, results and evidence by hash. The [data-custody record](verification/reviews/2026-11-03-public-data-move/README.md) documents local cleanup.
+
 Reviewer-facing evidence for the PR that updates nf-core modules/subworkflows in
 [nf-core/atacseq](https://github.com/nf-core/atacseq) and fixes a MultiQC topic-channel
 deadlock. It holds the artifacts from a real-data **A/B comparison** of the update branch

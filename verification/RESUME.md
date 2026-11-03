@@ -1,5 +1,7 @@
 # RESUME — nf-core/atacseq PR #448/#452 verification
 
+Current custody policy: the [compact run ledger](run-ledger/README.md) preserves what ran, exact known identities and what was verified. The user permits clearing documented generated caches without uploading every intermediate. Historical hold statements record earlier policy; source/Git, credentials and unique small/private records remain protected. See the [cleanup record](reviews/2026-11-03-public-data-move/README.md).
+
 **Checkpoint saved:** 2026-08-23 03:55. Pick this up tomorrow.
 
 This is the quick-start / handoff. The full task spec + detailed findings live in

@@ -1,0 +1,39 @@
+{
+  "count-SAF": {
+    "all_members_verified": 36,
+    "anonymous": true,
+    "archive_bytes": 14794307,
+    "archive_sha256": "ae975cd3bba83f7ab8ff41d4b603eb744d5aa1d164578152c79b748933b0e66e",
+    "archive_url": "https://raw.githubusercontent.com/NicoDeVeaux/atacseq-modules-update-verification/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-count-saf-data/count-saf-public.tar.gz",
+    "public_commit": "0b9140075f35a8ab042ada1b45985a1613cf4f16"
+  },
+  "fingerprint": {
+    "archive_sha256": "75d91fba36c72ff14c75dbf5a0b6811dc5e5973652dd89ce827f8da5edb74b18",
+    "scope": "Small curated scientific reporting data only; full runtime archive excluded.",
+    "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-03-fingerprint-reporting/fingerprint-reporting-data.tar.gz"
+  },
+  "resequencing": {
+    "archive_bytes": 431843357,
+    "archive_name": "pr448-resequencing-control.tar.gz",
+    "archive_sha256": "03a1b1268bbf3b499afe07f514e13e940afaa3694c9354b126846bd7147af53f",
+    "evidence": {
+      "git_blob_sha1": "7c1be6c7d86e6ef2882873a2612c9d862d81fb61",
+      "sha256": "94c80f38bb06015d794642909f81458d54912e7e6bc142a51899fd7d35e47cf3",
+      "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/resequencing/parts-manifest.json"
+    },
+    "part_count": 10,
+    "total_members": 5705
+  },
+  "yeast-native": {
+    "archive_bytes": 1000757340,
+    "archive_name": "pr473-yeast-qualification-20261102.tar.gz",
+    "archive_sha256": "d3e6e4753598df96945b1ac4c962f2420d38e53c386ce9858a26160bf7f32782",
+    "evidence": {
+      "git_blob_sha1": "8f97628887c1c43292817fe43c738b31eedabaed",
+      "sha256": "05bbaa921293e8229c8779613e63d52cb1e18da5033fd00c925e44a16efe3cee",
+      "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-11-02-pr473-yeast/parts-manifest.json"
+    },
+    "part_count": 23,
+    "total_members": 3027
+  }
+}

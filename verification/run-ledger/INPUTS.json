@@ -1,0 +1,670 @@
+{
+  "hiv": {
+    "actual_FASTQ_byte_identity_to_ENA_status": "UNKNOWN",
+    "data_class": "Public research accessions; not private patient inputs",
+    "limit": "Per-mate record counts and metadata agree; historical FASTQ bytes were not proved equal to ENA objects.",
+    "organism": "Homo sapiens",
+    "runs": [
+      {
+        "accession": "SRR8508547",
+        "metadata_response_sha256": "14eca5fa7e87c353a310964dd58ac726a313f08521d8115915bb457703a7a387",
+        "public_files": [
+          {
+            "bytes": 852578892,
+            "https_url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/007/SRR8508547/SRR8508547_1.fastq.gz",
+            "md5": "3d531951625ff016c68f248695d8a72b"
+          },
+          {
+            "bytes": 887627926,
+            "https_url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/007/SRR8508547/SRR8508547_2.fastq.gz",
+            "md5": "557ada880c6482de43c2a9332df90fc4"
+          }
+        ]
+      },
+      {
+        "accession": "SRR8508548",
+        "metadata_response_sha256": "c050e2f050d2a12c738c018f763d87d4c2be6663854811c37af3624487e1e39e",
+        "public_files": [
+          {
+            "bytes": 832893255,
+            "https_url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/008/SRR8508548/SRR8508548_1.fastq.gz",
+            "md5": "3f6bca5dfdcc62e32dfac193d4157bf2"
+          },
+          {
+            "bytes": 884242636,
+            "https_url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/008/SRR8508548/SRR8508548_2.fastq.gz",
+            "md5": "a452d5e612269dfff691474c4eea4edc"
+          }
+        ]
+      },
+      {
+        "accession": "SRR8508553",
+        "metadata_response_sha256": "612c7fa8debb05126f6d70440e809b87abbd5a4ce19cbc89dbc5ed11e80bb9f2",
+        "public_files": [
+          {
+            "bytes": 861485129,
+            "https_url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/003/SRR8508553/SRR8508553_1.fastq.gz",
+            "md5": "50e66fc3e3ea6ed9dae811966bf69a5e"
+          },
+          {
+            "bytes": 894977169,
+            "https_url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/003/SRR8508553/SRR8508553_2.fastq.gz",
+            "md5": "62ad816e6b57eb01d48c702a33354dec"
+          }
+        ]
+      },
+      {
+        "accession": "SRR8508554",
+        "metadata_response_sha256": "376cddae6b5cf571593d3e11e30c3fa86c659bcc8eefbc44a55935a6949a01b5",
+        "public_files": [
+          {
+            "bytes": 957024776,
+            "https_url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/004/SRR8508554/SRR8508554_1.fastq.gz",
+            "md5": "5e5c29bffc2b1b20ded301c16851cf18"
+          },
+          {
+            "bytes": 1027396123,
+            "https_url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR850/004/SRR8508554/SRR8508554_2.fastq.gz",
+            "md5": "a15c9fe639a7d5539159a4f4dceeb8a7"
+          }
+        ]
+      }
+    ]
+  },
+  "hiv-reference-limits": {
+    "BWA_index_sha256": null,
+    "FASTA_sha256": null,
+    "GTF_sha256": null,
+    "assembly": "GRCh38",
+    "blacklist": {
+      "file": "references/hg38-blacklist.v3.bed",
+      "original_immutable_url": "https://raw.githubusercontent.com/nf-core/atacseq/19f44eea2854b2ceaf68d6f57d883bde72080bd0/assets/blacklists/v3.0/hg38-blacklist.v3.bed",
+      "sha256": "5d214c58c07f33a4fa1d6bcfe61ff00c666510e8fee5520fc1015c5d3ef16f3b"
+    },
+    "evidence": {
+      "git_blob_sha1": "a8d30f436b0370228d03cdedfd97ba9c6ff6ea54",
+      "sha256": "f03bcb7416f736625d719a73645f1bd7a76d3e9057cb05f827eba8e725ac0648",
+      "url": "https://github.com/NicoDeVeaux/atacseq-modules-update-verification/blob/0b9140075f35a8ab042ada1b45985a1613cf4f16/verification/reviews/2026-10-29-pr448/portable/references/manifest.json"
+    },
+    "status": "UNKNOWN"
+  },
+  "reporting-and-CI-test-datasets": {
+    "controls": {
+      "all_fourteen_anonymous_downloads_match_actual_inputs": true,
+      "controls_scientific_objects": [
+        {
+          "anonymous_public_download_verified": true,
+          "bytes": 12359807,
+          "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+          "dataset": "atacseq",
+          "git_blob_sha1": "9c4c1b18cccd330e850eb5e9e3f4c2c0d1abadb4",
+          "repository_path": "reference/genome.fa",
+          "sha256": "c0b7305c230b550c3d8ccc692df52338afc7a297b43d965868c285b98aa64ae1",
+          "url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/reference/genome.fa"
+        },
+        {
+          "anonymous_public_download_verified": true,
+          "bytes": 12037571,
+          "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+          "dataset": "atacseq",
+          "git_blob_sha1": "7da562e9678152fe1062e67e4303abba61a2f1b8",
+          "repository_path": "reference/genes.gtf",
+          "sha256": "3a1e64b8f290127562612b47d6014bc6e4c130399da3e06ad062b268fd6d08fb",
+          "url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/reference/genes.gtf"
+        },
+        {
+          "anonymous_public_download_verified": true,
+          "bytes": 4142025,
+          "commit": "dc342f94ec86799d7bd635e7192b1cbb3654b559",
+          "dataset": "chipseq",
+          "git_blob_sha1": "f291359c31ef759646bfc12b6eb808dfcf6d8d6b",
+          "repository_path": "testdata/SRR5204809_Spt5-ChIP_Input1_SacCer_ChIP-Seq_ss100k_R1.fastq.gz",
+          "sha256": "162b7459f4f0eb61c6a64e3c23352d32ec8a81aacf3ce07296639539a533e17f",
+          "url": "https://raw.githubusercontent.com/nf-core/test-datasets/dc342f94ec86799d7bd635e7192b1cbb3654b559/testdata/SRR5204809_Spt5-ChIP_Input1_SacCer_ChIP-Seq_ss100k_R1.fastq.gz"
+        },
+        {
+          "anonymous_public_download_verified": true,
+          "bytes": 4190417,
+          "commit": "dc342f94ec86799d7bd635e7192b1cbb3654b559",
+          "dataset": "chipseq",
+          "git_blob_sha1": "695944bf6eaba59900330900338a48e805276a87",
+          "repository_path": "testdata/SRR5204809_Spt5-ChIP_Input1_SacCer_ChIP-Seq_ss100k_R2.fastq.gz",
+          "sha256": "2627804ae3ce35b04777433affa9149a090d428a88f444ef3da40011014e6209",
+          "url": "https://raw.githubusercontent.com/nf-core/test-datasets/dc342f94ec86799d7bd635e7192b1cbb3654b559/testdata/SRR5204809_Spt5-ChIP_Input1_SacCer_ChIP-Seq_ss100k_R2.fastq.gz"
+        },
+        {
+          "anonymous_public_download_verified": true,
+          "bytes": 4130098,
+          "commit": "dc342f94ec86799d7bd635e7192b1cbb3654b559",
+          "dataset": "chipseq",
+          "git_blob_sha1": "5e6b878173ea9dddb185ef736c53ae15e9707d8d",
+          "repository_path": "testdata/SRR5204810_Spt5-ChIP_Input2_SacCer_ChIP-Seq_ss100k_R1.fastq.gz",
+          "sha256": "bcf33028be01375dad5ad1a592516e96c4e504b7f761e23b08c147adfc07c512",
+          "url": "https://raw.githubusercontent.com/nf-core/test-datasets/dc342f94ec86799d7bd635e7192b1cbb3654b559/testdata/SRR5204810_Spt5-ChIP_Input2_SacCer_ChIP-Seq_ss100k_R1.fastq.gz"
+        },
+        {
+          "anonymous_public_download_verified": true,
+          "bytes": 4173993,
+          "commit": "dc342f94ec86799d7bd635e7192b1cbb3654b559",
+          "dataset": "chipseq",
+          "git_blob_sha1": "58fd4f84f24a170ed1c16ac203c6330cab8e59f8",
+          "repository_path": "testdata/SRR5204810_Spt5-ChIP_Input2_SacCer_ChIP-Seq_ss100k_R2.fastq.gz",
+          "sha256": "d27d2958703dc181d71d5b02f1449c1b0da6b60c1309e6b775165faac9afe616",
+          "url": "https://raw.githubusercontent.com/nf-core/test-datasets/dc342f94ec86799d7bd635e7192b1cbb3654b559/testdata/SRR5204810_Spt5-ChIP_Input2_SacCer_ChIP-Seq_ss100k_R2.fastq.gz"
+        },
+        {
+          "anonymous_public_download_verified": true,
+          "bytes": 5254354,
+          "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+          "dataset": "atacseq",
+          "git_blob_sha1": "bc83e0d026559abbdf208fc652094c6f6360c67e",
+          "repository_path": "testdata/SRR1822153_2.fastq.gz",
+          "sha256": "a7c9455e792e095f5db0f2e27edf912b26bd28398976d8a3ac11ff4a463ada1f",
+          "url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822153_2.fastq.gz"
+        },
+        {
+          "anonymous_public_download_verified": true,
+          "bytes": 5272547,
+          "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+          "dataset": "atacseq",
+          "git_blob_sha1": "039c8279d3c12923609d0cc0f4fd6f1efe3f66b0",
+          "repository_path": "testdata/SRR1822153_1.fastq.gz",
+          "sha256": "e94bb94aa3524dff446f405b8979b95304085323a851a33b436fa6511bec9b58",
+          "url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822153_1.fastq.gz"
+        },
+        {
+          "anonymous_public_download_verified": true,
+          "bytes": 5382195,
+          "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+          "dataset": "atacseq",
+          "git_blob_sha1": "e25ebc50fbcbcb3953e187970b1a600a100fd812",
+          "repository_path": "testdata/SRR1822157_1.fastq.gz",
+          "sha256": "2c08804f7e8f4abf57ed928da041e22f442c033d4e8993946b8d95137d969a60",
+          "url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822157_1.fastq.gz"
+        },
+        {
+          "anonymous_public_download_verified": true,
+          "bytes": 5380339,
+          "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+          "dataset": "atacseq",
+          "git_blob_sha1": "4946b9c63bd0454976767096f3ad4c008c61f1ae",
+          "repository_path": "testdata/SRR1822157_2.fastq.gz",
+          "sha256": "d1f8df0027c48ff74b68245e3def9aa50c3c042498e8bd2f073ea12bba2d3d7b",
+          "url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822157_2.fastq.gz"
+        },
+        {
+          "anonymous_public_download_verified": true,
+          "bytes": 5315718,
+          "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+          "dataset": "atacseq",
+          "git_blob_sha1": "6c9eeababff7278341888ef3fc95a4988906c664",
+          "repository_path": "testdata/SRR1822154_2.fastq.gz",
+          "sha256": "95fc1034e236f790a820f5977feb42c0ed895f8fe538ffb3b1643197f6aa7534",
+          "url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822154_2.fastq.gz"
+        },
+        {
+          "anonymous_public_download_verified": true,
+          "bytes": 5253787,
+          "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+          "dataset": "atacseq",
+          "git_blob_sha1": "9ef8b37a32a6bb56e611204a3cc4447c786f4666",
+          "repository_path": "testdata/SRR1822154_1.fastq.gz",
+          "sha256": "977e96d46afff3af01527ae8db385c844c9501ed6d239390aa091265a1063159",
+          "url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822154_1.fastq.gz"
+        },
+        {
+          "anonymous_public_download_verified": true,
+          "bytes": 5350303,
+          "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+          "dataset": "atacseq",
+          "git_blob_sha1": "9f8e01535743179275ac5e3691cc956a0fbb6b8a",
+          "repository_path": "testdata/SRR1822158_1.fastq.gz",
+          "sha256": "557434ecf97ed576642689a98622410a7903b777d6b8e1cd613f717ec78d1687",
+          "url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822158_1.fastq.gz"
+        },
+        {
+          "anonymous_public_download_verified": true,
+          "bytes": 5401912,
+          "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+          "dataset": "atacseq",
+          "git_blob_sha1": "f9c12240852fa2bc7943d156a945efbdf8925899",
+          "repository_path": "testdata/SRR1822158_2.fastq.gz",
+          "sha256": "32b00634ea4e3dfc64385d837addb5f981b473aee2a3a7a5f79f8a5bc228f4e9",
+          "url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822158_2.fastq.gz"
+        }
+      ],
+      "organism": "Saccharomyces cerevisiae",
+      "role_bindings": [
+        {
+          "sha256": "c0b7305c230b550c3d8ccc692df52338afc7a297b43d965868c285b98aa64ae1",
+          "source_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/reference/genome.fa",
+          "staged_filename": "genome.fa",
+          "task": "NFCORE_ATACSEQ:PREPARE_GENOME:SAMTOOLS_FAIDX (genome.fa)"
+        },
+        {
+          "sha256": "3a1e64b8f290127562612b47d6014bc6e4c130399da3e06ad062b268fd6d08fb",
+          "source_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/reference/genes.gtf",
+          "staged_filename": "genes.gtf",
+          "task": "NFCORE_ATACSEQ:PREPARE_GENOME:GTF2BED (genes.gtf)"
+        },
+        {
+          "sha256": "162b7459f4f0eb61c6a64e3c23352d32ec8a81aacf3ce07296639539a533e17f",
+          "source_url": "https://raw.githubusercontent.com/nf-core/test-datasets/dc342f94ec86799d7bd635e7192b1cbb3654b559/testdata/SRR5204809_Spt5-ChIP_Input1_SacCer_ChIP-Seq_ss100k_R1.fastq.gz",
+          "staged_filename": "SPT5_INPUT_REP1_T1_1.gz",
+          "task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_INPUT_REP1_T1)"
+        },
+        {
+          "sha256": "2627804ae3ce35b04777433affa9149a090d428a88f444ef3da40011014e6209",
+          "source_url": "https://raw.githubusercontent.com/nf-core/test-datasets/dc342f94ec86799d7bd635e7192b1cbb3654b559/testdata/SRR5204809_Spt5-ChIP_Input1_SacCer_ChIP-Seq_ss100k_R2.fastq.gz",
+          "staged_filename": "SPT5_INPUT_REP1_T1_2.gz",
+          "task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_INPUT_REP1_T1)"
+        },
+        {
+          "sha256": "bcf33028be01375dad5ad1a592516e96c4e504b7f761e23b08c147adfc07c512",
+          "source_url": "https://raw.githubusercontent.com/nf-core/test-datasets/dc342f94ec86799d7bd635e7192b1cbb3654b559/testdata/SRR5204810_Spt5-ChIP_Input2_SacCer_ChIP-Seq_ss100k_R1.fastq.gz",
+          "staged_filename": "SPT5_INPUT_REP2_T1_1.gz",
+          "task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_INPUT_REP2_T1)"
+        },
+        {
+          "sha256": "d27d2958703dc181d71d5b02f1449c1b0da6b60c1309e6b775165faac9afe616",
+          "source_url": "https://raw.githubusercontent.com/nf-core/test-datasets/dc342f94ec86799d7bd635e7192b1cbb3654b559/testdata/SRR5204810_Spt5-ChIP_Input2_SacCer_ChIP-Seq_ss100k_R2.fastq.gz",
+          "staged_filename": "SPT5_INPUT_REP2_T1_2.gz",
+          "task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_INPUT_REP2_T1)"
+        },
+        {
+          "sha256": "a7c9455e792e095f5db0f2e27edf912b26bd28398976d8a3ac11ff4a463ada1f",
+          "source_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822153_2.fastq.gz",
+          "staged_filename": "SPT5_T0_REP1_T1_2.gz",
+          "task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_T0_REP1_T1)"
+        },
+        {
+          "sha256": "e94bb94aa3524dff446f405b8979b95304085323a851a33b436fa6511bec9b58",
+          "source_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822153_1.fastq.gz",
+          "staged_filename": "SPT5_T0_REP1_T1_1.gz",
+          "task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_T0_REP1_T1)"
+        },
+        {
+          "sha256": "2c08804f7e8f4abf57ed928da041e22f442c033d4e8993946b8d95137d969a60",
+          "source_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822157_1.fastq.gz",
+          "staged_filename": "SPT5_T15_REP1_T1_1.gz",
+          "task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_T15_REP1_T1)"
+        },
+        {
+          "sha256": "d1f8df0027c48ff74b68245e3def9aa50c3c042498e8bd2f073ea12bba2d3d7b",
+          "source_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822157_2.fastq.gz",
+          "staged_filename": "SPT5_T15_REP1_T1_2.gz",
+          "task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_T15_REP1_T1)"
+        },
+        {
+          "sha256": "95fc1034e236f790a820f5977feb42c0ed895f8fe538ffb3b1643197f6aa7534",
+          "source_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822154_2.fastq.gz",
+          "staged_filename": "SPT5_T0_REP2_T1_2.gz",
+          "task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_T0_REP2_T1)"
+        },
+        {
+          "sha256": "977e96d46afff3af01527ae8db385c844c9501ed6d239390aa091265a1063159",
+          "source_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822154_1.fastq.gz",
+          "staged_filename": "SPT5_T0_REP2_T1_1.gz",
+          "task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_T0_REP2_T1)"
+        },
+        {
+          "sha256": "557434ecf97ed576642689a98622410a7903b777d6b8e1cd613f717ec78d1687",
+          "source_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822158_1.fastq.gz",
+          "staged_filename": "SPT5_T15_REP2_T1_1.gz",
+          "task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_T15_REP2_T1)"
+        },
+        {
+          "sha256": "32b00634ea4e3dfc64385d837addb5f981b473aee2a3a7a5f79f8a5bc228f4e9",
+          "source_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822158_2.fastq.gz",
+          "staged_filename": "SPT5_T15_REP2_T1_2.gz",
+          "task": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_T15_REP2_T1)"
+        }
+      ]
+    },
+    "default_six_libraries": [
+      {
+        "public_inputs": [
+          {
+            "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822153_1.fastq.gz",
+            "role": "fastq_1",
+            "sha256": "e94bb94aa3524dff446f405b8979b95304085323a851a33b436fa6511bec9b58"
+          },
+          {
+            "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822153_2.fastq.gz",
+            "role": "fastq_2",
+            "sha256": "a7c9455e792e095f5db0f2e27edf912b26bd28398976d8a3ac11ff4a463ada1f"
+          }
+        ],
+        "raw_fingerprint_sha256": "59e43c634914507ef0d1054d7a3f506e47b29058c475c0e016a94194f3ceac2a",
+        "scientific_library_label": "OSMOTIC_STRESS_T0_PE_REP1"
+      },
+      {
+        "public_inputs": [
+          {
+            "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822154_1.fastq.gz",
+            "role": "fastq_1",
+            "sha256": "977e96d46afff3af01527ae8db385c844c9501ed6d239390aa091265a1063159"
+          },
+          {
+            "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822154_2.fastq.gz",
+            "role": "fastq_2",
+            "sha256": "95fc1034e236f790a820f5977feb42c0ed895f8fe538ffb3b1643197f6aa7534"
+          }
+        ],
+        "raw_fingerprint_sha256": "b2c72cc79ac41f553d4d14b073df294b33bbcb36f35191e1d3d29a67b54a31be",
+        "scientific_library_label": "OSMOTIC_STRESS_T0_PE_REP2"
+      },
+      {
+        "public_inputs": [
+          {
+            "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822153_1.fastq.gz",
+            "role": "fastq_1",
+            "sha256": "e94bb94aa3524dff446f405b8979b95304085323a851a33b436fa6511bec9b58"
+          }
+        ],
+        "raw_fingerprint_sha256": "7ce8f293d287c394dc010e131b98da1b5ad4bc0cf43484441cd1c7424e82d22a",
+        "scientific_library_label": "OSMOTIC_STRESS_T100_SE_REP1"
+      },
+      {
+        "public_inputs": [
+          {
+            "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822154_1.fastq.gz",
+            "role": "fastq_1",
+            "sha256": "977e96d46afff3af01527ae8db385c844c9501ed6d239390aa091265a1063159"
+          }
+        ],
+        "raw_fingerprint_sha256": "0e6d2c4a433f06fc13474e59de46e584584588267cc62a76e91de1d9ba82b7a7",
+        "scientific_library_label": "OSMOTIC_STRESS_T100_SE_REP2"
+      },
+      {
+        "public_inputs": [
+          {
+            "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822157_1.fastq.gz",
+            "role": "fastq_1",
+            "sha256": "2c08804f7e8f4abf57ed928da041e22f442c033d4e8993946b8d95137d969a60"
+          },
+          {
+            "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822158_1.fastq.gz",
+            "role": "fastq_1",
+            "sha256": "557434ecf97ed576642689a98622410a7903b777d6b8e1cd613f717ec78d1687"
+          }
+        ],
+        "raw_fingerprint_sha256": "f273d81129e491ee23e8a13b543720a02b011419f87e90f0cc45e2955405d6d2",
+        "scientific_library_label": "OSMOTIC_STRESS_T150_SE_REP1"
+      },
+      {
+        "public_inputs": [
+          {
+            "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822157_1.fastq.gz",
+            "role": "fastq_1",
+            "sha256": "2c08804f7e8f4abf57ed928da041e22f442c033d4e8993946b8d95137d969a60"
+          },
+          {
+            "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822157_2.fastq.gz",
+            "role": "fastq_2",
+            "sha256": "d1f8df0027c48ff74b68245e3def9aa50c3c042498e8bd2f073ea12bba2d3d7b"
+          },
+          {
+            "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822158_1.fastq.gz",
+            "role": "fastq_1",
+            "sha256": "557434ecf97ed576642689a98622410a7903b777d6b8e1cd613f717ec78d1687"
+          },
+          {
+            "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822158_2.fastq.gz",
+            "role": "fastq_2",
+            "sha256": "32b00634ea4e3dfc64385d837addb5f981b473aee2a3a7a5f79f8a5bc228f4e9"
+          }
+        ],
+        "raw_fingerprint_sha256": "bd2f9d6acb643078dc8f09ff1e0b0d8611b6d6557ef714c925fdb63098abc222",
+        "scientific_library_label": "OSMOTIC_STRESS_T15_PE_REP1"
+      }
+    ],
+    "limit": "Actual local reporting inputs are byte-bound. This does not silently establish every historical CI input version.",
+    "public_accession_organisms": [
+      {
+        "experiment_accession": "SRX893736",
+        "primary_metadata_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR1822153&result=read_run&fields=run_accession%2Cscientific_name%2Ctax_id%2Csample_accession%2Cexperiment_accession&format=tsv",
+        "run_accession": "SRR1822153",
+        "sample_accession": "SAMN03379967",
+        "scientific_name": "Saccharomyces cerevisiae",
+        "tax_id": "4932"
+      },
+      {
+        "experiment_accession": "SRX893737",
+        "primary_metadata_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR1822154&result=read_run&fields=run_accession%2Cscientific_name%2Ctax_id%2Csample_accession%2Cexperiment_accession&format=tsv",
+        "run_accession": "SRR1822154",
+        "sample_accession": "SAMN03379977",
+        "scientific_name": "Saccharomyces cerevisiae",
+        "tax_id": "4932"
+      },
+      {
+        "experiment_accession": "SRX893740",
+        "primary_metadata_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR1822157&result=read_run&fields=run_accession%2Cscientific_name%2Ctax_id%2Csample_accession%2Cexperiment_accession&format=tsv",
+        "run_accession": "SRR1822157",
+        "sample_accession": "SAMN03379979",
+        "scientific_name": "Saccharomyces cerevisiae",
+        "tax_id": "4932"
+      },
+      {
+        "experiment_accession": "SRX893741",
+        "primary_metadata_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR1822158&result=read_run&fields=run_accession%2Cscientific_name%2Ctax_id%2Csample_accession%2Cexperiment_accession&format=tsv",
+        "run_accession": "SRR1822158",
+        "sample_accession": "SAMN03379959",
+        "scientific_name": "Saccharomyces cerevisiae",
+        "tax_id": "4932"
+      },
+      {
+        "experiment_accession": "SRX2518699",
+        "primary_metadata_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR5204809&result=read_run&fields=run_accession%2Cscientific_name%2Ctax_id%2Csample_accession%2Cexperiment_accession&format=tsv",
+        "run_accession": "SRR5204809",
+        "sample_accession": "SAMN06273488",
+        "scientific_name": "Saccharomyces cerevisiae",
+        "tax_id": "4932"
+      },
+      {
+        "experiment_accession": "SRX2518700",
+        "primary_metadata_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR5204810&result=read_run&fields=run_accession%2Cscientific_name%2Ctax_id%2Csample_accession%2Cexperiment_accession&format=tsv",
+        "run_accession": "SRR5204810",
+        "sample_accession": "SAMN06273487",
+        "scientific_name": "Saccharomyces cerevisiae",
+        "tax_id": "4932"
+      }
+    ]
+  },
+  "resequencing-prefixes": {
+    "pairs_per_accession": 250000,
+    "runs": [
+      {
+        "accession": "SRR19479022",
+        "files": [
+          {
+            "bytes": 12698785,
+            "full_source_checksum_verified": false,
+            "selection": "first 250000 complete records; re-gzipped with mtime=0",
+            "sha256": "eb035ab5fe4188e1f1ddd6466621d99397afcd859cfde9a43194bee5c6a81918",
+            "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/022/SRR19479022/SRR19479022_1.fastq.gz"
+          },
+          {
+            "bytes": 10979056,
+            "full_source_checksum_verified": false,
+            "selection": "first 250000 complete records; re-gzipped with mtime=0",
+            "sha256": "aec8bc81a6797fd0c9666efdc60fd8346817b5bcb5c0129b4d7d2fe49c876337",
+            "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/022/SRR19479022/SRR19479022_2.fastq.gz"
+          }
+        ],
+        "sample": "D28_REP1_T1"
+      },
+      {
+        "accession": "SRR19479023",
+        "files": [
+          {
+            "bytes": 12444927,
+            "full_source_checksum_verified": false,
+            "selection": "first 250000 complete records; re-gzipped with mtime=0",
+            "sha256": "8e1d7cbf272a70ef0ee6c29c47a157e62196e1b3d128ff522f6d8447d9c59ab7",
+            "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/023/SRR19479023/SRR19479023_1.fastq.gz"
+          },
+          {
+            "bytes": 11020110,
+            "full_source_checksum_verified": false,
+            "selection": "first 250000 complete records; re-gzipped with mtime=0",
+            "sha256": "377aa6be0a85c6e525dbaf5422f1ef72258b2e01018601cb78015ed6196cd393",
+            "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/023/SRR19479023/SRR19479023_2.fastq.gz"
+          }
+        ],
+        "sample": "D28_REP1_T2"
+      },
+      {
+        "accession": "SRR19479020",
+        "files": [
+          {
+            "bytes": 13815295,
+            "full_source_checksum_verified": false,
+            "selection": "first 250000 complete records; re-gzipped with mtime=0",
+            "sha256": "026a64fa228ff6f5fb20840f626168b937ca6bf458f2b07c5b712e418b722094",
+            "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/020/SRR19479020/SRR19479020_1.fastq.gz"
+          },
+          {
+            "bytes": 10979383,
+            "full_source_checksum_verified": false,
+            "selection": "first 250000 complete records; re-gzipped with mtime=0",
+            "sha256": "63293a23cc591ec25367e02574c2ed99b24a48fc4040cf8ad8962a16e2cc7f9b",
+            "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/020/SRR19479020/SRR19479020_2.fastq.gz"
+          }
+        ],
+        "sample": "D28P_REP1_T1"
+      },
+      {
+        "accession": "SRR19479021",
+        "files": [
+          {
+            "bytes": 13460845,
+            "full_source_checksum_verified": false,
+            "selection": "first 250000 complete records; re-gzipped with mtime=0",
+            "sha256": "6db1a75f9c4ca150ae08eba14591dcf7a4154f13a08796ef12e9a3c469c10383",
+            "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/021/SRR19479021/SRR19479021_1.fastq.gz"
+          },
+          {
+            "bytes": 10936707,
+            "full_source_checksum_verified": false,
+            "selection": "first 250000 complete records; re-gzipped with mtime=0",
+            "sha256": "c2a3bb217f902ca97e6e6f1edc4d7a7396b770b27100215a2fa202156010e965",
+            "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR194/021/SRR19479021/SRR19479021_2.fastq.gz"
+          }
+        ],
+        "sample": "D28P_REP1_T2"
+      }
+    ],
+    "study": "PRJNA844120"
+  },
+  "yeast-native": {
+    "inputs": {
+      "capture_status": "STAGED_FULL_READBACK_VERIFIED",
+      "design": "Two physical libraries, two genuine technical sequencing runs per library; no differential biological inference",
+      "organism": "Saccharomyces cerevisiae",
+      "runs": [
+        {
+          "accession": "SRR19479022",
+          "read1_bytes": 12698785,
+          "read1_member": "extras/inputs/D28_REP1_T1_1.fastq.gz",
+          "read1_sha256": "eb035ab5fe4188e1f1ddd6466621d99397afcd859cfde9a43194bee5c6a81918",
+          "read2_bytes": 10979056,
+          "read2_member": "extras/inputs/D28_REP1_T1_2.fastq.gz",
+          "read2_sha256": "aec8bc81a6797fd0c9666efdc60fd8346817b5bcb5c0129b4d7d2fe49c876337",
+          "replicate": 1,
+          "sample": "D28",
+          "technical_run": 1
+        },
+        {
+          "accession": "SRR19479023",
+          "read1_bytes": 12444927,
+          "read1_member": "extras/inputs/D28_REP1_T2_1.fastq.gz",
+          "read1_sha256": "8e1d7cbf272a70ef0ee6c29c47a157e62196e1b3d128ff522f6d8447d9c59ab7",
+          "read2_bytes": 11020110,
+          "read2_member": "extras/inputs/D28_REP1_T2_2.fastq.gz",
+          "read2_sha256": "377aa6be0a85c6e525dbaf5422f1ef72258b2e01018601cb78015ed6196cd393",
+          "replicate": 1,
+          "sample": "D28",
+          "technical_run": 2
+        },
+        {
+          "accession": "SRR19479020",
+          "read1_bytes": 13815295,
+          "read1_member": "extras/inputs/D28P_REP1_T1_1.fastq.gz",
+          "read1_sha256": "026a64fa228ff6f5fb20840f626168b937ca6bf458f2b07c5b712e418b722094",
+          "read2_bytes": 10979383,
+          "read2_member": "extras/inputs/D28P_REP1_T1_2.fastq.gz",
+          "read2_sha256": "63293a23cc591ec25367e02574c2ed99b24a48fc4040cf8ad8962a16e2cc7f9b",
+          "replicate": 1,
+          "sample": "D28P",
+          "technical_run": 1
+        },
+        {
+          "accession": "SRR19479021",
+          "read1_bytes": 13460845,
+          "read1_member": "extras/inputs/D28P_REP1_T2_1.fastq.gz",
+          "read1_sha256": "6db1a75f9c4ca150ae08eba14591dcf7a4154f13a08796ef12e9a3c469c10383",
+          "read2_bytes": 10936707,
+          "read2_member": "extras/inputs/D28P_REP1_T2_2.fastq.gz",
+          "read2_sha256": "c2a3bb217f902ca97e6e6f1edc4d7a7396b770b27100215a2fa202156010e965",
+          "replicate": 1,
+          "sample": "D28P",
+          "technical_run": 2
+        }
+      ],
+      "schema": "pr473-inputs/v1",
+      "selected_pairs_per_run": 250000,
+      "selection": "First 250000 complete genuine paired records per accession; no record duplication",
+      "study": "PRJNA844120",
+      "total_pairs_per_workflow": 1000000
+    },
+    "references": {
+      "assembly": "SGD R64-1-1 / GCA_000146045.2",
+      "capture_status": "OFFICIAL_REFERENCES_DOWNLOADED_AND_STAGED_VERIFIED",
+      "files": [
+        {
+          "bytes": 3784201,
+          "official_checksums_url": "https://ftp.ensembl.org/pub/release-115/fasta/saccharomyces_cerevisiae/dna/CHECKSUMS",
+          "role": "fasta",
+          "sha256": "a9953096d6a041a01a4cb5352b0232ee9373bf4c050fb23cb7ae673b2e1bb528",
+          "uncompressed_bytes": 12360704,
+          "uncompressed_sha256": "35cc97fccb91762c7a1f0f71b4adb1037b143d48b63fbd3b3f8bad45e5afa44c",
+          "url": "https://ftp.ensembl.org/pub/release-115/fasta/saccharomyces_cerevisiae/dna/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa.gz"
+        },
+        {
+          "bytes": 595453,
+          "official_checksums_url": "https://ftp.ensembl.org/pub/release-115/gtf/saccharomyces_cerevisiae/CHECKSUMS",
+          "role": "gtf",
+          "sha256": "5b20bb9a1ab7068fee9148f646ca1c12e68d656faddd5fde4ec8537dd26b9e89",
+          "uncompressed_bytes": 10463408,
+          "uncompressed_sha256": "8c43c98a3a0db24c9e53fd9d460f096c48de0eabefd955fd25d044c948692623",
+          "url": "https://ftp.ensembl.org/pub/release-115/gtf/saccharomyces_cerevisiae/Saccharomyces_cerevisiae.R64-1-1.115.gtf.gz"
+        },
+        {
+          "bytes": 1091237,
+          "official_checksums_url": "https://ftp.ensembl.org/pub/release-115/gff3/saccharomyces_cerevisiae/CHECKSUMS",
+          "role": "gff3",
+          "sha256": "717194a9522ae6d4ad97fc499f1ee56120f03877ef23ac8ee153fc51d5d5fbe5",
+          "uncompressed_bytes": 5856942,
+          "uncompressed_sha256": "3d70320fd69c941aa7b500f6265aef41920794b192c3c980d6460a6b43204792",
+          "url": "https://ftp.ensembl.org/pub/release-115/gff3/saccharomyces_cerevisiae/Saccharomyces_cerevisiae.R64-1-1.115.gff3.gz"
+        }
+      ],
+      "gff_basename_alias": {
+        "accepted_basename": "Saccharomyces_cerevisiae.R64-1-1.115.gff.gz",
+        "alias_bytes": 1091237,
+        "alias_member": "extras/references/Saccharomyces_cerevisiae.R64-1-1.115.gff.gz",
+        "alias_sha256": "717194a9522ae6d4ad97fc499f1ee56120f03877ef23ac8ee153fc51d5d5fbe5",
+        "annotation_bytes_changed": false,
+        "original_basename": "Saccharomyces_cerevisiae.R64-1-1.115.gff3.gz",
+        "original_member": "extras/references/Saccharomyces_cerevisiae.R64-1-1.115.gff3.gz",
+        "reason": "Pipeline filename schema rejects official .gff3.gz basename; byte-identical .gff.gz alias accepted",
+        "source_code_changed": false,
+        "validation_disabled": false
+      },
+      "mitochondrial_contig": "Mito",
+      "release": 115,
+      "schema": "pr473-references/v1"
+    }
+  }
+}
