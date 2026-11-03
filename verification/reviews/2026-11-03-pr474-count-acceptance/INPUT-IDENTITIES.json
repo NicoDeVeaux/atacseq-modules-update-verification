@@ -1,0 +1,62 @@
+[
+  {
+    "name": "consensus_peaks.mLb.clN.boolean.txt",
+    "bytes": 13554767,
+    "sha256": "1594f45353899704d43364b35614f32517b1c79c52b875a3e4f506bba7779701"
+  },
+  {
+    "name": "consensus_peaks.mLb.clN.bed",
+    "bytes": 3206594,
+    "sha256": "cce1858a1f6f283875cc00720e2936075186aec1a06ab91ac7059be89bcde771"
+  },
+  {
+    "name": "legacy.saf",
+    "bytes": 3056832,
+    "sha256": "387a661c3cd88d347a5ef4d41ca9cc38eb49cc9ba723916689ac2c45aaa6943c"
+  },
+  {
+    "name": "historical-fixed.tsv",
+    "bytes": 4063680,
+    "sha256": "7623ea076dfe8aba9100e2b76c52735f9dba4e3f6852dc17cd36fb101b617bef"
+  },
+  {
+    "name": "historical-fixed.tsv.summary",
+    "bytes": 626,
+    "sha256": "ac549611198436d8811c23b43999eb9a7f829e0166058efa06084499cc226c0a"
+  },
+  {
+    "name": "original.command.sh",
+    "bytes": 1131,
+    "sha256": "300f9f88d7e817429cce418ab28eb27a9a42c8708ee69ea195aebb46f7937f1d"
+  },
+  {
+    "name": "production-macs3_consensus.nf",
+    "bytes": 2543,
+    "sha256": "33b326d86b90f82e93d4fc2fae8ff48b5a4747583a9f670f38bbb02ad4a746c5"
+  },
+  {
+    "name": "archived-dev.tsv",
+    "bytes": 4063680,
+    "sha256": "cbdf490e3112781bd0e31d561e14c00f03c3052991cc1a1e2f8870327725eb62"
+  },
+  {
+    "name": "HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam",
+    "bytes": 285036036,
+    "sha256": "eade69e402e2510939dc047d4754dc4d1372d52e2f87d973df5ff9cca11797cc"
+  },
+  {
+    "name": "HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam",
+    "bytes": 401126021,
+    "sha256": "76a50ffbd4289782a62c46002d870bf09743ca7f5273adf33039198f52e2f1aa"
+  },
+  {
+    "name": "MOCK_48H_REP1.mLb.clN.sorted.bam",
+    "bytes": 304910830,
+    "sha256": "1b9e8743579d36e4f50f08b6bf1ac17599ccb41ac38281d792d90ee0eacda37b"
+  },
+  {
+    "name": "MOCK_48H_REP2.mLb.clN.sorted.bam",
+    "bytes": 437456249,
+    "sha256": "6f0e7ab203e7033cf2f567507d7dfa253c88885a5fd68ce0acfa77aa5b8040b5"
+  }
+]

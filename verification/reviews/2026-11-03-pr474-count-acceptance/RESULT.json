@@ -1,0 +1,120 @@
+{
+  "rows": 74895,
+  "cells": 299580,
+  "changed_cells": 2280,
+  "unchanged_cells": 297300,
+  "changed_regions": 2223,
+  "per_sample": {
+    "HIV_CD86HI_48H_REP1.mLb.clN.sorted.bam": {
+      "cells": 74895,
+      "old_sum": 755472,
+      "new_sum": 755031,
+      "changed": 438,
+      "delta": -441,
+      "decreased": 438
+    },
+    "HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam": {
+      "cells": 74895,
+      "old_sum": 1049186,
+      "new_sum": 1048552,
+      "changed": 630,
+      "delta": -634,
+      "decreased": 630
+    },
+    "MOCK_48H_REP1.mLb.clN.sorted.bam": {
+      "cells": 74895,
+      "old_sum": 728326,
+      "new_sum": 727863,
+      "changed": 460,
+      "delta": -463,
+      "decreased": 460
+    },
+    "MOCK_48H_REP2.mLb.clN.sorted.bam": {
+      "cells": 74895,
+      "old_sum": 1207245,
+      "new_sum": 1206490,
+      "changed": 752,
+      "delta": -755,
+      "decreased": 752
+    }
+  },
+  "delta_distribution": {
+    "-1": 2267,
+    "-2": 13
+  },
+  "literal_acceptance_criterion_met": false,
+  "annotation_contract_passed": true,
+  "witnesses": [
+    {
+      "Geneid": "Interval_53",
+      "Chr": "chr1",
+      "old_start": 2290798,
+      "new_start": 2290799,
+      "End": 2290946,
+      "sample": "MOCK_48H_REP2.mLb.clN.sorted.bam",
+      "old": 7,
+      "new": 6,
+      "delta": -1
+    },
+    {
+      "Geneid": "Interval_54",
+      "Chr": "chr1",
+      "old_start": 2301063,
+      "new_start": 2301064,
+      "End": 2301308,
+      "sample": "MOCK_48H_REP1.mLb.clN.sorted.bam",
+      "old": 2,
+      "new": 1,
+      "delta": -1
+    },
+    {
+      "Geneid": "Interval_57",
+      "Chr": "chr1",
+      "old_start": 2391348,
+      "new_start": 2391349,
+      "End": 2391933,
+      "sample": "MOCK_48H_REP2.mLb.clN.sorted.bam",
+      "old": 44,
+      "new": 43,
+      "delta": -1
+    },
+    {
+      "Geneid": "Interval_116",
+      "Chr": "chr1",
+      "old_start": 6535206,
+      "new_start": 6535207,
+      "End": 6535346,
+      "sample": "MOCK_48H_REP2.mLb.clN.sorted.bam",
+      "old": 1,
+      "new": 0,
+      "delta": -1
+    },
+    {
+      "Geneid": "Interval_171",
+      "Chr": "chr1",
+      "old_start": 9292635,
+      "new_start": 9292636,
+      "End": 9293372,
+      "sample": "MOCK_48H_REP2.mLb.clN.sorted.bam",
+      "old": 29,
+      "new": 28,
+      "delta": -1
+    },
+    {
+      "Geneid": "Interval_180",
+      "Chr": "chr1",
+      "old_start": 9717671,
+      "new_start": 9717672,
+      "End": 9717894,
+      "sample": "HIV_CD86HI_48H_REP2.mLb.clN.sorted.bam",
+      "old": 9,
+      "new": 8,
+      "delta": -1
+    }
+  ],
+  "source_commit": "ef206a60f88b4c754eaf4d0a8c0b9ee0c9268180",
+  "image": "quay.io/biocontainers/subread@sha256:ccee1f6ebb924fd0b3b6db646a51dabc905697aa25be132386dd490c2318286c",
+  "legacy_all_cells_exact": true,
+  "scope": "count-only replay; no full workflow rerun",
+  "historical_image_digest_bound": false
+}
