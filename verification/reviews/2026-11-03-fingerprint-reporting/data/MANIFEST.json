@@ -1,0 +1,479 @@
+{
+  "schema": "atacseq-public-reporting-data/v1",
+  "files": [
+    {
+      "path": "PUBLIC-INPUTS.json",
+      "bytes": 13464,
+      "sha256": "c74b96dd2908302eb7f76ee17ab06b77b0f0663c0939d3b6591cc660617379e4",
+      "transformation": "Explicit scientific fields selected; local paths and runtime metadata omitted"
+    },
+    {
+      "path": "controls/nf25/raw/SPT5_T0_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "bytes": 820,
+      "sha256": "74becaf51e3dfbb73643468a2cf12bec393a7a0515d663f73e74f1950f88105e",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/nf25/quality/SPT5_T0_REP1.mLb.clN.plotFingerprint.qcmetrics.txt",
+      "bytes": 461,
+      "sha256": "ae4a68fed1b5ab3ec8c3636eb73afda8d935fed9e1c9a8907df136beafc7d4bb",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/nf25/commands/SPT5_T0_REP1.mLb.clN.plotFingerprint.raw.sh",
+      "bytes": 495,
+      "sha256": "7113ea82925bea691d219b979363119865dc02388ba26926f8cdf90200d5f956",
+      "transformation": "Presentation extract; generic environment wrapper omitted",
+      "original_command_sha256": "b55bf1640614518c589b2b616e91e8341cd876aa819e742a208598929dd46c08",
+      "pre_curation_extract_sha256": "b55bf1640614518c589b2b616e91e8341cd876aa819e742a208598929dd46c08"
+    },
+    {
+      "path": "controls/nf25/raw/SPT5_T15_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "bytes": 820,
+      "sha256": "efd28bc4c6a76126896cf2f65953b985572b2a5b6314a3f8b3b6c52dc9975260",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/nf25/quality/SPT5_T15_REP1.mLb.clN.plotFingerprint.qcmetrics.txt",
+      "bytes": 462,
+      "sha256": "74b529ce3d7b202231c44d85b5d70f9c7a8e44b12cffa8aee63b28207b1e66f7",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/nf25/commands/SPT5_T15_REP1.mLb.clN.plotFingerprint.raw.sh",
+      "bytes": 501,
+      "sha256": "2e573edfb85ee4d0d54bac4b56f005eb5200c835cb169f28c9cbec86168a90be",
+      "transformation": "Presentation extract; generic environment wrapper omitted",
+      "original_command_sha256": "68aacdb394caf58acbd2575c5cae721848b593842781477e8caf22a99430089b",
+      "pre_curation_extract_sha256": "68aacdb394caf58acbd2575c5cae721848b593842781477e8caf22a99430089b"
+    },
+    {
+      "path": "controls/nf25/raw/SPT5_T0_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "bytes": 799,
+      "sha256": "96b2863693c72448a34e3f8a63fdc5fe7c4096c2ff1f889e27e8f7019d7bbf3b",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/nf25/quality/SPT5_T0_REP2.mLb.clN.plotFingerprint.qcmetrics.txt",
+      "bytes": 461,
+      "sha256": "e927c65c1dbb95b092bce4da6b5e1601a3e6e2dbd3376d8630fc4be6a29caa2f",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/nf25/commands/SPT5_T0_REP2.mLb.clN.plotFingerprint.raw.sh",
+      "bytes": 495,
+      "sha256": "d0a0ddb905e8437604ddbbacf3c268b00ccb1a5af5b8a5f0a34b3a51594c9338",
+      "transformation": "Presentation extract; generic environment wrapper omitted",
+      "original_command_sha256": "433e4a15e95c8d20cb26cd86e97b7870dac9ac14d2f0e1cf784eff6fee075a16",
+      "pre_curation_extract_sha256": "433e4a15e95c8d20cb26cd86e97b7870dac9ac14d2f0e1cf784eff6fee075a16"
+    },
+    {
+      "path": "controls/nf25/raw/SPT5_T15_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "bytes": 857,
+      "sha256": "19e65d8b39350ab58e443a2f0de24505cb701d7377f8bafd7bec9a767961c5cd",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/nf25/quality/SPT5_T15_REP2.mLb.clN.plotFingerprint.qcmetrics.txt",
+      "bytes": 461,
+      "sha256": "93f4a42f8fdd998b89a9fa2b667c079d6c96b3f6cd5f66aba55abcfa27a31a36",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/nf25/commands/SPT5_T15_REP2.mLb.clN.plotFingerprint.raw.sh",
+      "bytes": 501,
+      "sha256": "1e0cfbcb977621211564fbe1796e741cb2d8f6277784a68b0da3b252ca1a79c6",
+      "transformation": "Presentation extract; generic environment wrapper omitted",
+      "original_command_sha256": "e642babeb28c3df3c2ffcd15fe23d386b6ca9bf9667533179e499335d2837f01",
+      "pre_curation_extract_sha256": "e642babeb28c3df3c2ffcd15fe23d386b6ca9bf9667533179e499335d2837f01"
+    },
+    {
+      "path": "controls/nf25/EXPECTED.json",
+      "bytes": 54915,
+      "sha256": "0b916c7575df7a7a10bf8b413024bdbbec6302eb52909848862ad4d423cbdc55",
+      "transformation": "Explicit scientific fields selected; local paths and runtime metadata omitted",
+      "original_receipt_sha256": "1975e8ce12a2b9c32b48e2fc5e97fe860cbf842a5599e89f54221eb5599340cc"
+    },
+    {
+      "path": "controls/nf26/raw/SPT5_T15_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "bytes": 820,
+      "sha256": "0e644a2247cf6e01e7a0666c350cb6ab430e94b5d87fe9677e98befe24b1fe20",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/nf26/quality/SPT5_T15_REP1.mLb.clN.plotFingerprint.qcmetrics.txt",
+      "bytes": 462,
+      "sha256": "74b529ce3d7b202231c44d85b5d70f9c7a8e44b12cffa8aee63b28207b1e66f7",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/nf26/commands/SPT5_T15_REP1.mLb.clN.plotFingerprint.raw.sh",
+      "bytes": 501,
+      "sha256": "2e573edfb85ee4d0d54bac4b56f005eb5200c835cb169f28c9cbec86168a90be",
+      "transformation": "Presentation extract; generic environment wrapper omitted",
+      "original_command_sha256": "d17956a7e1fd1984c99e1a7dd27e9aac65dab78bec778757521f71c5a13060fa",
+      "pre_curation_extract_sha256": "d17956a7e1fd1984c99e1a7dd27e9aac65dab78bec778757521f71c5a13060fa"
+    },
+    {
+      "path": "controls/nf26/raw/SPT5_T0_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "bytes": 799,
+      "sha256": "30ecaa872bd7e229c021d1f99df815c5cbf54dac3c06849f4ff4a487dff693bc",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/nf26/quality/SPT5_T0_REP2.mLb.clN.plotFingerprint.qcmetrics.txt",
+      "bytes": 461,
+      "sha256": "e927c65c1dbb95b092bce4da6b5e1601a3e6e2dbd3376d8630fc4be6a29caa2f",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/nf26/commands/SPT5_T0_REP2.mLb.clN.plotFingerprint.raw.sh",
+      "bytes": 495,
+      "sha256": "d0a0ddb905e8437604ddbbacf3c268b00ccb1a5af5b8a5f0a34b3a51594c9338",
+      "transformation": "Presentation extract; generic environment wrapper omitted",
+      "original_command_sha256": "a578600ab5ff97aab6e9e5d2e23768218fab6f2d504b36061527fae193ada52f",
+      "pre_curation_extract_sha256": "a578600ab5ff97aab6e9e5d2e23768218fab6f2d504b36061527fae193ada52f"
+    },
+    {
+      "path": "controls/nf26/raw/SPT5_T0_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "bytes": 820,
+      "sha256": "df3f8a0896a0762c6f0018d0271b9228fa7440077c6a05b370820b8ff6343741",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/nf26/quality/SPT5_T0_REP1.mLb.clN.plotFingerprint.qcmetrics.txt",
+      "bytes": 461,
+      "sha256": "ae4a68fed1b5ab3ec8c3636eb73afda8d935fed9e1c9a8907df136beafc7d4bb",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/nf26/commands/SPT5_T0_REP1.mLb.clN.plotFingerprint.raw.sh",
+      "bytes": 495,
+      "sha256": "7113ea82925bea691d219b979363119865dc02388ba26926f8cdf90200d5f956",
+      "transformation": "Presentation extract; generic environment wrapper omitted",
+      "original_command_sha256": "8be69ad048a26ac21f06a7a20a23296a398d08d0849b6a32edf3a1b0f1ff3edc",
+      "pre_curation_extract_sha256": "8be69ad048a26ac21f06a7a20a23296a398d08d0849b6a32edf3a1b0f1ff3edc"
+    },
+    {
+      "path": "controls/nf26/raw/SPT5_T15_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "bytes": 857,
+      "sha256": "fbbeee86f478256d4743d5e0f87f6c32b9dfd9b3e363a305172e223198a14d52",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/nf26/quality/SPT5_T15_REP2.mLb.clN.plotFingerprint.qcmetrics.txt",
+      "bytes": 461,
+      "sha256": "93f4a42f8fdd998b89a9fa2b667c079d6c96b3f6cd5f66aba55abcfa27a31a36",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/nf26/commands/SPT5_T15_REP2.mLb.clN.plotFingerprint.raw.sh",
+      "bytes": 501,
+      "sha256": "1e0cfbcb977621211564fbe1796e741cb2d8f6277784a68b0da3b252ca1a79c6",
+      "transformation": "Presentation extract; generic environment wrapper omitted",
+      "original_command_sha256": "89505addb60acc01c04e411d8261241e70569750b911aa2d08e3424b4dc31139",
+      "pre_curation_extract_sha256": "89505addb60acc01c04e411d8261241e70569750b911aa2d08e3424b4dc31139"
+    },
+    {
+      "path": "controls/nf26/EXPECTED.json",
+      "bytes": 54915,
+      "sha256": "2c878b32dee6bb6b196b440c9bcee00d324d96c4bd1a9a0b3f18bb627b31c4f4",
+      "transformation": "Explicit scientific fields selected; local paths and runtime metadata omitted",
+      "original_receipt_sha256": "b421d9aaa0d5f105b0a2ea7b8cb96eaa54f3748e88c29f0bf3c380ccad7bc38f"
+    },
+    {
+      "path": "controls/exports/NF25_full_F723/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "bytes": 19689,
+      "sha256": "d89fe75b74919a9a4cb2789907a430db4d35e558bdd849b083410acb6e114ac1",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/exports/NF25_full_F723/mqc_deeptools_fingerprint_plot_1.txt",
+      "bytes": 26062,
+      "sha256": "7a85704f6076f4c7ab8d8610280a4439b274221b0e7709b6f114f987168b6ab6",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/exports/NF25_reverse_F723/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "bytes": 19689,
+      "sha256": "d89fe75b74919a9a4cb2789907a430db4d35e558bdd849b083410acb6e114ac1",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/exports/NF25_reverse_F723/mqc_deeptools_fingerprint_plot_1.txt",
+      "bytes": 26062,
+      "sha256": "7a85704f6076f4c7ab8d8610280a4439b274221b0e7709b6f114f987168b6ab6",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/exports/NF26_full_F532/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "bytes": 19689,
+      "sha256": "d89fe75b74919a9a4cb2789907a430db4d35e558bdd849b083410acb6e114ac1",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/exports/NF26_full_F532/mqc_deeptools_fingerprint_plot_1.txt",
+      "bytes": 26062,
+      "sha256": "7a85704f6076f4c7ab8d8610280a4439b274221b0e7709b6f114f987168b6ab6",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/exports/NF26_F723_forward_bridge/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "bytes": 19689,
+      "sha256": "d89fe75b74919a9a4cb2789907a430db4d35e558bdd849b083410acb6e114ac1",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/exports/NF26_F723_forward_bridge/mqc_deeptools_fingerprint_plot_1.txt",
+      "bytes": 26062,
+      "sha256": "7a85704f6076f4c7ab8d8610280a4439b274221b0e7709b6f114f987168b6ab6",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/exports/NF26_F723_reverse_bridge/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "bytes": 19689,
+      "sha256": "d89fe75b74919a9a4cb2789907a430db4d35e558bdd849b083410acb6e114ac1",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/exports/NF26_F723_reverse_bridge/mqc_deeptools_fingerprint_plot_1.txt",
+      "bytes": 26062,
+      "sha256": "7a85704f6076f4c7ab8d8610280a4439b274221b0e7709b6f114f987168b6ab6",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "controls/EXPORT-SCOPES.json",
+      "bytes": 1922,
+      "sha256": "d29af5b7baab36c4a8134e00a2ef83709edff4922a777e124d123366aa251a34",
+      "transformation": "Explicit scientific fields selected; local paths and runtime metadata omitted"
+    },
+    {
+      "path": "sources/multiqc_config.yml",
+      "bytes": 5488,
+      "sha256": "f7ffa59e5feed728a70443e05418caf4496abe3bca035e2c1fa4a64b4f2bd2a8",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "sources/multiqc_fingerprint.py",
+      "bytes": 3160,
+      "sha256": "723bf55bd129a1af051f95c164f6fefab015a32b54195dcccefdc945aa3c469a",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "legacy/originals/SPT5_T15_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "bytes": 819,
+      "sha256": "bec1a5231363d058722de0509c559815cab4cc1aea81cc25d577b1896699063b",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "legacy/counterfactual/SPT5_T15_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "bytes": 788,
+      "sha256": "d23d53bfa64f97a4e67479a288d871541dc9d5e008a20cad271f6ea5470131f5",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "legacy/originals/SPT5_T0_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "bytes": 819,
+      "sha256": "f1a37c4774d7ed56e17718338e6de7b8fd3c716840ef12459c6cd98d5bc05d2f",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "legacy/counterfactual/SPT5_T0_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "bytes": 789,
+      "sha256": "2366bb787a7d9505ddb4b293f349595a29cc6dfbc1aebf0962524f151600df89",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "legacy/originals/SPT5_T0_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "bytes": 798,
+      "sha256": "85a5d89ec238cde2dce76ec6e72470c01a2fcfc2f7ff087fad3fd1241bf6241d",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "legacy/counterfactual/SPT5_T0_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "bytes": 768,
+      "sha256": "969021a91fb57a9913d97a2f051231c6c81240f660a203e15f21551e629ae46f",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "legacy/originals/SPT5_T15_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "bytes": 856,
+      "sha256": "6b8e8430e624969cbb9a8b5f38b60d4cc2ad51f73e9d8c07783230d171ad09f9",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "legacy/counterfactual/SPT5_T15_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "bytes": 825,
+      "sha256": "1e682bd21b1598b556567ce80ce145eda929268df0507bd7aced95f295e9c806",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "legacy/INPUT-BINDINGS.json",
+      "bytes": 3743,
+      "sha256": "a7a136917e9ca2fec74924b60dea77ae74c88314126cd7224e96fd6f6b907651",
+      "transformation": "Explicit scientific fields selected; local paths and runtime metadata omitted"
+    },
+    {
+      "path": "legacy/orders/T0-last-rep1__T0-last-rep2/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "bytes": 13396,
+      "sha256": "210a05219b0aaf1ce64219e393e55903954789b57b833e0edac1a517b6ad7c76",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "legacy/orders/T0-last-rep1__T0-last-rep2/mqc_deeptools_fingerprint_plot_1.txt",
+      "bytes": 19911,
+      "sha256": "9a19bbe2ecbb0676c2c0a4b2952eb77e1b858cff10a15192ea6b499f1b12e8fc",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "legacy/orders/T0-last-rep1__T0-last-rep2/EXPECTED.json",
+      "bytes": 40313,
+      "sha256": "aa24a8a0e6e7ec946fa6f1c03505319e3d8344f8b58c8eeb3fb5eb676101e8a7",
+      "transformation": "Explicit scientific fields selected; local paths and runtime metadata omitted"
+    },
+    {
+      "path": "legacy/orders/T0-last-rep1__T15-last-rep2/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "bytes": 12047,
+      "sha256": "8a70f402fe36f0e0bf8570c63c9e80a1500ef06dc2186d92ab68be7b92d19535",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "legacy/orders/T0-last-rep1__T15-last-rep2/mqc_deeptools_fingerprint_plot_1.txt",
+      "bytes": 18558,
+      "sha256": "315012eeedf3a181b525a9f390f8288605e58dedb3d8f6a10aea4c13f3b2bfaf",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "legacy/orders/T0-last-rep1__T15-last-rep2/EXPECTED.json",
+      "bytes": 39030,
+      "sha256": "2075269c22e17e7d579daeab64bbef546ee06a31b1cf8fb84f13169dbd5f7d02",
+      "transformation": "Explicit scientific fields selected; local paths and runtime metadata omitted"
+    },
+    {
+      "path": "legacy/orders/T15-last-rep1__T0-last-rep2/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "bytes": 13354,
+      "sha256": "f91d74f10a27dafb651c8a146f699a63c5fbd694fb5176264f1b2d3b7e0c734a",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "legacy/orders/T15-last-rep1__T0-last-rep2/mqc_deeptools_fingerprint_plot_1.txt",
+      "bytes": 19871,
+      "sha256": "1cdd1e10394c28c477108074eb46ae354b2ce103ff3d86bb45712c531616f4f8",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "legacy/orders/T15-last-rep1__T0-last-rep2/EXPECTED.json",
+      "bytes": 40241,
+      "sha256": "72c0b425bf6f49df9a09caa7dcd35d18ad7e158765fa5fdfaf429e536b8dfbe9",
+      "transformation": "Explicit scientific fields selected; local paths and runtime metadata omitted"
+    },
+    {
+      "path": "legacy/orders/T15-last-rep1__T15-last-rep2/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "bytes": 12005,
+      "sha256": "d981dfa921f6af9db31f5b53136e73770dbe2485af53abe1b96316a814b0d850",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "legacy/orders/T15-last-rep1__T15-last-rep2/mqc_deeptools_fingerprint_plot_1.txt",
+      "bytes": 18518,
+      "sha256": "eba28d2b7a0a52bbbbbb2386f571826b98fdc6bd6cbac43ca98da7eba03ccbf7",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "legacy/orders/T15-last-rep1__T15-last-rep2/EXPECTED.json",
+      "bytes": 38958,
+      "sha256": "2222065a55ca1a92cf05785e83307e0a34751b8c6eaf24ee52c807f9c89fd4d3",
+      "transformation": "Explicit scientific fields selected; local paths and runtime metadata omitted"
+    },
+    {
+      "path": "legacy/retained-original-plot.txt",
+      "bytes": 26058,
+      "sha256": "7bb5e711d544853e238c5edbfbcacffd97a0ba6773b156c05236a54777f43e18",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "default/raw/OSMOTIC_STRESS_T0_PE_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "bytes": 360,
+      "sha256": "59e43c634914507ef0d1054d7a3f506e47b29058c475c0e016a94194f3ceac2a",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "default/raw/OSMOTIC_STRESS_T0_PE_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "bytes": 322,
+      "sha256": "b2c72cc79ac41f553d4d14b073df294b33bbcb36f35191e1d3d29a67b54a31be",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "default/raw/OSMOTIC_STRESS_T100_SE_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "bytes": 376,
+      "sha256": "7ce8f293d287c394dc010e131b98da1b5ad4bc0cf43484441cd1c7424e82d22a",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "default/raw/OSMOTIC_STRESS_T100_SE_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "bytes": 336,
+      "sha256": "0e6d2c4a433f06fc13474e59de46e584584588267cc62a76e91de1d9ba82b7a7",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "default/raw/OSMOTIC_STRESS_T150_SE_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "bytes": 462,
+      "sha256": "f273d81129e491ee23e8a13b543720a02b011419f87e90f0cc45e2955405d6d2",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "default/raw/OSMOTIC_STRESS_T15_PE_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "bytes": 456,
+      "sha256": "bd2f9d6acb643078dc8f09ff1e0b0d8611b6d6557ef714c925fdb63098abc222",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "default/legacy/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "bytes": 11905,
+      "sha256": "b274ff6ad11a365d85412978d040e0ff58bb7e126e01a9f2f24684e1481a8532",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "default/repaired/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "bytes": 19085,
+      "sha256": "16c75747b5c72fbb316444ed6089ab6c1392dafeeda4a3ec4a3cd4fbc148acc8",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "default/repaired/mqc_deeptools_fingerprint_plot_1.txt",
+      "bytes": 18463,
+      "sha256": "4556f0597dd13b07f987911d0c6f86e9b5c0251268d030f65263eb0fb0c9fd2d",
+      "transformation": "byte-identical scientific file"
+    },
+    {
+      "path": "default/EXPECTED.json",
+      "bytes": 34866,
+      "sha256": "cb63e080aa43bdf32befdeb1114eacf2f8541cfc87666a656bd689109375a68d",
+      "transformation": "Explicit scientific fields selected; local paths and runtime metadata omitted",
+      "original_receipt_sha256": "12c4768ff965c87711f421e8605d2de33b44231a1daa36912f27d79362209804"
+    },
+    {
+      "path": "PUBLIC-PROVENANCE.json",
+      "transformation": "Independent public provenance receipt; one generic exclusion phrase clarified",
+      "bytes": 46921,
+      "sha256": "7bd51facda9ea0347b3c0a5127005358458a916f965c91c5aa668540f82b83d7",
+      "original_receipt_sha256": "9d3de0143ddfb6baa7fe67cbb08aeaeb066690249075090038aa51e7b2b536b5"
+    },
+    {
+      "path": "README.md",
+      "transformation": "Public provenance review, package documentation or verifier",
+      "bytes": 2784,
+      "sha256": "dbdef29a53b82274df838649a0f700d8e2ec3643cfe6cb41528d669bdd369979"
+    },
+    {
+      "path": "verify.py",
+      "transformation": "Public provenance review, package documentation or verifier",
+      "bytes": 3950,
+      "sha256": "2a25bdd7914ef142ced5d7572bfcec98a418633a50822ebde59a6e1f242b3913"
+    }
+  ],
+  "scope": "Selected scientific reporting evidence only. No complete work directory, BAM cache, environment, credentials or machine configuration.",
+  "identifiers_retained": "Public yeast sample labels, public accession filenames, scientific task roles and source hashes.",
+  "local_originals_retained": true,
+  "private_runtime_archive_included": false
+}

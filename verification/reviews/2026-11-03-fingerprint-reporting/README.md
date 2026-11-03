@@ -23,6 +23,8 @@ The numeric repair also affects six no-control cases. A source-matched default r
 
 Do not import unrelated featureCounts executable-header differences from local emulation. Quality metrics are emitted by deepTools but are not staged into MultiQC by the existing workflow; their routing remains outside this proposal.
 
-All local validation data is retained until issue #473 is resolved. The [receipt index](RECEIPT-INDEX.json) binds the published proposal commit, changed source files and curated evidence. Full runtime data remain private; published JSON replaces local path prefixes and retains the original receipt digests.
+The [downloadable public data archive](fingerprint-reporting-data.tar.gz?raw=true) is about 114 KiB. Its [unpacked files](data/README.md), [checksum](fingerprint-reporting-data.tar.gz.sha256), [scientific review](PUBLIC-DATA-SCIENTIFIC-REVIEW.json) and [privacy review](PUBLIC-DATA-PRIVACY-REVIEW.json) include genuine matrices, exact exports, legacy order controls and public input bindings. All fourteen controls inputs were downloaded anonymously and rehashed. The package excludes complete reports, environment and runtime files, credentials, personal paths and the work cache; public yeast sample labels remain. Gitleaks and independent review passed for the exact package. The full local runtime archive is retained locally.
+
+All local validation data is retained until issue #473 is resolved. The [receipt index](RECEIPT-INDEX.json) binds the published proposal commit, changed source files and curated evidence. Full runtime data remain local; published JSON replaces local path prefixes and retains the original receipt digests.
 
 This is written by an AI agent (model name unavailable) on Nico DeVeaux’s behalf.

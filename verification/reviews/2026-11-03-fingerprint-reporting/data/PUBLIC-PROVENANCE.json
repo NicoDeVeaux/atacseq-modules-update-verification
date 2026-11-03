@@ -1,0 +1,947 @@
+{
+  "schema": "atacseq-reporting-public-scientific-provenance-review/v1",
+  "verdict": "SCIENTIFIC_REPORT_PAYLOADS_PUBLIC_YEAST_SOURCE_BOUND",
+  "review_scope": "Bounded independent review of source/input binding and exact report text; package inventory audit separate. No runtime/credential directories reviewed or approved.",
+  "public_repository": {
+    "requested_url": "https://api.github.com/repos/nf-core/test-datasets",
+    "http_status": 200,
+    "full_name": "nf-core/test-datasets",
+    "private": false,
+    "visibility": "public"
+  },
+  "immutable_dataset_commits": [
+    {
+      "name": "atacseq_commit",
+      "requested_url": "https://api.github.com/repos/nf-core/test-datasets/git/commits/cd022b097372b078a68d8afadb172ad7342fd91f",
+      "http_status": 200,
+      "sha": "cd022b097372b078a68d8afadb172ad7342fd91f",
+      "tree_sha": "e9365ee91dcdaa01f097993e866fe201b9344998"
+    },
+    {
+      "name": "chipseq_commit",
+      "requested_url": "https://api.github.com/repos/nf-core/test-datasets/git/commits/dc342f94ec86799d7bd635e7192b1cbb3654b559",
+      "http_status": 200,
+      "sha": "dc342f94ec86799d7bd635e7192b1cbb3654b559",
+      "tree_sha": "af6805b4d74f0ca125d133cf697c6b9eb4493fce"
+    }
+  ],
+  "public_samplesheets": {
+    "controls": {
+      "sha256": "26d29af8f3a4d09953b90e110965de8caccc9bebdb46598cfbafd1416324a1e0",
+      "bytes": 1487,
+      "anonymous_public_download_matches_frozen_original": true,
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/samplesheet/v2.1/samplesheet_test_controls.csv"
+    },
+    "default": {
+      "sha256": "52a21d927287e0b39c40243cf9c2ce7134eef83ca1582d3c89b9eeb278e67218",
+      "bytes": 1371,
+      "anonymous_public_download_matches_frozen_original": true,
+      "url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/samplesheet/v2.0/samplesheet_test.csv"
+    }
+  },
+  "public_accession_organisms": [
+    {
+      "run_accession": "SRR1822153",
+      "scientific_name": "Saccharomyces cerevisiae",
+      "tax_id": "4932",
+      "sample_accession": "SAMN03379967",
+      "experiment_accession": "SRX893736",
+      "primary_metadata_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR1822153&result=read_run&fields=run_accession%2Cscientific_name%2Ctax_id%2Csample_accession%2Cexperiment_accession&format=tsv"
+    },
+    {
+      "run_accession": "SRR1822154",
+      "scientific_name": "Saccharomyces cerevisiae",
+      "tax_id": "4932",
+      "sample_accession": "SAMN03379977",
+      "experiment_accession": "SRX893737",
+      "primary_metadata_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR1822154&result=read_run&fields=run_accession%2Cscientific_name%2Ctax_id%2Csample_accession%2Cexperiment_accession&format=tsv"
+    },
+    {
+      "run_accession": "SRR1822157",
+      "scientific_name": "Saccharomyces cerevisiae",
+      "tax_id": "4932",
+      "sample_accession": "SAMN03379979",
+      "experiment_accession": "SRX893740",
+      "primary_metadata_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR1822157&result=read_run&fields=run_accession%2Cscientific_name%2Ctax_id%2Csample_accession%2Cexperiment_accession&format=tsv"
+    },
+    {
+      "run_accession": "SRR1822158",
+      "scientific_name": "Saccharomyces cerevisiae",
+      "tax_id": "4932",
+      "sample_accession": "SAMN03379959",
+      "experiment_accession": "SRX893741",
+      "primary_metadata_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR1822158&result=read_run&fields=run_accession%2Cscientific_name%2Ctax_id%2Csample_accession%2Cexperiment_accession&format=tsv"
+    },
+    {
+      "run_accession": "SRR5204809",
+      "scientific_name": "Saccharomyces cerevisiae",
+      "tax_id": "4932",
+      "sample_accession": "SAMN06273488",
+      "experiment_accession": "SRX2518699",
+      "primary_metadata_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR5204809&result=read_run&fields=run_accession%2Cscientific_name%2Ctax_id%2Csample_accession%2Cexperiment_accession&format=tsv"
+    },
+    {
+      "run_accession": "SRR5204810",
+      "scientific_name": "Saccharomyces cerevisiae",
+      "tax_id": "4932",
+      "sample_accession": "SAMN06273487",
+      "experiment_accession": "SRX2518700",
+      "primary_metadata_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR5204810&result=read_run&fields=run_accession%2Cscientific_name%2Ctax_id%2Csample_accession%2Cexperiment_accession&format=tsv"
+    }
+  ],
+  "all_sources_nonhuman": true,
+  "actual_scientific_object_rehash_checks": 39,
+  "all_actual_bytes_and_available_git_blob_hashes_match": true,
+  "actual_objects": [
+    {
+      "arm": "controls-25.10.4",
+      "role": "NFCORE_ATACSEQ:PREPARE_GENOME:SAMTOOLS_FAIDX (genome.fa)",
+      "sha256": "c0b7305c230b550c3d8ccc692df52338afc7a297b43d965868c285b98aa64ae1",
+      "bytes": 12359807,
+      "git_blob_sha1": "9c4c1b18cccd330e850eb5e9e3f4c2c0d1abadb4",
+      "public_object": {
+        "dataset": "atacseq",
+        "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+        "repository_path": "reference/genome.fa",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/reference/genome.fa",
+        "git_blob_sha1": "9c4c1b18cccd330e850eb5e9e3f4c2c0d1abadb4"
+      }
+    },
+    {
+      "arm": "controls-25.10.4",
+      "role": "NFCORE_ATACSEQ:PREPARE_GENOME:GTF2BED (genes.gtf)",
+      "sha256": "3a1e64b8f290127562612b47d6014bc6e4c130399da3e06ad062b268fd6d08fb",
+      "bytes": 12037571,
+      "git_blob_sha1": "7da562e9678152fe1062e67e4303abba61a2f1b8",
+      "public_object": {
+        "dataset": "atacseq",
+        "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+        "repository_path": "reference/genes.gtf",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/reference/genes.gtf",
+        "git_blob_sha1": "7da562e9678152fe1062e67e4303abba61a2f1b8"
+      }
+    },
+    {
+      "arm": "controls-25.10.4",
+      "role": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_INPUT_REP1_T1)",
+      "sha256": "162b7459f4f0eb61c6a64e3c23352d32ec8a81aacf3ce07296639539a533e17f",
+      "bytes": 4142025,
+      "git_blob_sha1": "f291359c31ef759646bfc12b6eb808dfcf6d8d6b",
+      "public_object": {
+        "dataset": "chipseq",
+        "commit": "dc342f94ec86799d7bd635e7192b1cbb3654b559",
+        "repository_path": "testdata/SRR5204809_Spt5-ChIP_Input1_SacCer_ChIP-Seq_ss100k_R1.fastq.gz",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/dc342f94ec86799d7bd635e7192b1cbb3654b559/testdata/SRR5204809_Spt5-ChIP_Input1_SacCer_ChIP-Seq_ss100k_R1.fastq.gz",
+        "git_blob_sha1": "f291359c31ef759646bfc12b6eb808dfcf6d8d6b"
+      }
+    },
+    {
+      "arm": "controls-25.10.4",
+      "role": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_INPUT_REP1_T1)",
+      "sha256": "2627804ae3ce35b04777433affa9149a090d428a88f444ef3da40011014e6209",
+      "bytes": 4190417,
+      "git_blob_sha1": "695944bf6eaba59900330900338a48e805276a87",
+      "public_object": {
+        "dataset": "chipseq",
+        "commit": "dc342f94ec86799d7bd635e7192b1cbb3654b559",
+        "repository_path": "testdata/SRR5204809_Spt5-ChIP_Input1_SacCer_ChIP-Seq_ss100k_R2.fastq.gz",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/dc342f94ec86799d7bd635e7192b1cbb3654b559/testdata/SRR5204809_Spt5-ChIP_Input1_SacCer_ChIP-Seq_ss100k_R2.fastq.gz",
+        "git_blob_sha1": "695944bf6eaba59900330900338a48e805276a87"
+      }
+    },
+    {
+      "arm": "controls-25.10.4",
+      "role": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_INPUT_REP2_T1)",
+      "sha256": "bcf33028be01375dad5ad1a592516e96c4e504b7f761e23b08c147adfc07c512",
+      "bytes": 4130098,
+      "git_blob_sha1": "5e6b878173ea9dddb185ef736c53ae15e9707d8d",
+      "public_object": {
+        "dataset": "chipseq",
+        "commit": "dc342f94ec86799d7bd635e7192b1cbb3654b559",
+        "repository_path": "testdata/SRR5204810_Spt5-ChIP_Input2_SacCer_ChIP-Seq_ss100k_R1.fastq.gz",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/dc342f94ec86799d7bd635e7192b1cbb3654b559/testdata/SRR5204810_Spt5-ChIP_Input2_SacCer_ChIP-Seq_ss100k_R1.fastq.gz",
+        "git_blob_sha1": "5e6b878173ea9dddb185ef736c53ae15e9707d8d"
+      }
+    },
+    {
+      "arm": "controls-25.10.4",
+      "role": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_INPUT_REP2_T1)",
+      "sha256": "d27d2958703dc181d71d5b02f1449c1b0da6b60c1309e6b775165faac9afe616",
+      "bytes": 4173993,
+      "git_blob_sha1": "58fd4f84f24a170ed1c16ac203c6330cab8e59f8",
+      "public_object": {
+        "dataset": "chipseq",
+        "commit": "dc342f94ec86799d7bd635e7192b1cbb3654b559",
+        "repository_path": "testdata/SRR5204810_Spt5-ChIP_Input2_SacCer_ChIP-Seq_ss100k_R2.fastq.gz",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/dc342f94ec86799d7bd635e7192b1cbb3654b559/testdata/SRR5204810_Spt5-ChIP_Input2_SacCer_ChIP-Seq_ss100k_R2.fastq.gz",
+        "git_blob_sha1": "58fd4f84f24a170ed1c16ac203c6330cab8e59f8"
+      }
+    },
+    {
+      "arm": "controls-25.10.4",
+      "role": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_T0_REP1_T1)",
+      "sha256": "a7c9455e792e095f5db0f2e27edf912b26bd28398976d8a3ac11ff4a463ada1f",
+      "bytes": 5254354,
+      "git_blob_sha1": "bc83e0d026559abbdf208fc652094c6f6360c67e",
+      "public_object": {
+        "dataset": "atacseq",
+        "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+        "repository_path": "testdata/SRR1822153_2.fastq.gz",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822153_2.fastq.gz",
+        "git_blob_sha1": "bc83e0d026559abbdf208fc652094c6f6360c67e"
+      }
+    },
+    {
+      "arm": "controls-25.10.4",
+      "role": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_T0_REP1_T1)",
+      "sha256": "e94bb94aa3524dff446f405b8979b95304085323a851a33b436fa6511bec9b58",
+      "bytes": 5272547,
+      "git_blob_sha1": "039c8279d3c12923609d0cc0f4fd6f1efe3f66b0",
+      "public_object": {
+        "dataset": "atacseq",
+        "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+        "repository_path": "testdata/SRR1822153_1.fastq.gz",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822153_1.fastq.gz",
+        "git_blob_sha1": "039c8279d3c12923609d0cc0f4fd6f1efe3f66b0"
+      }
+    },
+    {
+      "arm": "controls-25.10.4",
+      "role": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_T15_REP1_T1)",
+      "sha256": "2c08804f7e8f4abf57ed928da041e22f442c033d4e8993946b8d95137d969a60",
+      "bytes": 5382195,
+      "git_blob_sha1": "e25ebc50fbcbcb3953e187970b1a600a100fd812",
+      "public_object": {
+        "dataset": "atacseq",
+        "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+        "repository_path": "testdata/SRR1822157_1.fastq.gz",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822157_1.fastq.gz",
+        "git_blob_sha1": "e25ebc50fbcbcb3953e187970b1a600a100fd812"
+      }
+    },
+    {
+      "arm": "controls-25.10.4",
+      "role": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_T15_REP1_T1)",
+      "sha256": "d1f8df0027c48ff74b68245e3def9aa50c3c042498e8bd2f073ea12bba2d3d7b",
+      "bytes": 5380339,
+      "git_blob_sha1": "4946b9c63bd0454976767096f3ad4c008c61f1ae",
+      "public_object": {
+        "dataset": "atacseq",
+        "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+        "repository_path": "testdata/SRR1822157_2.fastq.gz",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822157_2.fastq.gz",
+        "git_blob_sha1": "4946b9c63bd0454976767096f3ad4c008c61f1ae"
+      }
+    },
+    {
+      "arm": "controls-25.10.4",
+      "role": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_T0_REP2_T1)",
+      "sha256": "95fc1034e236f790a820f5977feb42c0ed895f8fe538ffb3b1643197f6aa7534",
+      "bytes": 5315718,
+      "git_blob_sha1": "6c9eeababff7278341888ef3fc95a4988906c664",
+      "public_object": {
+        "dataset": "atacseq",
+        "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+        "repository_path": "testdata/SRR1822154_2.fastq.gz",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822154_2.fastq.gz",
+        "git_blob_sha1": "6c9eeababff7278341888ef3fc95a4988906c664"
+      }
+    },
+    {
+      "arm": "controls-25.10.4",
+      "role": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_T0_REP2_T1)",
+      "sha256": "977e96d46afff3af01527ae8db385c844c9501ed6d239390aa091265a1063159",
+      "bytes": 5253787,
+      "git_blob_sha1": "9ef8b37a32a6bb56e611204a3cc4447c786f4666",
+      "public_object": {
+        "dataset": "atacseq",
+        "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+        "repository_path": "testdata/SRR1822154_1.fastq.gz",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822154_1.fastq.gz",
+        "git_blob_sha1": "9ef8b37a32a6bb56e611204a3cc4447c786f4666"
+      }
+    },
+    {
+      "arm": "controls-25.10.4",
+      "role": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_T15_REP2_T1)",
+      "sha256": "557434ecf97ed576642689a98622410a7903b777d6b8e1cd613f717ec78d1687",
+      "bytes": 5350303,
+      "git_blob_sha1": "9f8e01535743179275ac5e3691cc956a0fbb6b8a",
+      "public_object": {
+        "dataset": "atacseq",
+        "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+        "repository_path": "testdata/SRR1822158_1.fastq.gz",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822158_1.fastq.gz",
+        "git_blob_sha1": "9f8e01535743179275ac5e3691cc956a0fbb6b8a"
+      }
+    },
+    {
+      "arm": "controls-25.10.4",
+      "role": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_T15_REP2_T1)",
+      "sha256": "32b00634ea4e3dfc64385d837addb5f981b473aee2a3a7a5f79f8a5bc228f4e9",
+      "bytes": 5401912,
+      "git_blob_sha1": "f9c12240852fa2bc7943d156a945efbdf8925899",
+      "public_object": {
+        "dataset": "atacseq",
+        "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+        "repository_path": "testdata/SRR1822158_2.fastq.gz",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822158_2.fastq.gz",
+        "git_blob_sha1": "f9c12240852fa2bc7943d156a945efbdf8925899"
+      }
+    },
+    {
+      "arm": "controls-26.10.5",
+      "role": "NFCORE_ATACSEQ:PREPARE_GENOME:SAMTOOLS_FAIDX (genome.fa)",
+      "sha256": "c0b7305c230b550c3d8ccc692df52338afc7a297b43d965868c285b98aa64ae1",
+      "bytes": 12359807,
+      "git_blob_sha1": "9c4c1b18cccd330e850eb5e9e3f4c2c0d1abadb4",
+      "public_object": {
+        "dataset": "atacseq",
+        "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+        "repository_path": "reference/genome.fa",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/reference/genome.fa",
+        "git_blob_sha1": "9c4c1b18cccd330e850eb5e9e3f4c2c0d1abadb4"
+      }
+    },
+    {
+      "arm": "controls-26.10.5",
+      "role": "NFCORE_ATACSEQ:PREPARE_GENOME:GTF2BED (genes.gtf)",
+      "sha256": "3a1e64b8f290127562612b47d6014bc6e4c130399da3e06ad062b268fd6d08fb",
+      "bytes": 12037571,
+      "git_blob_sha1": "7da562e9678152fe1062e67e4303abba61a2f1b8",
+      "public_object": {
+        "dataset": "atacseq",
+        "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+        "repository_path": "reference/genes.gtf",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/reference/genes.gtf",
+        "git_blob_sha1": "7da562e9678152fe1062e67e4303abba61a2f1b8"
+      }
+    },
+    {
+      "arm": "controls-26.10.5",
+      "role": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_INPUT_REP1_T1)",
+      "sha256": "162b7459f4f0eb61c6a64e3c23352d32ec8a81aacf3ce07296639539a533e17f",
+      "bytes": 4142025,
+      "git_blob_sha1": "f291359c31ef759646bfc12b6eb808dfcf6d8d6b",
+      "public_object": {
+        "dataset": "chipseq",
+        "commit": "dc342f94ec86799d7bd635e7192b1cbb3654b559",
+        "repository_path": "testdata/SRR5204809_Spt5-ChIP_Input1_SacCer_ChIP-Seq_ss100k_R1.fastq.gz",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/dc342f94ec86799d7bd635e7192b1cbb3654b559/testdata/SRR5204809_Spt5-ChIP_Input1_SacCer_ChIP-Seq_ss100k_R1.fastq.gz",
+        "git_blob_sha1": "f291359c31ef759646bfc12b6eb808dfcf6d8d6b"
+      }
+    },
+    {
+      "arm": "controls-26.10.5",
+      "role": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_INPUT_REP1_T1)",
+      "sha256": "2627804ae3ce35b04777433affa9149a090d428a88f444ef3da40011014e6209",
+      "bytes": 4190417,
+      "git_blob_sha1": "695944bf6eaba59900330900338a48e805276a87",
+      "public_object": {
+        "dataset": "chipseq",
+        "commit": "dc342f94ec86799d7bd635e7192b1cbb3654b559",
+        "repository_path": "testdata/SRR5204809_Spt5-ChIP_Input1_SacCer_ChIP-Seq_ss100k_R2.fastq.gz",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/dc342f94ec86799d7bd635e7192b1cbb3654b559/testdata/SRR5204809_Spt5-ChIP_Input1_SacCer_ChIP-Seq_ss100k_R2.fastq.gz",
+        "git_blob_sha1": "695944bf6eaba59900330900338a48e805276a87"
+      }
+    },
+    {
+      "arm": "controls-26.10.5",
+      "role": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_INPUT_REP2_T1)",
+      "sha256": "bcf33028be01375dad5ad1a592516e96c4e504b7f761e23b08c147adfc07c512",
+      "bytes": 4130098,
+      "git_blob_sha1": "5e6b878173ea9dddb185ef736c53ae15e9707d8d",
+      "public_object": {
+        "dataset": "chipseq",
+        "commit": "dc342f94ec86799d7bd635e7192b1cbb3654b559",
+        "repository_path": "testdata/SRR5204810_Spt5-ChIP_Input2_SacCer_ChIP-Seq_ss100k_R1.fastq.gz",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/dc342f94ec86799d7bd635e7192b1cbb3654b559/testdata/SRR5204810_Spt5-ChIP_Input2_SacCer_ChIP-Seq_ss100k_R1.fastq.gz",
+        "git_blob_sha1": "5e6b878173ea9dddb185ef736c53ae15e9707d8d"
+      }
+    },
+    {
+      "arm": "controls-26.10.5",
+      "role": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_INPUT_REP2_T1)",
+      "sha256": "d27d2958703dc181d71d5b02f1449c1b0da6b60c1309e6b775165faac9afe616",
+      "bytes": 4173993,
+      "git_blob_sha1": "58fd4f84f24a170ed1c16ac203c6330cab8e59f8",
+      "public_object": {
+        "dataset": "chipseq",
+        "commit": "dc342f94ec86799d7bd635e7192b1cbb3654b559",
+        "repository_path": "testdata/SRR5204810_Spt5-ChIP_Input2_SacCer_ChIP-Seq_ss100k_R2.fastq.gz",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/dc342f94ec86799d7bd635e7192b1cbb3654b559/testdata/SRR5204810_Spt5-ChIP_Input2_SacCer_ChIP-Seq_ss100k_R2.fastq.gz",
+        "git_blob_sha1": "58fd4f84f24a170ed1c16ac203c6330cab8e59f8"
+      }
+    },
+    {
+      "arm": "controls-26.10.5",
+      "role": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_T0_REP1_T1)",
+      "sha256": "a7c9455e792e095f5db0f2e27edf912b26bd28398976d8a3ac11ff4a463ada1f",
+      "bytes": 5254354,
+      "git_blob_sha1": "bc83e0d026559abbdf208fc652094c6f6360c67e",
+      "public_object": {
+        "dataset": "atacseq",
+        "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+        "repository_path": "testdata/SRR1822153_2.fastq.gz",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822153_2.fastq.gz",
+        "git_blob_sha1": "bc83e0d026559abbdf208fc652094c6f6360c67e"
+      }
+    },
+    {
+      "arm": "controls-26.10.5",
+      "role": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_T0_REP1_T1)",
+      "sha256": "e94bb94aa3524dff446f405b8979b95304085323a851a33b436fa6511bec9b58",
+      "bytes": 5272547,
+      "git_blob_sha1": "039c8279d3c12923609d0cc0f4fd6f1efe3f66b0",
+      "public_object": {
+        "dataset": "atacseq",
+        "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+        "repository_path": "testdata/SRR1822153_1.fastq.gz",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822153_1.fastq.gz",
+        "git_blob_sha1": "039c8279d3c12923609d0cc0f4fd6f1efe3f66b0"
+      }
+    },
+    {
+      "arm": "controls-26.10.5",
+      "role": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_T0_REP2_T1)",
+      "sha256": "95fc1034e236f790a820f5977feb42c0ed895f8fe538ffb3b1643197f6aa7534",
+      "bytes": 5315718,
+      "git_blob_sha1": "6c9eeababff7278341888ef3fc95a4988906c664",
+      "public_object": {
+        "dataset": "atacseq",
+        "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+        "repository_path": "testdata/SRR1822154_2.fastq.gz",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822154_2.fastq.gz",
+        "git_blob_sha1": "6c9eeababff7278341888ef3fc95a4988906c664"
+      }
+    },
+    {
+      "arm": "controls-26.10.5",
+      "role": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_T0_REP2_T1)",
+      "sha256": "977e96d46afff3af01527ae8db385c844c9501ed6d239390aa091265a1063159",
+      "bytes": 5253787,
+      "git_blob_sha1": "9ef8b37a32a6bb56e611204a3cc4447c786f4666",
+      "public_object": {
+        "dataset": "atacseq",
+        "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+        "repository_path": "testdata/SRR1822154_1.fastq.gz",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822154_1.fastq.gz",
+        "git_blob_sha1": "9ef8b37a32a6bb56e611204a3cc4447c786f4666"
+      }
+    },
+    {
+      "arm": "controls-26.10.5",
+      "role": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_T15_REP2_T1)",
+      "sha256": "557434ecf97ed576642689a98622410a7903b777d6b8e1cd613f717ec78d1687",
+      "bytes": 5350303,
+      "git_blob_sha1": "9f8e01535743179275ac5e3691cc956a0fbb6b8a",
+      "public_object": {
+        "dataset": "atacseq",
+        "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+        "repository_path": "testdata/SRR1822158_1.fastq.gz",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822158_1.fastq.gz",
+        "git_blob_sha1": "9f8e01535743179275ac5e3691cc956a0fbb6b8a"
+      }
+    },
+    {
+      "arm": "controls-26.10.5",
+      "role": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_T15_REP2_T1)",
+      "sha256": "32b00634ea4e3dfc64385d837addb5f981b473aee2a3a7a5f79f8a5bc228f4e9",
+      "bytes": 5401912,
+      "git_blob_sha1": "f9c12240852fa2bc7943d156a945efbdf8925899",
+      "public_object": {
+        "dataset": "atacseq",
+        "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+        "repository_path": "testdata/SRR1822158_2.fastq.gz",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822158_2.fastq.gz",
+        "git_blob_sha1": "f9c12240852fa2bc7943d156a945efbdf8925899"
+      }
+    },
+    {
+      "arm": "controls-26.10.5",
+      "role": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_T15_REP1_T1)",
+      "sha256": "2c08804f7e8f4abf57ed928da041e22f442c033d4e8993946b8d95137d969a60",
+      "bytes": 5382195,
+      "git_blob_sha1": "e25ebc50fbcbcb3953e187970b1a600a100fd812",
+      "public_object": {
+        "dataset": "atacseq",
+        "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+        "repository_path": "testdata/SRR1822157_1.fastq.gz",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822157_1.fastq.gz",
+        "git_blob_sha1": "e25ebc50fbcbcb3953e187970b1a600a100fd812"
+      }
+    },
+    {
+      "arm": "controls-26.10.5",
+      "role": "NFCORE_ATACSEQ:ATACSEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC (SPT5_T15_REP1_T1)",
+      "sha256": "d1f8df0027c48ff74b68245e3def9aa50c3c042498e8bd2f073ea12bba2d3d7b",
+      "bytes": 5380339,
+      "git_blob_sha1": "4946b9c63bd0454976767096f3ad4c008c61f1ae",
+      "public_object": {
+        "dataset": "atacseq",
+        "commit": "cd022b097372b078a68d8afadb172ad7342fd91f",
+        "repository_path": "testdata/SRR1822157_2.fastq.gz",
+        "requested_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822157_2.fastq.gz",
+        "git_blob_sha1": "4946b9c63bd0454976767096f3ad4c008c61f1ae"
+      }
+    },
+    {
+      "arm": "default-original73155d",
+      "role": "datasets/atacseq/reference/genes.gtf",
+      "sha256": "3a1e64b8f290127562612b47d6014bc6e4c130399da3e06ad062b268fd6d08fb",
+      "bytes": 12037571,
+      "git_blob_sha1": "7da562e9678152fe1062e67e4303abba61a2f1b8",
+      "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/reference/genes.gtf"
+    },
+    {
+      "arm": "default-original73155d",
+      "role": "samplesheets/original/default/samplesheet_test.csv",
+      "sha256": "52a21d927287e0b39c40243cf9c2ce7134eef83ca1582d3c89b9eeb278e67218",
+      "bytes": 1371,
+      "git_blob_sha1": "fb1551d3f373c1f8682cbf6445f1fa4331e66548",
+      "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/samplesheet/v2.0/samplesheet_test.csv"
+    },
+    {
+      "arm": "default-original73155d",
+      "role": "datasets/atacseq/reference/genome.fa",
+      "sha256": "c0b7305c230b550c3d8ccc692df52338afc7a297b43d965868c285b98aa64ae1",
+      "bytes": 12359807,
+      "git_blob_sha1": "9c4c1b18cccd330e850eb5e9e3f4c2c0d1abadb4",
+      "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/reference/genome.fa"
+    },
+    {
+      "arm": "default-original73155d",
+      "role": "datasets/atacseq/testdata/SRR1822153_2.fastq.gz",
+      "sha256": "a7c9455e792e095f5db0f2e27edf912b26bd28398976d8a3ac11ff4a463ada1f",
+      "bytes": 5254354,
+      "git_blob_sha1": "bc83e0d026559abbdf208fc652094c6f6360c67e",
+      "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822153_2.fastq.gz"
+    },
+    {
+      "arm": "default-original73155d",
+      "role": "datasets/atacseq/testdata/SRR1822153_1.fastq.gz",
+      "sha256": "e94bb94aa3524dff446f405b8979b95304085323a851a33b436fa6511bec9b58",
+      "bytes": 5272547,
+      "git_blob_sha1": "039c8279d3c12923609d0cc0f4fd6f1efe3f66b0",
+      "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822153_1.fastq.gz"
+    },
+    {
+      "arm": "default-original73155d",
+      "role": "datasets/atacseq/testdata/SRR1822154_1.fastq.gz",
+      "sha256": "977e96d46afff3af01527ae8db385c844c9501ed6d239390aa091265a1063159",
+      "bytes": 5253787,
+      "git_blob_sha1": "9ef8b37a32a6bb56e611204a3cc4447c786f4666",
+      "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822154_1.fastq.gz"
+    },
+    {
+      "arm": "default-original73155d",
+      "role": "datasets/atacseq/testdata/SRR1822154_2.fastq.gz",
+      "sha256": "95fc1034e236f790a820f5977feb42c0ed895f8fe538ffb3b1643197f6aa7534",
+      "bytes": 5315718,
+      "git_blob_sha1": "6c9eeababff7278341888ef3fc95a4988906c664",
+      "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822154_2.fastq.gz"
+    },
+    {
+      "arm": "default-original73155d",
+      "role": "datasets/atacseq/testdata/SRR1822157_1.fastq.gz",
+      "sha256": "2c08804f7e8f4abf57ed928da041e22f442c033d4e8993946b8d95137d969a60",
+      "bytes": 5382195,
+      "git_blob_sha1": "e25ebc50fbcbcb3953e187970b1a600a100fd812",
+      "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822157_1.fastq.gz"
+    },
+    {
+      "arm": "default-original73155d",
+      "role": "datasets/atacseq/testdata/SRR1822158_1.fastq.gz",
+      "sha256": "557434ecf97ed576642689a98622410a7903b777d6b8e1cd613f717ec78d1687",
+      "bytes": 5350303,
+      "git_blob_sha1": "9f8e01535743179275ac5e3691cc956a0fbb6b8a",
+      "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822158_1.fastq.gz"
+    },
+    {
+      "arm": "default-original73155d",
+      "role": "datasets/atacseq/testdata/SRR1822157_2.fastq.gz",
+      "sha256": "d1f8df0027c48ff74b68245e3def9aa50c3c042498e8bd2f073ea12bba2d3d7b",
+      "bytes": 5380339,
+      "git_blob_sha1": "4946b9c63bd0454976767096f3ad4c008c61f1ae",
+      "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822157_2.fastq.gz"
+    },
+    {
+      "arm": "default-original73155d",
+      "role": "datasets/atacseq/testdata/SRR1822158_2.fastq.gz",
+      "sha256": "32b00634ea4e3dfc64385d837addb5f981b473aee2a3a7a5f79f8a5bc228f4e9",
+      "bytes": 5401912,
+      "git_blob_sha1": "f9c12240852fa2bc7943d156a945efbdf8925899",
+      "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822158_2.fastq.gz"
+    }
+  ],
+  "default_six_report_libraries": [
+    {
+      "scientific_library_label": "OSMOTIC_STRESS_T0_PE_REP1",
+      "raw_fingerprint_sha256": "59e43c634914507ef0d1054d7a3f506e47b29058c475c0e016a94194f3ceac2a",
+      "public_inputs": [
+        {
+          "role": "fastq_1",
+          "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822153_1.fastq.gz",
+          "sha256": "e94bb94aa3524dff446f405b8979b95304085323a851a33b436fa6511bec9b58"
+        },
+        {
+          "role": "fastq_2",
+          "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822153_2.fastq.gz",
+          "sha256": "a7c9455e792e095f5db0f2e27edf912b26bd28398976d8a3ac11ff4a463ada1f"
+        }
+      ]
+    },
+    {
+      "scientific_library_label": "OSMOTIC_STRESS_T0_PE_REP2",
+      "raw_fingerprint_sha256": "b2c72cc79ac41f553d4d14b073df294b33bbcb36f35191e1d3d29a67b54a31be",
+      "public_inputs": [
+        {
+          "role": "fastq_1",
+          "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822154_1.fastq.gz",
+          "sha256": "977e96d46afff3af01527ae8db385c844c9501ed6d239390aa091265a1063159"
+        },
+        {
+          "role": "fastq_2",
+          "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822154_2.fastq.gz",
+          "sha256": "95fc1034e236f790a820f5977feb42c0ed895f8fe538ffb3b1643197f6aa7534"
+        }
+      ]
+    },
+    {
+      "scientific_library_label": "OSMOTIC_STRESS_T100_SE_REP1",
+      "raw_fingerprint_sha256": "7ce8f293d287c394dc010e131b98da1b5ad4bc0cf43484441cd1c7424e82d22a",
+      "public_inputs": [
+        {
+          "role": "fastq_1",
+          "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822153_1.fastq.gz",
+          "sha256": "e94bb94aa3524dff446f405b8979b95304085323a851a33b436fa6511bec9b58"
+        }
+      ]
+    },
+    {
+      "scientific_library_label": "OSMOTIC_STRESS_T100_SE_REP2",
+      "raw_fingerprint_sha256": "0e6d2c4a433f06fc13474e59de46e584584588267cc62a76e91de1d9ba82b7a7",
+      "public_inputs": [
+        {
+          "role": "fastq_1",
+          "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822154_1.fastq.gz",
+          "sha256": "977e96d46afff3af01527ae8db385c844c9501ed6d239390aa091265a1063159"
+        }
+      ]
+    },
+    {
+      "scientific_library_label": "OSMOTIC_STRESS_T150_SE_REP1",
+      "raw_fingerprint_sha256": "f273d81129e491ee23e8a13b543720a02b011419f87e90f0cc45e2955405d6d2",
+      "public_inputs": [
+        {
+          "role": "fastq_1",
+          "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822157_1.fastq.gz",
+          "sha256": "2c08804f7e8f4abf57ed928da041e22f442c033d4e8993946b8d95137d969a60"
+        },
+        {
+          "role": "fastq_1",
+          "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822158_1.fastq.gz",
+          "sha256": "557434ecf97ed576642689a98622410a7903b777d6b8e1cd613f717ec78d1687"
+        }
+      ]
+    },
+    {
+      "scientific_library_label": "OSMOTIC_STRESS_T15_PE_REP1",
+      "raw_fingerprint_sha256": "bd2f9d6acb643078dc8f09ff1e0b0d8611b6d6557ef714c925fdb63098abc222",
+      "public_inputs": [
+        {
+          "role": "fastq_1",
+          "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822157_1.fastq.gz",
+          "sha256": "2c08804f7e8f4abf57ed928da041e22f442c033d4e8993946b8d95137d969a60"
+        },
+        {
+          "role": "fastq_2",
+          "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822157_2.fastq.gz",
+          "sha256": "d1f8df0027c48ff74b68245e3def9aa50c3c042498e8bd2f073ea12bba2d3d7b"
+        },
+        {
+          "role": "fastq_1",
+          "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822158_1.fastq.gz",
+          "sha256": "557434ecf97ed576642689a98622410a7903b777d6b8e1cd613f717ec78d1687"
+        },
+        {
+          "role": "fastq_2",
+          "immutable_url": "https://raw.githubusercontent.com/nf-core/test-datasets/cd022b097372b078a68d8afadb172ad7342fd91f/testdata/SRR1822158_2.fastq.gz",
+          "sha256": "32b00634ea4e3dfc64385d837addb5f981b473aee2a3a7a5f79f8a5bc228f4e9"
+        }
+      ]
+    }
+  ],
+  "default_library_design_note": "Six report libraries derive from eight public samplesheet rows using four public run accessions. T15_PE_REP1 and T150_SE_REP1 each combine two technical rows; this does not represent six independent accessions.",
+  "inspected_exact_text_payloads": [
+    {
+      "arm": "controls-25.10.4",
+      "file": "SPT5_T0_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "role": "raw_matrix",
+      "bytes": 820,
+      "sha256": "74becaf51e3dfbb73643468a2cf12bec393a7a0515d663f73e74f1950f88105e",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "controls-25.10.4",
+      "file": "SPT5_T0_REP1.mLb.clN.plotFingerprint.qcmetrics.txt",
+      "role": "quality_metrics",
+      "bytes": 461,
+      "sha256": "ae4a68fed1b5ab3ec8c3636eb73afda8d935fed9e1c9a8907df136beafc7d4bb",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "controls-25.10.4",
+      "file": "SPT5_T15_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "role": "raw_matrix",
+      "bytes": 820,
+      "sha256": "efd28bc4c6a76126896cf2f65953b985572b2a5b6314a3f8b3b6c52dc9975260",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "controls-25.10.4",
+      "file": "SPT5_T15_REP1.mLb.clN.plotFingerprint.qcmetrics.txt",
+      "role": "quality_metrics",
+      "bytes": 462,
+      "sha256": "74b529ce3d7b202231c44d85b5d70f9c7a8e44b12cffa8aee63b28207b1e66f7",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "controls-25.10.4",
+      "file": "SPT5_T0_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "role": "raw_matrix",
+      "bytes": 799,
+      "sha256": "96b2863693c72448a34e3f8a63fdc5fe7c4096c2ff1f889e27e8f7019d7bbf3b",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "controls-25.10.4",
+      "file": "SPT5_T0_REP2.mLb.clN.plotFingerprint.qcmetrics.txt",
+      "role": "quality_metrics",
+      "bytes": 461,
+      "sha256": "e927c65c1dbb95b092bce4da6b5e1601a3e6e2dbd3376d8630fc4be6a29caa2f",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "controls-25.10.4",
+      "file": "SPT5_T15_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "role": "raw_matrix",
+      "bytes": 857,
+      "sha256": "19e65d8b39350ab58e443a2f0de24505cb701d7377f8bafd7bec9a767961c5cd",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "controls-25.10.4",
+      "file": "SPT5_T15_REP2.mLb.clN.plotFingerprint.qcmetrics.txt",
+      "role": "quality_metrics",
+      "bytes": 461,
+      "sha256": "93f4a42f8fdd998b89a9fa2b667c079d6c96b3f6cd5f66aba55abcfa27a31a36",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "controls-25.10.4",
+      "file": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "role": "fingerprint numeric/legacy text export",
+      "bytes": 19689,
+      "sha256": "d89fe75b74919a9a4cb2789907a430db4d35e558bdd849b083410acb6e114ac1",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "controls-25.10.4",
+      "file": "mqc_deeptools_fingerprint_plot_1.txt",
+      "role": "fingerprint numeric/legacy text export",
+      "bytes": 26062,
+      "sha256": "7a85704f6076f4c7ab8d8610280a4439b274221b0e7709b6f114f987168b6ab6",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "controls-25.10.4",
+      "file": "multiqc_config.yml",
+      "role": "public upstream assets config",
+      "bytes": 5488,
+      "sha256": "f7ffa59e5feed728a70443e05418caf4496abe3bca035e2c1fa4a64b4f2bd2a8",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "controls-26.10.5",
+      "file": "SPT5_T15_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "role": "raw_matrix",
+      "bytes": 820,
+      "sha256": "0e644a2247cf6e01e7a0666c350cb6ab430e94b5d87fe9677e98befe24b1fe20",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "controls-26.10.5",
+      "file": "SPT5_T15_REP1.mLb.clN.plotFingerprint.qcmetrics.txt",
+      "role": "quality_metrics",
+      "bytes": 462,
+      "sha256": "74b529ce3d7b202231c44d85b5d70f9c7a8e44b12cffa8aee63b28207b1e66f7",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "controls-26.10.5",
+      "file": "SPT5_T0_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "role": "raw_matrix",
+      "bytes": 799,
+      "sha256": "30ecaa872bd7e229c021d1f99df815c5cbf54dac3c06849f4ff4a487dff693bc",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "controls-26.10.5",
+      "file": "SPT5_T0_REP2.mLb.clN.plotFingerprint.qcmetrics.txt",
+      "role": "quality_metrics",
+      "bytes": 461,
+      "sha256": "e927c65c1dbb95b092bce4da6b5e1601a3e6e2dbd3376d8630fc4be6a29caa2f",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "controls-26.10.5",
+      "file": "SPT5_T0_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "role": "raw_matrix",
+      "bytes": 820,
+      "sha256": "df3f8a0896a0762c6f0018d0271b9228fa7440077c6a05b370820b8ff6343741",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "controls-26.10.5",
+      "file": "SPT5_T0_REP1.mLb.clN.plotFingerprint.qcmetrics.txt",
+      "role": "quality_metrics",
+      "bytes": 461,
+      "sha256": "ae4a68fed1b5ab3ec8c3636eb73afda8d935fed9e1c9a8907df136beafc7d4bb",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "controls-26.10.5",
+      "file": "SPT5_T15_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "role": "raw_matrix",
+      "bytes": 857,
+      "sha256": "fbbeee86f478256d4743d5e0f87f6c32b9dfd9b3e363a305172e223198a14d52",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "controls-26.10.5",
+      "file": "SPT5_T15_REP2.mLb.clN.plotFingerprint.qcmetrics.txt",
+      "role": "quality_metrics",
+      "bytes": 461,
+      "sha256": "93f4a42f8fdd998b89a9fa2b667c079d6c96b3f6cd5f66aba55abcfa27a31a36",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "controls-26.10.5",
+      "file": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "role": "fingerprint numeric/legacy text export",
+      "bytes": 19689,
+      "sha256": "d89fe75b74919a9a4cb2789907a430db4d35e558bdd849b083410acb6e114ac1",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "controls-26.10.5",
+      "file": "mqc_deeptools_fingerprint_plot_1.txt",
+      "role": "fingerprint numeric/legacy text export",
+      "bytes": 26062,
+      "sha256": "7a85704f6076f4c7ab8d8610280a4439b274221b0e7709b6f114f987168b6ab6",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "controls-26.10.5",
+      "file": "multiqc_config.yml",
+      "role": "public upstream assets config",
+      "bytes": 5488,
+      "sha256": "f7ffa59e5feed728a70443e05418caf4496abe3bca035e2c1fa4a64b4f2bd2a8",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "default-original73155d",
+      "file": "0-OSMOTIC_STRESS_T0_PE_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "role": "raw_matrix",
+      "bytes": 360,
+      "sha256": "59e43c634914507ef0d1054d7a3f506e47b29058c475c0e016a94194f3ceac2a",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "default-original73155d",
+      "file": "1-OSMOTIC_STRESS_T0_PE_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "role": "raw_matrix",
+      "bytes": 322,
+      "sha256": "b2c72cc79ac41f553d4d14b073df294b33bbcb36f35191e1d3d29a67b54a31be",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "default-original73155d",
+      "file": "2-OSMOTIC_STRESS_T100_SE_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "role": "raw_matrix",
+      "bytes": 376,
+      "sha256": "7ce8f293d287c394dc010e131b98da1b5ad4bc0cf43484441cd1c7424e82d22a",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "default-original73155d",
+      "file": "3-OSMOTIC_STRESS_T100_SE_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "role": "raw_matrix",
+      "bytes": 336,
+      "sha256": "0e6d2c4a433f06fc13474e59de46e584584588267cc62a76e91de1d9ba82b7a7",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "default-original73155d",
+      "file": "4-OSMOTIC_STRESS_T150_SE_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "role": "raw_matrix",
+      "bytes": 462,
+      "sha256": "f273d81129e491ee23e8a13b543720a02b011419f87e90f0cc45e2955405d6d2",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "default-original73155d",
+      "file": "5-OSMOTIC_STRESS_T15_PE_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "role": "raw_matrix",
+      "bytes": 456,
+      "sha256": "bd2f9d6acb643078dc8f09ff1e0b0d8611b6d6557ef714c925fdb63098abc222",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "default-original73155d",
+      "file": "6-multiqc_config.yml",
+      "role": "public upstream assets config",
+      "bytes": 5488,
+      "sha256": "f7ffa59e5feed728a70443e05418caf4496abe3bca035e2c1fa4a64b4f2bd2a8",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "default-original73155d",
+      "file": "8-deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "role": "fingerprint numeric/legacy text export",
+      "bytes": 11905,
+      "sha256": "b274ff6ad11a365d85412978d040e0ff58bb7e126e01a9f2f24684e1481a8532",
+      "identifying_path_or_credential_pattern_hits": 0
+    },
+    {
+      "arm": "default-original73155d",
+      "file": "9-mqc_deeptools_fingerprint_plot_1.txt",
+      "role": "fingerprint numeric/legacy text export",
+      "bytes": 18463,
+      "sha256": "4556f0597dd13b07f987911d0c6f86e9b5c0251268d030f65263eb0fb0c9fd2d",
+      "identifying_path_or_credential_pattern_hits": 0
+    }
+  ],
+  "human_or_private_sample_data_found_in_inspected_report_payloads": false,
+  "safe_whitelist": [
+    "raw fingerprint matrices: public sample aliases plus integer aggregates",
+    "raw fingerprint quality tables: public sample aliases plus numeric QC fields",
+    "fingerprint numeric/legacy TXT exports: preserve all original values and documented blank serializer behavior",
+    "expected parser vectors and selected numeric report JSON blocks only, with portable provenance labels",
+    "public source configs and pinned public samplesheet/source/hash metadata"
+  ],
+  "strip_or_exclude": [
+    "absolute local filesystem paths and operator or host names",
+    "session/workflow/task execution IDs except stable public arm aliases",
+    "full MultiQC metadata blocks report_data_sources/report_multiqc_command/config_analysis_dir_abs/config_analysis_dir/config_script_path",
+    "full HTML/raw JSON/params/trace/history/console/driver/environment wrappers and caches",
+    "credential files, credential diagnostics/helpers, signed/capability URLs, private storage endpoints"
+  ],
+  "limits": [
+    "Controls14actualscientificobjects are rehashed; the old receipt explicitly did not independently cache-bind original controls CSV literal bytes, though immutable public samplesheet bytes independently match freeze.",
+    "Both public dataset commit objects and samplesheets were anonymously accessible at review time; no new large data downloads were performed.",
+    "This approves only the bounded scientific report classes listed, not a whole runtime archive or a not-yet-built publication inventory.",
+    "No claim that counterfactual old-hash reconstruction recovered historical CI inputs or actual file ordering."
+  ]
+}

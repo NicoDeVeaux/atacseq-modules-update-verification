@@ -1,0 +1,30 @@
+{
+  "scopes": {
+    "NF25_full_F723": {
+      "deeptools_plot_fingerprint_counts_mlib_deeptools.txt": "controls/exports/NF25_full_F723/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "mqc_deeptools_fingerprint_plot_1.txt": "controls/exports/NF25_full_F723/mqc_deeptools_fingerprint_plot_1.txt"
+    },
+    "NF25_reverse_F723": {
+      "deeptools_plot_fingerprint_counts_mlib_deeptools.txt": "controls/exports/NF25_reverse_F723/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "mqc_deeptools_fingerprint_plot_1.txt": "controls/exports/NF25_reverse_F723/mqc_deeptools_fingerprint_plot_1.txt"
+    },
+    "NF26_full_F532": {
+      "deeptools_plot_fingerprint_counts_mlib_deeptools.txt": "controls/exports/NF26_full_F532/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "mqc_deeptools_fingerprint_plot_1.txt": "controls/exports/NF26_full_F532/mqc_deeptools_fingerprint_plot_1.txt"
+    },
+    "NF26_F723_forward_bridge": {
+      "deeptools_plot_fingerprint_counts_mlib_deeptools.txt": "controls/exports/NF26_F723_forward_bridge/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "mqc_deeptools_fingerprint_plot_1.txt": "controls/exports/NF26_F723_forward_bridge/mqc_deeptools_fingerprint_plot_1.txt"
+    },
+    "NF26_F723_reverse_bridge": {
+      "deeptools_plot_fingerprint_counts_mlib_deeptools.txt": "controls/exports/NF26_F723_reverse_bridge/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "mqc_deeptools_fingerprint_plot_1.txt": "controls/exports/NF26_F723_reverse_bridge/mqc_deeptools_fingerprint_plot_1.txt"
+    }
+  },
+  "series": 8,
+  "numeric_points": 782,
+  "all_export_bytes_equal_across_scopes": true,
+  "scope_limit": "NF25.10.4 literal full-workflow F723 resume, NF26.10.5 literal full-workflow F532 resume plus actual F723 forward/reverse reporter bridge. No literal full26/F723 claim.",
+  "not_native_CI": true,
+  "not_nf_test_assertion_reruns": true
+}

@@ -1,0 +1,100 @@
+{
+  "counterfactual_only": true,
+  "bindings": [
+    {
+      "sample": "SPT5_T15_REP1",
+      "control": "SPT5_INPUT_REP1",
+      "original_header": "'SPT5_T15_REP1.mLb.clN'\t'SPT5_T15_REP1__control_SPT5_INPUT_REP1.mLb.clN'",
+      "counterfactual_header": "'SPT5_T15_REP1.mLb.clN'\t'SPT5_INPUT_REP1'",
+      "original_sha256": "bec1a5231363d058722de0509c559815cab4cc1aea81cc25d577b1896699063b",
+      "counterfactual_sha256": "d23d53bfa64f97a4e67479a288d871541dc9d5e008a20cad271f6ea5470131f5",
+      "body_sha256": "da2dc9c5a78527528b59a801c83cc8b8466e0c0d03261bfe266379cdfe197177",
+      "numeric_body_byte_identical": true
+    },
+    {
+      "sample": "SPT5_T0_REP1",
+      "control": "SPT5_INPUT_REP1",
+      "original_header": "'SPT5_T0_REP1.mLb.clN'\t'SPT5_T0_REP1__control_SPT5_INPUT_REP1.mLb.clN'",
+      "counterfactual_header": "'SPT5_T0_REP1.mLb.clN'\t'SPT5_INPUT_REP1'",
+      "original_sha256": "f1a37c4774d7ed56e17718338e6de7b8fd3c716840ef12459c6cd98d5bc05d2f",
+      "counterfactual_sha256": "2366bb787a7d9505ddb4b293f349595a29cc6dfbc1aebf0962524f151600df89",
+      "body_sha256": "a391dc9518c2a9e1000b444655503691109b47fb56375c390e4adff8c629389e",
+      "numeric_body_byte_identical": true
+    },
+    {
+      "sample": "SPT5_T0_REP2",
+      "control": "SPT5_INPUT_REP2",
+      "original_header": "'SPT5_T0_REP2.mLb.clN'\t'SPT5_T0_REP2__control_SPT5_INPUT_REP2.mLb.clN'",
+      "counterfactual_header": "'SPT5_T0_REP2.mLb.clN'\t'SPT5_INPUT_REP2'",
+      "original_sha256": "85a5d89ec238cde2dce76ec6e72470c01a2fcfc2f7ff087fad3fd1241bf6241d",
+      "counterfactual_sha256": "969021a91fb57a9913d97a2f051231c6c81240f660a203e15f21551e629ae46f",
+      "body_sha256": "c61da48d87f2f198fe5c992fa3fe0e6d084dcdd07f4cce33556f40b21e9d2d7f",
+      "numeric_body_byte_identical": true
+    },
+    {
+      "sample": "SPT5_T15_REP2",
+      "control": "SPT5_INPUT_REP2",
+      "original_header": "'SPT5_T15_REP2.mLb.clN'\t'SPT5_T15_REP2__control_SPT5_INPUT_REP2.mLb.clN'",
+      "counterfactual_header": "'SPT5_T15_REP2.mLb.clN'\t'SPT5_INPUT_REP2'",
+      "original_sha256": "6b8e8430e624969cbb9a8b5f38b60d4cc2ad51f73e9d8c07783230d171ad09f9",
+      "counterfactual_sha256": "1e682bd21b1598b556567ce80ce145eda929268df0507bd7aced95f295e9c806",
+      "body_sha256": "a74e6c72fb539275395b2c52325eae21aa0b588f5dbe9e64ca8406598ef46ef7",
+      "numeric_body_byte_identical": true
+    }
+  ],
+  "orders": [
+    {
+      "name": "T0-last-rep1__T0-last-rep2",
+      "order": [
+        "SPT5_T15_REP1",
+        "SPT5_T15_REP2",
+        "SPT5_T0_REP1",
+        "SPT5_T0_REP2"
+      ],
+      "last_writer": {
+        "SPT5_INPUT_REP1": "SPT5_T0_REP1",
+        "SPT5_INPUT_REP2": "SPT5_T0_REP2"
+      }
+    },
+    {
+      "name": "T0-last-rep1__T15-last-rep2",
+      "order": [
+        "SPT5_T15_REP1",
+        "SPT5_T0_REP2",
+        "SPT5_T0_REP1",
+        "SPT5_T15_REP2"
+      ],
+      "last_writer": {
+        "SPT5_INPUT_REP1": "SPT5_T0_REP1",
+        "SPT5_INPUT_REP2": "SPT5_T15_REP2"
+      }
+    },
+    {
+      "name": "T15-last-rep1__T0-last-rep2",
+      "order": [
+        "SPT5_T0_REP1",
+        "SPT5_T15_REP2",
+        "SPT5_T15_REP1",
+        "SPT5_T0_REP2"
+      ],
+      "last_writer": {
+        "SPT5_INPUT_REP1": "SPT5_T15_REP1",
+        "SPT5_INPUT_REP2": "SPT5_T0_REP2"
+      }
+    },
+    {
+      "name": "T15-last-rep1__T15-last-rep2",
+      "order": [
+        "SPT5_T0_REP1",
+        "SPT5_T0_REP2",
+        "SPT5_T15_REP1",
+        "SPT5_T15_REP2"
+      ],
+      "last_writer": {
+        "SPT5_INPUT_REP1": "SPT5_T15_REP1",
+        "SPT5_INPUT_REP2": "SPT5_T15_REP2"
+      }
+    }
+  ],
+  "numeric_source_limitation": "Retained genuine current local controls25 raw vectors; not recovered historical CI raw files or historical ordering."
+}

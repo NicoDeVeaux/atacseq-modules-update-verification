@@ -1,0 +1,16 @@
+{
+  "schema": "atacseq-public-data-privacy-review/v1",
+  "manifest_sha256": "565e5fd5f8b5f59614180872b857798fd245302ade195ef34b13ba74a8206951",
+  "archive_sha256": "75d91fba36c72ff14c75dbf5a0b6811dc5e5973652dd89ce827f8da5edb74b18",
+  "files_checked": 76,
+  "gitleaks_version": "8.30.1",
+  "gitleaks_default_rules_findings": 0,
+  "gitleaks_archive_findings": 0,
+  "additional_identifying_metadata_pattern_hits": 0,
+  "independent_scientific_review": "PUBLIC-DATA-SCIENTIFIC-REVIEW.json",
+  "public_source_provenance": "data/PUBLIC-PROVENANCE.json",
+  "all_fourteen_controls_inputs_anonymously_downloaded_and_rehashed": true,
+  "tar_owner_names_and_times_removed": true,
+  "complete_work_cache_or_private_archive_published": false,
+  "local_originals_retained": true
+}
