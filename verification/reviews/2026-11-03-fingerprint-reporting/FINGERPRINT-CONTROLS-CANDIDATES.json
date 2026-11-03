@@ -1,0 +1,39 @@
+{
+  "schema": "atacseq-proposal-reviewed-fingerprint-candidates/v1",
+  "status": "LOCAL_FINAL_REPORTING_STAGE_VALUES_VALIDATED_FULL_NF26_NATIVE_CI_GATE_OPEN",
+  "applied": false,
+  "snapshot_source_base_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+  "before_snapshot_SHA256": "1da4bc5173937c4a6837a27334bd2068b0965e30ae9640053f58290a063b5d3e",
+  "proposed_snapshot_SHA256": "2b024d8db178ee8286e6509402480d3c98a663af9620b1116ef2957276d8c6fa",
+  "changes": [
+    {
+      "filename": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "content3_index": 118,
+      "before_MD5": "eb7174990379d2e4437fec7309ec6482",
+      "proposed_MD5": "6d6fccdb99afeabb1a9c2e5615a35d7f",
+      "actual_file_SHA256": "7135a90e46b30e81ec57785a4f7b3a62135880acdb509e106f04348efb5a9c00",
+      "actual_file_path": "final-replay/controls-25.10.4/multiqc/multiqc_data/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "validated_values": "All8 series/782 numeric values exactly match actual raw-parser curves and plot export; file-order invariant.",
+      "all_other_families_excluded": true
+    },
+    {
+      "filename": "mqc_deeptools_fingerprint_plot_1.txt",
+      "content3_index": 123,
+      "before_MD5": "5dc80564b41800f294d4a4aeff934632",
+      "proposed_MD5": "5de8e72d39e04ac6a091f5c02b575795",
+      "actual_file_SHA256": "3bacac8b95a6e956e47693d3138c47b608c0712f7bba70fca985299db40705a9",
+      "actual_file_path": "final-replay/controls-25.10.4/multiqc/multiqc_data/mqc_deeptools_fingerprint_plot_1.txt",
+      "validated_values": "All8 series/782 numeric values exactly match actual raw-parser curves and plot export; file-order invariant.",
+      "all_other_families_excluded": true
+    }
+  ],
+  "MD5_only_values_changed": 2,
+  "all_other_snapshot_bytes_and_assertions_preserved": true,
+  "native_CI_validation_claim": false,
+  "full_final_source_NF26_completed": false,
+  "other_run_source_or_report_hashes_not_imported": true,
+  "featureCounts_Rosetta_header_hashes_imported": false,
+  "metrics_exports": 0,
+  "metrics_absence": "Unchanged workflow routes matrix output only, not separately emitted metrics; actual metrics files retained outside MultiQC.",
+  "review_patch_SHA256": "c7b06930c1da148308c1d8665077f9abec66713d9a7e17794315d4e8a43ab202"
+}
