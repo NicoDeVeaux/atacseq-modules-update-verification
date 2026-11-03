@@ -1,0 +1,58 @@
+{
+  "status": "NO_CONTROL_CANDIDATE_SOURCE_COMPATIBLE",
+  "earlier_helper": "bf3f1fa32c7b4be30a5cb9ea9817800e416b16a1880915a55eda203a73f85880",
+  "current_helper": "723bf55bd129a1af051f95c164f6fefab015a32b54195dcccefdc945aa3c469a",
+  "identical_numeric_function_AST": {
+    "normalize_numeric_keys": true,
+    "write_fingerprint_data": true
+  },
+  "raw_files": [
+    {
+      "name": "OSMOTIC_STRESS_T0_PE_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "labels": [
+        "OSMOTIC_STRESS_T0_PE_REP1.mLb.clN"
+      ],
+      "sha256": "59e43c634914507ef0d1054d7a3f506e47b29058c475c0e016a94194f3ceac2a"
+    },
+    {
+      "name": "OSMOTIC_STRESS_T0_PE_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "labels": [
+        "OSMOTIC_STRESS_T0_PE_REP2.mLb.clN"
+      ],
+      "sha256": "b2c72cc79ac41f553d4d14b073df294b33bbcb36f35191e1d3d29a67b54a31be"
+    },
+    {
+      "name": "OSMOTIC_STRESS_T100_SE_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "labels": [
+        "OSMOTIC_STRESS_T100_SE_REP1.mLb.clN"
+      ],
+      "sha256": "7ce8f293d287c394dc010e131b98da1b5ad4bc0cf43484441cd1c7424e82d22a"
+    },
+    {
+      "name": "OSMOTIC_STRESS_T100_SE_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "labels": [
+        "OSMOTIC_STRESS_T100_SE_REP2.mLb.clN"
+      ],
+      "sha256": "0e6d2c4a433f06fc13474e59de46e584584588267cc62a76e91de1d9ba82b7a7"
+    },
+    {
+      "name": "OSMOTIC_STRESS_T150_SE_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "labels": [
+        "OSMOTIC_STRESS_T150_SE_REP1.mLb.clN"
+      ],
+      "sha256": "f273d81129e491ee23e8a13b543720a02b011419f87e90f0cc45e2955405d6d2"
+    },
+    {
+      "name": "OSMOTIC_STRESS_T15_PE_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "labels": [
+        "OSMOTIC_STRESS_T15_PE_REP1.mLb.clN"
+      ],
+      "sha256": "bd2f9d6acb643078dc8f09ff1e0b0d8611b6d6557ef714c925fdb63098abc222"
+    }
+  ],
+  "all_generated_control_name_predicates_false": true,
+  "interpretation": "The added reserved-control-label branch cannot apply to these six no-control inputs; fallback is the original Base.clean_s_name. Numeric writer and normalizer are unchanged. Earlier exact473-value source-bound candidate remains source-compatible.",
+  "new_full_report_render_claim": false,
+  "other_variant_candidates_approved": false,
+  "delegated_original_API_signature_equal": true
+}

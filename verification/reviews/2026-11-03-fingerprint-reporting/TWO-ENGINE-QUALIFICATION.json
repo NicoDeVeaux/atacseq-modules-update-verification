@@ -1,0 +1,249 @@
+{
+  "schema": "atacseq-final-two-engine-reporting-qualification/v1",
+  "status": "PASS_WITH_RECOVERED_TASK_FAILURE",
+  "reporting_data_integrity_status": "PASS",
+  "scope": "NF25.10.4 literal full-workflow F723 resume, NF26.10.5 literal full-workflow F532 resume plus actual F723 forward/reverse reporter bridge. No literal full26/F723 claim.",
+  "all8_series_782_numeric_points_exact_across_engines": true,
+  "both_TXT_bytes_equal_in_all_five_scopes": true,
+  "all14_input_hashes_and_roles_exact_across_engines": true,
+  "full25_trace_status_counts": {
+    "CACHED": 88,
+    "COMPLETED": 165,
+    "FAILED": 1
+  },
+  "full25_successful_logical_tasks": 253,
+  "recovered_full25_task_failures": [
+    {
+      "failed_trace_record": {
+        "task_id": "238",
+        "hash": "bc/ec28e8",
+        "native_id": "64155",
+        "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_BIGWIG_PLOT_DEEPTOOLS:DEEPTOOLS_PLOTHEATMAP (SPT5_T15_REP1)",
+        "status": "FAILED",
+        "exit": "139",
+        "submit": "2026-11-03 21:03:30.634",
+        "duration": "2.7s",
+        "realtime": "2.6s",
+        "%cpu": "-",
+        "peak_rss": "-",
+        "peak_vmem": "-",
+        "rchar": "-",
+        "wchar": "-"
+      },
+      "successful_retry_trace_record": {
+        "task_id": "247",
+        "hash": "37/cb0f32",
+        "native_id": "66742",
+        "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_BIGWIG_PLOT_DEEPTOOLS:DEEPTOOLS_PLOTHEATMAP (SPT5_T15_REP1)",
+        "status": "COMPLETED",
+        "exit": "0",
+        "submit": "2026-11-03 21:05:08.450",
+        "duration": "57.9s",
+        "realtime": "50s",
+        "%cpu": "96.9%",
+        "peak_rss": "542.1 MB",
+        "peak_vmem": "4.8 GB",
+        "rchar": "61.7 MB",
+        "wchar": "1.9 MB"
+      },
+      "retained_workdir": "local-evidence/host-native-25-f723/case/work/bc/ec28e85fa2d59f6e0b9434b5bb1c3a",
+      "evidence": [
+        {
+          "original": "local-evidence/host-native-25-f723/case/work/bc/ec28e85fa2d59f6e0b9434b5bb1c3a/.command.sh",
+          "copy": "local-evidence/host-native-25-f723/audit/failed-attempts/238-bc_ec28e8/.command.sh",
+          "bytes": 1065,
+          "sha256": "10e2b801d7de98b7ba05df6def03bc16f88a16e545978597b688ba893310bd4a"
+        },
+        {
+          "original": "local-evidence/host-native-25-f723/case/work/bc/ec28e85fa2d59f6e0b9434b5bb1c3a/.command.run",
+          "copy": "local-evidence/host-native-25-f723/audit/failed-attempts/238-bc_ec28e8/.command.run",
+          "bytes": 11213,
+          "sha256": "97b0cd2a6feb8206f498d62c3ba3404960d6d1b6fea2dd757b25400e41841b73"
+        },
+        {
+          "original": "local-evidence/host-native-25-f723/case/work/bc/ec28e85fa2d59f6e0b9434b5bb1c3a/.command.err",
+          "copy": "local-evidence/host-native-25-f723/audit/failed-attempts/238-bc_ec28e8/.command.err",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "original": "local-evidence/host-native-25-f723/case/work/bc/ec28e85fa2d59f6e0b9434b5bb1c3a/.command.out",
+          "copy": "local-evidence/host-native-25-f723/audit/failed-attempts/238-bc_ec28e8/.command.out",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "original": "local-evidence/host-native-25-f723/case/work/bc/ec28e85fa2d59f6e0b9434b5bb1c3a/.command.log",
+          "copy": "local-evidence/host-native-25-f723/audit/failed-attempts/238-bc_ec28e8/.command.log",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "original": "local-evidence/host-native-25-f723/case/work/bc/ec28e85fa2d59f6e0b9434b5bb1c3a/.exitcode",
+          "copy": "local-evidence/host-native-25-f723/audit/failed-attempts/238-bc_ec28e8/.exitcode",
+          "bytes": 3,
+          "sha256": "8d27ba37c5d810106b55f3fd6cdb35842007e88754184bfc0e6035f9bcede633"
+        }
+      ],
+      "cause": "UNESTABLISHED",
+      "recovery_basis": "Unmodified pipeline policy produced a later COMPLETED/exit0 record for the exact same logical task; no policy/source overrides."
+    }
+  ],
+  "recovered_failure_cause": "UNESTABLISHED",
+  "full26_trace_status_counts": {
+    "CACHED": 88,
+    "COMPLETED": 165
+  },
+  "full25_source_tree_sha256": "a22dc398da54a6fcbfef5a4d7cb7838f6ce470b81ed0c8da2fee94c5a672b4e3",
+  "full26_source_tree_sha256": "55a642205206986d753c6da60d09b50e70b37591b4b41c879b4e19853f51d120",
+  "full_source_file_difference": [
+    "bin/multiqc_fingerprint.py"
+  ],
+  "actual_full25_wrapper_sha256": "723bf55bd129a1af051f95c164f6fefab015a32b54195dcccefdc945aa3c469a",
+  "actual_full26_wrapper_sha256": "532bfb17161d0cfdf4743b259fc684b4bfaf2dee9d3e15aedcfba75c998a8e6c",
+  "full26_final_reporter_wrapper_sha256": "723bf55bd129a1af051f95c164f6fefab015a32b54195dcccefdc945aa3c469a",
+  "producer_comparison": [
+    {
+      "treatment_bam_filename": "SPT5_T0_REP1.mLb.clN.sorted.bam",
+      "control_bam_filename": "SPT5_INPUT_REP1.mLb.clN.sorted.bam",
+      "scientific_command_bytes_equal": true,
+      "all_complete_raw_row_multisets_literal_equal": true,
+      "quality_headers_equal": true,
+      "all_quality_nonlabel_fields_literal_equal": true,
+      "raw25_sha256": "74becaf51e3dfbb73643468a2cf12bec393a7a0515d663f73e74f1950f88105e",
+      "raw26_sha256": "df3f8a0896a0762c6f0018d0271b9228fa7440077c6a05b370820b8ff6343741"
+    },
+    {
+      "treatment_bam_filename": "SPT5_T15_REP1.mLb.clN.sorted.bam",
+      "control_bam_filename": "SPT5_INPUT_REP1.mLb.clN.sorted.bam",
+      "scientific_command_bytes_equal": true,
+      "all_complete_raw_row_multisets_literal_equal": true,
+      "quality_headers_equal": true,
+      "all_quality_nonlabel_fields_literal_equal": true,
+      "raw25_sha256": "efd28bc4c6a76126896cf2f65953b985572b2a5b6314a3f8b3b6c52dc9975260",
+      "raw26_sha256": "0e644a2247cf6e01e7a0666c350cb6ab430e94b5d87fe9677e98befe24b1fe20"
+    },
+    {
+      "treatment_bam_filename": "SPT5_T0_REP2.mLb.clN.sorted.bam",
+      "control_bam_filename": "SPT5_INPUT_REP2.mLb.clN.sorted.bam",
+      "scientific_command_bytes_equal": true,
+      "all_complete_raw_row_multisets_literal_equal": true,
+      "quality_headers_equal": true,
+      "all_quality_nonlabel_fields_literal_equal": true,
+      "raw25_sha256": "96b2863693c72448a34e3f8a63fdc5fe7c4096c2ff1f889e27e8f7019d7bbf3b",
+      "raw26_sha256": "30ecaa872bd7e229c021d1f99df815c5cbf54dac3c06849f4ff4a487dff693bc"
+    },
+    {
+      "treatment_bam_filename": "SPT5_T15_REP2.mLb.clN.sorted.bam",
+      "control_bam_filename": "SPT5_INPUT_REP2.mLb.clN.sorted.bam",
+      "scientific_command_bytes_equal": true,
+      "all_complete_raw_row_multisets_literal_equal": true,
+      "quality_headers_equal": true,
+      "all_quality_nonlabel_fields_literal_equal": true,
+      "raw25_sha256": "19e65d8b39350ab58e443a2f0de24505cb701d7377f8bafd7bec9a767961c5cd",
+      "raw26_sha256": "fbbeee86f478256d4743d5e0f87f6c32b9dfd9b3e363a305172e223198a14d52"
+    }
+  ],
+  "report_scopes": {
+    "NF25_full_F723": {
+      "report_audit_path": "local-evidence/host-native-25-f723/audit/actual/REPORT-AUDIT.json",
+      "report_audit_sha256": "d48ffc883b06b1d4337600dc2ae9c770d4430c3ffe8f7f5d590211a6d40cbfae",
+      "files": {
+        "deeptools_plot_fingerprint_counts_mlib_deeptools.txt": {
+          "path": "case/work/4d/bc76c6910042da81cbf72ac85198d7/multiqc_data/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "bytes": 19689,
+          "sha256": "d89fe75b74919a9a4cb2789907a430db4d35e558bdd849b083410acb6e114ac1",
+          "md5": "fdc55f7114afe334622a1a865aa288a6"
+        },
+        "mqc_deeptools_fingerprint_plot_1.txt": {
+          "path": "case/work/4d/bc76c6910042da81cbf72ac85198d7/multiqc_data/mqc_deeptools_fingerprint_plot_1.txt",
+          "bytes": 26062,
+          "sha256": "7a85704f6076f4c7ab8d8610280a4439b274221b0e7709b6f114f987168b6ab6",
+          "md5": "970eea15578b175c28c3fb2e6a0226dc"
+        }
+      }
+    },
+    "NF25_reverse_F723": {
+      "report_audit_path": "local-evidence/host-native-25-f723/audit/reverse/REPORT-AUDIT.json",
+      "report_audit_sha256": "e66c97974062f2341c681d1b49133e124f56f981bcedf10a16e89fde527e2a4a",
+      "files": {
+        "deeptools_plot_fingerprint_counts_mlib_deeptools.txt": {
+          "path": "audit/reverse/context/multiqc_data/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "bytes": 19689,
+          "sha256": "d89fe75b74919a9a4cb2789907a430db4d35e558bdd849b083410acb6e114ac1",
+          "md5": "fdc55f7114afe334622a1a865aa288a6"
+        },
+        "mqc_deeptools_fingerprint_plot_1.txt": {
+          "path": "audit/reverse/context/multiqc_data/mqc_deeptools_fingerprint_plot_1.txt",
+          "bytes": 26062,
+          "sha256": "7a85704f6076f4c7ab8d8610280a4439b274221b0e7709b6f114f987168b6ab6",
+          "md5": "970eea15578b175c28c3fb2e6a0226dc"
+        }
+      }
+    },
+    "NF26_full_F532": {
+      "report_audit_path": "local-evidence/host-native-26-final/audit/actual/REPORT-AUDIT.json",
+      "report_audit_sha256": "052036642f1a1b4926958469c57b895a2bf3f76dd478562a2e7cc12eb1e40cac",
+      "files": {
+        "deeptools_plot_fingerprint_counts_mlib_deeptools.txt": {
+          "path": "case/work/f5/57a4f1d08ac4b64ba861a68e67e7cb/multiqc_data/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "bytes": 19689,
+          "sha256": "d89fe75b74919a9a4cb2789907a430db4d35e558bdd849b083410acb6e114ac1",
+          "md5": "fdc55f7114afe334622a1a865aa288a6"
+        },
+        "mqc_deeptools_fingerprint_plot_1.txt": {
+          "path": "case/work/f5/57a4f1d08ac4b64ba861a68e67e7cb/multiqc_data/mqc_deeptools_fingerprint_plot_1.txt",
+          "bytes": 26062,
+          "sha256": "7a85704f6076f4c7ab8d8610280a4439b274221b0e7709b6f114f987168b6ab6",
+          "md5": "970eea15578b175c28c3fb2e6a0226dc"
+        }
+      }
+    },
+    "NF26_F723_forward_bridge": {
+      "report_audit_path": "local-evidence/host-native-26-f723-replay/audit/attempt-2/forward/REPORT-AUDIT.json",
+      "report_audit_sha256": "3acc6492422698b82d325a6f9e72d4b020f9ffd0fec1c0f198482a7658fdf501",
+      "files": {
+        "deeptools_plot_fingerprint_counts_mlib_deeptools.txt": {
+          "path": "audit/attempt-2/forward/context/multiqc_data/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "bytes": 19689,
+          "sha256": "d89fe75b74919a9a4cb2789907a430db4d35e558bdd849b083410acb6e114ac1",
+          "md5": "fdc55f7114afe334622a1a865aa288a6"
+        },
+        "mqc_deeptools_fingerprint_plot_1.txt": {
+          "path": "audit/attempt-2/forward/context/multiqc_data/mqc_deeptools_fingerprint_plot_1.txt",
+          "bytes": 26062,
+          "sha256": "7a85704f6076f4c7ab8d8610280a4439b274221b0e7709b6f114f987168b6ab6",
+          "md5": "970eea15578b175c28c3fb2e6a0226dc"
+        }
+      }
+    },
+    "NF26_F723_reverse_bridge": {
+      "report_audit_path": "local-evidence/host-native-26-f723-replay/audit/attempt-2/reverse/REPORT-AUDIT.json",
+      "report_audit_sha256": "3228a4818f64765904960a839377b1884f99c5d10d2130f214d1e8aa0cee3d12",
+      "files": {
+        "deeptools_plot_fingerprint_counts_mlib_deeptools.txt": {
+          "path": "audit/attempt-2/reverse/context/multiqc_data/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "bytes": 19689,
+          "sha256": "d89fe75b74919a9a4cb2789907a430db4d35e558bdd849b083410acb6e114ac1",
+          "md5": "fdc55f7114afe334622a1a865aa288a6"
+        },
+        "mqc_deeptools_fingerprint_plot_1.txt": {
+          "path": "audit/attempt-2/reverse/context/multiqc_data/mqc_deeptools_fingerprint_plot_1.txt",
+          "bytes": 26062,
+          "sha256": "7a85704f6076f4c7ab8d8610280a4439b274221b0e7709b6f114f987168b6ab6",
+          "md5": "970eea15578b175c28c3fb2e6a0226dc"
+        }
+      }
+    }
+  },
+  "both_original_source_snapshots_and_scientific_artifacts_unchanged": true,
+  "no_snapshot_or_app_source_changes_by_operator": true,
+  "not_nf_test_assertion_reruns": true,
+  "not_native_CI": true,
+  "limits": [
+    "The late F723 custom-option guard is qualified through actual full-context NF26 report-only replays; whole NF26 used F532.",
+    "Equivalence observed under the default campaign settings; custom-option preservation is qualified separately by root tests.",
+    "No whole-BAM biological equivalence or estimation truth is inferred from report equality.",
+    "External public config include bytes are not independently pinned by this audit."
+  ]
+}

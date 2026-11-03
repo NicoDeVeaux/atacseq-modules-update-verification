@@ -1,0 +1,103 @@
+{
+  "schema": "fingerprint-public-review-index/v1",
+  "proposal_head": "826e7e8409b5891fee0f0f3bf0854a6df26e81ca",
+  "proposal_repository": "NicoDeVeaux/atacseq-nfcore",
+  "proposal_branch": "proposal/reproducible-fingerprint-reports",
+  "receipt_transformation": "Known local absolute prefixes replaced; prose hashes shortened. Original byte digests retained. Machine-readable scientific/source hashes unchanged.",
+  "source_file_sha256": {
+    ".github/actions/nf-test/action.yml": "b0857988ac9a84e78f55da50bfc077bd06f70cb9ca918662df23a07d21c1c3e3",
+    ".github/workflows/nf-test.yml": "164cf4c6cadade58f28c01f375f2a7aad69a1ea5149ed165d263f086207f1562",
+    "CHANGELOG.md": "15b9bec623f789e90c17d66eaeccbc5fd393f9c8df12c38708af4728e5804dd0",
+    "bin/multiqc_fingerprint.py": "723bf55bd129a1af051f95c164f6fefab015a32b54195dcccefdc945aa3c469a",
+    "conf/modules.config": "3977d4bb79147eac2d2051864bd7d9ed9732ee5fdb1599e4833459edefb17e00",
+    "modules/local/multiqc.nf": "18ac247159c509377d200342057e02bf11188b79692d1a36550c88b190f387e7",
+    "tests/ci/capture_controls_evidence.py": "e32c1df5de074f1e3d2ba2de09dea87e81a0fe83bdce209c49000833ec61ec88",
+    "tests/ci/test_capture_controls_evidence.py": "d94a554699b21a74e5db1b2f46bb5e17303fd096177414992b309fac518065dc",
+    "tests/controls.nf.test.snap": "82fdcbfdfd20568e9fa2471183b46d6e6d8567ddf2622bdb412ceaf94991ce07",
+    "tests/default.nf.test.snap": "748df274199587f9afc20e1b7f83a5e5dd1f031b6bcbef14a9e741465c6c2f72",
+    "tests/regressions/fingerprint_fixtures/MANIFEST.json": "f0a00aec0ee87e19dab81d5628347aaf0b8a7938b8cfc437745d563332526f9f",
+    "tests/regressions/fingerprint_fixtures/comparison_a.plotFingerprint.raw.txt": "ac412ffa88af5e6d14871b0c8ea9e24bb65c0a2aeeda97e8669a71c644e1f5a1",
+    "tests/regressions/fingerprint_fixtures/comparison_b.plotFingerprint.raw.txt": "657c94369a09343f7badf98aef855be0228a6ef2a25044f52be6dda0746d3837",
+    "tests/regressions/fingerprint_labels.nf": "ea7126d786e5935cd64a3caa65ae41392c95e87bce560fe542e2d74993dca7a6",
+    "tests/regressions/fingerprint_reports.md": "def87ea0fd577f77b7688f3d152864ea55a4881e6bb6a5f45a5003a434374853",
+    "tests/regressions/fingerprint_reports.py": "0d15b2409f398d05d10babf5aea03ac6287362314ba9c4624eb7936cf9fb9039",
+    "tests/skip_consensus_peaks.nf.test.snap": "ca79a5ba1144ff456ab6612e30ae3343d82e12eca53162ad44b9652a45c0b5e2"
+  },
+  "receipts": [
+    {
+      "original_local_evidence": "SNAPSHOT-ADMISSION.json",
+      "original_sha256": "3ce63bec485bf73208a69a02dae22f07efe9f7e9ee6a34eb193eb70c472a5a2c",
+      "published_file": "SNAPSHOT-ADMISSION.json",
+      "published_sha256": "3ce63bec485bf73208a69a02dae22f07efe9f7e9ee6a34eb193eb70c472a5a2c"
+    },
+    {
+      "original_local_evidence": "host-native-25-f723/audit/TWO-ENGINE-QUALIFICATION.json",
+      "original_sha256": "fda579da7bb897143371e458e064d03cef48a7297e1fad48e36c1d0d90685b07",
+      "published_file": "TWO-ENGINE-QUALIFICATION.json",
+      "published_sha256": "a8e1a2d17a10c8683698599fb8e23b64c0d48ca45c932580bcb11d65394524b9"
+    },
+    {
+      "original_local_evidence": "host-native-25-f723/audit/FINAL-RECEIPT.json",
+      "original_sha256": "11b07ff6335697da244ba6436737b3a3130f06dbfc769264adae061eeb2bac75",
+      "published_file": "TWO-ENGINE-RECEIPT.json",
+      "published_sha256": "ebae8148599010e521739f99e4f7c3267505ddcf14af7241325f6ba17a1d82b3"
+    },
+    {
+      "original_local_evidence": "old-hash-reproduction/REPRODUCTION.json",
+      "original_sha256": "afa004be09504b3e9198c04dd70b608a64fff239b9d7688495ab4b866822f80c",
+      "published_file": "LEGACY-HASH-REPRODUCTION.json",
+      "published_sha256": "c8a242121460bf8c1cd5c4f4624a399f65645feb957147ac5f07e54b3d845231"
+    },
+    {
+      "original_local_evidence": "no-control-audit/DEFAULT-REPLAY-AUDIT.json",
+      "original_sha256": "80d638011b2b63aa40f4d25074bf07aa67054b04a5637840c5252e0cd7d29703",
+      "published_file": "DEFAULT-REPLAY-AUDIT.json",
+      "published_sha256": "8ce26689d08ada488a8985b67acece04c33c0d4939517c43a10e2a67e8897357"
+    },
+    {
+      "original_local_evidence": "no-control-audit/FINAL-HELPER-COMPATIBILITY.json",
+      "original_sha256": "a5d37ab3ffada145b273fae189d78b7f94c7f060f376535dc1fe753cb7bbc396",
+      "published_file": "DEFAULT-FINAL-HELPER-COMPATIBILITY.json",
+      "published_sha256": "a5d37ab3ffada145b273fae189d78b7f94c7f060f376535dc1fe753cb7bbc396"
+    },
+    {
+      "original_local_evidence": "no-control-audit/CANDIDATE-DISPOSITIONS.json",
+      "original_sha256": "1c91f88ebdd84ec357d4a6b32c13f9390ed226960b4427d9476c919e25a29ce1",
+      "published_file": "PRE-ADMISSION-PROFILE-DISPOSITIONS.json",
+      "published_sha256": "1c91f88ebdd84ec357d4a6b32c13f9390ed226960b4427d9476c919e25a29ce1"
+    },
+    {
+      "original_local_evidence": "final-review/FINAL-HANDOFF.json",
+      "original_sha256": "3c8e83bea47ebf61ff77927dbf2b37cd39f448ab0b04133091bfe656fa8e4d66",
+      "published_file": "FOCUSED-REVIEW.json",
+      "published_sha256": "fec79e575943972401247a2fc7fa36385a3532d9ee450f8aa472c1e55a158257"
+    },
+    {
+      "original_local_evidence": "scoped-label-independent-v2/RESULT.json",
+      "original_sha256": "545a7ae5a89dd07f545fdabe93dc040aedb5c0067886c839685bf38e56b18c32",
+      "published_file": "INDEPENDENT-NAMING-CHECKS.json",
+      "published_sha256": "545a7ae5a89dd07f545fdabe93dc040aedb5c0067886c839685bf38e56b18c32"
+    },
+    {
+      "original_local_evidence": "old-hash-reproduction/REPORT.md",
+      "original_sha256": "91f07f0989396684fd8fe2dddaa2011e2e9f933902e6100e7c7226dbfbeb669c",
+      "published_file": "LEGACY-HASH-REPRODUCTION.md",
+      "published_sha256": "b453834c6f12bd3b879d7a50226a4b1ba01024c3b8ceaf21c249a4709790deb0"
+    },
+    {
+      "original_local_evidence": "host-native-25-f723/audit/QUALIFICATION.md",
+      "original_sha256": "867ec68f4d584606f37a9f41b645bacc9278a198db71d06f0269f9f5cd908e15",
+      "published_file": "TWO-ENGINE-QUALIFICATION.md",
+      "published_sha256": "2102c0da8060da4554f2604d25c7761c8599c36bf69b4beb1d23fefe3d4e183f"
+    }
+  ],
+  "raw_runtime_material_published_here": false,
+  "complete_pipeline_matrix_green_claim": false,
+  "historical_dispositions": "PRE-ADMISSION-PROFILE-DISPOSITIONS.json predates admission; use SNAPSHOT-ADMISSION.json for applied changes.",
+  "pending_profiles": [
+    "bowtie2",
+    "chromap",
+    "star",
+    "skip_trimming"
+  ]
+}

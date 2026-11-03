@@ -1,0 +1,92 @@
+{
+  "schema": "fingerprint-no-control-candidate-disposition/v1",
+  "target_source_head": "3300424e0600adb228449cf45036f94416eb46ab",
+  "wrapper_SHA256": "bf3f1fa32c7b4be30a5cb9ea9817800e416b16a1880915a55eda203a73f85880",
+  "known_affected_no_control_cases": 6,
+  "controls_candidates_outside_this_audit": true,
+  "profiles": [
+    {
+      "profile_case": "bowtie2",
+      "snapshot_file": "tests/bowtie2.nf.test.snap",
+      "counts_TSV_expectation_known_affected": true,
+      "old_count_MD5": "7bc385cf49df27f4ff287e75ed4223d2",
+      "plot_MD5_to_preserve": "eb5bbc83c5602c300899c419a2e71a76",
+      "proposed_count_MD5": null,
+      "candidate_applied": false,
+      "qualification": "NO_APPROVED_NUMERIC_CANDIDATE_GENUINE_TARGET_CI_DATA_NOT_RECOVERED",
+      "note": "Aligner/trim mode requires its own original raw/plot context; do not import default or different-source5f numeric values."
+    },
+    {
+      "profile_case": "chromap",
+      "snapshot_file": "tests/chromap.nf.test.snap",
+      "counts_TSV_expectation_known_affected": true,
+      "old_count_MD5": "1a024a72bbc5dd0e1493e6025c9b980a",
+      "plot_MD5_to_preserve": "e57d508028bbfa194483f9943d652a8c",
+      "proposed_count_MD5": null,
+      "candidate_applied": false,
+      "qualification": "NO_APPROVED_NUMERIC_CANDIDATE_GENUINE_TARGET_CI_DATA_NOT_RECOVERED",
+      "note": "Aligner/trim mode requires its own original raw/plot context; do not import default or different-source5f numeric values."
+    },
+    {
+      "profile_case": "default",
+      "snapshot_file": "tests/default.nf.test.snap",
+      "counts_TSV_expectation_known_affected": true,
+      "old_count_MD5": "15274f0c41d58f14d454fb0fb983e6fd",
+      "plot_MD5_to_preserve": "c0dc7eb479f572b51b7c1aea7f08a241",
+      "proposed_count_MD5": "2301a84b27273f607d68b33e54629e1e",
+      "candidate_applied": false,
+      "actual_report_SHA256": "16c75747b5c72fbb316444ed6089ab6c1392dafeeda4a3ec4a3cd4fbc148acc8",
+      "qualification": "DIRECT_SAME_SOURCE_FULL_PROFILE_CONTEXT_REPORT_REPLAY",
+      "dedicated_full_profile_run_observed": true,
+      "note": "No-control source/BAM path matches73155d; original rich numerical plot and empty counts hashes both match target.",
+      "original_snapshot_SHA256": "baf56eeaca321f95f1823658e0fa39adcbf47bc3573d442141221a704ed11b14",
+      "candidate_snapshot_SHA256": "748df274199587f9afc20e1b7f83a5e5dd1f031b6bcbef14a9e741465c6c2f72",
+      "other_snapshot_bytes_preserved": true
+    },
+    {
+      "profile_case": "skip_consensus_peaks",
+      "snapshot_file": "tests/skip_consensus_peaks.nf.test.snap",
+      "counts_TSV_expectation_known_affected": true,
+      "old_count_MD5": "15274f0c41d58f14d454fb0fb983e6fd",
+      "plot_MD5_to_preserve": "c0dc7eb479f572b51b7c1aea7f08a241",
+      "proposed_count_MD5": "2301a84b27273f607d68b33e54629e1e",
+      "candidate_applied": false,
+      "actual_report_SHA256": "16c75747b5c72fbb316444ed6089ab6c1392dafeeda4a3ec4a3cd4fbc148acc8",
+      "qualification": "DERIVED_SHARED_FINGERPRINT_INPUTS_AND_IDENTICAL_RICH_PLOT_EXPECTATION",
+      "dedicated_full_profile_run_observed": false,
+      "note": "Only downstream skip-consensus flag differs; production references confirmed. Same rich plot/count goldens. Not a separately executed skip-consensus workflow.",
+      "original_snapshot_SHA256": "4db438f47d23abf619dfc42354143708b37d01f28132cd91c678ba459a8f745c",
+      "candidate_snapshot_SHA256": "ca79a5ba1144ff456ab6612e30ae3343d82e12eca53162ad44b9652a45c0b5e2",
+      "other_snapshot_bytes_preserved": true
+    },
+    {
+      "profile_case": "skip_trimming",
+      "snapshot_file": "tests/skip_trimming.nf.test.snap",
+      "counts_TSV_expectation_known_affected": true,
+      "old_count_MD5": "b3aefd736ba3dc078560c541558aa8a9",
+      "plot_MD5_to_preserve": "0b18beabfb07348950cfdb14e8caaa53",
+      "proposed_count_MD5": null,
+      "candidate_applied": false,
+      "qualification": "NO_APPROVED_NUMERIC_CANDIDATE_GENUINE_TARGET_CI_DATA_NOT_RECOVERED",
+      "note": "Aligner/trim mode requires its own original raw/plot context; do not import default or different-source5f numeric values."
+    },
+    {
+      "profile_case": "star",
+      "snapshot_file": "tests/star.nf.test.snap",
+      "counts_TSV_expectation_known_affected": true,
+      "old_count_MD5": "f5cba95d6871907b4ff7d78f6362c71a",
+      "plot_MD5_to_preserve": "492578b77b8df68c48e5254d3de4cbf6",
+      "proposed_count_MD5": null,
+      "candidate_applied": false,
+      "qualification": "NO_APPROVED_NUMERIC_CANDIDATE_GENUINE_TARGET_CI_DATA_NOT_RECOVERED",
+      "note": "Aligner/trim mode requires its own original raw/plot context; do not import default or different-source5f numeric values."
+    }
+  ],
+  "snapshot_updates_applied": false,
+  "original_CI_raw_inputs_recovered": false,
+  "synthetic_diagnosis_fixtures_used_for_numeric_candidates": false,
+  "default_original_rich_plot_expectation_reproduced_exactly": true,
+  "no_control_plot_expectation_changes_proposed": false,
+  "native_CI_success_claim": false,
+  "reuse_after_BAM_science_rebase_requires_revalidation": true
+}

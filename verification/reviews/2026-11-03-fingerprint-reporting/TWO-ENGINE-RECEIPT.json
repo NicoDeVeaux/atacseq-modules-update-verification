@@ -1,0 +1,12 @@
+{
+  "qualification_json": "local-evidence/host-native-25-f723/audit/TWO-ENGINE-QUALIFICATION.json",
+  "qualification_sha256": "fda579da7bb897143371e458e064d03cef48a7297e1fad48e36c1d0d90685b07",
+  "status": "PASS_WITH_RECOVERED_TASK_FAILURE",
+  "summary": "local-evidence/host-native-25-f723/audit/QUALIFICATION.md",
+  "summary_sha256": "867ec68f4d584606f37a9f41b645bacc9278a198db71d06f0269f9f5cd908e15",
+  "all_reporting_data_checks_pass": true,
+  "recovered_task_failures": 1,
+  "recovered_failure_cause": "UNESTABLISHED",
+  "no_more_full_workflows_pending": true,
+  "no_source_or_snapshot_edits_by_operator": true
+}

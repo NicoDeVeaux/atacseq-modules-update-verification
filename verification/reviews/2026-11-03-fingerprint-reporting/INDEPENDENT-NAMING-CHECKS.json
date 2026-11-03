@@ -1,0 +1,297 @@
+{
+  "library_version": "1.13",
+  "checks": [
+    {
+      "check": "actual raw parser: four unique labels and 16 exact curve values",
+      "passed": true,
+      "detail": {
+        "series_count": 4,
+        "numeric_cells": 16,
+        "curves": {
+          "mLb_A_REP1.mLb.clN": [
+            [
+              0.0,
+              0.07692307692307693
+            ],
+            [
+              0.2,
+              0.23076923076923078
+            ],
+            [
+              0.4,
+              0.46153846153846156
+            ],
+            [
+              0.6,
+              1.0
+            ]
+          ],
+          "control::mLb_A_REP1::CONTROL_A_REP1": [
+            [
+              0.0,
+              0.08333333333333333
+            ],
+            [
+              0.2,
+              0.25
+            ],
+            [
+              0.4,
+              0.5833333333333334
+            ],
+            [
+              0.6,
+              1.0
+            ]
+          ],
+          "mLb_B_REP1.mLb.clN": [
+            [
+              0.0,
+              0.058823529411764705
+            ],
+            [
+              0.2,
+              0.23529411764705882
+            ],
+            [
+              0.4,
+              0.47058823529411764
+            ],
+            [
+              0.6,
+              1.0
+            ]
+          ],
+          "control::mLb_B_REP1::CONTROL_B_REP1": [
+            [
+              0.0,
+              0.08333333333333333
+            ],
+            [
+              0.2,
+              0.16666666666666666
+            ],
+            [
+              0.4,
+              0.3333333333333333
+            ],
+            [
+              0.6,
+              1.0
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "check": "other modules, metrics and treatment names unchanged",
+      "passed": true,
+      "detail": {
+        "unchanged_cases": 16,
+        "examples": [
+          {
+            "original": "control:",
+            "draft": "control:"
+          },
+          {
+            "original": "ordinary_A_REP1",
+            "draft": "ordinary_A_REP1"
+          },
+          {
+            "original": "mLb_A_REP1.mLb.clN",
+            "draft": "mLb_A_REP1.mLb.clN"
+          },
+          {
+            "original": "control:",
+            "draft": "control:"
+          },
+          {
+            "original": "ordinary_A_REP1",
+            "draft": "ordinary_A_REP1"
+          },
+          {
+            "original": "mLb_A_REP1.mLb.clN",
+            "draft": "mLb_A_REP1.mLb.clN"
+          },
+          {
+            "original": "control:",
+            "draft": "control:"
+          },
+          {
+            "original": "ordinary_A_REP1",
+            "draft": "ordinary_A_REP1"
+          },
+          {
+            "original": "mLb_A_REP1.mLb.clN",
+            "draft": "mLb_A_REP1.mLb.clN"
+          },
+          {
+            "original": "control:",
+            "draft": "control:"
+          },
+          {
+            "original": "ordinary_A_REP1",
+            "draft": "ordinary_A_REP1"
+          },
+          {
+            "original": "mLb_A_REP1.mLb.clN",
+            "draft": "mLb_A_REP1.mLb.clN"
+          },
+          {
+            "original": "ordinary_A_REP1",
+            "draft": "ordinary_A_REP1"
+          },
+          {
+            "original": "mLb_A_REP1.mLb.clN",
+            "draft": "mLb_A_REP1.mLb.clN"
+          },
+          {
+            "original": "Control:",
+            "draft": "Control:"
+          },
+          {
+            "original": "control:",
+            "draft": "control:"
+          }
+        ]
+      }
+    },
+    {
+      "check": "prepend directory retained",
+      "passed": true,
+      "detail": "run42 | control::mLb_A_REP1::CONTROL_A_REP1"
+    },
+    {
+      "check": "custom literal replacement retained",
+      "passed": true,
+      "detail": "control::mLb_A_REP1::Chosen"
+    },
+    {
+      "check": "custom regex replacement retained",
+      "passed": true,
+      "detail": "comparison::mLb_A_REP1::CONTROL_A_REP1"
+    },
+    {
+      "check": "custom exact replacement retained",
+      "passed": true,
+      "detail": "Chosen control"
+    },
+    {
+      "check": "fullnames disables generic cleanup exactly as original",
+      "passed": true,
+      "detail": {
+        "original": "control::mLb_A_REP1::CONTROL_A_REP1.mLb.clN",
+        "draft": "control::mLb_A_REP1::CONTROL_A_REP1.mLb.clN"
+      }
+    },
+    {
+      "check": "filename override True unchanged",
+      "passed": true,
+      "detail": {
+        "original": "raw_input",
+        "draft": "raw_input"
+      }
+    },
+    {
+      "check": "filename override matching search-key list unchanged",
+      "passed": true,
+      "detail": {
+        "original": "raw_input",
+        "draft": "raw_input"
+      }
+    },
+    {
+      "check": "filename override explicit filename keyword unchanged",
+      "passed": true,
+      "detail": {
+        "original": "override",
+        "draft": "override"
+      }
+    },
+    {
+      "check": "nonmatching filename override list retains protected identity",
+      "passed": true,
+      "detail": {
+        "protected_identity": "control::mLb_A_REP1::CONTROL_A_REP1",
+        "fn_clean_sample_names_restored": true
+      }
+    },
+    {
+      "check": "nonmatching explicit pattern keyword retains raw provenance protection",
+      "passed": true,
+      "detail": {
+        "protected_raw_identity": "control::mLb_A_REP1::CONTROL_A_REP1",
+        "effective_selector": "fastqc"
+      }
+    },
+    {
+      "check": "matching explicit pattern keyword honors filename override",
+      "passed": true,
+      "detail": {
+        "original": "raw_input",
+        "draft": "raw_input"
+      }
+    },
+    {
+      "check": "explicit pattern keyword cannot promote nonraw provenance",
+      "passed": true,
+      "detail": {
+        "original": "control:",
+        "draft": "control:"
+      }
+    },
+    {
+      "check": "filename selection requires an actual filename",
+      "passed": true,
+      "detail": "control::mLb_A_REP1::CONTROL_A_REP1"
+    },
+    {
+      "check": "complete explicit positional 1.13 context forwarded unchanged",
+      "passed": true,
+      "detail": {
+        "original": "positional",
+        "draft": "positional"
+      }
+    },
+    {
+      "check": "legacy string root context unchanged",
+      "passed": true,
+      "detail": {
+        "original": "root | control:",
+        "draft": "root | control:"
+      }
+    },
+    {
+      "check": "actual cleaner exception restores fn_clean_sample_names",
+      "passed": true,
+      "detail": {
+        "fn_clean_sample_names_restored": true,
+        "subsequent_ordinary_clean": {
+          "original": "ordinary_A_REP1",
+          "draft": "ordinary_A_REP1"
+        }
+      }
+    }
+  ],
+  "scope": "Small actual-library cleaner/parser calls through stub run_multiqc; no rendering/workflow.",
+  "baseline_collision": {
+    "labels": [
+      "mLb_A_REP1.mLb.clN",
+      "control:",
+      "mLb_B_REP1.mLb.clN"
+    ],
+    "series_count": 3
+  },
+  "stub_callback_ran": true,
+  "hashes": {
+    "draft-under-review.py": "723bf55bd129a1af051f95c164f6fefab015a32b54195dcccefdc945aa3c469a",
+    "multiqc_config.yml": "f7ffa59e5feed728a70443e05418caf4496abe3bca035e2c1fa4a64b4f2bd2a8",
+    "probe.py": "414f08a4d0cef1b437561036b7df4f5bd3d6e3621d5286d66db080192169c99c"
+  },
+  "library_sources": {
+    "/usr/local/lib/python3.10/site-packages/multiqc/modules/base_module.py": "117062a3cfb12d2fcf52a690c6dd469f268e4c98aba0129ca793a37872cc6c83",
+    "/usr/local/lib/python3.10/site-packages/multiqc/modules/deeptools/plotFingerprint.py": "8355bfe234ab844477c906f31833b059382b3c164c2d988c29cabf7aae14ac80"
+  },
+  "failed_checks": [],
+  "passed": true
+}

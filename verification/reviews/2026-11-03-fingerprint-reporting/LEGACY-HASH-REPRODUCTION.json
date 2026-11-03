@@ -1,0 +1,124 @@
+{
+  "status": "BOTH_REQUESTED_PAIRS_EXACTLY_REPRODUCED_COUNTERFACTUAL_ONLY",
+  "target_pairs": [
+    {
+      "counts_md5": "eb7174990379d2e4437fec7309ec6482",
+      "plot_md5": "5dc80564b41800f294d4a4aeff934632"
+    },
+    {
+      "counts_md5": "16b75ef2be4a9e5660bb99e878905b68",
+      "plot_md5": "80da37ad586f8995f2436cdac7bb9ec3"
+    }
+  ],
+  "results": [
+    {
+      "order": [
+        "SPT5_T15_REP1",
+        "SPT5_T15_REP2",
+        "SPT5_T0_REP1",
+        "SPT5_T0_REP2"
+      ],
+      "last_writer": {
+        "SPT5_INPUT_REP1": "SPT5_T0_REP1",
+        "SPT5_INPUT_REP2": "SPT5_T0_REP2"
+      },
+      "series": 6,
+      "numeric_plot_points": 586,
+      "counts_md5": "a9e79e5a47ded4a012c15c73df02ca5e",
+      "plot_md5": "56a27c852768a183f35161b3f9cd146d",
+      "matched_requested_pair": null,
+      "counts_tsv": {
+        "sample_rows": 6,
+        "header_fields": 587,
+        "numeric_cells": 0
+      },
+      "counts_sha256": "210a05219b0aaf1ce64219e393e55903954789b57b833e0edac1a517b6ad7c76",
+      "plot_sha256": "9a19bbe2ecbb0676c2c0a4b2952eb77e1b858cff10a15192ea6b499f1b12e8fc",
+      "result": "local-evidence/old-hash-reproduction/orders/T0-last-rep1__T0-last-rep2/RESULT.json"
+    },
+    {
+      "order": [
+        "SPT5_T15_REP1",
+        "SPT5_T0_REP2",
+        "SPT5_T0_REP1",
+        "SPT5_T15_REP2"
+      ],
+      "last_writer": {
+        "SPT5_INPUT_REP1": "SPT5_T0_REP1",
+        "SPT5_INPUT_REP2": "SPT5_T15_REP2"
+      },
+      "series": 6,
+      "numeric_plot_points": 588,
+      "counts_md5": "eb7174990379d2e4437fec7309ec6482",
+      "plot_md5": "5dc80564b41800f294d4a4aeff934632",
+      "matched_requested_pair": 1,
+      "counts_tsv": {
+        "sample_rows": 6,
+        "header_fields": 589,
+        "numeric_cells": 0
+      },
+      "counts_sha256": "8a70f402fe36f0e0bf8570c63c9e80a1500ef06dc2186d92ab68be7b92d19535",
+      "plot_sha256": "315012eeedf3a181b525a9f390f8288605e58dedb3d8f6a10aea4c13f3b2bfaf",
+      "result": "local-evidence/old-hash-reproduction/orders/T0-last-rep1__T15-last-rep2/RESULT.json"
+    },
+    {
+      "order": [
+        "SPT5_T0_REP1",
+        "SPT5_T15_REP2",
+        "SPT5_T15_REP1",
+        "SPT5_T0_REP2"
+      ],
+      "last_writer": {
+        "SPT5_INPUT_REP1": "SPT5_T15_REP1",
+        "SPT5_INPUT_REP2": "SPT5_T0_REP2"
+      },
+      "series": 6,
+      "numeric_plot_points": 585,
+      "counts_md5": "16b75ef2be4a9e5660bb99e878905b68",
+      "plot_md5": "80da37ad586f8995f2436cdac7bb9ec3",
+      "matched_requested_pair": 2,
+      "counts_tsv": {
+        "sample_rows": 6,
+        "header_fields": 586,
+        "numeric_cells": 0
+      },
+      "counts_sha256": "f91d74f10a27dafb651c8a146f699a63c5fbd694fb5176264f1b2d3b7e0c734a",
+      "plot_sha256": "1cdd1e10394c28c477108074eb46ae354b2ce103ff3d86bb45712c531616f4f8",
+      "result": "local-evidence/old-hash-reproduction/orders/T15-last-rep1__T0-last-rep2/RESULT.json"
+    },
+    {
+      "order": [
+        "SPT5_T0_REP1",
+        "SPT5_T0_REP2",
+        "SPT5_T15_REP1",
+        "SPT5_T15_REP2"
+      ],
+      "last_writer": {
+        "SPT5_INPUT_REP1": "SPT5_T15_REP1",
+        "SPT5_INPUT_REP2": "SPT5_T15_REP2"
+      },
+      "series": 6,
+      "numeric_plot_points": 587,
+      "counts_md5": "ec96c60cf659741c687670969620fd3f",
+      "plot_md5": "2fc603c33d56968d2d6110a34438b564",
+      "matched_requested_pair": null,
+      "counts_tsv": {
+        "sample_rows": 6,
+        "header_fields": 588,
+        "numeric_cells": 0
+      },
+      "counts_sha256": "d981dfa921f6af9db31f5b53136e73770dbe2485af53abe1b96316a814b0d850",
+      "plot_sha256": "eba28d2b7a0a52bbbbbb2386f571826b98fdc6bd6cbac43ca98da7eba03ccbf7",
+      "result": "local-evidence/old-hash-reproduction/orders/T15-last-rep1__T15-last-rep2/RESULT.json"
+    }
+  ],
+  "calibration": {
+    "exact_genuine_numeric_plot_reproduced": true,
+    "retained_plot_sha256": "7bb5e711d544853e238c5edbfbcacffd97a0ba6773b156c05236a54777f43e18",
+    "series": 8,
+    "numeric_points": 782
+  },
+  "originals_reverified_unchanged": true,
+  "transformation": "Only header line2 changed to original73155d treatment suffix plus bare shared control; comment and all numeric body bytes unchanged",
+  "scope_limit": "Reproduction uses retained genuine local controls25 vectors; it is not recovery of historical CI raw files or proof of their actual file ordering. Unpatched1.13 parser/count writer/plot TXT writer; graphics omitted only after exact plot TXT save, validated by genuine8-series calibration. Two setup-only harness failures are retained."
+}

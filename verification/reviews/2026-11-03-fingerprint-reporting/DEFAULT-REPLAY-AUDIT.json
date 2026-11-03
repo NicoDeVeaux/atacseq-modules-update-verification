@@ -1,0 +1,58 @@
+{
+  "status": "DEFAULT_SAME_SOURCE_EXACT_VALUE_REPLAY_PASS",
+  "source_commit": "73155d2b59d37f521e3f00228d559031d2e7847f",
+  "source_case": "upstream-default-01",
+  "legacy_count_and_numeric_plot_match_current_golden": true,
+  "series": 6,
+  "numeric_curve_points": 473,
+  "old_counts_numeric_cells": 0,
+  "old_counts_columns_including_Sample": 474,
+  "old_counts_duplicate_rank_headers": 74,
+  "new_counts_columns_including_Sample": 400,
+  "new_counts_all_rank_headers_unique": true,
+  "new_counts_numeric_cells": 473,
+  "new_counts_sparse_blanks_exactly_expected": 1921,
+  "entire_plot_JSON_object_unchanged": true,
+  "entire_plot_TSV_bytes_unchanged": true,
+  "all_existing_plot_numeric_values_exactly_represented_in_new_counts": true,
+  "legacy_counts": {
+    "path": "prior-ci-evidence/runs/upstream-default-01/nft/tests/c748536e32866888890e36d1b9d64aee/work/51/608bf7ebe54268bab52103b57314f9/multiqc_data/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+    "bytes": 11905,
+    "sha256": "b274ff6ad11a365d85412978d040e0ff58bb7e126e01a9f2f24684e1481a8532",
+    "md5": "15274f0c41d58f14d454fb0fb983e6fd"
+  },
+  "new_counts": {
+    "path": "local-evidence/no-control-audit/replays/upstream-default-01-final/multiqc_data/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+    "bytes": 19085,
+    "sha256": "16c75747b5c72fbb316444ed6089ab6c1392dafeeda4a3ec4a3cd4fbc148acc8",
+    "md5": "2301a84b27273f607d68b33e54629e1e"
+  },
+  "unchanged_plot": {
+    "path": "local-evidence/no-control-audit/replays/upstream-default-01-final/multiqc_data/mqc_deeptools_fingerprint_plot_1.txt",
+    "bytes": 18463,
+    "sha256": "4556f0597dd13b07f987911d0c6f86e9b5c0251268d030f65263eb0fb0c9fd2d",
+    "md5": "c0dc7eb479f572b51b7c1aea7f08a241"
+  },
+  "source_mismatch_negative_controls": [
+    {
+      "case": "fixed-default-01",
+      "source_sha": "5f74aba1a9942c7e5a29a7658ec47f628269dec3",
+      "legacy_empty_count_MD5_matches_target": true,
+      "legacy_plot_MD5_matches_target": false,
+      "changed_series": 3,
+      "positionwise_changed_curve_pairs": 225,
+      "eligible_current_target_candidate": false
+    },
+    {
+      "case": "fixed-default-02",
+      "source_sha": "5f74aba1a9942c7e5a29a7658ec47f628269dec3",
+      "legacy_empty_count_MD5_matches_target": true,
+      "legacy_plot_MD5_matches_target": false,
+      "changed_series": 3,
+      "positionwise_changed_curve_pairs": 225,
+      "eligible_current_target_candidate": false
+    }
+  ],
+  "no_original_raw_or_report_bytes_rewritten": true,
+  "not_native_CI_or_full_workflow_claim": true
+}
