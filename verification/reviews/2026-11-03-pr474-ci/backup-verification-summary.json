@@ -1,0 +1,34 @@
+{
+  "schema": "atacseq474-private-backup-public-summary/v1",
+  "verification": "Full backup readback completed for the declared matched-control scope.",
+  "covered_bytes": 2083135295,
+  "entries": 29457,
+  "unique_objects": 6629,
+  "covered_roots": 10,
+  "scope": [
+    "Terminal matched controls",
+    "Frozen inputs and tools",
+    "Finished Chromap diagnostic"
+  ],
+  "not_complete_coverage": [
+    "Final CI and small closure/publication metadata"
+  ],
+  "supplement_after_final_closure_required": true,
+  "local_copies_retained": true,
+  "cleanup_allowed": false,
+  "private_receipt_sha256": {
+    "S3-RECEIPT": "db8e7e7b408cee1d77e484be45258c39b7c15132b105b51311579d0ed702cac0",
+    "LOCAL-RECEIPT": "a26b068407a6d2653908c09d54a927822c66e808231423579336871de803c7e6",
+    "MANIFEST": "af4ac2120519ac4c2f5b15c4a74f2ae458de8ec1bc6aebb58626467c7b2f6a15",
+    "SCOPE": "07ae7f9a2cd0b70277d016eac095e211383577a01ef1c06f68b62b1ae259cf71"
+  },
+  "private_storage_locations_or_receipt_contents_published": false,
+  "science_supplement": {
+    "bytes": 672232156,
+    "entries": 8431,
+    "unique_objects": 2132,
+    "full_readback_verified": true,
+    "verification_receipt_sha256": "9484527840a47fb0699c860e135bfa3a72747c137acd4ebddce9fd4dbcd95e01",
+    "scope": "Completed scientific operator/count-stage evidence, diagnostics and source; excludes root closure/publication metadata"
+  }
+}

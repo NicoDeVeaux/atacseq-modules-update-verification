@@ -1,0 +1,71 @@
+{
+  "schema": "atacseq474-snapshot-only-update/v1",
+  "runtime_source_sha": "ff886ec44617995ffb6ee8c2c73a6c2cf3439781",
+  "snapshot_only_source_sha": "4b26f7e58fc374b13184548a2d375e49f34dc5fa",
+  "MD5_values_changed": 647,
+  "snapshot_files_changed": 7,
+  "all_other_snapshot_bytes_preserved": true,
+  "files": [
+    {
+      "path": "tests/skip_consensus_peaks.nf.test.snap",
+      "MD5_values_changed": 86,
+      "all_other_bytes_preserved": true,
+      "before_sha256": "907f53f0f8de52d2aa6f22d40304e073894434bee67df2a15315560cfe18fe04",
+      "after_sha256": "8b374ccb1e7b7ff11d43849e0f78e33043a10fc73a8dba2173ac7d5b20def152"
+    },
+    {
+      "path": "tests/default.nf.test.snap",
+      "MD5_values_changed": 111,
+      "all_other_bytes_preserved": true,
+      "before_sha256": "faa105c9a5092a078f3ba14ffc97aee5eaf23cd025e0e75f4d647ba093aff96b",
+      "after_sha256": "8fe4a5b214402d945238637eb03c1fb2dd1db5d3d5b17beaca4fc2f69af43e0d"
+    },
+    {
+      "path": "tests/star.nf.test.snap",
+      "MD5_values_changed": 116,
+      "all_other_bytes_preserved": true,
+      "before_sha256": "1c0400ad3b2251762390b0bd376a3b98dc4a80080c7c777937ea591e9f936c7c",
+      "after_sha256": "6692288d2ee0dbd6efdaec435891aadbb8a1ab8042274002cbb57c74021ae3e9"
+    },
+    {
+      "path": "tests/controls.nf.test.snap",
+      "MD5_values_changed": 90,
+      "all_other_bytes_preserved": true,
+      "before_sha256": "be98a69f0fb75dbc4e2fc7ccb353816c284ec71f189a196dc199b85d52220bcb",
+      "after_sha256": "de89ff7eda68392f4936e361a6b3fa8e2b9c7d13e2395cfdea7aea0ce0231ba9"
+    },
+    {
+      "path": "tests/bowtie2.nf.test.snap",
+      "MD5_values_changed": 119,
+      "all_other_bytes_preserved": true,
+      "before_sha256": "8e29ac4471350cc612138b277648e9058c088691d87637f02e0c96d8b5b870f0",
+      "after_sha256": "285aae60a7c917d5b8040ff0961f13ea39145d34e6bffc166597b97335bef840"
+    },
+    {
+      "path": "tests/chromap.nf.test.snap",
+      "MD5_values_changed": 110,
+      "all_other_bytes_preserved": true,
+      "before_sha256": "3c66e59873a342eaa84cd8cafedda0f46c18c3597bdf373cb2e246de1a3130a3",
+      "after_sha256": "f4a44f45658542a4619c42eb6d233f75135f12ad7cc0aa808de25ed8a561004e"
+    },
+    {
+      "path": "tests/skip_trimming.nf.test.snap",
+      "MD5_values_changed": 15,
+      "all_other_bytes_preserved": true,
+      "before_sha256": "0f51964abd93b15a302341a00d55874a4f961316bde72e8ab1e59fc3be7bdd53",
+      "after_sha256": "552387a92e2a76faff136992c5ee9906b8c30336722b7fe092263e0d228b7023"
+    }
+  ],
+  "semantic_guard_and_other_assertions": "Preserved from runtime source; snapshot-only commit.",
+  "final_native_CI": {
+    "run_id": 41613670857,
+    "url": "https://github.com/nf-core/atacseq/actions/runs/41613670857",
+    "status": "PASS",
+    "result_substitution_required": false,
+    "cases_per_engine": {
+      "25.10.4": 12,
+      "26.10.5": 12
+    },
+    "underlying_nf_test_success_verified": true
+  }
+}

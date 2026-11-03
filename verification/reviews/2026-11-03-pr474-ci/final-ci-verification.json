@@ -1,0 +1,56 @@
+{
+  "state": "ALL_REQUIRED_CI_CHECKS_PASS",
+  "source_head": "4b26f7e58fc374b13184548a2d375e49f34dc5fa",
+  "runtime_head": "ff886ec44617995ffb6ee8c2c73a6c2cf3439781",
+  "source_tree": "a8b6baf1f321d80cdcf7445a958b8c5d4c7651c8",
+  "ci_merge_checkout": "17f155a15e371d215a268f8878e533d82b99cc4e",
+  "merge_tree_matches_reviewed_source": true,
+  "run_id": 41613670857,
+  "run_url": "https://github.com/nf-core/atacseq/actions/runs/41613670857",
+  "cases_per_engine": {
+    "25.10.4": 12,
+    "26.10.5": 12
+  },
+  "failed_cases_per_engine": {
+    "25.10.4": 0,
+    "26.10.5": 0
+  },
+  "underlying_nf_test_success_verified": true,
+  "lint_run_id": 41613671053,
+  "lint_jobs": [
+    {
+      "name": "nf-core",
+      "conclusion": "success"
+    },
+    {
+      "name": "pre-commit",
+      "conclusion": "success"
+    }
+  ],
+  "draft_pr_retained": true,
+  "archive_sha256": "cc5f632c9ea581e81b14939fb6a893a1e80a540833ce03fd726a299b92bf5e1a",
+  "verifier_sha256": "fb528484d84799531c370a889af8dff44ec3d7ebbecf581ed00ba611bddb82d7",
+  "utc": "2026-11-03T10:04:53.569743+00:00",
+  "verifier_controls": [
+    {
+      "case": "passing",
+      "outer_exit_code": 0,
+      "intended_assertion_reached": true
+    },
+    {
+      "case": "masked_latest_failure",
+      "outer_exit_code": 1,
+      "intended_assertion_reached": true
+    },
+    {
+      "case": "stale_head",
+      "outer_exit_code": 1,
+      "intended_assertion_reached": true
+    },
+    {
+      "case": "zero_executed",
+      "outer_exit_code": 1,
+      "intended_assertion_reached": true
+    }
+  ]
+}
