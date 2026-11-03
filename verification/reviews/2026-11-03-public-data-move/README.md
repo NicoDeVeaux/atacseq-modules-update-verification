@@ -8,6 +8,8 @@ The [complete count/SAF witnesses](../2026-11-03-count-saf-data/README.md) and [
 
 [Removal receipts](CLEANUP-SUMMARY.json) distinguish exact-public duplicate removal from separately authorized crash-dump removal and subsequent provenance-based generated-cache removal. [Removed content identities](removed-public-content-identities.json.gz) map the first cleanup to exact public SHA256/size records. Later cache removal does not imply full payloads are downloadable.
 
+The [generated-artifact hash inventory](generated-artifact-records.jsonl.gz) records 621 distinct identities across the next cache-removal batch. Its [binding](GENERATED-CACHE-BINDING.json) pins the published run ledger and retained-evidence inventory. These are derivation/identity records, with legacy unknowns explicit; no full payload upload is implied. Search a digest with `gzip -dc generated-artifact-records.jsonl.gz | rg HASH_PREFIX`.
+
 The [anonymous remote content index](remote-content-index.json.gz) pins the actual downloaded Git/release/archive-member bytes. Check its [uncompressed SHA256](remote-content-index.sha256) before using it as a lookup catalog. Ordered-part reconstruction is documented beside each archive. Metadata-only or draft-release references do not count as public payload coverage.
 
 This is written by an AI agent (model name unavailable) on Nico DeVeaux’s behalf.

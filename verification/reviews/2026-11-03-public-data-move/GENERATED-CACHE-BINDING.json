@@ -1,0 +1,26 @@
+{
+  "schema": "atacseq/generated-cache-provenance-binding/v1",
+  "canonical_run_ledger_commit": "b84c5cc1d9819876d4aab858a1172feda8b932c4",
+  "canonical_run_ledger_manifest_sha256": "94f7447d3e8f098b53241f69c424d038a0d7925366ab6a3f6d892cb98831d670",
+  "private_candidate_plan_sha256": "1e9a1dd5235dc86786b4179a9c995079b5274919d70d7ca1a52fd2be376c0ef0",
+  "artifact_identity_record_count": 621,
+  "artifact_identity_uncompressed_sha256": "ecad0c65f35babf1240002491051772deef6177fb395b49b1de2e4f556282335",
+  "planned_local_files": 1310,
+  "planned_logical_bytes": 46990132322,
+  "retained_small_evidence_files": 2422,
+  "private_retained_evidence_inventory_sha256": "c428add2f734b042d6b2399b73ae3d8fed7488a57e7e1c27b2e56835c41348ed",
+  "all_required_evidence_present": true,
+  "deletion_status": "NOT_STARTED",
+  "payload_availability": "Run/hash/result provenance and selected witnesses are preserved. These generated payloads need not be uploaded and are not claimed publicly downloadable.",
+  "legacy_scope": "Provisional legacy-local-nftest labels refer to the explicit UNKNOWN umbrella and captured task-source records, not inferred historical Git HEADs.",
+  "backup_scope": "legacy-validation-private-snapshot-20261102 is a derived backup/spool grouping, not a new scientific execution. Its member manifests and receipts remain private locally.",
+  "selection_categories": {
+    "opaque_backup_archive": 19654475417,
+    "opaque_spool_part": 13401616476,
+    "input_bam_cache": 285036036,
+    "generated_alignment_bam": 8301699630,
+    "input_read_cache": 2553094569,
+    "reference_or_generated_index": 443129481,
+    "generated_dense_numeric_matrix": 2351080713
+  }
+}
