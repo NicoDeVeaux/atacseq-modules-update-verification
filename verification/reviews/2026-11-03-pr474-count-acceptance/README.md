@@ -1,5 +1,7 @@
 # Issue 473: full BWA count acceptance replay
 
+The [complete public count/SAF data package](../2026-11-03-count-saf-data/README.md) now includes the actual tables, both cell-delta witnesses, annotation files and boundary fixture, with original/distributed hashes and an offline verifier.
+
 The original trimming repair reproduces **all 299,580 archived values**. The current PR with the SAF correction **does not meet the literal equality criterion**: 2,280 values change (0.761%), across 2,223 regions. No acceptance criterion or CI snapshot was changed for this replay.
 
 | Sample | Archived sum | Corrected sum | Changed cells |

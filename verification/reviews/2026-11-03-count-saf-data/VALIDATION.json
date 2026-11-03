@@ -1,0 +1,21 @@
+{
+  "full_rows": 74895,
+  "full_cells": 299580,
+  "historical_fixed_and_dev_values_equal": true,
+  "post_split_rows_exact_equal_to_legacy": true,
+  "SAF_start_plus_one_and_length_minus_one_all_rows": true,
+  "changed_cells": 2280,
+  "total_count_delta": -2293,
+  "independent_jsonl_delta_witness_exact": true,
+  "boundary_count_sums": {
+    "legacy": 1,
+    "corrected": 0
+  },
+  "scientific_tool_run": false,
+  "TSV_and_independent_JSONL_witnesses_exactly_equal": true,
+  "verifier_negative_controls": [
+    "same-size cell-witness corruption rejected",
+    "extra payload inventory rejected",
+    "missing payload rejected"
+  ]
+}
