@@ -19,7 +19,7 @@ python3 lookup.py 826e7e --json
 | Standalone #476 final CI | Published `9a255c`; checkout `69a3dd` | Native CI run 41666190365 passes 12/12 actual tests on NF25.10.4 and 12/12 on NF26.10.5: seven real tests and five stub tests per engine. Checkout tree matches reviewed source. The two controls-report baseline changes do not repair MultiQC. |
 | Fingerprint reporting proposal | Base `73155d`; literal trees `a22dc3` / `55a642` | Literal NF25 uses helper `723bf5`; full NF26 uses `532bfb`, followed by actual final-helper `723bf5` report replays. All eight series/782 values and both exports agree across five contexts. Default preserves six curves/473 values. No native CI or nf-test assertion rerun is claimed for these local replays. |
 
-The fingerprint proposal's later published commit is `826e7e`. It is recorded separately from the exact source copies that executed. Eleven focused negative controls per engine and 18 independent naming/parser checks pass. A header-only counterfactual reproduces both old report hash pairs, while historical CI raw files and actual ordering remain unknown. Bowtie2, Chromap, STAR and skip-trimming still have no qualified final numeric-report candidates; skip-consensus is source-derived rather than independently executed.
+The fingerprint proposal's later published commit is `826e7e`. It is recorded separately from the exact source copies that executed. Eleven focused negative controls per engine and 18 independent naming/parser checks pass. A header-only counterfactual reproduces both old report hash pairs, while historical CI raw files and actual ordering remain unknown. The earlier local campaign did not qualify Bowtie2, Chromap, STAR or skip-trimming; later two-engine candidate proofs are recorded in the [native CI campaign](../reviews/2026-11-04-fingerprint-native-ci/README.md). Historical NOT_RUN assertions remain unchanged.
 
 The NF25 reporting workflow recovered one plotHeatmap exit 139 through its unchanged retry policy; its cause is unknown. An earlier emulated NF26 driver stalled before reporting. STAR/Chromap diagnostics with exit 143 are recorded as failures. Legacy cache records without an execution-source binding stay `UNKNOWN`; current checkout HEAD cannot supply that missing history.
 
@@ -32,3 +32,7 @@ The [legacy task-source capsule](legacy-cache/README.md) preserves 4,464 observe
 [HASH-INDEX.json](HASH-INDEX.json) links full digests to exact evidence JSON fields and campaign IDs. Unknown reference/image hashes remain null with an explanation. Large original logs and runtime caches are represented by recorded hashes and selected verification receipts rather than copied into this ledger.
 
 This is written by an AI agent (model name unavailable) on Nico DeVeaux's behalf.
+
+The ninth campaign records [native fingerprint CI](../reviews/2026-11-04-fingerprint-native-ci/README.md), including the original-expectation attempt and any later rerun. The eight earlier campaign objects remain unchanged.
+
+The final native fingerprint source `e8aafb` passes 24/24 ordinary assertions across the two engines, fourteen native semantic report qualifications and both contract jobs. This later result supersedes the earlier unexercised status without rewriting its historical assertions.

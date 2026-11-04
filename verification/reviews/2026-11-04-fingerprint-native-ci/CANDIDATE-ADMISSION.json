@@ -1,0 +1,238 @@
+{
+  "limits": "Candidate eligibility records exact report exports only. No application snapshot edit is performed; native test/job success is separate.",
+  "records": [
+    {
+      "attempt_id": "41777278460-attempt-1",
+      "baseline_snapshot_sha256": "748df274199587f9afc20e1b7f83a5e5dd1f031b6bcbef14a9e741465c6c2f72",
+      "both_engines_semantic_pass": false,
+      "candidate_exports": [],
+      "original_plot_md5": "c0dc7eb479f572b51b7c1aea7f08a241",
+      "status": "UNKNOWN",
+      "test_case": "default"
+    },
+    {
+      "attempt_id": "41777278460-attempt-1",
+      "baseline_snapshot_sha256": "82fdcbfdfd20568e9fa2471183b46d6e6d8567ddf2622bdb412ceaf94991ce07",
+      "both_engines_semantic_pass": false,
+      "candidate_exports": [],
+      "original_plot_md5": "970eea15578b175c28c3fb2e6a0226dc",
+      "status": "UNKNOWN",
+      "test_case": "controls"
+    },
+    {
+      "attempt_id": "41777278460-attempt-1",
+      "baseline_snapshot_sha256": "186842977f781a36b8838d141cbd5d2bb18a7d6fda4e7ff4f9f178229aac1c42",
+      "both_engines_semantic_pass": false,
+      "candidate_exports": [],
+      "original_plot_md5": "eb5bbc83c5602c300899c419a2e71a76",
+      "status": "UNKNOWN",
+      "test_case": "bowtie2"
+    },
+    {
+      "attempt_id": "41777278460-attempt-1",
+      "baseline_snapshot_sha256": "844d0b4e47aeed323c7f43e47377aa4ec22a45356a5527d965a09ef36751cc30",
+      "both_engines_semantic_pass": false,
+      "candidate_exports": [],
+      "original_plot_md5": "e57d508028bbfa194483f9943d652a8c",
+      "status": "UNKNOWN",
+      "test_case": "chromap"
+    },
+    {
+      "attempt_id": "41777278460-attempt-1",
+      "baseline_snapshot_sha256": "e58ac2f490fe17a5708d994fe8de6d38d978fbbe2a3a9601a722cc98c01bad7a",
+      "both_engines_semantic_pass": false,
+      "candidate_exports": [],
+      "original_plot_md5": "492578b77b8df68c48e5254d3de4cbf6",
+      "status": "UNKNOWN",
+      "test_case": "star"
+    },
+    {
+      "attempt_id": "41777278460-attempt-1",
+      "baseline_snapshot_sha256": "0f51964abd93b15a302341a00d55874a4f961316bde72e8ab1e59fc3be7bdd53",
+      "both_engines_semantic_pass": false,
+      "candidate_exports": [],
+      "original_plot_md5": "0b18beabfb07348950cfdb14e8caaa53",
+      "status": "UNKNOWN",
+      "test_case": "skip_trimming"
+    },
+    {
+      "attempt_id": "41777278460-attempt-1",
+      "baseline_snapshot_sha256": "ca79a5ba1144ff456ab6612e30ae3343d82e12eca53162ad44b9652a45c0b5e2",
+      "both_engines_semantic_pass": false,
+      "candidate_exports": [],
+      "original_plot_md5": "c0dc7eb479f572b51b7c1aea7f08a241",
+      "status": "UNKNOWN",
+      "test_case": "skip_consensus_peaks"
+    },
+    {
+      "allowed_expectation_scope": "counts TSV MD5 only",
+      "attempt_id": "41782995985-attempt-1",
+      "baseline_snapshot_sha256": "748df274199587f9afc20e1b7f83a5e5dd1f031b6bcbef14a9e741465c6c2f72",
+      "both_engines_semantic_pass": true,
+      "candidate_exports": [
+        {
+          "bytes": 19085,
+          "md5": "2301a84b27273f607d68b33e54629e1e",
+          "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "sha256": "16c75747b5c72fbb316444ed6089ab6c1392dafeeda4a3ec4a3cd4fbc148acc8"
+        },
+        {
+          "bytes": 18463,
+          "md5": "c0dc7eb479f572b51b7c1aea7f08a241",
+          "name": "mqc_deeptools_fingerprint_plot_1.txt",
+          "sha256": "4556f0597dd13b07f987911d0c6f86e9b5c0251268d030f65263eb0fb0c9fd2d"
+        }
+      ],
+      "original_plot_md5": "c0dc7eb479f572b51b7c1aea7f08a241",
+      "requested_remaining_four_admission": false,
+      "status": "PASS",
+      "test_case": "default"
+    },
+    {
+      "allowed_expectation_scope": "two fingerprint exports only",
+      "attempt_id": "41782995985-attempt-1",
+      "baseline_snapshot_sha256": "82fdcbfdfd20568e9fa2471183b46d6e6d8567ddf2622bdb412ceaf94991ce07",
+      "both_engines_semantic_pass": true,
+      "candidate_exports": [
+        {
+          "bytes": 19689,
+          "md5": "fdc55f7114afe334622a1a865aa288a6",
+          "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "sha256": "d89fe75b74919a9a4cb2789907a430db4d35e558bdd849b083410acb6e114ac1"
+        },
+        {
+          "bytes": 26062,
+          "md5": "970eea15578b175c28c3fb2e6a0226dc",
+          "name": "mqc_deeptools_fingerprint_plot_1.txt",
+          "sha256": "7a85704f6076f4c7ab8d8610280a4439b274221b0e7709b6f114f987168b6ab6"
+        }
+      ],
+      "original_plot_md5": "970eea15578b175c28c3fb2e6a0226dc",
+      "requested_remaining_four_admission": false,
+      "status": "PASS",
+      "test_case": "controls"
+    },
+    {
+      "allowed_expectation_scope": "counts TSV MD5 only",
+      "attempt_id": "41782995985-attempt-1",
+      "baseline_snapshot_sha256": "186842977f781a36b8838d141cbd5d2bb18a7d6fda4e7ff4f9f178229aac1c42",
+      "both_engines_semantic_pass": true,
+      "candidate_exports": [
+        {
+          "bytes": 21640,
+          "md5": "730ced1fdbfc2c29ba2b64e1a89465ca",
+          "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "sha256": "d0833c437d80228a48fa0492f0dbbbb57486a81688eac56118dd32d7522a428c"
+        },
+        {
+          "bytes": 19783,
+          "md5": "eb5bbc83c5602c300899c419a2e71a76",
+          "name": "mqc_deeptools_fingerprint_plot_1.txt",
+          "sha256": "241cec213a79a4348d0718ad42c1ba15279f0105af6cc10fe0f5ecb1aa2612e9"
+        }
+      ],
+      "original_plot_md5": "eb5bbc83c5602c300899c419a2e71a76",
+      "requested_remaining_four_admission": true,
+      "status": "PASS",
+      "test_case": "bowtie2"
+    },
+    {
+      "allowed_expectation_scope": "counts TSV MD5 only",
+      "attempt_id": "41782995985-attempt-1",
+      "baseline_snapshot_sha256": "844d0b4e47aeed323c7f43e47377aa4ec22a45356a5527d965a09ef36751cc30",
+      "both_engines_semantic_pass": true,
+      "candidate_exports": [
+        {
+          "bytes": 20247,
+          "md5": "1d6965e380937b76ab6c0a7213553e8f",
+          "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "sha256": "b4bf74352d2836e3f2491e751528dad7b14a4e9cedd95050cf5f989006ee2414"
+        },
+        {
+          "bytes": 18313,
+          "md5": "e57d508028bbfa194483f9943d652a8c",
+          "name": "mqc_deeptools_fingerprint_plot_1.txt",
+          "sha256": "743767ebb9c901548ca7e38a783685ed837abcbba95a03721405a833b4abadb1"
+        }
+      ],
+      "original_plot_md5": "e57d508028bbfa194483f9943d652a8c",
+      "requested_remaining_four_admission": true,
+      "status": "PASS",
+      "test_case": "chromap"
+    },
+    {
+      "allowed_expectation_scope": "counts TSV MD5 only",
+      "attempt_id": "41782995985-attempt-1",
+      "baseline_snapshot_sha256": "e58ac2f490fe17a5708d994fe8de6d38d978fbbe2a3a9601a722cc98c01bad7a",
+      "both_engines_semantic_pass": true,
+      "candidate_exports": [
+        {
+          "bytes": 20778,
+          "md5": "86bbf8e35e1d2d2ba72eacbc801aa011",
+          "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "sha256": "86679c48c7fb0edd58f37a912dbcbe47e8ebb1869be9369b21f2721d70ca1d5a"
+        },
+        {
+          "bytes": 18786,
+          "md5": "492578b77b8df68c48e5254d3de4cbf6",
+          "name": "mqc_deeptools_fingerprint_plot_1.txt",
+          "sha256": "1f080e7d3d7cd13844250bf8a83e2369a82f8ef1e48b8ed829cfd4d1b09274b5"
+        }
+      ],
+      "original_plot_md5": "492578b77b8df68c48e5254d3de4cbf6",
+      "requested_remaining_four_admission": true,
+      "status": "PASS",
+      "test_case": "star"
+    },
+    {
+      "allowed_expectation_scope": "counts TSV MD5 only",
+      "attempt_id": "41782995985-attempt-1",
+      "baseline_snapshot_sha256": "0f51964abd93b15a302341a00d55874a4f961316bde72e8ab1e59fc3be7bdd53",
+      "both_engines_semantic_pass": true,
+      "candidate_exports": [
+        {
+          "bytes": 18811,
+          "md5": "2e78625f3140bf19d6bde21515795ad8",
+          "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "sha256": "8d17e171de9634bb5ed4c42f3fd5aeeee47a38ea4b2ab8b5fc7edf3537dfc068"
+        },
+        {
+          "bytes": 16870,
+          "md5": "0b18beabfb07348950cfdb14e8caaa53",
+          "name": "mqc_deeptools_fingerprint_plot_1.txt",
+          "sha256": "570fb588c70d28864943e160ad1afa4c5a8301e16f7c9787d28dc6286baa2ad4"
+        }
+      ],
+      "original_plot_md5": "0b18beabfb07348950cfdb14e8caaa53",
+      "requested_remaining_four_admission": true,
+      "status": "PASS",
+      "test_case": "skip_trimming"
+    },
+    {
+      "allowed_expectation_scope": "counts TSV MD5 only",
+      "attempt_id": "41782995985-attempt-1",
+      "baseline_snapshot_sha256": "ca79a5ba1144ff456ab6612e30ae3343d82e12eca53162ad44b9652a45c0b5e2",
+      "both_engines_semantic_pass": true,
+      "candidate_exports": [
+        {
+          "bytes": 19085,
+          "md5": "2301a84b27273f607d68b33e54629e1e",
+          "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "sha256": "16c75747b5c72fbb316444ed6089ab6c1392dafeeda4a3ec4a3cd4fbc148acc8"
+        },
+        {
+          "bytes": 18463,
+          "md5": "c0dc7eb479f572b51b7c1aea7f08a241",
+          "name": "mqc_deeptools_fingerprint_plot_1.txt",
+          "sha256": "4556f0597dd13b07f987911d0c6f86e9b5c0251268d030f65263eb0fb0c9fd2d"
+        }
+      ],
+      "original_plot_md5": "c0dc7eb479f572b51b7c1aea7f08a241",
+      "requested_remaining_four_admission": false,
+      "status": "PASS",
+      "test_case": "skip_consensus_peaks"
+    }
+  ],
+  "schema": "atacseq-native-fingerprint-candidate-admission/v1",
+  "snapshots_modified": false
+}

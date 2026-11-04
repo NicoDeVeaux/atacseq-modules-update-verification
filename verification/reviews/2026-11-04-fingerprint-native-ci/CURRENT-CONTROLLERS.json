@@ -1,0 +1,72 @@
+{
+  "code_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+  "execution_limit": "These are immutable current code identities, not a claim that the pending final native rerun has completed.",
+  "files": [
+    {
+      "bytes": 23630,
+      "path": "tests/ci/qualify_fingerprint_reports.py",
+      "sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/e8aafb982ee08f9d681cec6aaef4440fb8d236ca/tests/ci/qualify_fingerprint_reports.py"
+    },
+    {
+      "bytes": 6529,
+      "path": "tests/ci/test_qualify_fingerprint_reports.py",
+      "sha256": "594ab4e3b6ad39ff2e641a9200836f6b15c0c82d87787d3e9ab57691d1861ac5",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/e8aafb982ee08f9d681cec6aaef4440fb8d236ca/tests/ci/test_qualify_fingerprint_reports.py"
+    },
+    {
+      "bytes": 24241,
+      "path": "tests/ci/capture_controls_evidence.py",
+      "sha256": "ac98eb09e843da93b04dd3478bc7c8373a97fa9722e55d80bfcb0aae34ab220b",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/e8aafb982ee08f9d681cec6aaef4440fb8d236ca/tests/ci/capture_controls_evidence.py"
+    },
+    {
+      "bytes": 20453,
+      "path": "tests/ci/test_capture_controls_evidence.py",
+      "sha256": "c0555883b8c411da394dabb89fe59167d1457dac119006c2b2a4f4d89018958d",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/e8aafb982ee08f9d681cec6aaef4440fb8d236ca/tests/ci/test_capture_controls_evidence.py"
+    },
+    {
+      "bytes": 3142,
+      "path": "tests/ci/emit_qualification_evidence.py",
+      "sha256": "768c8f2b10f6baf031e65102616c870c79829c96f481ade12e8c9a1670a257d7",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/e8aafb982ee08f9d681cec6aaef4440fb8d236ca/tests/ci/emit_qualification_evidence.py"
+    },
+    {
+      "bytes": 29238,
+      "path": "tests/regressions/fingerprint_reports.py",
+      "sha256": "0d15b2409f398d05d10babf5aea03ac6287362314ba9c4624eb7936cf9fb9039",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/e8aafb982ee08f9d681cec6aaef4440fb8d236ca/tests/regressions/fingerprint_reports.py"
+    },
+    {
+      "bytes": 4888,
+      "path": ".github/workflows/qualify-fingerprint-reports.yml",
+      "sha256": "d0802c80f7763ac59b769fefbd804606f9f4593bc5ef36f00b38b65627092caf",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/e8aafb982ee08f9d681cec6aaef4440fb8d236ca/.github/workflows/qualify-fingerprint-reports.yml"
+    },
+    {
+      "bytes": 5461,
+      "path": ".github/actions/nf-test/action.yml",
+      "sha256": "b0857988ac9a84e78f55da50bfc077bd06f70cb9ca918662df23a07d21c1c3e3",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/e8aafb982ee08f9d681cec6aaef4440fb8d236ca/.github/actions/nf-test/action.yml"
+    },
+    {
+      "bytes": 3160,
+      "path": "bin/multiqc_fingerprint.py",
+      "sha256": "723bf55bd129a1af051f95c164f6fefab015a32b54195dcccefdc945aa3c469a",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/e8aafb982ee08f9d681cec6aaef4440fb8d236ca/bin/multiqc_fingerprint.py"
+    },
+    {
+      "bytes": 40659,
+      "path": "conf/modules.config",
+      "sha256": "3977d4bb79147eac2d2051864bd7d9ed9732ee5fdb1599e4833459edefb17e00",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/e8aafb982ee08f9d681cec6aaef4440fb8d236ca/conf/modules.config"
+    },
+    {
+      "bytes": 2710,
+      "path": "modules/local/multiqc.nf",
+      "sha256": "18ac247159c509377d200342057e02bf11188b79692d1a36550c88b190f387e7",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/e8aafb982ee08f9d681cec6aaef4440fb8d236ca/modules/local/multiqc.nf"
+    }
+  ]
+}

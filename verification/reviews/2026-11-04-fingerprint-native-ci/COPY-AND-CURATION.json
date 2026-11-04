@@ -1,0 +1,135 @@
+{
+  "curated_documents": [
+    {
+      "curation": "Only source_manifest display path replaced with its public relative counterpart; no numerical or identity field changed.",
+      "original": {
+        "bytes": 2145,
+        "sha256": "85099359f07813f930700f9ae4965cbdaafa5a29d103e4df965d7b9b3f4a1ed6"
+      },
+      "path": "posthoc/jobs/126400453350/AMENDMENT.json"
+    },
+    {
+      "curation": "Only source_manifest display path replaced with its public relative counterpart; no numerical or identity field changed.",
+      "original": {
+        "bytes": 1953,
+        "sha256": "e9abb3f4fdf03857f451b2e638876ced5b6fe798fd94c9129e7147352e365d55"
+      },
+      "path": "posthoc/jobs/126400453406/AMENDMENT.json"
+    },
+    {
+      "curation": "Only source_manifest display path replaced with its public relative counterpart; no numerical or identity field changed.",
+      "original": {
+        "bytes": 2145,
+        "sha256": "d545e72790551910395a8a4a16f5004524d5c5e63fe8e22fec94e5717ad3a8c4"
+      },
+      "path": "posthoc/jobs/126400453441/AMENDMENT.json"
+    },
+    {
+      "curation": "Only source_manifest display path replaced with its public relative counterpart; no numerical or identity field changed.",
+      "original": {
+        "bytes": 1953,
+        "sha256": "bbf673ff074fea53f09896c21f7591e112c2354a625eeacde91f575379668102"
+      },
+      "path": "posthoc/jobs/126400453461/AMENDMENT.json"
+    },
+    {
+      "curation": "Only source_manifest display path replaced with its public relative counterpart; no numerical or identity field changed.",
+      "original": {
+        "bytes": 2145,
+        "sha256": "b15542c4bf540410583c4f17ce9e5331f7c087975b99cccdfe98f7a8406f555e"
+      },
+      "path": "posthoc/jobs/126400453474/AMENDMENT.json"
+    },
+    {
+      "curation": "Only source_manifest display path replaced with its public relative counterpart; no numerical or identity field changed.",
+      "original": {
+        "bytes": 2145,
+        "sha256": "7fda8fdaf0582b35c441a0387378c1d3461e4ea651b335e0aafca7f29cab9680"
+      },
+      "path": "posthoc/jobs/126400453536/AMENDMENT.json"
+    },
+    {
+      "curation": "Only source_manifest display path replaced with its public relative counterpart; no numerical or identity field changed.",
+      "original": {
+        "bytes": 2145,
+        "sha256": "a6824df093c6aba7b1b9828448dd6542091f643fa7f6b6e3f39657b588b6cc43"
+      },
+      "path": "posthoc/jobs/126400453563/AMENDMENT.json"
+    },
+    {
+      "curation": "Only source_manifest display path replaced with its public relative counterpart; no numerical or identity field changed.",
+      "original": {
+        "bytes": 2145,
+        "sha256": "5df799244dc929c224a76c1498ef9f726abbb74d888e5be2d72644b0bd585a8f"
+      },
+      "path": "posthoc/jobs/126400453567/AMENDMENT.json"
+    },
+    {
+      "curation": "Only source_manifest display path replaced with its public relative counterpart; no numerical or identity field changed.",
+      "original": {
+        "bytes": 2145,
+        "sha256": "8086db4e7cf2c786b9ed28cee254c81d0a705eb4dd8eaf9b78b845d24612d8ee"
+      },
+      "path": "posthoc/jobs/126400453617/AMENDMENT.json"
+    },
+    {
+      "curation": "Only source_manifest display path replaced with its public relative counterpart; no numerical or identity field changed.",
+      "original": {
+        "bytes": 2145,
+        "sha256": "baf1bbe2254f19f1350d32396e3cc69ffe064cbe3c45ca5f302ce10cdd7be62b"
+      },
+      "path": "posthoc/jobs/126400453636/AMENDMENT.json"
+    },
+    {
+      "curation": "Only source_manifest display path replaced with its public relative counterpart; no numerical or identity field changed.",
+      "original": {
+        "bytes": 2145,
+        "sha256": "148f0c0184fb902dbbb5ffd34d8e0ae158c759d9e05db2f206bb93bb4f2ca979"
+      },
+      "path": "posthoc/jobs/126400453637/AMENDMENT.json"
+    },
+    {
+      "curation": "Only source_manifest display path replaced with its public relative counterpart; no numerical or identity field changed.",
+      "original": {
+        "bytes": 2145,
+        "sha256": "f5a5b4e1d06f229be016be01add771acf0dc0cb7ecce903f971aa61d774ace03"
+      },
+      "path": "posthoc/jobs/126400453708/AMENDMENT.json"
+    },
+    {
+      "curation": "Only source_manifest display path replaced with its public relative counterpart; no numerical or identity field changed.",
+      "original": {
+        "bytes": 2145,
+        "sha256": "9a1a933dd2b66a28019e85f0d48e00e564d5f5738811a0c6f0f8311dc53cde7b"
+      },
+      "path": "posthoc/jobs/126400453741/AMENDMENT.json"
+    },
+    {
+      "curation": "Only source_manifest display path replaced with its public relative counterpart; no numerical or identity field changed.",
+      "original": {
+        "bytes": 2145,
+        "sha256": "cb7c6db08eb85f256a05bddf27b10aef6ef7a1e0e42eb7a5ddb7c92c0d30c7d7"
+      },
+      "path": "posthoc/jobs/126400453801/AMENDMENT.json"
+    },
+    {
+      "curation": "Only summary display path replaced; source summary identity and all numerical/identity fields preserved.",
+      "original": {
+        "bytes": 7520,
+        "sha256": "36f093ebcec11daef629a8d1c026fe3fcaf33dad46b94e818fed6245032999a8"
+      },
+      "path": "posthoc/SNAPSHOT-BOUNDARY.json"
+    }
+  ],
+  "excluded": [
+    "Original whole CI logs",
+    "MultiQC worker HTML/full reports",
+    "worker runtime/cache trees",
+    "account/credential/environment/billing details",
+    "housekeeping or cleanup summary"
+  ],
+  "native_result_not_rewritten": true,
+  "posthoc_not_promoted_to_native": true,
+  "schema": "atacseq-public-copy-curation/v1",
+  "unchanged_payload_scope": "All original scientific/source capture payloads, compact native and posthoc RESULT JSON, and sanitized test-status JSON remain exact bytes."
+}

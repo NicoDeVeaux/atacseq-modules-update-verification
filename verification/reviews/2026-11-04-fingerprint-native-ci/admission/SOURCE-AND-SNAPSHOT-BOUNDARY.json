@@ -1,0 +1,92 @@
+{
+  "after_source_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+  "before_source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+  "exactly_four_count_MD5_replacements": true,
+  "other_plot_and_count_checks": "All seven plot MD5 values and the other three counts MD5 values remain byte-identical to source expectations.",
+  "reporting_application_payload_unchanged": [
+    {
+      "bytes": 3160,
+      "path": "bin/multiqc_fingerprint.py",
+      "sha256": "723bf55bd129a1af051f95c164f6fefab015a32b54195dcccefdc945aa3c469a",
+      "unchanged": true
+    },
+    {
+      "bytes": 40659,
+      "path": "conf/modules.config",
+      "sha256": "3977d4bb79147eac2d2051864bd7d9ed9732ee5fdb1599e4833459edefb17e00",
+      "unchanged": true
+    },
+    {
+      "bytes": 2710,
+      "path": "modules/local/multiqc.nf",
+      "sha256": "18ac247159c509377d200342057e02bf11188b79692d1a36550c88b190f387e7",
+      "unchanged": true
+    }
+  ],
+  "snapshots": [
+    {
+      "after_sha256": "748df274199587f9afc20e1b7f83a5e5dd1f031b6bcbef14a9e741465c6c2f72",
+      "after_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/e8aafb982ee08f9d681cec6aaef4440fb8d236ca/tests/default.nf.test.snap",
+      "before_sha256": "748df274199587f9afc20e1b7f83a5e5dd1f031b6bcbef14a9e741465c6c2f72",
+      "before_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/70e87c6f3e83f56d05695c6e9d27203080c27b1f/tests/default.nf.test.snap",
+      "changed": false,
+      "only_admitted_count_md5_changed": false,
+      "path": "tests/default.nf.test.snap"
+    },
+    {
+      "after_sha256": "82fdcbfdfd20568e9fa2471183b46d6e6d8567ddf2622bdb412ceaf94991ce07",
+      "after_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/e8aafb982ee08f9d681cec6aaef4440fb8d236ca/tests/controls.nf.test.snap",
+      "before_sha256": "82fdcbfdfd20568e9fa2471183b46d6e6d8567ddf2622bdb412ceaf94991ce07",
+      "before_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/70e87c6f3e83f56d05695c6e9d27203080c27b1f/tests/controls.nf.test.snap",
+      "changed": false,
+      "only_admitted_count_md5_changed": false,
+      "path": "tests/controls.nf.test.snap"
+    },
+    {
+      "after_sha256": "57624871a43e92bb48164f7146bc1c897caec0bbfca1e255653f8165bcea8daf",
+      "after_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/e8aafb982ee08f9d681cec6aaef4440fb8d236ca/tests/bowtie2.nf.test.snap",
+      "before_sha256": "186842977f781a36b8838d141cbd5d2bb18a7d6fda4e7ff4f9f178229aac1c42",
+      "before_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/70e87c6f3e83f56d05695c6e9d27203080c27b1f/tests/bowtie2.nf.test.snap",
+      "changed": true,
+      "only_admitted_count_md5_changed": true,
+      "path": "tests/bowtie2.nf.test.snap"
+    },
+    {
+      "after_sha256": "0ee5ed8a5c0bfb669a97aca63ea92fe399cd57aca95cc8522f714e8390c59210",
+      "after_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/e8aafb982ee08f9d681cec6aaef4440fb8d236ca/tests/chromap.nf.test.snap",
+      "before_sha256": "844d0b4e47aeed323c7f43e47377aa4ec22a45356a5527d965a09ef36751cc30",
+      "before_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/70e87c6f3e83f56d05695c6e9d27203080c27b1f/tests/chromap.nf.test.snap",
+      "changed": true,
+      "only_admitted_count_md5_changed": true,
+      "path": "tests/chromap.nf.test.snap"
+    },
+    {
+      "after_sha256": "813c5252faae73ff5a5a380e96d00949871f90bf5fe5b8b6e05f1d498e7cfcb7",
+      "after_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/e8aafb982ee08f9d681cec6aaef4440fb8d236ca/tests/star.nf.test.snap",
+      "before_sha256": "e58ac2f490fe17a5708d994fe8de6d38d978fbbe2a3a9601a722cc98c01bad7a",
+      "before_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/70e87c6f3e83f56d05695c6e9d27203080c27b1f/tests/star.nf.test.snap",
+      "changed": true,
+      "only_admitted_count_md5_changed": true,
+      "path": "tests/star.nf.test.snap"
+    },
+    {
+      "after_sha256": "077d82fc2bd404f2fb494ddf6ddc395970472ef5b482862b7a97279e6c180c48",
+      "after_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/e8aafb982ee08f9d681cec6aaef4440fb8d236ca/tests/skip_trimming.nf.test.snap",
+      "before_sha256": "0f51964abd93b15a302341a00d55874a4f961316bde72e8ab1e59fc3be7bdd53",
+      "before_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/70e87c6f3e83f56d05695c6e9d27203080c27b1f/tests/skip_trimming.nf.test.snap",
+      "changed": true,
+      "only_admitted_count_md5_changed": true,
+      "path": "tests/skip_trimming.nf.test.snap"
+    },
+    {
+      "after_sha256": "ca79a5ba1144ff456ab6612e30ae3343d82e12eca53162ad44b9652a45c0b5e2",
+      "after_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/e8aafb982ee08f9d681cec6aaef4440fb8d236ca/tests/skip_consensus_peaks.nf.test.snap",
+      "before_sha256": "ca79a5ba1144ff456ab6612e30ae3343d82e12eca53162ad44b9652a45c0b5e2",
+      "before_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/70e87c6f3e83f56d05695c6e9d27203080c27b1f/tests/skip_consensus_peaks.nf.test.snap",
+      "changed": false,
+      "only_admitted_count_md5_changed": false,
+      "path": "tests/skip_consensus_peaks.nf.test.snap"
+    }
+  ],
+  "status": "PASS"
+}

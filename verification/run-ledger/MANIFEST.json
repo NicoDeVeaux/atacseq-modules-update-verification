@@ -1,101 +1,106 @@
 {
-  "schema": "atacseq-compact-run-ledger-files/v1",
   "files": [
     {
-      "path": "ARCHIVES.json",
       "bytes": 2158,
+      "path": "ARCHIVES.json",
       "sha256": "71072afb89b04025627f943c67f45f984a9f9db61d94d3fcfc8d53bdbf0e959f"
     },
     {
+      "bytes": 249157,
       "path": "CONTAINERS.json",
-      "bytes": 134495,
-      "sha256": "fad20e1207f5ce52ac0794d9d9d53ca221bf53cb7d91ee3674455f275b13e4d6"
+      "sha256": "2aa877fe851e5f86f556332f1395a8ab8257608c59e7ed157bbe1cd9af7500ca"
     },
     {
+      "bytes": 32778,
       "path": "EVIDENCE.json",
-      "bytes": 31969,
-      "sha256": "edc4c3a0b421025ab419b897746b8cab11937daa4bc7170a43c976a36e68e13e"
+      "sha256": "2e37a224633cb5a488e1cc6a711e6f38c8e0d94a35cb09f8631707c93ef973f5"
     },
     {
+      "bytes": 4565519,
       "path": "HASH-INDEX.json",
-      "bytes": 1323755,
-      "sha256": "7ccf0e0a9ea526892766fa6b780633450540b50147f286a2fbfabefe3cf67ec2"
+      "sha256": "4093c5a0f1f97409bbe07d000c6cf6152ccc08089c408c07151d55337e8ace55"
     },
     {
+      "bytes": 163972,
       "path": "INPUTS.json",
-      "bytes": 35084,
-      "sha256": "e6fcea9d8daf8aadec416e50412910bca418390e79f5a733a111f68f4397abdf"
+      "sha256": "d963a45bdc5d64999fe050214bd6ad22f308e7fa87547e67cac999ada421fcea"
     },
     {
+      "bytes": 6561,
       "path": "README.md",
-      "bytes": 5961,
-      "sha256": "eb19a2a077623b6e9070c31df52a49000580dc93771e074c7f6f9ab96b019f0d"
+      "sha256": "7b570b2eb09ae46519669f3e3d6c31c5bcf3662f8fc6d97f8aa2add7e708f6ed"
     },
     {
+      "bytes": 219041,
       "path": "RUNS.json",
-      "bytes": 59340,
-      "sha256": "3456921b5722a9b40cc4f8aea8e487575f2835f34d4bbaaf5abf3ab3a7f25507"
+      "sha256": "9901a0ffd0e26c6674d52cac1c5786e0bdff92dff5910a6bfb18cc8b0fa16b3d"
     },
     {
+      "bytes": 243712,
       "path": "SOURCE-MAPS.json",
-      "bytes": 126968,
-      "sha256": "b8e8dc29fc39846fd52cbcc4c041c78cee4f3ab5eeac4497c0dd8483723147e9"
+      "sha256": "52b1e8472f266e3801a0601f9ea3a57d611284f7b426935ec48db03d35543c3c"
     },
     {
-      "path": "legacy-cache/CHECKSUMS.txt",
       "bytes": 94,
+      "path": "legacy-cache/CHECKSUMS.txt",
       "sha256": "b4148df47824da130202a9b72db0ec4eafcf5c97771e50c44d46e6e21775c454"
     },
     {
-      "path": "legacy-cache/README.md",
       "bytes": 1999,
+      "path": "legacy-cache/README.md",
       "sha256": "df2f9a7de59e87a736b196b5556b09fb5650279f40acf28498ab50912f9e3cde"
     },
     {
-      "path": "legacy-cache/TASK-SOURCE-CAPSULE.json.gz",
       "bytes": 441008,
+      "path": "legacy-cache/TASK-SOURCE-CAPSULE.json.gz",
       "sha256": "9a644184e9449a6a46e95168dcbfbb4eb67101ffaf79352ae0f5092a4e96510c"
     },
     {
-      "path": "legacy-cache/TASK-SOURCE-CAPSULE.sha256",
       "bytes": 91,
+      "path": "legacy-cache/TASK-SOURCE-CAPSULE.sha256",
       "sha256": "1e20b51558c551fc2c1d49331b51d2c4b5956bbc79cecd3118e416539950a6a0"
     },
     {
-      "path": "lookup.py",
       "bytes": 2669,
+      "path": "lookup.py",
       "sha256": "46685b2eceffda80db9047700d08d1d1a2de5693fdcc4b8cad740138d2de8ada"
     },
     {
-      "path": "receipts/full-count-stage-identities.json",
       "bytes": 1461,
+      "path": "receipts/full-count-stage-identities.json",
       "sha256": "949dc03057a3c4544aec917ee9306abac998abf8ef02511b17be38f72d840854"
     },
     {
-      "path": "receipts/pr474-post-split-run.json",
+      "bytes": 570,
+      "path": "receipts/native-fingerprint-integration.json",
+      "sha256": "c5d2a6faa36d12dffd49f2a87267ce72b8f89123bce835c36d7a5bbe2974cd94"
+    },
+    {
       "bytes": 527,
+      "path": "receipts/pr474-post-split-run.json",
       "sha256": "14e9552362e5c02e534842edc006ae31f30c800c7c29dcfbd5b8720f36b423c5"
     },
     {
-      "path": "receipts/pr476-final-native-ci.json",
       "bytes": 5772,
+      "path": "receipts/pr476-final-native-ci.json",
       "sha256": "34e5988a6d9fb5115c8b6074275543be01da30c83a171b84b21d5e4856a613cd"
     },
     {
-      "path": "receipts/preseq-focused-native-ci.json",
       "bytes": 898,
+      "path": "receipts/preseq-focused-native-ci.json",
       "sha256": "6993144cfcde13c0f27c244d45c8e752dcbebeca9bcf8326b3aaf8839d92eddb"
     },
     {
-      "path": "receipts/resequencing-duplicate-recheck.json",
       "bytes": 11672,
+      "path": "receipts/resequencing-duplicate-recheck.json",
       "sha256": "55ec4728c3871b44ea09cdb11ec87b9dd81ba2edd85f85f5e1cf64c465b7d8c3"
     },
     {
+      "bytes": 2427,
       "path": "verify.py",
-      "bytes": 2095,
-      "sha256": "0e9ca8b9b379e90a2e30c3b6aedfe3b0bdfbc37ddb8ab71260d77bb7e0de06c2"
+      "sha256": "45759082a3779e49d22dd250f1bbfb003f7481f72fe123e08f9d1a8aa576a9de"
     }
   ],
+  "schema": "atacseq-compact-run-ledger-files/v1",
   "scope": "Compact identity/result/source/input/container ledger; no generated science payload archive"
 }

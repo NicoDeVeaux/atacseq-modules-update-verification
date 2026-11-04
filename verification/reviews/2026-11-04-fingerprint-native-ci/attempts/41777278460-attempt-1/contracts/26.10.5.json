@@ -1,0 +1,610 @@
+{
+  "status": "PASS",
+  "executions": [
+    {
+      "case": "legal_namespace",
+      "command": [
+        "/usr/local/bin/python",
+        "/repo/bin/check_samplesheet.py",
+        "/evidence/report/legal_namespace.csv",
+        "/evidence/report/legal_namespace/validated.csv",
+        "--with_control"
+      ],
+      "exit": 0
+    },
+    {
+      "case": "invalid_colon",
+      "command": [
+        "/usr/local/bin/python",
+        "/repo/bin/check_samplesheet.py",
+        "/evidence/report/invalid_colon.csv",
+        "/evidence/report/invalid_colon/validated.csv",
+        "--with_control"
+      ],
+      "exit": 1
+    },
+    {
+      "case": "original_parser_0",
+      "command": [
+        "/usr/local/bin/multiqc",
+        "--force",
+        "--module",
+        "deeptools",
+        "--config",
+        "/repo/assets/multiqc_config.yml",
+        "--outdir",
+        "/evidence/report/original_parser_0/output",
+        "--data-format",
+        "tsv",
+        "/evidence/report/comparison_a.plotFingerprint.raw.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "case": "original_parser_1",
+      "command": [
+        "/usr/local/bin/multiqc",
+        "--force",
+        "--module",
+        "deeptools",
+        "--config",
+        "/repo/assets/multiqc_config.yml",
+        "--outdir",
+        "/evidence/report/original_parser_1/output",
+        "--data-format",
+        "tsv",
+        "/evidence/report/comparison_b.plotFingerprint.raw.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "case": "original_cli_combined",
+      "command": [
+        "/usr/local/bin/multiqc",
+        "--force",
+        "--module",
+        "deeptools",
+        "--config",
+        "/repo/assets/multiqc_config.yml",
+        "--outdir",
+        "/evidence/report/original_cli_combined/output",
+        "--data-format",
+        "tsv",
+        "/evidence/report/comparison_a.plotFingerprint.raw.txt",
+        "/evidence/report/comparison_b.plotFingerprint.raw.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "case": "proposal_forward",
+      "command": [
+        "/usr/local/bin/python",
+        "/repo/bin/multiqc_fingerprint.py",
+        "--force",
+        "--module",
+        "deeptools",
+        "--config",
+        "/repo/assets/multiqc_config.yml",
+        "--outdir",
+        "/evidence/report/proposal_forward/output",
+        "--data-format",
+        "tsv",
+        "/evidence/report/comparison_a.plotFingerprint.raw.txt",
+        "/evidence/report/comparison_b.plotFingerprint.raw.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "case": "proposal_reverse",
+      "command": [
+        "/usr/local/bin/python",
+        "/repo/bin/multiqc_fingerprint.py",
+        "--force",
+        "--module",
+        "deeptools",
+        "--config",
+        "/repo/assets/multiqc_config.yml",
+        "--outdir",
+        "/evidence/report/proposal_reverse/output",
+        "--data-format",
+        "tsv",
+        "/evidence/report/comparison_b.plotFingerprint.raw.txt",
+        "/evidence/report/comparison_a.plotFingerprint.raw.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "case": "legacy_labels",
+      "command": [
+        "/usr/local/bin/python",
+        "/repo/bin/multiqc_fingerprint.py",
+        "--force",
+        "--module",
+        "deeptools",
+        "--config",
+        "/repo/assets/multiqc_config.yml",
+        "--outdir",
+        "/evidence/report/legacy_labels/output",
+        "--data-format",
+        "tsv",
+        "/evidence/report/legacy_comparison_a.plotFingerprint.raw.txt",
+        "/evidence/report/legacy_comparison_b.plotFingerprint.raw.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "case": "cleaning_original_treatment",
+      "command": [
+        "/usr/local/bin/multiqc",
+        "--force",
+        "--module",
+        "deeptools",
+        "--config",
+        "/repo/assets/multiqc_config.yml",
+        "--outdir",
+        "/evidence/report/cleaning_original_treatment/output",
+        "--data-format",
+        "tsv",
+        "/evidence/report/cleaning_original_treatment.plotFingerprint.raw.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "case": "cleaning_original_control",
+      "command": [
+        "/usr/local/bin/multiqc",
+        "--force",
+        "--module",
+        "deeptools",
+        "--config",
+        "/repo/assets/multiqc_config.yml",
+        "--outdir",
+        "/evidence/report/cleaning_original_control/output",
+        "--data-format",
+        "tsv",
+        "/evidence/report/cleaning_original_control.plotFingerprint.raw.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "case": "cleaning_proposal",
+      "command": [
+        "/usr/local/bin/python",
+        "/repo/bin/multiqc_fingerprint.py",
+        "--force",
+        "--module",
+        "deeptools",
+        "--config",
+        "/repo/assets/multiqc_config.yml",
+        "--outdir",
+        "/evidence/report/cleaning_proposal/output",
+        "--data-format",
+        "tsv",
+        "/evidence/report/cleaning_proposal.plotFingerprint.raw.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "case": "cleaning_previous_prefix",
+      "command": [
+        "/usr/local/bin/multiqc",
+        "--force",
+        "--module",
+        "deeptools",
+        "--config",
+        "/repo/assets/multiqc_config.yml",
+        "--outdir",
+        "/evidence/report/cleaning_previous_prefix/output",
+        "--data-format",
+        "tsv",
+        "/evidence/report/cleaning_previous_prefix.plotFingerprint.raw.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "case": "empty_cleaning_original_0",
+      "command": [
+        "/usr/local/bin/multiqc",
+        "--force",
+        "--module",
+        "deeptools",
+        "--config",
+        "/repo/assets/multiqc_config.yml",
+        "--outdir",
+        "/evidence/report/empty_cleaning_original_0/output",
+        "--data-format",
+        "tsv",
+        "/evidence/report/empty_cleaning_0.plotFingerprint.raw.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "case": "empty_cleaning_original_1",
+      "command": [
+        "/usr/local/bin/multiqc",
+        "--force",
+        "--module",
+        "deeptools",
+        "--config",
+        "/repo/assets/multiqc_config.yml",
+        "--outdir",
+        "/evidence/report/empty_cleaning_original_1/output",
+        "--data-format",
+        "tsv",
+        "/evidence/report/empty_cleaning_1.plotFingerprint.raw.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "case": "empty_cleaning_forward",
+      "command": [
+        "/usr/local/bin/python",
+        "/repo/bin/multiqc_fingerprint.py",
+        "--force",
+        "--module",
+        "deeptools",
+        "--config",
+        "/repo/assets/multiqc_config.yml",
+        "--outdir",
+        "/evidence/report/empty_cleaning_forward/output",
+        "--data-format",
+        "tsv",
+        "/evidence/report/empty_cleaning_0.plotFingerprint.raw.txt",
+        "/evidence/report/empty_cleaning_1.plotFingerprint.raw.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "case": "empty_cleaning_reverse",
+      "command": [
+        "/usr/local/bin/python",
+        "/repo/bin/multiqc_fingerprint.py",
+        "--force",
+        "--module",
+        "deeptools",
+        "--config",
+        "/repo/assets/multiqc_config.yml",
+        "--outdir",
+        "/evidence/report/empty_cleaning_reverse/output",
+        "--data-format",
+        "tsv",
+        "/evidence/report/empty_cleaning_1.plotFingerprint.raw.txt",
+        "/evidence/report/empty_cleaning_0.plotFingerprint.raw.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "case": "empty_cleaning_unprotected",
+      "command": [
+        "/usr/local/bin/multiqc",
+        "--force",
+        "--module",
+        "deeptools",
+        "--config",
+        "/repo/assets/multiqc_config.yml",
+        "--outdir",
+        "/evidence/report/empty_cleaning_unprotected/output",
+        "--data-format",
+        "tsv",
+        "/evidence/report/empty_cleaning_0.plotFingerprint.raw.txt",
+        "/evidence/report/empty_cleaning_1.plotFingerprint.raw.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "case": "actual_assets_no_override_original",
+      "command": [
+        "/usr/local/bin/multiqc",
+        "--force",
+        "--module",
+        "deeptools",
+        "--config",
+        "/repo/assets/multiqc_config.yml",
+        "--outdir",
+        "/evidence/report/actual_assets_no_override_original/output",
+        "/evidence/report/comparison_a.plotFingerprint.raw.txt",
+        "/evidence/report/comparison_b.plotFingerprint.raw.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "case": "actual_assets_no_override_wrapped",
+      "command": [
+        "/usr/local/bin/python",
+        "/repo/bin/multiqc_fingerprint.py",
+        "--force",
+        "--module",
+        "deeptools",
+        "--config",
+        "/repo/assets/multiqc_config.yml",
+        "--outdir",
+        "/evidence/report/actual_assets_no_override_wrapped/output",
+        "/evidence/report/comparison_a.plotFingerprint.raw.txt",
+        "/evidence/report/comparison_b.plotFingerprint.raw.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "case": "yaml_original",
+      "command": [
+        "/usr/local/bin/multiqc",
+        "--force",
+        "--module",
+        "deeptools",
+        "--config",
+        "/repo/assets/multiqc_config.yml",
+        "--outdir",
+        "/evidence/report/yaml_original/output",
+        "--data-format",
+        "yaml",
+        "/evidence/report/comparison_a.plotFingerprint.raw.txt",
+        "/evidence/report/comparison_b.plotFingerprint.raw.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "case": "yaml_wrapped",
+      "command": [
+        "/usr/local/bin/python",
+        "/repo/bin/multiqc_fingerprint.py",
+        "--force",
+        "--module",
+        "deeptools",
+        "--config",
+        "/repo/assets/multiqc_config.yml",
+        "--outdir",
+        "/evidence/report/yaml_wrapped/output",
+        "--data-format",
+        "yaml",
+        "/evidence/report/comparison_a.plotFingerprint.raw.txt",
+        "/evidence/report/comparison_b.plotFingerprint.raw.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "case": "json_original",
+      "command": [
+        "/usr/local/bin/multiqc",
+        "--force",
+        "--module",
+        "deeptools",
+        "--config",
+        "/repo/assets/multiqc_config.yml",
+        "--outdir",
+        "/evidence/report/json_original/output",
+        "--data-format",
+        "json",
+        "/evidence/report/comparison_a.plotFingerprint.raw.txt",
+        "/evidence/report/comparison_b.plotFingerprint.raw.txt"
+      ],
+      "exit": 0
+    },
+    {
+      "case": "json_wrapped",
+      "command": [
+        "/usr/local/bin/python",
+        "/repo/bin/multiqc_fingerprint.py",
+        "--force",
+        "--module",
+        "deeptools",
+        "--config",
+        "/repo/assets/multiqc_config.yml",
+        "--outdir",
+        "/evidence/report/json_wrapped/output",
+        "--data-format",
+        "json",
+        "/evidence/report/comparison_a.plotFingerprint.raw.txt",
+        "/evidence/report/comparison_b.plotFingerprint.raw.txt"
+      ],
+      "exit": 0
+    }
+  ],
+  "negative_controls": [
+    {
+      "control": "invalid_colon_sample_id",
+      "rejected": true
+    },
+    {
+      "control": "original_CLI_numeric_export",
+      "rejected": true,
+      "reason": "Duplicate fingerprint TSV columns"
+    },
+    {
+      "control": "legacy_shared_control_labels",
+      "rejected": true,
+      "reason": "Parsed sample/curve set differs from the original per-file parser"
+    },
+    {
+      "control": "treatment_prefix_cleaning_collision",
+      "rejected": true,
+      "reason": "Parsed sample/curve set differs from the original per-file parser",
+      "observed_curves": 1,
+      "required_curves": 2
+    },
+    {
+      "control": "unprotected_generated_control_cleanup",
+      "rejected": true,
+      "reason": "Parsed sample/curve set differs from the original per-file parser",
+      "observed_curves": 3,
+      "required_curves": 4
+    },
+    {
+      "control": "blank_numeric_series",
+      "rejected": true,
+      "reason": "Blank fingerprint numeric series"
+    },
+    {
+      "control": "duplicate_X_column",
+      "rejected": true,
+      "reason": "Duplicate fingerprint TSV columns"
+    },
+    {
+      "control": "changed_numeric_value",
+      "rejected": true,
+      "reason": "Fingerprint TSV numeric value differs"
+    },
+    {
+      "control": "missing_sample",
+      "rejected": true,
+      "reason": "Fingerprint TSV sample count differs"
+    },
+    {
+      "control": "corrupt_input",
+      "rejected": true,
+      "reason": "Fixture input integrity check failed"
+    },
+    {
+      "control": "numeric_key_string_collision",
+      "rejected": true
+    }
+  ],
+  "baseline": false,
+  "inputs_before": {
+    "/repo/tests/regressions/fingerprint_reports.py": "0d15b2409f398d05d10babf5aea03ac6287362314ba9c4624eb7936cf9fb9039",
+    "/repo/tests/regressions/fingerprint_labels.nf": "ea7126d786e5935cd64a3caa65ae41392c95e87bce560fe542e2d74993dca7a6",
+    "/repo/bin/check_samplesheet.py": "2832a945024a0a51f518cb3a5db85d09684eb1c0c5aed7c2764e5d1560223d72",
+    "/repo/bin/multiqc_fingerprint.py": "723bf55bd129a1af051f95c164f6fefab015a32b54195dcccefdc945aa3c469a",
+    "/repo/conf/modules.config": "3977d4bb79147eac2d2051864bd7d9ed9732ee5fdb1599e4833459edefb17e00",
+    "/repo/assets/multiqc_config.yml": "f7ffa59e5feed728a70443e05418caf4496abe3bca035e2c1fa4a64b4f2bd2a8",
+    "/evidence/labels.json": "6ecff28675463c56626b197fc05457511be77cbc4a86f39402049274a5e2376f",
+    "/repo/tests/regressions/fingerprint_fixtures/MANIFEST.json": "f0a00aec0ee87e19dab81d5628347aaf0b8a7938b8cfc437745d563332526f9f",
+    "/repo/tests/regressions/fingerprint_fixtures/comparison_a.plotFingerprint.raw.txt": "ac412ffa88af5e6d14871b0c8ea9e24bb65c0a2aeeda97e8669a71c644e1f5a1",
+    "/repo/tests/regressions/fingerprint_fixtures/comparison_b.plotFingerprint.raw.txt": "657c94369a09343f7badf98aef855be0228a6ef2a25044f52be6dda0746d3837"
+  },
+  "forward": {
+    "samples": 4,
+    "numeric_cells": 286,
+    "table_sha256": "1fe7789fd8f5d076ec340d37e5d428ed422b7f6979db638773fc9041d06cd2b5",
+    "table": "/evidence/report/proposal_forward/output/multiqc_data/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+    "curve_sha256": "73afa4d9d79cec674f35ac4741ed98b2d5de0855dddcc05e45fee8ac0fe7d4bb"
+  },
+  "reverse": {
+    "samples": 4,
+    "numeric_cells": 286,
+    "table_sha256": "1fe7789fd8f5d076ec340d37e5d428ed422b7f6979db638773fc9041d06cd2b5",
+    "table": "/evidence/report/proposal_reverse/output/multiqc_data/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+    "curve_sha256": "73afa4d9d79cec674f35ac4741ed98b2d5de0855dddcc05e45fee8ac0fe7d4bb"
+  },
+  "original_numeric_plot_bytes_preserved": true,
+  "cleaning_sensitive_id": {
+    "supported_sample": "CASE.mLb.clN",
+    "metadata": {
+      "treatment": "CASE.mLb.clN_REP1",
+      "control": "CONTROL_REP1",
+      "args": "--skipZeros --numberOfSamples 100 --labels CASE.mLb.clN_REP1.mLb.clN control::CASE.mLb.clN_REP1::CONTROL_REP1.mLb.clN",
+      "labels": [
+        "CASE.mLb.clN_REP1.mLb.clN",
+        "control::CASE.mLb.clN_REP1::CONTROL_REP1.mLb.clN"
+      ]
+    },
+    "original_per_role_oracles": [
+      {
+        "role": "treatment",
+        "output": "/evidence/report/cleaning_original_treatment/output",
+        "cleaned_names": [
+          "CASE"
+        ]
+      },
+      {
+        "role": "control",
+        "output": "/evidence/report/cleaning_original_control/output",
+        "cleaned_names": [
+          "control::CASE.mLb.clN_REP1::CONTROL_REP1"
+        ]
+      }
+    ],
+    "validated": {
+      "samples": 2,
+      "numeric_cells": 152,
+      "table_sha256": "99b4f1cdb117d7079b5c918efb2efd154235ef5557dcb4da47567b78e5d68325",
+      "table": "/evidence/report/cleaning_proposal/output/multiqc_data/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "curve_sha256": "91892638f6c583802c9255d890d339944406f5665557ccaf00d8be2cfbbf3169"
+    },
+    "scope": "Prevents new within-comparison loss; inherited aliases between different cleaned treatment IDs are outside this witness."
+  },
+  "empty_cleaning_distinct_controls": {
+    "metadata": [
+      {
+        "treatment": "mLb_A_REP1",
+        "control": "CONTROL_A_REP1",
+        "args": "--skipZeros --numberOfSamples 100 --labels mLb_A_REP1.mLb.clN control::mLb_A_REP1::CONTROL_A_REP1.mLb.clN",
+        "labels": [
+          "mLb_A_REP1.mLb.clN",
+          "control::mLb_A_REP1::CONTROL_A_REP1.mLb.clN"
+        ]
+      },
+      {
+        "treatment": "mLb_B_REP1",
+        "control": "CONTROL_B_REP1",
+        "args": "--skipZeros --numberOfSamples 100 --labels mLb_B_REP1.mLb.clN control::mLb_B_REP1::CONTROL_B_REP1.mLb.clN",
+        "labels": [
+          "mLb_B_REP1.mLb.clN",
+          "control::mLb_B_REP1::CONTROL_B_REP1.mLb.clN"
+        ]
+      }
+    ],
+    "forward": {
+      "samples": 4,
+      "numeric_cells": 286,
+      "table_sha256": "d87b89e504e89c7bcbb5171bc3f7ac568bcc5b1a08f1656524dcca971a9055ef",
+      "table": "/evidence/report/empty_cleaning_forward/output/multiqc_data/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "curve_sha256": "4e27b218b16d07b18105518ace18d4c0297d6c02e45881bd7e2b821f077eefeb"
+    },
+    "reverse": {
+      "samples": 4,
+      "numeric_cells": 286,
+      "table_sha256": "d87b89e504e89c7bcbb5171bc3f7ac568bcc5b1a08f1656524dcca971a9055ef",
+      "table": "/evidence/report/empty_cleaning_reverse/output/multiqc_data/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "curve_sha256": "4e27b218b16d07b18105518ace18d4c0297d6c02e45881bd7e2b821f077eefeb"
+    }
+  },
+  "name_cleaning_scope": {
+    "unrelated_names_unchanged": true,
+    "full_names_preserved": true,
+    "filename_override_choices_preserved": true,
+    "custom_renaming_preserved": true,
+    "directory_prefix_preserved": true,
+    "cleaning_option_restored_after_exception": true
+  },
+  "configured_formats": [
+    {
+      "requested": null,
+      "effective_extension": ".txt",
+      "original_sha256": "6103bcd49ca880bd20737b06f851c61b0648b00464d37a300e708e1742abd6c6",
+      "wrapped_sha256": "1fe7789fd8f5d076ec340d37e5d428ed422b7f6979db638773fc9041d06cd2b5",
+      "numeric_curves_preserved": true
+    },
+    {
+      "requested": "yaml",
+      "effective_extension": ".yaml",
+      "original_sha256": "dec9345672e74f2bcbdedd284b292959b636aa36b8519ab0d9be791df542616d",
+      "wrapped_sha256": "dec9345672e74f2bcbdedd284b292959b636aa36b8519ab0d9be791df542616d",
+      "numeric_curves_preserved": true
+    },
+    {
+      "requested": "json",
+      "effective_extension": ".json",
+      "original_sha256": "2291e6e25e462bcab39de69e4601052c9f84d3081f783856b80c4c69c5413b6b",
+      "wrapped_sha256": "2291e6e25e462bcab39de69e4601052c9f84d3081f783856b80c4c69c5413b6b",
+      "numeric_curves_preserved": true
+    }
+  ],
+  "inputs_after": {
+    "/repo/tests/regressions/fingerprint_reports.py": "0d15b2409f398d05d10babf5aea03ac6287362314ba9c4624eb7936cf9fb9039",
+    "/repo/tests/regressions/fingerprint_labels.nf": "ea7126d786e5935cd64a3caa65ae41392c95e87bce560fe542e2d74993dca7a6",
+    "/repo/bin/check_samplesheet.py": "2832a945024a0a51f518cb3a5db85d09684eb1c0c5aed7c2764e5d1560223d72",
+    "/repo/bin/multiqc_fingerprint.py": "723bf55bd129a1af051f95c164f6fefab015a32b54195dcccefdc945aa3c469a",
+    "/repo/conf/modules.config": "3977d4bb79147eac2d2051864bd7d9ed9732ee5fdb1599e4833459edefb17e00",
+    "/repo/assets/multiqc_config.yml": "f7ffa59e5feed728a70443e05418caf4496abe3bca035e2c1fa4a64b4f2bd2a8",
+    "/evidence/labels.json": "6ecff28675463c56626b197fc05457511be77cbc4a86f39402049274a5e2376f",
+    "/repo/tests/regressions/fingerprint_fixtures/MANIFEST.json": "f0a00aec0ee87e19dab81d5628347aaf0b8a7938b8cfc437745d563332526f9f",
+    "/repo/tests/regressions/fingerprint_fixtures/comparison_a.plotFingerprint.raw.txt": "ac412ffa88af5e6d14871b0c8ea9e24bb65c0a2aeeda97e8669a71c644e1f5a1",
+    "/repo/tests/regressions/fingerprint_fixtures/comparison_b.plotFingerprint.raw.txt": "657c94369a09343f7badf98aef855be0228a6ef2a25044f52be6dda0746d3837"
+  },
+  "inputs": {
+    "/evidence/labels.json": "6ecff28675463c56626b197fc05457511be77cbc4a86f39402049274a5e2376f",
+    "/repo/assets/multiqc_config.yml": "f7ffa59e5feed728a70443e05418caf4496abe3bca035e2c1fa4a64b4f2bd2a8",
+    "/repo/tests/regressions/fingerprint_fixtures/MANIFEST.json": "f0a00aec0ee87e19dab81d5628347aaf0b8a7938b8cfc437745d563332526f9f"
+  },
+  "limits": "Small report/parser integration only; no BAM processing or claim about missing historical CI raw files."
+}

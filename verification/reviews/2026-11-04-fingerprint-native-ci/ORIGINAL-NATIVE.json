@@ -1,0 +1,724 @@
+{
+  "contracts": [
+    {
+      "bytes": 20400,
+      "executions": 23,
+      "job": {
+        "completed_at": "2026-11-04T05:08:18Z",
+        "conclusion": "success",
+        "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453025",
+        "id": 126400453025,
+        "name": "Fingerprint contracts | 26.10.5",
+        "run_id": 41777278460,
+        "started_at": "2026-11-04T05:07:18Z",
+        "status": "completed"
+      },
+      "negative_controls": 11,
+      "nextflow_version": "26.10.5",
+      "receipt": "attempts/41777278460-attempt-1/contracts/26.10.5.json",
+      "sha256": "6d869bc23e54d3e38838b95ed430228f542923fc51b405e9462193238921dd3e",
+      "status": "PASS"
+    },
+    {
+      "bytes": 20400,
+      "executions": 23,
+      "job": {
+        "completed_at": "2026-11-04T05:08:33Z",
+        "conclusion": "success",
+        "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453117",
+        "id": 126400453117,
+        "name": "Fingerprint contracts | 25.10.4",
+        "run_id": 41777278460,
+        "started_at": "2026-11-04T05:07:19Z",
+        "status": "completed"
+      },
+      "negative_controls": 11,
+      "nextflow_version": "25.10.4",
+      "receipt": "attempts/41777278460-attempt-1/contracts/25.10.4.json",
+      "sha256": "54f2c3fdb9033e13420e364ce221b28d8aed22108c1bbcd4978eb3dbe9a5d58f",
+      "status": "PASS"
+    }
+  ],
+  "ordinary_tests": {
+    "25.10.4": {
+      "all_expected_tests_passed": false,
+      "complete_expected_case_names": true,
+      "expected_real_tests": 7,
+      "expected_stub_tests": 5,
+      "expected_tests": 12,
+      "failed": 4,
+      "passed": 8,
+      "recorded_real_tests": 7,
+      "recorded_stub_tests": 5,
+      "recorded_tests": 12,
+      "tests": [
+        {
+          "job_id": 126400453350,
+          "status": "failed",
+          "test": "chromap"
+        },
+        {
+          "job_id": 126400453350,
+          "status": "passed",
+          "test": "chromap with stub"
+        },
+        {
+          "job_id": 126400453441,
+          "status": "passed",
+          "test": "-profile test"
+        },
+        {
+          "job_id": 126400453461,
+          "status": "failed",
+          "test": "bowtie2"
+        },
+        {
+          "job_id": 126400453461,
+          "status": "passed",
+          "test": "bowtie2 with stub"
+        },
+        {
+          "job_id": 126400453536,
+          "status": "passed",
+          "test": "skip_consensus_peaks"
+        },
+        {
+          "job_id": 126400453536,
+          "status": "passed",
+          "test": "skip_consensus_peaks with stub"
+        },
+        {
+          "job_id": 126400453617,
+          "status": "failed",
+          "test": "star"
+        },
+        {
+          "job_id": 126400453617,
+          "status": "passed",
+          "test": "star with stub"
+        },
+        {
+          "job_id": 126400453636,
+          "status": "passed",
+          "test": "-profile test_controls"
+        },
+        {
+          "job_id": 126400453708,
+          "status": "failed",
+          "test": "skip_trimming"
+        },
+        {
+          "job_id": 126400453708,
+          "status": "passed",
+          "test": "skip_trimming with stub"
+        }
+      ]
+    },
+    "26.10.5": {
+      "all_expected_tests_passed": false,
+      "complete_expected_case_names": true,
+      "expected_real_tests": 7,
+      "expected_stub_tests": 5,
+      "expected_tests": 12,
+      "failed": 4,
+      "passed": 8,
+      "recorded_real_tests": 7,
+      "recorded_stub_tests": 5,
+      "recorded_tests": 12,
+      "tests": [
+        {
+          "job_id": 126400453406,
+          "status": "failed",
+          "test": "bowtie2"
+        },
+        {
+          "job_id": 126400453406,
+          "status": "passed",
+          "test": "bowtie2 with stub"
+        },
+        {
+          "job_id": 126400453474,
+          "status": "failed",
+          "test": "chromap"
+        },
+        {
+          "job_id": 126400453474,
+          "status": "passed",
+          "test": "chromap with stub"
+        },
+        {
+          "job_id": 126400453563,
+          "status": "failed",
+          "test": "skip_trimming"
+        },
+        {
+          "job_id": 126400453563,
+          "status": "passed",
+          "test": "skip_trimming with stub"
+        },
+        {
+          "job_id": 126400453567,
+          "status": "failed",
+          "test": "star"
+        },
+        {
+          "job_id": 126400453567,
+          "status": "passed",
+          "test": "star with stub"
+        },
+        {
+          "job_id": 126400453637,
+          "status": "passed",
+          "test": "-profile test"
+        },
+        {
+          "job_id": 126400453741,
+          "status": "passed",
+          "test": "skip_consensus_peaks"
+        },
+        {
+          "job_id": 126400453741,
+          "status": "passed",
+          "test": "skip_consensus_peaks with stub"
+        },
+        {
+          "job_id": 126400453801,
+          "status": "passed",
+          "test": "-profile test_controls"
+        }
+      ]
+    }
+  },
+  "profiles": [
+    {
+      "capsule_sha256": "9d64bbb92f3c051001eec60d5237912cbaa9f38de59f7ab23f35d8c7e41771ab",
+      "capture_complete": false,
+      "capture_status": "PARTIAL",
+      "job": {
+        "completed_at": "2026-11-04T05:31:50Z",
+        "conclusion": "failure",
+        "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453350",
+        "id": 126400453350,
+        "name": "chromap | 25.10.4",
+        "run_id": 41777278460,
+        "started_at": "2026-11-04T05:07:18Z",
+        "status": "completed"
+      },
+      "native_qualification_reason": "EvidenceError: Global capture is incomplete",
+      "native_qualification_status": "FAIL",
+      "nextflow_version": "25.10.4",
+      "nf_test_step_outcome": "failure",
+      "payload_prefix": "attempts/41777278460-attempt-1/jobs/126400453350",
+      "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "tap": {
+        "tap_bytes": 55547,
+        "tap_sha256": "d2df55f132283f46edfad1a5dcb77c230b6600f34f1228160a6200345e30fe4e",
+        "tests": [
+          {
+            "name": "Test pipeline with chromap aligner: chromap",
+            "number": 1,
+            "status": "failed"
+          },
+          {
+            "name": "Test pipeline with chromap aligner: chromap with stub",
+            "number": 2,
+            "status": "passed"
+          }
+        ]
+      },
+      "test_case": "chromap"
+    },
+    {
+      "capsule_sha256": "8b6cb20005bd9ce4b543ad07bd1190c0da84136a0c28131c013a6753fe3884de",
+      "capture_complete": false,
+      "capture_status": "PARTIAL",
+      "job": {
+        "completed_at": "2026-11-04T05:20:55Z",
+        "conclusion": "failure",
+        "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453406",
+        "id": 126400453406,
+        "name": "bowtie2 | 26.10.5",
+        "run_id": 41777278460,
+        "started_at": "2026-11-04T05:07:19Z",
+        "status": "completed"
+      },
+      "native_qualification_reason": "EvidenceError: Global capture is incomplete",
+      "native_qualification_status": "FAIL",
+      "nextflow_version": "26.10.5",
+      "nf_test_step_outcome": "failure",
+      "payload_prefix": "attempts/41777278460-attempt-1/jobs/126400453406",
+      "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "tap": {
+        "tap_bytes": 54051,
+        "tap_sha256": "b630658c96016ba994245a09e7586c735b344401ac753922ca5f8ce52e9507d3",
+        "tests": [
+          {
+            "name": "Test pipeline with bowtie2 aligner: bowtie2",
+            "number": 1,
+            "status": "failed"
+          },
+          {
+            "name": "Test pipeline with bowtie2 aligner: bowtie2 with stub",
+            "number": 2,
+            "status": "passed"
+          }
+        ]
+      },
+      "test_case": "bowtie2"
+    },
+    {
+      "capsule_sha256": "b182235cac59a7db9b548f41340a86f76b72b4b539334b79ddda7fa647086f36",
+      "capture_complete": false,
+      "capture_status": "PARTIAL",
+      "job": {
+        "completed_at": "2026-11-04T05:29:47Z",
+        "conclusion": "failure",
+        "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453441",
+        "id": 126400453441,
+        "name": "default | 25.10.4",
+        "run_id": 41777278460,
+        "started_at": "2026-11-04T05:07:18Z",
+        "status": "completed"
+      },
+      "native_qualification_reason": "EvidenceError: Global capture is incomplete",
+      "native_qualification_status": "FAIL",
+      "nextflow_version": "25.10.4",
+      "nf_test_step_outcome": "success",
+      "payload_prefix": "attempts/41777278460-attempt-1/jobs/126400453441",
+      "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "tap": {
+        "tap_bytes": 39,
+        "tap_sha256": "f46e86652cb77b73969b47cf6734830dd995ecca8644044bd268805eea1113ad",
+        "tests": [
+          {
+            "name": "Test pipeline: -profile test",
+            "number": 1,
+            "status": "passed"
+          }
+        ]
+      },
+      "test_case": "default"
+    },
+    {
+      "capsule_sha256": "a7129488b8353576b5f44ceb6c1867f54f5f5e305616d695c69a8eb3c0b94fd8",
+      "capture_complete": false,
+      "capture_status": "PARTIAL",
+      "job": {
+        "completed_at": "2026-11-04T05:20:20Z",
+        "conclusion": "failure",
+        "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453461",
+        "id": 126400453461,
+        "name": "bowtie2 | 25.10.4",
+        "run_id": 41777278460,
+        "started_at": "2026-11-04T05:07:18Z",
+        "status": "completed"
+      },
+      "native_qualification_reason": "EvidenceError: Global capture is incomplete",
+      "native_qualification_status": "FAIL",
+      "nextflow_version": "25.10.4",
+      "nf_test_step_outcome": "failure",
+      "payload_prefix": "attempts/41777278460-attempt-1/jobs/126400453461",
+      "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "tap": {
+        "tap_bytes": 53995,
+        "tap_sha256": "a99d910a7692fe92c7da554db6c09b19fe1a9127b5baaa6dd56cc607a2a30354",
+        "tests": [
+          {
+            "name": "Test pipeline with bowtie2 aligner: bowtie2",
+            "number": 1,
+            "status": "failed"
+          },
+          {
+            "name": "Test pipeline with bowtie2 aligner: bowtie2 with stub",
+            "number": 2,
+            "status": "passed"
+          }
+        ]
+      },
+      "test_case": "bowtie2"
+    },
+    {
+      "capsule_sha256": "c798bb993d3e935d9df47f3fece55d0269d701bc0d656efd046062d74b69eb89",
+      "capture_complete": false,
+      "capture_status": "PARTIAL",
+      "job": {
+        "completed_at": "2026-11-04T05:37:53Z",
+        "conclusion": "failure",
+        "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453474",
+        "id": 126400453474,
+        "name": "chromap | 26.10.5",
+        "run_id": 41777278460,
+        "started_at": "2026-11-04T05:20:22Z",
+        "status": "completed"
+      },
+      "native_qualification_reason": "EvidenceError: Global capture is incomplete",
+      "native_qualification_status": "FAIL",
+      "nextflow_version": "26.10.5",
+      "nf_test_step_outcome": "failure",
+      "payload_prefix": "attempts/41777278460-attempt-1/jobs/126400453474",
+      "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "tap": {
+        "tap_bytes": 55603,
+        "tap_sha256": "9d8b5c518e6871e18d8dadd8adcf51ab50e9c0b9724c53bbb7d7d95c4b2f2645",
+        "tests": [
+          {
+            "name": "Test pipeline with chromap aligner: chromap",
+            "number": 1,
+            "status": "failed"
+          },
+          {
+            "name": "Test pipeline with chromap aligner: chromap with stub",
+            "number": 2,
+            "status": "passed"
+          }
+        ]
+      },
+      "test_case": "chromap"
+    },
+    {
+      "capsule_sha256": "d09eadc69affb00f686d58d66f333167a316f33646bfb9bc6e14fbeaa9190de0",
+      "capture_complete": false,
+      "capture_status": "PARTIAL",
+      "job": {
+        "completed_at": "2026-11-04T05:53:54Z",
+        "conclusion": "failure",
+        "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453536",
+        "id": 126400453536,
+        "name": "skip_consensus_peaks | 25.10.4",
+        "run_id": 41777278460,
+        "started_at": "2026-11-04T05:31:52Z",
+        "status": "completed"
+      },
+      "native_qualification_reason": "EvidenceError: Global capture is incomplete",
+      "native_qualification_status": "FAIL",
+      "nextflow_version": "25.10.4",
+      "nf_test_step_outcome": "success",
+      "payload_prefix": "attempts/41777278460-attempt-1/jobs/126400453536",
+      "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "tap": {
+        "tap_bytes": 153,
+        "tap_sha256": "011dc8e52e338dc331a1bc4e9fdcf3279a482bef689d5ae9623b3d45526c6812",
+        "tests": [
+          {
+            "name": "Test pipeline with --skip_consensus_peaks: skip_consensus_peaks",
+            "number": 1,
+            "status": "passed"
+          },
+          {
+            "name": "Test pipeline with --skip_consensus_peaks: skip_consensus_peaks with stub",
+            "number": 2,
+            "status": "passed"
+          }
+        ]
+      },
+      "test_case": "skip_consensus_peaks"
+    },
+    {
+      "capsule_sha256": "1f33530069721f78066fade49b13ecbf7a946c19b4e974134d9fe4afb87385f2",
+      "capture_complete": false,
+      "capture_status": "PARTIAL",
+      "job": {
+        "completed_at": "2026-11-04T05:47:45Z",
+        "conclusion": "failure",
+        "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453563",
+        "id": 126400453563,
+        "name": "skip_trimming | 26.10.5",
+        "run_id": 41777278460,
+        "started_at": "2026-11-04T05:31:23Z",
+        "status": "completed"
+      },
+      "native_qualification_reason": "EvidenceError: Global capture is incomplete",
+      "native_qualification_status": "FAIL",
+      "nextflow_version": "26.10.5",
+      "nf_test_step_outcome": "failure",
+      "payload_prefix": "attempts/41777278460-attempt-1/jobs/126400453563",
+      "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "tap": {
+        "tap_bytes": 52339,
+        "tap_sha256": "b5afe2b44441d4e020f361c51fe81c31db9191227f077e4837e55f40d73d8452",
+        "tests": [
+          {
+            "name": "Test pipeline with --skip_trimming: skip_trimming",
+            "number": 1,
+            "status": "failed"
+          },
+          {
+            "name": "Test pipeline with --skip_trimming: skip_trimming with stub",
+            "number": 2,
+            "status": "passed"
+          }
+        ]
+      },
+      "test_case": "skip_trimming"
+    },
+    {
+      "capsule_sha256": "d4ebe7b182001198aad5d76478dd55863ee41decc80c8e43ed24efeab4e8a8b7",
+      "capture_complete": false,
+      "capture_status": "PARTIAL",
+      "job": {
+        "completed_at": "2026-11-04T05:53:55Z",
+        "conclusion": "failure",
+        "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453567",
+        "id": 126400453567,
+        "name": "star | 26.10.5",
+        "run_id": 41777278460,
+        "started_at": "2026-11-04T05:29:49Z",
+        "status": "completed"
+      },
+      "native_qualification_reason": "EvidenceError: Global capture is incomplete",
+      "native_qualification_status": "FAIL",
+      "nextflow_version": "26.10.5",
+      "nf_test_step_outcome": "failure",
+      "payload_prefix": "attempts/41777278460-attempt-1/jobs/126400453567",
+      "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "tap": {
+        "tap_bytes": 53443,
+        "tap_sha256": "dd769daf9e272cf74b9685156fdab65a70ae85b51bb7b6408c66ebf7ac140f56",
+        "tests": [
+          {
+            "name": "Test pipeline with STAR aligner: star",
+            "number": 1,
+            "status": "failed"
+          },
+          {
+            "name": "Test pipeline with STAR aligner: star with stub",
+            "number": 2,
+            "status": "passed"
+          }
+        ]
+      },
+      "test_case": "star"
+    },
+    {
+      "capsule_sha256": "13ced391adebb372cd817c4564ccc53af41227b97f213186e220dab4030e559a",
+      "capture_complete": false,
+      "capture_status": "PARTIAL",
+      "job": {
+        "completed_at": "2026-11-04T05:37:40Z",
+        "conclusion": "failure",
+        "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453617",
+        "id": 126400453617,
+        "name": "star | 25.10.4",
+        "run_id": 41777278460,
+        "started_at": "2026-11-04T05:20:57Z",
+        "status": "completed"
+      },
+      "native_qualification_reason": "EvidenceError: Global capture is incomplete",
+      "native_qualification_status": "FAIL",
+      "nextflow_version": "25.10.4",
+      "nf_test_step_outcome": "failure",
+      "payload_prefix": "attempts/41777278460-attempt-1/jobs/126400453617",
+      "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "tap": {
+        "tap_bytes": 53379,
+        "tap_sha256": "1bade882a426967761554721250204974269f2112b3f9aa3c467906685f42e9e",
+        "tests": [
+          {
+            "name": "Test pipeline with STAR aligner: star",
+            "number": 1,
+            "status": "failed"
+          },
+          {
+            "name": "Test pipeline with STAR aligner: star with stub",
+            "number": 2,
+            "status": "passed"
+          }
+        ]
+      },
+      "test_case": "star"
+    },
+    {
+      "capsule_sha256": "4b5ecce9acade5332f6ab8a70879f9b3788b3af9658ffcaeb9282f5d2acc356e",
+      "capture_complete": false,
+      "capture_status": "PARTIAL",
+      "job": {
+        "completed_at": "2026-11-04T05:32:17Z",
+        "conclusion": "failure",
+        "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453636",
+        "id": 126400453636,
+        "name": "controls | 25.10.4",
+        "run_id": 41777278460,
+        "started_at": "2026-11-04T05:07:19Z",
+        "status": "completed"
+      },
+      "native_qualification_reason": "EvidenceError: Global capture is incomplete",
+      "native_qualification_status": "FAIL",
+      "nextflow_version": "25.10.4",
+      "nf_test_step_outcome": "success",
+      "payload_prefix": "attempts/41777278460-attempt-1/jobs/126400453636",
+      "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "tap": {
+        "tap_bytes": 48,
+        "tap_sha256": "39bf10494a7c3a6423f738b0373a2a74e0b2cc1699b8cd51afafca5a33de4720",
+        "tests": [
+          {
+            "name": "Test pipeline: -profile test_controls",
+            "number": 1,
+            "status": "passed"
+          }
+        ]
+      },
+      "test_case": "controls"
+    },
+    {
+      "capsule_sha256": "c62ce1f564a5930184f583b867ace15afe95fe0c977eeca24fc09d15f85af13e",
+      "capture_complete": false,
+      "capture_status": "PARTIAL",
+      "job": {
+        "completed_at": "2026-11-04T05:30:20Z",
+        "conclusion": "failure",
+        "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453637",
+        "id": 126400453637,
+        "name": "default | 26.10.5",
+        "run_id": 41777278460,
+        "started_at": "2026-11-04T05:07:18Z",
+        "status": "completed"
+      },
+      "native_qualification_reason": "EvidenceError: Global capture is incomplete",
+      "native_qualification_status": "FAIL",
+      "nextflow_version": "26.10.5",
+      "nf_test_step_outcome": "success",
+      "payload_prefix": "attempts/41777278460-attempt-1/jobs/126400453637",
+      "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "tap": {
+        "tap_bytes": 39,
+        "tap_sha256": "f46e86652cb77b73969b47cf6734830dd995ecca8644044bd268805eea1113ad",
+        "tests": [
+          {
+            "name": "Test pipeline: -profile test",
+            "number": 1,
+            "status": "passed"
+          }
+        ]
+      },
+      "test_case": "default"
+    },
+    {
+      "capsule_sha256": "62ea886897abb7b07ba615baa33580b5c464a2b963c45517c1a0d8b329fb3bbe",
+      "capture_complete": false,
+      "capture_status": "PARTIAL",
+      "job": {
+        "completed_at": "2026-11-04T05:56:00Z",
+        "conclusion": "failure",
+        "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453708",
+        "id": 126400453708,
+        "name": "skip_trimming | 25.10.4",
+        "run_id": 41777278460,
+        "started_at": "2026-11-04T05:30:21Z",
+        "status": "completed"
+      },
+      "native_qualification_reason": "EvidenceError: Global capture is incomplete",
+      "native_qualification_status": "FAIL",
+      "nextflow_version": "25.10.4",
+      "nf_test_step_outcome": "failure",
+      "payload_prefix": "attempts/41777278460-attempt-1/jobs/126400453708",
+      "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "tap": {
+        "tap_bytes": 52279,
+        "tap_sha256": "5dc0c7d17a526f813c51aadc6ba424d4f64d8bf4d4589d82505639b3fb3b5fd4",
+        "tests": [
+          {
+            "name": "Test pipeline with --skip_trimming: skip_trimming",
+            "number": 1,
+            "status": "failed"
+          },
+          {
+            "name": "Test pipeline with --skip_trimming: skip_trimming with stub",
+            "number": 2,
+            "status": "passed"
+          }
+        ]
+      },
+      "test_case": "skip_trimming"
+    },
+    {
+      "capsule_sha256": "4676394317e7e5efad3e9b1e7e0bd15d348fd3bfba52cc27a9e50cdcefd7404b",
+      "capture_complete": false,
+      "capture_status": "PARTIAL",
+      "job": {
+        "completed_at": "2026-11-04T05:55:09Z",
+        "conclusion": "failure",
+        "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453741",
+        "id": 126400453741,
+        "name": "skip_consensus_peaks | 26.10.5",
+        "run_id": 41777278460,
+        "started_at": "2026-11-04T05:32:18Z",
+        "status": "completed"
+      },
+      "native_qualification_reason": "EvidenceError: Global capture is incomplete",
+      "native_qualification_status": "FAIL",
+      "nextflow_version": "26.10.5",
+      "nf_test_step_outcome": "success",
+      "payload_prefix": "attempts/41777278460-attempt-1/jobs/126400453741",
+      "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "tap": {
+        "tap_bytes": 153,
+        "tap_sha256": "011dc8e52e338dc331a1bc4e9fdcf3279a482bef689d5ae9623b3d45526c6812",
+        "tests": [
+          {
+            "name": "Test pipeline with --skip_consensus_peaks: skip_consensus_peaks",
+            "number": 1,
+            "status": "passed"
+          },
+          {
+            "name": "Test pipeline with --skip_consensus_peaks: skip_consensus_peaks with stub",
+            "number": 2,
+            "status": "passed"
+          }
+        ]
+      },
+      "test_case": "skip_consensus_peaks"
+    },
+    {
+      "capsule_sha256": "f89f24d7d0792831c5e66070566bfadf0438cb8c998a007232a537be2d09fceb",
+      "capture_complete": false,
+      "capture_status": "PARTIAL",
+      "job": {
+        "completed_at": "2026-11-04T05:31:19Z",
+        "conclusion": "failure",
+        "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453801",
+        "id": 126400453801,
+        "name": "controls | 26.10.5",
+        "run_id": 41777278460,
+        "started_at": "2026-11-04T05:07:19Z",
+        "status": "completed"
+      },
+      "native_qualification_reason": "EvidenceError: Global capture is incomplete",
+      "native_qualification_status": "FAIL",
+      "nextflow_version": "26.10.5",
+      "nf_test_step_outcome": "success",
+      "payload_prefix": "attempts/41777278460-attempt-1/jobs/126400453801",
+      "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "tap": {
+        "tap_bytes": 48,
+        "tap_sha256": "39bf10494a7c3a6423f738b0373a2a74e0b2cc1699b8cd51afafca5a33de4720",
+        "tests": [
+          {
+            "name": "Test pipeline: -profile test_controls",
+            "number": 1,
+            "status": "passed"
+          }
+        ]
+      },
+      "test_case": "controls"
+    }
+  ],
+  "qualification": "All fourteen original native qualification gates failed closed because capture was PARTIAL; no original native qualification PASS is claimed.",
+  "raw_jobs_metadata_sha256": "552f81c1083a7348f8e87738e986e4183e6a90cba228d92733377dfaf69b747a",
+  "raw_run_metadata_sha256": "b70275b22d269baf71db52ee7eee336c5edf7337a12efaec13fd31cbf7c84279",
+  "run": {
+    "conclusion": "failure",
+    "created_at": "2026-11-04T05:07:16Z",
+    "event": "push",
+    "head_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+    "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460",
+    "id": 41777278460,
+    "name": "Qualify fingerprint reports (free fork runners)",
+    "run_attempt": 1,
+    "run_number": 1,
+    "run_started_at": "2026-11-04T05:07:16Z",
+    "status": "completed",
+    "updated_at": "2026-11-04T05:56:00Z"
+  },
+  "schema": "atacseq-native-wave1-observations/v1"
+}

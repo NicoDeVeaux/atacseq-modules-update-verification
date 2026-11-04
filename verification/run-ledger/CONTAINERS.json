@@ -4,6 +4,2482 @@
     "historical_digest_status": "UNKNOWN",
     "observed_stage_image": "quay.io/biocontainers/subread@sha256:ccee1f6ebb924fd0b3b6db646a51dabc905697aa25be132386dd490c2318286c"
   },
+  "fingerprint-native-ci-20261104": {
+    "41777278460-attempt-1/bowtie2/25.10.4": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "fc/0fdff8",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "124",
+          "trace_sha256": "4c82972aa91a9705ffa561b8ebafb49ab88b89e6d0b5b63c29317bba75aa2c56"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "9b/7b449a",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "129",
+          "trace_sha256": "4c82972aa91a9705ffa561b8ebafb49ab88b89e6d0b5b63c29317bba75aa2c56"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "3a/e2bf70",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T150_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "134",
+          "trace_sha256": "4c82972aa91a9705ffa561b8ebafb49ab88b89e6d0b5b63c29317bba75aa2c56"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "65/a7ea71",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "171",
+          "trace_sha256": "4c82972aa91a9705ffa561b8ebafb49ab88b89e6d0b5b63c29317bba75aa2c56"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "b1/226d64",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "181",
+          "trace_sha256": "4c82972aa91a9705ffa561b8ebafb49ab88b89e6d0b5b63c29317bba75aa2c56"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "b7/5a009e",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T15_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "204",
+          "trace_sha256": "4c82972aa91a9705ffa561b8ebafb49ab88b89e6d0b5b63c29317bba75aa2c56"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "4c/7e2fa9",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "264",
+          "trace_sha256": "4c82972aa91a9705ffa561b8ebafb49ab88b89e6d0b5b63c29317bba75aa2c56"
+        }
+      ]
+    },
+    "41777278460-attempt-1/bowtie2/26.10.5": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "d8/989f66",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "132",
+          "trace_sha256": "c9d5f54b11f1845a0850d5d2d1427dc1dd523d371e73184966680ef277a2b96e"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "c2/b8a186",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "122",
+          "trace_sha256": "c9d5f54b11f1845a0850d5d2d1427dc1dd523d371e73184966680ef277a2b96e"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "aa/d7525c",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T150_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "141",
+          "trace_sha256": "c9d5f54b11f1845a0850d5d2d1427dc1dd523d371e73184966680ef277a2b96e"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "81/a50346",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "169",
+          "trace_sha256": "c9d5f54b11f1845a0850d5d2d1427dc1dd523d371e73184966680ef277a2b96e"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "41/89a17b",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "180",
+          "trace_sha256": "c9d5f54b11f1845a0850d5d2d1427dc1dd523d371e73184966680ef277a2b96e"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "f0/8756b9",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T15_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "198",
+          "trace_sha256": "c9d5f54b11f1845a0850d5d2d1427dc1dd523d371e73184966680ef277a2b96e"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "d6/9b18dd",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "264",
+          "trace_sha256": "c9d5f54b11f1845a0850d5d2d1427dc1dd523d371e73184966680ef277a2b96e"
+        }
+      ]
+    },
+    "41777278460-attempt-1/chromap/25.10.4": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "f6/ae4146",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "135",
+          "trace_sha256": "0705c8f48766b96cd44f4120b8c1cecde1086fa6c713856f5ef0474c7e5499f0"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "a3/db26f6",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "140",
+          "trace_sha256": "0705c8f48766b96cd44f4120b8c1cecde1086fa6c713856f5ef0474c7e5499f0"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "04/2603b7",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T150_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "143",
+          "trace_sha256": "0705c8f48766b96cd44f4120b8c1cecde1086fa6c713856f5ef0474c7e5499f0"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "0a/43d9a5",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "178",
+          "trace_sha256": "0705c8f48766b96cd44f4120b8c1cecde1086fa6c713856f5ef0474c7e5499f0"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "70/3018ec",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "185",
+          "trace_sha256": "0705c8f48766b96cd44f4120b8c1cecde1086fa6c713856f5ef0474c7e5499f0"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "b2/f2433e",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T15_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "210",
+          "trace_sha256": "0705c8f48766b96cd44f4120b8c1cecde1086fa6c713856f5ef0474c7e5499f0"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "d7/457242",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "272",
+          "trace_sha256": "0705c8f48766b96cd44f4120b8c1cecde1086fa6c713856f5ef0474c7e5499f0"
+        }
+      ]
+    },
+    "41777278460-attempt-1/chromap/26.10.5": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "43/f6f216",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "135",
+          "trace_sha256": "d1761086e221ba80b1aefc82abc8d43cdd38d3484d98e18eecbdea98b5ef2b5a"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "9e/72b5a3",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "138",
+          "trace_sha256": "d1761086e221ba80b1aefc82abc8d43cdd38d3484d98e18eecbdea98b5ef2b5a"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "63/6254c3",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T150_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "144",
+          "trace_sha256": "d1761086e221ba80b1aefc82abc8d43cdd38d3484d98e18eecbdea98b5ef2b5a"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "69/eccfbe",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "176",
+          "trace_sha256": "d1761086e221ba80b1aefc82abc8d43cdd38d3484d98e18eecbdea98b5ef2b5a"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "db/8845ab",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "184",
+          "trace_sha256": "d1761086e221ba80b1aefc82abc8d43cdd38d3484d98e18eecbdea98b5ef2b5a"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "7f/2add1c",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T15_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "209",
+          "trace_sha256": "d1761086e221ba80b1aefc82abc8d43cdd38d3484d98e18eecbdea98b5ef2b5a"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "1d/78fbed",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "272",
+          "trace_sha256": "d1761086e221ba80b1aefc82abc8d43cdd38d3484d98e18eecbdea98b5ef2b5a"
+        }
+      ]
+    },
+    "41777278460-attempt-1/controls/25.10.4": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "de/8fe32c",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (SPT5_T0_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "139",
+          "trace_sha256": "2a8fa7e94334c8ed3ec5d071ffa293aa5d5077496dd3a6300f942488413d4c1b"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "81/ac7071",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (SPT5_T15_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "150",
+          "trace_sha256": "2a8fa7e94334c8ed3ec5d071ffa293aa5d5077496dd3a6300f942488413d4c1b"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "b3/5014d5",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (SPT5_T0_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "149",
+          "trace_sha256": "2a8fa7e94334c8ed3ec5d071ffa293aa5d5077496dd3a6300f942488413d4c1b"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "7c/ac2e90",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (SPT5_T15_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "164",
+          "trace_sha256": "2a8fa7e94334c8ed3ec5d071ffa293aa5d5077496dd3a6300f942488413d4c1b"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "e1/f39a1d",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "253",
+          "trace_sha256": "2a8fa7e94334c8ed3ec5d071ffa293aa5d5077496dd3a6300f942488413d4c1b"
+        }
+      ]
+    },
+    "41777278460-attempt-1/controls/26.10.5": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "58/1b3f35",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (SPT5_T15_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "139",
+          "trace_sha256": "f8c93127bd4cf683e684508345576fbbed5cc2d811b0e42073d42f4d304a69fd"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "05/293365",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (SPT5_T0_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "131",
+          "trace_sha256": "f8c93127bd4cf683e684508345576fbbed5cc2d811b0e42073d42f4d304a69fd"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "e1/aec97b",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (SPT5_T0_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "149",
+          "trace_sha256": "f8c93127bd4cf683e684508345576fbbed5cc2d811b0e42073d42f4d304a69fd"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "7c/b6c878",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (SPT5_T15_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "163",
+          "trace_sha256": "f8c93127bd4cf683e684508345576fbbed5cc2d811b0e42073d42f4d304a69fd"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "a4/ba1a25",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "253",
+          "trace_sha256": "f8c93127bd4cf683e684508345576fbbed5cc2d811b0e42073d42f4d304a69fd"
+        }
+      ]
+    },
+    "41777278460-attempt-1/default/25.10.4": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "5e/6046cc",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "128",
+          "trace_sha256": "ad0bba3c9f1e27c6dad7b3337f8f0d5e4c864738beec5808233ee416a6fc6343"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "c4/da9296",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "120",
+          "trace_sha256": "ad0bba3c9f1e27c6dad7b3337f8f0d5e4c864738beec5808233ee416a6fc6343"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "c8/b5c37b",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T150_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "135",
+          "trace_sha256": "ad0bba3c9f1e27c6dad7b3337f8f0d5e4c864738beec5808233ee416a6fc6343"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "29/d73aee",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "173",
+          "trace_sha256": "ad0bba3c9f1e27c6dad7b3337f8f0d5e4c864738beec5808233ee416a6fc6343"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "f0/0c0339",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "178",
+          "trace_sha256": "ad0bba3c9f1e27c6dad7b3337f8f0d5e4c864738beec5808233ee416a6fc6343"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "7a/298477",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T15_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "204",
+          "trace_sha256": "ad0bba3c9f1e27c6dad7b3337f8f0d5e4c864738beec5808233ee416a6fc6343"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "1b/4e2823",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "264",
+          "trace_sha256": "ad0bba3c9f1e27c6dad7b3337f8f0d5e4c864738beec5808233ee416a6fc6343"
+        }
+      ]
+    },
+    "41777278460-attempt-1/default/26.10.5": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "39/92ae2d",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "131",
+          "trace_sha256": "670b7284e6593e6c1635496af6101e24c22d92978b12e144dc03d36bcf4c232a"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "ad/b29b09",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "123",
+          "trace_sha256": "670b7284e6593e6c1635496af6101e24c22d92978b12e144dc03d36bcf4c232a"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "ad/0ef36a",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T150_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "136",
+          "trace_sha256": "670b7284e6593e6c1635496af6101e24c22d92978b12e144dc03d36bcf4c232a"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "a6/435db9",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "172",
+          "trace_sha256": "670b7284e6593e6c1635496af6101e24c22d92978b12e144dc03d36bcf4c232a"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "26/469f0c",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "186",
+          "trace_sha256": "670b7284e6593e6c1635496af6101e24c22d92978b12e144dc03d36bcf4c232a"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "41/979095",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T15_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "198",
+          "trace_sha256": "670b7284e6593e6c1635496af6101e24c22d92978b12e144dc03d36bcf4c232a"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "a1/152846",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "264",
+          "trace_sha256": "670b7284e6593e6c1635496af6101e24c22d92978b12e144dc03d36bcf4c232a"
+        }
+      ]
+    },
+    "41777278460-attempt-1/skip_consensus_peaks/25.10.4": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "c0/331da5",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "119",
+          "trace_sha256": "a8e4edc80852a8d4a8a6ac792e16909e30b91121ffa9962d5edbb5ffc49e56e6"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "b6/203475",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "130",
+          "trace_sha256": "a8e4edc80852a8d4a8a6ac792e16909e30b91121ffa9962d5edbb5ffc49e56e6"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "3a/91370a",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T150_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "142",
+          "trace_sha256": "a8e4edc80852a8d4a8a6ac792e16909e30b91121ffa9962d5edbb5ffc49e56e6"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "af/e554f7",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "172",
+          "trace_sha256": "a8e4edc80852a8d4a8a6ac792e16909e30b91121ffa9962d5edbb5ffc49e56e6"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "d7/09f9dc",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "177",
+          "trace_sha256": "a8e4edc80852a8d4a8a6ac792e16909e30b91121ffa9962d5edbb5ffc49e56e6"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "f2/9d71ee",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T15_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "204",
+          "trace_sha256": "a8e4edc80852a8d4a8a6ac792e16909e30b91121ffa9962d5edbb5ffc49e56e6"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "ec/be8d51",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "256",
+          "trace_sha256": "a8e4edc80852a8d4a8a6ac792e16909e30b91121ffa9962d5edbb5ffc49e56e6"
+        }
+      ]
+    },
+    "41777278460-attempt-1/skip_consensus_peaks/26.10.5": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "ef/465471",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "132",
+          "trace_sha256": "ead8c8165af912390077e87f99006a3a694f9edd5c0693f702c03641bb4b06b3"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "04/a2dc18",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "125",
+          "trace_sha256": "ead8c8165af912390077e87f99006a3a694f9edd5c0693f702c03641bb4b06b3"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "8d/a2dd19",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T150_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "133",
+          "trace_sha256": "ead8c8165af912390077e87f99006a3a694f9edd5c0693f702c03641bb4b06b3"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "d0/414c39",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "175",
+          "trace_sha256": "ead8c8165af912390077e87f99006a3a694f9edd5c0693f702c03641bb4b06b3"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "e2/f794cd",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "186",
+          "trace_sha256": "ead8c8165af912390077e87f99006a3a694f9edd5c0693f702c03641bb4b06b3"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "2c/f6344c",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T15_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "199",
+          "trace_sha256": "ead8c8165af912390077e87f99006a3a694f9edd5c0693f702c03641bb4b06b3"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "f9/0748d2",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "256",
+          "trace_sha256": "ead8c8165af912390077e87f99006a3a694f9edd5c0693f702c03641bb4b06b3"
+        }
+      ]
+    },
+    "41777278460-attempt-1/skip_trimming/25.10.4": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "60/b79502",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "109",
+          "trace_sha256": "c9f0768c2a4042945485f5192f76f2a82e3eaff61e0f3415732f5069ae831973"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "56/75f724",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "124",
+          "trace_sha256": "c9f0768c2a4042945485f5192f76f2a82e3eaff61e0f3415732f5069ae831973"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "93/5cb477",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T150_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "133",
+          "trace_sha256": "c9f0768c2a4042945485f5192f76f2a82e3eaff61e0f3415732f5069ae831973"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "82/d47b37",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "162",
+          "trace_sha256": "c9f0768c2a4042945485f5192f76f2a82e3eaff61e0f3415732f5069ae831973"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "17/f09cf4",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "168",
+          "trace_sha256": "c9f0768c2a4042945485f5192f76f2a82e3eaff61e0f3415732f5069ae831973"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "6d/71183a",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T15_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "196",
+          "trace_sha256": "c9f0768c2a4042945485f5192f76f2a82e3eaff61e0f3415732f5069ae831973"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "54/3ba69c",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "256",
+          "trace_sha256": "c9f0768c2a4042945485f5192f76f2a82e3eaff61e0f3415732f5069ae831973"
+        }
+      ]
+    },
+    "41777278460-attempt-1/skip_trimming/26.10.5": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "ff/f5de07",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "116",
+          "trace_sha256": "1d6ec2032dc98a22f12363b2ab220d988bc57a84c543f2a22d2a20da214d3fb1"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "c7/bbfdc6",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T150_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "125",
+          "trace_sha256": "1d6ec2032dc98a22f12363b2ab220d988bc57a84c543f2a22d2a20da214d3fb1"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "cb/d02a4a",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "130",
+          "trace_sha256": "1d6ec2032dc98a22f12363b2ab220d988bc57a84c543f2a22d2a20da214d3fb1"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "cb/ea5d09",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "162",
+          "trace_sha256": "1d6ec2032dc98a22f12363b2ab220d988bc57a84c543f2a22d2a20da214d3fb1"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "9d/d7af6e",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "169",
+          "trace_sha256": "1d6ec2032dc98a22f12363b2ab220d988bc57a84c543f2a22d2a20da214d3fb1"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "5c/40c201",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T15_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "193",
+          "trace_sha256": "1d6ec2032dc98a22f12363b2ab220d988bc57a84c543f2a22d2a20da214d3fb1"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "69/61ffc8",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "256",
+          "trace_sha256": "1d6ec2032dc98a22f12363b2ab220d988bc57a84c543f2a22d2a20da214d3fb1"
+        }
+      ]
+    },
+    "41777278460-attempt-1/star/25.10.4": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "3f/cb6bbc",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "126",
+          "trace_sha256": "c69763cf6f3fc881428e94c0c252a246cb1b006e2d74613628cb3e93fe85b1f9"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "c3/cf4739",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T150_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "131",
+          "trace_sha256": "c69763cf6f3fc881428e94c0c252a246cb1b006e2d74613628cb3e93fe85b1f9"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "17/26a560",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "137",
+          "trace_sha256": "c69763cf6f3fc881428e94c0c252a246cb1b006e2d74613628cb3e93fe85b1f9"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "68/db4bc3",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "172",
+          "trace_sha256": "c69763cf6f3fc881428e94c0c252a246cb1b006e2d74613628cb3e93fe85b1f9"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "15/5aa79d",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "183",
+          "trace_sha256": "c69763cf6f3fc881428e94c0c252a246cb1b006e2d74613628cb3e93fe85b1f9"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "72/35fb51",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T15_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "200",
+          "trace_sha256": "c69763cf6f3fc881428e94c0c252a246cb1b006e2d74613628cb3e93fe85b1f9"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "c3/9ac199",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "264",
+          "trace_sha256": "c69763cf6f3fc881428e94c0c252a246cb1b006e2d74613628cb3e93fe85b1f9"
+        }
+      ]
+    },
+    "41777278460-attempt-1/star/26.10.5": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "8b/289299",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "123",
+          "trace_sha256": "9be9b2dc6217f816fc277634c435f86ad5e62995747fe2a919dff701405af324"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "c8/875a53",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "130",
+          "trace_sha256": "9be9b2dc6217f816fc277634c435f86ad5e62995747fe2a919dff701405af324"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "fb/8cb504",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T150_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "135",
+          "trace_sha256": "9be9b2dc6217f816fc277634c435f86ad5e62995747fe2a919dff701405af324"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "7f/ccb9b2",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "171",
+          "trace_sha256": "9be9b2dc6217f816fc277634c435f86ad5e62995747fe2a919dff701405af324"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "30/0eff26",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "182",
+          "trace_sha256": "9be9b2dc6217f816fc277634c435f86ad5e62995747fe2a919dff701405af324"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "30/4a471c",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T15_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "204",
+          "trace_sha256": "9be9b2dc6217f816fc277634c435f86ad5e62995747fe2a919dff701405af324"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "1e/06f052",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "264",
+          "trace_sha256": "9be9b2dc6217f816fc277634c435f86ad5e62995747fe2a919dff701405af324"
+        }
+      ]
+    },
+    "41782995985-attempt-1/bowtie2/25.10.4": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "b3/ef757f",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "124",
+          "trace_sha256": "7571a2874d6e5b7a7837be9465b4e684f682f2e8e5ec062ce0c50a25208734fb"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "b1/b01d10",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "130",
+          "trace_sha256": "7571a2874d6e5b7a7837be9465b4e684f682f2e8e5ec062ce0c50a25208734fb"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "05/6b44df",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T150_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "137",
+          "trace_sha256": "7571a2874d6e5b7a7837be9465b4e684f682f2e8e5ec062ce0c50a25208734fb"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "00/4a0acc",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "167",
+          "trace_sha256": "7571a2874d6e5b7a7837be9465b4e684f682f2e8e5ec062ce0c50a25208734fb"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "a4/dd3f59",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "182",
+          "trace_sha256": "7571a2874d6e5b7a7837be9465b4e684f682f2e8e5ec062ce0c50a25208734fb"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "6f/f47489",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T15_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "200",
+          "trace_sha256": "7571a2874d6e5b7a7837be9465b4e684f682f2e8e5ec062ce0c50a25208734fb"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "19/cc53e0",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "264",
+          "trace_sha256": "7571a2874d6e5b7a7837be9465b4e684f682f2e8e5ec062ce0c50a25208734fb"
+        }
+      ]
+    },
+    "41782995985-attempt-1/bowtie2/26.10.5": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "a9/310b1b",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "123",
+          "trace_sha256": "735fb893d5d9f3e4f5d44ee8df12ea473d9e19edc13f14e428362ff020e0fc10"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "f7/33fd08",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "128",
+          "trace_sha256": "735fb893d5d9f3e4f5d44ee8df12ea473d9e19edc13f14e428362ff020e0fc10"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "ae/f7c111",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T150_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "135",
+          "trace_sha256": "735fb893d5d9f3e4f5d44ee8df12ea473d9e19edc13f14e428362ff020e0fc10"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "4d/67ae2a",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "172",
+          "trace_sha256": "735fb893d5d9f3e4f5d44ee8df12ea473d9e19edc13f14e428362ff020e0fc10"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "da/7fbcac",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "192",
+          "trace_sha256": "735fb893d5d9f3e4f5d44ee8df12ea473d9e19edc13f14e428362ff020e0fc10"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "dc/72b333",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T15_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "199",
+          "trace_sha256": "735fb893d5d9f3e4f5d44ee8df12ea473d9e19edc13f14e428362ff020e0fc10"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "c2/2eb24e",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "264",
+          "trace_sha256": "735fb893d5d9f3e4f5d44ee8df12ea473d9e19edc13f14e428362ff020e0fc10"
+        }
+      ]
+    },
+    "41782995985-attempt-1/chromap/25.10.4": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "ba/61bf70",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "131",
+          "trace_sha256": "e5485ea3459a72a7873e5d8834348fe0201f76130a1abeb75f27cb3759c5e30d"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "29/6f46cc",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "140",
+          "trace_sha256": "e5485ea3459a72a7873e5d8834348fe0201f76130a1abeb75f27cb3759c5e30d"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "ca/d5dfc6",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T150_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "142",
+          "trace_sha256": "e5485ea3459a72a7873e5d8834348fe0201f76130a1abeb75f27cb3759c5e30d"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "7c/247ee1",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "181",
+          "trace_sha256": "e5485ea3459a72a7873e5d8834348fe0201f76130a1abeb75f27cb3759c5e30d"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "8f/862513",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "193",
+          "trace_sha256": "e5485ea3459a72a7873e5d8834348fe0201f76130a1abeb75f27cb3759c5e30d"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "fb/7d4595",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T15_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "205",
+          "trace_sha256": "e5485ea3459a72a7873e5d8834348fe0201f76130a1abeb75f27cb3759c5e30d"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "7e/f0c9d4",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "272",
+          "trace_sha256": "e5485ea3459a72a7873e5d8834348fe0201f76130a1abeb75f27cb3759c5e30d"
+        }
+      ]
+    },
+    "41782995985-attempt-1/chromap/26.10.5": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "06/7b2fb8",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "134",
+          "trace_sha256": "c876ca6164f439ab7270074738a8b35ba0870db0017cf60596b62f128d7afc40"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "13/a96eba",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "139",
+          "trace_sha256": "c876ca6164f439ab7270074738a8b35ba0870db0017cf60596b62f128d7afc40"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "2f/151ecd",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T150_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "145",
+          "trace_sha256": "c876ca6164f439ab7270074738a8b35ba0870db0017cf60596b62f128d7afc40"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "fd/f920cd",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "179",
+          "trace_sha256": "c876ca6164f439ab7270074738a8b35ba0870db0017cf60596b62f128d7afc40"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "4a/ede00b",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "189",
+          "trace_sha256": "c876ca6164f439ab7270074738a8b35ba0870db0017cf60596b62f128d7afc40"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "ef/9e3c4f",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T15_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "212",
+          "trace_sha256": "c876ca6164f439ab7270074738a8b35ba0870db0017cf60596b62f128d7afc40"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "8f/7f57aa",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "272",
+          "trace_sha256": "c876ca6164f439ab7270074738a8b35ba0870db0017cf60596b62f128d7afc40"
+        }
+      ]
+    },
+    "41782995985-attempt-1/controls/25.10.4": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "50/87bb37",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (SPT5_T0_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "142",
+          "trace_sha256": "d61e76041c779dcb1e0eec9897b64f9a61de9d93cdf3b1c2f322fc12f70b95ab"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "90/afdf83",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (SPT5_T15_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "147",
+          "trace_sha256": "d61e76041c779dcb1e0eec9897b64f9a61de9d93cdf3b1c2f322fc12f70b95ab"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "59/b7fb8e",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (SPT5_T0_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "152",
+          "trace_sha256": "d61e76041c779dcb1e0eec9897b64f9a61de9d93cdf3b1c2f322fc12f70b95ab"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "f4/ec57a9",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (SPT5_T15_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "158",
+          "trace_sha256": "d61e76041c779dcb1e0eec9897b64f9a61de9d93cdf3b1c2f322fc12f70b95ab"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "b8/e6684e",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "253",
+          "trace_sha256": "d61e76041c779dcb1e0eec9897b64f9a61de9d93cdf3b1c2f322fc12f70b95ab"
+        }
+      ]
+    },
+    "41782995985-attempt-1/controls/26.10.5": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "b3/895229",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (SPT5_T0_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "138",
+          "trace_sha256": "3c33bedbe1696e937cd6d90115a1219a098fa797097080f4fcc1cce667606fd7"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "b6/681642",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (SPT5_T0_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "144",
+          "trace_sha256": "3c33bedbe1696e937cd6d90115a1219a098fa797097080f4fcc1cce667606fd7"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "b5/432335",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (SPT5_T15_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "148",
+          "trace_sha256": "3c33bedbe1696e937cd6d90115a1219a098fa797097080f4fcc1cce667606fd7"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "7c/91042f",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (SPT5_T15_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "154",
+          "trace_sha256": "3c33bedbe1696e937cd6d90115a1219a098fa797097080f4fcc1cce667606fd7"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "29/11244f",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "253",
+          "trace_sha256": "3c33bedbe1696e937cd6d90115a1219a098fa797097080f4fcc1cce667606fd7"
+        }
+      ]
+    },
+    "41782995985-attempt-1/default/25.10.4": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "4c/973ca8",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "120",
+          "trace_sha256": "73526ba897f0960cdbe4dcc1e94e47ec78d9ac139ede8f2a74a8f2af528fb167"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "07/17557d",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "130",
+          "trace_sha256": "73526ba897f0960cdbe4dcc1e94e47ec78d9ac139ede8f2a74a8f2af528fb167"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "f9/db1c48",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T150_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "139",
+          "trace_sha256": "73526ba897f0960cdbe4dcc1e94e47ec78d9ac139ede8f2a74a8f2af528fb167"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "6b/812cad",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "170",
+          "trace_sha256": "73526ba897f0960cdbe4dcc1e94e47ec78d9ac139ede8f2a74a8f2af528fb167"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "69/753ef3",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "176",
+          "trace_sha256": "73526ba897f0960cdbe4dcc1e94e47ec78d9ac139ede8f2a74a8f2af528fb167"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "99/d6a889",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T15_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "203",
+          "trace_sha256": "73526ba897f0960cdbe4dcc1e94e47ec78d9ac139ede8f2a74a8f2af528fb167"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "5e/704ac2",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "264",
+          "trace_sha256": "73526ba897f0960cdbe4dcc1e94e47ec78d9ac139ede8f2a74a8f2af528fb167"
+        }
+      ]
+    },
+    "41782995985-attempt-1/default/26.10.5": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "81/30071a",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "120",
+          "trace_sha256": "0c0b873f57e499d988b47e4833db9e60734d8ecd2a15f06cf6e162919e380b8b"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "54/a98e04",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "129",
+          "trace_sha256": "0c0b873f57e499d988b47e4833db9e60734d8ecd2a15f06cf6e162919e380b8b"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "46/f4d216",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T150_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "135",
+          "trace_sha256": "0c0b873f57e499d988b47e4833db9e60734d8ecd2a15f06cf6e162919e380b8b"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "18/6b8903",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "171",
+          "trace_sha256": "0c0b873f57e499d988b47e4833db9e60734d8ecd2a15f06cf6e162919e380b8b"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "13/717d5a",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "180",
+          "trace_sha256": "0c0b873f57e499d988b47e4833db9e60734d8ecd2a15f06cf6e162919e380b8b"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "1b/8cde00",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T15_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "204",
+          "trace_sha256": "0c0b873f57e499d988b47e4833db9e60734d8ecd2a15f06cf6e162919e380b8b"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "ee/cd1e70",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "264",
+          "trace_sha256": "0c0b873f57e499d988b47e4833db9e60734d8ecd2a15f06cf6e162919e380b8b"
+        }
+      ]
+    },
+    "41782995985-attempt-1/skip_consensus_peaks/25.10.4": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "99/e074c2",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "123",
+          "trace_sha256": "d92fbdf17374ac073d079cf3877d1133682b9c8eb0d9a05ded6da8c228698215"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "44/e48999",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "131",
+          "trace_sha256": "d92fbdf17374ac073d079cf3877d1133682b9c8eb0d9a05ded6da8c228698215"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "6c/0f1813",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T150_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "134",
+          "trace_sha256": "d92fbdf17374ac073d079cf3877d1133682b9c8eb0d9a05ded6da8c228698215"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "5e/495c33",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "171",
+          "trace_sha256": "d92fbdf17374ac073d079cf3877d1133682b9c8eb0d9a05ded6da8c228698215"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "6e/181b56",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "181",
+          "trace_sha256": "d92fbdf17374ac073d079cf3877d1133682b9c8eb0d9a05ded6da8c228698215"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "0d/1f1cf0",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T15_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "205",
+          "trace_sha256": "d92fbdf17374ac073d079cf3877d1133682b9c8eb0d9a05ded6da8c228698215"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "25/9bf379",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "256",
+          "trace_sha256": "d92fbdf17374ac073d079cf3877d1133682b9c8eb0d9a05ded6da8c228698215"
+        }
+      ]
+    },
+    "41782995985-attempt-1/skip_consensus_peaks/26.10.5": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "46/cf05e5",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "130",
+          "trace_sha256": "f9a8574317ca8bfc02bc12c46a3bfab6dc8036db4ff7557e4ed5f06e91af0e44"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "29/cb23ca",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "123",
+          "trace_sha256": "f9a8574317ca8bfc02bc12c46a3bfab6dc8036db4ff7557e4ed5f06e91af0e44"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "cc/1a3cb0",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T150_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "133",
+          "trace_sha256": "f9a8574317ca8bfc02bc12c46a3bfab6dc8036db4ff7557e4ed5f06e91af0e44"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "4d/78b371",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "172",
+          "trace_sha256": "f9a8574317ca8bfc02bc12c46a3bfab6dc8036db4ff7557e4ed5f06e91af0e44"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "e1/e0cc97",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "181",
+          "trace_sha256": "f9a8574317ca8bfc02bc12c46a3bfab6dc8036db4ff7557e4ed5f06e91af0e44"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "65/9898ce",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T15_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "206",
+          "trace_sha256": "f9a8574317ca8bfc02bc12c46a3bfab6dc8036db4ff7557e4ed5f06e91af0e44"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "a3/c86b66",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "256",
+          "trace_sha256": "f9a8574317ca8bfc02bc12c46a3bfab6dc8036db4ff7557e4ed5f06e91af0e44"
+        }
+      ]
+    },
+    "41782995985-attempt-1/skip_trimming/25.10.4": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "0c/f07b8c",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "112",
+          "trace_sha256": "72980485cbcacb772b6aa9c990cef604057d989ead72b304bdcea29cf9701432"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "eb/0e4bc6",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "122",
+          "trace_sha256": "72980485cbcacb772b6aa9c990cef604057d989ead72b304bdcea29cf9701432"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "9d/a150cd",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T150_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "132",
+          "trace_sha256": "72980485cbcacb772b6aa9c990cef604057d989ead72b304bdcea29cf9701432"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "ab/e81180",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "161",
+          "trace_sha256": "72980485cbcacb772b6aa9c990cef604057d989ead72b304bdcea29cf9701432"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "c7/aee9aa",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "168",
+          "trace_sha256": "72980485cbcacb772b6aa9c990cef604057d989ead72b304bdcea29cf9701432"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "a0/552867",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T15_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "196",
+          "trace_sha256": "72980485cbcacb772b6aa9c990cef604057d989ead72b304bdcea29cf9701432"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "07/3c3931",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "256",
+          "trace_sha256": "72980485cbcacb772b6aa9c990cef604057d989ead72b304bdcea29cf9701432"
+        }
+      ]
+    },
+    "41782995985-attempt-1/skip_trimming/26.10.5": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "f1/098134",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "125",
+          "trace_sha256": "241f0531597e861d2f9647c980c26c35b7ef06170864226eb8584dcb408bbfab"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "2e/b5df64",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "119",
+          "trace_sha256": "241f0531597e861d2f9647c980c26c35b7ef06170864226eb8584dcb408bbfab"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "d4/3a4b40",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T150_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "131",
+          "trace_sha256": "241f0531597e861d2f9647c980c26c35b7ef06170864226eb8584dcb408bbfab"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "86/272f26",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "160",
+          "trace_sha256": "241f0531597e861d2f9647c980c26c35b7ef06170864226eb8584dcb408bbfab"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "b2/be99ae",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "168",
+          "trace_sha256": "241f0531597e861d2f9647c980c26c35b7ef06170864226eb8584dcb408bbfab"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "96/d600c2",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T15_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "195",
+          "trace_sha256": "241f0531597e861d2f9647c980c26c35b7ef06170864226eb8584dcb408bbfab"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "7b/387b68",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "256",
+          "trace_sha256": "241f0531597e861d2f9647c980c26c35b7ef06170864226eb8584dcb408bbfab"
+        }
+      ]
+    },
+    "41782995985-attempt-1/star/25.10.4": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "19/33a48d",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "126",
+          "trace_sha256": "c6573c13d27654795c5be38b685c6568b4dfc9a6e2d49963ab771ee67ffa58c8"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "5a/33bd7f",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "128",
+          "trace_sha256": "c6573c13d27654795c5be38b685c6568b4dfc9a6e2d49963ab771ee67ffa58c8"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "51/f865d3",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T150_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "138",
+          "trace_sha256": "c6573c13d27654795c5be38b685c6568b4dfc9a6e2d49963ab771ee67ffa58c8"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "74/150758",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "173",
+          "trace_sha256": "c6573c13d27654795c5be38b685c6568b4dfc9a6e2d49963ab771ee67ffa58c8"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "fe/6f90e3",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "179",
+          "trace_sha256": "c6573c13d27654795c5be38b685c6568b4dfc9a6e2d49963ab771ee67ffa58c8"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "53/89d6aa",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T15_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "206",
+          "trace_sha256": "c6573c13d27654795c5be38b685c6568b4dfc9a6e2d49963ab771ee67ffa58c8"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "87/cd61ce",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "264",
+          "trace_sha256": "c6573c13d27654795c5be38b685c6568b4dfc9a6e2d49963ab771ee67ffa58c8"
+        }
+      ]
+    },
+    "41782995985-attempt-1/star/26.10.5": {
+      "limits": "Task image references come from selected native trace rows. Tags are not promoted to verified digests; this is not a full task-image inventory.",
+      "qualification_image_identity": "Pinned image reference invoked by native workflow",
+      "report_qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+      "selected_task_observations": [
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "74/3486a3",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "125",
+          "trace_sha256": "eb56bb351c408f0b30664799630b3e4cc8c123dc89b157d27667e225fe25734f"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "e0/92e7b7",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "133",
+          "trace_sha256": "eb56bb351c408f0b30664799630b3e4cc8c123dc89b157d27667e225fe25734f"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "cb/2f6a1b",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T150_SE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "139",
+          "trace_sha256": "eb56bb351c408f0b30664799630b3e4cc8c123dc89b157d27667e225fe25734f"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "19/e35006",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "168",
+          "trace_sha256": "eb56bb351c408f0b30664799630b3e4cc8c123dc89b157d27667e225fe25734f"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "27/40f7b3",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP2)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "176",
+          "trace_sha256": "eb56bb351c408f0b30664799630b3e4cc8c123dc89b157d27667e225fe25734f"
+        },
+        {
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "80/93bbc9",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T15_PE_REP1)",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "task_id": "204",
+          "trace_sha256": "eb56bb351c408f0b30664799630b3e4cc8c123dc89b157d27667e225fe25734f"
+        },
+        {
+          "config_files": [
+            "multiqc_config.yml"
+          ],
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "exit": "0",
+          "hash": "b7/eb3d5a",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "task_id": "264",
+          "trace_sha256": "eb56bb351c408f0b30664799630b3e4cc8c123dc89b157d27667e225fe25734f"
+        }
+      ]
+    },
+    "posthoc/job-126400453350/25.10.4": {
+      "observed_cached_replay_image": {
+        "id": "sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+        "repo_digests": [
+          "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+        ]
+      },
+      "qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+    },
+    "posthoc/job-126400453406/26.10.5": {
+      "observed_cached_replay_image": {
+        "id": "sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+        "repo_digests": [
+          "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+        ]
+      },
+      "qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+    },
+    "posthoc/job-126400453441/25.10.4": {
+      "observed_cached_replay_image": {
+        "id": "sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+        "repo_digests": [
+          "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+        ]
+      },
+      "qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+    },
+    "posthoc/job-126400453461/25.10.4": {
+      "observed_cached_replay_image": {
+        "id": "sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+        "repo_digests": [
+          "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+        ]
+      },
+      "qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+    },
+    "posthoc/job-126400453474/26.10.5": {
+      "observed_cached_replay_image": {
+        "id": "sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+        "repo_digests": [
+          "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+        ]
+      },
+      "qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+    },
+    "posthoc/job-126400453536/25.10.4": {
+      "observed_cached_replay_image": {
+        "id": "sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+        "repo_digests": [
+          "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+        ]
+      },
+      "qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+    },
+    "posthoc/job-126400453563/26.10.5": {
+      "observed_cached_replay_image": {
+        "id": "sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+        "repo_digests": [
+          "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+        ]
+      },
+      "qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+    },
+    "posthoc/job-126400453567/26.10.5": {
+      "observed_cached_replay_image": {
+        "id": "sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+        "repo_digests": [
+          "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+        ]
+      },
+      "qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+    },
+    "posthoc/job-126400453617/25.10.4": {
+      "observed_cached_replay_image": {
+        "id": "sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+        "repo_digests": [
+          "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+        ]
+      },
+      "qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+    },
+    "posthoc/job-126400453636/25.10.4": {
+      "observed_cached_replay_image": {
+        "id": "sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+        "repo_digests": [
+          "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+        ]
+      },
+      "qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+    },
+    "posthoc/job-126400453637/26.10.5": {
+      "observed_cached_replay_image": {
+        "id": "sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+        "repo_digests": [
+          "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+        ]
+      },
+      "qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+    },
+    "posthoc/job-126400453708/25.10.4": {
+      "observed_cached_replay_image": {
+        "id": "sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+        "repo_digests": [
+          "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+        ]
+      },
+      "qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+    },
+    "posthoc/job-126400453741/26.10.5": {
+      "observed_cached_replay_image": {
+        "id": "sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+        "repo_digests": [
+          "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+        ]
+      },
+      "qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+    },
+    "posthoc/job-126400453801/26.10.5": {
+      "observed_cached_replay_image": {
+        "id": "sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+        "repo_digests": [
+          "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+        ]
+      },
+      "qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+    }
+  },
   "fingerprint-reporting-20261103": {
     "actual_MultiQC_image": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
     "actual_deeptools_stage_image": "quay.io/biocontainers/deeptools@sha256:db11ae232d88820ac1942e7f3fe2a6bc9eade7d199a5d45a9e23a13cccd134dc",

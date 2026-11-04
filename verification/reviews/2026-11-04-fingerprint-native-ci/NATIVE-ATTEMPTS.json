@@ -1,0 +1,1895 @@
+{
+  "attempts": [
+    {
+      "attempt_id": "41777278460-attempt-1",
+      "contracts": [
+        {
+          "executions": 23,
+          "job": {
+            "completed_at": "2026-11-04T05:08:18Z",
+            "conclusion": "success",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453025",
+            "id": 126400453025,
+            "name": "Fingerprint contracts | 26.10.5",
+            "run_id": 41777278460,
+            "started_at": "2026-11-04T05:07:18Z",
+            "status": "completed"
+          },
+          "negative_controls": [
+            {
+              "control": "invalid_colon_sample_id",
+              "rejected": true
+            },
+            {
+              "control": "original_CLI_numeric_export",
+              "reason": "Duplicate fingerprint TSV columns",
+              "rejected": true
+            },
+            {
+              "control": "legacy_shared_control_labels",
+              "reason": "Parsed sample/curve set differs from the original per-file parser",
+              "rejected": true
+            },
+            {
+              "control": "treatment_prefix_cleaning_collision",
+              "observed_curves": 1,
+              "reason": "Parsed sample/curve set differs from the original per-file parser",
+              "rejected": true,
+              "required_curves": 2
+            },
+            {
+              "control": "unprotected_generated_control_cleanup",
+              "observed_curves": 3,
+              "reason": "Parsed sample/curve set differs from the original per-file parser",
+              "rejected": true,
+              "required_curves": 4
+            },
+            {
+              "control": "blank_numeric_series",
+              "reason": "Blank fingerprint numeric series",
+              "rejected": true
+            },
+            {
+              "control": "duplicate_X_column",
+              "reason": "Duplicate fingerprint TSV columns",
+              "rejected": true
+            },
+            {
+              "control": "changed_numeric_value",
+              "reason": "Fingerprint TSV numeric value differs",
+              "rejected": true
+            },
+            {
+              "control": "missing_sample",
+              "reason": "Fingerprint TSV sample count differs",
+              "rejected": true
+            },
+            {
+              "control": "corrupt_input",
+              "reason": "Fixture input integrity check failed",
+              "rejected": true
+            },
+            {
+              "control": "numeric_key_string_collision",
+              "rejected": true
+            }
+          ],
+          "nextflow_version": "26.10.5",
+          "receipt_path": "attempts/41777278460-attempt-1/contracts/26.10.5.json",
+          "receipt_sha256": "6d869bc23e54d3e38838b95ed430228f542923fc51b405e9462193238921dd3e",
+          "status": "PASS"
+        },
+        {
+          "executions": 23,
+          "job": {
+            "completed_at": "2026-11-04T05:08:33Z",
+            "conclusion": "success",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453117",
+            "id": 126400453117,
+            "name": "Fingerprint contracts | 25.10.4",
+            "run_id": 41777278460,
+            "started_at": "2026-11-04T05:07:19Z",
+            "status": "completed"
+          },
+          "negative_controls": [
+            {
+              "control": "invalid_colon_sample_id",
+              "rejected": true
+            },
+            {
+              "control": "original_CLI_numeric_export",
+              "reason": "Duplicate fingerprint TSV columns",
+              "rejected": true
+            },
+            {
+              "control": "legacy_shared_control_labels",
+              "reason": "Parsed sample/curve set differs from the original per-file parser",
+              "rejected": true
+            },
+            {
+              "control": "treatment_prefix_cleaning_collision",
+              "observed_curves": 1,
+              "reason": "Parsed sample/curve set differs from the original per-file parser",
+              "rejected": true,
+              "required_curves": 2
+            },
+            {
+              "control": "unprotected_generated_control_cleanup",
+              "observed_curves": 3,
+              "reason": "Parsed sample/curve set differs from the original per-file parser",
+              "rejected": true,
+              "required_curves": 4
+            },
+            {
+              "control": "blank_numeric_series",
+              "reason": "Blank fingerprint numeric series",
+              "rejected": true
+            },
+            {
+              "control": "duplicate_X_column",
+              "reason": "Duplicate fingerprint TSV columns",
+              "rejected": true
+            },
+            {
+              "control": "changed_numeric_value",
+              "reason": "Fingerprint TSV numeric value differs",
+              "rejected": true
+            },
+            {
+              "control": "missing_sample",
+              "reason": "Fingerprint TSV sample count differs",
+              "rejected": true
+            },
+            {
+              "control": "corrupt_input",
+              "reason": "Fixture input integrity check failed",
+              "rejected": true
+            },
+            {
+              "control": "numeric_key_string_collision",
+              "rejected": true
+            }
+          ],
+          "nextflow_version": "25.10.4",
+          "receipt_path": "attempts/41777278460-attempt-1/contracts/25.10.4.json",
+          "receipt_sha256": "54f2c3fdb9033e13420e364ce221b28d8aed22108c1bbcd4978eb3dbe9a5d58f",
+          "status": "PASS"
+        }
+      ],
+      "label": "original-expectations",
+      "ordinary_tests": {
+        "25.10.4": {
+          "all_expected_tests_passed": false,
+          "complete_expected_case_names": true,
+          "expected_real_tests": 7,
+          "expected_stub_tests": 5,
+          "expected_tests": 12,
+          "failed": 4,
+          "passed": 8,
+          "recorded_real_tests": 7,
+          "recorded_stub_tests": 5,
+          "recorded_tests": 12,
+          "tests": [
+            {
+              "job_id": 126400453350,
+              "status": "failed",
+              "test": "chromap"
+            },
+            {
+              "job_id": 126400453350,
+              "status": "passed",
+              "test": "chromap with stub"
+            },
+            {
+              "job_id": 126400453441,
+              "status": "passed",
+              "test": "-profile test"
+            },
+            {
+              "job_id": 126400453461,
+              "status": "failed",
+              "test": "bowtie2"
+            },
+            {
+              "job_id": 126400453461,
+              "status": "passed",
+              "test": "bowtie2 with stub"
+            },
+            {
+              "job_id": 126400453536,
+              "status": "passed",
+              "test": "skip_consensus_peaks"
+            },
+            {
+              "job_id": 126400453536,
+              "status": "passed",
+              "test": "skip_consensus_peaks with stub"
+            },
+            {
+              "job_id": 126400453617,
+              "status": "failed",
+              "test": "star"
+            },
+            {
+              "job_id": 126400453617,
+              "status": "passed",
+              "test": "star with stub"
+            },
+            {
+              "job_id": 126400453636,
+              "status": "passed",
+              "test": "-profile test_controls"
+            },
+            {
+              "job_id": 126400453708,
+              "status": "failed",
+              "test": "skip_trimming"
+            },
+            {
+              "job_id": 126400453708,
+              "status": "passed",
+              "test": "skip_trimming with stub"
+            }
+          ]
+        },
+        "26.10.5": {
+          "all_expected_tests_passed": false,
+          "complete_expected_case_names": true,
+          "expected_real_tests": 7,
+          "expected_stub_tests": 5,
+          "expected_tests": 12,
+          "failed": 4,
+          "passed": 8,
+          "recorded_real_tests": 7,
+          "recorded_stub_tests": 5,
+          "recorded_tests": 12,
+          "tests": [
+            {
+              "job_id": 126400453406,
+              "status": "failed",
+              "test": "bowtie2"
+            },
+            {
+              "job_id": 126400453406,
+              "status": "passed",
+              "test": "bowtie2 with stub"
+            },
+            {
+              "job_id": 126400453474,
+              "status": "failed",
+              "test": "chromap"
+            },
+            {
+              "job_id": 126400453474,
+              "status": "passed",
+              "test": "chromap with stub"
+            },
+            {
+              "job_id": 126400453563,
+              "status": "failed",
+              "test": "skip_trimming"
+            },
+            {
+              "job_id": 126400453563,
+              "status": "passed",
+              "test": "skip_trimming with stub"
+            },
+            {
+              "job_id": 126400453567,
+              "status": "failed",
+              "test": "star"
+            },
+            {
+              "job_id": 126400453567,
+              "status": "passed",
+              "test": "star with stub"
+            },
+            {
+              "job_id": 126400453637,
+              "status": "passed",
+              "test": "-profile test"
+            },
+            {
+              "job_id": 126400453741,
+              "status": "passed",
+              "test": "skip_consensus_peaks"
+            },
+            {
+              "job_id": 126400453741,
+              "status": "passed",
+              "test": "skip_consensus_peaks with stub"
+            },
+            {
+              "job_id": 126400453801,
+              "status": "passed",
+              "test": "-profile test_controls"
+            }
+          ]
+        }
+      },
+      "original_metadata_sha256": {
+        "jobs": "552f81c1083a7348f8e87738e986e4183e6a90cba228d92733377dfaf69b747a",
+        "run": "b70275b22d269baf71db52ee7eee336c5edf7337a12efaec13fd31cbf7c84279"
+      },
+      "profiles": [
+        {
+          "capsule_sha256": "9d64bbb92f3c051001eec60d5237912cbaa9f38de59f7ab23f35d8c7e41771ab",
+          "capture_complete": false,
+          "job": {
+            "completed_at": "2026-11-04T05:31:50Z",
+            "conclusion": "failure",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453350",
+            "id": 126400453350,
+            "name": "chromap | 25.10.4",
+            "run_id": 41777278460,
+            "started_at": "2026-11-04T05:07:18Z",
+            "status": "completed"
+          },
+          "nextflow_version": "25.10.4",
+          "nf_test_step_outcome": "failure",
+          "qualification": {
+            "path": "attempts/41777278460-attempt-1/jobs/126400453350/qualification/RESULT.json",
+            "status": "FAIL"
+          },
+          "qualified_exports": [],
+          "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "tap": {
+            "tap_bytes": 55547,
+            "tap_sha256": "d2df55f132283f46edfad1a5dcb77c230b6600f34f1228160a6200345e30fe4e",
+            "tests": [
+              {
+                "name": "Test pipeline with chromap aligner: chromap",
+                "number": 1,
+                "status": "failed"
+              },
+              {
+                "name": "Test pipeline with chromap aligner: chromap with stub",
+                "number": 2,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "chromap"
+        },
+        {
+          "capsule_sha256": "8b6cb20005bd9ce4b543ad07bd1190c0da84136a0c28131c013a6753fe3884de",
+          "capture_complete": false,
+          "job": {
+            "completed_at": "2026-11-04T05:20:55Z",
+            "conclusion": "failure",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453406",
+            "id": 126400453406,
+            "name": "bowtie2 | 26.10.5",
+            "run_id": 41777278460,
+            "started_at": "2026-11-04T05:07:19Z",
+            "status": "completed"
+          },
+          "nextflow_version": "26.10.5",
+          "nf_test_step_outcome": "failure",
+          "qualification": {
+            "path": "attempts/41777278460-attempt-1/jobs/126400453406/qualification/RESULT.json",
+            "status": "FAIL"
+          },
+          "qualified_exports": [],
+          "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "tap": {
+            "tap_bytes": 54051,
+            "tap_sha256": "b630658c96016ba994245a09e7586c735b344401ac753922ca5f8ce52e9507d3",
+            "tests": [
+              {
+                "name": "Test pipeline with bowtie2 aligner: bowtie2",
+                "number": 1,
+                "status": "failed"
+              },
+              {
+                "name": "Test pipeline with bowtie2 aligner: bowtie2 with stub",
+                "number": 2,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "bowtie2"
+        },
+        {
+          "capsule_sha256": "b182235cac59a7db9b548f41340a86f76b72b4b539334b79ddda7fa647086f36",
+          "capture_complete": false,
+          "job": {
+            "completed_at": "2026-11-04T05:29:47Z",
+            "conclusion": "failure",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453441",
+            "id": 126400453441,
+            "name": "default | 25.10.4",
+            "run_id": 41777278460,
+            "started_at": "2026-11-04T05:07:18Z",
+            "status": "completed"
+          },
+          "nextflow_version": "25.10.4",
+          "nf_test_step_outcome": "success",
+          "qualification": {
+            "path": "attempts/41777278460-attempt-1/jobs/126400453441/qualification/RESULT.json",
+            "status": "FAIL"
+          },
+          "qualified_exports": [],
+          "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "tap": {
+            "tap_bytes": 39,
+            "tap_sha256": "f46e86652cb77b73969b47cf6734830dd995ecca8644044bd268805eea1113ad",
+            "tests": [
+              {
+                "name": "Test pipeline: -profile test",
+                "number": 1,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "default"
+        },
+        {
+          "capsule_sha256": "a7129488b8353576b5f44ceb6c1867f54f5f5e305616d695c69a8eb3c0b94fd8",
+          "capture_complete": false,
+          "job": {
+            "completed_at": "2026-11-04T05:20:20Z",
+            "conclusion": "failure",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453461",
+            "id": 126400453461,
+            "name": "bowtie2 | 25.10.4",
+            "run_id": 41777278460,
+            "started_at": "2026-11-04T05:07:18Z",
+            "status": "completed"
+          },
+          "nextflow_version": "25.10.4",
+          "nf_test_step_outcome": "failure",
+          "qualification": {
+            "path": "attempts/41777278460-attempt-1/jobs/126400453461/qualification/RESULT.json",
+            "status": "FAIL"
+          },
+          "qualified_exports": [],
+          "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "tap": {
+            "tap_bytes": 53995,
+            "tap_sha256": "a99d910a7692fe92c7da554db6c09b19fe1a9127b5baaa6dd56cc607a2a30354",
+            "tests": [
+              {
+                "name": "Test pipeline with bowtie2 aligner: bowtie2",
+                "number": 1,
+                "status": "failed"
+              },
+              {
+                "name": "Test pipeline with bowtie2 aligner: bowtie2 with stub",
+                "number": 2,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "bowtie2"
+        },
+        {
+          "capsule_sha256": "c798bb993d3e935d9df47f3fece55d0269d701bc0d656efd046062d74b69eb89",
+          "capture_complete": false,
+          "job": {
+            "completed_at": "2026-11-04T05:37:53Z",
+            "conclusion": "failure",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453474",
+            "id": 126400453474,
+            "name": "chromap | 26.10.5",
+            "run_id": 41777278460,
+            "started_at": "2026-11-04T05:20:22Z",
+            "status": "completed"
+          },
+          "nextflow_version": "26.10.5",
+          "nf_test_step_outcome": "failure",
+          "qualification": {
+            "path": "attempts/41777278460-attempt-1/jobs/126400453474/qualification/RESULT.json",
+            "status": "FAIL"
+          },
+          "qualified_exports": [],
+          "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "tap": {
+            "tap_bytes": 55603,
+            "tap_sha256": "9d8b5c518e6871e18d8dadd8adcf51ab50e9c0b9724c53bbb7d7d95c4b2f2645",
+            "tests": [
+              {
+                "name": "Test pipeline with chromap aligner: chromap",
+                "number": 1,
+                "status": "failed"
+              },
+              {
+                "name": "Test pipeline with chromap aligner: chromap with stub",
+                "number": 2,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "chromap"
+        },
+        {
+          "capsule_sha256": "d09eadc69affb00f686d58d66f333167a316f33646bfb9bc6e14fbeaa9190de0",
+          "capture_complete": false,
+          "job": {
+            "completed_at": "2026-11-04T05:53:54Z",
+            "conclusion": "failure",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453536",
+            "id": 126400453536,
+            "name": "skip_consensus_peaks | 25.10.4",
+            "run_id": 41777278460,
+            "started_at": "2026-11-04T05:31:52Z",
+            "status": "completed"
+          },
+          "nextflow_version": "25.10.4",
+          "nf_test_step_outcome": "success",
+          "qualification": {
+            "path": "attempts/41777278460-attempt-1/jobs/126400453536/qualification/RESULT.json",
+            "status": "FAIL"
+          },
+          "qualified_exports": [],
+          "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "tap": {
+            "tap_bytes": 153,
+            "tap_sha256": "011dc8e52e338dc331a1bc4e9fdcf3279a482bef689d5ae9623b3d45526c6812",
+            "tests": [
+              {
+                "name": "Test pipeline with --skip_consensus_peaks: skip_consensus_peaks",
+                "number": 1,
+                "status": "passed"
+              },
+              {
+                "name": "Test pipeline with --skip_consensus_peaks: skip_consensus_peaks with stub",
+                "number": 2,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "skip_consensus_peaks"
+        },
+        {
+          "capsule_sha256": "1f33530069721f78066fade49b13ecbf7a946c19b4e974134d9fe4afb87385f2",
+          "capture_complete": false,
+          "job": {
+            "completed_at": "2026-11-04T05:47:45Z",
+            "conclusion": "failure",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453563",
+            "id": 126400453563,
+            "name": "skip_trimming | 26.10.5",
+            "run_id": 41777278460,
+            "started_at": "2026-11-04T05:31:23Z",
+            "status": "completed"
+          },
+          "nextflow_version": "26.10.5",
+          "nf_test_step_outcome": "failure",
+          "qualification": {
+            "path": "attempts/41777278460-attempt-1/jobs/126400453563/qualification/RESULT.json",
+            "status": "FAIL"
+          },
+          "qualified_exports": [],
+          "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "tap": {
+            "tap_bytes": 52339,
+            "tap_sha256": "b5afe2b44441d4e020f361c51fe81c31db9191227f077e4837e55f40d73d8452",
+            "tests": [
+              {
+                "name": "Test pipeline with --skip_trimming: skip_trimming",
+                "number": 1,
+                "status": "failed"
+              },
+              {
+                "name": "Test pipeline with --skip_trimming: skip_trimming with stub",
+                "number": 2,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "skip_trimming"
+        },
+        {
+          "capsule_sha256": "d4ebe7b182001198aad5d76478dd55863ee41decc80c8e43ed24efeab4e8a8b7",
+          "capture_complete": false,
+          "job": {
+            "completed_at": "2026-11-04T05:53:55Z",
+            "conclusion": "failure",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453567",
+            "id": 126400453567,
+            "name": "star | 26.10.5",
+            "run_id": 41777278460,
+            "started_at": "2026-11-04T05:29:49Z",
+            "status": "completed"
+          },
+          "nextflow_version": "26.10.5",
+          "nf_test_step_outcome": "failure",
+          "qualification": {
+            "path": "attempts/41777278460-attempt-1/jobs/126400453567/qualification/RESULT.json",
+            "status": "FAIL"
+          },
+          "qualified_exports": [],
+          "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "tap": {
+            "tap_bytes": 53443,
+            "tap_sha256": "dd769daf9e272cf74b9685156fdab65a70ae85b51bb7b6408c66ebf7ac140f56",
+            "tests": [
+              {
+                "name": "Test pipeline with STAR aligner: star",
+                "number": 1,
+                "status": "failed"
+              },
+              {
+                "name": "Test pipeline with STAR aligner: star with stub",
+                "number": 2,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "star"
+        },
+        {
+          "capsule_sha256": "13ced391adebb372cd817c4564ccc53af41227b97f213186e220dab4030e559a",
+          "capture_complete": false,
+          "job": {
+            "completed_at": "2026-11-04T05:37:40Z",
+            "conclusion": "failure",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453617",
+            "id": 126400453617,
+            "name": "star | 25.10.4",
+            "run_id": 41777278460,
+            "started_at": "2026-11-04T05:20:57Z",
+            "status": "completed"
+          },
+          "nextflow_version": "25.10.4",
+          "nf_test_step_outcome": "failure",
+          "qualification": {
+            "path": "attempts/41777278460-attempt-1/jobs/126400453617/qualification/RESULT.json",
+            "status": "FAIL"
+          },
+          "qualified_exports": [],
+          "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "tap": {
+            "tap_bytes": 53379,
+            "tap_sha256": "1bade882a426967761554721250204974269f2112b3f9aa3c467906685f42e9e",
+            "tests": [
+              {
+                "name": "Test pipeline with STAR aligner: star",
+                "number": 1,
+                "status": "failed"
+              },
+              {
+                "name": "Test pipeline with STAR aligner: star with stub",
+                "number": 2,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "star"
+        },
+        {
+          "capsule_sha256": "4b5ecce9acade5332f6ab8a70879f9b3788b3af9658ffcaeb9282f5d2acc356e",
+          "capture_complete": false,
+          "job": {
+            "completed_at": "2026-11-04T05:32:17Z",
+            "conclusion": "failure",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453636",
+            "id": 126400453636,
+            "name": "controls | 25.10.4",
+            "run_id": 41777278460,
+            "started_at": "2026-11-04T05:07:19Z",
+            "status": "completed"
+          },
+          "nextflow_version": "25.10.4",
+          "nf_test_step_outcome": "success",
+          "qualification": {
+            "path": "attempts/41777278460-attempt-1/jobs/126400453636/qualification/RESULT.json",
+            "status": "FAIL"
+          },
+          "qualified_exports": [],
+          "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "tap": {
+            "tap_bytes": 48,
+            "tap_sha256": "39bf10494a7c3a6423f738b0373a2a74e0b2cc1699b8cd51afafca5a33de4720",
+            "tests": [
+              {
+                "name": "Test pipeline: -profile test_controls",
+                "number": 1,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "controls"
+        },
+        {
+          "capsule_sha256": "c62ce1f564a5930184f583b867ace15afe95fe0c977eeca24fc09d15f85af13e",
+          "capture_complete": false,
+          "job": {
+            "completed_at": "2026-11-04T05:30:20Z",
+            "conclusion": "failure",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453637",
+            "id": 126400453637,
+            "name": "default | 26.10.5",
+            "run_id": 41777278460,
+            "started_at": "2026-11-04T05:07:18Z",
+            "status": "completed"
+          },
+          "nextflow_version": "26.10.5",
+          "nf_test_step_outcome": "success",
+          "qualification": {
+            "path": "attempts/41777278460-attempt-1/jobs/126400453637/qualification/RESULT.json",
+            "status": "FAIL"
+          },
+          "qualified_exports": [],
+          "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "tap": {
+            "tap_bytes": 39,
+            "tap_sha256": "f46e86652cb77b73969b47cf6734830dd995ecca8644044bd268805eea1113ad",
+            "tests": [
+              {
+                "name": "Test pipeline: -profile test",
+                "number": 1,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "default"
+        },
+        {
+          "capsule_sha256": "62ea886897abb7b07ba615baa33580b5c464a2b963c45517c1a0d8b329fb3bbe",
+          "capture_complete": false,
+          "job": {
+            "completed_at": "2026-11-04T05:56:00Z",
+            "conclusion": "failure",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453708",
+            "id": 126400453708,
+            "name": "skip_trimming | 25.10.4",
+            "run_id": 41777278460,
+            "started_at": "2026-11-04T05:30:21Z",
+            "status": "completed"
+          },
+          "nextflow_version": "25.10.4",
+          "nf_test_step_outcome": "failure",
+          "qualification": {
+            "path": "attempts/41777278460-attempt-1/jobs/126400453708/qualification/RESULT.json",
+            "status": "FAIL"
+          },
+          "qualified_exports": [],
+          "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "tap": {
+            "tap_bytes": 52279,
+            "tap_sha256": "5dc0c7d17a526f813c51aadc6ba424d4f64d8bf4d4589d82505639b3fb3b5fd4",
+            "tests": [
+              {
+                "name": "Test pipeline with --skip_trimming: skip_trimming",
+                "number": 1,
+                "status": "failed"
+              },
+              {
+                "name": "Test pipeline with --skip_trimming: skip_trimming with stub",
+                "number": 2,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "skip_trimming"
+        },
+        {
+          "capsule_sha256": "4676394317e7e5efad3e9b1e7e0bd15d348fd3bfba52cc27a9e50cdcefd7404b",
+          "capture_complete": false,
+          "job": {
+            "completed_at": "2026-11-04T05:55:09Z",
+            "conclusion": "failure",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453741",
+            "id": 126400453741,
+            "name": "skip_consensus_peaks | 26.10.5",
+            "run_id": 41777278460,
+            "started_at": "2026-11-04T05:32:18Z",
+            "status": "completed"
+          },
+          "nextflow_version": "26.10.5",
+          "nf_test_step_outcome": "success",
+          "qualification": {
+            "path": "attempts/41777278460-attempt-1/jobs/126400453741/qualification/RESULT.json",
+            "status": "FAIL"
+          },
+          "qualified_exports": [],
+          "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "tap": {
+            "tap_bytes": 153,
+            "tap_sha256": "011dc8e52e338dc331a1bc4e9fdcf3279a482bef689d5ae9623b3d45526c6812",
+            "tests": [
+              {
+                "name": "Test pipeline with --skip_consensus_peaks: skip_consensus_peaks",
+                "number": 1,
+                "status": "passed"
+              },
+              {
+                "name": "Test pipeline with --skip_consensus_peaks: skip_consensus_peaks with stub",
+                "number": 2,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "skip_consensus_peaks"
+        },
+        {
+          "capsule_sha256": "f89f24d7d0792831c5e66070566bfadf0438cb8c998a007232a537be2d09fceb",
+          "capture_complete": false,
+          "job": {
+            "completed_at": "2026-11-04T05:31:19Z",
+            "conclusion": "failure",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460/job/126400453801",
+            "id": 126400453801,
+            "name": "controls | 26.10.5",
+            "run_id": 41777278460,
+            "started_at": "2026-11-04T05:07:19Z",
+            "status": "completed"
+          },
+          "nextflow_version": "26.10.5",
+          "nf_test_step_outcome": "success",
+          "qualification": {
+            "path": "attempts/41777278460-attempt-1/jobs/126400453801/qualification/RESULT.json",
+            "status": "FAIL"
+          },
+          "qualified_exports": [],
+          "source_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "tap": {
+            "tap_bytes": 48,
+            "tap_sha256": "39bf10494a7c3a6423f738b0373a2a74e0b2cc1699b8cd51afafca5a33de4720",
+            "tests": [
+              {
+                "name": "Test pipeline: -profile test_controls",
+                "number": 1,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "controls"
+        }
+      ],
+      "run": {
+        "conclusion": "failure",
+        "created_at": "2026-11-04T05:07:16Z",
+        "event": "push",
+        "head_sha": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+        "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460",
+        "id": 41777278460,
+        "name": "Qualify fingerprint reports (free fork runners)",
+        "run_attempt": 1,
+        "run_number": 1,
+        "run_started_at": "2026-11-04T05:07:16Z",
+        "status": "completed",
+        "updated_at": "2026-11-04T05:56:00Z"
+      }
+    },
+    {
+      "attempt_id": "41782995985-attempt-1",
+      "contracts": [
+        {
+          "executions": 23,
+          "job": {
+            "completed_at": "2026-11-04T06:04:20Z",
+            "conclusion": "success",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985/job/126418628951",
+            "id": 126418628951,
+            "name": "Fingerprint contracts | 25.10.4",
+            "run_id": 41782995985,
+            "started_at": "2026-11-04T06:03:16Z",
+            "status": "completed"
+          },
+          "negative_controls": [
+            {
+              "control": "invalid_colon_sample_id",
+              "rejected": true
+            },
+            {
+              "control": "original_CLI_numeric_export",
+              "reason": "Duplicate fingerprint TSV columns",
+              "rejected": true
+            },
+            {
+              "control": "legacy_shared_control_labels",
+              "reason": "Parsed sample/curve set differs from the original per-file parser",
+              "rejected": true
+            },
+            {
+              "control": "treatment_prefix_cleaning_collision",
+              "observed_curves": 1,
+              "reason": "Parsed sample/curve set differs from the original per-file parser",
+              "rejected": true,
+              "required_curves": 2
+            },
+            {
+              "control": "unprotected_generated_control_cleanup",
+              "observed_curves": 3,
+              "reason": "Parsed sample/curve set differs from the original per-file parser",
+              "rejected": true,
+              "required_curves": 4
+            },
+            {
+              "control": "blank_numeric_series",
+              "reason": "Blank fingerprint numeric series",
+              "rejected": true
+            },
+            {
+              "control": "duplicate_X_column",
+              "reason": "Duplicate fingerprint TSV columns",
+              "rejected": true
+            },
+            {
+              "control": "changed_numeric_value",
+              "reason": "Fingerprint TSV numeric value differs",
+              "rejected": true
+            },
+            {
+              "control": "missing_sample",
+              "reason": "Fingerprint TSV sample count differs",
+              "rejected": true
+            },
+            {
+              "control": "corrupt_input",
+              "reason": "Fixture input integrity check failed",
+              "rejected": true
+            },
+            {
+              "control": "numeric_key_string_collision",
+              "rejected": true
+            }
+          ],
+          "nextflow_version": "25.10.4",
+          "receipt_path": "attempts/41782995985-attempt-1/contracts/25.10.4.json",
+          "receipt_sha256": "54f2c3fdb9033e13420e364ce221b28d8aed22108c1bbcd4978eb3dbe9a5d58f",
+          "status": "PASS"
+        },
+        {
+          "executions": 23,
+          "job": {
+            "completed_at": "2026-11-04T06:04:30Z",
+            "conclusion": "success",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985/job/126418628602",
+            "id": 126418628602,
+            "name": "Fingerprint contracts | 26.10.5",
+            "run_id": 41782995985,
+            "started_at": "2026-11-04T06:03:16Z",
+            "status": "completed"
+          },
+          "negative_controls": [
+            {
+              "control": "invalid_colon_sample_id",
+              "rejected": true
+            },
+            {
+              "control": "original_CLI_numeric_export",
+              "reason": "Duplicate fingerprint TSV columns",
+              "rejected": true
+            },
+            {
+              "control": "legacy_shared_control_labels",
+              "reason": "Parsed sample/curve set differs from the original per-file parser",
+              "rejected": true
+            },
+            {
+              "control": "treatment_prefix_cleaning_collision",
+              "observed_curves": 1,
+              "reason": "Parsed sample/curve set differs from the original per-file parser",
+              "rejected": true,
+              "required_curves": 2
+            },
+            {
+              "control": "unprotected_generated_control_cleanup",
+              "observed_curves": 3,
+              "reason": "Parsed sample/curve set differs from the original per-file parser",
+              "rejected": true,
+              "required_curves": 4
+            },
+            {
+              "control": "blank_numeric_series",
+              "reason": "Blank fingerprint numeric series",
+              "rejected": true
+            },
+            {
+              "control": "duplicate_X_column",
+              "reason": "Duplicate fingerprint TSV columns",
+              "rejected": true
+            },
+            {
+              "control": "changed_numeric_value",
+              "reason": "Fingerprint TSV numeric value differs",
+              "rejected": true
+            },
+            {
+              "control": "missing_sample",
+              "reason": "Fingerprint TSV sample count differs",
+              "rejected": true
+            },
+            {
+              "control": "corrupt_input",
+              "reason": "Fixture input integrity check failed",
+              "rejected": true
+            },
+            {
+              "control": "numeric_key_string_collision",
+              "rejected": true
+            }
+          ],
+          "nextflow_version": "26.10.5",
+          "receipt_path": "attempts/41782995985-attempt-1/contracts/26.10.5.json",
+          "receipt_sha256": "6d869bc23e54d3e38838b95ed430228f542923fc51b405e9462193238921dd3e",
+          "status": "PASS"
+        }
+      ],
+      "label": "four-reviewed-count-expectations-and-controller-fix",
+      "ordinary_tests": {
+        "25.10.4": {
+          "all_expected_tests_passed": true,
+          "complete_expected_case_names": true,
+          "expected_real_tests": 7,
+          "expected_stub_tests": 5,
+          "expected_tests": 12,
+          "failed": 0,
+          "passed": 12,
+          "recorded_real_tests": 7,
+          "recorded_stub_tests": 5,
+          "recorded_tests": 12,
+          "tests": [
+            {
+              "job_id": 126418628913,
+              "status": "passed",
+              "test": "bowtie2"
+            },
+            {
+              "job_id": 126418628913,
+              "status": "passed",
+              "test": "bowtie2 with stub"
+            },
+            {
+              "job_id": 126418628998,
+              "status": "passed",
+              "test": "chromap"
+            },
+            {
+              "job_id": 126418628998,
+              "status": "passed",
+              "test": "chromap with stub"
+            },
+            {
+              "job_id": 126418628931,
+              "status": "passed",
+              "test": "-profile test_controls"
+            },
+            {
+              "job_id": 126418629107,
+              "status": "passed",
+              "test": "-profile test"
+            },
+            {
+              "job_id": 126418628794,
+              "status": "passed",
+              "test": "skip_consensus_peaks"
+            },
+            {
+              "job_id": 126418628794,
+              "status": "passed",
+              "test": "skip_consensus_peaks with stub"
+            },
+            {
+              "job_id": 126418628804,
+              "status": "passed",
+              "test": "skip_trimming"
+            },
+            {
+              "job_id": 126418628804,
+              "status": "passed",
+              "test": "skip_trimming with stub"
+            },
+            {
+              "job_id": 126418628862,
+              "status": "passed",
+              "test": "star"
+            },
+            {
+              "job_id": 126418628862,
+              "status": "passed",
+              "test": "star with stub"
+            }
+          ]
+        },
+        "26.10.5": {
+          "all_expected_tests_passed": true,
+          "complete_expected_case_names": true,
+          "expected_real_tests": 7,
+          "expected_stub_tests": 5,
+          "expected_tests": 12,
+          "failed": 0,
+          "passed": 12,
+          "recorded_real_tests": 7,
+          "recorded_stub_tests": 5,
+          "recorded_tests": 12,
+          "tests": [
+            {
+              "job_id": 126418628984,
+              "status": "passed",
+              "test": "bowtie2"
+            },
+            {
+              "job_id": 126418628984,
+              "status": "passed",
+              "test": "bowtie2 with stub"
+            },
+            {
+              "job_id": 126418628926,
+              "status": "passed",
+              "test": "chromap"
+            },
+            {
+              "job_id": 126418628926,
+              "status": "passed",
+              "test": "chromap with stub"
+            },
+            {
+              "job_id": 126418628707,
+              "status": "passed",
+              "test": "-profile test_controls"
+            },
+            {
+              "job_id": 126418628864,
+              "status": "passed",
+              "test": "-profile test"
+            },
+            {
+              "job_id": 126418628965,
+              "status": "passed",
+              "test": "skip_consensus_peaks"
+            },
+            {
+              "job_id": 126418628965,
+              "status": "passed",
+              "test": "skip_consensus_peaks with stub"
+            },
+            {
+              "job_id": 126418628929,
+              "status": "passed",
+              "test": "skip_trimming"
+            },
+            {
+              "job_id": 126418628929,
+              "status": "passed",
+              "test": "skip_trimming with stub"
+            },
+            {
+              "job_id": 126418628842,
+              "status": "passed",
+              "test": "star"
+            },
+            {
+              "job_id": 126418628842,
+              "status": "passed",
+              "test": "star with stub"
+            }
+          ]
+        }
+      },
+      "original_metadata_sha256": {
+        "jobs": "85b67c64d6bed27b8467fee88f6864c4510402f0ccefbe585bd03c04e54e5b2a",
+        "run": "bc0781b9aa44a0e4bd15c8ff48c63e8b184e4ae732cff0f35819df210c48b9c3"
+      },
+      "profiles": [
+        {
+          "capsule_sha256": "5a0d26d513c2089d9ef375586263cca468e57f50e3bec8d41e6139d752bb8a98",
+          "capture_complete": true,
+          "job": {
+            "completed_at": "2026-11-04T06:16:45Z",
+            "conclusion": "success",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985/job/126418628913",
+            "id": 126418628913,
+            "name": "bowtie2 | 25.10.4",
+            "run_id": 41782995985,
+            "started_at": "2026-11-04T06:03:16Z",
+            "status": "completed"
+          },
+          "nextflow_version": "25.10.4",
+          "nf_test_step_outcome": "success",
+          "qualification": {
+            "path": "attempts/41782995985-attempt-1/jobs/126418628913/qualification/RESULT.json",
+            "status": "PASS"
+          },
+          "qualified_exports": [
+            {
+              "bytes": 21640,
+              "md5": "730ced1fdbfc2c29ba2b64e1a89465ca",
+              "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+              "sha256": "d0833c437d80228a48fa0492f0dbbbb57486a81688eac56118dd32d7522a428c"
+            },
+            {
+              "bytes": 19783,
+              "md5": "eb5bbc83c5602c300899c419a2e71a76",
+              "name": "mqc_deeptools_fingerprint_plot_1.txt",
+              "sha256": "241cec213a79a4348d0718ad42c1ba15279f0105af6cc10fe0f5ecb1aa2612e9"
+            }
+          ],
+          "source_sha": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "tap": {
+            "tap_bytes": 113,
+            "tap_sha256": "674c145c6368a4fff91b4b343b52b9905af010ec3f6f524f08eb3fb9554c5db3",
+            "tests": [
+              {
+                "name": "Test pipeline with bowtie2 aligner: bowtie2",
+                "number": 1,
+                "status": "passed"
+              },
+              {
+                "name": "Test pipeline with bowtie2 aligner: bowtie2 with stub",
+                "number": 2,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "bowtie2"
+        },
+        {
+          "capsule_sha256": "5f3d4105df80480e4b4019150b64ce748b38699cffc424c59e09c19664dde998",
+          "capture_complete": true,
+          "job": {
+            "completed_at": "2026-11-04T06:23:49Z",
+            "conclusion": "success",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985/job/126418628984",
+            "id": 126418628984,
+            "name": "bowtie2 | 26.10.5",
+            "run_id": 41782995985,
+            "started_at": "2026-11-04T06:03:16Z",
+            "status": "completed"
+          },
+          "nextflow_version": "26.10.5",
+          "nf_test_step_outcome": "success",
+          "qualification": {
+            "path": "attempts/41782995985-attempt-1/jobs/126418628984/qualification/RESULT.json",
+            "status": "PASS"
+          },
+          "qualified_exports": [
+            {
+              "bytes": 21640,
+              "md5": "730ced1fdbfc2c29ba2b64e1a89465ca",
+              "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+              "sha256": "d0833c437d80228a48fa0492f0dbbbb57486a81688eac56118dd32d7522a428c"
+            },
+            {
+              "bytes": 19783,
+              "md5": "eb5bbc83c5602c300899c419a2e71a76",
+              "name": "mqc_deeptools_fingerprint_plot_1.txt",
+              "sha256": "241cec213a79a4348d0718ad42c1ba15279f0105af6cc10fe0f5ecb1aa2612e9"
+            }
+          ],
+          "source_sha": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "tap": {
+            "tap_bytes": 113,
+            "tap_sha256": "674c145c6368a4fff91b4b343b52b9905af010ec3f6f524f08eb3fb9554c5db3",
+            "tests": [
+              {
+                "name": "Test pipeline with bowtie2 aligner: bowtie2",
+                "number": 1,
+                "status": "passed"
+              },
+              {
+                "name": "Test pipeline with bowtie2 aligner: bowtie2 with stub",
+                "number": 2,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "bowtie2"
+        },
+        {
+          "capsule_sha256": "efec3967ce0ad34d2f7bd041d1cc9de13944b13382fe9e639357b9e7fb2e8e60",
+          "capture_complete": true,
+          "job": {
+            "completed_at": "2026-11-04T06:18:20Z",
+            "conclusion": "success",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985/job/126418628998",
+            "id": 126418628998,
+            "name": "chromap | 25.10.4",
+            "run_id": 41782995985,
+            "started_at": "2026-11-04T06:03:16Z",
+            "status": "completed"
+          },
+          "nextflow_version": "25.10.4",
+          "nf_test_step_outcome": "success",
+          "qualification": {
+            "path": "attempts/41782995985-attempt-1/jobs/126418628998/qualification/RESULT.json",
+            "status": "PASS"
+          },
+          "qualified_exports": [
+            {
+              "bytes": 20247,
+              "md5": "1d6965e380937b76ab6c0a7213553e8f",
+              "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+              "sha256": "b4bf74352d2836e3f2491e751528dad7b14a4e9cedd95050cf5f989006ee2414"
+            },
+            {
+              "bytes": 18313,
+              "md5": "e57d508028bbfa194483f9943d652a8c",
+              "name": "mqc_deeptools_fingerprint_plot_1.txt",
+              "sha256": "743767ebb9c901548ca7e38a783685ed837abcbba95a03721405a833b4abadb1"
+            }
+          ],
+          "source_sha": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "tap": {
+            "tap_bytes": 113,
+            "tap_sha256": "4dcc203c278664d4c990dbf29bcf6b9c53b21041d182c01c461fe59f8870b295",
+            "tests": [
+              {
+                "name": "Test pipeline with chromap aligner: chromap",
+                "number": 1,
+                "status": "passed"
+              },
+              {
+                "name": "Test pipeline with chromap aligner: chromap with stub",
+                "number": 2,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "chromap"
+        },
+        {
+          "capsule_sha256": "e4d038f43a55a36051f0bed0f59d7b0e960d99345d14e11a8eb152dda6e890af",
+          "capture_complete": true,
+          "job": {
+            "completed_at": "2026-11-04T06:27:21Z",
+            "conclusion": "success",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985/job/126418628926",
+            "id": 126418628926,
+            "name": "chromap | 26.10.5",
+            "run_id": 41782995985,
+            "started_at": "2026-11-04T06:03:16Z",
+            "status": "completed"
+          },
+          "nextflow_version": "26.10.5",
+          "nf_test_step_outcome": "success",
+          "qualification": {
+            "path": "attempts/41782995985-attempt-1/jobs/126418628926/qualification/RESULT.json",
+            "status": "PASS"
+          },
+          "qualified_exports": [
+            {
+              "bytes": 20247,
+              "md5": "1d6965e380937b76ab6c0a7213553e8f",
+              "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+              "sha256": "b4bf74352d2836e3f2491e751528dad7b14a4e9cedd95050cf5f989006ee2414"
+            },
+            {
+              "bytes": 18313,
+              "md5": "e57d508028bbfa194483f9943d652a8c",
+              "name": "mqc_deeptools_fingerprint_plot_1.txt",
+              "sha256": "743767ebb9c901548ca7e38a783685ed837abcbba95a03721405a833b4abadb1"
+            }
+          ],
+          "source_sha": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "tap": {
+            "tap_bytes": 113,
+            "tap_sha256": "4dcc203c278664d4c990dbf29bcf6b9c53b21041d182c01c461fe59f8870b295",
+            "tests": [
+              {
+                "name": "Test pipeline with chromap aligner: chromap",
+                "number": 1,
+                "status": "passed"
+              },
+              {
+                "name": "Test pipeline with chromap aligner: chromap with stub",
+                "number": 2,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "chromap"
+        },
+        {
+          "capsule_sha256": "59850d7b3f6d63ee5dde030d4d7f242a08e30b5d0fc6a30d31b305f1a0a4bce0",
+          "capture_complete": true,
+          "job": {
+            "completed_at": "2026-11-04T06:27:10Z",
+            "conclusion": "success",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985/job/126418628931",
+            "id": 126418628931,
+            "name": "controls | 25.10.4",
+            "run_id": 41782995985,
+            "started_at": "2026-11-04T06:03:16Z",
+            "status": "completed"
+          },
+          "nextflow_version": "25.10.4",
+          "nf_test_step_outcome": "success",
+          "qualification": {
+            "path": "attempts/41782995985-attempt-1/jobs/126418628931/qualification/RESULT.json",
+            "status": "PASS"
+          },
+          "qualified_exports": [
+            {
+              "bytes": 19689,
+              "md5": "fdc55f7114afe334622a1a865aa288a6",
+              "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+              "sha256": "d89fe75b74919a9a4cb2789907a430db4d35e558bdd849b083410acb6e114ac1"
+            },
+            {
+              "bytes": 26062,
+              "md5": "970eea15578b175c28c3fb2e6a0226dc",
+              "name": "mqc_deeptools_fingerprint_plot_1.txt",
+              "sha256": "7a85704f6076f4c7ab8d8610280a4439b274221b0e7709b6f114f987168b6ab6"
+            }
+          ],
+          "source_sha": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "tap": {
+            "tap_bytes": 48,
+            "tap_sha256": "39bf10494a7c3a6423f738b0373a2a74e0b2cc1699b8cd51afafca5a33de4720",
+            "tests": [
+              {
+                "name": "Test pipeline: -profile test_controls",
+                "number": 1,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "controls"
+        },
+        {
+          "capsule_sha256": "fbcd118be043ef88ca61b6a7d71f004d01592d3095a97ed3033956bb119e8c9d",
+          "capture_complete": true,
+          "job": {
+            "completed_at": "2026-11-04T06:24:01Z",
+            "conclusion": "success",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985/job/126418628707",
+            "id": 126418628707,
+            "name": "controls | 26.10.5",
+            "run_id": 41782995985,
+            "started_at": "2026-11-04T06:03:16Z",
+            "status": "completed"
+          },
+          "nextflow_version": "26.10.5",
+          "nf_test_step_outcome": "success",
+          "qualification": {
+            "path": "attempts/41782995985-attempt-1/jobs/126418628707/qualification/RESULT.json",
+            "status": "PASS"
+          },
+          "qualified_exports": [
+            {
+              "bytes": 19689,
+              "md5": "fdc55f7114afe334622a1a865aa288a6",
+              "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+              "sha256": "d89fe75b74919a9a4cb2789907a430db4d35e558bdd849b083410acb6e114ac1"
+            },
+            {
+              "bytes": 26062,
+              "md5": "970eea15578b175c28c3fb2e6a0226dc",
+              "name": "mqc_deeptools_fingerprint_plot_1.txt",
+              "sha256": "7a85704f6076f4c7ab8d8610280a4439b274221b0e7709b6f114f987168b6ab6"
+            }
+          ],
+          "source_sha": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "tap": {
+            "tap_bytes": 48,
+            "tap_sha256": "39bf10494a7c3a6423f738b0373a2a74e0b2cc1699b8cd51afafca5a33de4720",
+            "tests": [
+              {
+                "name": "Test pipeline: -profile test_controls",
+                "number": 1,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "controls"
+        },
+        {
+          "capsule_sha256": "e663df5babbeffcd3893067fe30e8aa6dd12d8705edf5ea833e8f2a9e9a5d5a1",
+          "capture_complete": true,
+          "job": {
+            "completed_at": "2026-11-04T06:26:08Z",
+            "conclusion": "success",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985/job/126418629107",
+            "id": 126418629107,
+            "name": "default | 25.10.4",
+            "run_id": 41782995985,
+            "started_at": "2026-11-04T06:03:16Z",
+            "status": "completed"
+          },
+          "nextflow_version": "25.10.4",
+          "nf_test_step_outcome": "success",
+          "qualification": {
+            "path": "attempts/41782995985-attempt-1/jobs/126418629107/qualification/RESULT.json",
+            "status": "PASS"
+          },
+          "qualified_exports": [
+            {
+              "bytes": 19085,
+              "md5": "2301a84b27273f607d68b33e54629e1e",
+              "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+              "sha256": "16c75747b5c72fbb316444ed6089ab6c1392dafeeda4a3ec4a3cd4fbc148acc8"
+            },
+            {
+              "bytes": 18463,
+              "md5": "c0dc7eb479f572b51b7c1aea7f08a241",
+              "name": "mqc_deeptools_fingerprint_plot_1.txt",
+              "sha256": "4556f0597dd13b07f987911d0c6f86e9b5c0251268d030f65263eb0fb0c9fd2d"
+            }
+          ],
+          "source_sha": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "tap": {
+            "tap_bytes": 39,
+            "tap_sha256": "f46e86652cb77b73969b47cf6734830dd995ecca8644044bd268805eea1113ad",
+            "tests": [
+              {
+                "name": "Test pipeline: -profile test",
+                "number": 1,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "default"
+        },
+        {
+          "capsule_sha256": "3f780204c8fac32228c9fbd06f4a866984c05ed0576cb8405f67fe5b7de64e13",
+          "capture_complete": true,
+          "job": {
+            "completed_at": "2026-11-04T06:25:06Z",
+            "conclusion": "success",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985/job/126418628864",
+            "id": 126418628864,
+            "name": "default | 26.10.5",
+            "run_id": 41782995985,
+            "started_at": "2026-11-04T06:03:16Z",
+            "status": "completed"
+          },
+          "nextflow_version": "26.10.5",
+          "nf_test_step_outcome": "success",
+          "qualification": {
+            "path": "attempts/41782995985-attempt-1/jobs/126418628864/qualification/RESULT.json",
+            "status": "PASS"
+          },
+          "qualified_exports": [
+            {
+              "bytes": 19085,
+              "md5": "2301a84b27273f607d68b33e54629e1e",
+              "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+              "sha256": "16c75747b5c72fbb316444ed6089ab6c1392dafeeda4a3ec4a3cd4fbc148acc8"
+            },
+            {
+              "bytes": 18463,
+              "md5": "c0dc7eb479f572b51b7c1aea7f08a241",
+              "name": "mqc_deeptools_fingerprint_plot_1.txt",
+              "sha256": "4556f0597dd13b07f987911d0c6f86e9b5c0251268d030f65263eb0fb0c9fd2d"
+            }
+          ],
+          "source_sha": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "tap": {
+            "tap_bytes": 39,
+            "tap_sha256": "f46e86652cb77b73969b47cf6734830dd995ecca8644044bd268805eea1113ad",
+            "tests": [
+              {
+                "name": "Test pipeline: -profile test",
+                "number": 1,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "default"
+        },
+        {
+          "capsule_sha256": "05b47360b96efff94d5f925172b0616d76faf9e3024ed254649fa4d4b90e06a4",
+          "capture_complete": true,
+          "job": {
+            "completed_at": "2026-11-04T06:25:45Z",
+            "conclusion": "success",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985/job/126418628794",
+            "id": 126418628794,
+            "name": "skip_consensus_peaks | 25.10.4",
+            "run_id": 41782995985,
+            "started_at": "2026-11-04T06:03:16Z",
+            "status": "completed"
+          },
+          "nextflow_version": "25.10.4",
+          "nf_test_step_outcome": "success",
+          "qualification": {
+            "path": "attempts/41782995985-attempt-1/jobs/126418628794/qualification/RESULT.json",
+            "status": "PASS"
+          },
+          "qualified_exports": [
+            {
+              "bytes": 19085,
+              "md5": "2301a84b27273f607d68b33e54629e1e",
+              "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+              "sha256": "16c75747b5c72fbb316444ed6089ab6c1392dafeeda4a3ec4a3cd4fbc148acc8"
+            },
+            {
+              "bytes": 18463,
+              "md5": "c0dc7eb479f572b51b7c1aea7f08a241",
+              "name": "mqc_deeptools_fingerprint_plot_1.txt",
+              "sha256": "4556f0597dd13b07f987911d0c6f86e9b5c0251268d030f65263eb0fb0c9fd2d"
+            }
+          ],
+          "source_sha": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "tap": {
+            "tap_bytes": 153,
+            "tap_sha256": "011dc8e52e338dc331a1bc4e9fdcf3279a482bef689d5ae9623b3d45526c6812",
+            "tests": [
+              {
+                "name": "Test pipeline with --skip_consensus_peaks: skip_consensus_peaks",
+                "number": 1,
+                "status": "passed"
+              },
+              {
+                "name": "Test pipeline with --skip_consensus_peaks: skip_consensus_peaks with stub",
+                "number": 2,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "skip_consensus_peaks"
+        },
+        {
+          "capsule_sha256": "17867cbdce4cdc2074cc89313c1e0ce0e7541fe28b2909ed73ebbf178a3329cf",
+          "capture_complete": true,
+          "job": {
+            "completed_at": "2026-11-04T06:24:51Z",
+            "conclusion": "success",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985/job/126418628965",
+            "id": 126418628965,
+            "name": "skip_consensus_peaks | 26.10.5",
+            "run_id": 41782995985,
+            "started_at": "2026-11-04T06:03:16Z",
+            "status": "completed"
+          },
+          "nextflow_version": "26.10.5",
+          "nf_test_step_outcome": "success",
+          "qualification": {
+            "path": "attempts/41782995985-attempt-1/jobs/126418628965/qualification/RESULT.json",
+            "status": "PASS"
+          },
+          "qualified_exports": [
+            {
+              "bytes": 19085,
+              "md5": "2301a84b27273f607d68b33e54629e1e",
+              "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+              "sha256": "16c75747b5c72fbb316444ed6089ab6c1392dafeeda4a3ec4a3cd4fbc148acc8"
+            },
+            {
+              "bytes": 18463,
+              "md5": "c0dc7eb479f572b51b7c1aea7f08a241",
+              "name": "mqc_deeptools_fingerprint_plot_1.txt",
+              "sha256": "4556f0597dd13b07f987911d0c6f86e9b5c0251268d030f65263eb0fb0c9fd2d"
+            }
+          ],
+          "source_sha": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "tap": {
+            "tap_bytes": 153,
+            "tap_sha256": "011dc8e52e338dc331a1bc4e9fdcf3279a482bef689d5ae9623b3d45526c6812",
+            "tests": [
+              {
+                "name": "Test pipeline with --skip_consensus_peaks: skip_consensus_peaks",
+                "number": 1,
+                "status": "passed"
+              },
+              {
+                "name": "Test pipeline with --skip_consensus_peaks: skip_consensus_peaks with stub",
+                "number": 2,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "skip_consensus_peaks"
+        },
+        {
+          "capsule_sha256": "d546a46ea427f4247fe0137f447bc9f40387dc7230e216f96727decac395af22",
+          "capture_complete": true,
+          "job": {
+            "completed_at": "2026-11-04T06:29:42Z",
+            "conclusion": "success",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985/job/126418628804",
+            "id": 126418628804,
+            "name": "skip_trimming | 25.10.4",
+            "run_id": 41782995985,
+            "started_at": "2026-11-04T06:03:16Z",
+            "status": "completed"
+          },
+          "nextflow_version": "25.10.4",
+          "nf_test_step_outcome": "success",
+          "qualification": {
+            "path": "attempts/41782995985-attempt-1/jobs/126418628804/qualification/RESULT.json",
+            "status": "PASS"
+          },
+          "qualified_exports": [
+            {
+              "bytes": 18811,
+              "md5": "2e78625f3140bf19d6bde21515795ad8",
+              "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+              "sha256": "8d17e171de9634bb5ed4c42f3fd5aeeee47a38ea4b2ab8b5fc7edf3537dfc068"
+            },
+            {
+              "bytes": 16870,
+              "md5": "0b18beabfb07348950cfdb14e8caaa53",
+              "name": "mqc_deeptools_fingerprint_plot_1.txt",
+              "sha256": "570fb588c70d28864943e160ad1afa4c5a8301e16f7c9787d28dc6286baa2ad4"
+            }
+          ],
+          "source_sha": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "tap": {
+            "tap_bytes": 125,
+            "tap_sha256": "10f8a1d2e3647ec31bb3791ce2ec29b0641fae16935aad8d5b5a66b205d99c62",
+            "tests": [
+              {
+                "name": "Test pipeline with --skip_trimming: skip_trimming",
+                "number": 1,
+                "status": "passed"
+              },
+              {
+                "name": "Test pipeline with --skip_trimming: skip_trimming with stub",
+                "number": 2,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "skip_trimming"
+        },
+        {
+          "capsule_sha256": "552965f8205a3b5a4fc2105895e06355ab64a575c918c6d71e96b23fbe33bba4",
+          "capture_complete": true,
+          "job": {
+            "completed_at": "2026-11-04T06:17:12Z",
+            "conclusion": "success",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985/job/126418628929",
+            "id": 126418628929,
+            "name": "skip_trimming | 26.10.5",
+            "run_id": 41782995985,
+            "started_at": "2026-11-04T06:03:16Z",
+            "status": "completed"
+          },
+          "nextflow_version": "26.10.5",
+          "nf_test_step_outcome": "success",
+          "qualification": {
+            "path": "attempts/41782995985-attempt-1/jobs/126418628929/qualification/RESULT.json",
+            "status": "PASS"
+          },
+          "qualified_exports": [
+            {
+              "bytes": 18811,
+              "md5": "2e78625f3140bf19d6bde21515795ad8",
+              "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+              "sha256": "8d17e171de9634bb5ed4c42f3fd5aeeee47a38ea4b2ab8b5fc7edf3537dfc068"
+            },
+            {
+              "bytes": 16870,
+              "md5": "0b18beabfb07348950cfdb14e8caaa53",
+              "name": "mqc_deeptools_fingerprint_plot_1.txt",
+              "sha256": "570fb588c70d28864943e160ad1afa4c5a8301e16f7c9787d28dc6286baa2ad4"
+            }
+          ],
+          "source_sha": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "tap": {
+            "tap_bytes": 125,
+            "tap_sha256": "10f8a1d2e3647ec31bb3791ce2ec29b0641fae16935aad8d5b5a66b205d99c62",
+            "tests": [
+              {
+                "name": "Test pipeline with --skip_trimming: skip_trimming",
+                "number": 1,
+                "status": "passed"
+              },
+              {
+                "name": "Test pipeline with --skip_trimming: skip_trimming with stub",
+                "number": 2,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "skip_trimming"
+        },
+        {
+          "capsule_sha256": "c9b5092e001103b1def15a6845bcb63558e55dde938bdfb302859e3271b0f3c7",
+          "capture_complete": true,
+          "job": {
+            "completed_at": "2026-11-04T06:20:42Z",
+            "conclusion": "success",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985/job/126418628862",
+            "id": 126418628862,
+            "name": "star | 25.10.4",
+            "run_id": 41782995985,
+            "started_at": "2026-11-04T06:03:16Z",
+            "status": "completed"
+          },
+          "nextflow_version": "25.10.4",
+          "nf_test_step_outcome": "success",
+          "qualification": {
+            "path": "attempts/41782995985-attempt-1/jobs/126418628862/qualification/RESULT.json",
+            "status": "PASS"
+          },
+          "qualified_exports": [
+            {
+              "bytes": 20778,
+              "md5": "86bbf8e35e1d2d2ba72eacbc801aa011",
+              "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+              "sha256": "86679c48c7fb0edd58f37a912dbcbe47e8ebb1869be9369b21f2721d70ca1d5a"
+            },
+            {
+              "bytes": 18786,
+              "md5": "492578b77b8df68c48e5254d3de4cbf6",
+              "name": "mqc_deeptools_fingerprint_plot_1.txt",
+              "sha256": "1f080e7d3d7cd13844250bf8a83e2369a82f8ef1e48b8ed829cfd4d1b09274b5"
+            }
+          ],
+          "source_sha": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "tap": {
+            "tap_bytes": 101,
+            "tap_sha256": "264ec207f70e2cf65e88d09d0a28efac3a6fedad6fc5e506b21bb7b0dd71fe3d",
+            "tests": [
+              {
+                "name": "Test pipeline with STAR aligner: star",
+                "number": 1,
+                "status": "passed"
+              },
+              {
+                "name": "Test pipeline with STAR aligner: star with stub",
+                "number": 2,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "star"
+        },
+        {
+          "capsule_sha256": "fd0c6fd52b07f92831b8d4fa47da0086e7d3d8f3145fdf5e1baa879b1c429133",
+          "capture_complete": true,
+          "job": {
+            "completed_at": "2026-11-04T06:27:43Z",
+            "conclusion": "success",
+            "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985/job/126418628842",
+            "id": 126418628842,
+            "name": "star | 26.10.5",
+            "run_id": 41782995985,
+            "started_at": "2026-11-04T06:03:16Z",
+            "status": "completed"
+          },
+          "nextflow_version": "26.10.5",
+          "nf_test_step_outcome": "success",
+          "qualification": {
+            "path": "attempts/41782995985-attempt-1/jobs/126418628842/qualification/RESULT.json",
+            "status": "PASS"
+          },
+          "qualified_exports": [
+            {
+              "bytes": 20778,
+              "md5": "86bbf8e35e1d2d2ba72eacbc801aa011",
+              "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+              "sha256": "86679c48c7fb0edd58f37a912dbcbe47e8ebb1869be9369b21f2721d70ca1d5a"
+            },
+            {
+              "bytes": 18786,
+              "md5": "492578b77b8df68c48e5254d3de4cbf6",
+              "name": "mqc_deeptools_fingerprint_plot_1.txt",
+              "sha256": "1f080e7d3d7cd13844250bf8a83e2369a82f8ef1e48b8ed829cfd4d1b09274b5"
+            }
+          ],
+          "source_sha": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "tap": {
+            "tap_bytes": 101,
+            "tap_sha256": "264ec207f70e2cf65e88d09d0a28efac3a6fedad6fc5e506b21bb7b0dd71fe3d",
+            "tests": [
+              {
+                "name": "Test pipeline with STAR aligner: star",
+                "number": 1,
+                "status": "passed"
+              },
+              {
+                "name": "Test pipeline with STAR aligner: star with stub",
+                "number": 2,
+                "status": "passed"
+              }
+            ]
+          },
+          "test_case": "star"
+        }
+      ],
+      "run": {
+        "conclusion": "success",
+        "created_at": "2026-11-04T06:03:13Z",
+        "event": "push",
+        "head_sha": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+        "html_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985",
+        "id": 41782995985,
+        "name": "Qualify fingerprint reports (free fork runners)",
+        "run_attempt": 1,
+        "run_number": 2,
+        "run_started_at": "2026-11-04T06:03:13Z",
+        "status": "completed",
+        "updated_at": "2026-11-04T06:29:43Z"
+      }
+    }
+  ],
+  "schema": "atacseq-native-fingerprint-attempts/v1"
+}

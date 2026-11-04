@@ -1,0 +1,73 @@
+{
+  "all_source_payload_bytes_unchanged": true,
+  "amended_manifest_identity": {
+    "bytes": 19323,
+    "md5": "845d37274cdb74c24144b7e370719347",
+    "sha256": "7edd521d0e910e1c1e3ca0f56f075be5d4be999ff84f3a52c21f541af44f380d"
+  },
+  "captured_config_records": [
+    {
+      "bytes": 5488,
+      "path": "cases/0-92cd8608be296618728cc874135256bb/tasks/264-c3-9ac199/multiqc_config.yml",
+      "resolved_relative_path": "multiqc_config.yml",
+      "role": "MULTIQC/config",
+      "sha256": "f7ffa59e5feed728a70443e05418caf4496abe3bca035e2c1fa4a64b4f2bd2a8",
+      "was_symlink": true
+    }
+  ],
+  "changes": [
+    {
+      "field": "complete",
+      "from": false,
+      "to": true
+    },
+    {
+      "field": "capture_complete",
+      "from": false,
+      "to": true
+    },
+    {
+      "field": "cases/92cd8608be296618728cc874135256bb/complete",
+      "from": false,
+      "to": true
+    },
+    {
+      "field": "issues",
+      "from": [
+        {
+          "reason": "unsupported_config_argument",
+          "role": "MULTIQC/config"
+        }
+      ],
+      "to": []
+    },
+    {
+      "field": "status",
+      "from": "partial",
+      "to": "complete"
+    }
+  ],
+  "corrected_collector_source_sha256": "ac98eb09e843da93b04dd3478bc7c8373a97fa9722e55d80bfcb0aae34ab220b",
+  "corrected_config_closure": [
+    "multiqc_config.yml"
+  ],
+  "native_original_capture_status": "PARTIAL",
+  "parsed_actual_multiqc_context": {
+    "arguments": [
+      "-f"
+    ],
+    "config_names": [],
+    "naming_options": {}
+  },
+  "payload_count": 35,
+  "payload_inventory_sha256": "70f7231c06a12a831a2ea703cb14f0c1dc58190edc80bc8aef264399cea6b0bc",
+  "qualification_kind": "POSTHOC_REPLAY_NOT_ORIGINAL_NATIVE_PASS",
+  "qualifier_source_sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42",
+  "schema": "atacseq/posthoc-capture-amendment/v1",
+  "source_manifest": "attempts/41777278460-attempt-1/jobs/126400453617/capture/manifest.json",
+  "source_manifest_identity": {
+    "bytes": 18914,
+    "md5": "2c2c539443f9d5fc6b336722c48d4270",
+    "sha256": "58b9c57b191449817877fb6dfe583a9232e9c08651cce30d43964a447938400d"
+  }
+}

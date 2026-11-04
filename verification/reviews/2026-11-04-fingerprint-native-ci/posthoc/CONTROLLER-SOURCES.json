@@ -1,0 +1,303 @@
+{
+  "actual_cached_image": {
+    "id": "sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+    "repo_digests": [
+      "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f"
+    ]
+  },
+  "audit_git_head": "dc3aa9c80273836aeba79426da4ab19c6d1c6269",
+  "audit_qualifier_sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42",
+  "files": [
+    {
+      "bytes": 23630,
+      "kind": "audit-controller-source",
+      "md5": "60129710fcf5238c82a8b447bf8d948b",
+      "path": "tests/ci/qualify_fingerprint_reports.py",
+      "sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42"
+    },
+    {
+      "bytes": 23272,
+      "kind": "executed-controller-source",
+      "md5": "9319a9693e80c00a665cdc2f58a58a26",
+      "path": "tests/ci/qualify_fingerprint_reports.py",
+      "sha256": "96b53b66e8e1e52d161c94684599ebee2e91075dd6c5c3a80058e656f1702b59"
+    },
+    {
+      "bytes": 6529,
+      "kind": "audit-controller-source",
+      "md5": "74852c475534ccd1dac2feccc580dacf",
+      "path": "tests/ci/test_qualify_fingerprint_reports.py",
+      "sha256": "594ab4e3b6ad39ff2e641a9200836f6b15c0c82d87787d3e9ab57691d1861ac5"
+    },
+    {
+      "bytes": 6007,
+      "kind": "executed-controller-source",
+      "md5": "0873ad396a18afa605f48c90d27fa976",
+      "path": "tests/ci/test_qualify_fingerprint_reports.py",
+      "sha256": "e7149ca04fa88beaf84592d524102e684222f64a9869cffc8cd0232dc23f3270"
+    },
+    {
+      "bytes": 24241,
+      "kind": "audit-controller-source",
+      "md5": "a2e0386646109df8cc4ed76f9a2c1f4d",
+      "path": "tests/ci/capture_controls_evidence.py",
+      "sha256": "ac98eb09e843da93b04dd3478bc7c8373a97fa9722e55d80bfcb0aae34ab220b"
+    },
+    {
+      "bytes": 23994,
+      "kind": "executed-controller-source",
+      "md5": "c5228298044e127f817b337bd322a436",
+      "path": "tests/ci/capture_controls_evidence.py",
+      "sha256": "4adb2846766dab6f2b969be72065c1ae4adf134c45f902181c84051011592a6d"
+    },
+    {
+      "bytes": 20453,
+      "kind": "audit-controller-source",
+      "md5": "665d2cda2fccea98f2b911abcad76e69",
+      "path": "tests/ci/test_capture_controls_evidence.py",
+      "sha256": "c0555883b8c411da394dabb89fe59167d1457dac119006c2b2a4f4d89018958d"
+    },
+    {
+      "bytes": 18397,
+      "kind": "executed-controller-source",
+      "md5": "bc67bef6d822b7a81e0132bae400f691",
+      "path": "tests/ci/test_capture_controls_evidence.py",
+      "sha256": "58be82d53ac6cb862d4ffaf97fe95105ea278c7b88e9493caab4c9e2a2337636"
+    },
+    {
+      "bytes": 3142,
+      "kind": "audit-controller-source",
+      "md5": "405e42d30dcc673500f1b712b4508388",
+      "path": "tests/ci/emit_qualification_evidence.py",
+      "sha256": "768c8f2b10f6baf031e65102616c870c79829c96f481ade12e8c9a1670a257d7"
+    },
+    {
+      "bytes": 3142,
+      "kind": "executed-controller-source",
+      "md5": "405e42d30dcc673500f1b712b4508388",
+      "path": "tests/ci/emit_qualification_evidence.py",
+      "sha256": "768c8f2b10f6baf031e65102616c870c79829c96f481ade12e8c9a1670a257d7"
+    },
+    {
+      "bytes": 29238,
+      "kind": "audit-controller-source",
+      "md5": "b71067118d68f896539f801976d33a5d",
+      "path": "tests/regressions/fingerprint_reports.py",
+      "sha256": "0d15b2409f398d05d10babf5aea03ac6287362314ba9c4624eb7936cf9fb9039"
+    },
+    {
+      "bytes": 29238,
+      "kind": "executed-controller-source",
+      "md5": "b71067118d68f896539f801976d33a5d",
+      "path": "tests/regressions/fingerprint_reports.py",
+      "sha256": "0d15b2409f398d05d10babf5aea03ac6287362314ba9c4624eb7936cf9fb9039"
+    },
+    {
+      "bytes": 4888,
+      "kind": "audit-controller-source",
+      "md5": "934004fae3581fa05bc9b0fd7ed54d75",
+      "path": ".github/workflows/qualify-fingerprint-reports.yml",
+      "sha256": "d0802c80f7763ac59b769fefbd804606f9f4593bc5ef36f00b38b65627092caf"
+    },
+    {
+      "bytes": 4887,
+      "kind": "executed-controller-source",
+      "md5": "e909d87640e39ccb977b4f2445bc5b0a",
+      "path": ".github/workflows/qualify-fingerprint-reports.yml",
+      "sha256": "43d069ad83aa572ad411543efd171305f3867965137706618b3d02a389f808f1"
+    },
+    {
+      "bytes": 5461,
+      "kind": "audit-controller-source",
+      "md5": "39294f68038fc356e372345b32625ab6",
+      "path": ".github/actions/nf-test/action.yml",
+      "sha256": "b0857988ac9a84e78f55da50bfc077bd06f70cb9ca918662df23a07d21c1c3e3"
+    },
+    {
+      "bytes": 5461,
+      "kind": "executed-controller-source",
+      "md5": "39294f68038fc356e372345b32625ab6",
+      "path": ".github/actions/nf-test/action.yml",
+      "sha256": "b0857988ac9a84e78f55da50bfc077bd06f70cb9ca918662df23a07d21c1c3e3"
+    },
+    {
+      "bytes": 3160,
+      "kind": "audit-controller-source",
+      "md5": "2a340210dda53f4189e1bf1ff0a49f4f",
+      "path": "bin/multiqc_fingerprint.py",
+      "sha256": "723bf55bd129a1af051f95c164f6fefab015a32b54195dcccefdc945aa3c469a"
+    },
+    {
+      "bytes": 3160,
+      "kind": "executed-controller-source",
+      "md5": "2a340210dda53f4189e1bf1ff0a49f4f",
+      "path": "bin/multiqc_fingerprint.py",
+      "sha256": "723bf55bd129a1af051f95c164f6fefab015a32b54195dcccefdc945aa3c469a"
+    },
+    {
+      "bytes": 40659,
+      "kind": "audit-controller-source",
+      "md5": "dd87c12b55c6d917d3b3e609995c9836",
+      "path": "conf/modules.config",
+      "sha256": "3977d4bb79147eac2d2051864bd7d9ed9732ee5fdb1599e4833459edefb17e00"
+    },
+    {
+      "bytes": 40659,
+      "kind": "executed-controller-source",
+      "md5": "dd87c12b55c6d917d3b3e609995c9836",
+      "path": "conf/modules.config",
+      "sha256": "3977d4bb79147eac2d2051864bd7d9ed9732ee5fdb1599e4833459edefb17e00"
+    },
+    {
+      "bytes": 2710,
+      "kind": "audit-controller-source",
+      "md5": "09be3a4f0e25b01e22f8a7c34b9ce9b8",
+      "path": "modules/local/multiqc.nf",
+      "sha256": "18ac247159c509377d200342057e02bf11188b79692d1a36550c88b190f387e7"
+    },
+    {
+      "bytes": 2710,
+      "kind": "executed-controller-source",
+      "md5": "09be3a4f0e25b01e22f8a7c34b9ce9b8",
+      "path": "modules/local/multiqc.nf",
+      "sha256": "18ac247159c509377d200342057e02bf11188b79692d1a36550c88b190f387e7"
+    }
+  ],
+  "immutable_source_urls": [
+    {
+      "kind": "audit-controller-source",
+      "path": "tests/ci/qualify_fingerprint_reports.py",
+      "sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/dc3aa9c80273836aeba79426da4ab19c6d1c6269/tests/ci/qualify_fingerprint_reports.py"
+    },
+    {
+      "kind": "executed-controller-source",
+      "path": "tests/ci/qualify_fingerprint_reports.py",
+      "sha256": "96b53b66e8e1e52d161c94684599ebee2e91075dd6c5c3a80058e656f1702b59",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/70e87c6f3e83f56d05695c6e9d27203080c27b1f/tests/ci/qualify_fingerprint_reports.py"
+    },
+    {
+      "kind": "audit-controller-source",
+      "path": "tests/ci/test_qualify_fingerprint_reports.py",
+      "sha256": "594ab4e3b6ad39ff2e641a9200836f6b15c0c82d87787d3e9ab57691d1861ac5",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/dc3aa9c80273836aeba79426da4ab19c6d1c6269/tests/ci/test_qualify_fingerprint_reports.py"
+    },
+    {
+      "kind": "executed-controller-source",
+      "path": "tests/ci/test_qualify_fingerprint_reports.py",
+      "sha256": "e7149ca04fa88beaf84592d524102e684222f64a9869cffc8cd0232dc23f3270",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/70e87c6f3e83f56d05695c6e9d27203080c27b1f/tests/ci/test_qualify_fingerprint_reports.py"
+    },
+    {
+      "kind": "audit-controller-source",
+      "path": "tests/ci/capture_controls_evidence.py",
+      "sha256": "ac98eb09e843da93b04dd3478bc7c8373a97fa9722e55d80bfcb0aae34ab220b",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/dc3aa9c80273836aeba79426da4ab19c6d1c6269/tests/ci/capture_controls_evidence.py"
+    },
+    {
+      "kind": "executed-controller-source",
+      "path": "tests/ci/capture_controls_evidence.py",
+      "sha256": "4adb2846766dab6f2b969be72065c1ae4adf134c45f902181c84051011592a6d",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/70e87c6f3e83f56d05695c6e9d27203080c27b1f/tests/ci/capture_controls_evidence.py"
+    },
+    {
+      "kind": "audit-controller-source",
+      "path": "tests/ci/test_capture_controls_evidence.py",
+      "sha256": "c0555883b8c411da394dabb89fe59167d1457dac119006c2b2a4f4d89018958d",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/dc3aa9c80273836aeba79426da4ab19c6d1c6269/tests/ci/test_capture_controls_evidence.py"
+    },
+    {
+      "kind": "executed-controller-source",
+      "path": "tests/ci/test_capture_controls_evidence.py",
+      "sha256": "58be82d53ac6cb862d4ffaf97fe95105ea278c7b88e9493caab4c9e2a2337636",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/70e87c6f3e83f56d05695c6e9d27203080c27b1f/tests/ci/test_capture_controls_evidence.py"
+    },
+    {
+      "kind": "audit-controller-source",
+      "path": "tests/ci/emit_qualification_evidence.py",
+      "sha256": "768c8f2b10f6baf031e65102616c870c79829c96f481ade12e8c9a1670a257d7",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/dc3aa9c80273836aeba79426da4ab19c6d1c6269/tests/ci/emit_qualification_evidence.py"
+    },
+    {
+      "kind": "executed-controller-source",
+      "path": "tests/ci/emit_qualification_evidence.py",
+      "sha256": "768c8f2b10f6baf031e65102616c870c79829c96f481ade12e8c9a1670a257d7",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/70e87c6f3e83f56d05695c6e9d27203080c27b1f/tests/ci/emit_qualification_evidence.py"
+    },
+    {
+      "kind": "audit-controller-source",
+      "path": "tests/regressions/fingerprint_reports.py",
+      "sha256": "0d15b2409f398d05d10babf5aea03ac6287362314ba9c4624eb7936cf9fb9039",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/dc3aa9c80273836aeba79426da4ab19c6d1c6269/tests/regressions/fingerprint_reports.py"
+    },
+    {
+      "kind": "executed-controller-source",
+      "path": "tests/regressions/fingerprint_reports.py",
+      "sha256": "0d15b2409f398d05d10babf5aea03ac6287362314ba9c4624eb7936cf9fb9039",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/70e87c6f3e83f56d05695c6e9d27203080c27b1f/tests/regressions/fingerprint_reports.py"
+    },
+    {
+      "kind": "audit-controller-source",
+      "path": ".github/workflows/qualify-fingerprint-reports.yml",
+      "sha256": "d0802c80f7763ac59b769fefbd804606f9f4593bc5ef36f00b38b65627092caf",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/dc3aa9c80273836aeba79426da4ab19c6d1c6269/.github/workflows/qualify-fingerprint-reports.yml"
+    },
+    {
+      "kind": "executed-controller-source",
+      "path": ".github/workflows/qualify-fingerprint-reports.yml",
+      "sha256": "43d069ad83aa572ad411543efd171305f3867965137706618b3d02a389f808f1",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/70e87c6f3e83f56d05695c6e9d27203080c27b1f/.github/workflows/qualify-fingerprint-reports.yml"
+    },
+    {
+      "kind": "audit-controller-source",
+      "path": ".github/actions/nf-test/action.yml",
+      "sha256": "b0857988ac9a84e78f55da50bfc077bd06f70cb9ca918662df23a07d21c1c3e3",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/dc3aa9c80273836aeba79426da4ab19c6d1c6269/.github/actions/nf-test/action.yml"
+    },
+    {
+      "kind": "executed-controller-source",
+      "path": ".github/actions/nf-test/action.yml",
+      "sha256": "b0857988ac9a84e78f55da50bfc077bd06f70cb9ca918662df23a07d21c1c3e3",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/70e87c6f3e83f56d05695c6e9d27203080c27b1f/.github/actions/nf-test/action.yml"
+    },
+    {
+      "kind": "audit-controller-source",
+      "path": "bin/multiqc_fingerprint.py",
+      "sha256": "723bf55bd129a1af051f95c164f6fefab015a32b54195dcccefdc945aa3c469a",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/dc3aa9c80273836aeba79426da4ab19c6d1c6269/bin/multiqc_fingerprint.py"
+    },
+    {
+      "kind": "executed-controller-source",
+      "path": "bin/multiqc_fingerprint.py",
+      "sha256": "723bf55bd129a1af051f95c164f6fefab015a32b54195dcccefdc945aa3c469a",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/70e87c6f3e83f56d05695c6e9d27203080c27b1f/bin/multiqc_fingerprint.py"
+    },
+    {
+      "kind": "audit-controller-source",
+      "path": "conf/modules.config",
+      "sha256": "3977d4bb79147eac2d2051864bd7d9ed9732ee5fdb1599e4833459edefb17e00",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/dc3aa9c80273836aeba79426da4ab19c6d1c6269/conf/modules.config"
+    },
+    {
+      "kind": "executed-controller-source",
+      "path": "conf/modules.config",
+      "sha256": "3977d4bb79147eac2d2051864bd7d9ed9732ee5fdb1599e4833459edefb17e00",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/70e87c6f3e83f56d05695c6e9d27203080c27b1f/conf/modules.config"
+    },
+    {
+      "kind": "audit-controller-source",
+      "path": "modules/local/multiqc.nf",
+      "sha256": "18ac247159c509377d200342057e02bf11188b79692d1a36550c88b190f387e7",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/dc3aa9c80273836aeba79426da4ab19c6d1c6269/modules/local/multiqc.nf"
+    },
+    {
+      "kind": "executed-controller-source",
+      "path": "modules/local/multiqc.nf",
+      "sha256": "18ac247159c509377d200342057e02bf11188b79692d1a36550c88b190f387e7",
+      "url": "https://github.com/NicoDeVeaux/atacseq-nfcore/blob/70e87c6f3e83f56d05695c6e9d27203080c27b1f/modules/local/multiqc.nf"
+    }
+  ],
+  "original_native_source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+  "replay_script_sha256": "8605d77529c8b5d1cb59c958870aea22d191475707e500203b0bac39b58dc8c0",
+  "schema": "atacseq/posthoc-controller-source/v1"
+}

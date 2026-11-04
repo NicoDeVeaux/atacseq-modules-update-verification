@@ -1,0 +1,350 @@
+{
+  "schema": "nf-core-atacseq-controls-evidence/v1",
+  "source_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+  "collector_sha256": "ac98eb09e843da93b04dd3478bc7c8373a97fa9722e55d80bfcb0aae34ab220b",
+  "python_version": "3.12.3",
+  "requested": {
+    "profile": "docker",
+    "shard": "1/1",
+    "nextflow": "26.10.5",
+    "nf_test": "0.9.4",
+    "test_file": "tests/controls.nf.test"
+  },
+  "nf_test_step_outcome": "success",
+  "include_non_controls": true,
+  "expected_test_case": "controls",
+  "cases": [
+    {
+      "case_id": "7eb3eb99cd8d4b1949f23ac81c0157d6",
+      "root_kind": "literal",
+      "profiles": [
+        "test_controls",
+        "docker"
+      ],
+      "nextflow_version": "26.10.5",
+      "metadata_sha256": "748fba97fabae8a9c33f88a875a07dd426be599ca460ca2078d48ff7a22d5d8a",
+      "stub_run": false,
+      "test_case": "controls",
+      "source_test_file": "tests/controls.nf.test",
+      "selection_params": {
+        "aligner": "bwa",
+        "skip_consensus_peaks": false,
+        "skip_trimming": false
+      },
+      "params_metadata_sha256": "35ada7031e89d9c4d0ca8aee37f18894877d547dc8c4d8bea17d52ddbaeb876b",
+      "tasks": [
+        {
+          "task_id": "138",
+          "hash": "b3/895229",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "exit": "0",
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "trace_sha256": "3c33bedbe1696e937cd6d90115a1219a098fa797097080f4fcc1cce667606fd7",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (SPT5_T0_REP2)"
+        },
+        {
+          "task_id": "144",
+          "hash": "b6/681642",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "exit": "0",
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "trace_sha256": "3c33bedbe1696e937cd6d90115a1219a098fa797097080f4fcc1cce667606fd7",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (SPT5_T0_REP1)"
+        },
+        {
+          "task_id": "148",
+          "hash": "b5/432335",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "exit": "0",
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "trace_sha256": "3c33bedbe1696e937cd6d90115a1219a098fa797097080f4fcc1cce667606fd7",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (SPT5_T15_REP1)"
+        },
+        {
+          "task_id": "154",
+          "hash": "7c/91042f",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "exit": "0",
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "trace_sha256": "3c33bedbe1696e937cd6d90115a1219a098fa797097080f4fcc1cce667606fd7",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (SPT5_T15_REP2)"
+        },
+        {
+          "task_id": "253",
+          "hash": "29/11244f",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "exit": "0",
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "trace_sha256": "3c33bedbe1696e937cd6d90115a1219a098fa797097080f4fcc1cce667606fd7",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "config_files": [
+            "multiqc_config.yml"
+          ]
+        }
+      ],
+      "complete": true
+    }
+  ],
+  "excluded_cases": [],
+  "files": [
+    {
+      "path": "cases/0-7eb3eb99cd8d4b1949f23ac81c0157d6/tasks/138-b3-895229/command.sh",
+      "role": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT/command",
+      "bytes": 1280,
+      "sha256": "a578600ab5ff97aab6e9e5d2e23768218fab6f2d504b36061527fae193ada52f",
+      "was_symlink": false,
+      "resolved_relative_path": ".command.sh"
+    },
+    {
+      "path": "cases/0-7eb3eb99cd8d4b1949f23ac81c0157d6/tasks/138-b3-895229/raw/SPT5_T0_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "role": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT/raw",
+      "bytes": 799,
+      "sha256": "aba445233aab97ff6397ac93b7b323fb309969c07d53d6afe0be06005a9645a3",
+      "was_symlink": false,
+      "resolved_relative_path": "b3/8952299905bb95511678ad41e78d9e/SPT5_T0_REP2.mLb.clN.plotFingerprint.raw.txt"
+    },
+    {
+      "path": "cases/0-7eb3eb99cd8d4b1949f23ac81c0157d6/tasks/144-b6-681642/command.sh",
+      "role": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT/command",
+      "bytes": 1280,
+      "sha256": "8be69ad048a26ac21f06a7a20a23296a398d08d0849b6a32edf3a1b0f1ff3edc",
+      "was_symlink": false,
+      "resolved_relative_path": ".command.sh"
+    },
+    {
+      "path": "cases/0-7eb3eb99cd8d4b1949f23ac81c0157d6/tasks/144-b6-681642/raw/SPT5_T0_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "role": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT/raw",
+      "bytes": 820,
+      "sha256": "1f1425ed9a7a30c7071345e96a4ef36cb060b00795009295becf32c37cb3462f",
+      "was_symlink": false,
+      "resolved_relative_path": "b6/681642b7a189317686911aa439d221/SPT5_T0_REP1.mLb.clN.plotFingerprint.raw.txt"
+    },
+    {
+      "path": "cases/0-7eb3eb99cd8d4b1949f23ac81c0157d6/tasks/148-b5-432335/command.sh",
+      "role": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT/command",
+      "bytes": 1286,
+      "sha256": "d17956a7e1fd1984c99e1a7dd27e9aac65dab78bec778757521f71c5a13060fa",
+      "was_symlink": false,
+      "resolved_relative_path": ".command.sh"
+    },
+    {
+      "path": "cases/0-7eb3eb99cd8d4b1949f23ac81c0157d6/tasks/148-b5-432335/raw/SPT5_T15_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "role": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT/raw",
+      "bytes": 820,
+      "sha256": "0629cd330a6474b7d7383831e52e45d8297d01cc3baa5f56bcfc147d1e133de4",
+      "was_symlink": false,
+      "resolved_relative_path": "b5/432335077b639e0e4e2b8d6953c405/SPT5_T15_REP1.mLb.clN.plotFingerprint.raw.txt"
+    },
+    {
+      "path": "cases/0-7eb3eb99cd8d4b1949f23ac81c0157d6/tasks/154-7c-91042f/command.sh",
+      "role": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT/command",
+      "bytes": 1286,
+      "sha256": "89505addb60acc01c04e411d8261241e70569750b911aa2d08e3424b4dc31139",
+      "was_symlink": false,
+      "resolved_relative_path": ".command.sh"
+    },
+    {
+      "path": "cases/0-7eb3eb99cd8d4b1949f23ac81c0157d6/tasks/154-7c-91042f/raw/SPT5_T15_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "role": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT/raw",
+      "bytes": 857,
+      "sha256": "cfedb91c36e080d7a5bb5f292206a98c44dceaa06c8a6cf1314331e91c1add7b",
+      "was_symlink": false,
+      "resolved_relative_path": "7c/91042f3410bc001bb576be32b86211/SPT5_T15_REP2.mLb.clN.plotFingerprint.raw.txt"
+    },
+    {
+      "path": "cases/0-7eb3eb99cd8d4b1949f23ac81c0157d6/tasks/253-29-11244f/command.sh",
+      "role": "MULTIQC/command",
+      "bytes": 876,
+      "sha256": "e0d29922183b8e2275432ceb2072e4f1f4d6fe3b642d34f6c650733cd49678a7",
+      "was_symlink": false,
+      "resolved_relative_path": ".command.sh"
+    },
+    {
+      "path": "cases/0-7eb3eb99cd8d4b1949f23ac81c0157d6/tasks/253-29-11244f/staged_raw/SPT5_T0_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "role": "MULTIQC/staged_raw",
+      "bytes": 820,
+      "sha256": "1f1425ed9a7a30c7071345e96a4ef36cb060b00795009295becf32c37cb3462f",
+      "was_symlink": true,
+      "resolved_relative_path": "b6/681642b7a189317686911aa439d221/SPT5_T0_REP1.mLb.clN.plotFingerprint.raw.txt"
+    },
+    {
+      "path": "cases/0-7eb3eb99cd8d4b1949f23ac81c0157d6/tasks/253-29-11244f/staged_raw/SPT5_T0_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "role": "MULTIQC/staged_raw",
+      "bytes": 799,
+      "sha256": "aba445233aab97ff6397ac93b7b323fb309969c07d53d6afe0be06005a9645a3",
+      "was_symlink": true,
+      "resolved_relative_path": "b3/8952299905bb95511678ad41e78d9e/SPT5_T0_REP2.mLb.clN.plotFingerprint.raw.txt"
+    },
+    {
+      "path": "cases/0-7eb3eb99cd8d4b1949f23ac81c0157d6/tasks/253-29-11244f/staged_raw/SPT5_T15_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "role": "MULTIQC/staged_raw",
+      "bytes": 820,
+      "sha256": "0629cd330a6474b7d7383831e52e45d8297d01cc3baa5f56bcfc147d1e133de4",
+      "was_symlink": true,
+      "resolved_relative_path": "b5/432335077b639e0e4e2b8d6953c405/SPT5_T15_REP1.mLb.clN.plotFingerprint.raw.txt"
+    },
+    {
+      "path": "cases/0-7eb3eb99cd8d4b1949f23ac81c0157d6/tasks/253-29-11244f/staged_raw/SPT5_T15_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "role": "MULTIQC/staged_raw",
+      "bytes": 857,
+      "sha256": "cfedb91c36e080d7a5bb5f292206a98c44dceaa06c8a6cf1314331e91c1add7b",
+      "was_symlink": true,
+      "resolved_relative_path": "7c/91042f3410bc001bb576be32b86211/SPT5_T15_REP2.mLb.clN.plotFingerprint.raw.txt"
+    },
+    {
+      "path": "cases/0-7eb3eb99cd8d4b1949f23ac81c0157d6/tasks/253-29-11244f/multiqc_config.yml",
+      "role": "MULTIQC/config",
+      "bytes": 5488,
+      "sha256": "f7ffa59e5feed728a70443e05418caf4496abe3bca035e2c1fa4a64b4f2bd2a8",
+      "was_symlink": true,
+      "resolved_relative_path": "multiqc_config.yml"
+    },
+    {
+      "path": "cases/0-7eb3eb99cd8d4b1949f23ac81c0157d6/tasks/253-29-11244f/nf_core_atacseq_software_mqc_versions.yml",
+      "role": "MULTIQC/observed_tool_versions",
+      "bytes": 1670,
+      "sha256": "9975c19dda56eaa323259d38f395567a82d8e3fb4e16253659940642389c2bb4",
+      "was_symlink": true,
+      "resolved_relative_path": "nf_core_atacseq_software_mqc_versions.yml"
+    },
+    {
+      "path": "cases/0-7eb3eb99cd8d4b1949f23ac81c0157d6/tasks/253-29-11244f/exports/multiqc_data/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "role": "MULTIQC/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "bytes": 19689,
+      "sha256": "d89fe75b74919a9a4cb2789907a430db4d35e558bdd849b083410acb6e114ac1",
+      "was_symlink": false,
+      "resolved_relative_path": "multiqc_data/deeptools_plot_fingerprint_counts_mlib_deeptools.txt"
+    },
+    {
+      "path": "cases/0-7eb3eb99cd8d4b1949f23ac81c0157d6/tasks/253-29-11244f/exports/multiqc_data/mqc_deeptools_fingerprint_plot_1.txt",
+      "role": "MULTIQC/mqc_deeptools_fingerprint_plot_1.txt",
+      "bytes": 26062,
+      "sha256": "7a85704f6076f4c7ab8d8610280a4439b274221b0e7709b6f114f987168b6ab6",
+      "was_symlink": false,
+      "resolved_relative_path": "multiqc_data/mqc_deeptools_fingerprint_plot_1.txt"
+    },
+    {
+      "path": "source/assets__multiqc_config.yml",
+      "role": "source/assets/multiqc_config.yml",
+      "bytes": 5488,
+      "sha256": "f7ffa59e5feed728a70443e05418caf4496abe3bca035e2c1fa4a64b4f2bd2a8",
+      "was_symlink": false,
+      "resolved_relative_path": "assets/multiqc_config.yml"
+    },
+    {
+      "path": "source/bin__multiqc_fingerprint.py",
+      "role": "source/bin/multiqc_fingerprint.py",
+      "bytes": 3160,
+      "sha256": "723bf55bd129a1af051f95c164f6fefab015a32b54195dcccefdc945aa3c469a",
+      "was_symlink": false,
+      "resolved_relative_path": "bin/multiqc_fingerprint.py"
+    },
+    {
+      "path": "source/conf__modules.config",
+      "role": "source/conf/modules.config",
+      "bytes": 40659,
+      "sha256": "3977d4bb79147eac2d2051864bd7d9ed9732ee5fdb1599e4833459edefb17e00",
+      "was_symlink": false,
+      "resolved_relative_path": "conf/modules.config"
+    },
+    {
+      "path": "source/conf__test.config",
+      "role": "source/conf/test.config",
+      "bytes": 1191,
+      "sha256": "b3209eba305683277937c49ae638bcc8cba456a52ccc707d03f77575fa8d1937",
+      "was_symlink": false,
+      "resolved_relative_path": "conf/test.config"
+    },
+    {
+      "path": "source/conf__test_controls.config",
+      "role": "source/conf/test_controls.config",
+      "bytes": 1327,
+      "sha256": "f9ae8acb359e1425f6149cba8b5579d7cffc8cdce5dae3bd5a2ff342d587665d",
+      "was_symlink": false,
+      "resolved_relative_path": "conf/test_controls.config"
+    },
+    {
+      "path": "source/conf__test_full.config",
+      "role": "source/conf/test_full.config",
+      "bytes": 893,
+      "sha256": "841d5aae4badc298bacb61fa9d7aa6900810620fbb9e43baa35b15a13c2839aa",
+      "was_symlink": false,
+      "resolved_relative_path": "conf/test_full.config"
+    },
+    {
+      "path": "source/modules__local__multiqc.nf",
+      "role": "source/modules/local/multiqc.nf",
+      "bytes": 2710,
+      "sha256": "18ac247159c509377d200342057e02bf11188b79692d1a36550c88b190f387e7",
+      "was_symlink": false,
+      "resolved_relative_path": "modules/local/multiqc.nf"
+    },
+    {
+      "path": "source/modules__nf-core__deeptools__plotfingerprint__main.nf",
+      "role": "source/modules/nf-core/deeptools/plotfingerprint/main.nf",
+      "bytes": 1613,
+      "sha256": "6b5b09e42f4666d6cc742948847705b1bd285df308d55e9f30d386be0e757fb6",
+      "was_symlink": false,
+      "resolved_relative_path": "modules/nf-core/deeptools/plotfingerprint/main.nf"
+    },
+    {
+      "path": "source/nf-test.config",
+      "role": "source/nf-test.config",
+      "bytes": 1070,
+      "sha256": "7307ab0766c264e8840abba9160c2d57cebd68a225bbffad9fbff1800d2eb5ec",
+      "was_symlink": false,
+      "resolved_relative_path": "nf-test.config"
+    },
+    {
+      "path": "source/tests__controls.nf.test",
+      "role": "source/tests/controls.nf.test",
+      "bytes": 1398,
+      "sha256": "35f8392142afa4061b79f6ac7a5d051a9707c777800f53250334eb386dd481dc",
+      "was_symlink": false,
+      "resolved_relative_path": "tests/controls.nf.test"
+    },
+    {
+      "path": "source/tests__nextflow.config",
+      "role": "source/tests/nextflow.config",
+      "bytes": 838,
+      "sha256": "463807ff47384caa365d760bee9624677cef57c8aef7c533e2e863deca214009",
+      "was_symlink": false,
+      "resolved_relative_path": "tests/nextflow.config"
+    }
+  ],
+  "issues": [],
+  "scope": "Known pipeline profiles: task commands, raw fingerprint matrices, selected configuration/source, observed tool versions and the two fingerprint exports. No environment, launch wrappers or raw logs.",
+  "controls_tap": {
+    "matched_tests": 1,
+    "statuses": [
+      {
+        "number": 1,
+        "status": "passed"
+      }
+    ]
+  },
+  "profile_tap": {
+    "controls": {
+      "matched_tests": 1,
+      "statuses": [
+        {
+          "number": 1,
+          "status": "passed"
+        }
+      ]
+    }
+  },
+  "complete": true,
+  "capture_complete": true,
+  "status": "complete"
+}

@@ -468,5 +468,19 @@
     "receipts/pr476-final-native-ci.json": "4d19a4efc157861e55bac15a1e4712a89e51cab85c7b1ceb8b27aaa510c073d1",
     "receipts/resequencing-duplicate-recheck.json": "e52f0e3e6113925f72407564ce328b60ec9197c47c55ed6933bf41998a5e3d84"
   },
+  "native_fingerprint_20261104": {
+    "integration": {
+      "baseline_supporting_commit": "c388a470dd275b91dc1a84887a10fc7d77c4b723",
+      "campaign_id": "fingerprint-native-ci-20261104",
+      "cleanup_summary_reintroduced": false,
+      "preserved_campaign_count": 8,
+      "preserved_campaigns_canonical_sha256": "bf0a18a56ecf91f25e036f89b6e745b89ef87987443cb1ce49c74ea287ff6814",
+      "private_integration_plan_sha256": "931e580484e4e5f8142a895c859320cf9de2186eea5c803f861dcd344d155fb4",
+      "scope": "Report semantics and ordinary native nf-test matrix; no new full-science-cohort qualification.",
+      "snapshots_modified_by_builder": false
+    },
+    "review_path": "../reviews/2026-11-04-fingerprint-native-ci",
+    "supporting_baseline_commit": "c388a470dd275b91dc1a84887a10fc7d77c4b723"
+  },
   "supporting_commit": "0b9140075f35a8ab042ada1b45985a1613cf4f16"
 }

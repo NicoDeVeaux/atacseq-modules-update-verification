@@ -1,0 +1,655 @@
+{
+  "engine_pairs": [
+    {
+      "both_engines_exports_byte_identical": true,
+      "lanes_available": 2,
+      "profile": "bowtie2"
+    },
+    {
+      "both_engines_exports_byte_identical": true,
+      "lanes_available": 2,
+      "profile": "chromap"
+    },
+    {
+      "both_engines_exports_byte_identical": true,
+      "lanes_available": 2,
+      "profile": "controls"
+    },
+    {
+      "both_engines_exports_byte_identical": true,
+      "lanes_available": 2,
+      "profile": "default"
+    },
+    {
+      "both_engines_exports_byte_identical": true,
+      "lanes_available": 2,
+      "profile": "skip_consensus_peaks"
+    },
+    {
+      "both_engines_exports_byte_identical": true,
+      "lanes_available": 2,
+      "profile": "skip_trimming"
+    },
+    {
+      "both_engines_exports_byte_identical": true,
+      "lanes_available": 2,
+      "profile": "star"
+    }
+  ],
+  "lanes": [
+    {
+      "actual_cli_data_format": "tsv",
+      "amended_manifest": "posthoc/jobs/126400453350/capture/manifest.json",
+      "amendment": "posthoc/jobs/126400453350/AMENDMENT.json",
+      "exports": [
+        {
+          "bytes": 20247,
+          "md5": "1d6965e380937b76ab6c0a7213553e8f",
+          "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "sha256": "b4bf74352d2836e3f2491e751528dad7b14a4e9cedd95050cf5f989006ee2414"
+        },
+        {
+          "bytes": 18313,
+          "md5": "e57d508028bbfa194483f9943d652a8c",
+          "name": "mqc_deeptools_fingerprint_plot_1.txt",
+          "sha256": "743767ebb9c901548ca7e38a783685ed837abcbba95a03721405a833b4abadb1"
+        }
+      ],
+      "job_id": "job-126400453350",
+      "loaded_auto_config_data_format": "yaml",
+      "nextflow": "25.10.4",
+      "no_cli_or_config_override_added": true,
+      "numeric_cells": 468,
+      "original_manifest": "attempts/41777278460-attempt-1/jobs/126400453350/capture/manifest.json",
+      "original_manifest_identity": {
+        "bytes": 18941,
+        "md5": "cc7b0114acd46f55694983d9e5062250",
+        "sha256": "c9d8b3d0ce0d231dbcf750709507a025b2b8b225486cb32aa0ae9584afce0bca"
+      },
+      "original_native_capture_status": "PARTIAL",
+      "original_nf_test_step_outcome": "failure",
+      "profile": "chromap",
+      "qualification_kind": "POSTHOC_REPLAY_NOT_ORIGINAL_NATIVE_PASS",
+      "result": "posthoc/jobs/126400453350/qualification/RESULT.json",
+      "result_identity": {
+        "bytes": 52029,
+        "md5": "2657bf29b3301c89b0dee3ad4483dbee",
+        "sha256": "688700a23625e0e0e3601735dfb0fe0aa06925a9f9ee74b0458587bda3bc9a7e"
+      },
+      "series": 6,
+      "source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "status": "PASS"
+    },
+    {
+      "actual_cli_data_format": "tsv",
+      "amended_manifest": "posthoc/jobs/126400453406/capture/manifest.json",
+      "amendment": "posthoc/jobs/126400453406/AMENDMENT.json",
+      "exports": [
+        {
+          "bytes": 21640,
+          "md5": "730ced1fdbfc2c29ba2b64e1a89465ca",
+          "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "sha256": "d0833c437d80228a48fa0492f0dbbbb57486a81688eac56118dd32d7522a428c"
+        },
+        {
+          "bytes": 19783,
+          "md5": "eb5bbc83c5602c300899c419a2e71a76",
+          "name": "mqc_deeptools_fingerprint_plot_1.txt",
+          "sha256": "241cec213a79a4348d0718ad42c1ba15279f0105af6cc10fe0f5ecb1aa2612e9"
+        }
+      ],
+      "job_id": "job-126400453406",
+      "loaded_auto_config_data_format": "yaml",
+      "nextflow": "26.10.5",
+      "no_cli_or_config_override_added": true,
+      "numeric_cells": 516,
+      "original_manifest": "attempts/41777278460-attempt-1/jobs/126400453406/capture/manifest.json",
+      "original_manifest_identity": {
+        "bytes": 18941,
+        "md5": "9735017a2a9cb9d353cb0a84eb3a3a66",
+        "sha256": "2bedcbf03bed6e22123d3d5c995c0f9f8275115da34e84c69c2addae32029714"
+      },
+      "original_native_capture_status": "PARTIAL",
+      "original_nf_test_step_outcome": "failure",
+      "profile": "bowtie2",
+      "qualification_kind": "POSTHOC_REPLAY_NOT_ORIGINAL_NATIVE_PASS",
+      "result": "posthoc/jobs/126400453406/qualification/RESULT.json",
+      "result_identity": {
+        "bytes": 54307,
+        "md5": "1bec5c7502a4f39e76a6820f733d1183",
+        "sha256": "30793a540499bf7c2c1322991423ce41c8c9fb06510505b9ed473bf5ae8a3b9a"
+      },
+      "series": 6,
+      "source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "status": "PASS"
+    },
+    {
+      "actual_cli_data_format": "tsv",
+      "amended_manifest": "posthoc/jobs/126400453441/capture/manifest.json",
+      "amendment": "posthoc/jobs/126400453441/AMENDMENT.json",
+      "exports": [
+        {
+          "bytes": 19085,
+          "md5": "2301a84b27273f607d68b33e54629e1e",
+          "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "sha256": "16c75747b5c72fbb316444ed6089ab6c1392dafeeda4a3ec4a3cd4fbc148acc8"
+        },
+        {
+          "bytes": 18463,
+          "md5": "c0dc7eb479f572b51b7c1aea7f08a241",
+          "name": "mqc_deeptools_fingerprint_plot_1.txt",
+          "sha256": "4556f0597dd13b07f987911d0c6f86e9b5c0251268d030f65263eb0fb0c9fd2d"
+        }
+      ],
+      "job_id": "job-126400453441",
+      "loaded_auto_config_data_format": "yaml",
+      "nextflow": "25.10.4",
+      "no_cli_or_config_override_added": true,
+      "numeric_cells": 473,
+      "original_manifest": "attempts/41777278460-attempt-1/jobs/126400453441/capture/manifest.json",
+      "original_manifest_identity": {
+        "bytes": 18614,
+        "md5": "6aeb34eb92e5540a4999530f3329bc44",
+        "sha256": "bd8f1ba6fa53f8bca55d8669389cdcdad212a92bbbd85b19dfb3363b7b2b378c"
+      },
+      "original_native_capture_status": "PARTIAL",
+      "original_nf_test_step_outcome": "success",
+      "profile": "default",
+      "qualification_kind": "POSTHOC_REPLAY_NOT_ORIGINAL_NATIVE_PASS",
+      "result": "posthoc/jobs/126400453441/qualification/RESULT.json",
+      "result_identity": {
+        "bytes": 51932,
+        "md5": "93346f088b2c7b3f6188280dbf90a07d",
+        "sha256": "3a0d6247a0c76885191526a9d1bf4f8c1ff7cfee7eefa6a951c835932343a22c"
+      },
+      "series": 6,
+      "source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "status": "PASS"
+    },
+    {
+      "actual_cli_data_format": "tsv",
+      "amended_manifest": "posthoc/jobs/126400453461/capture/manifest.json",
+      "amendment": "posthoc/jobs/126400453461/AMENDMENT.json",
+      "exports": [
+        {
+          "bytes": 21640,
+          "md5": "730ced1fdbfc2c29ba2b64e1a89465ca",
+          "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "sha256": "d0833c437d80228a48fa0492f0dbbbb57486a81688eac56118dd32d7522a428c"
+        },
+        {
+          "bytes": 19783,
+          "md5": "eb5bbc83c5602c300899c419a2e71a76",
+          "name": "mqc_deeptools_fingerprint_plot_1.txt",
+          "sha256": "241cec213a79a4348d0718ad42c1ba15279f0105af6cc10fe0f5ecb1aa2612e9"
+        }
+      ],
+      "job_id": "job-126400453461",
+      "loaded_auto_config_data_format": "yaml",
+      "nextflow": "25.10.4",
+      "no_cli_or_config_override_added": true,
+      "numeric_cells": 516,
+      "original_manifest": "attempts/41777278460-attempt-1/jobs/126400453461/capture/manifest.json",
+      "original_manifest_identity": {
+        "bytes": 18941,
+        "md5": "3bbd0d18b914a589d446bb4d504dc3e5",
+        "sha256": "d53082e0acc2412f06a49bf7516fc53b8f644a10b31d02be803f2d3781004f74"
+      },
+      "original_native_capture_status": "PARTIAL",
+      "original_nf_test_step_outcome": "failure",
+      "profile": "bowtie2",
+      "qualification_kind": "POSTHOC_REPLAY_NOT_ORIGINAL_NATIVE_PASS",
+      "result": "posthoc/jobs/126400453461/qualification/RESULT.json",
+      "result_identity": {
+        "bytes": 54307,
+        "md5": "6bb80104c463c9a279748ec5d47bb00d",
+        "sha256": "5d03a51b2055d0213064d2e58c12ebc51422584d49cf8209749f014dc50d050a"
+      },
+      "series": 6,
+      "source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "status": "PASS"
+    },
+    {
+      "actual_cli_data_format": "tsv",
+      "amended_manifest": "posthoc/jobs/126400453474/capture/manifest.json",
+      "amendment": "posthoc/jobs/126400453474/AMENDMENT.json",
+      "exports": [
+        {
+          "bytes": 20247,
+          "md5": "1d6965e380937b76ab6c0a7213553e8f",
+          "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "sha256": "b4bf74352d2836e3f2491e751528dad7b14a4e9cedd95050cf5f989006ee2414"
+        },
+        {
+          "bytes": 18313,
+          "md5": "e57d508028bbfa194483f9943d652a8c",
+          "name": "mqc_deeptools_fingerprint_plot_1.txt",
+          "sha256": "743767ebb9c901548ca7e38a783685ed837abcbba95a03721405a833b4abadb1"
+        }
+      ],
+      "job_id": "job-126400453474",
+      "loaded_auto_config_data_format": "yaml",
+      "nextflow": "26.10.5",
+      "no_cli_or_config_override_added": true,
+      "numeric_cells": 468,
+      "original_manifest": "attempts/41777278460-attempt-1/jobs/126400453474/capture/manifest.json",
+      "original_manifest_identity": {
+        "bytes": 18941,
+        "md5": "1661931669405d01220167984ed2ba13",
+        "sha256": "47201c7e806e4e10b327e3b2604d3d0d0793afe7ab11ce3bc3d9d91e2ab6e298"
+      },
+      "original_native_capture_status": "PARTIAL",
+      "original_nf_test_step_outcome": "failure",
+      "profile": "chromap",
+      "qualification_kind": "POSTHOC_REPLAY_NOT_ORIGINAL_NATIVE_PASS",
+      "result": "posthoc/jobs/126400453474/qualification/RESULT.json",
+      "result_identity": {
+        "bytes": 52029,
+        "md5": "23e821c82ac8a309205a3d90e9ba17c0",
+        "sha256": "98816ec3e03f1d6715b76f8e4be2266bae827ebe260f8279cdb339694a26303f"
+      },
+      "series": 6,
+      "source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "status": "PASS"
+    },
+    {
+      "actual_cli_data_format": "tsv",
+      "amended_manifest": "posthoc/jobs/126400453536/capture/manifest.json",
+      "amendment": "posthoc/jobs/126400453536/AMENDMENT.json",
+      "exports": [
+        {
+          "bytes": 19085,
+          "md5": "2301a84b27273f607d68b33e54629e1e",
+          "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "sha256": "16c75747b5c72fbb316444ed6089ab6c1392dafeeda4a3ec4a3cd4fbc148acc8"
+        },
+        {
+          "bytes": 18463,
+          "md5": "c0dc7eb479f572b51b7c1aea7f08a241",
+          "name": "mqc_deeptools_fingerprint_plot_1.txt",
+          "sha256": "4556f0597dd13b07f987911d0c6f86e9b5c0251268d030f65263eb0fb0c9fd2d"
+        }
+      ],
+      "job_id": "job-126400453536",
+      "loaded_auto_config_data_format": "yaml",
+      "nextflow": "25.10.4",
+      "no_cli_or_config_override_added": true,
+      "numeric_cells": 473,
+      "original_manifest": "attempts/41777278460-attempt-1/jobs/126400453536/capture/manifest.json",
+      "original_manifest_identity": {
+        "bytes": 19040,
+        "md5": "96a40e299c926c39d660f460eb00f715",
+        "sha256": "f6f2070ee4ed047a1fcf5409675059fc5d26819b232d63baca0c56e463ea6474"
+      },
+      "original_native_capture_status": "PARTIAL",
+      "original_nf_test_step_outcome": "success",
+      "profile": "skip_consensus_peaks",
+      "qualification_kind": "POSTHOC_REPLAY_NOT_ORIGINAL_NATIVE_PASS",
+      "result": "posthoc/jobs/126400453536/qualification/RESULT.json",
+      "result_identity": {
+        "bytes": 52319,
+        "md5": "f02cee4c9aa8a7e7204e6d891558dfb7",
+        "sha256": "169d6a2a0b632ce75e94f8365e7e3ef5ca4e509903c74635cf4cdd9c9b9c9062"
+      },
+      "series": 6,
+      "source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "status": "PASS"
+    },
+    {
+      "actual_cli_data_format": "tsv",
+      "amended_manifest": "posthoc/jobs/126400453563/capture/manifest.json",
+      "amendment": "posthoc/jobs/126400453563/AMENDMENT.json",
+      "exports": [
+        {
+          "bytes": 18811,
+          "md5": "2e78625f3140bf19d6bde21515795ad8",
+          "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "sha256": "8d17e171de9634bb5ed4c42f3fd5aeeee47a38ea4b2ab8b5fc7edf3537dfc068"
+        },
+        {
+          "bytes": 16870,
+          "md5": "0b18beabfb07348950cfdb14e8caaa53",
+          "name": "mqc_deeptools_fingerprint_plot_1.txt",
+          "sha256": "570fb588c70d28864943e160ad1afa4c5a8301e16f7c9787d28dc6286baa2ad4"
+        }
+      ],
+      "job_id": "job-126400453563",
+      "loaded_auto_config_data_format": "yaml",
+      "nextflow": "26.10.5",
+      "no_cli_or_config_override_added": true,
+      "numeric_cells": 437,
+      "original_manifest": "attempts/41777278460-attempt-1/jobs/126400453563/capture/manifest.json",
+      "original_manifest_identity": {
+        "bytes": 18984,
+        "md5": "8298ea4f91d3a0a9846b3667524ba654",
+        "sha256": "ff1b9fe8d94c5d510e1c15a505dbc3781b8d2c9f939fab096b4f89bb7e75ae2e"
+      },
+      "original_native_capture_status": "PARTIAL",
+      "original_nf_test_step_outcome": "failure",
+      "profile": "skip_trimming",
+      "qualification_kind": "POSTHOC_REPLAY_NOT_ORIGINAL_NATIVE_PASS",
+      "result": "posthoc/jobs/126400453563/qualification/RESULT.json",
+      "result_identity": {
+        "bytes": 50115,
+        "md5": "6bae8a6a9ab2e49de91395a96e54f64a",
+        "sha256": "cc77a2911e6e10473bbce18abc711420777b2bdedc9d66dc082f92b02b01de3b"
+      },
+      "series": 6,
+      "source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "status": "PASS"
+    },
+    {
+      "actual_cli_data_format": "tsv",
+      "amended_manifest": "posthoc/jobs/126400453567/capture/manifest.json",
+      "amendment": "posthoc/jobs/126400453567/AMENDMENT.json",
+      "exports": [
+        {
+          "bytes": 20778,
+          "md5": "86bbf8e35e1d2d2ba72eacbc801aa011",
+          "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "sha256": "86679c48c7fb0edd58f37a912dbcbe47e8ebb1869be9369b21f2721d70ca1d5a"
+        },
+        {
+          "bytes": 18786,
+          "md5": "492578b77b8df68c48e5254d3de4cbf6",
+          "name": "mqc_deeptools_fingerprint_plot_1.txt",
+          "sha256": "1f080e7d3d7cd13844250bf8a83e2369a82f8ef1e48b8ed829cfd4d1b09274b5"
+        }
+      ],
+      "job_id": "job-126400453567",
+      "loaded_auto_config_data_format": "yaml",
+      "nextflow": "26.10.5",
+      "no_cli_or_config_override_added": true,
+      "numeric_cells": 487,
+      "original_manifest": "attempts/41777278460-attempt-1/jobs/126400453567/capture/manifest.json",
+      "original_manifest_identity": {
+        "bytes": 18914,
+        "md5": "b28af756cd02e72693787e6404b1d7d5",
+        "sha256": "f1b7c3ed1f25c140967f0b391806ded817218e6f0378df58faa0d720144adde8"
+      },
+      "original_native_capture_status": "PARTIAL",
+      "original_nf_test_step_outcome": "failure",
+      "profile": "star",
+      "qualification_kind": "POSTHOC_REPLAY_NOT_ORIGINAL_NATIVE_PASS",
+      "result": "posthoc/jobs/126400453567/qualification/RESULT.json",
+      "result_identity": {
+        "bytes": 52788,
+        "md5": "0aeb51500fc760af44ce9f3c90ba2240",
+        "sha256": "bfe991a6dfbce03518b83f8aed6bd3ef76df937cb6f3b07a06ad5229d170f955"
+      },
+      "series": 6,
+      "source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "status": "PASS"
+    },
+    {
+      "actual_cli_data_format": "tsv",
+      "amended_manifest": "posthoc/jobs/126400453617/capture/manifest.json",
+      "amendment": "posthoc/jobs/126400453617/AMENDMENT.json",
+      "exports": [
+        {
+          "bytes": 20778,
+          "md5": "86bbf8e35e1d2d2ba72eacbc801aa011",
+          "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "sha256": "86679c48c7fb0edd58f37a912dbcbe47e8ebb1869be9369b21f2721d70ca1d5a"
+        },
+        {
+          "bytes": 18786,
+          "md5": "492578b77b8df68c48e5254d3de4cbf6",
+          "name": "mqc_deeptools_fingerprint_plot_1.txt",
+          "sha256": "1f080e7d3d7cd13844250bf8a83e2369a82f8ef1e48b8ed829cfd4d1b09274b5"
+        }
+      ],
+      "job_id": "job-126400453617",
+      "loaded_auto_config_data_format": "yaml",
+      "nextflow": "25.10.4",
+      "no_cli_or_config_override_added": true,
+      "numeric_cells": 487,
+      "original_manifest": "attempts/41777278460-attempt-1/jobs/126400453617/capture/manifest.json",
+      "original_manifest_identity": {
+        "bytes": 18914,
+        "md5": "2c2c539443f9d5fc6b336722c48d4270",
+        "sha256": "58b9c57b191449817877fb6dfe583a9232e9c08651cce30d43964a447938400d"
+      },
+      "original_native_capture_status": "PARTIAL",
+      "original_nf_test_step_outcome": "failure",
+      "profile": "star",
+      "qualification_kind": "POSTHOC_REPLAY_NOT_ORIGINAL_NATIVE_PASS",
+      "result": "posthoc/jobs/126400453617/qualification/RESULT.json",
+      "result_identity": {
+        "bytes": 52788,
+        "md5": "66e3d6fdb4fb3db133d83f550223eb32",
+        "sha256": "8b23f51819b4ad07b4f5052ae529888ed87b5942418c90640bef265b67846aa8"
+      },
+      "series": 6,
+      "source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "status": "PASS"
+    },
+    {
+      "actual_cli_data_format": "tsv",
+      "amended_manifest": "posthoc/jobs/126400453636/capture/manifest.json",
+      "amendment": "posthoc/jobs/126400453636/AMENDMENT.json",
+      "exports": [
+        {
+          "bytes": 19689,
+          "md5": "fdc55f7114afe334622a1a865aa288a6",
+          "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "sha256": "d89fe75b74919a9a4cb2789907a430db4d35e558bdd849b083410acb6e114ac1"
+        },
+        {
+          "bytes": 26062,
+          "md5": "970eea15578b175c28c3fb2e6a0226dc",
+          "name": "mqc_deeptools_fingerprint_plot_1.txt",
+          "sha256": "7a85704f6076f4c7ab8d8610280a4439b274221b0e7709b6f114f987168b6ab6"
+        }
+      ],
+      "job_id": "job-126400453636",
+      "loaded_auto_config_data_format": "yaml",
+      "nextflow": "25.10.4",
+      "no_cli_or_config_override_added": true,
+      "numeric_cells": 782,
+      "original_manifest": "attempts/41777278460-attempt-1/jobs/126400453636/capture/manifest.json",
+      "original_manifest_identity": {
+        "bytes": 14565,
+        "md5": "e5db1cf8fad01b47bc95d91f0b5ab69d",
+        "sha256": "cdbcabc726e790f464b933635955498bc4141e4958a40871763b0d6f6b83ebda"
+      },
+      "original_native_capture_status": "PARTIAL",
+      "original_nf_test_step_outcome": "success",
+      "profile": "controls",
+      "qualification_kind": "POSTHOC_REPLAY_NOT_ORIGINAL_NATIVE_PASS",
+      "result": "posthoc/jobs/126400453636/qualification/RESULT.json",
+      "result_identity": {
+        "bytes": 59129,
+        "md5": "fdf1cb8b4f98e0cfa3a5912521efe5be",
+        "sha256": "8fedfa472d71e05d75311da016eaacae396f45b6a498179862e69052b6161fa6"
+      },
+      "series": 8,
+      "source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "status": "PASS"
+    },
+    {
+      "actual_cli_data_format": "tsv",
+      "amended_manifest": "posthoc/jobs/126400453637/capture/manifest.json",
+      "amendment": "posthoc/jobs/126400453637/AMENDMENT.json",
+      "exports": [
+        {
+          "bytes": 19085,
+          "md5": "2301a84b27273f607d68b33e54629e1e",
+          "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "sha256": "16c75747b5c72fbb316444ed6089ab6c1392dafeeda4a3ec4a3cd4fbc148acc8"
+        },
+        {
+          "bytes": 18463,
+          "md5": "c0dc7eb479f572b51b7c1aea7f08a241",
+          "name": "mqc_deeptools_fingerprint_plot_1.txt",
+          "sha256": "4556f0597dd13b07f987911d0c6f86e9b5c0251268d030f65263eb0fb0c9fd2d"
+        }
+      ],
+      "job_id": "job-126400453637",
+      "loaded_auto_config_data_format": "yaml",
+      "nextflow": "26.10.5",
+      "no_cli_or_config_override_added": true,
+      "numeric_cells": 473,
+      "original_manifest": "attempts/41777278460-attempt-1/jobs/126400453637/capture/manifest.json",
+      "original_manifest_identity": {
+        "bytes": 18614,
+        "md5": "e55e5a2bc9f8a5bcdc337b83d0bb1649",
+        "sha256": "21f48f066808049bb689373c81f9b13191b3fc0bebf083317e97d4e85d5c97d2"
+      },
+      "original_native_capture_status": "PARTIAL",
+      "original_nf_test_step_outcome": "success",
+      "profile": "default",
+      "qualification_kind": "POSTHOC_REPLAY_NOT_ORIGINAL_NATIVE_PASS",
+      "result": "posthoc/jobs/126400453637/qualification/RESULT.json",
+      "result_identity": {
+        "bytes": 51932,
+        "md5": "ded9dbb39278a754770239e0dc56bea2",
+        "sha256": "494525e82e6fbfe40d47a52c44cb84224480f41df4b8078db87b369df04673c0"
+      },
+      "series": 6,
+      "source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "status": "PASS"
+    },
+    {
+      "actual_cli_data_format": "tsv",
+      "amended_manifest": "posthoc/jobs/126400453708/capture/manifest.json",
+      "amendment": "posthoc/jobs/126400453708/AMENDMENT.json",
+      "exports": [
+        {
+          "bytes": 18811,
+          "md5": "2e78625f3140bf19d6bde21515795ad8",
+          "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "sha256": "8d17e171de9634bb5ed4c42f3fd5aeeee47a38ea4b2ab8b5fc7edf3537dfc068"
+        },
+        {
+          "bytes": 16870,
+          "md5": "0b18beabfb07348950cfdb14e8caaa53",
+          "name": "mqc_deeptools_fingerprint_plot_1.txt",
+          "sha256": "570fb588c70d28864943e160ad1afa4c5a8301e16f7c9787d28dc6286baa2ad4"
+        }
+      ],
+      "job_id": "job-126400453708",
+      "loaded_auto_config_data_format": "yaml",
+      "nextflow": "25.10.4",
+      "no_cli_or_config_override_added": true,
+      "numeric_cells": 437,
+      "original_manifest": "attempts/41777278460-attempt-1/jobs/126400453708/capture/manifest.json",
+      "original_manifest_identity": {
+        "bytes": 18984,
+        "md5": "eebae282f1c02afcd8b903d557135357",
+        "sha256": "5f3afd0bbb81c7c7ad6eb4be27f2f349c417816b435e679fcc9b2dc7790e79f8"
+      },
+      "original_native_capture_status": "PARTIAL",
+      "original_nf_test_step_outcome": "failure",
+      "profile": "skip_trimming",
+      "qualification_kind": "POSTHOC_REPLAY_NOT_ORIGINAL_NATIVE_PASS",
+      "result": "posthoc/jobs/126400453708/qualification/RESULT.json",
+      "result_identity": {
+        "bytes": 50115,
+        "md5": "d4786bb9d0a1d681e6bd500a39c9caa2",
+        "sha256": "0ea96c2e8cd45bf57c7ee43c3f017a1ab868061402f783b9c6d1701dde2b3730"
+      },
+      "series": 6,
+      "source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "status": "PASS"
+    },
+    {
+      "actual_cli_data_format": "tsv",
+      "amended_manifest": "posthoc/jobs/126400453741/capture/manifest.json",
+      "amendment": "posthoc/jobs/126400453741/AMENDMENT.json",
+      "exports": [
+        {
+          "bytes": 19085,
+          "md5": "2301a84b27273f607d68b33e54629e1e",
+          "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "sha256": "16c75747b5c72fbb316444ed6089ab6c1392dafeeda4a3ec4a3cd4fbc148acc8"
+        },
+        {
+          "bytes": 18463,
+          "md5": "c0dc7eb479f572b51b7c1aea7f08a241",
+          "name": "mqc_deeptools_fingerprint_plot_1.txt",
+          "sha256": "4556f0597dd13b07f987911d0c6f86e9b5c0251268d030f65263eb0fb0c9fd2d"
+        }
+      ],
+      "job_id": "job-126400453741",
+      "loaded_auto_config_data_format": "yaml",
+      "nextflow": "26.10.5",
+      "no_cli_or_config_override_added": true,
+      "numeric_cells": 473,
+      "original_manifest": "attempts/41777278460-attempt-1/jobs/126400453741/capture/manifest.json",
+      "original_manifest_identity": {
+        "bytes": 19040,
+        "md5": "fd3cd345c52106084518a3b959a761f8",
+        "sha256": "2a151e4687a77fed11093ebe1abcc0e0ac7c8152badad1e23cd8005dfa3fde7e"
+      },
+      "original_native_capture_status": "PARTIAL",
+      "original_nf_test_step_outcome": "success",
+      "profile": "skip_consensus_peaks",
+      "qualification_kind": "POSTHOC_REPLAY_NOT_ORIGINAL_NATIVE_PASS",
+      "result": "posthoc/jobs/126400453741/qualification/RESULT.json",
+      "result_identity": {
+        "bytes": 52319,
+        "md5": "4b511d4f79c888009fd72fe27aaa0011",
+        "sha256": "19f13a2c710bfa0a228a28e939527ba9d1206f997c5c79e12d622eee75efa81f"
+      },
+      "series": 6,
+      "source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "status": "PASS"
+    },
+    {
+      "actual_cli_data_format": "tsv",
+      "amended_manifest": "posthoc/jobs/126400453801/capture/manifest.json",
+      "amendment": "posthoc/jobs/126400453801/AMENDMENT.json",
+      "exports": [
+        {
+          "bytes": 19689,
+          "md5": "fdc55f7114afe334622a1a865aa288a6",
+          "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+          "sha256": "d89fe75b74919a9a4cb2789907a430db4d35e558bdd849b083410acb6e114ac1"
+        },
+        {
+          "bytes": 26062,
+          "md5": "970eea15578b175c28c3fb2e6a0226dc",
+          "name": "mqc_deeptools_fingerprint_plot_1.txt",
+          "sha256": "7a85704f6076f4c7ab8d8610280a4439b274221b0e7709b6f114f987168b6ab6"
+        }
+      ],
+      "job_id": "job-126400453801",
+      "loaded_auto_config_data_format": "yaml",
+      "nextflow": "26.10.5",
+      "no_cli_or_config_override_added": true,
+      "numeric_cells": 782,
+      "original_manifest": "attempts/41777278460-attempt-1/jobs/126400453801/capture/manifest.json",
+      "original_manifest_identity": {
+        "bytes": 14565,
+        "md5": "66f37162f9309f04ef5e7f78dae93548",
+        "sha256": "9d11071ee7637db71f31b6bb709507d435b19931bb3772a7041dcd6dfbc9fe57"
+      },
+      "original_native_capture_status": "PARTIAL",
+      "original_nf_test_step_outcome": "success",
+      "profile": "controls",
+      "qualification_kind": "POSTHOC_REPLAY_NOT_ORIGINAL_NATIVE_PASS",
+      "result": "posthoc/jobs/126400453801/qualification/RESULT.json",
+      "result_identity": {
+        "bytes": 59129,
+        "md5": "53e59da57ffb0a4bd983d6f4f33a5d2f",
+        "sha256": "d38ce9817be787a67b063f38c37cb0808e50b2445c888da92c064cbcaeb3c6d4"
+      },
+      "series": 8,
+      "source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+      "status": "PASS"
+    }
+  ],
+  "original_native_qualification": "PARTIAL; no original native qualification PASS",
+  "qualification_kind": "LOCAL_POSTHOC_REPLAY_OF_NATIVE_OUTPUTS",
+  "schema": "atacseq-public-posthoc-replay-summary/v1",
+  "source_handoff_identity": {
+    "bytes": 3735,
+    "sha256": "612782f12a76ba0ccb5abca5299901f6e987b1766d525644b3052edf8015a7d6"
+  },
+  "source_summary_identity": {
+    "bytes": 33071,
+    "sha256": "6cd2a69068a01b383838360b75d2baeed2a4eeaeaccdbb5bd19109dfd1f020e2"
+  },
+  "status": "PASS"
+}

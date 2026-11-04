@@ -1,0 +1,16 @@
+{
+  "tap_sha256": "d2df55f132283f46edfad1a5dcb77c230b6600f34f1228160a6200345e30fe4e",
+  "tap_bytes": 55547,
+  "tests": [
+    {
+      "number": 1,
+      "name": "Test pipeline with chromap aligner: chromap",
+      "status": "failed"
+    },
+    {
+      "number": 2,
+      "name": "Test pipeline with chromap aligner: chromap with stub",
+      "status": "passed"
+    }
+  ]
+}

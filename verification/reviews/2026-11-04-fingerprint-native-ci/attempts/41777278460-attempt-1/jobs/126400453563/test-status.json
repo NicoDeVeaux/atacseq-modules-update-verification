@@ -1,0 +1,16 @@
+{
+  "tap_sha256": "b5afe2b44441d4e020f361c51fe81c31db9191227f077e4837e55f40d73d8452",
+  "tap_bytes": 52339,
+  "tests": [
+    {
+      "number": 1,
+      "name": "Test pipeline with --skip_trimming: skip_trimming",
+      "status": "failed"
+    },
+    {
+      "number": 2,
+      "name": "Test pipeline with --skip_trimming: skip_trimming with stub",
+      "status": "passed"
+    }
+  ]
+}

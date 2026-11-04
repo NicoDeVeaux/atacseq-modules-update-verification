@@ -1,0 +1,16 @@
+{
+  "tap_sha256": "011dc8e52e338dc331a1bc4e9fdcf3279a482bef689d5ae9623b3d45526c6812",
+  "tap_bytes": 153,
+  "tests": [
+    {
+      "number": 1,
+      "name": "Test pipeline with --skip_consensus_peaks: skip_consensus_peaks",
+      "status": "passed"
+    },
+    {
+      "number": 2,
+      "name": "Test pipeline with --skip_consensus_peaks: skip_consensus_peaks with stub",
+      "status": "passed"
+    }
+  ]
+}

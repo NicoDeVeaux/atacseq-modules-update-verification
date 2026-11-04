@@ -1,0 +1,14 @@
+{
+  "schema": "atacseq/native-fingerprint-qualification/v1",
+  "qualification_image_ref": "quay.io/biocontainers/multiqc@sha256:db913f47894a386040d76ae5f46b19149a71377f5107327d15ec89d3a1ec3f5f",
+  "cases": [],
+  "snapshots_modified": false,
+  "capture_manifest": {
+    "bytes": 19040,
+    "sha256": "f6f2070ee4ed047a1fcf5409675059fc5d26819b232d63baca0c56e463ea6474",
+    "md5": "96a40e299c926c39d660f460eb00f715"
+  },
+  "nf_test_step_outcome": "success",
+  "status": "FAIL",
+  "reason": "EvidenceError: Global capture is incomplete"
+}

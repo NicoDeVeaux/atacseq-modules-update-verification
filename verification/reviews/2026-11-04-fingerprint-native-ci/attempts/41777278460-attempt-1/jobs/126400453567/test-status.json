@@ -1,0 +1,16 @@
+{
+  "tap_sha256": "dd769daf9e272cf74b9685156fdab65a70ae85b51bb7b6408c66ebf7ac140f56",
+  "tap_bytes": 53443,
+  "tests": [
+    {
+      "number": 1,
+      "name": "Test pipeline with STAR aligner: star",
+      "status": "failed"
+    },
+    {
+      "number": 2,
+      "name": "Test pipeline with STAR aligner: star with stub",
+      "status": "passed"
+    }
+  ]
+}

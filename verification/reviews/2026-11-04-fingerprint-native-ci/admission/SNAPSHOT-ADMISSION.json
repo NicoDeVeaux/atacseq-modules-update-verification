@@ -1,0 +1,258 @@
+{
+  "schema": "atacseq-qualified-count-snapshot-admission/v1",
+  "source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+  "native_run_id": 41777278460,
+  "native_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460",
+  "scope": "Exactly four count-export MD5 values; every other byte of all seven snapshot files preserved.",
+  "posthoc_qualified_native_output_lanes": 14,
+  "qualification_kind": "LOCAL_POSTHOC_REPLAY_OF_NATIVE_OUTPUTS",
+  "initial_native_capture_status": "PARTIAL",
+  "posthoc_summary_sha256": "6cd2a69068a01b383838360b75d2baeed2a4eeaeaccdbb5bd19109dfd1f020e2",
+  "changes": [
+    {
+      "profile": "bowtie2",
+      "file": "tests/bowtie2.nf.test.snap",
+      "old_count_md5": "7bc385cf49df27f4ff287e75ed4223d2",
+      "new_count_md5": "730ced1fdbfc2c29ba2b64e1a89465ca",
+      "plot_md5_unchanged": "eb5bbc83c5602c300899c419a2e71a76",
+      "before_sha256": "186842977f781a36b8838d141cbd5d2bb18a7d6fda4e7ff4f9f178229aac1c42",
+      "after_sha256": "57624871a43e92bb48164f7146bc1c897caec0bbfca1e255653f8165bcea8daf",
+      "native_output_posthoc_replays": [
+        {
+          "job_id": 126400453461,
+          "exports": {
+            "deeptools_plot_fingerprint_counts_mlib_deeptools.txt": {
+              "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+              "bytes": 21640,
+              "sha256": "d0833c437d80228a48fa0492f0dbbbb57486a81688eac56118dd32d7522a428c",
+              "md5": "730ced1fdbfc2c29ba2b64e1a89465ca"
+            },
+            "mqc_deeptools_fingerprint_plot_1.txt": {
+              "name": "mqc_deeptools_fingerprint_plot_1.txt",
+              "bytes": 19783,
+              "sha256": "241cec213a79a4348d0718ad42c1ba15279f0105af6cc10fe0f5ecb1aa2612e9",
+              "md5": "eb5bbc83c5602c300899c419a2e71a76"
+            }
+          },
+          "samples": 6,
+          "numeric_cells": 516,
+          "manifest_sha256": "5d2e1366ddb7a4dcbd856c9ce5a47291e7926d000fa57852fd3edd31f824a314",
+          "qualification_sha256": "5d03a51b2055d0213064d2e58c12ebc51422584d49cf8209749f014dc50d050a",
+          "qualification_kind": "POSTHOC_REPLAY_NOT_ORIGINAL_NATIVE_PASS",
+          "original_partial_manifest_sha256": "d53082e0acc2412f06a49bf7516fc53b8f644a10b31d02be803f2d3781004f74",
+          "amendment_receipt_sha256": "bbf673ff074fea53f09896c21f7591e112c2354a625eeacde91f575379668102",
+          "qualifier_source_sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42"
+        },
+        {
+          "job_id": 126400453406,
+          "exports": {
+            "deeptools_plot_fingerprint_counts_mlib_deeptools.txt": {
+              "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+              "bytes": 21640,
+              "sha256": "d0833c437d80228a48fa0492f0dbbbb57486a81688eac56118dd32d7522a428c",
+              "md5": "730ced1fdbfc2c29ba2b64e1a89465ca"
+            },
+            "mqc_deeptools_fingerprint_plot_1.txt": {
+              "name": "mqc_deeptools_fingerprint_plot_1.txt",
+              "bytes": 19783,
+              "sha256": "241cec213a79a4348d0718ad42c1ba15279f0105af6cc10fe0f5ecb1aa2612e9",
+              "md5": "eb5bbc83c5602c300899c419a2e71a76"
+            }
+          },
+          "samples": 6,
+          "numeric_cells": 516,
+          "manifest_sha256": "48b81738f81f69db598efb2dec2e8feaca7a1e3cae99090d43c662786e66fd97",
+          "qualification_sha256": "30793a540499bf7c2c1322991423ce41c8c9fb06510505b9ed473bf5ae8a3b9a",
+          "qualification_kind": "POSTHOC_REPLAY_NOT_ORIGINAL_NATIVE_PASS",
+          "original_partial_manifest_sha256": "2bedcbf03bed6e22123d3d5c995c0f9f8275115da34e84c69c2addae32029714",
+          "amendment_receipt_sha256": "e9abb3f4fdf03857f451b2e638876ced5b6fe798fd94c9129e7147352e365d55",
+          "qualifier_source_sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42"
+        }
+      ]
+    },
+    {
+      "profile": "chromap",
+      "file": "tests/chromap.nf.test.snap",
+      "old_count_md5": "1a024a72bbc5dd0e1493e6025c9b980a",
+      "new_count_md5": "1d6965e380937b76ab6c0a7213553e8f",
+      "plot_md5_unchanged": "e57d508028bbfa194483f9943d652a8c",
+      "before_sha256": "844d0b4e47aeed323c7f43e47377aa4ec22a45356a5527d965a09ef36751cc30",
+      "after_sha256": "0ee5ed8a5c0bfb669a97aca63ea92fe399cd57aca95cc8522f714e8390c59210",
+      "native_output_posthoc_replays": [
+        {
+          "job_id": 126400453350,
+          "exports": {
+            "deeptools_plot_fingerprint_counts_mlib_deeptools.txt": {
+              "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+              "bytes": 20247,
+              "sha256": "b4bf74352d2836e3f2491e751528dad7b14a4e9cedd95050cf5f989006ee2414",
+              "md5": "1d6965e380937b76ab6c0a7213553e8f"
+            },
+            "mqc_deeptools_fingerprint_plot_1.txt": {
+              "name": "mqc_deeptools_fingerprint_plot_1.txt",
+              "bytes": 18313,
+              "sha256": "743767ebb9c901548ca7e38a783685ed837abcbba95a03721405a833b4abadb1",
+              "md5": "e57d508028bbfa194483f9943d652a8c"
+            }
+          },
+          "samples": 6,
+          "numeric_cells": 468,
+          "manifest_sha256": "e41c9170c5023c9191c35dd73d40bbc1dd9a9575b1ac92b3b5952307db394b14",
+          "qualification_sha256": "688700a23625e0e0e3601735dfb0fe0aa06925a9f9ee74b0458587bda3bc9a7e",
+          "qualification_kind": "POSTHOC_REPLAY_NOT_ORIGINAL_NATIVE_PASS",
+          "original_partial_manifest_sha256": "c9d8b3d0ce0d231dbcf750709507a025b2b8b225486cb32aa0ae9584afce0bca",
+          "amendment_receipt_sha256": "85099359f07813f930700f9ae4965cbdaafa5a29d103e4df965d7b9b3f4a1ed6",
+          "qualifier_source_sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42"
+        },
+        {
+          "job_id": 126400453474,
+          "exports": {
+            "deeptools_plot_fingerprint_counts_mlib_deeptools.txt": {
+              "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+              "bytes": 20247,
+              "sha256": "b4bf74352d2836e3f2491e751528dad7b14a4e9cedd95050cf5f989006ee2414",
+              "md5": "1d6965e380937b76ab6c0a7213553e8f"
+            },
+            "mqc_deeptools_fingerprint_plot_1.txt": {
+              "name": "mqc_deeptools_fingerprint_plot_1.txt",
+              "bytes": 18313,
+              "sha256": "743767ebb9c901548ca7e38a783685ed837abcbba95a03721405a833b4abadb1",
+              "md5": "e57d508028bbfa194483f9943d652a8c"
+            }
+          },
+          "samples": 6,
+          "numeric_cells": 468,
+          "manifest_sha256": "d0397edfd645ea3fb7c84eb937fc7ded525133b5b9a80b4b172948f86e21a734",
+          "qualification_sha256": "98816ec3e03f1d6715b76f8e4be2266bae827ebe260f8279cdb339694a26303f",
+          "qualification_kind": "POSTHOC_REPLAY_NOT_ORIGINAL_NATIVE_PASS",
+          "original_partial_manifest_sha256": "47201c7e806e4e10b327e3b2604d3d0d0793afe7ab11ce3bc3d9d91e2ab6e298",
+          "amendment_receipt_sha256": "b15542c4bf540410583c4f17ce9e5331f7c087975b99cccdfe98f7a8406f555e",
+          "qualifier_source_sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42"
+        }
+      ]
+    },
+    {
+      "profile": "star",
+      "file": "tests/star.nf.test.snap",
+      "old_count_md5": "f5cba95d6871907b4ff7d78f6362c71a",
+      "new_count_md5": "86bbf8e35e1d2d2ba72eacbc801aa011",
+      "plot_md5_unchanged": "492578b77b8df68c48e5254d3de4cbf6",
+      "before_sha256": "e58ac2f490fe17a5708d994fe8de6d38d978fbbe2a3a9601a722cc98c01bad7a",
+      "after_sha256": "813c5252faae73ff5a5a380e96d00949871f90bf5fe5b8b6e05f1d498e7cfcb7",
+      "native_output_posthoc_replays": [
+        {
+          "job_id": 126400453617,
+          "exports": {
+            "deeptools_plot_fingerprint_counts_mlib_deeptools.txt": {
+              "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+              "bytes": 20778,
+              "sha256": "86679c48c7fb0edd58f37a912dbcbe47e8ebb1869be9369b21f2721d70ca1d5a",
+              "md5": "86bbf8e35e1d2d2ba72eacbc801aa011"
+            },
+            "mqc_deeptools_fingerprint_plot_1.txt": {
+              "name": "mqc_deeptools_fingerprint_plot_1.txt",
+              "bytes": 18786,
+              "sha256": "1f080e7d3d7cd13844250bf8a83e2369a82f8ef1e48b8ed829cfd4d1b09274b5",
+              "md5": "492578b77b8df68c48e5254d3de4cbf6"
+            }
+          },
+          "samples": 6,
+          "numeric_cells": 487,
+          "manifest_sha256": "7edd521d0e910e1c1e3ca0f56f075be5d4be999ff84f3a52c21f541af44f380d",
+          "qualification_sha256": "8b23f51819b4ad07b4f5052ae529888ed87b5942418c90640bef265b67846aa8",
+          "qualification_kind": "POSTHOC_REPLAY_NOT_ORIGINAL_NATIVE_PASS",
+          "original_partial_manifest_sha256": "58b9c57b191449817877fb6dfe583a9232e9c08651cce30d43964a447938400d",
+          "amendment_receipt_sha256": "8086db4e7cf2c786b9ed28cee254c81d0a705eb4dd8eaf9b78b845d24612d8ee",
+          "qualifier_source_sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42"
+        },
+        {
+          "job_id": 126400453567,
+          "exports": {
+            "deeptools_plot_fingerprint_counts_mlib_deeptools.txt": {
+              "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+              "bytes": 20778,
+              "sha256": "86679c48c7fb0edd58f37a912dbcbe47e8ebb1869be9369b21f2721d70ca1d5a",
+              "md5": "86bbf8e35e1d2d2ba72eacbc801aa011"
+            },
+            "mqc_deeptools_fingerprint_plot_1.txt": {
+              "name": "mqc_deeptools_fingerprint_plot_1.txt",
+              "bytes": 18786,
+              "sha256": "1f080e7d3d7cd13844250bf8a83e2369a82f8ef1e48b8ed829cfd4d1b09274b5",
+              "md5": "492578b77b8df68c48e5254d3de4cbf6"
+            }
+          },
+          "samples": 6,
+          "numeric_cells": 487,
+          "manifest_sha256": "cf3b411b1c97579cd167d9d4c87ac456b940d792ca022445ac33176645151086",
+          "qualification_sha256": "bfe991a6dfbce03518b83f8aed6bd3ef76df937cb6f3b07a06ad5229d170f955",
+          "qualification_kind": "POSTHOC_REPLAY_NOT_ORIGINAL_NATIVE_PASS",
+          "original_partial_manifest_sha256": "f1b7c3ed1f25c140967f0b391806ded817218e6f0378df58faa0d720144adde8",
+          "amendment_receipt_sha256": "5df799244dc929c224a76c1498ef9f726abbb74d888e5be2d72644b0bd585a8f",
+          "qualifier_source_sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42"
+        }
+      ]
+    },
+    {
+      "profile": "skip_trimming",
+      "file": "tests/skip_trimming.nf.test.snap",
+      "old_count_md5": "b3aefd736ba3dc078560c541558aa8a9",
+      "new_count_md5": "2e78625f3140bf19d6bde21515795ad8",
+      "plot_md5_unchanged": "0b18beabfb07348950cfdb14e8caaa53",
+      "before_sha256": "0f51964abd93b15a302341a00d55874a4f961316bde72e8ab1e59fc3be7bdd53",
+      "after_sha256": "077d82fc2bd404f2fb494ddf6ddc395970472ef5b482862b7a97279e6c180c48",
+      "native_output_posthoc_replays": [
+        {
+          "job_id": 126400453708,
+          "exports": {
+            "deeptools_plot_fingerprint_counts_mlib_deeptools.txt": {
+              "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+              "bytes": 18811,
+              "sha256": "8d17e171de9634bb5ed4c42f3fd5aeeee47a38ea4b2ab8b5fc7edf3537dfc068",
+              "md5": "2e78625f3140bf19d6bde21515795ad8"
+            },
+            "mqc_deeptools_fingerprint_plot_1.txt": {
+              "name": "mqc_deeptools_fingerprint_plot_1.txt",
+              "bytes": 16870,
+              "sha256": "570fb588c70d28864943e160ad1afa4c5a8301e16f7c9787d28dc6286baa2ad4",
+              "md5": "0b18beabfb07348950cfdb14e8caaa53"
+            }
+          },
+          "samples": 6,
+          "numeric_cells": 437,
+          "manifest_sha256": "5771575958352bf9e48c0cb082c87b03d67c0eaa96c042192cddb4ad17bbcc50",
+          "qualification_sha256": "0ea96c2e8cd45bf57c7ee43c3f017a1ab868061402f783b9c6d1701dde2b3730",
+          "qualification_kind": "POSTHOC_REPLAY_NOT_ORIGINAL_NATIVE_PASS",
+          "original_partial_manifest_sha256": "5f3afd0bbb81c7c7ad6eb4be27f2f349c417816b435e679fcc9b2dc7790e79f8",
+          "amendment_receipt_sha256": "f5a5b4e1d06f229be016be01add771acf0dc0cb7ecce903f971aa61d774ace03",
+          "qualifier_source_sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42"
+        },
+        {
+          "job_id": 126400453563,
+          "exports": {
+            "deeptools_plot_fingerprint_counts_mlib_deeptools.txt": {
+              "name": "deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+              "bytes": 18811,
+              "sha256": "8d17e171de9634bb5ed4c42f3fd5aeeee47a38ea4b2ab8b5fc7edf3537dfc068",
+              "md5": "2e78625f3140bf19d6bde21515795ad8"
+            },
+            "mqc_deeptools_fingerprint_plot_1.txt": {
+              "name": "mqc_deeptools_fingerprint_plot_1.txt",
+              "bytes": 16870,
+              "sha256": "570fb588c70d28864943e160ad1afa4c5a8301e16f7c9787d28dc6286baa2ad4",
+              "md5": "0b18beabfb07348950cfdb14e8caaa53"
+            }
+          },
+          "samples": 6,
+          "numeric_cells": 437,
+          "manifest_sha256": "4f66faa6d19bb133ee0d283eed372e38433d0c5a64c901caa442b75a1a6b53e2",
+          "qualification_sha256": "cc77a2911e6e10473bbce18abc711420777b2bdedc9d66dc082f92b02b01de3b",
+          "qualification_kind": "POSTHOC_REPLAY_NOT_ORIGINAL_NATIVE_PASS",
+          "original_partial_manifest_sha256": "ff1b9fe8d94c5d510e1c15a505dbc3781b8d2c9f939fab096b4f89bb7e75ae2e",
+          "amendment_receipt_sha256": "a6824df093c6aba7b1b9828448dd6542091f643fa7f6b6e3f39657b588b6cc43",
+          "qualifier_source_sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42"
+        }
+      ]
+    }
+  ],
+  "ordinary_matrix_verdict": "Rerun ordinary no-update nf-test matrix after this bounded admission; initial report semantics alone do not establish full CI PASS."
+}

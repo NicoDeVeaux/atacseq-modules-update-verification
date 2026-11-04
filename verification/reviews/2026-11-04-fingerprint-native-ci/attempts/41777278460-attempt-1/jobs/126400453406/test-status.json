@@ -1,0 +1,16 @@
+{
+  "tap_sha256": "b630658c96016ba994245a09e7586c735b344401ac753922ca5f8ce52e9507d3",
+  "tap_bytes": 54051,
+  "tests": [
+    {
+      "number": 1,
+      "name": "Test pipeline with bowtie2 aligner: bowtie2",
+      "status": "failed"
+    },
+    {
+      "number": 2,
+      "name": "Test pipeline with bowtie2 aligner: bowtie2 with stub",
+      "status": "passed"
+    }
+  ]
+}

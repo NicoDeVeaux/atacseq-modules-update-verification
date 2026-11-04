@@ -1,0 +1,442 @@
+{
+  "schema": "nf-core-atacseq-controls-evidence/v1",
+  "source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+  "collector_sha256": "4adb2846766dab6f2b969be72065c1ae4adf134c45f902181c84051011592a6d",
+  "python_version": "3.12.3",
+  "requested": {
+    "profile": "docker",
+    "shard": "1/1",
+    "nextflow": "25.10.4",
+    "nf_test": "0.9.4",
+    "test_file": "tests/skip_consensus_peaks.nf.test"
+  },
+  "nf_test_step_outcome": "success",
+  "include_non_controls": true,
+  "expected_test_case": "skip_consensus_peaks",
+  "cases": [
+    {
+      "case_id": "1e43837ef45c65b82fb21e0e58e89fe2",
+      "root_kind": "literal",
+      "profiles": [
+        "test",
+        "docker"
+      ],
+      "nextflow_version": "25.10.4",
+      "metadata_sha256": "238815533ce957b263500acd36e0d448672ce934db37fa1f0a7340eb5b13d908",
+      "stub_run": false,
+      "test_case": "skip_consensus_peaks",
+      "source_test_file": "tests/skip_consensus_peaks.nf.test",
+      "selection_params": {
+        "aligner": "bwa",
+        "skip_consensus_peaks": true,
+        "skip_trimming": false
+      },
+      "params_metadata_sha256": "5c5d9612c354295ebcec095219394c0872144c4fb72d0e0d141b2554ffa86af6",
+      "tasks": [
+        {
+          "task_id": "119",
+          "hash": "c0/331da5",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "exit": "0",
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "trace_sha256": "a8e4edc80852a8d4a8a6ac792e16909e30b91121ffa9962d5edbb5ffc49e56e6",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP1)"
+        },
+        {
+          "task_id": "130",
+          "hash": "b6/203475",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "exit": "0",
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "trace_sha256": "a8e4edc80852a8d4a8a6ac792e16909e30b91121ffa9962d5edbb5ffc49e56e6",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T100_SE_REP2)"
+        },
+        {
+          "task_id": "142",
+          "hash": "3a/91370a",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "exit": "0",
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "trace_sha256": "a8e4edc80852a8d4a8a6ac792e16909e30b91121ffa9962d5edbb5ffc49e56e6",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T150_SE_REP1)"
+        },
+        {
+          "task_id": "172",
+          "hash": "af/e554f7",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "exit": "0",
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "trace_sha256": "a8e4edc80852a8d4a8a6ac792e16909e30b91121ffa9962d5edbb5ffc49e56e6",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP1)"
+        },
+        {
+          "task_id": "177",
+          "hash": "d7/09f9dc",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "exit": "0",
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "trace_sha256": "a8e4edc80852a8d4a8a6ac792e16909e30b91121ffa9962d5edbb5ffc49e56e6",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T0_PE_REP2)"
+        },
+        {
+          "task_id": "204",
+          "hash": "f2/9d71ee",
+          "process": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT",
+          "status": "COMPLETED",
+          "exit": "0",
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "trace_sha256": "a8e4edc80852a8d4a8a6ac792e16909e30b91121ffa9962d5edbb5ffc49e56e6",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT (OSMOTIC_STRESS_T15_PE_REP1)"
+        },
+        {
+          "task_id": "256",
+          "hash": "ec/be8d51",
+          "process": "MULTIQC",
+          "status": "COMPLETED",
+          "exit": "0",
+          "container_from_trace": null,
+          "container_identity": "not_present_in_trace",
+          "trace_sha256": "a8e4edc80852a8d4a8a6ac792e16909e30b91121ffa9962d5edbb5ffc49e56e6",
+          "name": "NFCORE_ATACSEQ:ATACSEQ:MULTIQC",
+          "config_files": [
+            "multiqc_config.yml"
+          ]
+        }
+      ],
+      "complete": true
+    }
+  ],
+  "excluded_cases": [
+    {
+      "case_id": "1054e708b5b68153ec7eb562f86439dc",
+      "stub_run": true,
+      "reason": "stub_run_unexercised",
+      "profiles": [
+        "test",
+        "docker"
+      ],
+      "nextflow_version": "25.10.4",
+      "metadata_sha256": "a0d68fc242e71d614250e733e50054538c142742b16b11a52186d736fda81958"
+    }
+  ],
+  "files": [
+    {
+      "path": "cases/0-1e43837ef45c65b82fb21e0e58e89fe2/tasks/119-c0-331da5/command.sh",
+      "role": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT/command",
+      "bytes": 1286,
+      "sha256": "e89c0db3a7f92ffaace8b3a066d419a8593c66b9f5cac6941b8389224a6d4050",
+      "was_symlink": false,
+      "resolved_relative_path": ".command.sh"
+    },
+    {
+      "path": "cases/0-1e43837ef45c65b82fb21e0e58e89fe2/tasks/119-c0-331da5/raw/OSMOTIC_STRESS_T100_SE_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "role": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT/raw",
+      "bytes": 376,
+      "sha256": "63b01cbf18108b5a9d6247af571059f3f9560563e1f5b44744a0d301d8f01370",
+      "was_symlink": false,
+      "resolved_relative_path": "c0/331da5c86d0788e887bfc55165f0c9/OSMOTIC_STRESS_T100_SE_REP1.mLb.clN.plotFingerprint.raw.txt"
+    },
+    {
+      "path": "cases/0-1e43837ef45c65b82fb21e0e58e89fe2/tasks/130-b6-203475/command.sh",
+      "role": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT/command",
+      "bytes": 1286,
+      "sha256": "d84ac05de5c6a8b449b6f2ccb1de9b0005fe7de1a8ab6a9d150683371ecaa7e1",
+      "was_symlink": false,
+      "resolved_relative_path": ".command.sh"
+    },
+    {
+      "path": "cases/0-1e43837ef45c65b82fb21e0e58e89fe2/tasks/130-b6-203475/raw/OSMOTIC_STRESS_T100_SE_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "role": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT/raw",
+      "bytes": 336,
+      "sha256": "1a8e11703a64da2fe132c9be098ffb70db6ccfb740573c62848adfcd7fc34141",
+      "was_symlink": false,
+      "resolved_relative_path": "b6/203475f761d279da6c322e2856f880/OSMOTIC_STRESS_T100_SE_REP2.mLb.clN.plotFingerprint.raw.txt"
+    },
+    {
+      "path": "cases/0-1e43837ef45c65b82fb21e0e58e89fe2/tasks/142-3a-91370a/command.sh",
+      "role": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT/command",
+      "bytes": 1286,
+      "sha256": "bcb773e99040b5d6125da8142f990225b2b9fd0bc1f47d229ead7fb4ee4af596",
+      "was_symlink": false,
+      "resolved_relative_path": ".command.sh"
+    },
+    {
+      "path": "cases/0-1e43837ef45c65b82fb21e0e58e89fe2/tasks/142-3a-91370a/raw/OSMOTIC_STRESS_T150_SE_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "role": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT/raw",
+      "bytes": 462,
+      "sha256": "4c7473fb76296f655eb530709512721ade0ac512f92686f442fc4fc2bb1eeae1",
+      "was_symlink": false,
+      "resolved_relative_path": "3a/91370a5d8b9bca3aa842f037757d74/OSMOTIC_STRESS_T150_SE_REP1.mLb.clN.plotFingerprint.raw.txt"
+    },
+    {
+      "path": "cases/0-1e43837ef45c65b82fb21e0e58e89fe2/tasks/172-af-e554f7/command.sh",
+      "role": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT/command",
+      "bytes": 1259,
+      "sha256": "89683f7f8beab4efb991edc0e39a3ddc078c21baedf7a503f0b96fc116a9837b",
+      "was_symlink": false,
+      "resolved_relative_path": ".command.sh"
+    },
+    {
+      "path": "cases/0-1e43837ef45c65b82fb21e0e58e89fe2/tasks/172-af-e554f7/raw/OSMOTIC_STRESS_T0_PE_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "role": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT/raw",
+      "bytes": 360,
+      "sha256": "f0cb1d893c8cb6c6682afc834684c40d16b344b5fdc07218ef16ad56d1c5498f",
+      "was_symlink": false,
+      "resolved_relative_path": "af/e554f7023902c5747d272f5bbc9900/OSMOTIC_STRESS_T0_PE_REP1.mLb.clN.plotFingerprint.raw.txt"
+    },
+    {
+      "path": "cases/0-1e43837ef45c65b82fb21e0e58e89fe2/tasks/177-d7-09f9dc/command.sh",
+      "role": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT/command",
+      "bytes": 1259,
+      "sha256": "0e627fc34168a775d543aad9fc56c738258a5374d7f2c36e189d6bbf2b468213",
+      "was_symlink": false,
+      "resolved_relative_path": ".command.sh"
+    },
+    {
+      "path": "cases/0-1e43837ef45c65b82fb21e0e58e89fe2/tasks/177-d7-09f9dc/raw/OSMOTIC_STRESS_T0_PE_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "role": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT/raw",
+      "bytes": 322,
+      "sha256": "ec67badf3b54debc13fae8ad0ae122dc9283f59913f6b787a87951674eec7efe",
+      "was_symlink": false,
+      "resolved_relative_path": "d7/09f9dcb1f897dc0486b15e414040b7/OSMOTIC_STRESS_T0_PE_REP2.mLb.clN.plotFingerprint.raw.txt"
+    },
+    {
+      "path": "cases/0-1e43837ef45c65b82fb21e0e58e89fe2/tasks/204-f2-9d71ee/command.sh",
+      "role": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT/command",
+      "bytes": 1264,
+      "sha256": "95232e09d98e942cd763a800767447424ae12268c0c90c4aa11ba9c432f1054d",
+      "was_symlink": false,
+      "resolved_relative_path": ".command.sh"
+    },
+    {
+      "path": "cases/0-1e43837ef45c65b82fb21e0e58e89fe2/tasks/204-f2-9d71ee/raw/OSMOTIC_STRESS_T15_PE_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "role": "MERGED_LIBRARY_DEEPTOOLS_PLOTFINGERPRINT/raw",
+      "bytes": 456,
+      "sha256": "b05120f684713fe3fd2c02df492c734817242d133b91aad90af3190845662b96",
+      "was_symlink": false,
+      "resolved_relative_path": "f2/9d71eeda9ecad15b80bcfa69f07c96/OSMOTIC_STRESS_T15_PE_REP1.mLb.clN.plotFingerprint.raw.txt"
+    },
+    {
+      "path": "cases/0-1e43837ef45c65b82fb21e0e58e89fe2/tasks/256-ec-be8d51/command.sh",
+      "role": "MULTIQC/command",
+      "bytes": 868,
+      "sha256": "1dbd7c3d21b524ae55778fce66e43fd035ccad7b49bed965c0457c9af9ea61c3",
+      "was_symlink": false,
+      "resolved_relative_path": ".command.sh"
+    },
+    {
+      "path": "cases/0-1e43837ef45c65b82fb21e0e58e89fe2/tasks/256-ec-be8d51/staged_raw/OSMOTIC_STRESS_T0_PE_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "role": "MULTIQC/staged_raw",
+      "bytes": 360,
+      "sha256": "f0cb1d893c8cb6c6682afc834684c40d16b344b5fdc07218ef16ad56d1c5498f",
+      "was_symlink": true,
+      "resolved_relative_path": "af/e554f7023902c5747d272f5bbc9900/OSMOTIC_STRESS_T0_PE_REP1.mLb.clN.plotFingerprint.raw.txt"
+    },
+    {
+      "path": "cases/0-1e43837ef45c65b82fb21e0e58e89fe2/tasks/256-ec-be8d51/staged_raw/OSMOTIC_STRESS_T0_PE_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "role": "MULTIQC/staged_raw",
+      "bytes": 322,
+      "sha256": "ec67badf3b54debc13fae8ad0ae122dc9283f59913f6b787a87951674eec7efe",
+      "was_symlink": true,
+      "resolved_relative_path": "d7/09f9dcb1f897dc0486b15e414040b7/OSMOTIC_STRESS_T0_PE_REP2.mLb.clN.plotFingerprint.raw.txt"
+    },
+    {
+      "path": "cases/0-1e43837ef45c65b82fb21e0e58e89fe2/tasks/256-ec-be8d51/staged_raw/OSMOTIC_STRESS_T100_SE_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "role": "MULTIQC/staged_raw",
+      "bytes": 376,
+      "sha256": "63b01cbf18108b5a9d6247af571059f3f9560563e1f5b44744a0d301d8f01370",
+      "was_symlink": true,
+      "resolved_relative_path": "c0/331da5c86d0788e887bfc55165f0c9/OSMOTIC_STRESS_T100_SE_REP1.mLb.clN.plotFingerprint.raw.txt"
+    },
+    {
+      "path": "cases/0-1e43837ef45c65b82fb21e0e58e89fe2/tasks/256-ec-be8d51/staged_raw/OSMOTIC_STRESS_T100_SE_REP2.mLb.clN.plotFingerprint.raw.txt",
+      "role": "MULTIQC/staged_raw",
+      "bytes": 336,
+      "sha256": "1a8e11703a64da2fe132c9be098ffb70db6ccfb740573c62848adfcd7fc34141",
+      "was_symlink": true,
+      "resolved_relative_path": "b6/203475f761d279da6c322e2856f880/OSMOTIC_STRESS_T100_SE_REP2.mLb.clN.plotFingerprint.raw.txt"
+    },
+    {
+      "path": "cases/0-1e43837ef45c65b82fb21e0e58e89fe2/tasks/256-ec-be8d51/staged_raw/OSMOTIC_STRESS_T150_SE_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "role": "MULTIQC/staged_raw",
+      "bytes": 462,
+      "sha256": "4c7473fb76296f655eb530709512721ade0ac512f92686f442fc4fc2bb1eeae1",
+      "was_symlink": true,
+      "resolved_relative_path": "3a/91370a5d8b9bca3aa842f037757d74/OSMOTIC_STRESS_T150_SE_REP1.mLb.clN.plotFingerprint.raw.txt"
+    },
+    {
+      "path": "cases/0-1e43837ef45c65b82fb21e0e58e89fe2/tasks/256-ec-be8d51/staged_raw/OSMOTIC_STRESS_T15_PE_REP1.mLb.clN.plotFingerprint.raw.txt",
+      "role": "MULTIQC/staged_raw",
+      "bytes": 456,
+      "sha256": "b05120f684713fe3fd2c02df492c734817242d133b91aad90af3190845662b96",
+      "was_symlink": true,
+      "resolved_relative_path": "f2/9d71eeda9ecad15b80bcfa69f07c96/OSMOTIC_STRESS_T15_PE_REP1.mLb.clN.plotFingerprint.raw.txt"
+    },
+    {
+      "path": "cases/0-1e43837ef45c65b82fb21e0e58e89fe2/tasks/256-ec-be8d51/multiqc_config.yml",
+      "role": "MULTIQC/config",
+      "bytes": 5488,
+      "sha256": "f7ffa59e5feed728a70443e05418caf4496abe3bca035e2c1fa4a64b4f2bd2a8",
+      "was_symlink": true,
+      "resolved_relative_path": "multiqc_config.yml"
+    },
+    {
+      "path": "cases/0-1e43837ef45c65b82fb21e0e58e89fe2/tasks/256-ec-be8d51/nf_core_atacseq_software_mqc_versions.yml",
+      "role": "MULTIQC/observed_tool_versions",
+      "bytes": 1523,
+      "sha256": "0a32ce47c99771d6182c82ccce3653d7d048258bfcaf74c0a0c7df7e6e6d2295",
+      "was_symlink": true,
+      "resolved_relative_path": "nf_core_atacseq_software_mqc_versions.yml"
+    },
+    {
+      "path": "cases/0-1e43837ef45c65b82fb21e0e58e89fe2/tasks/256-ec-be8d51/exports/multiqc_data/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "role": "MULTIQC/deeptools_plot_fingerprint_counts_mlib_deeptools.txt",
+      "bytes": 19085,
+      "sha256": "16c75747b5c72fbb316444ed6089ab6c1392dafeeda4a3ec4a3cd4fbc148acc8",
+      "was_symlink": false,
+      "resolved_relative_path": "multiqc_data/deeptools_plot_fingerprint_counts_mlib_deeptools.txt"
+    },
+    {
+      "path": "cases/0-1e43837ef45c65b82fb21e0e58e89fe2/tasks/256-ec-be8d51/exports/multiqc_data/mqc_deeptools_fingerprint_plot_1.txt",
+      "role": "MULTIQC/mqc_deeptools_fingerprint_plot_1.txt",
+      "bytes": 18463,
+      "sha256": "4556f0597dd13b07f987911d0c6f86e9b5c0251268d030f65263eb0fb0c9fd2d",
+      "was_symlink": false,
+      "resolved_relative_path": "multiqc_data/mqc_deeptools_fingerprint_plot_1.txt"
+    },
+    {
+      "path": "source/assets__multiqc_config.yml",
+      "role": "source/assets/multiqc_config.yml",
+      "bytes": 5488,
+      "sha256": "f7ffa59e5feed728a70443e05418caf4496abe3bca035e2c1fa4a64b4f2bd2a8",
+      "was_symlink": false,
+      "resolved_relative_path": "assets/multiqc_config.yml"
+    },
+    {
+      "path": "source/bin__multiqc_fingerprint.py",
+      "role": "source/bin/multiqc_fingerprint.py",
+      "bytes": 3160,
+      "sha256": "723bf55bd129a1af051f95c164f6fefab015a32b54195dcccefdc945aa3c469a",
+      "was_symlink": false,
+      "resolved_relative_path": "bin/multiqc_fingerprint.py"
+    },
+    {
+      "path": "source/conf__modules.config",
+      "role": "source/conf/modules.config",
+      "bytes": 40659,
+      "sha256": "3977d4bb79147eac2d2051864bd7d9ed9732ee5fdb1599e4833459edefb17e00",
+      "was_symlink": false,
+      "resolved_relative_path": "conf/modules.config"
+    },
+    {
+      "path": "source/conf__test.config",
+      "role": "source/conf/test.config",
+      "bytes": 1191,
+      "sha256": "b3209eba305683277937c49ae638bcc8cba456a52ccc707d03f77575fa8d1937",
+      "was_symlink": false,
+      "resolved_relative_path": "conf/test.config"
+    },
+    {
+      "path": "source/conf__test_controls.config",
+      "role": "source/conf/test_controls.config",
+      "bytes": 1327,
+      "sha256": "f9ae8acb359e1425f6149cba8b5579d7cffc8cdce5dae3bd5a2ff342d587665d",
+      "was_symlink": false,
+      "resolved_relative_path": "conf/test_controls.config"
+    },
+    {
+      "path": "source/conf__test_full.config",
+      "role": "source/conf/test_full.config",
+      "bytes": 893,
+      "sha256": "841d5aae4badc298bacb61fa9d7aa6900810620fbb9e43baa35b15a13c2839aa",
+      "was_symlink": false,
+      "resolved_relative_path": "conf/test_full.config"
+    },
+    {
+      "path": "source/modules__local__multiqc.nf",
+      "role": "source/modules/local/multiqc.nf",
+      "bytes": 2710,
+      "sha256": "18ac247159c509377d200342057e02bf11188b79692d1a36550c88b190f387e7",
+      "was_symlink": false,
+      "resolved_relative_path": "modules/local/multiqc.nf"
+    },
+    {
+      "path": "source/modules__nf-core__deeptools__plotfingerprint__main.nf",
+      "role": "source/modules/nf-core/deeptools/plotfingerprint/main.nf",
+      "bytes": 1613,
+      "sha256": "6b5b09e42f4666d6cc742948847705b1bd285df308d55e9f30d386be0e757fb6",
+      "was_symlink": false,
+      "resolved_relative_path": "modules/nf-core/deeptools/plotfingerprint/main.nf"
+    },
+    {
+      "path": "source/nf-test.config",
+      "role": "source/nf-test.config",
+      "bytes": 1070,
+      "sha256": "7307ab0766c264e8840abba9160c2d57cebd68a225bbffad9fbff1800d2eb5ec",
+      "was_symlink": false,
+      "resolved_relative_path": "nf-test.config"
+    },
+    {
+      "path": "source/tests__controls.nf.test",
+      "role": "source/tests/controls.nf.test",
+      "bytes": 1398,
+      "sha256": "35f8392142afa4061b79f6ac7a5d051a9707c777800f53250334eb386dd481dc",
+      "was_symlink": false,
+      "resolved_relative_path": "tests/controls.nf.test"
+    },
+    {
+      "path": "source/tests__nextflow.config",
+      "role": "source/tests/nextflow.config",
+      "bytes": 838,
+      "sha256": "463807ff47384caa365d760bee9624677cef57c8aef7c533e2e863deca214009",
+      "was_symlink": false,
+      "resolved_relative_path": "tests/nextflow.config"
+    },
+    {
+      "path": "source/tests__skip_consensus_peaks.nf.test",
+      "role": "source/tests/skip_consensus_peaks.nf.test",
+      "bytes": 1898,
+      "sha256": "a854f2919e7cb2de0b339cbf967fa76999fac927323e109c099ddab9493b8028",
+      "was_symlink": false,
+      "resolved_relative_path": "tests/skip_consensus_peaks.nf.test"
+    }
+  ],
+  "issues": [],
+  "scope": "Known pipeline profiles: task commands, raw fingerprint matrices, selected configuration/source, observed tool versions and the two fingerprint exports. No environment, launch wrappers or raw logs.",
+  "controls_tap": {
+    "matched_tests": 0,
+    "statuses": []
+  },
+  "profile_tap": {
+    "skip_consensus_peaks": {
+      "matched_tests": 1,
+      "statuses": [
+        {
+          "number": 1,
+          "status": "passed"
+        }
+      ]
+    }
+  },
+  "complete": true,
+  "capture_complete": true,
+  "status": "complete",
+  "posthoc_amendment": {
+    "kind": "DERIVED_POSTHOC_CAPTURE_NOT_ORIGINAL_NATIVE_COMPLETE",
+    "original_manifest_sha256": "f6f2070ee4ed047a1fcf5409675059fc5d26819b232d63baca0c56e463ea6474",
+    "original_capture_complete": false,
+    "reason": "Only old collector false-positive bash -c config-postamble issue removed. Actual unique helper CLI is -f .; all actual implicit config bytes were captured. Payloads and original observed verdicts remain unchanged.",
+    "receipt": "../AMENDMENT.json"
+  }
+}

@@ -1293,6 +1293,2945 @@
         }
       ],
       "title": "Legacy local execution-record-only material"
+    },
+    {
+      "campaign_id": "fingerprint-native-ci-20261104",
+      "evidence": [
+        {
+          "path": "../reviews/2026-11-04-fingerprint-native-ci/NATIVE-ATTEMPTS.json"
+        },
+        {
+          "path": "../reviews/2026-11-04-fingerprint-native-ci/CANDIDATE-ADMISSION.json"
+        }
+      ],
+      "input_set": "fingerprint-native-ci-20261104",
+      "limits": [
+        "Historical eight campaigns are retained unchanged. This campaign records later attempts.",
+        "Report semantics, ordinary tests, native job conclusions and full scientific input byte provenance remain separate.",
+        "No broader scientific equivalence claim is inferred from report hash membership."
+      ],
+      "public_archive_scope": "Selected raw fingerprint matrices, effective config/commands, exports, source identities and compact receipts; no full-workflow output archive.",
+      "runs": [
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453350/capture/manifest.json",
+                "sha256": "c9d8b3d0ce0d231dbcf750709507a025b2b8b225486cb32aa0ae9584afce0bca"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453350/qualification/RESULT.json",
+                "sha256": "c7458c4e83e96c235f0da7aa9c6ab74c5a0db29f82c2949f80b545ded156f9f1"
+              }
+            ],
+            "statement": "The parent review observed workflow.success in all real cases. This compact capsule independently retains selected successful reporting tasks and test outcomes; full pipeline logs are not copied.",
+            "status": "UNKNOWN"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460",
+          "literal_execution_source": {
+            "git_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+            "source_map": "41777278460-attempt-1/chromap/25.10.4"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453350/capture/manifest.json",
+                "sha256": "c9d8b3d0ce0d231dbcf750709507a025b2b8b225486cb32aa0ae9584afce0bca"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453350/qualification/RESULT.json",
+                "sha256": "c7458c4e83e96c235f0da7aa9c6ab74c5a0db29f82c2949f80b545ded156f9f1"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "FAIL"
+          },
+          "nextflow": "25.10.4",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453350/capture/manifest.json",
+                "sha256": "c9d8b3d0ce0d231dbcf750709507a025b2b8b225486cb32aa0ae9584afce0bca"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453350/qualification/RESULT.json",
+                "sha256": "c7458c4e83e96c235f0da7aa9c6ab74c5a0db29f82c2949f80b545ded156f9f1"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "FAIL"
+          },
+          "published_code_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "run_id": "41777278460/job-126400453350",
+          "test_case": "chromap"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453406/capture/manifest.json",
+                "sha256": "2bedcbf03bed6e22123d3d5c995c0f9f8275115da34e84c69c2addae32029714"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453406/qualification/RESULT.json",
+                "sha256": "a7ab0c510bb51e67f23c4774c6bb2828a3da6cf2b21a7a0161b1e62ab92026af"
+              }
+            ],
+            "statement": "The parent review observed workflow.success in all real cases. This compact capsule independently retains selected successful reporting tasks and test outcomes; full pipeline logs are not copied.",
+            "status": "UNKNOWN"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460",
+          "literal_execution_source": {
+            "git_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+            "source_map": "41777278460-attempt-1/bowtie2/26.10.5"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453406/capture/manifest.json",
+                "sha256": "2bedcbf03bed6e22123d3d5c995c0f9f8275115da34e84c69c2addae32029714"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453406/qualification/RESULT.json",
+                "sha256": "a7ab0c510bb51e67f23c4774c6bb2828a3da6cf2b21a7a0161b1e62ab92026af"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "FAIL"
+          },
+          "nextflow": "26.10.5",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453406/capture/manifest.json",
+                "sha256": "2bedcbf03bed6e22123d3d5c995c0f9f8275115da34e84c69c2addae32029714"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453406/qualification/RESULT.json",
+                "sha256": "a7ab0c510bb51e67f23c4774c6bb2828a3da6cf2b21a7a0161b1e62ab92026af"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "FAIL"
+          },
+          "published_code_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "run_id": "41777278460/job-126400453406",
+          "test_case": "bowtie2"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453441/capture/manifest.json",
+                "sha256": "bd8f1ba6fa53f8bca55d8669389cdcdad212a92bbbd85b19dfb3363b7b2b378c"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453441/qualification/RESULT.json",
+                "sha256": "eaea8c148567a9de4ae4188332487d14a1ddb423ab9bddde44c2397241475adb"
+              }
+            ],
+            "statement": "The parent review observed workflow.success in all real cases. This compact capsule independently retains selected successful reporting tasks and test outcomes; full pipeline logs are not copied.",
+            "status": "UNKNOWN"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460",
+          "literal_execution_source": {
+            "git_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+            "source_map": "41777278460-attempt-1/default/25.10.4"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453441/capture/manifest.json",
+                "sha256": "bd8f1ba6fa53f8bca55d8669389cdcdad212a92bbbd85b19dfb3363b7b2b378c"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453441/qualification/RESULT.json",
+                "sha256": "eaea8c148567a9de4ae4188332487d14a1ddb423ab9bddde44c2397241475adb"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "FAIL"
+          },
+          "nextflow": "25.10.4",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453441/capture/manifest.json",
+                "sha256": "bd8f1ba6fa53f8bca55d8669389cdcdad212a92bbbd85b19dfb3363b7b2b378c"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453441/qualification/RESULT.json",
+                "sha256": "eaea8c148567a9de4ae4188332487d14a1ddb423ab9bddde44c2397241475adb"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "PASS"
+          },
+          "published_code_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "run_id": "41777278460/job-126400453441",
+          "test_case": "default"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453461/capture/manifest.json",
+                "sha256": "d53082e0acc2412f06a49bf7516fc53b8f644a10b31d02be803f2d3781004f74"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453461/qualification/RESULT.json",
+                "sha256": "cf3b7cedc5df0ed2bfff873ec86eb0120034851db2631275043ec801c14168b7"
+              }
+            ],
+            "statement": "The parent review observed workflow.success in all real cases. This compact capsule independently retains selected successful reporting tasks and test outcomes; full pipeline logs are not copied.",
+            "status": "UNKNOWN"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460",
+          "literal_execution_source": {
+            "git_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+            "source_map": "41777278460-attempt-1/bowtie2/25.10.4"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453461/capture/manifest.json",
+                "sha256": "d53082e0acc2412f06a49bf7516fc53b8f644a10b31d02be803f2d3781004f74"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453461/qualification/RESULT.json",
+                "sha256": "cf3b7cedc5df0ed2bfff873ec86eb0120034851db2631275043ec801c14168b7"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "FAIL"
+          },
+          "nextflow": "25.10.4",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453461/capture/manifest.json",
+                "sha256": "d53082e0acc2412f06a49bf7516fc53b8f644a10b31d02be803f2d3781004f74"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453461/qualification/RESULT.json",
+                "sha256": "cf3b7cedc5df0ed2bfff873ec86eb0120034851db2631275043ec801c14168b7"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "FAIL"
+          },
+          "published_code_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "run_id": "41777278460/job-126400453461",
+          "test_case": "bowtie2"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453474/capture/manifest.json",
+                "sha256": "47201c7e806e4e10b327e3b2604d3d0d0793afe7ab11ce3bc3d9d91e2ab6e298"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453474/qualification/RESULT.json",
+                "sha256": "3ebd9d066e8d95ced644d012e9e759a747fc66f16453f210505a988bfd94c779"
+              }
+            ],
+            "statement": "The parent review observed workflow.success in all real cases. This compact capsule independently retains selected successful reporting tasks and test outcomes; full pipeline logs are not copied.",
+            "status": "UNKNOWN"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460",
+          "literal_execution_source": {
+            "git_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+            "source_map": "41777278460-attempt-1/chromap/26.10.5"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453474/capture/manifest.json",
+                "sha256": "47201c7e806e4e10b327e3b2604d3d0d0793afe7ab11ce3bc3d9d91e2ab6e298"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453474/qualification/RESULT.json",
+                "sha256": "3ebd9d066e8d95ced644d012e9e759a747fc66f16453f210505a988bfd94c779"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "FAIL"
+          },
+          "nextflow": "26.10.5",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453474/capture/manifest.json",
+                "sha256": "47201c7e806e4e10b327e3b2604d3d0d0793afe7ab11ce3bc3d9d91e2ab6e298"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453474/qualification/RESULT.json",
+                "sha256": "3ebd9d066e8d95ced644d012e9e759a747fc66f16453f210505a988bfd94c779"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "FAIL"
+          },
+          "published_code_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "run_id": "41777278460/job-126400453474",
+          "test_case": "chromap"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453536/capture/manifest.json",
+                "sha256": "f6f2070ee4ed047a1fcf5409675059fc5d26819b232d63baca0c56e463ea6474"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453536/qualification/RESULT.json",
+                "sha256": "778459b247978656579216d3718c797c4421b2168b1204e23ca643fdc1b4d383"
+              }
+            ],
+            "statement": "The parent review observed workflow.success in all real cases. This compact capsule independently retains selected successful reporting tasks and test outcomes; full pipeline logs are not copied.",
+            "status": "UNKNOWN"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460",
+          "literal_execution_source": {
+            "git_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+            "source_map": "41777278460-attempt-1/skip_consensus_peaks/25.10.4"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453536/capture/manifest.json",
+                "sha256": "f6f2070ee4ed047a1fcf5409675059fc5d26819b232d63baca0c56e463ea6474"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453536/qualification/RESULT.json",
+                "sha256": "778459b247978656579216d3718c797c4421b2168b1204e23ca643fdc1b4d383"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "FAIL"
+          },
+          "nextflow": "25.10.4",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453536/capture/manifest.json",
+                "sha256": "f6f2070ee4ed047a1fcf5409675059fc5d26819b232d63baca0c56e463ea6474"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453536/qualification/RESULT.json",
+                "sha256": "778459b247978656579216d3718c797c4421b2168b1204e23ca643fdc1b4d383"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "PASS"
+          },
+          "published_code_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "run_id": "41777278460/job-126400453536",
+          "test_case": "skip_consensus_peaks"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453563/capture/manifest.json",
+                "sha256": "ff1b9fe8d94c5d510e1c15a505dbc3781b8d2c9f939fab096b4f89bb7e75ae2e"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453563/qualification/RESULT.json",
+                "sha256": "502fde0f37b791ac42585002e19df95e56969d069ab5773a10149c8bd2f31e2d"
+              }
+            ],
+            "statement": "The parent review observed workflow.success in all real cases. This compact capsule independently retains selected successful reporting tasks and test outcomes; full pipeline logs are not copied.",
+            "status": "UNKNOWN"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460",
+          "literal_execution_source": {
+            "git_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+            "source_map": "41777278460-attempt-1/skip_trimming/26.10.5"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453563/capture/manifest.json",
+                "sha256": "ff1b9fe8d94c5d510e1c15a505dbc3781b8d2c9f939fab096b4f89bb7e75ae2e"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453563/qualification/RESULT.json",
+                "sha256": "502fde0f37b791ac42585002e19df95e56969d069ab5773a10149c8bd2f31e2d"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "FAIL"
+          },
+          "nextflow": "26.10.5",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453563/capture/manifest.json",
+                "sha256": "ff1b9fe8d94c5d510e1c15a505dbc3781b8d2c9f939fab096b4f89bb7e75ae2e"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453563/qualification/RESULT.json",
+                "sha256": "502fde0f37b791ac42585002e19df95e56969d069ab5773a10149c8bd2f31e2d"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "FAIL"
+          },
+          "published_code_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "run_id": "41777278460/job-126400453563",
+          "test_case": "skip_trimming"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453567/capture/manifest.json",
+                "sha256": "f1b7c3ed1f25c140967f0b391806ded817218e6f0378df58faa0d720144adde8"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453567/qualification/RESULT.json",
+                "sha256": "afc72559c25b089a04c161654de30445f93c4401649fc66aa6d5c175f384bec7"
+              }
+            ],
+            "statement": "The parent review observed workflow.success in all real cases. This compact capsule independently retains selected successful reporting tasks and test outcomes; full pipeline logs are not copied.",
+            "status": "UNKNOWN"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460",
+          "literal_execution_source": {
+            "git_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+            "source_map": "41777278460-attempt-1/star/26.10.5"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453567/capture/manifest.json",
+                "sha256": "f1b7c3ed1f25c140967f0b391806ded817218e6f0378df58faa0d720144adde8"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453567/qualification/RESULT.json",
+                "sha256": "afc72559c25b089a04c161654de30445f93c4401649fc66aa6d5c175f384bec7"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "FAIL"
+          },
+          "nextflow": "26.10.5",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453567/capture/manifest.json",
+                "sha256": "f1b7c3ed1f25c140967f0b391806ded817218e6f0378df58faa0d720144adde8"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453567/qualification/RESULT.json",
+                "sha256": "afc72559c25b089a04c161654de30445f93c4401649fc66aa6d5c175f384bec7"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "FAIL"
+          },
+          "published_code_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "run_id": "41777278460/job-126400453567",
+          "test_case": "star"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453617/capture/manifest.json",
+                "sha256": "58b9c57b191449817877fb6dfe583a9232e9c08651cce30d43964a447938400d"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453617/qualification/RESULT.json",
+                "sha256": "d26df180f1b74c38e815e86db1df91dd711f9c48fd1da77f3f13b68907e1a923"
+              }
+            ],
+            "statement": "The parent review observed workflow.success in all real cases. This compact capsule independently retains selected successful reporting tasks and test outcomes; full pipeline logs are not copied.",
+            "status": "UNKNOWN"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460",
+          "literal_execution_source": {
+            "git_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+            "source_map": "41777278460-attempt-1/star/25.10.4"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453617/capture/manifest.json",
+                "sha256": "58b9c57b191449817877fb6dfe583a9232e9c08651cce30d43964a447938400d"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453617/qualification/RESULT.json",
+                "sha256": "d26df180f1b74c38e815e86db1df91dd711f9c48fd1da77f3f13b68907e1a923"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "FAIL"
+          },
+          "nextflow": "25.10.4",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453617/capture/manifest.json",
+                "sha256": "58b9c57b191449817877fb6dfe583a9232e9c08651cce30d43964a447938400d"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453617/qualification/RESULT.json",
+                "sha256": "d26df180f1b74c38e815e86db1df91dd711f9c48fd1da77f3f13b68907e1a923"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "FAIL"
+          },
+          "published_code_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "run_id": "41777278460/job-126400453617",
+          "test_case": "star"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453636/capture/manifest.json",
+                "sha256": "cdbcabc726e790f464b933635955498bc4141e4958a40871763b0d6f6b83ebda"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453636/qualification/RESULT.json",
+                "sha256": "2a5be07ef7f781cb4aca740ea18ea9c3add9766a5038391413a3eac5754111ba"
+              }
+            ],
+            "statement": "The parent review observed workflow.success in all real cases. This compact capsule independently retains selected successful reporting tasks and test outcomes; full pipeline logs are not copied.",
+            "status": "UNKNOWN"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460",
+          "literal_execution_source": {
+            "git_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+            "source_map": "41777278460-attempt-1/controls/25.10.4"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453636/capture/manifest.json",
+                "sha256": "cdbcabc726e790f464b933635955498bc4141e4958a40871763b0d6f6b83ebda"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453636/qualification/RESULT.json",
+                "sha256": "2a5be07ef7f781cb4aca740ea18ea9c3add9766a5038391413a3eac5754111ba"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "FAIL"
+          },
+          "nextflow": "25.10.4",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453636/capture/manifest.json",
+                "sha256": "cdbcabc726e790f464b933635955498bc4141e4958a40871763b0d6f6b83ebda"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453636/qualification/RESULT.json",
+                "sha256": "2a5be07ef7f781cb4aca740ea18ea9c3add9766a5038391413a3eac5754111ba"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "PASS"
+          },
+          "published_code_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "run_id": "41777278460/job-126400453636",
+          "test_case": "controls"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453637/capture/manifest.json",
+                "sha256": "21f48f066808049bb689373c81f9b13191b3fc0bebf083317e97d4e85d5c97d2"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453637/qualification/RESULT.json",
+                "sha256": "8551a4f63a0b2d1f69c5dd078b938d4366335bb36e74bdddac601fa991b1e2d9"
+              }
+            ],
+            "statement": "The parent review observed workflow.success in all real cases. This compact capsule independently retains selected successful reporting tasks and test outcomes; full pipeline logs are not copied.",
+            "status": "UNKNOWN"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460",
+          "literal_execution_source": {
+            "git_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+            "source_map": "41777278460-attempt-1/default/26.10.5"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453637/capture/manifest.json",
+                "sha256": "21f48f066808049bb689373c81f9b13191b3fc0bebf083317e97d4e85d5c97d2"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453637/qualification/RESULT.json",
+                "sha256": "8551a4f63a0b2d1f69c5dd078b938d4366335bb36e74bdddac601fa991b1e2d9"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "FAIL"
+          },
+          "nextflow": "26.10.5",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453637/capture/manifest.json",
+                "sha256": "21f48f066808049bb689373c81f9b13191b3fc0bebf083317e97d4e85d5c97d2"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453637/qualification/RESULT.json",
+                "sha256": "8551a4f63a0b2d1f69c5dd078b938d4366335bb36e74bdddac601fa991b1e2d9"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "PASS"
+          },
+          "published_code_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "run_id": "41777278460/job-126400453637",
+          "test_case": "default"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453708/capture/manifest.json",
+                "sha256": "5f3afd0bbb81c7c7ad6eb4be27f2f349c417816b435e679fcc9b2dc7790e79f8"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453708/qualification/RESULT.json",
+                "sha256": "df340ad4a975cea138cfbb144eb3a9d876480eff2aabbd9b0cd5781132f7bf82"
+              }
+            ],
+            "statement": "The parent review observed workflow.success in all real cases. This compact capsule independently retains selected successful reporting tasks and test outcomes; full pipeline logs are not copied.",
+            "status": "UNKNOWN"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460",
+          "literal_execution_source": {
+            "git_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+            "source_map": "41777278460-attempt-1/skip_trimming/25.10.4"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453708/capture/manifest.json",
+                "sha256": "5f3afd0bbb81c7c7ad6eb4be27f2f349c417816b435e679fcc9b2dc7790e79f8"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453708/qualification/RESULT.json",
+                "sha256": "df340ad4a975cea138cfbb144eb3a9d876480eff2aabbd9b0cd5781132f7bf82"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "FAIL"
+          },
+          "nextflow": "25.10.4",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453708/capture/manifest.json",
+                "sha256": "5f3afd0bbb81c7c7ad6eb4be27f2f349c417816b435e679fcc9b2dc7790e79f8"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453708/qualification/RESULT.json",
+                "sha256": "df340ad4a975cea138cfbb144eb3a9d876480eff2aabbd9b0cd5781132f7bf82"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "FAIL"
+          },
+          "published_code_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "run_id": "41777278460/job-126400453708",
+          "test_case": "skip_trimming"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453741/capture/manifest.json",
+                "sha256": "2a151e4687a77fed11093ebe1abcc0e0ac7c8152badad1e23cd8005dfa3fde7e"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453741/qualification/RESULT.json",
+                "sha256": "5b3805724e08024a37e5fbba8bb9dae44d7b47ae10bc36a3dc9b559aa15f366f"
+              }
+            ],
+            "statement": "The parent review observed workflow.success in all real cases. This compact capsule independently retains selected successful reporting tasks and test outcomes; full pipeline logs are not copied.",
+            "status": "UNKNOWN"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460",
+          "literal_execution_source": {
+            "git_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+            "source_map": "41777278460-attempt-1/skip_consensus_peaks/26.10.5"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453741/capture/manifest.json",
+                "sha256": "2a151e4687a77fed11093ebe1abcc0e0ac7c8152badad1e23cd8005dfa3fde7e"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453741/qualification/RESULT.json",
+                "sha256": "5b3805724e08024a37e5fbba8bb9dae44d7b47ae10bc36a3dc9b559aa15f366f"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "FAIL"
+          },
+          "nextflow": "26.10.5",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453741/capture/manifest.json",
+                "sha256": "2a151e4687a77fed11093ebe1abcc0e0ac7c8152badad1e23cd8005dfa3fde7e"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453741/qualification/RESULT.json",
+                "sha256": "5b3805724e08024a37e5fbba8bb9dae44d7b47ae10bc36a3dc9b559aa15f366f"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "PASS"
+          },
+          "published_code_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "run_id": "41777278460/job-126400453741",
+          "test_case": "skip_consensus_peaks"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453801/capture/manifest.json",
+                "sha256": "9d11071ee7637db71f31b6bb709507d435b19931bb3772a7041dcd6dfbc9fe57"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453801/qualification/RESULT.json",
+                "sha256": "462625b14524161547bb4eb8b4a5be082b43d95093c76e7e8e821ea6da065917"
+              }
+            ],
+            "statement": "The parent review observed workflow.success in all real cases. This compact capsule independently retains selected successful reporting tasks and test outcomes; full pipeline logs are not copied.",
+            "status": "UNKNOWN"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41777278460",
+          "literal_execution_source": {
+            "git_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+            "source_map": "41777278460-attempt-1/controls/26.10.5"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453801/capture/manifest.json",
+                "sha256": "9d11071ee7637db71f31b6bb709507d435b19931bb3772a7041dcd6dfbc9fe57"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453801/qualification/RESULT.json",
+                "sha256": "462625b14524161547bb4eb8b4a5be082b43d95093c76e7e8e821ea6da065917"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "FAIL"
+          },
+          "nextflow": "26.10.5",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453801/capture/manifest.json",
+                "sha256": "9d11071ee7637db71f31b6bb709507d435b19931bb3772a7041dcd6dfbc9fe57"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453801/qualification/RESULT.json",
+                "sha256": "462625b14524161547bb4eb8b4a5be082b43d95093c76e7e8e821ea6da065917"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "PASS"
+          },
+          "published_code_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f",
+          "run_id": "41777278460/job-126400453801",
+          "test_case": "controls"
+        },
+        {
+          "execution": {
+            "assertion_test_source_sha256": "1bd67df3443c57083b59bd67453aa0007f04fcc8ceac2b0dbed6518305b60916",
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628913/capture/manifest.json",
+                "sha256": "ba794b6f4d06f5c8358fe4f32d9975b464ed5c84f009e0c328c583d1f9a133ab"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628913/qualification/RESULT.json",
+                "sha256": "77d8a28714749e9b21f6e58b3dc9397addc2cfb6244bb1d6aacb667aa4794684"
+              }
+            ],
+            "inference": true,
+            "real_tap_name": "Test pipeline with bowtie2 aligner: bowtie2",
+            "statement": "Inferred pipeline completion: the matching real TAP case passes against the exact captured Git test source, which asserts workflow.success. This is not a full-cohort scientific equivalence claim or a complete task-trace inventory.",
+            "status": "PASS",
+            "tap_sha256": "674c145c6368a4fff91b4b343b52b9905af010ec3f6f524f08eb3fb9554c5db3"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985",
+          "literal_execution_source": {
+            "git_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+            "source_map": "41782995985-attempt-1/bowtie2/25.10.4"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628913/capture/manifest.json",
+                "sha256": "ba794b6f4d06f5c8358fe4f32d9975b464ed5c84f009e0c328c583d1f9a133ab"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628913/qualification/RESULT.json",
+                "sha256": "77d8a28714749e9b21f6e58b3dc9397addc2cfb6244bb1d6aacb667aa4794684"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "PASS"
+          },
+          "nextflow": "25.10.4",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628913/capture/manifest.json",
+                "sha256": "ba794b6f4d06f5c8358fe4f32d9975b464ed5c84f009e0c328c583d1f9a133ab"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628913/qualification/RESULT.json",
+                "sha256": "77d8a28714749e9b21f6e58b3dc9397addc2cfb6244bb1d6aacb667aa4794684"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "PASS"
+          },
+          "published_code_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "run_id": "41782995985/job-126418628913",
+          "test_case": "bowtie2"
+        },
+        {
+          "execution": {
+            "assertion_test_source_sha256": "1bd67df3443c57083b59bd67453aa0007f04fcc8ceac2b0dbed6518305b60916",
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628984/capture/manifest.json",
+                "sha256": "2d66d8eeaf974741f974f577257d5a396c1147bc0be547064ae1ce184be0b5ee"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628984/qualification/RESULT.json",
+                "sha256": "7d79288109b7acd9b014790daa8f779dbab1665c109c8d6bc0aa2f57e242996a"
+              }
+            ],
+            "inference": true,
+            "real_tap_name": "Test pipeline with bowtie2 aligner: bowtie2",
+            "statement": "Inferred pipeline completion: the matching real TAP case passes against the exact captured Git test source, which asserts workflow.success. This is not a full-cohort scientific equivalence claim or a complete task-trace inventory.",
+            "status": "PASS",
+            "tap_sha256": "674c145c6368a4fff91b4b343b52b9905af010ec3f6f524f08eb3fb9554c5db3"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985",
+          "literal_execution_source": {
+            "git_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+            "source_map": "41782995985-attempt-1/bowtie2/26.10.5"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628984/capture/manifest.json",
+                "sha256": "2d66d8eeaf974741f974f577257d5a396c1147bc0be547064ae1ce184be0b5ee"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628984/qualification/RESULT.json",
+                "sha256": "7d79288109b7acd9b014790daa8f779dbab1665c109c8d6bc0aa2f57e242996a"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "PASS"
+          },
+          "nextflow": "26.10.5",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628984/capture/manifest.json",
+                "sha256": "2d66d8eeaf974741f974f577257d5a396c1147bc0be547064ae1ce184be0b5ee"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628984/qualification/RESULT.json",
+                "sha256": "7d79288109b7acd9b014790daa8f779dbab1665c109c8d6bc0aa2f57e242996a"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "PASS"
+          },
+          "published_code_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "run_id": "41782995985/job-126418628984",
+          "test_case": "bowtie2"
+        },
+        {
+          "execution": {
+            "assertion_test_source_sha256": "4a7e021b00042e26edb00a29734aa7820c5314866dbfd24ed44060a0df56eb13",
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628998/capture/manifest.json",
+                "sha256": "5354c9a46beeefb3efb9912ba03aed1d6edeb45372a7a6b3a2297a7ee695229e"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628998/qualification/RESULT.json",
+                "sha256": "64e9d0225f4d2c5984e70dd3801d92b31a6617876f2f7268b2853eee94e4838b"
+              }
+            ],
+            "inference": true,
+            "real_tap_name": "Test pipeline with chromap aligner: chromap",
+            "statement": "Inferred pipeline completion: the matching real TAP case passes against the exact captured Git test source, which asserts workflow.success. This is not a full-cohort scientific equivalence claim or a complete task-trace inventory.",
+            "status": "PASS",
+            "tap_sha256": "4dcc203c278664d4c990dbf29bcf6b9c53b21041d182c01c461fe59f8870b295"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985",
+          "literal_execution_source": {
+            "git_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+            "source_map": "41782995985-attempt-1/chromap/25.10.4"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628998/capture/manifest.json",
+                "sha256": "5354c9a46beeefb3efb9912ba03aed1d6edeb45372a7a6b3a2297a7ee695229e"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628998/qualification/RESULT.json",
+                "sha256": "64e9d0225f4d2c5984e70dd3801d92b31a6617876f2f7268b2853eee94e4838b"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "PASS"
+          },
+          "nextflow": "25.10.4",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628998/capture/manifest.json",
+                "sha256": "5354c9a46beeefb3efb9912ba03aed1d6edeb45372a7a6b3a2297a7ee695229e"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628998/qualification/RESULT.json",
+                "sha256": "64e9d0225f4d2c5984e70dd3801d92b31a6617876f2f7268b2853eee94e4838b"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "PASS"
+          },
+          "published_code_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "run_id": "41782995985/job-126418628998",
+          "test_case": "chromap"
+        },
+        {
+          "execution": {
+            "assertion_test_source_sha256": "4a7e021b00042e26edb00a29734aa7820c5314866dbfd24ed44060a0df56eb13",
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628926/capture/manifest.json",
+                "sha256": "6105a475ab436c851b20834ad23166764f5e12410e125f9a81b51798b1555697"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628926/qualification/RESULT.json",
+                "sha256": "35e438313fa53de759e696151fe60482d626b77f2c6796a73243cff439a654cb"
+              }
+            ],
+            "inference": true,
+            "real_tap_name": "Test pipeline with chromap aligner: chromap",
+            "statement": "Inferred pipeline completion: the matching real TAP case passes against the exact captured Git test source, which asserts workflow.success. This is not a full-cohort scientific equivalence claim or a complete task-trace inventory.",
+            "status": "PASS",
+            "tap_sha256": "4dcc203c278664d4c990dbf29bcf6b9c53b21041d182c01c461fe59f8870b295"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985",
+          "literal_execution_source": {
+            "git_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+            "source_map": "41782995985-attempt-1/chromap/26.10.5"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628926/capture/manifest.json",
+                "sha256": "6105a475ab436c851b20834ad23166764f5e12410e125f9a81b51798b1555697"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628926/qualification/RESULT.json",
+                "sha256": "35e438313fa53de759e696151fe60482d626b77f2c6796a73243cff439a654cb"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "PASS"
+          },
+          "nextflow": "26.10.5",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628926/capture/manifest.json",
+                "sha256": "6105a475ab436c851b20834ad23166764f5e12410e125f9a81b51798b1555697"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628926/qualification/RESULT.json",
+                "sha256": "35e438313fa53de759e696151fe60482d626b77f2c6796a73243cff439a654cb"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "PASS"
+          },
+          "published_code_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "run_id": "41782995985/job-126418628926",
+          "test_case": "chromap"
+        },
+        {
+          "execution": {
+            "assertion_test_source_sha256": "35f8392142afa4061b79f6ac7a5d051a9707c777800f53250334eb386dd481dc",
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628931/capture/manifest.json",
+                "sha256": "e30eb6122d43801540106bae5612eca4b23f25a7dca83bc595d8e044d407825a"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628931/qualification/RESULT.json",
+                "sha256": "7ee3fe61fbe72c766dc65e53d2ed9bffa34dacc60a6298bef088943eb1f413c2"
+              }
+            ],
+            "inference": true,
+            "real_tap_name": "Test pipeline: -profile test_controls",
+            "statement": "Inferred pipeline completion: the matching real TAP case passes against the exact captured Git test source, which asserts workflow.success. This is not a full-cohort scientific equivalence claim or a complete task-trace inventory.",
+            "status": "PASS",
+            "tap_sha256": "39bf10494a7c3a6423f738b0373a2a74e0b2cc1699b8cd51afafca5a33de4720"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985",
+          "literal_execution_source": {
+            "git_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+            "source_map": "41782995985-attempt-1/controls/25.10.4"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628931/capture/manifest.json",
+                "sha256": "e30eb6122d43801540106bae5612eca4b23f25a7dca83bc595d8e044d407825a"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628931/qualification/RESULT.json",
+                "sha256": "7ee3fe61fbe72c766dc65e53d2ed9bffa34dacc60a6298bef088943eb1f413c2"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "PASS"
+          },
+          "nextflow": "25.10.4",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628931/capture/manifest.json",
+                "sha256": "e30eb6122d43801540106bae5612eca4b23f25a7dca83bc595d8e044d407825a"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628931/qualification/RESULT.json",
+                "sha256": "7ee3fe61fbe72c766dc65e53d2ed9bffa34dacc60a6298bef088943eb1f413c2"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "PASS"
+          },
+          "published_code_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "run_id": "41782995985/job-126418628931",
+          "test_case": "controls"
+        },
+        {
+          "execution": {
+            "assertion_test_source_sha256": "35f8392142afa4061b79f6ac7a5d051a9707c777800f53250334eb386dd481dc",
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628707/capture/manifest.json",
+                "sha256": "46eaf86b237ebeea23e4cae09f65420015b326800e6115d90cd5903e48650273"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628707/qualification/RESULT.json",
+                "sha256": "c82390718e3cb150bb46051c38a7553dd50043540c1e92eb7dc77ff3bc17d58e"
+              }
+            ],
+            "inference": true,
+            "real_tap_name": "Test pipeline: -profile test_controls",
+            "statement": "Inferred pipeline completion: the matching real TAP case passes against the exact captured Git test source, which asserts workflow.success. This is not a full-cohort scientific equivalence claim or a complete task-trace inventory.",
+            "status": "PASS",
+            "tap_sha256": "39bf10494a7c3a6423f738b0373a2a74e0b2cc1699b8cd51afafca5a33de4720"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985",
+          "literal_execution_source": {
+            "git_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+            "source_map": "41782995985-attempt-1/controls/26.10.5"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628707/capture/manifest.json",
+                "sha256": "46eaf86b237ebeea23e4cae09f65420015b326800e6115d90cd5903e48650273"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628707/qualification/RESULT.json",
+                "sha256": "c82390718e3cb150bb46051c38a7553dd50043540c1e92eb7dc77ff3bc17d58e"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "PASS"
+          },
+          "nextflow": "26.10.5",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628707/capture/manifest.json",
+                "sha256": "46eaf86b237ebeea23e4cae09f65420015b326800e6115d90cd5903e48650273"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628707/qualification/RESULT.json",
+                "sha256": "c82390718e3cb150bb46051c38a7553dd50043540c1e92eb7dc77ff3bc17d58e"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "PASS"
+          },
+          "published_code_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "run_id": "41782995985/job-126418628707",
+          "test_case": "controls"
+        },
+        {
+          "execution": {
+            "assertion_test_source_sha256": "a85be01eef16b368080db61db67414972f60a0f88ec4ef7e9b013430a9f82610",
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418629107/capture/manifest.json",
+                "sha256": "b82c00c8fff848e42e47b81dff3e679bba005205268045b85c0fa54a4f53d266"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418629107/qualification/RESULT.json",
+                "sha256": "9f0de666438b3cb901ee826f5448472e4b5716f156f389fd756484c4562e326d"
+              }
+            ],
+            "inference": true,
+            "real_tap_name": "Test pipeline: -profile test",
+            "statement": "Inferred pipeline completion: the matching real TAP case passes against the exact captured Git test source, which asserts workflow.success. This is not a full-cohort scientific equivalence claim or a complete task-trace inventory.",
+            "status": "PASS",
+            "tap_sha256": "f46e86652cb77b73969b47cf6734830dd995ecca8644044bd268805eea1113ad"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985",
+          "literal_execution_source": {
+            "git_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+            "source_map": "41782995985-attempt-1/default/25.10.4"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418629107/capture/manifest.json",
+                "sha256": "b82c00c8fff848e42e47b81dff3e679bba005205268045b85c0fa54a4f53d266"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418629107/qualification/RESULT.json",
+                "sha256": "9f0de666438b3cb901ee826f5448472e4b5716f156f389fd756484c4562e326d"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "PASS"
+          },
+          "nextflow": "25.10.4",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418629107/capture/manifest.json",
+                "sha256": "b82c00c8fff848e42e47b81dff3e679bba005205268045b85c0fa54a4f53d266"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418629107/qualification/RESULT.json",
+                "sha256": "9f0de666438b3cb901ee826f5448472e4b5716f156f389fd756484c4562e326d"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "PASS"
+          },
+          "published_code_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "run_id": "41782995985/job-126418629107",
+          "test_case": "default"
+        },
+        {
+          "execution": {
+            "assertion_test_source_sha256": "a85be01eef16b368080db61db67414972f60a0f88ec4ef7e9b013430a9f82610",
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628864/capture/manifest.json",
+                "sha256": "fc7ad504f066a82f1e5c7efadeabe017f8a9a69b8afdd082f2cabd39d9dbd6a2"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628864/qualification/RESULT.json",
+                "sha256": "296feaf2c3ab82190f10c811c3c224f7e41f8617fbf09b9d2252245736077974"
+              }
+            ],
+            "inference": true,
+            "real_tap_name": "Test pipeline: -profile test",
+            "statement": "Inferred pipeline completion: the matching real TAP case passes against the exact captured Git test source, which asserts workflow.success. This is not a full-cohort scientific equivalence claim or a complete task-trace inventory.",
+            "status": "PASS",
+            "tap_sha256": "f46e86652cb77b73969b47cf6734830dd995ecca8644044bd268805eea1113ad"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985",
+          "literal_execution_source": {
+            "git_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+            "source_map": "41782995985-attempt-1/default/26.10.5"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628864/capture/manifest.json",
+                "sha256": "fc7ad504f066a82f1e5c7efadeabe017f8a9a69b8afdd082f2cabd39d9dbd6a2"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628864/qualification/RESULT.json",
+                "sha256": "296feaf2c3ab82190f10c811c3c224f7e41f8617fbf09b9d2252245736077974"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "PASS"
+          },
+          "nextflow": "26.10.5",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628864/capture/manifest.json",
+                "sha256": "fc7ad504f066a82f1e5c7efadeabe017f8a9a69b8afdd082f2cabd39d9dbd6a2"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628864/qualification/RESULT.json",
+                "sha256": "296feaf2c3ab82190f10c811c3c224f7e41f8617fbf09b9d2252245736077974"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "PASS"
+          },
+          "published_code_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "run_id": "41782995985/job-126418628864",
+          "test_case": "default"
+        },
+        {
+          "execution": {
+            "assertion_test_source_sha256": "a854f2919e7cb2de0b339cbf967fa76999fac927323e109c099ddab9493b8028",
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628794/capture/manifest.json",
+                "sha256": "e5c23cbba02fdbef77af837fb91a375e7c4365b9788c7707eb22a1079f9119e3"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628794/qualification/RESULT.json",
+                "sha256": "3da5584d7d8a73fdf84978324a368bbfa86f090f8dea33a0fe111c446090390a"
+              }
+            ],
+            "inference": true,
+            "real_tap_name": "Test pipeline with --skip_consensus_peaks: skip_consensus_peaks",
+            "statement": "Inferred pipeline completion: the matching real TAP case passes against the exact captured Git test source, which asserts workflow.success. This is not a full-cohort scientific equivalence claim or a complete task-trace inventory.",
+            "status": "PASS",
+            "tap_sha256": "011dc8e52e338dc331a1bc4e9fdcf3279a482bef689d5ae9623b3d45526c6812"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985",
+          "literal_execution_source": {
+            "git_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+            "source_map": "41782995985-attempt-1/skip_consensus_peaks/25.10.4"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628794/capture/manifest.json",
+                "sha256": "e5c23cbba02fdbef77af837fb91a375e7c4365b9788c7707eb22a1079f9119e3"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628794/qualification/RESULT.json",
+                "sha256": "3da5584d7d8a73fdf84978324a368bbfa86f090f8dea33a0fe111c446090390a"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "PASS"
+          },
+          "nextflow": "25.10.4",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628794/capture/manifest.json",
+                "sha256": "e5c23cbba02fdbef77af837fb91a375e7c4365b9788c7707eb22a1079f9119e3"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628794/qualification/RESULT.json",
+                "sha256": "3da5584d7d8a73fdf84978324a368bbfa86f090f8dea33a0fe111c446090390a"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "PASS"
+          },
+          "published_code_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "run_id": "41782995985/job-126418628794",
+          "test_case": "skip_consensus_peaks"
+        },
+        {
+          "execution": {
+            "assertion_test_source_sha256": "a854f2919e7cb2de0b339cbf967fa76999fac927323e109c099ddab9493b8028",
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628965/capture/manifest.json",
+                "sha256": "de0792374691b34edb2a8b6582a9402f2bc5f8c690186be6c5c7515904ebb7d8"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628965/qualification/RESULT.json",
+                "sha256": "69a734eb377b57dc61e4148c837b9e624270e4d02c32d045c6e9d2bf15deb3cf"
+              }
+            ],
+            "inference": true,
+            "real_tap_name": "Test pipeline with --skip_consensus_peaks: skip_consensus_peaks",
+            "statement": "Inferred pipeline completion: the matching real TAP case passes against the exact captured Git test source, which asserts workflow.success. This is not a full-cohort scientific equivalence claim or a complete task-trace inventory.",
+            "status": "PASS",
+            "tap_sha256": "011dc8e52e338dc331a1bc4e9fdcf3279a482bef689d5ae9623b3d45526c6812"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985",
+          "literal_execution_source": {
+            "git_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+            "source_map": "41782995985-attempt-1/skip_consensus_peaks/26.10.5"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628965/capture/manifest.json",
+                "sha256": "de0792374691b34edb2a8b6582a9402f2bc5f8c690186be6c5c7515904ebb7d8"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628965/qualification/RESULT.json",
+                "sha256": "69a734eb377b57dc61e4148c837b9e624270e4d02c32d045c6e9d2bf15deb3cf"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "PASS"
+          },
+          "nextflow": "26.10.5",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628965/capture/manifest.json",
+                "sha256": "de0792374691b34edb2a8b6582a9402f2bc5f8c690186be6c5c7515904ebb7d8"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628965/qualification/RESULT.json",
+                "sha256": "69a734eb377b57dc61e4148c837b9e624270e4d02c32d045c6e9d2bf15deb3cf"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "PASS"
+          },
+          "published_code_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "run_id": "41782995985/job-126418628965",
+          "test_case": "skip_consensus_peaks"
+        },
+        {
+          "execution": {
+            "assertion_test_source_sha256": "12abb1957a63469eba7dad0b1b3419dc9a6760c5c0909e394aa776766eddafa0",
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628804/capture/manifest.json",
+                "sha256": "32b436b01e23f4891d439173ba0b49bc33c725b169026c36d4b13a9994227e84"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628804/qualification/RESULT.json",
+                "sha256": "42ac94eb25129c56ceafc54d229e51d7f84c079683700e3f42c89539fb95d285"
+              }
+            ],
+            "inference": true,
+            "real_tap_name": "Test pipeline with --skip_trimming: skip_trimming",
+            "statement": "Inferred pipeline completion: the matching real TAP case passes against the exact captured Git test source, which asserts workflow.success. This is not a full-cohort scientific equivalence claim or a complete task-trace inventory.",
+            "status": "PASS",
+            "tap_sha256": "10f8a1d2e3647ec31bb3791ce2ec29b0641fae16935aad8d5b5a66b205d99c62"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985",
+          "literal_execution_source": {
+            "git_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+            "source_map": "41782995985-attempt-1/skip_trimming/25.10.4"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628804/capture/manifest.json",
+                "sha256": "32b436b01e23f4891d439173ba0b49bc33c725b169026c36d4b13a9994227e84"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628804/qualification/RESULT.json",
+                "sha256": "42ac94eb25129c56ceafc54d229e51d7f84c079683700e3f42c89539fb95d285"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "PASS"
+          },
+          "nextflow": "25.10.4",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628804/capture/manifest.json",
+                "sha256": "32b436b01e23f4891d439173ba0b49bc33c725b169026c36d4b13a9994227e84"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628804/qualification/RESULT.json",
+                "sha256": "42ac94eb25129c56ceafc54d229e51d7f84c079683700e3f42c89539fb95d285"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "PASS"
+          },
+          "published_code_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "run_id": "41782995985/job-126418628804",
+          "test_case": "skip_trimming"
+        },
+        {
+          "execution": {
+            "assertion_test_source_sha256": "12abb1957a63469eba7dad0b1b3419dc9a6760c5c0909e394aa776766eddafa0",
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628929/capture/manifest.json",
+                "sha256": "1a8630d98b87c7d590d21c828d59955c8f32ac2c13106563502ae4f68b712e8d"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628929/qualification/RESULT.json",
+                "sha256": "fb4e3d5b4a604683a79721e8e174c1f861d5a09462de9122ab57b8377ba3b4c5"
+              }
+            ],
+            "inference": true,
+            "real_tap_name": "Test pipeline with --skip_trimming: skip_trimming",
+            "statement": "Inferred pipeline completion: the matching real TAP case passes against the exact captured Git test source, which asserts workflow.success. This is not a full-cohort scientific equivalence claim or a complete task-trace inventory.",
+            "status": "PASS",
+            "tap_sha256": "10f8a1d2e3647ec31bb3791ce2ec29b0641fae16935aad8d5b5a66b205d99c62"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985",
+          "literal_execution_source": {
+            "git_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+            "source_map": "41782995985-attempt-1/skip_trimming/26.10.5"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628929/capture/manifest.json",
+                "sha256": "1a8630d98b87c7d590d21c828d59955c8f32ac2c13106563502ae4f68b712e8d"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628929/qualification/RESULT.json",
+                "sha256": "fb4e3d5b4a604683a79721e8e174c1f861d5a09462de9122ab57b8377ba3b4c5"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "PASS"
+          },
+          "nextflow": "26.10.5",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628929/capture/manifest.json",
+                "sha256": "1a8630d98b87c7d590d21c828d59955c8f32ac2c13106563502ae4f68b712e8d"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628929/qualification/RESULT.json",
+                "sha256": "fb4e3d5b4a604683a79721e8e174c1f861d5a09462de9122ab57b8377ba3b4c5"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "PASS"
+          },
+          "published_code_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "run_id": "41782995985/job-126418628929",
+          "test_case": "skip_trimming"
+        },
+        {
+          "execution": {
+            "assertion_test_source_sha256": "e32c3eb21868fd163c591889bc207c129d14d9c792184a491dd98091643f9a4d",
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628862/capture/manifest.json",
+                "sha256": "f7b0a49012de825f923e3048b0b834e19576dc5f7e1b4bc55f832fb6dc3e7c37"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628862/qualification/RESULT.json",
+                "sha256": "f7fa0560a808e500e5705a3898d008fb2b5f90f5c9b7724c8944c1fc2c1f46cc"
+              }
+            ],
+            "inference": true,
+            "real_tap_name": "Test pipeline with STAR aligner: star",
+            "statement": "Inferred pipeline completion: the matching real TAP case passes against the exact captured Git test source, which asserts workflow.success. This is not a full-cohort scientific equivalence claim or a complete task-trace inventory.",
+            "status": "PASS",
+            "tap_sha256": "264ec207f70e2cf65e88d09d0a28efac3a6fedad6fc5e506b21bb7b0dd71fe3d"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985",
+          "literal_execution_source": {
+            "git_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+            "source_map": "41782995985-attempt-1/star/25.10.4"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628862/capture/manifest.json",
+                "sha256": "f7b0a49012de825f923e3048b0b834e19576dc5f7e1b4bc55f832fb6dc3e7c37"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628862/qualification/RESULT.json",
+                "sha256": "f7fa0560a808e500e5705a3898d008fb2b5f90f5c9b7724c8944c1fc2c1f46cc"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "PASS"
+          },
+          "nextflow": "25.10.4",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628862/capture/manifest.json",
+                "sha256": "f7b0a49012de825f923e3048b0b834e19576dc5f7e1b4bc55f832fb6dc3e7c37"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628862/qualification/RESULT.json",
+                "sha256": "f7fa0560a808e500e5705a3898d008fb2b5f90f5c9b7724c8944c1fc2c1f46cc"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "PASS"
+          },
+          "published_code_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "run_id": "41782995985/job-126418628862",
+          "test_case": "star"
+        },
+        {
+          "execution": {
+            "assertion_test_source_sha256": "e32c3eb21868fd163c591889bc207c129d14d9c792184a491dd98091643f9a4d",
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628842/capture/manifest.json",
+                "sha256": "6af8c7e8dd9e5d2ca27e754320f4b7636d9cd1f27a63b7efa657c7773c389c7b"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628842/qualification/RESULT.json",
+                "sha256": "58b7050e23611f69d31e2e8f99516316b8a168dd90a56a8d78b8e15edbed331c"
+              }
+            ],
+            "inference": true,
+            "real_tap_name": "Test pipeline with STAR aligner: star",
+            "statement": "Inferred pipeline completion: the matching real TAP case passes against the exact captured Git test source, which asserts workflow.success. This is not a full-cohort scientific equivalence claim or a complete task-trace inventory.",
+            "status": "PASS",
+            "tap_sha256": "264ec207f70e2cf65e88d09d0a28efac3a6fedad6fc5e506b21bb7b0dd71fe3d"
+          },
+          "execution_kind": "Native public GitHub ubuntu-24.04 nf-test file job",
+          "github_run_url": "https://github.com/NicoDeVeaux/atacseq-nfcore/actions/runs/41782995985",
+          "literal_execution_source": {
+            "git_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+            "source_map": "41782995985-attempt-1/star/26.10.5"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628842/capture/manifest.json",
+                "sha256": "6af8c7e8dd9e5d2ca27e754320f4b7636d9cd1f27a63b7efa657c7773c389c7b"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628842/qualification/RESULT.json",
+                "sha256": "58b7050e23611f69d31e2e8f99516316b8a168dd90a56a8d78b8e15edbed331c"
+              }
+            ],
+            "statement": "Actual native job conclusion; qualifier success cannot override a failed ordinary assertion.",
+            "status": "PASS"
+          },
+          "nextflow": "26.10.5",
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628842/capture/manifest.json",
+                "sha256": "6af8c7e8dd9e5d2ca27e754320f4b7636d9cd1f27a63b7efa657c7773c389c7b"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628842/qualification/RESULT.json",
+                "sha256": "58b7050e23611f69d31e2e8f99516316b8a168dd90a56a8d78b8e15edbed331c"
+              }
+            ],
+            "statement": "Actual ordinary nf-test step; real/stub TAP statuses retained separately.",
+            "status": "PASS"
+          },
+          "published_code_commit": "e8aafb982ee08f9d681cec6aaef4440fb8d236ca",
+          "run_id": "41782995985/job-126418628842",
+          "test_case": "star"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453350/qualification/RESULT.json",
+                "sha256": "688700a23625e0e0e3601735dfb0fe0aa06925a9f9ee74b0458587bda3bc9a7e"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453350/AMENDMENT.json"
+              }
+            ],
+            "statement": "Actual report replay completed; original native qualification remains FAIL/PARTIAL.",
+            "status": "PASS"
+          },
+          "execution_kind": "Local posthoc report-only replay of native output",
+          "literal_execution_source": {
+            "controller_declared_audit_commit": "dc3aa9c80273836aeba79426da4ab19c6d1c6269",
+            "executed_report_qualifier_sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42",
+            "identity_limit": "The qualifier hash identifies actual replay code. The audit commit is a declaration; no fresh full workflow or NF engine invocation is claimed.",
+            "native_application_source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453350/qualification/RESULT.json",
+                "sha256": "688700a23625e0e0e3601735dfb0fe0aa06925a9f9ee74b0458587bda3bc9a7e"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453350/AMENDMENT.json"
+              }
+            ],
+            "statement": "This is a local bridge, not a native CI qualification PASS.",
+            "status": "NOT_RUN"
+          },
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453350/qualification/RESULT.json",
+                "sha256": "688700a23625e0e0e3601735dfb0fe0aa06925a9f9ee74b0458587bda3bc9a7e"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453350/AMENDMENT.json"
+              }
+            ],
+            "statement": "This report-only replay does not rerun ordinary nf-test.",
+            "status": "NOT_RUN"
+          },
+          "producer_nextflow": "25.10.4",
+          "run_id": "posthoc/job-126400453350/25.10.4",
+          "test_case": "chromap"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453406/qualification/RESULT.json",
+                "sha256": "30793a540499bf7c2c1322991423ce41c8c9fb06510505b9ed473bf5ae8a3b9a"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453406/AMENDMENT.json"
+              }
+            ],
+            "statement": "Actual report replay completed; original native qualification remains FAIL/PARTIAL.",
+            "status": "PASS"
+          },
+          "execution_kind": "Local posthoc report-only replay of native output",
+          "literal_execution_source": {
+            "controller_declared_audit_commit": "dc3aa9c80273836aeba79426da4ab19c6d1c6269",
+            "executed_report_qualifier_sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42",
+            "identity_limit": "The qualifier hash identifies actual replay code. The audit commit is a declaration; no fresh full workflow or NF engine invocation is claimed.",
+            "native_application_source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453406/qualification/RESULT.json",
+                "sha256": "30793a540499bf7c2c1322991423ce41c8c9fb06510505b9ed473bf5ae8a3b9a"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453406/AMENDMENT.json"
+              }
+            ],
+            "statement": "This is a local bridge, not a native CI qualification PASS.",
+            "status": "NOT_RUN"
+          },
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453406/qualification/RESULT.json",
+                "sha256": "30793a540499bf7c2c1322991423ce41c8c9fb06510505b9ed473bf5ae8a3b9a"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453406/AMENDMENT.json"
+              }
+            ],
+            "statement": "This report-only replay does not rerun ordinary nf-test.",
+            "status": "NOT_RUN"
+          },
+          "producer_nextflow": "26.10.5",
+          "run_id": "posthoc/job-126400453406/26.10.5",
+          "test_case": "bowtie2"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453441/qualification/RESULT.json",
+                "sha256": "3a0d6247a0c76885191526a9d1bf4f8c1ff7cfee7eefa6a951c835932343a22c"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453441/AMENDMENT.json"
+              }
+            ],
+            "statement": "Actual report replay completed; original native qualification remains FAIL/PARTIAL.",
+            "status": "PASS"
+          },
+          "execution_kind": "Local posthoc report-only replay of native output",
+          "literal_execution_source": {
+            "controller_declared_audit_commit": "dc3aa9c80273836aeba79426da4ab19c6d1c6269",
+            "executed_report_qualifier_sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42",
+            "identity_limit": "The qualifier hash identifies actual replay code. The audit commit is a declaration; no fresh full workflow or NF engine invocation is claimed.",
+            "native_application_source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453441/qualification/RESULT.json",
+                "sha256": "3a0d6247a0c76885191526a9d1bf4f8c1ff7cfee7eefa6a951c835932343a22c"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453441/AMENDMENT.json"
+              }
+            ],
+            "statement": "This is a local bridge, not a native CI qualification PASS.",
+            "status": "NOT_RUN"
+          },
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453441/qualification/RESULT.json",
+                "sha256": "3a0d6247a0c76885191526a9d1bf4f8c1ff7cfee7eefa6a951c835932343a22c"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453441/AMENDMENT.json"
+              }
+            ],
+            "statement": "This report-only replay does not rerun ordinary nf-test.",
+            "status": "NOT_RUN"
+          },
+          "producer_nextflow": "25.10.4",
+          "run_id": "posthoc/job-126400453441/25.10.4",
+          "test_case": "default"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453461/qualification/RESULT.json",
+                "sha256": "5d03a51b2055d0213064d2e58c12ebc51422584d49cf8209749f014dc50d050a"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453461/AMENDMENT.json"
+              }
+            ],
+            "statement": "Actual report replay completed; original native qualification remains FAIL/PARTIAL.",
+            "status": "PASS"
+          },
+          "execution_kind": "Local posthoc report-only replay of native output",
+          "literal_execution_source": {
+            "controller_declared_audit_commit": "dc3aa9c80273836aeba79426da4ab19c6d1c6269",
+            "executed_report_qualifier_sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42",
+            "identity_limit": "The qualifier hash identifies actual replay code. The audit commit is a declaration; no fresh full workflow or NF engine invocation is claimed.",
+            "native_application_source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453461/qualification/RESULT.json",
+                "sha256": "5d03a51b2055d0213064d2e58c12ebc51422584d49cf8209749f014dc50d050a"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453461/AMENDMENT.json"
+              }
+            ],
+            "statement": "This is a local bridge, not a native CI qualification PASS.",
+            "status": "NOT_RUN"
+          },
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453461/qualification/RESULT.json",
+                "sha256": "5d03a51b2055d0213064d2e58c12ebc51422584d49cf8209749f014dc50d050a"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453461/AMENDMENT.json"
+              }
+            ],
+            "statement": "This report-only replay does not rerun ordinary nf-test.",
+            "status": "NOT_RUN"
+          },
+          "producer_nextflow": "25.10.4",
+          "run_id": "posthoc/job-126400453461/25.10.4",
+          "test_case": "bowtie2"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453474/qualification/RESULT.json",
+                "sha256": "98816ec3e03f1d6715b76f8e4be2266bae827ebe260f8279cdb339694a26303f"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453474/AMENDMENT.json"
+              }
+            ],
+            "statement": "Actual report replay completed; original native qualification remains FAIL/PARTIAL.",
+            "status": "PASS"
+          },
+          "execution_kind": "Local posthoc report-only replay of native output",
+          "literal_execution_source": {
+            "controller_declared_audit_commit": "dc3aa9c80273836aeba79426da4ab19c6d1c6269",
+            "executed_report_qualifier_sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42",
+            "identity_limit": "The qualifier hash identifies actual replay code. The audit commit is a declaration; no fresh full workflow or NF engine invocation is claimed.",
+            "native_application_source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453474/qualification/RESULT.json",
+                "sha256": "98816ec3e03f1d6715b76f8e4be2266bae827ebe260f8279cdb339694a26303f"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453474/AMENDMENT.json"
+              }
+            ],
+            "statement": "This is a local bridge, not a native CI qualification PASS.",
+            "status": "NOT_RUN"
+          },
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453474/qualification/RESULT.json",
+                "sha256": "98816ec3e03f1d6715b76f8e4be2266bae827ebe260f8279cdb339694a26303f"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453474/AMENDMENT.json"
+              }
+            ],
+            "statement": "This report-only replay does not rerun ordinary nf-test.",
+            "status": "NOT_RUN"
+          },
+          "producer_nextflow": "26.10.5",
+          "run_id": "posthoc/job-126400453474/26.10.5",
+          "test_case": "chromap"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453536/qualification/RESULT.json",
+                "sha256": "169d6a2a0b632ce75e94f8365e7e3ef5ca4e509903c74635cf4cdd9c9b9c9062"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453536/AMENDMENT.json"
+              }
+            ],
+            "statement": "Actual report replay completed; original native qualification remains FAIL/PARTIAL.",
+            "status": "PASS"
+          },
+          "execution_kind": "Local posthoc report-only replay of native output",
+          "literal_execution_source": {
+            "controller_declared_audit_commit": "dc3aa9c80273836aeba79426da4ab19c6d1c6269",
+            "executed_report_qualifier_sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42",
+            "identity_limit": "The qualifier hash identifies actual replay code. The audit commit is a declaration; no fresh full workflow or NF engine invocation is claimed.",
+            "native_application_source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453536/qualification/RESULT.json",
+                "sha256": "169d6a2a0b632ce75e94f8365e7e3ef5ca4e509903c74635cf4cdd9c9b9c9062"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453536/AMENDMENT.json"
+              }
+            ],
+            "statement": "This is a local bridge, not a native CI qualification PASS.",
+            "status": "NOT_RUN"
+          },
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453536/qualification/RESULT.json",
+                "sha256": "169d6a2a0b632ce75e94f8365e7e3ef5ca4e509903c74635cf4cdd9c9b9c9062"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453536/AMENDMENT.json"
+              }
+            ],
+            "statement": "This report-only replay does not rerun ordinary nf-test.",
+            "status": "NOT_RUN"
+          },
+          "producer_nextflow": "25.10.4",
+          "run_id": "posthoc/job-126400453536/25.10.4",
+          "test_case": "skip_consensus_peaks"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453563/qualification/RESULT.json",
+                "sha256": "cc77a2911e6e10473bbce18abc711420777b2bdedc9d66dc082f92b02b01de3b"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453563/AMENDMENT.json"
+              }
+            ],
+            "statement": "Actual report replay completed; original native qualification remains FAIL/PARTIAL.",
+            "status": "PASS"
+          },
+          "execution_kind": "Local posthoc report-only replay of native output",
+          "literal_execution_source": {
+            "controller_declared_audit_commit": "dc3aa9c80273836aeba79426da4ab19c6d1c6269",
+            "executed_report_qualifier_sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42",
+            "identity_limit": "The qualifier hash identifies actual replay code. The audit commit is a declaration; no fresh full workflow or NF engine invocation is claimed.",
+            "native_application_source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453563/qualification/RESULT.json",
+                "sha256": "cc77a2911e6e10473bbce18abc711420777b2bdedc9d66dc082f92b02b01de3b"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453563/AMENDMENT.json"
+              }
+            ],
+            "statement": "This is a local bridge, not a native CI qualification PASS.",
+            "status": "NOT_RUN"
+          },
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453563/qualification/RESULT.json",
+                "sha256": "cc77a2911e6e10473bbce18abc711420777b2bdedc9d66dc082f92b02b01de3b"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453563/AMENDMENT.json"
+              }
+            ],
+            "statement": "This report-only replay does not rerun ordinary nf-test.",
+            "status": "NOT_RUN"
+          },
+          "producer_nextflow": "26.10.5",
+          "run_id": "posthoc/job-126400453563/26.10.5",
+          "test_case": "skip_trimming"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453567/qualification/RESULT.json",
+                "sha256": "bfe991a6dfbce03518b83f8aed6bd3ef76df937cb6f3b07a06ad5229d170f955"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453567/AMENDMENT.json"
+              }
+            ],
+            "statement": "Actual report replay completed; original native qualification remains FAIL/PARTIAL.",
+            "status": "PASS"
+          },
+          "execution_kind": "Local posthoc report-only replay of native output",
+          "literal_execution_source": {
+            "controller_declared_audit_commit": "dc3aa9c80273836aeba79426da4ab19c6d1c6269",
+            "executed_report_qualifier_sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42",
+            "identity_limit": "The qualifier hash identifies actual replay code. The audit commit is a declaration; no fresh full workflow or NF engine invocation is claimed.",
+            "native_application_source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453567/qualification/RESULT.json",
+                "sha256": "bfe991a6dfbce03518b83f8aed6bd3ef76df937cb6f3b07a06ad5229d170f955"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453567/AMENDMENT.json"
+              }
+            ],
+            "statement": "This is a local bridge, not a native CI qualification PASS.",
+            "status": "NOT_RUN"
+          },
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453567/qualification/RESULT.json",
+                "sha256": "bfe991a6dfbce03518b83f8aed6bd3ef76df937cb6f3b07a06ad5229d170f955"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453567/AMENDMENT.json"
+              }
+            ],
+            "statement": "This report-only replay does not rerun ordinary nf-test.",
+            "status": "NOT_RUN"
+          },
+          "producer_nextflow": "26.10.5",
+          "run_id": "posthoc/job-126400453567/26.10.5",
+          "test_case": "star"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453617/qualification/RESULT.json",
+                "sha256": "8b23f51819b4ad07b4f5052ae529888ed87b5942418c90640bef265b67846aa8"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453617/AMENDMENT.json"
+              }
+            ],
+            "statement": "Actual report replay completed; original native qualification remains FAIL/PARTIAL.",
+            "status": "PASS"
+          },
+          "execution_kind": "Local posthoc report-only replay of native output",
+          "literal_execution_source": {
+            "controller_declared_audit_commit": "dc3aa9c80273836aeba79426da4ab19c6d1c6269",
+            "executed_report_qualifier_sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42",
+            "identity_limit": "The qualifier hash identifies actual replay code. The audit commit is a declaration; no fresh full workflow or NF engine invocation is claimed.",
+            "native_application_source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453617/qualification/RESULT.json",
+                "sha256": "8b23f51819b4ad07b4f5052ae529888ed87b5942418c90640bef265b67846aa8"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453617/AMENDMENT.json"
+              }
+            ],
+            "statement": "This is a local bridge, not a native CI qualification PASS.",
+            "status": "NOT_RUN"
+          },
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453617/qualification/RESULT.json",
+                "sha256": "8b23f51819b4ad07b4f5052ae529888ed87b5942418c90640bef265b67846aa8"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453617/AMENDMENT.json"
+              }
+            ],
+            "statement": "This report-only replay does not rerun ordinary nf-test.",
+            "status": "NOT_RUN"
+          },
+          "producer_nextflow": "25.10.4",
+          "run_id": "posthoc/job-126400453617/25.10.4",
+          "test_case": "star"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453636/qualification/RESULT.json",
+                "sha256": "8fedfa472d71e05d75311da016eaacae396f45b6a498179862e69052b6161fa6"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453636/AMENDMENT.json"
+              }
+            ],
+            "statement": "Actual report replay completed; original native qualification remains FAIL/PARTIAL.",
+            "status": "PASS"
+          },
+          "execution_kind": "Local posthoc report-only replay of native output",
+          "literal_execution_source": {
+            "controller_declared_audit_commit": "dc3aa9c80273836aeba79426da4ab19c6d1c6269",
+            "executed_report_qualifier_sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42",
+            "identity_limit": "The qualifier hash identifies actual replay code. The audit commit is a declaration; no fresh full workflow or NF engine invocation is claimed.",
+            "native_application_source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453636/qualification/RESULT.json",
+                "sha256": "8fedfa472d71e05d75311da016eaacae396f45b6a498179862e69052b6161fa6"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453636/AMENDMENT.json"
+              }
+            ],
+            "statement": "This is a local bridge, not a native CI qualification PASS.",
+            "status": "NOT_RUN"
+          },
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453636/qualification/RESULT.json",
+                "sha256": "8fedfa472d71e05d75311da016eaacae396f45b6a498179862e69052b6161fa6"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453636/AMENDMENT.json"
+              }
+            ],
+            "statement": "This report-only replay does not rerun ordinary nf-test.",
+            "status": "NOT_RUN"
+          },
+          "producer_nextflow": "25.10.4",
+          "run_id": "posthoc/job-126400453636/25.10.4",
+          "test_case": "controls"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453637/qualification/RESULT.json",
+                "sha256": "494525e82e6fbfe40d47a52c44cb84224480f41df4b8078db87b369df04673c0"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453637/AMENDMENT.json"
+              }
+            ],
+            "statement": "Actual report replay completed; original native qualification remains FAIL/PARTIAL.",
+            "status": "PASS"
+          },
+          "execution_kind": "Local posthoc report-only replay of native output",
+          "literal_execution_source": {
+            "controller_declared_audit_commit": "dc3aa9c80273836aeba79426da4ab19c6d1c6269",
+            "executed_report_qualifier_sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42",
+            "identity_limit": "The qualifier hash identifies actual replay code. The audit commit is a declaration; no fresh full workflow or NF engine invocation is claimed.",
+            "native_application_source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453637/qualification/RESULT.json",
+                "sha256": "494525e82e6fbfe40d47a52c44cb84224480f41df4b8078db87b369df04673c0"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453637/AMENDMENT.json"
+              }
+            ],
+            "statement": "This is a local bridge, not a native CI qualification PASS.",
+            "status": "NOT_RUN"
+          },
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453637/qualification/RESULT.json",
+                "sha256": "494525e82e6fbfe40d47a52c44cb84224480f41df4b8078db87b369df04673c0"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453637/AMENDMENT.json"
+              }
+            ],
+            "statement": "This report-only replay does not rerun ordinary nf-test.",
+            "status": "NOT_RUN"
+          },
+          "producer_nextflow": "26.10.5",
+          "run_id": "posthoc/job-126400453637/26.10.5",
+          "test_case": "default"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453708/qualification/RESULT.json",
+                "sha256": "0ea96c2e8cd45bf57c7ee43c3f017a1ab868061402f783b9c6d1701dde2b3730"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453708/AMENDMENT.json"
+              }
+            ],
+            "statement": "Actual report replay completed; original native qualification remains FAIL/PARTIAL.",
+            "status": "PASS"
+          },
+          "execution_kind": "Local posthoc report-only replay of native output",
+          "literal_execution_source": {
+            "controller_declared_audit_commit": "dc3aa9c80273836aeba79426da4ab19c6d1c6269",
+            "executed_report_qualifier_sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42",
+            "identity_limit": "The qualifier hash identifies actual replay code. The audit commit is a declaration; no fresh full workflow or NF engine invocation is claimed.",
+            "native_application_source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453708/qualification/RESULT.json",
+                "sha256": "0ea96c2e8cd45bf57c7ee43c3f017a1ab868061402f783b9c6d1701dde2b3730"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453708/AMENDMENT.json"
+              }
+            ],
+            "statement": "This is a local bridge, not a native CI qualification PASS.",
+            "status": "NOT_RUN"
+          },
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453708/qualification/RESULT.json",
+                "sha256": "0ea96c2e8cd45bf57c7ee43c3f017a1ab868061402f783b9c6d1701dde2b3730"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453708/AMENDMENT.json"
+              }
+            ],
+            "statement": "This report-only replay does not rerun ordinary nf-test.",
+            "status": "NOT_RUN"
+          },
+          "producer_nextflow": "25.10.4",
+          "run_id": "posthoc/job-126400453708/25.10.4",
+          "test_case": "skip_trimming"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453741/qualification/RESULT.json",
+                "sha256": "19f13a2c710bfa0a228a28e939527ba9d1206f997c5c79e12d622eee75efa81f"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453741/AMENDMENT.json"
+              }
+            ],
+            "statement": "Actual report replay completed; original native qualification remains FAIL/PARTIAL.",
+            "status": "PASS"
+          },
+          "execution_kind": "Local posthoc report-only replay of native output",
+          "literal_execution_source": {
+            "controller_declared_audit_commit": "dc3aa9c80273836aeba79426da4ab19c6d1c6269",
+            "executed_report_qualifier_sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42",
+            "identity_limit": "The qualifier hash identifies actual replay code. The audit commit is a declaration; no fresh full workflow or NF engine invocation is claimed.",
+            "native_application_source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453741/qualification/RESULT.json",
+                "sha256": "19f13a2c710bfa0a228a28e939527ba9d1206f997c5c79e12d622eee75efa81f"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453741/AMENDMENT.json"
+              }
+            ],
+            "statement": "This is a local bridge, not a native CI qualification PASS.",
+            "status": "NOT_RUN"
+          },
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453741/qualification/RESULT.json",
+                "sha256": "19f13a2c710bfa0a228a28e939527ba9d1206f997c5c79e12d622eee75efa81f"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453741/AMENDMENT.json"
+              }
+            ],
+            "statement": "This report-only replay does not rerun ordinary nf-test.",
+            "status": "NOT_RUN"
+          },
+          "producer_nextflow": "26.10.5",
+          "run_id": "posthoc/job-126400453741/26.10.5",
+          "test_case": "skip_consensus_peaks"
+        },
+        {
+          "execution": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453801/qualification/RESULT.json",
+                "sha256": "d38ce9817be787a67b063f38c37cb0808e50b2445c888da92c064cbcaeb3c6d4"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453801/AMENDMENT.json"
+              }
+            ],
+            "statement": "Actual report replay completed; original native qualification remains FAIL/PARTIAL.",
+            "status": "PASS"
+          },
+          "execution_kind": "Local posthoc report-only replay of native output",
+          "literal_execution_source": {
+            "controller_declared_audit_commit": "dc3aa9c80273836aeba79426da4ab19c6d1c6269",
+            "executed_report_qualifier_sha256": "a2ceb348139ac90d98d00d326b123dd26f359aa6e9e64620520c645dca243f42",
+            "identity_limit": "The qualifier hash identifies actual replay code. The audit commit is a declaration; no fresh full workflow or NF engine invocation is claimed.",
+            "native_application_source_commit": "70e87c6f3e83f56d05695c6e9d27203080c27b1f"
+          },
+          "native_CI": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453801/qualification/RESULT.json",
+                "sha256": "d38ce9817be787a67b063f38c37cb0808e50b2445c888da92c064cbcaeb3c6d4"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453801/AMENDMENT.json"
+              }
+            ],
+            "statement": "This is a local bridge, not a native CI qualification PASS.",
+            "status": "NOT_RUN"
+          },
+          "nf_test": {
+            "evidence": [
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453801/qualification/RESULT.json",
+                "sha256": "d38ce9817be787a67b063f38c37cb0808e50b2445c888da92c064cbcaeb3c6d4"
+              },
+              {
+                "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453801/AMENDMENT.json"
+              }
+            ],
+            "statement": "This report-only replay does not rerun ordinary nf-test.",
+            "status": "NOT_RUN"
+          },
+          "producer_nextflow": "26.10.5",
+          "run_id": "posthoc/job-126400453801/26.10.5",
+          "test_case": "controls"
+        }
+      ],
+      "scientific_assertions": [
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453350/capture/manifest.json",
+              "sha256": "c9d8b3d0ce0d231dbcf750709507a025b2b8b225486cb32aa0ae9584afce0bca"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453350/qualification/RESULT.json",
+              "sha256": "c7458c4e83e96c235f0da7aa9c6ab74c5a0db29f82c2949f80b545ded156f9f1"
+            }
+          ],
+          "statement": "chromap on NF25.10.4: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "FAIL"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453406/capture/manifest.json",
+              "sha256": "2bedcbf03bed6e22123d3d5c995c0f9f8275115da34e84c69c2addae32029714"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453406/qualification/RESULT.json",
+              "sha256": "a7ab0c510bb51e67f23c4774c6bb2828a3da6cf2b21a7a0161b1e62ab92026af"
+            }
+          ],
+          "statement": "bowtie2 on NF26.10.5: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "FAIL"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453441/capture/manifest.json",
+              "sha256": "bd8f1ba6fa53f8bca55d8669389cdcdad212a92bbbd85b19dfb3363b7b2b378c"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453441/qualification/RESULT.json",
+              "sha256": "eaea8c148567a9de4ae4188332487d14a1ddb423ab9bddde44c2397241475adb"
+            }
+          ],
+          "statement": "default on NF25.10.4: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "FAIL"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453461/capture/manifest.json",
+              "sha256": "d53082e0acc2412f06a49bf7516fc53b8f644a10b31d02be803f2d3781004f74"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453461/qualification/RESULT.json",
+              "sha256": "cf3b7cedc5df0ed2bfff873ec86eb0120034851db2631275043ec801c14168b7"
+            }
+          ],
+          "statement": "bowtie2 on NF25.10.4: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "FAIL"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453474/capture/manifest.json",
+              "sha256": "47201c7e806e4e10b327e3b2604d3d0d0793afe7ab11ce3bc3d9d91e2ab6e298"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453474/qualification/RESULT.json",
+              "sha256": "3ebd9d066e8d95ced644d012e9e759a747fc66f16453f210505a988bfd94c779"
+            }
+          ],
+          "statement": "chromap on NF26.10.5: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "FAIL"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453536/capture/manifest.json",
+              "sha256": "f6f2070ee4ed047a1fcf5409675059fc5d26819b232d63baca0c56e463ea6474"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453536/qualification/RESULT.json",
+              "sha256": "778459b247978656579216d3718c797c4421b2168b1204e23ca643fdc1b4d383"
+            }
+          ],
+          "statement": "skip_consensus_peaks on NF25.10.4: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "FAIL"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453563/capture/manifest.json",
+              "sha256": "ff1b9fe8d94c5d510e1c15a505dbc3781b8d2c9f939fab096b4f89bb7e75ae2e"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453563/qualification/RESULT.json",
+              "sha256": "502fde0f37b791ac42585002e19df95e56969d069ab5773a10149c8bd2f31e2d"
+            }
+          ],
+          "statement": "skip_trimming on NF26.10.5: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "FAIL"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453567/capture/manifest.json",
+              "sha256": "f1b7c3ed1f25c140967f0b391806ded817218e6f0378df58faa0d720144adde8"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453567/qualification/RESULT.json",
+              "sha256": "afc72559c25b089a04c161654de30445f93c4401649fc66aa6d5c175f384bec7"
+            }
+          ],
+          "statement": "star on NF26.10.5: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "FAIL"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453617/capture/manifest.json",
+              "sha256": "58b9c57b191449817877fb6dfe583a9232e9c08651cce30d43964a447938400d"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453617/qualification/RESULT.json",
+              "sha256": "d26df180f1b74c38e815e86db1df91dd711f9c48fd1da77f3f13b68907e1a923"
+            }
+          ],
+          "statement": "star on NF25.10.4: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "FAIL"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453636/capture/manifest.json",
+              "sha256": "cdbcabc726e790f464b933635955498bc4141e4958a40871763b0d6f6b83ebda"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453636/qualification/RESULT.json",
+              "sha256": "2a5be07ef7f781cb4aca740ea18ea9c3add9766a5038391413a3eac5754111ba"
+            }
+          ],
+          "statement": "controls on NF25.10.4: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "FAIL"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453637/capture/manifest.json",
+              "sha256": "21f48f066808049bb689373c81f9b13191b3fc0bebf083317e97d4e85d5c97d2"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453637/qualification/RESULT.json",
+              "sha256": "8551a4f63a0b2d1f69c5dd078b938d4366335bb36e74bdddac601fa991b1e2d9"
+            }
+          ],
+          "statement": "default on NF26.10.5: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "FAIL"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453708/capture/manifest.json",
+              "sha256": "5f3afd0bbb81c7c7ad6eb4be27f2f349c417816b435e679fcc9b2dc7790e79f8"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453708/qualification/RESULT.json",
+              "sha256": "df340ad4a975cea138cfbb144eb3a9d876480eff2aabbd9b0cd5781132f7bf82"
+            }
+          ],
+          "statement": "skip_trimming on NF25.10.4: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "FAIL"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453741/capture/manifest.json",
+              "sha256": "2a151e4687a77fed11093ebe1abcc0e0ac7c8152badad1e23cd8005dfa3fde7e"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453741/qualification/RESULT.json",
+              "sha256": "5b3805724e08024a37e5fbba8bb9dae44d7b47ae10bc36a3dc9b559aa15f366f"
+            }
+          ],
+          "statement": "skip_consensus_peaks on NF26.10.5: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "FAIL"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453801/capture/manifest.json",
+              "sha256": "9d11071ee7637db71f31b6bb709507d435b19931bb3772a7041dcd6dfbc9fe57"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/jobs/126400453801/qualification/RESULT.json",
+              "sha256": "462625b14524161547bb4eb8b4a5be082b43d95093c76e7e8e821ea6da065917"
+            }
+          ],
+          "statement": "controls on NF26.10.5: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "FAIL"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/contracts/26.10.5.json",
+              "sha256": "6d869bc23e54d3e38838b95ed430228f542923fc51b405e9462193238921dd3e"
+            }
+          ],
+          "statement": "NF26.10.5: focused report/parser integration controls, separate from real profile workflows.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41777278460-attempt-1/contracts/25.10.4.json",
+              "sha256": "54f2c3fdb9033e13420e364ce221b28d8aed22108c1bbcd4978eb3dbe9a5d58f"
+            }
+          ],
+          "statement": "NF25.10.4: focused report/parser integration controls, separate from real profile workflows.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628913/capture/manifest.json",
+              "sha256": "ba794b6f4d06f5c8358fe4f32d9975b464ed5c84f009e0c328c583d1f9a133ab"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628913/qualification/RESULT.json",
+              "sha256": "77d8a28714749e9b21f6e58b3dc9397addc2cfb6244bb1d6aacb667aa4794684"
+            }
+          ],
+          "statement": "bowtie2 on NF25.10.4: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628984/capture/manifest.json",
+              "sha256": "2d66d8eeaf974741f974f577257d5a396c1147bc0be547064ae1ce184be0b5ee"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628984/qualification/RESULT.json",
+              "sha256": "7d79288109b7acd9b014790daa8f779dbab1665c109c8d6bc0aa2f57e242996a"
+            }
+          ],
+          "statement": "bowtie2 on NF26.10.5: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628998/capture/manifest.json",
+              "sha256": "5354c9a46beeefb3efb9912ba03aed1d6edeb45372a7a6b3a2297a7ee695229e"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628998/qualification/RESULT.json",
+              "sha256": "64e9d0225f4d2c5984e70dd3801d92b31a6617876f2f7268b2853eee94e4838b"
+            }
+          ],
+          "statement": "chromap on NF25.10.4: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628926/capture/manifest.json",
+              "sha256": "6105a475ab436c851b20834ad23166764f5e12410e125f9a81b51798b1555697"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628926/qualification/RESULT.json",
+              "sha256": "35e438313fa53de759e696151fe60482d626b77f2c6796a73243cff439a654cb"
+            }
+          ],
+          "statement": "chromap on NF26.10.5: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628931/capture/manifest.json",
+              "sha256": "e30eb6122d43801540106bae5612eca4b23f25a7dca83bc595d8e044d407825a"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628931/qualification/RESULT.json",
+              "sha256": "7ee3fe61fbe72c766dc65e53d2ed9bffa34dacc60a6298bef088943eb1f413c2"
+            }
+          ],
+          "statement": "controls on NF25.10.4: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628707/capture/manifest.json",
+              "sha256": "46eaf86b237ebeea23e4cae09f65420015b326800e6115d90cd5903e48650273"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628707/qualification/RESULT.json",
+              "sha256": "c82390718e3cb150bb46051c38a7553dd50043540c1e92eb7dc77ff3bc17d58e"
+            }
+          ],
+          "statement": "controls on NF26.10.5: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418629107/capture/manifest.json",
+              "sha256": "b82c00c8fff848e42e47b81dff3e679bba005205268045b85c0fa54a4f53d266"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418629107/qualification/RESULT.json",
+              "sha256": "9f0de666438b3cb901ee826f5448472e4b5716f156f389fd756484c4562e326d"
+            }
+          ],
+          "statement": "default on NF25.10.4: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628864/capture/manifest.json",
+              "sha256": "fc7ad504f066a82f1e5c7efadeabe017f8a9a69b8afdd082f2cabd39d9dbd6a2"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628864/qualification/RESULT.json",
+              "sha256": "296feaf2c3ab82190f10c811c3c224f7e41f8617fbf09b9d2252245736077974"
+            }
+          ],
+          "statement": "default on NF26.10.5: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628794/capture/manifest.json",
+              "sha256": "e5c23cbba02fdbef77af837fb91a375e7c4365b9788c7707eb22a1079f9119e3"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628794/qualification/RESULT.json",
+              "sha256": "3da5584d7d8a73fdf84978324a368bbfa86f090f8dea33a0fe111c446090390a"
+            }
+          ],
+          "statement": "skip_consensus_peaks on NF25.10.4: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628965/capture/manifest.json",
+              "sha256": "de0792374691b34edb2a8b6582a9402f2bc5f8c690186be6c5c7515904ebb7d8"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628965/qualification/RESULT.json",
+              "sha256": "69a734eb377b57dc61e4148c837b9e624270e4d02c32d045c6e9d2bf15deb3cf"
+            }
+          ],
+          "statement": "skip_consensus_peaks on NF26.10.5: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628804/capture/manifest.json",
+              "sha256": "32b436b01e23f4891d439173ba0b49bc33c725b169026c36d4b13a9994227e84"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628804/qualification/RESULT.json",
+              "sha256": "42ac94eb25129c56ceafc54d229e51d7f84c079683700e3f42c89539fb95d285"
+            }
+          ],
+          "statement": "skip_trimming on NF25.10.4: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628929/capture/manifest.json",
+              "sha256": "1a8630d98b87c7d590d21c828d59955c8f32ac2c13106563502ae4f68b712e8d"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628929/qualification/RESULT.json",
+              "sha256": "fb4e3d5b4a604683a79721e8e174c1f861d5a09462de9122ab57b8377ba3b4c5"
+            }
+          ],
+          "statement": "skip_trimming on NF26.10.5: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628862/capture/manifest.json",
+              "sha256": "f7b0a49012de825f923e3048b0b834e19576dc5f7e1b4bc55f832fb6dc3e7c37"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628862/qualification/RESULT.json",
+              "sha256": "f7fa0560a808e500e5705a3898d008fb2b5f90f5c9b7724c8944c1fc2c1f46cc"
+            }
+          ],
+          "statement": "star on NF25.10.4: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628842/capture/manifest.json",
+              "sha256": "6af8c7e8dd9e5d2ca27e754320f4b7636d9cd1f27a63b7efa657c7773c389c7b"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/jobs/126418628842/qualification/RESULT.json",
+              "sha256": "58b7050e23611f69d31e2e8f99516316b8a168dd90a56a8d78b8e15edbed331c"
+            }
+          ],
+          "statement": "star on NF26.10.5: native reporting qualification controller gate. Incomplete capture prevents semantic qualification; its gate failure does not assert a numerical regression.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/contracts/25.10.4.json",
+              "sha256": "54f2c3fdb9033e13420e364ce221b28d8aed22108c1bbcd4978eb3dbe9a5d58f"
+            }
+          ],
+          "statement": "NF25.10.4: focused report/parser integration controls, separate from real profile workflows.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/attempts/41782995985-attempt-1/contracts/26.10.5.json",
+              "sha256": "6d869bc23e54d3e38838b95ed430228f542923fc51b405e9462193238921dd3e"
+            }
+          ],
+          "statement": "NF26.10.5: focused report/parser integration controls, separate from real profile workflows.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453350/qualification/RESULT.json",
+              "sha256": "688700a23625e0e0e3601735dfb0fe0aa06925a9f9ee74b0458587bda3bc9a7e"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453350/AMENDMENT.json"
+            }
+          ],
+          "statement": "chromap native NF25.10.4 outputs: separate local posthoc replay preserves 6 curves and 468 numeric cells, actual exports and parser order invariance.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453406/qualification/RESULT.json",
+              "sha256": "30793a540499bf7c2c1322991423ce41c8c9fb06510505b9ed473bf5ae8a3b9a"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453406/AMENDMENT.json"
+            }
+          ],
+          "statement": "bowtie2 native NF26.10.5 outputs: separate local posthoc replay preserves 6 curves and 516 numeric cells, actual exports and parser order invariance.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453441/qualification/RESULT.json",
+              "sha256": "3a0d6247a0c76885191526a9d1bf4f8c1ff7cfee7eefa6a951c835932343a22c"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453441/AMENDMENT.json"
+            }
+          ],
+          "statement": "default native NF25.10.4 outputs: separate local posthoc replay preserves 6 curves and 473 numeric cells, actual exports and parser order invariance.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453461/qualification/RESULT.json",
+              "sha256": "5d03a51b2055d0213064d2e58c12ebc51422584d49cf8209749f014dc50d050a"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453461/AMENDMENT.json"
+            }
+          ],
+          "statement": "bowtie2 native NF25.10.4 outputs: separate local posthoc replay preserves 6 curves and 516 numeric cells, actual exports and parser order invariance.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453474/qualification/RESULT.json",
+              "sha256": "98816ec3e03f1d6715b76f8e4be2266bae827ebe260f8279cdb339694a26303f"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453474/AMENDMENT.json"
+            }
+          ],
+          "statement": "chromap native NF26.10.5 outputs: separate local posthoc replay preserves 6 curves and 468 numeric cells, actual exports and parser order invariance.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453536/qualification/RESULT.json",
+              "sha256": "169d6a2a0b632ce75e94f8365e7e3ef5ca4e509903c74635cf4cdd9c9b9c9062"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453536/AMENDMENT.json"
+            }
+          ],
+          "statement": "skip_consensus_peaks native NF25.10.4 outputs: separate local posthoc replay preserves 6 curves and 473 numeric cells, actual exports and parser order invariance.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453563/qualification/RESULT.json",
+              "sha256": "cc77a2911e6e10473bbce18abc711420777b2bdedc9d66dc082f92b02b01de3b"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453563/AMENDMENT.json"
+            }
+          ],
+          "statement": "skip_trimming native NF26.10.5 outputs: separate local posthoc replay preserves 6 curves and 437 numeric cells, actual exports and parser order invariance.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453567/qualification/RESULT.json",
+              "sha256": "bfe991a6dfbce03518b83f8aed6bd3ef76df937cb6f3b07a06ad5229d170f955"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453567/AMENDMENT.json"
+            }
+          ],
+          "statement": "star native NF26.10.5 outputs: separate local posthoc replay preserves 6 curves and 487 numeric cells, actual exports and parser order invariance.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453617/qualification/RESULT.json",
+              "sha256": "8b23f51819b4ad07b4f5052ae529888ed87b5942418c90640bef265b67846aa8"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453617/AMENDMENT.json"
+            }
+          ],
+          "statement": "star native NF25.10.4 outputs: separate local posthoc replay preserves 6 curves and 487 numeric cells, actual exports and parser order invariance.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453636/qualification/RESULT.json",
+              "sha256": "8fedfa472d71e05d75311da016eaacae396f45b6a498179862e69052b6161fa6"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453636/AMENDMENT.json"
+            }
+          ],
+          "statement": "controls native NF25.10.4 outputs: separate local posthoc replay preserves 8 curves and 782 numeric cells, actual exports and parser order invariance.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453637/qualification/RESULT.json",
+              "sha256": "494525e82e6fbfe40d47a52c44cb84224480f41df4b8078db87b369df04673c0"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453637/AMENDMENT.json"
+            }
+          ],
+          "statement": "default native NF26.10.5 outputs: separate local posthoc replay preserves 6 curves and 473 numeric cells, actual exports and parser order invariance.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453708/qualification/RESULT.json",
+              "sha256": "0ea96c2e8cd45bf57c7ee43c3f017a1ab868061402f783b9c6d1701dde2b3730"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453708/AMENDMENT.json"
+            }
+          ],
+          "statement": "skip_trimming native NF25.10.4 outputs: separate local posthoc replay preserves 6 curves and 437 numeric cells, actual exports and parser order invariance.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453741/qualification/RESULT.json",
+              "sha256": "19f13a2c710bfa0a228a28e939527ba9d1206f997c5c79e12d622eee75efa81f"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453741/AMENDMENT.json"
+            }
+          ],
+          "statement": "skip_consensus_peaks native NF26.10.5 outputs: separate local posthoc replay preserves 6 curves and 473 numeric cells, actual exports and parser order invariance.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453801/qualification/RESULT.json",
+              "sha256": "d38ce9817be787a67b063f38c37cb0808e50b2445c888da92c064cbcaeb3c6d4"
+            },
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/posthoc/jobs/126400453801/AMENDMENT.json"
+            }
+          ],
+          "statement": "controls native NF26.10.5 outputs: separate local posthoc replay preserves 8 curves and 782 numeric cells, actual exports and parser order invariance.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/FINAL-VERIFICATION.json",
+              "sha256": "6940c6cc90d87bbbfe067e1310797c1f94158744bc3c1bc6d030679c74bedf07"
+            }
+          ],
+          "statement": "Final source passes 24 ordinary native nf-test assertions across both engines and all fourteen actual native report qualification lanes.",
+          "status": "PASS"
+        },
+        {
+          "evidence": [
+            {
+              "path": "../reviews/2026-11-04-fingerprint-native-ci/RAW-ORDER-COMPARISON.json",
+              "sha256": "3fd2eee625e3ac1cea0635e9b55474db5f27e09057e1871fe38ec608531f9b39"
+            }
+          ],
+          "statement": "All 80 initial/final raw fingerprint matrices retain identical headers and complete-row multisets; differences are row order only.",
+          "status": "PASS"
+        }
+      ],
+      "title": "Native fingerprint report qualification and ordinary nf-test matrix"
     }
   ],
   "schema": "atacseq-compact-public-run-ledger/v1",

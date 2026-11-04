@@ -1,0 +1,11 @@
+{
+  "tap_sha256": "39bf10494a7c3a6423f738b0373a2a74e0b2cc1699b8cd51afafca5a33de4720",
+  "tap_bytes": 48,
+  "tests": [
+    {
+      "number": 1,
+      "name": "Test pipeline: -profile test_controls",
+      "status": "passed"
+    }
+  ]
+}

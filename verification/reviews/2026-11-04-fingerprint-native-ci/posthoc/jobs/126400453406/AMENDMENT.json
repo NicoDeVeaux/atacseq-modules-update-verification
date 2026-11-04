@@ -1,0 +1,67 @@
+{
+  "all_source_payload_bytes_unchanged": true,
+  "amended_manifest_identity": {
+    "bytes": 19388,
+    "md5": "48526f8aa963744ac8423d6dab597ae1",
+    "sha256": "48b81738f81f69db598efb2dec2e8feaca7a1e3cae99090d43c662786e66fd97"
+  },
+  "captured_implicit_config": {
+    "bytes": 5488,
+    "path": "cases/0-d48a9e66b8bab1ee1289832637276607/tasks/264-d6-9b18dd/multiqc_config.yml",
+    "resolved_relative_path": "multiqc_config.yml",
+    "role": "MULTIQC/config",
+    "sha256": "f7ffa59e5feed728a70443e05418caf4496abe3bca035e2c1fa4a64b4f2bd2a8",
+    "was_symlink": true
+  },
+  "changes": [
+    {
+      "field": "cases/d48a9e66b8bab1ee1289832637276607/complete",
+      "from": false,
+      "to": true
+    },
+    {
+      "field": "complete",
+      "from": false,
+      "to": true
+    },
+    {
+      "field": "capture_complete",
+      "from": false,
+      "to": true
+    },
+    {
+      "field": "issues",
+      "from": [
+        {
+          "reason": "unsupported_config_argument",
+          "role": "MULTIQC/config"
+        }
+      ],
+      "to": []
+    },
+    {
+      "field": "status",
+      "from": "partial",
+      "to": "complete"
+    }
+  ],
+  "native_original_capture_status": "PARTIAL",
+  "parsed_actual_multiqc_context": {
+    "arguments": [
+      "-f"
+    ],
+    "config_names": [],
+    "naming_options": {}
+  },
+  "payload_count": 35,
+  "payload_inventory_sha256": "17bd838b9e4018e1d4512efffefc3a4a159a3fb929cd09b45c715eff3625ef0f",
+  "qualification_kind": "POSTHOC_REPLAY_NOT_ORIGINAL_NATIVE_PASS",
+  "qualifier_source_sha256": "a1a65d30affc07efdff423d1f583706097d1fda106b7572c7493b9083c94e868",
+  "schema": "atacseq/posthoc-capture-amendment/v1",
+  "source_manifest": "attempts/41777278460-attempt-1/jobs/126400453406/capture/manifest.json",
+  "source_manifest_identity": {
+    "bytes": 18941,
+    "md5": "9735017a2a9cb9d353cb0a84eb3a3a66",
+    "sha256": "2bedcbf03bed6e22123d3d5c995c0f9f8275115da34e84c69c2addae32029714"
+  }
+}
