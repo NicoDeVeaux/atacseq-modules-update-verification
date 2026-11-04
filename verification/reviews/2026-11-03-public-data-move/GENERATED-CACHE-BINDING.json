@@ -22,6 +22,5 @@
     "input_read_cache": 2553094569,
     "reference_or_generated_index": 443129481,
     "generated_dense_numeric_matrix": 2351080713
-  },
-  "actual_removal_receipt": "CLEANUP-SUMMARY.json"
+  }
 }
